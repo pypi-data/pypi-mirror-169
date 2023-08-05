@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pytorch-zero-lit
+Version: 0.2.3
+Summary: LiT: Zero-Shot Transfer with Locked-image text Tuning
+Home-page: https://github.com/samedii/pytorch-zero-lit
+Author: Richard Löwenström
+Author-email: samedii@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: onnx2torch (>=1.5.3,<2.0.0)
+Requires-Dist: onnxruntime (>=1.12.1,<2.0.0)
+Requires-Dist: opencv-python (>=4.4.0,<5.0.0,!=4.6.0.66)
+Requires-Dist: pytorch-lantern (>=0.12.1,<0.13.0)
+Requires-Dist: transformers (>=4.22.1,<5.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Project-URL: Repository, https://github.com/samedii/pytorch-zero-lit
+Description-Content-Type: text/markdown
+
+# pytorch-zero-lit
+
+Converted official JAX models for [LiT: Zero-Shot Transfer with Locked-image text Tuning](https://arxiv.org/pdf/2111.07991v3.pdf)
+to pytorch.
+
+_JAX -> Tensorflow -> ONNX -> Pytorch._
+
+- Image encoder is loaded into pytorch and supports gradients
+- Text encoder is not loaded into pytorch and runs via ONNX on cpu
+
+## Install
+
+```bash
+poetry add pytorch-zero-lit
+```
+
+or
+
+```bash
+pip install pytorch-zero-lit
+```
+
+## Usage
+
+```python
+from lit import LiT
+
+model = LiT()
+
+images = TF.to_tensor(
+    Image.open("cat.png").convert("RGB").resize((224, 224))
+)[None]
+texts = [
+    "a photo of a cat",
+    "a photo of a dog",
+    "a photo of a bird",
+    "a photo of a fish",
+]
+
+image_encodings = model.encode_images(images)
+text_encodings = model.encode_texts(texts)
+
+cosine_similarity = model.cosine_similarity(image_encodings, text_encodings)
+```
+
