@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.py
+msaCRUD/__init__.py
+msaCRUD/_sqlmodel.py
+msaCRUD/base.py
+msaCRUD/base_model.py
+msaCRUD/parser.py
+msaCRUD/schema.py
+msaCRUD/utils.py
+msaCRUD.egg-info/PKG-INFO
+msaCRUD.egg-info/SOURCES.txt
+msaCRUD.egg-info/dependency_links.txt
+msaCRUD.egg-info/top_level.txt
+msaCRUD.egg-info/zip-safe
