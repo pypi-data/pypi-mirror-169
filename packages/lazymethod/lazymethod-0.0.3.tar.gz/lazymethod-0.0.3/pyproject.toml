@@ -1,0 +1,23 @@
+[project]
+name = "lazymethod"
+version = "0.0.3"
+description = "pylazy 是一个 python 对象的懒加载装饰器，类似于 `@property` 但只会调用一次。"
+authors = [
+    { name = "baa-god", email = "780810441@qq.com" },
+]
+dependencies = [
+    "lazymethod>=0.0.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
