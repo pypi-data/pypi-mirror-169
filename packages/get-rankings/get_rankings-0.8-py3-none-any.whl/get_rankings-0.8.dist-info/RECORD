@@ -1,0 +1,11 @@
+get_rankings/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+get_rankings/get_rankings.py,sha256=Xkq1luHJ8jF-1i0FY1nKa2BBi30FQxx8st9AkqLaqj8,8753
+get_rankings/hash_cache.py,sha256=k5fpYmgUun2P5y4jMJmfPxW0Q5CM6nJH__HWfhNUb7s,857
+get_rankings/tools.py,sha256=TTrrRi4IKw3PBzBRioyeVZmTG0HyHzdt9_rBF_HQ-Q0,1775
+get_rankings-0.8.dist-info/AUTHORS,sha256=GCdtKP7oiAuwNqlNc4cDLBnelNKd_09Qo5y04Xer8Jo,92
+get_rankings-0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+get_rankings-0.8.dist-info/METADATA,sha256=zB2li6BFIFi3C7Ysp3v_7TYKHUCNSWk0bG-dhsLE-cY,1725
+get_rankings-0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+get_rankings-0.8.dist-info/entry_points.txt,sha256=r0l0oV5-YXbwfmV8OXVhw9rPvcngF5GhkY2ufT8guck,64
+get_rankings-0.8.dist-info/top_level.txt,sha256=4rwlyA2N6M3ZL59DmhQXZ0JpVC_KGz86llc2duVjah8,13
+get_rankings-0.8.dist-info/RECORD,,
