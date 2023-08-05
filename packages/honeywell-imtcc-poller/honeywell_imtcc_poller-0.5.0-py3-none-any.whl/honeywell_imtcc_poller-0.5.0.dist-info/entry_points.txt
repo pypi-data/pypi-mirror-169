@@ -1,0 +1,3 @@
+[console_scripts]
+poll-honeywell=honeywell_imtcc_poller:run_cli
+
