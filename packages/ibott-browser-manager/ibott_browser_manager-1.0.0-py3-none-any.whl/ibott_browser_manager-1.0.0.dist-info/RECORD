@@ -1,0 +1,9 @@
+browser-manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browser-manager/chrome.py,sha256=weNMa7Yx51c_YNdIAyxZoheRcu_tzgLlkS1u0_CMtgE,11687
+browser-manager/driver_utils.py,sha256=ItXUyVvk0jKAxWVnNo7R55uAMzah6wvbjWAcyy9VMXA,19398
+browser-manager/firefox.py,sha256=uYcZDKGdixYZ30tuTX6FWlit6NG7oxKmZCe6sVIs1Qc,13637
+browser-manager/web_elements.py,sha256=NpiEEEr3IKZSFCCCZz34iwpb7TobIkpBoPFlpVnB7a4,2284
+ibott_browser_manager-1.0.0.dist-info/METADATA,sha256=sGbjKVt2LtuQQG50MWIq9LfqpDvmeoZpfEANvKK1MHs,18105
+ibott_browser_manager-1.0.0.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+ibott_browser_manager-1.0.0.dist-info/licenses/LICENSE,sha256=_qJuMp5913P77iW5A6b83Wo41on3mDtiWSy9RwoARFA,11355
+ibott_browser_manager-1.0.0.dist-info/RECORD,,
