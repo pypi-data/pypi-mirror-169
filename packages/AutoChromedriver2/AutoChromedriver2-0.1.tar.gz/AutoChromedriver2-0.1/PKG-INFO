@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: AutoChromedriver2
+Version: 0.1
+Summary: A cross-platform one-line solution that automatically manages chromedriver installation for Selenium
+Author-email: Justin Martinez <justinraymen@gmail.com>
+Project-URL: Homepage, https://github.com/JustinTheWhale/Auto-Chromedriver
+Project-URL: Bug Tracker, https://github.com/JustinTheWhale/Auto-Chromedriver/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AutoChromedriver2
+
+## About
+
+### [Pypi page coming soon](https://github.com/JustinTheWhale/)
+
+#### Have a selenium script that you haven't used in awhile? Use this to automatically find and install the latest version of chromedriver for your python code. Cross-platform for Windows, Mac, Debian and Arch based Linux. 
+
+## Usage
+
+### Import this like so
+
+```python
+
+import AutoChromedriver2.chromedriver_check as AC
+
+AC.AutoChromedriver()
+```

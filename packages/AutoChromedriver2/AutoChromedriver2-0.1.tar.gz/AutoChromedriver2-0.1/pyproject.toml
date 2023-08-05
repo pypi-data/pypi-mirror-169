@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "AutoChromedriver2"
+version = "0.1"
+authors = [
+  { name="Justin Martinez", email="justinraymen@gmail.com" },
+]
+description = "A cross-platform one-line solution that automatically manages chromedriver installation for Selenium"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "async-generator==1.10",
+    "attrs==21.4.0",
+    "beautifulsoup4==4.11.1",
+    "bs4==0.0.1",
+    "certifi==2022.6.15",
+    "cffi==1.15.1",
+    "charset-normalizer==2.1.1",
+    "cryptography==37.0.4",
+    "h11==0.13.0",
+    "idna==3.3",
+    "outcome==1.2.0",
+    "pycparser==2.21",
+    "pyOpenSSL==22.0.0",
+    "PySocks==1.7.1",
+    "requests==2.28.1",
+    "selenium==4.3.0",
+    "sniffio==1.2.0",
+    "sortedcontainers==2.4.0",
+    "soupsieve==2.3.2.post1",
+    "trio==0.21.0",
+    "trio-websocket==0.9.2",
+    "urllib3==1.26.10",
+    "wsproto==1.1.0"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JustinTheWhale/Auto-Chromedriver"
+"Bug Tracker" = "https://github.com/JustinTheWhale/Auto-Chromedriver/issues"

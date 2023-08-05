@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/AutoChromedriver2/__init__.py
+src/AutoChromedriver2/chromedriver_check.py
+src/AutoChromedriver2.egg-info/PKG-INFO
+src/AutoChromedriver2.egg-info/SOURCES.txt
+src/AutoChromedriver2.egg-info/dependency_links.txt
+src/AutoChromedriver2.egg-info/requires.txt
+src/AutoChromedriver2.egg-info/top_level.txt
