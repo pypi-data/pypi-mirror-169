@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: slicemap
+Version: 1.0.3
+Summary: A tiny package containing a dict-like data structure with numeric slices as keys.
+Home-page: https://github.com/gahaalt/slicemap.git
+Author: Szymon Mikler
+Author-email: sjmikler@gmail.com
+Description-Content-Type: text/markdown
+License-File: slicemap/LICENSE.txt
+
+This is an empty readme

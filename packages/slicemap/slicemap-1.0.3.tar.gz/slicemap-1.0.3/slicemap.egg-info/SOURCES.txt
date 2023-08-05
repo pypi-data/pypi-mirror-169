@@ -1,0 +1,12 @@
+setup.py
+slicemap/LICENSE.txt
+slicemap/__init__.py
+slicemap/benchmarks.py
+slicemap/plotting.py
+slicemap/slicemap.py
+slicemap/tests.py
+slicemap.egg-info/PKG-INFO
+slicemap.egg-info/SOURCES.txt
+slicemap.egg-info/dependency_links.txt
+slicemap.egg-info/requires.txt
+slicemap.egg-info/top_level.txt
