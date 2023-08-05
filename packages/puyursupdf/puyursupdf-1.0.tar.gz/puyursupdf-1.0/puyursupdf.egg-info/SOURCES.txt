@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pdf01/__init__.py
+pdf01/pdf2image.py
+pdf01/pdf2text.py
+puyursupdf.egg-info/PKG-INFO
+puyursupdf.egg-info/SOURCES.txt
+puyursupdf.egg-info/dependency_links.txt
+puyursupdf.egg-info/top_level.txt
