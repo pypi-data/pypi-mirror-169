@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: recruiter_notification_app
+Version: 0.0.7
+Summary: This is hush hush recruiter notification app
+Author-email: prabhu <prabhupad@somwwhe.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PROJECT HUSH RECRUITER NOTIFICATION APPLICATION
+
+
+### Python packaging
+* `python -n build`
+* `twine upload -r testpypi dist/*`
+
+### Docker commands used:
+* `docker build -t hushrecruiternotifyimage .`
+* `docker run --env-file ./env_variables.list -p 5000:5000 hushrecruiternotifyimage`
+
+### Sending test link to the selected candidates via e-mail
+> Once candidates are selected through an algorithm, selected candidates receive a test link with unique token via mail. The test link contains 3 coding questions which need to be submitted within a specified time and the submitted answers will be stored in the mongoDB, otherwise the link will expire.
+
+#### Procedure to run flask web application to send e-mail
+Set following env variables 
+* MAIL_USERNAME='your_email'
+* MAIL_PASSWORD='your_password'
+* MAIL_PORT='server_port'
+* MAIL_SERVER='smtp_your_mail_server'
+* export FLASK_APP=notification_app
+* export FLASK_ENV=development
+Run application using `flask run` or `flask --app notification_app --debug run`command
+
+* To run via docker , run below command
+> `docker run --env-file ./env_variables.list -p 5000:5000 hushrecruiternotifyimage`

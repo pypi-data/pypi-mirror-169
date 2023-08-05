@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/recruiter_notification_app/__init__.py
+src/recruiter_notification_app/notification_app.py
+src/recruiter_notification_app/recruiter_app_mailer.py
+src/recruiter_notification_app.egg-info/PKG-INFO
+src/recruiter_notification_app.egg-info/SOURCES.txt
+src/recruiter_notification_app.egg-info/dependency_links.txt
+src/recruiter_notification_app.egg-info/top_level.txt
+src/recruiter_notification_app/templates/home.html
