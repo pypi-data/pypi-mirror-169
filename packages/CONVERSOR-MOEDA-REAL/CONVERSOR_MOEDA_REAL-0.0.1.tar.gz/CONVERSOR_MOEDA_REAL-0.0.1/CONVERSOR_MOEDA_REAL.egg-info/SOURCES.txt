@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+CONVERSOR_MOEDA_REAL.egg-info/PKG-INFO
+CONVERSOR_MOEDA_REAL.egg-info/SOURCES.txt
+CONVERSOR_MOEDA_REAL.egg-info/dependency_links.txt
+CONVERSOR_MOEDA_REAL.egg-info/top_level.txt
+moeda/__init__.py
+moeda/convert.py

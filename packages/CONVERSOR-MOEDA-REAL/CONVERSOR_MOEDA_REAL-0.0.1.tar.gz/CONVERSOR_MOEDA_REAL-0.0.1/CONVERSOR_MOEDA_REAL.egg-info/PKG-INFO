@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: CONVERSOR-MOEDA-REAL
+Version: 0.0.1
+Summary: Converte numero em Contábil Real
+Home-page: UNKNOWN
+Author: Evaldo Junior
+Author-email: evaldoazeredoc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CONVERSOR MOEDA REAL
+
+Description. 
+The package CONVERSOR_MOEDA_REAL is used to:
+	- Convert Float value in monetary Brazilian number
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install CONVERSOR_MOEDA_REAL
+
+```bash
+pip install CONVERSOR_MOEDA_REAL
+```
+
+## Usage
+
+```python
+from moeda import convert as teste
+teste.converte()
+```
+
+## Author
+Evaldo Junior
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
