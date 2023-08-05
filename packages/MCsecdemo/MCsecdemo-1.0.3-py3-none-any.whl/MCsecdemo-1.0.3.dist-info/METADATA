@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: MCsecdemo
+Version: 1.0.3
+Summary: A sample Python project, do not download it!
+Author: MC Download
+Author-email: zhuzhuzhuzai@gmail.com
+License: MIT
+Requires-Dist: Alexsecdemo (<6.0.0)
+Requires-Dist: Bfixsecdemo (==1.0.1)
+
