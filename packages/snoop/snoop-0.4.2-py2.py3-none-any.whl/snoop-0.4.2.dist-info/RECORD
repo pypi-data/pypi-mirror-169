@@ -1,0 +1,14 @@
+snoop/__init__.py,sha256=KwZLcBFzXI2zhyMEmiGce1AMKx6bsvBMj7KvvurpmhU,1244
+snoop/configuration.py,sha256=gLjNT4B8PAKBdSWxlo0hbthqajwgLO11pnCC057HmcU,8298
+snoop/formatting.py,sha256=Bfu8RFfKRx1f42wYvrVD7GHK9dREOHbaQnj_6s7tyxA,16813
+snoop/ipython.py,sha256=B4oqg53zQv6KcCh-BVT-Sufear2gwABH9Yk5BBCIwQA,884
+snoop/pp_module.py,sha256=vTpz0woVwGu7WHB9iY_uJDTty8fdSC85pLdtEoiCFBE,7424
+snoop/tracer.py,sha256=6sRkhPsF7eXtYdsmptXUcRi7GsOUCXPAUbYbSQ88ilI,11267
+snoop/utils.py,sha256=rdmumi4DVji-H8tPWEJMiBe_BkWfdlyarD3nocHI9LU,4744
+snoop/variables.py,sha256=unK02X8Ud59jFi_ZSBuQZ2bgI3n_MBbHBt1wzziig8o,2923
+snoop/version.py,sha256=ZQn_AcWYegaUtOl4-txMtrEFR2pE4wBpoPlmrITggnY,21
+snoop-0.4.2.dist-info/LICENSE.txt,sha256=pHaiyw70xBRQNApXeii5GsTH9mkTay7hSAR_q9X8QYE,1066
+snoop-0.4.2.dist-info/METADATA,sha256=uoeRZkNENiSGxWwwYiclGws-MPU_CCvTRmYlRz2AMBc,23180
+snoop-0.4.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+snoop-0.4.2.dist-info/top_level.txt,sha256=PzaT0Bf1N6Z0l3G28ik3Xr2DBOa1GmMm6sYwQjKCRGw,6
+snoop-0.4.2.dist-info/RECORD,,
