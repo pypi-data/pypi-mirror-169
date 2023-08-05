@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        simplevideocut=simplevideocutter.cli:entry
+        svcut=simplevideocutter.cli:entry
+    

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+simplevideocutter/__about__.py
+simplevideocutter/__init__.py
+simplevideocutter/cli.py
+simplevideocutter/cut.py
+simplevideocutter/util.py
+simplevideocutter.egg-info/PKG-INFO
+simplevideocutter.egg-info/SOURCES.txt
+simplevideocutter.egg-info/dependency_links.txt
+simplevideocutter.egg-info/entry_points.txt
+simplevideocutter.egg-info/requires.txt
+simplevideocutter.egg-info/top_level.txt
