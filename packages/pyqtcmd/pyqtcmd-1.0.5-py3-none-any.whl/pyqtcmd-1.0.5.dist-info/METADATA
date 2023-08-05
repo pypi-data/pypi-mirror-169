@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pyqtcmd
+Version: 1.0.5
+Summary: PyQt6/PyQt5-based Command implementation for undo/redo
+Home-page: https://github.com/fraca7/pyqtcmd
+Author: Jérôme Laheurte
+Author-email: jerome@jeromelaheurte.net
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+
+See the full documentation at https://pyqtcmd.readthedocs.io/en/latest/
+
+Changelog:
+
+1.0.5
+=====
+
+  * Drop explicit dependency on PyQt5
+  * PyQt6 compatibility
+
+1.0.4
+=====
+
+  * Fix labels for undo/redo UICommand mixins
+  * Fix label for CompositeCommand
+
+1.0.3
+=====
+
+  * Add a `past()` accessor to History
+  * Add a `label` argument to CompositeCommand constructor
+
+1.0.2
+=====
+
+  * Make associated buttons visible (or not) when the action
+    visibility changes
+
+1.0.1
+=====
+
+  * Added a `tip` argument to UICommand, which sets both the tooltip
+    and the status tip
+
+

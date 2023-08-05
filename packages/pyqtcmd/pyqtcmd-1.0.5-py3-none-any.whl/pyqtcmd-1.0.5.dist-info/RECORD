@@ -1,0 +1,10 @@
+pyqtcmd/__init__.py,sha256=FEGu6WgyxLUgSvybpkVo2WNQIhBBkwXg1oSYSELFohQ,322
+pyqtcmd/command.py,sha256=c2nN2KnzzP_ILyqsR7oRqGQXexsFYh26YG-ukdKOzM8,2109
+pyqtcmd/history.py,sha256=cWmdptUQXOhxotVVasJAo9WOZ5ntg_JuuNLIVANEJKs,5994
+pyqtcmd/meta.py,sha256=wcR3VOZFRg6dZ7aHXr2jTooX2IRdq9XudEnU-MiAt3k,58
+pyqtcmd/uicommand.py,sha256=GB3ZzlzuTf16hPe4-6QfeGmPqE26Ue0us2Ou3TpZOVI,5053
+pyqtcmd-1.0.5.dist-info/LICENSE,sha256=SzUL_QB1WJrkq2o2OhTNjI0hAvYAqVy38-KFq4pacCA,1100
+pyqtcmd-1.0.5.dist-info/METADATA,sha256=3Vw7WAcB1Ev5ZrWPwEMDaaCtRGGDpv9mdnQJzoWE9T8,1126
+pyqtcmd-1.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyqtcmd-1.0.5.dist-info/top_level.txt,sha256=M0ssCOEReEaTH1viPuDCUpMcPAg-c1Xq09SpSG78ozk,8
+pyqtcmd-1.0.5.dist-info/RECORD,,
