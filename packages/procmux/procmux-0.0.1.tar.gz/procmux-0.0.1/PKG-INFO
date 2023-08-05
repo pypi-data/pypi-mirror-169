@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: procmux
+Version: 0.0.1
+Summary: a TUI utility for running multiple commands in parallel in easily switchable terminals
+Home-page: https://github.com/napisani/procmux
+Author: Nick Pisani
+Author-email: napisani@yahoo.com
+License: MIT
+Description: a TUI utility for running multiple commands in parallel in easily switchable terminals
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
