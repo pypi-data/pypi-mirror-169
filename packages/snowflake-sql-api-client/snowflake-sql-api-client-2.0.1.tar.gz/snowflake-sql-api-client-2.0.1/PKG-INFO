@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snowflake-sql-api-client
+Version: 2.0.1
+Summary: Snowflake SQL API V2
+Home-page: https://github.com/nqtung/snowflake-sql-api-pyclient
+Author-email: tungnq@gmail.com
+License: UNKNOWN
+Keywords: Snowflake SQL API V2
+Platform: UNKNOWN
+
+    The Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database.
+    Contact Support - Email: tungnq@gmail.com  # noqa: E501
+    
+
