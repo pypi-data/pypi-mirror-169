@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: imagejmf
+Version: 0.0.2
+Summary: Image Processing
+Home-page: https://github.com/joelmaf/bootcamp-tech-unimed/DesafioCriacaoPacotes
+Author: Joelma Ferreira
+Author-email: jmouraf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: keyring (==21.3.1)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: twine (==3.2.0)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: scikit-image (==0.19.2)
+
+
+# Package Name
+### imagejmf
+
+O pacote image-processing-joelmaf é usado para processare imagem. É composto de dois módulos:
+- Módulo "Processing":
+  - Correspondência de histograma;
+  - Similaridade estrutural;
+  - Redimensionar imagem;
+- Módulo "Utils":
+  - Ler imagem;
+  - Salvar imagem;
+  - Plotar imagem;
+  - Resultado do gráfico;
+  - Plotar histograma;
+
+### Instalção do Pacote
+```
+pip install imagejmf
+```
+
+## Uso
+
+```python
+from imagejmf.processing import combination
+combination.find_difference(image1, image2)
+```
+
+## Autor
+Joelma de Moura Ferreira
+
+## Licença
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
