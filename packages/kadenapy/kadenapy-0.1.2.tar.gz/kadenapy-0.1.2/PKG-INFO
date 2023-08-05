@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kadenapy
+Version: 0.1.2
+Summary: Kadena Chainweb SDK
+Home-page: https://github.com/justmert/kadenapy
+Download-URL: https://github.com/justmert/kadenapy/archive/refs/tags/0.1.2.tar.gz
+Author: Mert Köklü
+Author-email: mert@yuugen.art
+License: MIT
+Keywords: Kadena,SDK,Chainweb,API
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
