@@ -1,0 +1,10 @@
+paralleldownload/__init__.py,sha256=4D1VlWok25NaC6eu-e6xFqTSsEyP4Bq3VMPZnWEbh3g,77
+paralleldownload/files.py,sha256=hAvna3ZHpLqtp5PA_XHtxrHjeb0JMLtKhb6enHYIU8A,1274
+paralleldownload/misc.py,sha256=Dki-9cU53DtQ_P0-hBUwt-57Vi4Zcg7QLuyF-V-T6pI,595
+paralleldownload/paralleldownload_module.py,sha256=setKOJHj_BusIp5pk_FjUi8H_v3JyQLP0SueC5g2fZc,6544
+paralleldownload/paralleldownloadcli.py,sha256=0VeUwGmT59SnQMntCpLoRzIWD8rlicR8MxXDkoJfFb4,3298
+paralleldownload/validate.py,sha256=DxFb3oTZe4-0KlS4_QJ6FRuWpAg1-Ba_d3-ibupB1lc,4260
+paralleldownload-0.5.2.dist-info/entry_points.txt,sha256=gf8zUcjYF14dNmxQ32sgTtbTZZCAXZx_PjGnJPFRNHY,126
+paralleldownload-0.5.2.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+paralleldownload-0.5.2.dist-info/METADATA,sha256=CfBPE4NCG4mt3ZRyUPJ5XOc2vAxe-I7VZaMsu7fhUtY,7306
+paralleldownload-0.5.2.dist-info/RECORD,,
