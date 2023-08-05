@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: word4univer
+Version: 0.1.0
+Summary: Library for making labs
+Project-URL: Homepage, https://github.com/chiririll/Word4Univer
+Project-URL: Bug Tracker, https://github.com/chiririll/Word4Univer/issues
+Author-email: chiririll <sstive39@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Word for Univer
+
+Python библиотека для создания лабораторок
+
+TODO
