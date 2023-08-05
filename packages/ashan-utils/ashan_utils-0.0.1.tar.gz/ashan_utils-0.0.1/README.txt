@@ -1,0 +1,1 @@
+This is simple libary to get cumaltive value from series of numbers
