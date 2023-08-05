@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: j2gpp
+Version: 1.3.2
+Summary: A Jinja2-based General Purpose Preprocessor
+Home-page: https://github.com/Louis-DR/j2gpp
+Author: Louis Duret-Robert
+Author-email: louisduret@gmail.com
+License: MIT
+Keywords: j2gpp,jinja2,preprocessor
+License-File: LICENSE
+Requires-Dist: jinja2
+Requires-Dist: ruamel.yaml
+Requires-Dist: xmltodict
+Requires-Dist: toml
+Requires-Dist: configparser
+
