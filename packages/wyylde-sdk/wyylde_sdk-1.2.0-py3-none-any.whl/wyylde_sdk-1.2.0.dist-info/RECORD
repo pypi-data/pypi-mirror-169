@@ -1,0 +1,15 @@
+wyylde_sdk/__init__.py,sha256=BtlJJP49sVyyf7ySjdqHdyb8lcRaw7j4K-UrCz976zE,96
+wyylde_sdk/client.py,sha256=vq-6mTX78Iv4HK2A1NIlU2QWfMmYtnbp5WyiFDbHbow,7011
+wyylde_sdk/models/__init__.py,sha256=BuMwKfG7cT1UL5jHpw_h07lC8Hk46N5_unKYGWbow8g,273
+wyylde_sdk/models/contact.py,sha256=3WJVbkQHgQe6Lts09Hvo4eOErcd_NYOFk0F0uXECd5s,236
+wyylde_sdk/models/event.py,sha256=Rd7_9W0FQB6GCVJPXKr7Ri_X1PbCbx8PYX5CQzassAo,806
+wyylde_sdk/models/talk.py,sha256=hNONuVIiOGto4ghjsv7Oqr7HtUiyJjnCMQfmvkhQCow,630
+wyylde_sdk/models/testimony.py,sha256=nMrisltDWmGApHfpZBWvk0wTDSvTPvjheAiy_4H0ywc,230
+wyylde_sdk/models/user.py,sha256=pYKiqnnRlu1FM15dWo3Z1jAG6fPBAVt4fU5BrEqpXoU,1421
+wyylde_sdk/models/visit.py,sha256=UKQ2Pe3KSa6F8yFqKuNYRhKN1afrDUS06wDIo284yfQ,163
+wyylde_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wyylde_sdk-1.2.0.dist-info/entry_points.txt,sha256=WVIqgIiUhz0WeLhYUME2Vt8TwKSZoVp8Gvd3FiQcX0g,55
+wyylde_sdk-1.2.0.dist-info/LICENSE,sha256=ihg0vHTdUfOlSHPPUwgruG_wdWdUzBat9kydXnEuR8Q,1089
+wyylde_sdk-1.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+wyylde_sdk-1.2.0.dist-info/METADATA,sha256=2g7Of_01gaQYY6gIjsHNOdsCJ1c-5UNLjFVQ28bnLRg,3205
+wyylde_sdk-1.2.0.dist-info/RECORD,,
