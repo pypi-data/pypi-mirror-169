@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ph-toolbox
+Version: 0.1.1
+Summary: A small example package
+Home-page: https://github.com/emrecdr/ph-toolbox
+Author: Emre
+Author-email: cemre79@gmail.com
+Project-URL: Bug Tracker, https://github.com/emrecdr/ph-toolbox/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Helper Functions Package
+
+## Installation
+```shell
+ pipenv install
+```
+
+```shell
+ export PYTHONPATH="${HOME}/Projects/pypi/ph_toolbox"
+```
+
+## Testing
+``` shell
+make test
+```
+
+```shell
+ pipenv run pytest ./tests/
+```
+
+Or specific test:
+
+```shell
+ pipenv run pytest ./tests/ph_toolbox/test_config.py
+```
+
+## Running
