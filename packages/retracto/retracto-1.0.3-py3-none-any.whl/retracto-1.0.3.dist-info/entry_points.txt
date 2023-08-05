@@ -1,0 +1,3 @@
+[console_scripts]
+retracto=retracto.app:app
+
