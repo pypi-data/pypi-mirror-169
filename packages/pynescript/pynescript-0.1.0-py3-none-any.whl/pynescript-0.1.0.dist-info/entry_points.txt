@@ -1,0 +1,3 @@
+[console_scripts]
+pynescript=pynescript.__main__:cli
+
