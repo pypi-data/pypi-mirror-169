@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: typeidea-wuxin
+Version: 1.0
+Summary: Blog System base on Django
+Home-page: https://www.the5fire.com
+Author: the5fire
+Author-email: thefivefire@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
