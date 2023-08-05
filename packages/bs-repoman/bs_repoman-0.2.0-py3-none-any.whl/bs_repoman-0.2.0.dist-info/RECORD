@@ -1,0 +1,14 @@
+bs_repoman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bs_repoman/config.py,sha256=FJGbz3PWtslNQIyOHfn3olHL4GQnZnUsWyUAhNqfr_c,1413
+bs_repoman/constants.py,sha256=dUNOdFk9piXwcZ-EOnRuQLYHIoMxdQ13CKLM37eAIdg,371
+bs_repoman/gh_templates.py,sha256=RKRCbK5ods4JhRQZ2Nnm3igB-4SCAh-zNKUAHIAdQL0,2729
+bs_repoman/log.py,sha256=_FEirN8X-Jn6yK-rqOXcxvxussInkRqoQ_nWNddyvY8,57
+bs_repoman/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bs_repoman/scripts/repoman.py,sha256=C2eLxkOBfNHar6VDy4mzxsOReKB-WQgs669UG_mHqS4,2737
+bs_repoman-0.2.0.data/scripts/repoman.py,sha256=C2eLxkOBfNHar6VDy4mzxsOReKB-WQgs669UG_mHqS4,2737
+bs_repoman-0.2.0.dist-info/LICENSE,sha256=Y7Z_0cq80AKLFNknSyxGLy7MaF1uCwsolXGxlmsoVZI,1056
+bs_repoman-0.2.0.dist-info/METADATA,sha256=RfxkNJHYhYE6a_pALStrmy9woI-EWYWThx3ZwKBNWzA,630
+bs_repoman-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bs_repoman-0.2.0.dist-info/entry_points.txt,sha256=ViH1pmS0Y1Xp9NlYRUV83PNR6auK0y5Y1Q6Qkgt4cuo,43
+bs_repoman-0.2.0.dist-info/top_level.txt,sha256=TQajZoURWWT9e1V4236zTwa-gSbTa1sSTfnyLCR7fwE,11
+bs_repoman-0.2.0.dist-info/RECORD,,

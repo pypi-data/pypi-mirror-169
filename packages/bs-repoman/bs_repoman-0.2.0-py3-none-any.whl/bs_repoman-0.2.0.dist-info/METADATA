@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bs-repoman
+Version: 0.2.0
+Summary: Utility for reduced boilerplate work.
+Home-page: https://github.com/BillSchumacher/bs-repoman
+Author: Bill Schumacher
+Author-email: 34168009+BillSchumacher@users.noreply.github.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: bs-pathutils
+
+bs-repoman
+==========
+
+Utility for reduced boilerplate work.
