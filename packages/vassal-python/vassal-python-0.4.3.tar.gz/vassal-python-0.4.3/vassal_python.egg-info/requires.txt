@@ -1,0 +1,5 @@
+jpype1<2.*,>=1.2.1
+numpy
+pillow
+opencv-python
+pytesseract
