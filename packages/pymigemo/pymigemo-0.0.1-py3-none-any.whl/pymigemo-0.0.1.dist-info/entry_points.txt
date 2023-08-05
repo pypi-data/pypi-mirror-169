@@ -1,0 +1,3 @@
+[console_scripts]
+pymigemo = migemo.migemo:main
+

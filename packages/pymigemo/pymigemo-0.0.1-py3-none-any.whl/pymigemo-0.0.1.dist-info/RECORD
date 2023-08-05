@@ -1,0 +1,17 @@
+migemo/__init__.py,sha256=VgMuctQGxEjZ_E3aBu73bZ935kzm8i1ijPvFnfQROOU,28
+migemo/__main__.py,sha256=XVO2HQxwR16sJLESypxN5pm0SDz2R2gElJtNSyfsXk4,34
+migemo/bitvector.py,sha256=B4QChzKSQ-Ms0Aw9cABPTJzAHeckwFCP2mxE_ReKaqc,4712
+migemo/characterconverter.py,sha256=lsEczdLus2fCQtA4rVtoCtVUhjuqz2wBhUidk9WJBOQ,6940
+migemo/loudstrie.py,sha256=BGFNjpUpF6xpjZ_AIdLVZhh0rIiAo-qaxY5TXE4tHCE,2206
+migemo/migemo-compact-dict,sha256=TN_U-mbxYpmE4jrSqzQezmHc3SFNMuGZd-7GPPxVIJ8,1440321
+migemo/migemo.py,sha256=WPswaXjkqU-GL65kYruiBP9C_ttW7KoIkWzTc9b4hyM,3369
+migemo/migemocompactdictionary.py,sha256=Cf1ewLwIkyQAxv_fexmPRaEx7es1C40vJ_sg07H5MZY,2841
+migemo/regexgenerator.py,sha256=86C1JHwHxsyxQceCYyzs2Ffu-hzy53ihUv2JMsAvEiQ,3643
+migemo/regexoperator.py,sha256=xrCoaYLy8xsTC-i66ByAcgdNHwD24zm8XZAr4S8VPXA,784
+migemo/romajiconverter.py,sha256=KI0YDL5SOsOS6568mzOArMp0O6UAFtzIAAS6ifVuUEw,9357
+pymigemo-0.0.1.dist-info/LICENSE,sha256=N_qHJ6eyiEw2aOdSAXEL0URlPQ697_wF77lZ2f9Ppq4,1487
+pymigemo-0.0.1.dist-info/METADATA,sha256=63H3MgkFaX51z-xY7m3nRrpjDEKEllWeAZvbmN9l8PQ,1021
+pymigemo-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymigemo-0.0.1.dist-info/entry_points.txt,sha256=s2MwrzHsgpPTMyC7xwmv02tKleJ-9vPNl2KBoWZtzxE,49
+pymigemo-0.0.1.dist-info/top_level.txt,sha256=sqBUXCa3579_KxFmu-3u6bP5m4KNcxsKLexilMJuTVo,7
+pymigemo-0.0.1.dist-info/RECORD,,
