@@ -1,0 +1,10 @@
+README.md
+setup.py
+spookyspec/Spec.py
+spookyspec/__init__.py
+spookyspec/fits.py
+spookyspec/tools.py
+spookyspec.egg-info/PKG-INFO
+spookyspec.egg-info/SOURCES.txt
+spookyspec.egg-info/dependency_links.txt
+spookyspec.egg-info/top_level.txt
