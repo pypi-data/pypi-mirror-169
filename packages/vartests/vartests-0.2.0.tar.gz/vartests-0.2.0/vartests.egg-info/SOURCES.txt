@@ -1,0 +1,14 @@
+.gitignore
+MANIFEST.in
+README.md
+poetry.lock
+pyproject.toml
+requirements.txt
+setup.py
+media/Example.xlsx
+tests/test_vartests.py
+vartests.egg-info/PKG-INFO
+vartests.egg-info/SOURCES.txt
+vartests.egg-info/dependency_links.txt
+vartests.egg-info/requires.txt
+vartests.egg-info/top_level.txt
