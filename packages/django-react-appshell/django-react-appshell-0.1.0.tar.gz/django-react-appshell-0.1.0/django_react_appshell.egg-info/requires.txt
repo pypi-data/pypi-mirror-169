@@ -1,0 +1,7 @@
+Django<5.0,>=4.0
+telepath<0.4,>=0.3
+
+[dev]
+black<23,>=22
+flake8<6,>=5
+isort<6,>=5
