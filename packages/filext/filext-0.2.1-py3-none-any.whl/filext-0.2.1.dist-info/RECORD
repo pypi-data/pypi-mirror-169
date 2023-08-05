@@ -1,0 +1,13 @@
+filext/__init__.py,sha256=-aKnxGincOrZEUvaQH4gbp2k_Rcy4OxX_Y1mGCeGwU4,1473
+filext/classifiers.py,sha256=56uG_P-aejTA3fHPtxFGEZAF_bgOYaRJtGFINJNiNlc,2165
+filext/utils.py,sha256=VHqhx0DEG6qJWT6wTg3F69fKvXjPrPmpRyOMas5XnAA,2441
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=a87rUcQlKqiSuP_GDUTeUupptJYHAdiWpYMW4xRyn5I,356
+tests/test_classifiers.py,sha256=yLTNb5vYpf3gtPZTaKtbP-IAQJGkUGEPxSjr3Sh6uZY,1365
+tests/test_demo.py,sha256=jFrxekqr8Q6bfUilAvpLY8RVHELWzCkBi68p6WZwRkw,564
+tests/test_utils.py,sha256=fSp_VoDXV2R6Bd66AHofFU8EJinsbj8cVnL9cKIsjBY,413
+filext-0.2.1.dist-info/LICENSE,sha256=f7wnxxJ-T4m7gByXpi9n3fA7izGSk4kPPXH5Tf6bUT0,1078
+filext-0.2.1.dist-info/METADATA,sha256=OUZIi3G3kkE7Zhgf1YAiBu4rT6TvJ14za-YiU0Nm0w4,1419
+filext-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+filext-0.2.1.dist-info/top_level.txt,sha256=65--jcoI76pWZoozsJkxId_Lo0SIDFRZR46b7UZzFwY,13
+filext-0.2.1.dist-info/RECORD,,
