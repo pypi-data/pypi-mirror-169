@@ -1,0 +1,14 @@
+requests
+numpy
+matplotlib
+pyyaml
+python-dotenv
+pandas
+torch
+torchaudio
+pytorch-lightning
+torchmetrics
+librosa
+
+[test]
+pytest
