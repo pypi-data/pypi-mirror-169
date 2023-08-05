@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pydata_master/__init__.py
+pydata_master/database_connect.py
+pydata_master/datetime_intel.py
+pydata_master/google_service.py
+pydata_master/messaging_api.py
+pydata_master/project_config.py
+pydata_master.egg-info/PKG-INFO
+pydata_master.egg-info/SOURCES.txt
+pydata_master.egg-info/dependency_links.txt
+pydata_master.egg-info/top_level.txt
