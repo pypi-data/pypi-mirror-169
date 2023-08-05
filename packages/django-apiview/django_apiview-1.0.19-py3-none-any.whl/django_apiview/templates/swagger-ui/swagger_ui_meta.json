@@ -1,0 +1,12 @@
+{
+    "swagger": "2.0",
+    "info": {% autoescape off %}{{info_json}}{% endautoescape %},
+    "host": "{{api_host}}",
+    "basePath": "{{api_basepath}}",
+    "tags": {% autoescape off %}{{tags_json}}{% endautoescape %},
+    "paths": {% autoescape off %}{{paths_json}}{% endautoescape %},
+    "securityDefinitions": {% autoescape off %}{{securityDefinitions_json}}{% endautoescape %},
+    "definitions": {% autoescape off %}{{definitions_json}}{% endautoescape %},
+    "externalDocs": {}
+}
+
