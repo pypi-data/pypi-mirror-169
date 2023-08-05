@@ -1,0 +1,9 @@
+barbarians/__init__.py,sha256=tu6LDm84Q_SqUYOeWMVlcL4522WXLHl7Z_1uGHA4Hsw,186
+barbarians/barbarian.py,sha256=QxCxBSfwW6_DxxziJI5vAGURHzhuOeFO27w4hAxv72c,30702
+barbarians/hooks/barbarian_clean_conandata_yml.py,sha256=xY1cpApBt2mK9aljlSfBPTnH2cr5Tf5tHI3Vu4cLQrM,1130
+barbarian-0.3.0.dist-info/LICENSE.txt,sha256=yb_3VziSIZPmf6cm-iJVNYcNKqEFn5FFLEEXNihK1WY,1338
+barbarian-0.3.0.dist-info/METADATA,sha256=hyRkWZoOItvo580QqEyBXlaFjPVXnUF7_-1tbUiuMIA,1047
+barbarian-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+barbarian-0.3.0.dist-info/entry_points.txt,sha256=j20wiwMTia8KK59phwCs2BszeOlAoMCdpo2T4LK_RX4,56
+barbarian-0.3.0.dist-info/top_level.txt,sha256=4I4LPqGbsAxc0Ys40VOFsFs2JxL_NvQyJVJKpOmfuxM,11
+barbarian-0.3.0.dist-info/RECORD,,
