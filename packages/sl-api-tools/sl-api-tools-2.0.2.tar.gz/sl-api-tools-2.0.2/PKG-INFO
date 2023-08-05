@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sl-api-tools
+Version: 2.0.2
+Summary: to simplify auto test
+Home-page: https://git.code.tencent.com/2207B/auto_api_xuepl.git
+Author: xuepl
+Author-email: xuepl@songlinxy.com
+License: MIT Licence
+Keywords: api,auto
+Platform: python3
+
+A init package,to simplify develope auto test
