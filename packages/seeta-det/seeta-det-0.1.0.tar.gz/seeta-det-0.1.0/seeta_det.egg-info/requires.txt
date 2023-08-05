@@ -1,0 +1,9 @@
+opencv-python
+Pillow>=7.1
+pyyaml
+prettytable
+matplotlib
+codewithgpu
+shapely
+Cython
+pycocotools>=2.0.2

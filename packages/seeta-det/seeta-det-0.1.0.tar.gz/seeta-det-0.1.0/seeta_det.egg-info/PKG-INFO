@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: seeta-det
+Version: 0.1.0
+Summary: SeetaDet: A platform implementing popular object detection algorithms.
+Home-page: https://github.com/seetaresearch/seetadet
+Author: SeetaTech
+License: BSD 2-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SeetaDet
+
+SeetaDet is a platform implementing popular object detection algorithms.
+
+This platform works with [**SeetaDragon**](https://dragon.seetatech.com), and uses the [**PyTorch**](https://dragon.seetatech.com/api/python/#pytorch) style.
+
+<img src="https://dragon.seetatech.com/download/seetadet/assets/banner.png"/>
+
+## Installation
+
+Install from PyPI:
+
+```bash
+pip install seeta-det
+```
+
+Or, clone this repository to local disk and install:
+
+```bash
+cd seetadet && pip install .
+```
+
+You can also install from the remote repository: 
+
+```bash
+pip install git+ssh://git@github.com/seetaresearch/seetadet.git
+```
+
+If you prefer to develop locally, build but not install to ***site-packages***:
+
+```bash
+cd seetadet && python setup.py build
+```
+
+## Quick Start
+
+### Train a detection model
+
+```bash
+cd tools
+python train.py --cfg <MODEL_YAML>
+```
+
+We have provided the default YAML examples into [configs](configs).
+
+### Test a detection model
+
+```bash
+cd tools
+python test.py --cfg <MODEL_YAML> --exp_dir <EXP_DIR> --iter <ITERATION>
+```
+
+### Export a detection model to ONNX
+
+```bash
+cd tools
+python export.py --cfg <MODEL_YAML> --exp_dir <EXP_DIR> --iter <ITERATION>
+```
+
+### Serve a detection model
+
+```bash
+cd tools
+python serve.py --cfg <MODEL_YAML> --exp_dir <EXP_DIR> --iter <ITERATION>
+```
+
+## Benchmark and Model Zoo
+
+Results and models are available in the [Model Zoo](MODEL_ZOO.md).
+
+## License
+[BSD 2-Clause license](LICENSE)
+
+
