@@ -1,0 +1,10 @@
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+trapi/__init__.py
+trapi.egg-info/PKG-INFO
+trapi.egg-info/SOURCES.txt
+trapi.egg-info/dependency_links.txt
+trapi.egg-info/requires.txt
+trapi.egg-info/top_level.txt
