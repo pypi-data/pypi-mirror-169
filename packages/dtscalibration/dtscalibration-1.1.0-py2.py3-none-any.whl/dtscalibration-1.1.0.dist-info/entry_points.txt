@@ -1,0 +1,2 @@
+[console_scripts]
+dtscalibration = dtscalibration.cli:main
