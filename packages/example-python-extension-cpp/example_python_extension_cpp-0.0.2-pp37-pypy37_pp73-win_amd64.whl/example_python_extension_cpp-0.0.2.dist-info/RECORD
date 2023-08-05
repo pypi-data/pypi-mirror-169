@@ -1,0 +1,7 @@
+my_python_api/__init__.py,sha256=HUWIu8RDfLKFtVkibPmr3IeGPk_xRhGd1tSpI4VGlXU,75
+my_python_api/_python_api.pypy37-pp73-win_amd64.pyd,sha256=i_5RZuINoNfn2GoGr4_cRcEuhnvd4A33go1KOIC5fvA,105984
+my_python_api/fftw3.dll,sha256=Bjv_du4jsPgjcX97xTKEqaRFAvoQ-EP555oooVdf0E8,944640
+example_python_extension_cpp-0.0.2.dist-info/METADATA,sha256=R-xnZKOkbinvINPAHsBx2ysdm7795Nkreuw9zjyMNJE,291
+example_python_extension_cpp-0.0.2.dist-info/WHEEL,sha256=xK2_V40XcaTa9boQwpEJx473A-lo0_f3BwIEtjCkzlY,101
+example_python_extension_cpp-0.0.2.dist-info/top_level.txt,sha256=vMM_YvWazp3bX75uO96dfwy7zFkTj0T7vSP9KhIsCII,14
+example_python_extension_cpp-0.0.2.dist-info/RECORD,,
