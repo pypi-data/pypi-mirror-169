@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: i-just-flexed-on-u
+Version: 0.0.1
+Summary: Evaluates Logical Expressions
+Home-page: UNKNOWN
+Author: Saransh Singh Dhapola
+Author-email: Saranshdhapola2002@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Library to evaluate Logical expressions
+Made by: Saransh
+
+Change Log
+==========
+
+0.0.1(25/09/22)
+-----------
+-First Release
+
