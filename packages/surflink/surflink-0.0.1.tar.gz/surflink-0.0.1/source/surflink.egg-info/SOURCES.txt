@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+source/surflink/__init__.py
+source/surflink/document.py
+source/surflink/exception.py
+source/surflink/extract.py
+source/surflink/highlevel.py
+source/surflink.egg-info/PKG-INFO
+source/surflink.egg-info/SOURCES.txt
+source/surflink.egg-info/dependency_links.txt
+source/surflink.egg-info/top_level.txt
