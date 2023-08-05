@@ -1,0 +1,4 @@
+[console_scripts]
+paralleldownload=pfd.paralleldownloadcli:start
+pfd=pfd.paralleldownloadcli:start
+
