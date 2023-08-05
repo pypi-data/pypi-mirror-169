@@ -1,0 +1,2 @@
+[console_scripts]
+frtzbxrdr = frtzbxrdr.frtzbxrdr:run
