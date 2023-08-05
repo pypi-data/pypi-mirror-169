@@ -1,0 +1,192 @@
+dame_all.py:    def average(self, name, surname):
+dame_ethnicity.py:    def surname2ethnicity(self, surname):
+dame_ethnicity.py:    def locale_match(self, surname, path, locale):
+dame_ethnicity.py:    def inesurname2ethnicity(self, surname, locale):
+dame_ethnicity.py:    def dicc_iso3166_to_eng(self):
+dame_ethnicity.py:    def iso3166_to_eng(self, locale):
+dame_ethnicity.py:    def dicc_iso639_2(self):
+dame_ethnicity.py:    def dicc_iso639_1(self):
+dame_gender.py:    def __init__(self):
+dame_gender.py:    def features(self, name):
+dame_gender.py:    def features_int(self, name):
+dame_gender.py:    def features_list(self, path='files/names/partial.csv', sexdataset=''):
+dame_gender.py:    def features_list_categorical(self, path='files/names/partial.csv'):
+dame_gender.py:    def features_list_no_categorical(self, path='files/names/partial.csv'):
+dame_gender.py:    def features_list_no_letters(self, path='files/names/partial.csv'):
+dame_gender.py:    def features_list_no_undefined(self, path=''):
+dame_gender.py:    def features_list2csv(self, path, categorical="both"):
+dame_gender.py:    def path_surname_dataset(self, locale):
+dame_gender.py:    def males_list(self, corpus='es'):
+dame_gender.py:    def females_list(self, corpus='es'):
+dame_gender.py:    def csv2names(self, path='files/names/partial.csv', *args, **kwargs):
+dame_gender.py:    def csv2json(self, path="", *args, **kwargs):
+dame_gender.py:    def name2gender_in_dataset(self, name, dataset=''):
+dame_gender.py:    def dataset2genderlist(self, dataset=''):
+dame_gender.py:    def name_frec(self, name, *args, **kwargs):
+dame_gender.py:    def name_frec_from_file(self, name, path):
+dame_gender.py:    def inesurname_province_and_frec(self, surname, *args, **kwargs):
+dame_gender.py:    def name_prob_countries(self, name):
+dame_gender.py:    def namdict2file(self):
+dame_gender.py:    def filenamdict2list(self):
+dame_gender.py:    def guess(self, name, binary=False, dataset='us', *args, **kwargs):
+dame_gender.py:    def guess_surname(self, string, locale):
+dame_gender.py:    def string2gender(self, string):
+dame_gender.py:    def guess_list(self, path='files/names/partial.csv',
+dame_gender.py:    def csv2gender_list(self, path, *args, **kwargs):
+dame_gender.py:    def pretty_gg_list(self, guessf, testf, *args, **kwargs):
+dame_gender.py:    def pretty_cm(self, path, jsonf, *args, **kwargs):
+dame_gender.py:    def json2gender_list(self, jsonf="", binary=False):
+dame_gender.py:    def json2names(self, jsonf="", surnames=False):
+dame_gender.py:    def json_eq_csv_in_names(self, jsonf="", path="", *args, **kwargs):
+dame_gender.py:    def first_uneq_json_and_csv_in_names(self, jsonf="", path="",
+dame_gender.py:    def first_uneq_json_and_json_in_names(self, json1="", json2="",
+dame_gender.py:    def first_uneq_csv_and_csv_in_names(self, csv1="", csv2="",
+dame_gender.py:    def confusion_matrix_gender(self, path='', jsonf=''):
+dame_gender.py:    def print_confusion_matrix_gender(self, path='', dimensions='',
+dame_genderapi.py:    def get(self, name):
+dame_genderapi.py:    def guess(self, name, binary=False):
+dame_genderapi.py:    def accuracy(self, name):
+dame_genderapi.py:    def samples(self, name):
+dame_genderapi.py:    def download(self, path="files/names/partial.csv"):
+dame_genderapi.py:    def json2gender_list(self, jsonf="", binary=False):
+dame_genderapi.py:    def json2names(self, jsonf="", surnames=False):
+dame_genderapi.py:    def guess_list(self, path="files/names/partial.csv", binary=False):
+dame_genderapi.py:    def apikey_limit_exceeded_p(self):
+dame_genderapi.py:    def apikey_count_requests(self):
+dame_genderguesser.py:    def __init__(self,
+dame_genderguesser.py:    def _parse(self, filename):
+dame_genderguesser.py:    def _eat_name_line(self, line):
+dame_genderguesser.py:    def _set(self, name, gender, country_values):
+dame_genderguesser.py:    def _most_popular_gender(self, name, counter):
+dame_genderguesser.py:    def get_gender(self, name, country=None):
+dame_genderguesser.py:            def counter(country_values):
+dame_genderguesser.py:    def guess(self, name, binary=False):
+dame_genderguesser.py:    def guess_list(self, path='files/names/partial.csv',
+dame_genderize.py:    def get(self, name, *args, **kwargs):
+dame_genderize.py:    def get2to10(self, l1):
+dame_genderize.py:    def guess(self, name, binary=False, *args, **kwargs):
+dame_genderize.py:    def prob(self, name):
+dame_genderize.py:    def download(self, path='files/names/partial.csv', surnames=False):
+dame_genderize.py:    def json2gender_list(self, jsonf="", binary=False):
+dame_genderize.py:    def apikey_limit_exceeded_p(self):
+dame_nameapi.py:    def get(self, name, surname="", binary=False):
+dame_nameapi.py:    def download(self, path="files/names/partial.csv"):
+dame_nameapi.py:    def guess(self, name, surname, binary=False):
+dame_nameapi.py:    def confidence(self, name, surname, binary=False):
+dame_nameapi.py:    def guess_list(self, path='files/names/partial.csv', binary=False):
+dame_namsor.py:    def get(self, name, surname, binary=False):
+dame_namsor.py:    def getGeo(self, name, surname, locale, binary=False):
+dame_namsor.py:    def guess(self, name, surname, binary=False):
+dame_namsor.py:    def scale(self, name, surname):
+dame_namsor.py:    def guess_list(self, path='files/partial.csv', binary=False):
+dame_namsor.py:    def download(self, path="files/names/min.csv"):
+dame_perceval.py:    def numCommits(self, url, directory):
+dame_perceval.py:    def numMails(self, url, directory="files/mbox"):
+dame_perceval.py:    def removeMail(self, s):
+dame_perceval.py:    def firstName(self, s):
+dame_perceval.py:    def secondName(self, s):
+dame_perceval.py:    def dicc_authors_and_commits(self, url, directory, *args, **kwargs):
+dame_perceval.py:    def dicc_authors_and_mails(self, url, directory="files/mbox"):
+dame_perceval.py:    def list_committers(self, url, directory, *args, **kwargs):
+dame_perceval.py:    def list_mailers(self, url, directory="files/mbox"):
+dame_perceval.py:    def list_launchpad(self, name, from_date=""):
+dame_perceval.py:    def count_gender_in_list(self, l1):
+dame_perceval.py:    def get_github_json_user(self, nick):
+dame_sexmachine.py:    def __init__(self):
+dame_sexmachine.py:    def features(self, name):
+dame_sexmachine.py:    def features_int(self, name):
+dame_sexmachine.py:    def classifier(self, locale='us'):
+dame_sexmachine.py:    def classifier_load(self):
+dame_sexmachine.py:    def adaboost(self):
+dame_sexmachine.py:    def adaboost_load(self):
+dame_sexmachine.py:    def svc(self):
+dame_sexmachine.py:    def svc_load(self):
+dame_sexmachine.py:    def sgd(self):
+dame_sexmachine.py:    def sgd_load(self):
+dame_sexmachine.py:    def gaussianNB(self):
+dame_sexmachine.py:    def gaussianNB_load(self):
+dame_sexmachine.py:    def multinomialNB(self):
+dame_sexmachine.py:    def multinomialNB_load(self):
+dame_sexmachine.py:    def bernoulliNB(self):
+dame_sexmachine.py:    def bernoulliNB_load(self):
+dame_sexmachine.py:    def forest(self):
+dame_sexmachine.py:    def forest_load(self):
+dame_sexmachine.py:    def tree(self):
+dame_sexmachine.py:    def tree_load(self):
+dame_sexmachine.py:    def mlp(self):
+dame_sexmachine.py:    def mlp_load(self):
+dame_sexmachine.py:    def guess(self, name, binary=False, ml="nltk", *args, **kwargs):
+dame_sexmachine.py:    def guess_list(self, path='files/names/partial.csv',
+dame_sexmachine.py:    def confusion_matrix_gender(self, path='', jsonf='', ml='nltk'):
+dame_sexmachine.py:    def num_females(self, url, directory):
+dame_sexmachine.py:    def num_males(self, url, directory):
+dame_statistics.py:    def __init__(self):
+dame_statistics.py:    def count_true2guess(self, truevector, guessvector, mytrue, myguess):
+dame_statistics.py:    def femalefemale(self, truevector, guessvector):
+dame_statistics.py:    def femalemale(self, truevector, guessvector):
+dame_statistics.py:    def femaleundefined(self, truevector, guessvector):
+dame_statistics.py:    def malefemale(self, truevector, guessvector):
+dame_statistics.py:    def malemale(self, truevector, guessvector):
+dame_statistics.py:    def maleundefined(self, truevector, guessvector):
+dame_statistics.py:    def undefinedfemale(self, truevector, guessvector):
+dame_statistics.py:    def undefinedmale(self, truevector, guessvector):
+dame_statistics.py:    def undefinedundefined(self, truevector, guessvector):
+dame_statistics.py:    def accuracy_score_dame(self, truevector, guessvector):
+dame_statistics.py:    def precision(self, truevector, guessvector):
+dame_statistics.py:    def recall(self, truevector, guessvector):
+dame_statistics.py:    def f1score(self, truevector, guessvector):
+dame_statistics.py:    def error_coded(self, truevector, guessvector):
+dame_statistics.py:    def error_coded_without_na(self, truevector, guessvector):
+dame_statistics.py:    def na_coded(self, truevector, guessvector):
+dame_statistics.py-        divider = self.maleundefined(truevector, guessvector)
+dame_statistics.py:    def error_gender_bias(self, truevector, guessvector):
+dame_statistics.py:    def weighted_error(self, truevector, guessvector, w):
+dame_statistics.py:    def confusion_matrix_table(self, truevector, guessvector):
+dame_statistics.py:    def print_measures(self, gl1, gl2, measure, api_name):
+dame_statistics.py:    def pretty_cm(self, path, jsonf, *args, **kwargs):
+dame_utils.py:    def dicc_dataset(self, sex):
+dame_utils.py:    def string2array(self, string):
+dame_utils.py:    def is_not_blank(self, s):
+dame_utils.py:    def various_words_p(self, s):
+dame_utils.py:    def represents_int(self, s):
+dame_utils.py:    def split(self, arr, size):
+dame_utils.py:    def path2file(self, s):
+dame_utils.py:    def drop_dots(self, s):
+dame_utils.py:    def drop_quotes(self, s):
+dame_utils.py:    def drop_external_quotes(self, s):
+dame_utils.py:    def drop_external_symbols(self, s, li):
+dame_utils.py:    def drop_all_external_symbols(self, s, li):
+dame_utils.py:    def drop_white_space(self, s):
+dame_utils.py:    def single_hyphen_p(self, s):
+dame_utils.py:    def replace_single_hyphen(self, s):
+dame_utils.py:    def white_space_inside_by(self, s, by):
+dame_utils.py:    def drop_white_space_around(self, s):
+dame_utils.py:    def drop_accents(self, s):
+dame_utils.py:    def drop_pwd(self, s):
+dame_utils.py:    def identity2name_email(self, s):
+dame_utils.py:    def same_identity(self, string1, string2):
+dame_utils.py:    def list2lower(self, l1):
+dame_utils.py:    def num_columns_in_csv(self, csvpath, *args, **kwargs):
+dame_utils.py:    def csvcolumn2list(self, csvpath,  *args, **kwargs):
+dame_utils.py:    def find_max_and_min_in_column(self, path, row_position, *args, **kwargs):
+dame_utils.py:    def csv2list(self, csvpath,  *args, **kwargs):
+dame_utils.py:    def reduce_csv_columns_to_name_and_freq(self, csvpath, *args, **kwargs):
+dame_utils.py:    def lists2csvfile(self, listoflists, csvpath, *args, **kwargs):
+dame_utils.py:    def diccnames2csvfile(self, dicc, csvpath):
+dame_utils.py:    def delete_duplicated(self, l1):
+dame_utils.py:    def delete_duplicated_identities(self, l1):
+dame_utils.py:    def clean_list(self, l1):
+dame_utils.py:    def files_one_level(self, directory):
+dame_utils.py:    def files_one_level_drop_pwd(self, directory):
+dame_utils.py:    def int2gender(self, int):
+dame_utils.py:    def number_or_zero(self, x):
+dame_utils.py:    def round_and_not_zero_division(self, x, y):
+dame_utils.py:    def initial_letters(self, s):
+dame_utils.py:    def init_dicc_names_from_file(self, path, row_name_position):
+dame_utils.py:    def init_dicc_names_and_years(self, path, row_name, from_year, until_year):
+dame_utils.py:    def fill_dicc_names_and_years(self, inputpath, row_year, row_name):
+dame_utils.py:    def dump_name_and_quantity_in_dicc(self, inputpath, posname, posquant, *args, **kwargs):
+dame_utils.py:    def simple_dicc_to_file(self, dicc, path):
+dame_utils.py:    def is_json(self, myjson):
+dame_utils.py:    def is_csv(self, mycsv, *args, **kwargs):
+dame_wikidata.py:    def dicc_countries(self):
