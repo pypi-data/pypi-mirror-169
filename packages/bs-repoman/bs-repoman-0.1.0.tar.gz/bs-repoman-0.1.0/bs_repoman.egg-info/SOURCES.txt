@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bs_repoman.egg-info/PKG-INFO
+bs_repoman.egg-info/SOURCES.txt
+bs_repoman.egg-info/dependency_links.txt
+bs_repoman.egg-info/entry_points.txt
+bs_repoman.egg-info/requires.txt
+bs_repoman.egg-info/top_level.txt
+bs_repoman/scripts/repoman.py
