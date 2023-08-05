@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: KJF
+Version: 0.1.2022.925b0
+Summary: Define your trading style.
+Home-page: https://pypi.org/project/kjf
+Author: EGOPY
+License: The BSD License        
+        Copyright (c) 2022-present, EGOPY        
+Keywords: quant investment quantitative trading algotrading
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: Chinese (Simplified)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+﻿<p align="center">
+    <img src ="https://img.shields.io/badge/platform-linux-yellow.svg"/>
+    <img src ="https://img.shields.io/badge/python-3.10-blue.svg" />
+</p>
+
+## K J F
+
+* The native software plugins for EGOPY platform
+* Imporve your EGOPY with the smart strategies
+
+## EGOPY = EGO + PYthon
+
+* Define your trading style.
+* pip install EGOPY
+
+## Copyright
+* BSD
