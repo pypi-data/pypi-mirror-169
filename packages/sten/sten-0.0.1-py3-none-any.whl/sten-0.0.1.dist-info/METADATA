@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sten
+Version: 0.0.1
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pytest
+Requires-Dist: notebook
+Requires-Dist: transformers
+Requires-Dist: tqdm
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: regex
+Requires-Dist: sentencepiece
+Requires-Dist: sacremoses
+Requires-Dist: importlib-metadata
+Requires-Dist: tabulate
+Requires-Dist: black
+Requires-Dist: coverage
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-xdist
+
