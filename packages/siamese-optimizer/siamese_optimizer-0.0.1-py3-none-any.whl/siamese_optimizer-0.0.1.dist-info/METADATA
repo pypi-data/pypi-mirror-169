@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: siamese-optimizer
+Version: 0.0.1
+Summary: A Python package for manufacturing and assembly lines simulation and optimization.
+Home-page: https://github.com/GusFurtado/siamese-optimizer
+Author: Gustavo Furtado
+Author-email: gustavofurtado2@gmail.com
+License: MIT
+Download-URL: https://github.com/GusFurtado/siamese-optimizer/archive/0.0.1.tar.gz
+Keywords: python,simulation,networkx,manufacturing,industry,simpy,assembly-line,production-line,line-engineering,manufacturing-line
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: simpy
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/GusFurtado/siamese-optimizer/main/assets/logo.png"><br>
+</div>
+
+---
+
+**SIAMESE** - Simulation of Assembly and Manufacturing Lines
+
+*- yeah, silly acronym, I know...*
+
+## Instalation
+
+- `pip install siamese-optimizer`
+
+## Documentation
+
+- [Getting started](examples/Getting%20Started.ipynb)
+- [Examples folder](examples)
+- Docstrings are available in every main object.
+
+## What can this package do now?
+
+- Build a manufacturing line using machines and buffers instances;
+- Simulate the line with Simpy;
+- Generate plot and reports of results;
+- Draw the line with NetworkX.
+
+## What will this do in the future?
+
+- Otimizations and suggestions, such as changing buffer capacity or machine speed.
+
+## What are the next steps?
+
+- Create an official `Sink` object;
+- Finish `CountFailure` object;
+- Create objects the combine and duplicate entities.
+
+
+## Could you please explain the underlying theory?
+
+- Sure, but I'm kinda busy right now. I'll do it in a probably-near future.
+
+
