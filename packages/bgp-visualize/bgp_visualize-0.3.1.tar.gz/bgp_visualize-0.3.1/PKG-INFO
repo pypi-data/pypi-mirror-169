@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bgp_visualize
+Version: 0.3.1
+Summary: The package is used to visualize BGP Autonomous Systems and draw the interconnections between them. Also, it colors the operators ASN in each country and the upstreams and downstreams services providers.
+Home-page: https://github.com/TheNetworker/visualize_bgp_asns
+Author: Bassem Aly
+Author-email: basim.alyy@gmail.com
+License: MIT License
+Keywords: bgp,network,autonomous system,visualize,automation,networking,devops,netdevopsrouting
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
