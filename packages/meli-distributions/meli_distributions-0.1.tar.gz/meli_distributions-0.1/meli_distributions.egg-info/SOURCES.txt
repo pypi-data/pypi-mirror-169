@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+meli_distributions/Binomialdistribution.py
+meli_distributions/Gaussiandistribution.py
+meli_distributions/Generaldistribution.py
+meli_distributions/__init__.py
+meli_distributions.egg-info/PKG-INFO
+meli_distributions.egg-info/SOURCES.txt
+meli_distributions.egg-info/dependency_links.txt
+meli_distributions.egg-info/not-zip-safe
+meli_distributions.egg-info/top_level.txt
