@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cso_data
+Version: 0.1
+Summary: A handy tool to get cso data in python
+Home-page: https://github.com/Aidzillafont/cso_app
+Author: Aidzillafont
+Author-email: aheffernan0@gmail.com
+License: MIT
