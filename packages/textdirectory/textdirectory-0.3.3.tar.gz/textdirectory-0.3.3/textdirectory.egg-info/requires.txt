@@ -1,0 +1,10 @@
+click
+numpy
+requests
+beautifulsoup4
+spacy
+psutil
+en_core_web_sm
+twine
+lxml
+tqdm
