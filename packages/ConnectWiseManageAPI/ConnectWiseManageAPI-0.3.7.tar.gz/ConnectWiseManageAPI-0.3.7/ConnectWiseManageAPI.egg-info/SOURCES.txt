@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ConnectWiseManageAPI/CWFunctions.py
+ConnectWiseManageAPI/__init__.py
+ConnectWiseManageAPI.egg-info/PKG-INFO
+ConnectWiseManageAPI.egg-info/SOURCES.txt
+ConnectWiseManageAPI.egg-info/dependency_links.txt
+ConnectWiseManageAPI.egg-info/requires.txt
+ConnectWiseManageAPI.egg-info/top_level.txt
