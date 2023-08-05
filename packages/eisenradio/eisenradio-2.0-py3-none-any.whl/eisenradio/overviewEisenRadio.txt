@@ -1,0 +1,39 @@
+Project is the successor of GhettoRecorder and shall provide a database and HTML frontEnd.
+
+    GhettoRecorder Module is the core component and was modified to fit the new project requirements.
+     GhettoRecorder is a multithread module and can open connections until ISP download limit is hit.
+    After time, it was decided to make it a showcase to present the current programming abilities.
+     To bring a show to the stage and earn critics to toughen up.
+
+How is this wired?
+
+ .Flask server is divided by two routes, home and utils. To separate start page from tools and about.
+
+Home
+ indexStructure.txt - Project overview for raw div structure of start page to jump fast in and around.
+ animate.js - spectrum analyser on a canvas animations
+ canvas.js  - animation of the canvas itself to detach the canvas window and make a small show on reconnect
+ index.js   - init stuff and rec and listen traffic of browser to server, dark mode, toggle ...
+ playlist.js - functions to run the local playlist feature with for-/backward controls
+ radioStyles.js - full html css decoration for full animation and low for base, some decoration for recording
+ svgAnimation.js - inkscape inline svg images animated in comic style (zeppelin, checkered balloon, floe by night)
+                    svg are not yet broadly used, so expertise in this niche will pay off soon
+                     info: radio default images are extruded 2d images from eisenradio icon in blender, image shot in 3d png
+                     and then applied 2d inkscape effect on it, idea was to quickly differentiate radios by color;
+
+Utils
+ bp_utils.js - auto button press to hide buttons, write fake lists with div on parent div to color log files,
+                edit/delete blacklists, switch divs to show different tools options
+
+ .The db access is pure sql. There was an attempt to switch to ORM, but the app shall be a reference for sql.
+    To show how to start a project with ORM, a side project Python package was created
+    "Flask-SQLAlchemy-Project-Template 1.1".
+ .All animations can be full or partial disabled to run the app on small devices that can connect a browser.
+ .Audio player for playlist as a folder with for-/backward option, it switches running listening connections off
+ .Biggest block is tools menu.
+  Python modules for:
+    monitor recordings - write recorded files in blacklists, lists can be edited, shows skipped records count
+    Aac file repair - needed to fix incorrectly recorded aac files (no timer used to quit), so playlist not stuck
+    ex-/import radio settings with *ini files
+    ex-/import blacklists with *json files, dictionary style
+    delete all radio table rows to restore from exported *ini file
