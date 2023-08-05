@@ -1,0 +1,11 @@
+README.md
+setup.py
+monotonenorm/SigmaNet.py
+monotonenorm/__init__.py
+monotonenorm/functional.py
+monotonenorm/group.py
+monotonenorm/tests.py
+monotonenorm.egg-info/PKG-INFO
+monotonenorm.egg-info/SOURCES.txt
+monotonenorm.egg-info/dependency_links.txt
+monotonenorm.egg-info/top_level.txt
