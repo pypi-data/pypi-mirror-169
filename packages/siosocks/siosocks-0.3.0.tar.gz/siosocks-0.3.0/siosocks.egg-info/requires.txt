@@ -1,0 +1,10 @@
+
+[dev]
+pytest
+pytest-cov
+pytest-asyncio
+trio
+pytest-trio
+
+[trio]
+trio
