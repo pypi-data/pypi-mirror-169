@@ -1,0 +1,28 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["setuptools", "poetry-core>=1.0.0"]
+
+[tool.poetry]
+authors = ["Côme Arvis <come.arvis@neuronest.net>", "Guillaume Ligner <guillaume.ligner@neuronest.net>"]
+description = "Neuronest core project"
+name = "neuronest"
+packages = [{ include = "neuronest"}]
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+numpy = "^1.23.3"
+opencv-contrib-python = "^4.6.0.66"
+opencv-python = "^4.6.0.66"
+opencv-python-headless = "^4.6.0.66"
+python = ">=3.8,<4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+pylint = "^2.15.2"
+pytest = "^7.1.3"
+pytest-xdist = "^2.5.0"
+toml-sort = "^0.20.1"
