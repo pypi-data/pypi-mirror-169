@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: xtmigrations
+Version: 1.0.2
+Home-page: https://github.com/startechm/xtmigrations
+Author: Startech M
+Author-email: startechm@proton.me
+License: Apache license 2.0
+Keywords: XTMigrations migration sql db upgrade
+License-File: LICENSE
