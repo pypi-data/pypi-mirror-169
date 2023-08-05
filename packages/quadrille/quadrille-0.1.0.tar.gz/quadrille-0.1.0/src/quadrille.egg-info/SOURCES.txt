@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/quadrille/__init__.py
+src/quadrille/__main__.py
+src/quadrille/cogol.py
+src/quadrille/network.py
+src/quadrille/version.py
+src/quadrille.egg-info/PKG-INFO
+src/quadrille.egg-info/SOURCES.txt
+src/quadrille.egg-info/dependency_links.txt
+src/quadrille.egg-info/entry_points.txt
+src/quadrille.egg-info/requires.txt
+src/quadrille.egg-info/top_level.txt
+src/quadrille/data/logger.ini

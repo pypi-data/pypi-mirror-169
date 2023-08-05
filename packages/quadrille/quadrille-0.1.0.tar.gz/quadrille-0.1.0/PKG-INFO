@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: quadrille
+Version: 0.1.0
+Summary: "quadrille - square grid simulations"
+Home-page: https://github.com/sunarch/quadrille
+Author: András Németh (sunarch)
+Author-email: sunarch@protonmail.com
+Maintainer: András Németh (sunarch)
+Maintainer-email: sunarch@protonmail.com
+License: Mozilla Public License 2.0 (MPL 2.0)
+Project-URL: Bug Tracker, https://github.com/sunarch/quadrille/issues
+Keywords: quadrille,sim,simulation,Conway,game of life
+Platform: Any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: System :: Networking
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# quadrille
+
+Square grid simulations
+
+- Conway's Game of Life
+
+## Credits
+
+- Thanks to `bethlenke` at [HSBP](https://hsbp.org) for describing
+  his C algorithm for grid advancement in a Conway implementation
+  which was the starting point of my own approach
+
+## License
+
+[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
+
+```
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+```

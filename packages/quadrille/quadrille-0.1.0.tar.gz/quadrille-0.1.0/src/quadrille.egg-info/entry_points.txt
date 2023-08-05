@@ -1,0 +1,2 @@
+[console_scripts]
+quadrille-cogol = quadrille.__main__:main
