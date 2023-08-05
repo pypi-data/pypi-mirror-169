@@ -1,0 +1,12 @@
+example.py,sha256=raxXyZ9PetjCaym-0fTHcbmwSKzha3cjhGqdaGBg-vk,1682
+script.py,sha256=loTTZ5pFubuXhaf7FHylg9KXvwh_bpCO8uOSMTaixQg,71
+pycrypto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycrypto/crypto.py,sha256=h0SMdq8BHDiYgOHOAFFKXXeyT21OTEPKHswxkO6cvZI,5385
+pycrypto/info.py,sha256=KxTxLihHu5epgOEDsBzhxLoQqrG8JgxMpJ6o7vooNus,1169
+pycrypto/price.py,sha256=JfHVnjwFnNuy7uNeNM1niQJQAnPnG5r8l0ff84kYmng,1576
+pycrypto/util.py,sha256=IEwQVNqpwB9l74h9cAeiFUo9j4BBSuElMkh_rrWytho,3097
+cryptocli-0.0.1.dist-info/METADATA,sha256=pCiVcdASRXhxHlbHCo48p5DVx8AKMF4UgPyjWMetJL8,3846
+cryptocli-0.0.1.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+cryptocli-0.0.1.dist-info/entry_points.txt,sha256=HOO1eJ6WgKNvinWVOKfkSH-Ga8VZA9IgGviZYy8cFsI,51
+cryptocli-0.0.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cryptocli-0.0.1.dist-info/RECORD,,
