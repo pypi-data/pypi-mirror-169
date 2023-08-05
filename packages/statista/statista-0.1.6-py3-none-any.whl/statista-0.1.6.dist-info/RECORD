@@ -1,0 +1,11 @@
+statista/__init__.py,sha256=xotc4hvJIFnuR-0Mj9iGLymcKPOW7JmkN_SZMJSdJiE,1183
+statista/distributions.py,sha256=nNgLwJfLrPzif4a10rCkV85EmiNBSPV-XX1Q4zL8nXU,44574
+statista/metrics.py,sha256=_V3Ly69mpJSHEm--Jcf0J_khjmnPvR4YXZX4UfSj1eo,11318
+statista/parameters.py,sha256=K1JoAz98Mchx4D4cPN_f1bTDAagV4y9YA_whNOxihKQ,9101
+statista/sensitivity.py,sha256=TDWcb_nHpUGiRhwdo6OC6yI4HaAPhTPw2UIpt_Il_II,13919
+statista/tools.py,sha256=5JtYIRmJfM46dm-ZMqn6Gj1ieyOl8r1W0g_aniJXQQM,4892
+statista-0.1.6.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statista-0.1.6.dist-info/LICENSE.md,sha256=EH-Fmd7W6AJflRi9ucTJQ5LCLfNyB_iHMU1XPQ_fBIQ,35591
+statista-0.1.6.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+statista-0.1.6.dist-info/METADATA,sha256=wvJKsFUP2BnFgTu1TI4vJ3foXnpztFolQPOtKpggwUI,6142
+statista-0.1.6.dist-info/RECORD,,
