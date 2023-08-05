@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: frtzbxrdr
+Version: 0.0.1
+Summary: Add a short description here!
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Daniel Ewert
+Author-email: ewert.daniel@gmail.com
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: schedule
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+
+
+.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
+    :alt: Project generated with PyScaffold
+    :target: https://pyscaffold.org/
+
+|
+
+=========
+frtzbxrdr
+=========
+
+
+    Check your fritzbox to see who comes and goes in your WiFi network
+
+
+
+Installation
+============
+
+.. code-block:: bash
+    
+    $ pip install frtzboxrdr
+
+Usage in code
+=============
+
+.. code-block:: python
+
+    from frtzboxrdr import Monitor
+
+    m = Monitor(user, password)
+    m.on_device_connected(lambda mac: print(f" Device {mac} connected!"))
+    m.on_device_disconnected(lambda mac: print(f" Device {mac} disconnected!"))
+    m.run_forever(5)
+
+
+Usage as cli
+============
+
+.. code-block:: bash
+    
+    $ frtzboxrdr <user> <password>
+
+
+.. _pyscaffold-notes:
+
+Note
+====
+
+This project has been set up using PyScaffold 4.3.1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
