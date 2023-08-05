@@ -1,0 +1,7 @@
+PyPDF2
+
+[tests]
+pytest-cov
+pytest-mock
+mock
+assertpy
