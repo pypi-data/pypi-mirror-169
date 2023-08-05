@@ -1,0 +1,5 @@
+VASSAL-stubs
+apps
+jars
+java-stubs
+vassal-python
