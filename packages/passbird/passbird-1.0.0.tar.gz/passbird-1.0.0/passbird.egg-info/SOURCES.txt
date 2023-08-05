@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+passbird/__init__.py
+passbird/passbird.py
+passbird.egg-info/PKG-INFO
+passbird.egg-info/SOURCES.txt
+passbird.egg-info/dependency_links.txt
+passbird.egg-info/entry_points.txt
+passbird.egg-info/requires.txt
+passbird.egg-info/top_level.txt

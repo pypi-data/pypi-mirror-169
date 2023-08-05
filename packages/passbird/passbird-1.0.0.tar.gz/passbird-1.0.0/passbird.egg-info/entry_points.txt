@@ -1,0 +1,2 @@
+[console_scripts]
+passbird = passbird.passbird:main
