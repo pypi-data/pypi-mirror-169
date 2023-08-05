@@ -1,0 +1,10 @@
+README.md
+setup.py
+sudokujf/__init__.py
+sudokujf/__main__.py
+sudokujf/deduc.py
+sudokujf/grille.py
+sudokujf.egg-info/PKG-INFO
+sudokujf.egg-info/SOURCES.txt
+sudokujf.egg-info/dependency_links.txt
+sudokujf.egg-info/top_level.txt
