@@ -1,0 +1,3 @@
+woob
+python-magic
+python-dateutil
