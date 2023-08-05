@@ -1,0 +1,10 @@
+jarowinkler/__init__.py,sha256=Ygfa1kkfqwKoAXoxPFAPl2wG3DU2Eu-nnUrAJw6At90,916
+jarowinkler/__init__.pyi,sha256=zNl4xyG6xd6mKnrDRT9jmERDbKitdlSSPh-qMWs9NPE,588
+jarowinkler/_initialize_cpp.cp36-win32.pyd,sha256=jdJjP5VUE9GLiY93Vc9-pdNdhAn1ULHC-BD2HA3tZ6M,181248
+jarowinkler/_initialize_py.py,sha256=Qp8fqnRp5Avt6UwWjl_toSpqpKInqkgkoL3OEJCsWJM,5839
+jarowinkler/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jarowinkler-1.2.2.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+jarowinkler-1.2.2.dist-info/METADATA,sha256=aNe4KkxVtk7GhY72Th7nxN7lRt3sQzniSguIAp6X0wo,5290
+jarowinkler-1.2.2.dist-info/WHEEL,sha256=dSfWOwuJHjtArICG7OatapISPIdrVsnjRy1HBVnE8b0,91
+jarowinkler-1.2.2.dist-info/top_level.txt,sha256=ZjqECtLGE14oi_6_qPsDYACOf3Ewt_p1FvMH8tfLS1I,12
+jarowinkler-1.2.2.dist-info/RECORD,,
