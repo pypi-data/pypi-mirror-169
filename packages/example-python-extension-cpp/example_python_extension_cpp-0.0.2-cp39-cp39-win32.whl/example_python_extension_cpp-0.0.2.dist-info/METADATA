@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: example-python-extension-cpp
+Version: 0.0.2
+Summary: A minimal C++ extension using pybind11 and vcpkg
+Author: Andreu Gimenez
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
