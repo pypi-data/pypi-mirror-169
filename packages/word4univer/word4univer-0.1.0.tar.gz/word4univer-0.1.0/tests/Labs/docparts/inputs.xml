@@ -1,0 +1,5 @@
+<w:p>
+    <w:r>
+        <w:t>Inputs test: text = {{ inputs.get("text") }}, order = {{ inputs.get("order") }}</w:t>
+    </w:r>
+</w:p>

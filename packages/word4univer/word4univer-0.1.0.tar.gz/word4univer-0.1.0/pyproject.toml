@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "word4univer"
+version = "0.1.0"
+authors = [
+  { name="chiririll", email="sstive39@gmail.com" },
+]
+description = "Library for making labs"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/chiririll/Word4Univer"
+"Bug Tracker" = "https://github.com/chiririll/Word4Univer/issues"
