@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bifold
+Version: 0.731.32
+Summary: BiFold calculates a nuclear potential using the double folding model
+Author-email: Mesut Karakoç <mesutkarakoc@gmail.com>
+Project-URL: Homepage, https://github.com/mkarakoc/bifold
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+## BiFold: A Python code for the calculation of double folded (bifold) <br> potentials with density-in/dependent nucleon-nucleon interactions
+
+BiFold calculates the density-dependent (DDM3Yn, BDM3Yn, CDM3Yn) or independent double folded potentials between two colliding spherical nuclei. It is written in a Python package form to give the ability to use the potentials directly in a nuclear reaction/structure code. In addition to using Woods-Saxon/Fermi or Gaussian functions, the code also allows for the definition of nuclear matter densities using pre-calculated densities in a data file. 
