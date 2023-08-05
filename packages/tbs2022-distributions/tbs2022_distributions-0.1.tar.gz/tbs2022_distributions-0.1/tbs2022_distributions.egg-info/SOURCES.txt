@@ -1,0 +1,10 @@
+setup.py
+tbs2022_distributions/Binomialdistribution.py
+tbs2022_distributions/Gaussiandistribution.py
+tbs2022_distributions/Generaldistribution.py
+tbs2022_distributions/__init__.py
+tbs2022_distributions.egg-info/PKG-INFO
+tbs2022_distributions.egg-info/SOURCES.txt
+tbs2022_distributions.egg-info/dependency_links.txt
+tbs2022_distributions.egg-info/not-zip-safe
+tbs2022_distributions.egg-info/top_level.txt
