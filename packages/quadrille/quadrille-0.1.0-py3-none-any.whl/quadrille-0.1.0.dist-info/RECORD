@@ -1,0 +1,12 @@
+quadrille/__init__.py,sha256=WhmPbAcHG2jGT2GWPdYkDjSlDnf2iKH21v0a2jFJh6o,268
+quadrille/__main__.py,sha256=ejmj3mbY8oSO7vDa0W-vZCrICE6gacV2cn7QugrkCyA,3330
+quadrille/cogol.py,sha256=o4uboJt2xOvqfHTFk97f4-eQG43R9Npw0Hbm37ZXYzQ,3882
+quadrille/network.py,sha256=mH90kvyMNrdH4azDQJA2xw6_Iprt3HRc1ZsexVJWVp8,663
+quadrille/version.py,sha256=FRXpWzgNDuKIsLAqmteWYcZLb8GxP80JqPN2Iw3ANHk,319
+quadrille/data/logger.ini,sha256=wer1-2t_9Ot4_AiDOE1TFOsOLOijjmjZT-i0DcwXxaI,537
+quadrille-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+quadrille-0.1.0.dist-info/METADATA,sha256=G-2N_T46y19WSG_GUERcU6FozWURJ5ZWOhXqsJHn53w,1624
+quadrille-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quadrille-0.1.0.dist-info/entry_points.txt,sha256=PXQ2N6u2-xRSKLlpwhtVdbKgi7EBgUUksG0rKOePHfE,60
+quadrille-0.1.0.dist-info/top_level.txt,sha256=UJL0NX92Ta4h4rIMOeI-xdEjeS-ns3CHfbrHNZ0Cpnk,10
+quadrille-0.1.0.dist-info/RECORD,,
