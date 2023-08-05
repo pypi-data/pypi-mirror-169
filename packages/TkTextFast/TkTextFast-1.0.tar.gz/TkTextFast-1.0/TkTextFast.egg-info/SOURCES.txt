@@ -1,0 +1,7 @@
+setup.py
+TkTextFast/__init__.py
+TkTextFast/using.py
+TkTextFast.egg-info/PKG-INFO
+TkTextFast.egg-info/SOURCES.txt
+TkTextFast.egg-info/dependency_links.txt
+TkTextFast.egg-info/top_level.txt

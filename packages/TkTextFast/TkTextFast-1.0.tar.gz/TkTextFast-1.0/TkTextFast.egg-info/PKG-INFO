@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: TkTextFast
+Version: 1.0
+Summary: 这是方便给Python tkinter Text()文字设置style的快捷库，你值得拥有！
+Home-page: https://github.com/
+Author: Yanming Guo
+Author-email: gyms1111@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
