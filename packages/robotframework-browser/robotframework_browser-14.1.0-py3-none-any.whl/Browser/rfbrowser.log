@@ -1,0 +1,20 @@
+2022-09-23 22:40:27,463 [INFO    ] ==============================================================================================================
+2022-09-23 22:40:27,463 [INFO    ] Installing node dependencies...
+2022-09-23 22:40:27,463 [INFO    ] Installing rfbrowser node dependencies at /Users/snooz/Source/MarketSquare/robotframework-browser/Browser/wrapper
+2022-09-23 22:41:31,856 [INFO    ] 
+
+2022-09-23 22:41:31,857 [INFO    ] added 63 packages, and audited 64 packages in 1m
+
+2022-09-23 22:41:31,857 [INFO    ] 
+
+2022-09-23 22:41:31,857 [INFO    ] 3 packages are looking for funding
+
+2022-09-23 22:41:31,857 [INFO    ]   run `npm fund` for details
+
+2022-09-23 22:41:31,857 [INFO    ] 
+
+2022-09-23 22:41:31,857 [INFO    ] found 0 vulnerabilities
+
+2022-09-23 22:41:31,864 [INFO    ] 
+2022-09-23 22:41:31,864 [INFO    ] rfbrowser init completed
+2022-09-23 22:41:31,864 [INFO    ] ==============================================================================================================
