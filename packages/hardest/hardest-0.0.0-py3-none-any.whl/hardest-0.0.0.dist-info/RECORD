@@ -1,0 +1,12 @@
+hardest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hardest/detectors.py,sha256=meI-ANk0CUbmVCpYHz9_BeQoHW7HcudtYBA3KwRowTo,3040
+hardest/hardness_definitions.py,sha256=iqRAGPjiEMC6bz4Hqk5ZPui7HeUx5Q4C3aNdRD3iWww,819
+hardest/hardness_strategies.py,sha256=W46MP4htP_Op-5AraFJTjhdY7AyIe5opHY820YxoNqY,37177
+hardest/pseudo_ground_truth_models.py,sha256=fXwL_TCRnEiUOT2xbDXaihZsc-Cd4JqTbQX0xuBts2Q,5328
+hardest/pycocotools.py,sha256=YstFn7fqSo4HpL9NpDih6hQY4zJE58xvKeuPaIgFGOQ,18070
+hardest/utils.py,sha256=Q6wSD5aCpVUaB-zmoD9BqzorU3SyHyQtEdib2u0erkg,5494
+hardest-0.0.0.dist-info/LICENSE,sha256=cbYIVRBQu6kLxqMq7pICtx6j0T51BahJ7S5MBZzdxE0,21132
+hardest-0.0.0.dist-info/METADATA,sha256=PAKzb_MBUCVgZdmd62PwkhkjO79ReYg2WVyijnd6kAU,4133
+hardest-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hardest-0.0.0.dist-info/top_level.txt,sha256=u63wsZnW73r3pIZF8U6khHUv2E899bkawCwTpvPVgkw,8
+hardest-0.0.0.dist-info/RECORD,,
