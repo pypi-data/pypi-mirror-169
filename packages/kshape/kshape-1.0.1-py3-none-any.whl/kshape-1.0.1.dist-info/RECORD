@@ -1,0 +1,8 @@
+kshape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kshape/core.py,sha256=BccOgm91yQsXvqeaPKUoMkHYfmNls8sDI4CJeV-Oqbo,4346
+kshape/core_gpu.py,sha256=L4dS4M0sizqP_0IiS151w_XOvsqjfZrlxiwCe-8KvIQ,3856
+kshape-1.0.1.dist-info/METADATA,sha256=7-z-NaGeVRzIalhh9rDgYon2e6QXc-Sf4T9691rHq10,1023
+kshape-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kshape-1.0.1.dist-info/top_level.txt,sha256=q8VRLiaYtY96Cg6eF0U0hS-Zg-aQGHhhqGPe09Pslok,7
+kshape-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kshape-1.0.1.dist-info/RECORD,,
