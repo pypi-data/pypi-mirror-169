@@ -1,0 +1,9 @@
+sunrise_repos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sunrise_repos/archive.py,sha256=Rb75MfQHwme4jnMV8C4B3XGM5U8P2xYkG0dTMBRqET8,1592
+sunrise_repos/cli.py,sha256=GjyLP9yUg9nnS-g_egNv6hCRu8W80nb-cBUAswZKr0Y,341
+sunrise_repos-1.0.2.dist-info/LICENSE.txt,sha256=Caf_9WKXfB_vuX2ijDBDjY3WHm1_XvVx6Lbe7cl_hus,1104
+sunrise_repos-1.0.2.dist-info/METADATA,sha256=dAbPE4tik9QXY5OXw0PoJmhxJRxKO0oGy9p2NBRaeqY,1350
+sunrise_repos-1.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sunrise_repos-1.0.2.dist-info/entry_points.txt,sha256=ncv013JU_-a2794SoIVKZstQ7jOAqxC771LFTsOHs_c,56
+sunrise_repos-1.0.2.dist-info/top_level.txt,sha256=doXynJTzDmijaE_QkX7qRW8MQs6v1xA1OPGlr21v_dM,14
+sunrise_repos-1.0.2.dist-info/RECORD,,
