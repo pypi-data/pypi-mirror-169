@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ibm-wmla-client
+Version: 0.1.1
+Summary: A python based client to simplify using Watson Machine Learning Accelerator
+Home-page: https://github.com/sherryyyu/ibm-wmla-python-client
+License: Apache-2.0
+Author: Shuang Yu
+Author-email: shuang.yu@ibm.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ibm-cloud-sdk-core (>=3.15.3,<4.0.0)
+Requires-Dist: ibm-wmla (>=0.1.0,<0.2.0)
+Requires-Dist: python_dateutil (>=2.5.3,<3.0.0)
+Requires-Dist: requests (>=2.20,<3.0)
+Project-URL: Repository, https://github.com/sherryyyu/ibm-wmla-python-client
+Description-Content-Type: text/x-rst
+
+Welcom to ``ibm-wmla-client``
+-------------------------------
+
+``ibm-wmla-client`` is a python based client to simplify using Watson Machine Learning Accelerator Elastic Distributed Inference (WMLA EDI).
+
+Prerequisites
+--------------------
++ Python 3.5.3 or above
++ `ibm_wmla`_ 0.1.0 or above
+
+.. _ibm_wmla: https://pypi.org/project/ibm-wmla/
+
+
