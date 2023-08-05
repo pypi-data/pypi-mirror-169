@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyramids-gis
+Version: 0.2.5
+Summary: GIS utility package
+Home-page: https://github.com/MAfarrag/pyramids
+License: GNU General Public License v3
+Keywords: GIS,gdal,rasterio
+Author: Mostafa Farrag
+Author-email: moah.farag@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: Fiona (==1.8.21)
+Requires-Dist: GDAL (==3.4.3)
+Requires-Dist: Rtree (>=1.0.0,<2.0.0)
+Requires-Dist: Shapely (>=1.8.4,<2.0.0)
+Requires-Dist: affine (>=2.3.1,<3.0.0)
+Requires-Dist: geopandas (>=0.11.1,<0.12.0)
+Requires-Dist: geopy (>=2.2.0,<3.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: matplotlib (>=3.5.3,<4.0.0)
+Requires-Dist: netCDF4 (>=1.6.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: pyproj (>=3.4.0,<4.0.0)
+Requires-Dist: rasterio (>=1.3.0,<2.0.0)
+Project-URL: Documentation, https://pyramids-gis.readthedocs.io/
+Project-URL: Repository, https://github.com/MAfarrag/pyramids
