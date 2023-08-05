@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+cso_data/__init__.py
+cso_data/cso_grabber.py
+cso_data.egg-info/PKG-INFO
+cso_data.egg-info/SOURCES.txt
+cso_data.egg-info/dependency_links.txt
+cso_data.egg-info/not-zip-safe
+cso_data.egg-info/top_level.txt
