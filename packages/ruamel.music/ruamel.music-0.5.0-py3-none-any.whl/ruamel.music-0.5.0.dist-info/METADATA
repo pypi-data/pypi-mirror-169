@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ruamel.music
+Version: 0.5.0
+Summary: handling of music files: conversion, playing
+Home-page: https://sourceforge.net/p/ruamel-music/code/ci/default/tree
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: Copyright Ruamel bvba 2013-2022
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+Requires-Dist: mutagen
+Requires-Dist: musicbrainzngs
+Requires-Dist: ruamel.yaml
+Requires-Dist: ruamel.doc.html
+Requires-Dist: ruamel.std.pathlib
+
+
+Full description of the package
+
+
+apt-get install faad lame python-musicbrainz2

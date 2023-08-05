@@ -1,0 +1,12 @@
+ruamel.music-0.5.0-py3.10-nspkg.pth,sha256=REN23ka76qAVtiuuP-WSrHAD4leicUsFB_AVCDfRe8U,539
+ruamel/music/__init__.py,sha256=pwW8YRdRScIMcKI5frT-sqtrrfiU1uilgFazIIzFP1k,4975
+ruamel/music/__main__.py,sha256=_ULhAlB1RsuLHD9Pdt_RjpVaFhHb1mEEve4nyp43GAo,11687
+ruamel/music/albumtype.py,sha256=871jJ461H_dI2uADNz6i2ORWgAGEDvfDwHr5lAN0M8U,2038
+ruamel/music/music.py,sha256=bFJGbBgimuYiLZpMAkGhbQNWrZbHQNhvDuUMyZodNak,74211
+ruamel/music/stemanalyser.py,sha256=KiAuRjOul3jVXXOsW0bSiMMd_nfW59rO_ZCsUBTnC_Y,6708
+ruamel.music-0.5.0.dist-info/METADATA,sha256=AhJSgDfHBBtoLXmm5EFUT-GFvDAhTUKygdf-X3dePZY,800
+ruamel.music-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ruamel.music-0.5.0.dist-info/entry_points.txt,sha256=ls4JjnjZ4r5Z8PfYuPEHvAQ1ES2NUVrdkylyevoZBNE,53
+ruamel.music-0.5.0.dist-info/namespace_packages.txt,sha256=lu5ar9ilvyS03jNvS5x9I0_3NwCKkvIlY2k0QH9AArk,7
+ruamel.music-0.5.0.dist-info/top_level.txt,sha256=lu5ar9ilvyS03jNvS5x9I0_3NwCKkvIlY2k0QH9AArk,7
+ruamel.music-0.5.0.dist-info/RECORD,,
