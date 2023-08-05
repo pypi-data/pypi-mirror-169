@@ -1,0 +1,1 @@
+include src/recruiter_notification_app/templates/*.html
