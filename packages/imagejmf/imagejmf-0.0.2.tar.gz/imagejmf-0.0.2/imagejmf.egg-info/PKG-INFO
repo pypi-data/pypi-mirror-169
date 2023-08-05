@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: imagejmf
+Version: 0.0.2
+Summary: Image Processing
+Home-page: https://github.com/joelmaf/bootcamp-tech-unimed/DesafioCriacaoPacotes
+Author: Joelma Ferreira
+Author-email: jmouraf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+
+# Package Name
+### imagejmf
+
+O pacote image-processing-joelmaf é usado para processare imagem. É composto de dois módulos:
+- Módulo "Processing":
+  - Correspondência de histograma;
+  - Similaridade estrutural;
+  - Redimensionar imagem;
+- Módulo "Utils":
+  - Ler imagem;
+  - Salvar imagem;
+  - Plotar imagem;
+  - Resultado do gráfico;
+  - Plotar histograma;
+
+### Instalção do Pacote
+```
+pip install imagejmf
+```
+
+## Uso
+
+```python
+from imagejmf.processing import combination
+combination.find_difference(image1, image2)
+```
+
+## Autor
+Joelma de Moura Ferreira
+
+## Licença
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
