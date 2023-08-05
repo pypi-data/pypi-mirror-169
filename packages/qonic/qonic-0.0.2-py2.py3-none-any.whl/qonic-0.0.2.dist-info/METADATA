@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: qonic
+Version: 0.0.2
+Summary: The Qonic project is an open source, expandable framework for solving problems using hybrid quantum computing solutions.
+Home-page: https://github.com/Qonic-Team/qonic.git
+Author: cogrpar
+Author-email: owen.r.welsh@hotmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/Qonic-Team/qonic/archive/refs/heads/main.zip
+Keywords: qonic,quantum computing
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (>=5.4.1)
+Requires-Dist: dimod (>=0.11.5)
+Requires-Dist: dwavebinarycsp (>=0.2.0)
+Requires-Dist: forest-benchmarking (>=0.8.0)
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: qiskit (>=0.21.2)
+Requires-Dist: sympy (>=1.11)
+Requires-Dist: tequila-basic (>=1.8.1)
+
+# qonic
+The Qonic project is an open source, expandable framework for solving problems using hybrid quantum computing solutions.  The base library includes tools for defining optimization problems to be run on gate quantum computers on a variety of backends or simulators, as well as on simulated or physical quantum annealers.
+
+
