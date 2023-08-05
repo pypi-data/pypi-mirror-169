@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ogo-utils"
+version = "0.1.0"
+description = "This project prefer utils for self working"
+authors = ["ogo-clients <s555133@mail.ru>"]
+homepage = 'https://github.com/VasiliySilver/ogo-utils'
+repository = 'https://github.com/VasiliySilver/ogo-utils'
+readme = "README.md"
+include = ['LICENSE']
+packages = [{include = "ogo_utils"}]
+keywords = ['ogo-utils']
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.1.3"
+pyAesCrypt = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project.scripts]
+realpython = "ogo-utils.__main__:main"
