@@ -1,0 +1,8 @@
+recruiter_notification_app/__init__.py,sha256=bWWqmislkAqUrMe59Kez42Htj9bbhJ5leSrjRgyIxzo,59
+recruiter_notification_app/notification_app.py,sha256=BaBHEyuASujiSqXV0P_xnyizbgQG5ewu2CCtnUtFWBY,3142
+recruiter_notification_app/recruiter_app_mailer.py,sha256=_tm1xORWTDp4hxvjO9fUM52JASWvGuqvQ6t1YZwRFGc,812
+recruiter_notification_app/templates/home.html,sha256=waAGSSvN_qqSqOv4-g7VOOFIY1GbwtJdLBsw8AUXa0Q,1101
+recruiter_notification_app-0.0.13.dist-info/METADATA,sha256=brBCpXLe_ldooQr0nqX9S_wrwF1l9fzMfrdsK5XMg1Y,1526
+recruiter_notification_app-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+recruiter_notification_app-0.0.13.dist-info/top_level.txt,sha256=2yDHBT0pf4NVTNVSeIygqVRRuvBZej4V9CytBEmoTwM,27
+recruiter_notification_app-0.0.13.dist-info/RECORD,,
