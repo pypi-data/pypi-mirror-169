@@ -1,0 +1,4 @@
+lxml
+scispacy
+negspacy
+en_core_sci_md==0.4.0
