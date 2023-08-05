@@ -1,0 +1,14 @@
+pyfredapi/__init__.py,sha256=l6y9zmtVwVYOs5-WYY8HmlBjudGdtvClrrA65h4OeS8,173
+pyfredapi/api/__init__.py,sha256=homyJGe7MnOb8R1QrBnEo7oTPapEQ-Nl6R0GJx3jQBc,149
+pyfredapi/api/base.py,sha256=-MrSwVQvingczDvndLIuUtojaXPKvyXfhw4QvuNoG2U,2491
+pyfredapi/api/category.py,sha256=tIlxH4fRRQMeynizSvONn-oK62FdT89SlwpSns2TkEs,6528
+pyfredapi/api/enum.py,sha256=hEt1gzx3n3XJdit2BYI_0iCbbieqsJZUvFLdSkT0Fls,170
+pyfredapi/api/exceptions.py,sha256=w6dCknWQ8ekSf093INISgun-8ShetV9zuo9pXiF0Rac,1040
+pyfredapi/api/maps.py,sha256=Cls6yNRQTiAUklCg1DOSPVbg4VydJIOx2dVDkuEjp9M,85
+pyfredapi/api/series.py,sha256=kNhqUV9U0VKwClUVVPeNWk81dVhuxKjU7YjyHmCzuO4,15713
+pyfredapi/api/sources.py,sha256=LMrihjzCH2ZcVhKiy9NotQU7xTq4zfB3292gqQUiFlQ,249
+pyfredapi/api/tags.py,sha256=hun-QehpZoaq4tgA5jG9NXMzF-1Azjkk-M2qJ6zNkRM,245
+pyfredapi-0.1.0.post0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyfredapi-0.1.0.post0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pyfredapi-0.1.0.post0.dist-info/METADATA,sha256=yBVN52oM9xEGQ7BlkjBjYD1LUbFC73rxFQ3bH8snTig,2807
+pyfredapi-0.1.0.post0.dist-info/RECORD,,
