@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: sentiment-amazon-analyzer
+Version: 1.0.7
+Summary: Sentiment Amazon Analyzer package
+Home-page: UNKNOWN
+Author: Pavle Aligrudic
+Author-email: <pavleal@email.com>
+License: UNKNOWN
+Description: A small package used in Sentiment Analyzer app used to perform nlp tasks, save and load pickle, import data in datafeame...
+Keywords: sentiment,amazon,analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

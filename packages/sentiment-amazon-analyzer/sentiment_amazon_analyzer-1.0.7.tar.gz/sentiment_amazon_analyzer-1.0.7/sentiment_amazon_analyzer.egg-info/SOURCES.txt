@@ -1,0 +1,17 @@
+README.MD
+sentiment_analyzer.ipynb
+sentiment_analyzer_package_setup.py
+setup.py
+sentiment_amazon_analyzer/__init__.py
+sentiment_amazon_analyzer/data_importer.py
+sentiment_amazon_analyzer/pickler.py
+sentiment_amazon_analyzer/sentiment_pipeline.py
+sentiment_amazon_analyzer/text_normalizer.py
+sentiment_amazon_analyzer/vote_classifier.py
+sentiment_amazon_analyzer/words_tokenizer.py
+sentiment_amazon_analyzer.egg-info/PKG-INFO
+sentiment_amazon_analyzer.egg-info/SOURCES.txt
+sentiment_amazon_analyzer.egg-info/dependency_links.txt
+sentiment_amazon_analyzer.egg-info/requires.txt
+sentiment_amazon_analyzer.egg-info/top_level.txt
+tests/test_sentiment_pipeline.py
