@@ -1,0 +1,10 @@
+surflink/__init__.py,sha256=qBKeigCfqz9x15xYqzzuoPc7_Jz48iHzfqZF6xAyaW8,150
+surflink/document.py,sha256=8roQYAsp8kZsUAaAQib0GvhH9as9dgIpNpooriTZlwk,15254
+surflink/exception.py,sha256=07SW5K_8P-AYDNQzN5rpGft9xEokVIjJLJM2bKZh6tA,349
+surflink/extract.py,sha256=hXvFLzIwgzDgrySFt3Vp3Zq3tm9BPdyZ1MgkmWqPqIw,2059
+surflink/highlevel.py,sha256=9h3hNPVGDz1e3QJELxqc0i76_UYQzMHJC5R0UWSQ7o8,5829
+surflink-0.0.1.dist-info/LICENSE,sha256=BG77YuGBfCBGn9u4ZDNez1RUdIQju_eU8opfKUIRpoE,1083
+surflink-0.0.1.dist-info/METADATA,sha256=HxCt3uP4q8uqONzbceRttBMMft62OGANnkrokFb64Rw,6537
+surflink-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+surflink-0.0.1.dist-info/top_level.txt,sha256=mWjxMQWsT66mtj1PvHAW4ULeGqM6TPZSD0qJ24nUWLo,9
+surflink-0.0.1.dist-info/RECORD,,
