@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "pfd"
+version = "0.5.2"
+description = "Parallel Fast Downloader"
+authors = [ "Sumanth <sumanthreddystar@gmail.com>" ]
+maintainers = [ "Sumanth <sumanthreddystar@gmail.com>" ]
+readme = "README.md"
+
+homepage = "https://pypi.org/project/pfd/"
+repository = "https://github.com/insumanth/pfd"
+documentation = "https://github.com/insumanth/pfd/blob/main/README.md"
+
+keywords = [
+    "pfd",
+    "cli",
+    "downloader",
+    "multiprocess",
+    "files",
+    "fast",
+    "requests",
+    "Parallel Fast Downloader",
+    "Concurrent Fast Downloader",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/insumanth/pfd/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests= "^2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pfd = "pfd.paralleldownloadcli:start"
+paralleldownload = "pfd.paralleldownloadcli:start"
+
+
