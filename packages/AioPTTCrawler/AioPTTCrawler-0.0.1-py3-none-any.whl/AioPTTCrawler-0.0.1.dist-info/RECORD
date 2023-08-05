@@ -1,0 +1,13 @@
+AioPTTCrawler/__init__.py,sha256=FtHD5h_cfAGH6D_4nj8r4_zpygx4ld-nCMmejpBS6ns,38
+AioPTTCrawler/crawler.py,sha256=3WD1OxVaj5FASVyspxWjSs5EeW6UrTn_9G2D1ug_qq4,9934
+AioPTTCrawler/ptt_crawler.py,sha256=ndGKAyVxVgLg-15dvxD--ZHsCTnIDfQXt6rgDFLPB7M,2624
+AioPTTCrawler/ptt_data.py,sha256=-_ZltDRHBgKSUCn-bN7n9kVdKjMw9ANTE4qY92HrlmQ,3533
+AioPTTCrawler/model/__init__.py,sha256=rXe7QC0HKR4qMg2Y5Gfvio3mN-yrSvqdLGuQiyvzjFw,88
+AioPTTCrawler/model/article.py,sha256=dSFK0iIf-YTk1-E9fvNVQ3k1rb_W0RxVelZy3gUVa4I,1885
+AioPTTCrawler/model/author.py,sha256=3KxVTk3avUS7INB3jkLhl34flCHbn-oqF1iRUXiDm-E,162
+AioPTTCrawler/model/comment.py,sha256=8GfVziUkUA3X2jclyDWNdRhd-TgbGd-27us2Z-2jJGI,1159
+AioPTTCrawler-0.0.1.dist-info/LICENSE,sha256=FRXO1hOuIcX_hO1xEI7_8a_TkEV_TNPcZsWQliWXQ7E,1083
+AioPTTCrawler-0.0.1.dist-info/METADATA,sha256=rYken57mmuSOW7Fq9YW7sOWx5L2nnn-jJqB80QRjA9g,615
+AioPTTCrawler-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AioPTTCrawler-0.0.1.dist-info/top_level.txt,sha256=YSs0zyZCUlRXlGOZhu6yo4uEqugLApsDGJDjkRUgREM,14
+AioPTTCrawler-0.0.1.dist-info/RECORD,,
