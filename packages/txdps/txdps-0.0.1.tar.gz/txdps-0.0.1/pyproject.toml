@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "requests", "datetime"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txdps"
+version = "0.0.1"
+authors = [
+  { name="Han-Hsuan Lin", email="hhl@utexas.edu" },
+]
+description = "Python package to deal with Texas DPS Appointments"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jercymat/txdps.py"
+"Bug Tracker" = "https://github.com/jercymat/txdps.py/issues"

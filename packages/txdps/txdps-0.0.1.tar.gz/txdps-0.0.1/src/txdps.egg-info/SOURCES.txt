@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/txdps/__init__.py
+src/txdps/enums.py
+src/txdps/txdps.py
+src/txdps.egg-info/PKG-INFO
+src/txdps.egg-info/SOURCES.txt
+src/txdps.egg-info/dependency_links.txt
+src/txdps.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: txdps
+Version: 0.0.1
+Summary: Python package to deal with Texas DPS Appointments
+Author-email: Han-Hsuan Lin <hhl@utexas.edu>
+Project-URL: Homepage, https://github.com/jercymat/txdps.py
+Project-URL: Bug Tracker, https://github.com/jercymat/txdps.py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# txdps.py
+Tired of refreshing website for a TX DPS Appointment? Now do it programmatically!
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+## Features
+* Check existing appointment
+* Find available time slots at nearby DPS offices
+* Get earlist time slot nearby
+* Book an appointment programmatically
+
+## Table of Contents
+
+## Getting Started
