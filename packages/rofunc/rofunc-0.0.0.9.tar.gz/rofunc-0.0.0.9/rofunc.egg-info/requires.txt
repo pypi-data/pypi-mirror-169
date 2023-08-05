@@ -1,0 +1,11 @@
+matplotlib
+pandas
+tqdm
+pillow
+pytransform3d
+tensorflow
+numpy==1.21.6
+nestle
+omegaconf
+hydra-core
+opencv-python
