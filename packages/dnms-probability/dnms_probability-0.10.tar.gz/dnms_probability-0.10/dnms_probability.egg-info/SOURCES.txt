@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+dnms_probability/Binomialdistribution.py
+dnms_probability/Gaussiandistribution.py
+dnms_probability/Generaldistribution.py
+dnms_probability/__init__.py
+dnms_probability.egg-info/PKG-INFO
+dnms_probability.egg-info/SOURCES.txt
+dnms_probability.egg-info/dependency_links.txt
+dnms_probability.egg-info/not-zip-safe
+dnms_probability.egg-info/top_level.txt

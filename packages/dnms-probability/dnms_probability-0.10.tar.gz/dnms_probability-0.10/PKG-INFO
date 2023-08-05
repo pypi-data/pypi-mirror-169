@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dnms_probability
+Version: 0.10
+Summary: Gaussian and Binomial distributions
+Author: James Oyebade
+Author-email: jamesthepink@gmail.com
+License-File: license.txt
