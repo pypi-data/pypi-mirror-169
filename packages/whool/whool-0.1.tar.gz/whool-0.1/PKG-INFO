@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: whool
+Version: 0.1
+Summary: whool - build backend for Odoo addons
+Project-URL: Homepage, https://github.com/acsone/whool
+Project-URL: Documentation, https://whool.readthedocs.io/en/stable/
+Project-URL: Changelog, https://whool.readthedocs.io/en/stable/changelog.html
+Project-URL: Source, https://github.com/acsone/whool
+Author-email: Stéphane Bidoul <stephane.bidoul@acsone.eu>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Odoo
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: importlib-metadata; python_version < '3.8'
+Requires-Dist: manifestoo-core[metadata]>=0.8
+Requires-Dist: tomli; python_version < '3.11'
+Requires-Dist: wheel==0.37.1
+Provides-Extra: doc
+Requires-Dist: furo; extra == 'doc'
+Requires-Dist: myst-parser; extra == 'doc'
+Requires-Dist: sphinx; extra == 'doc'
+Requires-Dist: sphinxcontrib-towncrier; extra == 'doc'
+Requires-Dist: towncrier; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage[toml]; extra == 'test'
+Requires-Dist: mypy; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# whool - Package Odoo Addons as Python Wheels
+
+!!! pre-alpha work in progress...
+
+This project is the successor of setuptools-odoo, as a PEP 517 build backend.
+
+It also provides a convenience CLI to build and install addons, although
+this can also be achieved with regular Python packaging ecosystem tools
+such as `pip` and `build`.
+
+Main expected benefit: the setup directory is replaced by
+a `pyproject.toml` file at the root of each addon. So it's less intrusive,
+and does not need symbolic links so it works better on platforms where
+symlinks are problematic.
+
+It currently depends on `setuptools-odoo` where the logic to extract
+Python Package Metadata from Odoo Addon Manifests resides.
