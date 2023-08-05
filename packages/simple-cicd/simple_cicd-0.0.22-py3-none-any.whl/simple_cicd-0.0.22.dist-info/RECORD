@@ -1,0 +1,11 @@
+simple_cicd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_cicd/ci_files.py,sha256=7M5DV46LQWIYZ5p_s3ezJJ5mqkDDmyPbnEJb5jeAuc8,1071
+simple_cicd/functions.py,sha256=MEvr7TTrFuyNaENTMu3WXgUhrbCjqcRCnylEbTis5dQ,15040
+simple_cicd/script_parsing.py,sha256=mJSKObaBWUlLBPhA-DnlYQ_pyrE9hamYixC1pea1BQo,6702
+simple_cicd/simple_cicd.py,sha256=hM4owIbQ8qrfO2WVWmvYBlz2HljE6z58q8Xggrt21zs,4209
+simple_cicd-0.0.22.dist-info/LICENSE,sha256=MuQIbPiHsy6QZ6ckn_gUF_8xqYYdSQQmLaNWUGr2NIA,34459
+simple_cicd-0.0.22.dist-info/METADATA,sha256=J9S5iTwj5Z7nOrG-BRkxgDalHhrdPW6AyOn8djGwYK4,3750
+simple_cicd-0.0.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simple_cicd-0.0.22.dist-info/entry_points.txt,sha256=b8UckeKo0H1BlG9RRKY2gipBydrHlLDGgDyhU9W5TOk,58
+simple_cicd-0.0.22.dist-info/top_level.txt,sha256=BBxXPy8ozKY5dV88FXf6cuEhe7lG8Pi5rzI-9U-6ZTI,12
+simple_cicd-0.0.22.dist-info/RECORD,,
