@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cdrnn
+Version: 0.8.0
+Summary: A toolkit for continuous-time deconvolutional regression (CDR)
+Home-page: https://github.com/coryshain/cdr
+Author: Cory Shain
+Author-email: cory.shain@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
