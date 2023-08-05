@@ -1,0 +1,6 @@
+
+[all]
+pygments>=2.7.3
+
+[code_syntax_highlighting]
+pygments>=2.7.3
