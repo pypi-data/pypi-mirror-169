@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ibm-wmla
+Version: 0.1.1
+Summary: Python client library for IBM Watson Machine Learning Accelerator
+Home-page: https://github.com/sherryyyu/ibm-wmla-python-sdk
+License: Apache-2.0
+Author: Shuang Yu
+Author-email: shuang.yu@ibm.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ibm-cloud-sdk-core (>=3.15.3,<4.0.0)
+Requires-Dist: python_dateutil (>=2.5.3,<3.0.0)
+Requires-Dist: requests (>=2.20,<3.0)
+Project-URL: Repository, https://github.com/sherryyyu/ibm-wmla-python-sdk
+Description-Content-Type: text/x-rst
+
+Welcom to ``ibm-wmla``
+=======================
+
+``ibm-wmla`` is a Python library that allows to work with IBM Watson Machine Learning Accelerator.
+
+`IBM Watson Machine Learning Accelerator Inference APIs`_
+
+.. _IBM Watson Machine Learning Accelerator Inference APIs: https://www.ibm.com/docs/en/wmla/2.3?topic=workload-inference
+
+
