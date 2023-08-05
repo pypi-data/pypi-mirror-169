@@ -1,0 +1,2 @@
+[console_scripts]
+migrate-code = migrate_code.cli:app

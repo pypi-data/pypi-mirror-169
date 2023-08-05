@@ -1,0 +1,13 @@
+migrate_code/__about__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+migrate_code/__init__.py,sha256=xHQdfZnYyBETajetUWJCVwr-qNbvi8Ho9HjUndhkL3k,198
+migrate_code/cli.py,sha256=W4oRqxMPRvyttR5Wf1ullQcNQ2BcISSVUeWjszV1Nc0,2483
+migrate_code/cli_utils.py,sha256=b-s6IrJHWih-cPklorVKBi8ahyhVIKz5HdZDGQSpwbI,687
+migrate_code/git_utils.py,sha256=B_prIXWcSlb5zYi2zsUXZKIzTs0D9vt4t_a8jL54D1E,1906
+migrate_code/migration.py,sha256=h9mtsX8g1KvZf5f67W5WpOU503GVqY4WIIynOptf2lM,9935
+migrate_code/models.py,sha256=FfaREwIi9Zq76LaHh10re7GIp0Bv8b0o2Hz11Fo-R7Y,2074
+migrate_code/types.py,sha256=JVU-uMWRJWukqMS4qMJFJ9IdMcVSs-wl02JmBK9QSO0,793
+migrate_code-1.0.0.dist-info/METADATA,sha256=YdgMsnGffM-2xdqOnJ1vHQBtzX8zl-x4sjjt9D_pWZc,3530
+migrate_code-1.0.0.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+migrate_code-1.0.0.dist-info/entry_points.txt,sha256=mxIlwAY0ahNB6QwbDLd47NtYS4qhAkdMctljFYipIhA,54
+migrate_code-1.0.0.dist-info/licenses/LICENSE.txt,sha256=WoRNKNLVB6HCNckbVR4AT2wbrnO_62fwFanrp8uw2bk,1112
+migrate_code-1.0.0.dist-info/RECORD,,
