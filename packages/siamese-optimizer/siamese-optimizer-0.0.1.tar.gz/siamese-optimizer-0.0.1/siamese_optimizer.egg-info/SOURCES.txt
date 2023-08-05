@@ -1,0 +1,25 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+assets/logo.png
+examples/Getting Started.ipynb
+examples/Multiple Lines.ipynb
+examples/Shared Buffer.ipynb
+siamese/__init__.py
+siamese/_reports.py
+siamese/_stats.py
+siamese/distributions.py
+siamese/failures.py
+siamese/status.py
+siamese/models/base.py
+siamese/models/buffer.py
+siamese/models/line.py
+siamese/models/machine.py
+siamese/models/source.py
+siamese_optimizer.egg-info/PKG-INFO
+siamese_optimizer.egg-info/SOURCES.txt
+siamese_optimizer.egg-info/dependency_links.txt
+siamese_optimizer.egg-info/requires.txt
+siamese_optimizer.egg-info/top_level.txt
