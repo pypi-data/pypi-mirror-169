@@ -1,0 +1,4 @@
+pyjwt
+strawberry-graphql
+django
+phonenumbers
