@@ -1,0 +1,12 @@
+percepthor/__init__.py,sha256=aG5uQ_84lFcarifplPyct2LiZFxkFarMvReaMxlziNA,164
+percepthor/auth.py,sha256=FjN7JyXDY1dZQT0F2HInprBUEDjGEl4pb80xSY_gWXA,4338
+percepthor/lib.py,sha256=jBMF2-URijKUpUz6tADjyFVPAQp9AA17_OtlHbgBOzE,63
+percepthor/permissions.py,sha256=E02ITYn0GvZUj3JTXLaWQeBTh23lepznsMAzhBHsoMI,751
+percepthor/routes.py,sha256=yszgo_GS1Zouff4zrkLV_5J4GBuRS4rZRI-e_wbvRIg,4887
+percepthor/service.py,sha256=VSamss1u9C7Zt_j8ZdqYYZ9Bcdv3jc5zPjheSQkWZWM,460
+percepthor/validation.py,sha256=F-Y3RAOiwIHsytKOdZqnA5mNKa3HvhgFHoowQQ-MOVs,4816
+percepthor/version.py,sha256=DQP5JgmOTejQ8xoQo8HF_1FrujV9kKDHGtRQBcRxyzs,1309
+percepthor-0.6.1.dist-info/METADATA,sha256=GdxaRYOaSa8HscWtU1c2iz76W62EENvz45aN8lLEe1E,847
+percepthor-0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+percepthor-0.6.1.dist-info/top_level.txt,sha256=UwIdn8PfePoAiMSC5BCsQMgcBlP_qJBBrWf2gLuf-1k,11
+percepthor-0.6.1.dist-info/RECORD,,
