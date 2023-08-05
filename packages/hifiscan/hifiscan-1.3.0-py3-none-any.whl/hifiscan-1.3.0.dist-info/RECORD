@@ -1,0 +1,12 @@
+hifiscan/__init__.py,sha256=6g2eqXMk-XfemwRglHgfjxIeHKHFsSjwcDIBtJv0a2U,310
+hifiscan/__main__.py,sha256=xo7wAS3AMQzfwk3FuMeUuDehZNAyUr7VrKpdp3xS8Dg,69
+hifiscan/analyzer.py,sha256=LppuH2FMrmw02ISl2AoPCnxPeJYj8RBiriBKEAs_g-8,13796
+hifiscan/app.py,sha256=yLiUUbjltLoctH525ZPddZW-MXmhqVam2jD3S-LgyiQ,16908
+hifiscan/audio.py,sha256=DKaHfjwXzF5xBv_csHb9ML3yWK6Uz79mEhNlowodRkc,2615
+hifiscan/io_.py,sha256=56f30dpqk95ciLEbIP9C_sVmuwGYD4dWe8WTdxGi68A,2744
+hifiscan-1.3.0.dist-info/LICENSE,sha256=dfPn0I0kShN-NjTK_3yECyoWMDnq5Rp6NrZehMvIM7o,1317
+hifiscan-1.3.0.dist-info/METADATA,sha256=uiPTn1Og94NBqkCTBmwyqWZVYkeT2hHySS-_02sB29o,10769
+hifiscan-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hifiscan-1.3.0.dist-info/entry_points.txt,sha256=BL7iY5eftWDEcNF9T-vsIHiJ2ziD6ujqwy5cg2M7g7s,43
+hifiscan-1.3.0.dist-info/top_level.txt,sha256=wxuGp2IIl2jqdyIeQk5V0tVB_IbnorJ6aWDCZ8uMklA,9
+hifiscan-1.3.0.dist-info/RECORD,,
