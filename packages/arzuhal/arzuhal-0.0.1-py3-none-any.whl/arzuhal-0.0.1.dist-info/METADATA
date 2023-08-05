@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: arzuhal
+Version: 0.0.1
+Summary: No description
+License: GPL-3.0-or-later
+Author: Oguzhan Yilmaz
+Author-email: oguzhanylmz271@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: boto3 (>=1.24.80,<2.0.0)
+Requires-Dist: inflect (>=6.0.0,<7.0.0)
+Requires-Dist: jmespath (>=1.0.1,<2.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: termcolor (>=2.0.1,<3.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# arzuhal
