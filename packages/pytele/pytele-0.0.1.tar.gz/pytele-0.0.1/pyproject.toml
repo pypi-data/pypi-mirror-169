@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pytele"
+version = "0.0.1"
+description = ""
+authors = ["Jordan Raychev <jpraychev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "telegram"}]
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

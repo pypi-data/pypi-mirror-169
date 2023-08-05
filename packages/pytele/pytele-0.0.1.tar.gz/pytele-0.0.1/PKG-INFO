@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pytele
+Version: 0.0.1
+Summary: 
+Author: Jordan Raychev
+Author-email: jpraychev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Simplest telegram bot
+The simplest telegram bot out there that could be embedded into your apps as a notification service
+and could listen for remote commands and executes them.
+
+# Installation
+```
+pip install pytele
+```
+
+# Introduction
+The telegram bot is under development right now and only the notification service workst them as environment variables respectively RECAPTCHA_SITE_KEY and RECAPTCHA_SECRET_KEY.
+
+```
+from telegram import Bot
+
+bot = Bot() # takens the BOT's token from environment variables - TELEGRAM_BOT_TOKEN
+bot.send_msg(to='chait_id', msg='your message')
+```
