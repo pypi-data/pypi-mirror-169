@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+slicemap/LICENSE.txt
+slicemap/README.md
+slicemap/__init__.py
+slicemap.egg-info/PKG-INFO
+slicemap.egg-info/SOURCES.txt
+slicemap.egg-info/dependency_links.txt
+slicemap.egg-info/requires.txt
+slicemap.egg-info/top_level.txt
+slicemap/source/__init__.py
+slicemap/source/benchmarks.py
+slicemap/source/plotting.py
+slicemap/source/slicemap.py
+slicemap/source/test_all.py
