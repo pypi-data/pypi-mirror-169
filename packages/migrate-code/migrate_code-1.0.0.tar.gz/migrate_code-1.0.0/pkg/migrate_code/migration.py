@@ -1,0 +1,246 @@
+from collections.abc import Callable
+from pathlib import Path
+
+from migrate_code.git_utils import (
+    add_and_commit,
+    get_commit_messages,
+    get_current_sha,
+    get_repo_root,
+    is_repo_clean,
+    reset_latest_commit,
+)
+from migrate_code.models import LogEntry, MigrationRecord, MigrationStage
+from migrate_code.types import OriginalMigrationFunc, StageId
+
+GIT_MIGRATION_RECORD_DELIMITER = "\n\nmigrate-code record:\n"
+
+
+class Migration:
+    registry: list[MigrationStage] = []
+
+    def __init__(self, name: str):
+        self.name = name
+
+    def __repr__(self):
+        return f"Migration({self.name!r})"
+
+    def add_stage(
+        self,
+        stage: int | str | tuple[int, ...],
+        description: str,
+    ) -> Callable[[OriginalMigrationFunc], MigrationStage]:
+        def decorator(func: OriginalMigrationFunc) -> MigrationStage:
+            migration = MigrationStage(
+                record=MigrationRecord(
+                    stage_id=StageId.validate(stage),
+                    migration_name=self.name,
+                ),
+                description=description,
+                action=func,
+            )
+            self.registry.append(migration)
+            return migration
+
+        return decorator
+
+    def get_stage_from_record(self, record: MigrationRecord) -> MigrationStage | None:
+        for stage in self.registry:
+            if stage.record == record:
+                return stage
+        return None
+
+    def get_migration_commits(self) -> dict[str, MigrationStage]:
+        shas_and_messages = get_commit_messages()
+        migration_commits: dict[str, MigrationStage] = {}
+        for sha, message in shas_and_messages.items():
+            if GIT_MIGRATION_RECORD_DELIMITER in message:
+                _, record_raw = message.split(GIT_MIGRATION_RECORD_DELIMITER)
+                record = MigrationRecord.parse_raw(record_raw)
+                if record.migration_name == self.name:
+                    stage = self.get_stage_from_record(record)
+                    if stage is None:
+                        raise RuntimeError(
+                            f"Unknown migration record {record} in commit {sha}"
+                        )
+                    migration_commits[sha] = stage
+        return migration_commits
+
+    def get_applied_and_unapplied_stages(
+        self,
+    ) -> tuple[list[MigrationStage], list[MigrationStage]]:
+
+        # TODO: Handle reverted stages
+        # TODO: clean up name
+        known_stage_ids = [stage.id for stage in self.registry]
+        if len(known_stage_ids) != len(set(known_stage_ids)):
+            raise RuntimeError("Duplicate migration stages")
+
+        sorted_registry = sorted(self.registry)
+        migration_commits = self.get_migration_commits()
+        applied_stages: list[MigrationStage] = []
+        for (sha, record), expected in zip(migration_commits.items(), sorted_registry):
+            if record != expected:
+                raise RuntimeError(
+                    f"Migration record mismatch for commit {sha}. "
+                    f"Expected {expected}, got {record}"
+                )
+            applied_stages.append(expected)
+        if len(migration_commits) > len(sorted_registry):
+            sha, record = list(migration_commits.items())[len(sorted_registry)]
+            raise RuntimeError(f"Unexpected migration record {record} in commit {sha}")
+        unapplied_stages = sorted_registry[len(applied_stages) :]
+        return applied_stages, unapplied_stages
+
+    def get_latest_applied_stage(self) -> MigrationStage:
+        applied_stages, _ = self.get_applied_and_unapplied_stages()
+        if applied_stages:
+            return applied_stages[-1]
+        else:
+
+            def raise_error():
+                raise RuntimeError("Tried to execute a fake migration")
+
+            return MigrationStage(
+                record=MigrationRecord(stage_id=StageId(()), migration_name=self.name),
+                description="None",
+                action=raise_error,
+            )
+
+    def execute_migration_stage(
+        self, migration_stage: MigrationStage, migration_file: Path
+    ) -> None:
+        repo_root = get_repo_root(migration_file)
+        relative_path = migration_file.relative_to(repo_root)
+        if not is_repo_clean():
+            raise RuntimeError("Cannot execute migration when repo is dirty")
+        applied_stages, _ = self.get_applied_and_unapplied_stages()
+        if migration_stage in applied_stages:
+            raise RuntimeError("Migration stage already applied")
+        if migration_stage <= self.get_latest_applied_stage():
+            raise RuntimeError(
+                f"Cannot execute migration stage {migration_stage.id} "
+                f"not greater than the current stage {self.get_latest_applied_stage()}"
+            )
+        print(f"Running migration {migration_stage.id}: {migration_stage.description}")
+        migration_stage()
+        message = (
+            f"{migration_stage.description}\n\n"
+            f"Generated by running migrate-code on:\n{relative_path}"
+            f"{GIT_MIGRATION_RECORD_DELIMITER}"
+            f"{migration_stage.record.json()}"
+        )
+        add_and_commit(message)
+
+    def upgrade_to(self, stage_id: StageId, migration_file: Path) -> None:
+        current_stage = self.get_latest_applied_stage()
+        _, unapplied_stages = self.get_applied_and_unapplied_stages()
+        if stage_id == current_stage.id:
+            return
+        if stage_id < current_stage.id:
+            raise RuntimeError(
+                f"Cannot update to stage {stage_id} when current stage is already "
+                f"{current_stage.id}"
+            )
+        if stage_id not in [s.id for s in unapplied_stages]:
+            raise RuntimeError(f"Cannot update to unknown stage {stage_id}")
+        for migration_stage in unapplied_stages:
+            self.execute_migration_stage(migration_stage, migration_file)
+            if migration_stage.id == stage_id:
+                break
+
+    def reset_to(self, stage_id: StageId) -> None:
+        current_stage = self.get_latest_applied_stage()
+        applied_stages, unapplied_stages = self.get_applied_and_unapplied_stages()
+        if stage_id == current_stage.id:
+            return
+        if stage_id > current_stage.id:
+            raise RuntimeError(
+                f"Cannot reset to stage {stage_id} when current stage is "
+                f"{current_stage.id}"
+            )
+        if stage_id != () and stage_id not in [s.id for s in applied_stages]:
+            raise RuntimeError(f"Cannot reset to unknown stage {stage_id}")
+        for migration_stage in reversed(applied_stages):
+            if migration_stage.id == stage_id:
+                break
+            self.reset_migration_stage(migration_stage)
+
+    def reset_migration_stage(self, migration_stage_to_revert: MigrationStage):
+        # The stage to revert should be the latest applied stage, and also
+        # correspond to the latest Git commit.
+        latest_applied_stage = self.get_latest_applied_stage()
+        if latest_applied_stage != migration_stage_to_revert:
+            raise RuntimeError(
+                f"Cannot reset stage {migration_stage_to_revert.id} when "
+                f"current stage is {latest_applied_stage.id}"
+            )
+        current_sha = get_current_sha()
+        migration_commits = self.get_migration_commits()
+        if current_sha not in migration_commits:
+            raise RuntimeError(
+                f"Cannot reset migration stage "
+                f"{migration_stage_to_revert.id} "
+                f"when not on a migration commit"
+            )
+        migration_record_current_commit = migration_commits[current_sha]
+        if migration_record_current_commit != migration_stage_to_revert:
+            raise RuntimeError(
+                f"Cannot reset migration stage "
+                f"{migration_stage_to_revert.id} "
+                f"when current commit is not for that stage"
+            )
+        if not is_repo_clean():
+            raise RuntimeError("Cannot execute migration when repo is dirty")
+        print(
+            f"Resetting migration {migration_stage_to_revert.id}: "
+            f"{migration_stage_to_revert.description}"
+        )
+        reset_latest_commit()
+
+    def get_head_migration_stage(self) -> MigrationStage | None:
+        if len(self.registry) == 0:
+            return None
+        sorted_registry = sorted(self.registry)
+        return sorted_registry[-1]
+
+    def get_sha_of_migration_stage(
+        self,
+        stage: MigrationStage,
+        migration_commits: dict[str, MigrationStage] | None = None,
+    ) -> str | None:
+        if migration_commits is None:
+            migration_commits = self.get_migration_commits()
+        if stage in migration_commits.values():
+            return list(migration_commits.keys())[
+                list(migration_commits.values()).index(stage)
+            ]
+        else:
+            return None
+
+    def get_log(self) -> list[LogEntry]:
+        log_entries: list[LogEntry] = []
+        current_sha = get_current_sha()
+        migration_commits = self.get_migration_commits()
+        applied_stages, unapplied_stages = self.get_applied_and_unapplied_stages()
+        for stage in reversed(unapplied_stages):
+            log_entries.append(
+                LogEntry(
+                    sha=None,
+                    stage=stage,
+                    applied=False,
+                    is_current_sha=False,
+                )
+            )
+        for stage in reversed(applied_stages):
+            sha = self.get_sha_of_migration_stage(
+                stage, migration_commits=migration_commits
+            )
+            log_entries.append(
+                LogEntry(
+                    sha=sha,
+                    stage=stage,
+                    applied=True,
+                    is_current_sha=(sha == current_sha),
+                )
+            )
+        return log_entries
