@@ -1,0 +1,14 @@
+stlib/__init__.py,sha256=UCNjyBrppTE0ETbVsCBIb5K4sJwnsRi2Td6v7nHDeg0,3466
+stlib/client.py,sha256=mR00hKPL9AQNt_h9ngPdTb7zjxwl2F4fsFEf1y6FHOo,3384
+stlib/community.py,sha256=NHWXZjeu-rqh5Se2w1deK8jTMO3t-y0mom4CXzyoREQ,19087
+stlib/internals.py,sha256=mkoS-ostAezQg9lFANDuUWrxrsKNA4pg0munXR58AfQ,7523
+stlib/login.py,sha256=utwfb3yswYwcYEb4Wcdj2eXupXayeo32PG4zwi8Q32E,10715
+stlib/plugins.py,sha256=VJdQ_NR7We0ZLLFOe_m4-mOMMioxamtzJyhrJ1hRmoo,5461
+stlib/universe.py,sha256=UgwAOYTt2R28S4azFzPd8JmxGnIak7KNdzGcl7mXqHg,5714
+stlib/utils.py,sha256=2YfThklEu4XJ5VS9IddSfNzsgWoqL-aLSzvDYAT9k0E,11039
+stlib/webapi.py,sha256=fr5eRXrC-2z1J5i2acFaTOTNjni8EEEM_XglD_Td8_M,10497
+stlib-1.0.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+stlib-1.0.dist-info/METADATA,sha256=od3E0JeRJSFD2GrM1gS4U-f0_TL4_EoWRgublS0O0Z0,1044
+stlib-1.0.dist-info/WHEEL,sha256=JAvcZl3UVHgUlp83wwYaiY-BlmlsZk11qplEn9qtFnU,105
+stlib-1.0.dist-info/top_level.txt,sha256=P6YtaUVVFF7eazFuD59rI2QdXLbDAPFGwE8LiUuLzco,6
+stlib-1.0.dist-info/RECORD,,
