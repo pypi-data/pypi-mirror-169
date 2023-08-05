@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+eisenradio_apk/LICENSE
+eisenradio_apk/__init__.py
+eisenradio_apk/eisenradio-2.0-arm64-v8a-debug.apk
+eisenradio_apk.egg-info/PKG-INFO
+eisenradio_apk.egg-info/SOURCES.txt
+eisenradio_apk.egg-info/dependency_links.txt
+eisenradio_apk.egg-info/top_level.txt
+eisenradio_apk/src/EisenRadio_launcher_round.png
+eisenradio_apk/src/eisenradio_android.db
+eisenradio_apk/src/in_it.py
+eisenradio_apk/src/main.py
+eisenradio_apk/src/splash1440.png

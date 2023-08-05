@@ -1,0 +1,13 @@
+global-exclude *.py[cod] __pycache__ *.so
+include MANIFEST.in
+include LICENSE
+include README.md
+include eisenradio_apk/eisenradio-2.0-arm64-v8a-debug.apk
+
+include eisenradio_apk/eisenradio_android.txt
+include eisenradio_apk/LICENSE
+include eisenradio_apk/src/in_it.py
+include eisenradio_apk/src/main.py
+include eisenradio_apk/src/eisenradio_android.db
+include eisenradio_apk/src/EisenRadio_launcher_round.png
+include eisenradio_apk/src/splash1440.png
