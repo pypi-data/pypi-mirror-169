@@ -1,0 +1,10 @@
+retracto/.env,sha256=SbKsOaxGget7Q6u9L7OH8jwqHzA8XEgmCGeJ3EpMldo,98
+retracto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retracto/app.py,sha256=X6cJY5v38NXB9sElLO4k8uQqB8xXWgaNEJiD_Z3QOYI,765
+retracto/client_secret.json,sha256=NLN0kw5ZM_nzS6_jiT7ER9JKEljMQuVl9ntnLtTecC8,397
+retracto/helpers.py,sha256=SHyO9RrT3tAp4He986ttD6lbT-6u54uvEzNcZLC5YZ4,1739
+retracto-1.0.4.dist-info/entry_points.txt,sha256=z0gr3Cp3_Cg_xnVsRYkLzIhIFVBHlv9us1ZElKieuno,45
+retracto-1.0.4.dist-info/LICENSE,sha256=Od-H6J-HYQZ1rVOrqzmNw89faSFfdNuITl5lO72Pd-c,1092
+retracto-1.0.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+retracto-1.0.4.dist-info/METADATA,sha256=nHiwIENQdWU4JAc5_5rrNgrfEGuxL7QyWT5KXS03t60,1784
+retracto-1.0.4.dist-info/RECORD,,
