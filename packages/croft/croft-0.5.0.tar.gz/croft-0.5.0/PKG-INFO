@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: croft
+Version: 0.5.0
+Summary: Small dataset web publication tool
+Home-page: https://github.com/atiro/croft
+Author: Richard Palmer
+Author-email: r.palmer@vam.ac.uk
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
