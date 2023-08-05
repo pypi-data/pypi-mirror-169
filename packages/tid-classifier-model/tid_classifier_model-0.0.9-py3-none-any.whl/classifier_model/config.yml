@@ -1,0 +1,44 @@
+# Package Overview
+package_name: classifier_model
+
+# Data Files
+raw_data_file: raw.csv
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+target: survived
+
+pipeline_name: classifier_model
+pipeline_save_file: classifier_model_output_v
+
+# set train/test split
+test_size: 0.1
+
+# to set the random seed
+random_state: 0
+
+features:
+  - pclass
+  - sex
+  - age
+  - parch
+  - fare
+  - cabin
+  - sibsp
+  - embarked
+  - title
+
+cat_vars:
+  - sex
+  - cabin
+  - embarked
+  - title
+
+num_vars:
+  - pclass 
+  - age
+  - fare
+
+cabin:
+  - cabin
