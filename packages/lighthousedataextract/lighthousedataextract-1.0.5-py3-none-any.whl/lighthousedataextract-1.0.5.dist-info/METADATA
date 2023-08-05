@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lighthousedataextract
+Version: 1.0.5
+Summary: Google LightHouse Data Extractor
+Home-page: https://github.com/aysunakarsu/lighthousedataextract
+Author: Aysun Akarsu
+Author-email: author@example.com
+Project-URL: Bug Reports, https://github.com/aysunakarsu/lighthousedataextract/issues
+Project-URL: Funding, https://www.buymeacoffee.com/aysunakarsu
+Project-URL: Buy me a coffee, https://www.buymeacoffee.com/aysunakarsu
+Project-URL: Source, https://github.com/aysunakarsu/lighthousedataextract/
+Keywords: lighthouse,lighthouse seo,lighthouse seo tools
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: jsonpath-ng
+
+#  LightHouse Data Extractor
+
+![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Python Project  image")
+
+
+
+----
+
+This is the README file for the project.
+
