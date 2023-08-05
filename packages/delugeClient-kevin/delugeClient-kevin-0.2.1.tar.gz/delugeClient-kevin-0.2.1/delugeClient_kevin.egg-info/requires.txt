@@ -1,0 +1,6 @@
+colored
+deluge-client
+docopt
+requests
+sshtunnel
+websockets
