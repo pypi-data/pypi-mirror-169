@@ -1,0 +1,12 @@
+[console_scripts]
+dc = mtlibs.cli.dc:main
+dockerbuild = mtlibs.cli.dockerbuild:main
+dockerdev = mtlibs.cli.dockerdev:main
+gitup = mtlibs.cli.gitup:main
+mtdp = mtlibs.cli.mtdp:main
+mtgp = mtlibs.cli.mtgp_init:main
+mtproxy = mtlibs.cli.mtproxy:main
+mtpub = mtlibs.cli.mtpub:main
+mtwpdev = mtlibs.cli.mtwpdev:main
+start_phpfpm_74 = mtlibs.cli.phpfpm:main
+
