@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+matrixfuncs/__init__.py
+matrixfuncs/_func.py
+matrixfuncs/_krylov.py
+matrixfuncs.egg-info/PKG-INFO
+matrixfuncs.egg-info/SOURCES.txt
+matrixfuncs.egg-info/dependency_links.txt
+matrixfuncs.egg-info/requires.txt
+matrixfuncs.egg-info/top_level.txt
