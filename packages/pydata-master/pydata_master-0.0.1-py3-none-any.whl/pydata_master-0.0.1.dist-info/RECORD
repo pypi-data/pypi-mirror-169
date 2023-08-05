@@ -1,0 +1,11 @@
+pydata_master/__init__.py,sha256=uCVb7I701QoDqigIcp-aeOmRYJp3eP2nP8G-hiRRETg,555
+pydata_master/database_connect.py,sha256=fiFOduMEYlcJ6j8TKiAX_zmURohfu8XR5jCSSpU-iWI,1228
+pydata_master/datetime_intel.py,sha256=4qRiq1Go5lbQeG9buNtvZiX2KsIo189gNVvG7tc8jnM,1494
+pydata_master/google_service.py,sha256=U_2jBmQsOLmqCc6JQubVbTzJ8Qhnre_OFPZKFBlBb0M,3569
+pydata_master/messaging_api.py,sha256=aYO0H1vqSVvD0XJ2QESDilgmxMn9ibQaMUQngGHNsw0,3340
+pydata_master/project_config.py,sha256=ToIi8M65LZYUMLx6st44yXs-Ql6VBwwLXnDTLJ9Fy5Y,331
+pydata_master-0.0.1.dist-info/LICENSE,sha256=-2UQqc5IWOt1EpIWGqb3v9mywFCjHV5LDw5CDsccvmo,1065
+pydata_master-0.0.1.dist-info/METADATA,sha256=d2ryg6s8foJLM0MDP2JmU2bT38ePvY1qBluz0kfYMg4,1001
+pydata_master-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydata_master-0.0.1.dist-info/top_level.txt,sha256=bmoGOh2M31VgcAFB3DvXlLCtFys5RXTUXLHOTx4DWSE,14
+pydata_master-0.0.1.dist-info/RECORD,,
