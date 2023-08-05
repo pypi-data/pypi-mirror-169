@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: starknet-interface-generator
+Version: 0.1.0
+Summary: Generate interfaces for your Starknet contracts
+License: MIT
+Author: msaug
+Author-email: msaug@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: cairo-lang (>=0.10.0,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Cairo interface generator
+
+Generate the interfaces corresponding to your Cairo contracts
+
+## Dependencies
+- cairo-lang
+
+## Installation
+`pip install starknet-interface-generator`
+
+## Usage
+```starknet-interface-generator file_path [-d output_directory] [-o filename]```
+
+
+## Example
+`i_main` inside the interfaces directory was generated with this command : 
+```
+starknet-interface-generator test/main-cairo -d interfaces -o i_main
+```
