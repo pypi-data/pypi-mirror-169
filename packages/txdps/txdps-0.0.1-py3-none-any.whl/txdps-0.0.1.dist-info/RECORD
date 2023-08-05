@@ -1,0 +1,8 @@
+txdps/__init__.py,sha256=Ws-OR-Jf0ebXYIYtkYVA0zf7IH8XXLOE1eRH-2kErcs,59
+txdps/enums.py,sha256=sSvY43PhuMYGMq1lykjdbbNlzhCChSAgWiKE0o0yTXI,124
+txdps/txdps.py,sha256=ZaPRwSe9QUWy_x1TtoDDOQiCA0TBPrxnZKjcLiw8MOI,6222
+txdps-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+txdps-0.0.1.dist-info/METADATA,sha256=EbA1H7s42OMO6GSW6z7dnrz7r6S_S_JX6SRROmjrPO8,952
+txdps-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+txdps-0.0.1.dist-info/top_level.txt,sha256=gE8YCdjRdy_PF8Iom4OE9PRCBh3QoQPGTTz3nuT_TmE,6
+txdps-0.0.1.dist-info/RECORD,,
