@@ -1,0 +1,14 @@
+myvalidator/Graph.py,sha256=K7xzMP3g7TFMD2hWqTd4loBPCPFKyfpTMfGf99PUyZ8,5440
+myvalidator/JSON_Parser.py,sha256=ylHkhvfyq604jZRjAibUcFCKGXWjpdNLjMfFS-cil4Y,2910
+myvalidator/Terminal.py,sha256=TteXpjYj2l7DP4b68JR4MA71E6x8cEqJw7FFhXRmv8c,678
+myvalidator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myvalidator/komponenta.py,sha256=6RQesmTrGevWoIoofOF6v61WFVOZ-6mRIi_0yVoNuDo,1585
+myvalidator/validations.py,sha256=LrF4Sjg7DITgVWsvO97rIvk_ZHggDEuRgyH6FmyZ5I8,13493
+myvalidator/validations_collector.py,sha256=LsuOkuJEhZL3QyFRTpI6sYvxDDnNz4EvYnu1CA4fn0E,1609
+myvalidator/cli/__init__.py,sha256=Fz7yRJG7V0__m2Ll4ncjBIPUNwKY4iXo641pzsFVuuE,912
+graph_validations-0.2.dist-info/LICENSE.txt,sha256=51QrmqQYTZA154SJld5X4WWDP0u7-25FRybgct8i4Wc,1060
+graph_validations-0.2.dist-info/METADATA,sha256=DjZt6pwdrbddCg2Aim8mqpPPDokObGpRBK574U2tVQo,1477
+graph_validations-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+graph_validations-0.2.dist-info/entry_points.txt,sha256=4_-JfAqcfcU4hp5mIV3SUDktfRsGQz8ESZ2DHpHe9A8,177
+graph_validations-0.2.dist-info/top_level.txt,sha256=TJIqI19v3rovY90pHSstY4S9UcuV3aqUVaOmHsdEMEE,12
+graph_validations-0.2.dist-info/RECORD,,
