@@ -1,0 +1,12 @@
+genescraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genescraper/__main__.py,sha256=IQdcx0M-U3sr1gQCguBsrRxL1P0eeZdu6j06EVfqvw0,4338
+genescraper/static/assets/icons8-info-16.png,sha256=XG7IuSgTUV0WYXEZZCrqIdo4QTQRKLJHCAsGAVWnAes,290
+genescraper/static/css/styles.css,sha256=1JVAVYmFgauSy7dnNMOHmV5K05w6YTAfu3iSKZX8h4s,206530
+genescraper/static/js/scripts.js,sha256=P7hEdRa0I80d6vg5s_uAs4TztVYVKIun6uMgeFeLo-8,303
+genescraper/templates/index.html,sha256=ngh2sK1Da224LhTJq1UN3DWMmnD4YHBfMNdybJTzH9o,5356
+genescraper-0.1.2.dist-info/LICENSE,sha256=ZRf5-OowiOeGM9doz_izpuHpdzZdIqWFT4qt1S1vK7Q,1098
+genescraper-0.1.2.dist-info/METADATA,sha256=wWDqtJw0baRDG8ON0x61NuDWDnMv6_pA6iTIMCzpTrA,2691
+genescraper-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genescraper-0.1.2.dist-info/entry_points.txt,sha256=qgj0I5pdLsF5wpSx_u_lD-2ij3j5f2dyi3lKpYq_sTs,61
+genescraper-0.1.2.dist-info/top_level.txt,sha256=P9HvCWpeNc0_4yo0vcSJgJDeED4HhaEsfD9YidQsJzI,12
+genescraper-0.1.2.dist-info/RECORD,,
