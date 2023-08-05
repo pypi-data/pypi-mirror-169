@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+pytorch_functional/README.md
+pytorch_functional/__init__.py
+pytorch_functional.egg-info/PKG-INFO
+pytorch_functional.egg-info/SOURCES.txt
+pytorch_functional.egg-info/dependency_links.txt
+pytorch_functional.egg-info/requires.txt
+pytorch_functional.egg-info/top_level.txt
+pytorch_functional/source/__init__.py
+pytorch_functional/source/functional_model.py
+pytorch_functional/source/layers.py
+pytorch_functional/source/tools.py
