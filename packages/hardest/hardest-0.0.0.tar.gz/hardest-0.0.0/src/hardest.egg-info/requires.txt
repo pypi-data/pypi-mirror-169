@@ -1,0 +1,14 @@
+torch
+torchvision
+torchmetrics
+scipy
+sklearn
+num2words
+pandas
+tqdm
+tueplots
+
+[test]
+pytest
+requests
+pycocotools
