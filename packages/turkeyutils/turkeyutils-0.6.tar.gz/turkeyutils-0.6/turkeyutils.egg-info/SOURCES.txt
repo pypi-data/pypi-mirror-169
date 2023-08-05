@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+INSTALL
+LICENSE
+MANIFEST.in
+README.rst
+TODO
+setup.cfg
+setup.py
+keyutils/__init__.py
+keyutils/_keyutils.c
+keyutils/_keyutils.pyx
+turkeyutils.egg-info/PKG-INFO
+turkeyutils.egg-info/SOURCES.txt
+turkeyutils.egg-info/dependency_links.txt
+turkeyutils.egg-info/top_level.txt
