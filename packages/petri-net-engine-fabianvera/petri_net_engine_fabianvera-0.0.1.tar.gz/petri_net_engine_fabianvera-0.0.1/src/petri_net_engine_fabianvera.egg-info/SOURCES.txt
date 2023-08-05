@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/core/__init__.py
+src/models/__init__.py
+src/models/petri_net.py
+src/models/petri_net_engine.py
+src/models/place.py
+src/models/transition.py
+src/petri_net_engine_fabianvera.egg-info/PKG-INFO
+src/petri_net_engine_fabianvera.egg-info/SOURCES.txt
+src/petri_net_engine_fabianvera.egg-info/dependency_links.txt
+src/petri_net_engine_fabianvera.egg-info/top_level.txt
