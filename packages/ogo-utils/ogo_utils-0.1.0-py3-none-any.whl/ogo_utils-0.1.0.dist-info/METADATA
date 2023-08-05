@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ogo-utils
+Version: 0.1.0
+Summary: This project prefer utils for self working
+Home-page: https://github.com/VasiliySilver/ogo-utils
+Keywords: ogo-utils
+Author: ogo-clients
+Author-email: s555133@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pyAesCrypt (>=6.0.0,<7.0.0)
+Requires-Dist: pytest (>=7.1.3,<8.0.0)
+Project-URL: Repository, https://github.com/VasiliySilver/ogo-utils
+Description-Content-Type: text/markdown
+
+# OGO Clients Utils | Python == 3.9.10
+
+> This project provides utilities for my daily use.
+
+## Installation
+
+```shell
+python3 -m pip install ogo-utils
+```
