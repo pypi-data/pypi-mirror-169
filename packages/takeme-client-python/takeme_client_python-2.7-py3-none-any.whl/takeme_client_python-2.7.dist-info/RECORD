@@ -1,0 +1,9 @@
+takeme/RsaUtil.py,sha256=MrM_rvq6213eUeg_2AKNSVb8GydbFPXqRJMw081lj0I,515
+takeme/TakemeClient.py,sha256=7NZPfXNywajn8T52vzJwJQH9spICy0VJToLRPbwZ-ZI,17129
+takeme/TakemeRequestor.py,sha256=t990qTPBieyNF-As13KeT0uwwwKiNS27F5S-t2Um4jE,4084
+takeme/__init__.py,sha256=bjv8Gygr0WNSKCe8JzQ2PyLb5Y1abjooM6tVBeo5uFg,130
+takeme/templates/public.der,sha256=QQwEsj7GgL0v9VFSt5W3ufnKVCqcqZITlKAo55lUVjc,294
+takeme_client_python-2.7.dist-info/METADATA,sha256=3gu6j7BzYMF1xAjxtHAmDb3qLY9bETKceOQY-k-9P-M,818
+takeme_client_python-2.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+takeme_client_python-2.7.dist-info/top_level.txt,sha256=GVJZVBvrxrFc0A6RwI_uu7DnqOBQRivMyYgpXy1owwc,7
+takeme_client_python-2.7.dist-info/RECORD,,
