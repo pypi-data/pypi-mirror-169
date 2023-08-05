@@ -1,0 +1,17 @@
+PyYAML>=6.0
+gensim==4.2.0
+nltk>=3.7
+numpy>=1.23.3
+pandas>=1.5.0
+scikit-learn>=1.1.2
+typer>=0.6.1
+
+[dev]
+black
+coverage
+flake8
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
