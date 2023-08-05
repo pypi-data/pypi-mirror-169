@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: AutoChromedriver2
+Version: 0.1
+Summary: A cross-platform one-line solution that automatically manages chromedriver installation for Selenium
+Author-email: Justin Martinez <justinraymen@gmail.com>
+Project-URL: Homepage, https://github.com/JustinTheWhale/Auto-Chromedriver
+Project-URL: Bug Tracker, https://github.com/JustinTheWhale/Auto-Chromedriver/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2022.6.15)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: cryptography (==37.0.4)
+Requires-Dist: h11 (==0.13.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: outcome (==1.2.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyOpenSSL (==22.0.0)
+Requires-Dist: PySocks (==1.7.1)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: selenium (==4.3.0)
+Requires-Dist: sniffio (==1.2.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: soupsieve (==2.3.2.post1)
+Requires-Dist: trio (==0.21.0)
+Requires-Dist: trio-websocket (==0.9.2)
+Requires-Dist: urllib3 (==1.26.10)
+Requires-Dist: wsproto (==1.1.0)
+
+# AutoChromedriver2
+
+## About
+
+### [Pypi page coming soon](https://github.com/JustinTheWhale/)
+
+#### Have a selenium script that you haven't used in awhile? Use this to automatically find and install the latest version of chromedriver for your python code. Cross-platform for Windows, Mac, Debian and Arch based Linux. 
+
+## Usage
+
+### Import this like so
+
+```python
+
+import AutoChromedriver2.chromedriver_check as AC
+
+AC.AutoChromedriver()
+```
