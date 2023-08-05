@@ -1,0 +1,5 @@
+lit/__init__.py,sha256=WEyqxPj6vUUXVUQIX5zv8A4lWa33zRegJcq4q-9vlYc,21
+lit/lit.py,sha256=fN9IW8FESquwe4iJYI7XN_e7fkHuhR4ygYiQsv3qILI,7451
+pytorch_zero_lit-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytorch_zero_lit-0.2.1.dist-info/METADATA,sha256=J3P2IBx4ysSJTsj-wIuqxUADvMZyD-SCrKS19nVFfVE,685
+pytorch_zero_lit-0.2.1.dist-info/RECORD,,
