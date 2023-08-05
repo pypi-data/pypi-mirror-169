@@ -1,0 +1,10 @@
+README.md
+setup.py
+te3/__init__.py
+te3/aa.py
+te3.egg-info/PKG-INFO
+te3.egg-info/SOURCES.txt
+te3.egg-info/dependency_links.txt
+te3.egg-info/requires.txt
+te3.egg-info/top_level.txt
+te3/data/embeddings.csv
