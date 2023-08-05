@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "retracto"
+version = "1.0.4"
+description = "This app helps you as a youtube contnt creator to delete abusive and spam comments on a video in one shot."
+authors = ["Amit Krishna A <amit.ananthkumar@gmail.com>"]
+packages = [{include = "retracto"}]
+readme = "README-PyPi.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.28.1"
+typer = {extras = ["all"], version = "^0.6.1"}
+google-api-python-client = "^2.62.0"
+google-auth-oauthlib = "^0.5.3"
+cohere = "^2.4.2"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.scripts]
+retracto = "retracto.app:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
