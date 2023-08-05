@@ -1,0 +1,7 @@
+setup.py
+jkpip/__init__.py
+jkpip/csource.py
+jkpip.egg-info/PKG-INFO
+jkpip.egg-info/SOURCES.txt
+jkpip.egg-info/dependency_links.txt
+jkpip.egg-info/top_level.txt

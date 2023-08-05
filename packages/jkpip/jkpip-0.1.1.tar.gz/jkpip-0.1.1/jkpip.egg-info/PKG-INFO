@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: jkpip
+Version: 0.1.1
+Summary: pip source tool
+Home-page: https://github.com/a5225662/jkpipsource
+Author: jackief
+Author-email: jackief@foxmail.com
+License: MIT Licence
+Description: A tool for people change pip source easily
+Keywords: pip,source,tool
+Platform: any
