@@ -1,0 +1,14 @@
+pims
+tabulate
+pims_nd2
+opencv-python
+cowpy
+celluloid
+termcolor
+tqdm
+joblib
+ipywidgets
+tifffile
+pandas
+pyyaml
+zarr
