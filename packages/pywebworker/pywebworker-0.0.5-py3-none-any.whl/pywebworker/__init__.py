@@ -1,0 +1,2 @@
+import pywebworker.worker
+import pywebworker.worker_config
