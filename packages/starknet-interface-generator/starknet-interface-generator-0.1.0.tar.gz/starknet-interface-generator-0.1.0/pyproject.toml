@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "starknet-interface-generator"
+version = "0.1.0"
+description = "Generate interfaces for your Starknet contracts"
+authors = ["msaug <msaug@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "starknet_interface_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cairo-lang = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+starknet-interface-generator = 'starknet_interface_generator.cli:main'
