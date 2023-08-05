@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+package_dir = \
+{'': 'src'}
+
+packages = \
+['dry_django']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['Django>=4.1.0,<5.0.0',
+ 'djangorestframework>=3.14.0,<4.0.0',
+ 'dry-core>=0.5.2,<0.6.0']
+
+setup_kwargs = {
+    'name': 'dry-django',
+    'version': '0.2.0',
+    'description': '',
+    'long_description': '# Dry-core\n\n`dry-core` is core package of `dry-*` package series. Main goal \nis to minimize and power up code, make it clear and easy supportable.\n\nDocumentation will be available soon.\n',
+    'author': 'Илья Маркевич',
+    'author_email': 'samuray21x@gmail.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'None',
+    'package_dir': package_dir,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.9,<4.0',
+}
+
+
+setup(**setup_kwargs)
