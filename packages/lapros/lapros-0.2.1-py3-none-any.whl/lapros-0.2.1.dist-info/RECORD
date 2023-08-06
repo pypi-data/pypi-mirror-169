@@ -1,0 +1,11 @@
+lapros/__init__.py,sha256=Cojuhz7o-28EVANPw9-YbPc_2nX3ovi1GtI5Yvc_fB8,91
+lapros/_modidx.py,sha256=N8bryPPeXV5ucX26-dA51PeWYg9AOCPcl1wrRdfpZhQ,1440
+lapros/_nbdev.py,sha256=AMXAPNAaTY3wq845OkSA7WQpB72WIj_hXfkKtzrb45s,429
+lapros/alg.py,sha256=vaKYfpaVsSe8rVKZRCJaJ_5V6McHpmmitAU50UCwL5I,5767
+lapros/api.py,sha256=vdGfOdWLNF90ZLLn0DsTW7_kY5bkOI6KmX5OV8H8jNw,3772
+lapros/util.py,sha256=Sq_5ViFDQxlj5FN1pXmNPJ_jNAPmAqfrDCc05_q3gMY,434
+lapros-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lapros-0.2.1.dist-info/METADATA,sha256=iSXhBUv0X6GwnqzTK3ikV_0eXocEZ-cQ4J53_dSXtBU,4152
+lapros-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lapros-0.2.1.dist-info/top_level.txt,sha256=waRRn0g76hffw9Usc-z3ErAb3YNz0eh1--JYQfwkfcg,7
+lapros-0.2.1.dist-info/RECORD,,
