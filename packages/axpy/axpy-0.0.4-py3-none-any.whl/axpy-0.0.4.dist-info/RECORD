@@ -1,0 +1,9 @@
+axpy/__about__.py,sha256=iW3rCAgT99mgsBvZswTMFW-fzdGeSLZ_dIEnPUH7lWs,120
+axpy/__init__.py,sha256=Oim-qoSLc6O_Yv5qea9C7VowyKoJQzaFVN-Tm-Pky94,159
+axpy/mip.py,sha256=XytAgo81uKSseflCJNC4kUtWVgwUzCt2SI_Syf2ajTI,8850
+axpy/plastic.py,sha256=tcJBKbXAyHZ7y04y5Akn-igyXZ7P7ElcyIMDla-hAZM,3997
+axpy/plot.py,sha256=Cp5TSGDmHAy3EOIbljMD3GQvzTTUCZXjmJxCAJeap7U,1303
+axpy-0.0.4.dist-info/METADATA,sha256=S5ybnzKPLdguiQIl7Dd7VtdguL4EgYRlWTlA5JuvOwo,1424
+axpy-0.0.4.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+axpy-0.0.4.dist-info/licenses/LICENSE.txt,sha256=PKy6YGr7HvfbkoHJTka3kT18WT5pkqRSrTSyD1oTvMc,1090
+axpy-0.0.4.dist-info/RECORD,,
