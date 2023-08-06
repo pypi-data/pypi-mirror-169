@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Fchierhelloworld.egg-info/PKG-INFO
+Fchierhelloworld.egg-info/SOURCES.txt
+Fchierhelloworld.egg-info/dependency_links.txt
+Fchierhelloworld.egg-info/entry_points.txt
+Fchierhelloworld.egg-info/top_level.txt
