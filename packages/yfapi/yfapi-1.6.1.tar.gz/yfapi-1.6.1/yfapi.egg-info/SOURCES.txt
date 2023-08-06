@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+yfapi/__init__.py
+yfapi/exceptions.py
+yfapi/yahoofinance.py
+yfapi.egg-info/PKG-INFO
+yfapi.egg-info/SOURCES.txt
+yfapi.egg-info/dependency_links.txt
+yfapi.egg-info/requires.txt
+yfapi.egg-info/top_level.txt
