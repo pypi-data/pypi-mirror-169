@@ -1,0 +1,17 @@
+odoo/addons/geoengine_swisstopo/README.rst,sha256=3iWVkKHPD2X9vOJ6gOmMDJBQzuaWgYlM2wNbL6NgwSA,912
+odoo/addons/geoengine_swisstopo/__init__.py,sha256=15T9Gi7IyjbD8QdKRlHLHWPj_snkzrbj4fELOeXET0w,23
+odoo/addons/geoengine_swisstopo/__manifest__.py,sha256=f8zLluGfNzleKMUg3x3eXtqaxNpqqc9Ys8YYqOyvMaE,523
+odoo/addons/geoengine_swisstopo/geo_view/__init__.py,sha256=qszUzwPavuSALEUoQSSs8TdUrzwpQhpQikTNO0yd_aE,31
+odoo/addons/geoengine_swisstopo/geo_view/geo_raster_layer.py,sha256=LqO6_zkkVR085dgPUuD2yJ0whQX4VwbedQrsWDadaIY,377
+odoo/addons/geoengine_swisstopo/geo_view/geo_raster_layer_view.xml,sha256=vcXcFuaW9_02-S4XHgN_xiS9Ut4sNoLer1Q5lBLWVKY,1204
+odoo/addons/geoengine_swisstopo/i18n/geoengine_swisstopo.pot,sha256=Q-i0eootJDgNSyfwSNOy6k8sAG5xM98KKRNEHD94r5s,2318
+odoo/addons/geoengine_swisstopo/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/geoengine_swisstopo/static/lib/proj4-src.js,sha256=qTrPnvMpY0reaXCtx5J391BI3AcuFXNHdtoeGSdZvOc,198673
+odoo/addons/geoengine_swisstopo/static/lib/proj4.js,sha256=GfiEM8Xh30rkF6VgCIKZXLhoPT8hWwijiHkiKeJY82Y,78557
+odoo/addons/geoengine_swisstopo/static/src/js/.eslintrc,sha256=ksgovOZgE5bHn3lrtgoNUf8r-8xkIdr7pT6dIhU-amg,72
+odoo/addons/geoengine_swisstopo/static/src/js/geoengine_swisstopo.js,sha256=B0WG7gJPTqnWJ86VVmXqQ-2rNLZcnHOWBq7wBsDTVuM,4021
+odoo/addons/geoengine_swisstopo/views/geoengine_swisstopo_view.xml,sha256=9GILaL_9-ixJLbFic6KH_E-ZLDnun_ebNHEOlcD_iU8,340
+odoo12_addon_geoengine_swisstopo-12.0.1.0.2.dist-info/METADATA,sha256=7FRl0FlI_D__qqJ8cbcGXAKaykB6s5Ob9cMGPKF5b4Y,1498
+odoo12_addon_geoengine_swisstopo-12.0.1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_geoengine_swisstopo-12.0.1.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_geoengine_swisstopo-12.0.1.0.2.dist-info/RECORD,,
