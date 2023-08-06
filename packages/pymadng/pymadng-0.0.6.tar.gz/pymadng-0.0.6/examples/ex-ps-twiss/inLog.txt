@@ -1,0 +1,129 @@
+assert(loadfile("/tmp/tmpqp057xyd"))()
+
+        sharedata, sharetable, readSharedMemory, openSharedMemory, closeSharedMemory = require ("madl_mmap").sharedata, require ("madl_mmap").sharetable, require ("madl_mmap").readSharedMemory, require ("madl_mmap").openSharedMemory, require ("madl_mmap").closeSharedMemory
+
+        assert(loadfile("/tmp/tmp64s87ar9"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmph7duozho"))()
+MAD = MAD.MADassert(loadfile("/tmp/tmpmj5igeph"))()
+beam = MAD.beamassert(loadfile("/tmp/tmpxcwm7eq6"))()
+beta0 = MAD.beta0assert(loadfile("/tmp/tmp6ps5b_ps"))()
+mtable = MAD.mtableassert(loadfile("/tmp/tmp7fxdtxw_"))()
+object = MAD.objectassert(loadfile("/tmp/tmpcbraex33"))()
+sequence = MAD.sequenceassert(loadfile("/tmp/tmp9k0rrpy0"))()
+survey = MAD.surveyassert(loadfile("/tmp/tmp7k4o8im4"))()
+track = MAD.trackassert(loadfile("/tmp/tmp_67q3bj4"))()
+twiss = MAD.twissassert(loadfile("/tmp/tmpyqewkia0"))()
+match = MAD.matchassert(loadfile("/tmp/tmpv1_x82ig"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.element) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpdohfxecl"))()
+wiggler = MAD.element.wigglerassert(loadfile("/tmp/tmpy9luojhp"))()
+tkicker = MAD.element.tkickerassert(loadfile("/tmp/tmpmp720h12"))()
+solenoid = MAD.element.solenoidassert(loadfile("/tmp/tmphbjdm3o8"))()
+dodecapole = MAD.element.dodecapoleassert(loadfile("/tmp/tmpwvyog3ma"))()
+decapole = MAD.element.decapoleassert(loadfile("/tmp/tmpcyrcn1ak"))()
+octupole = MAD.element.octupoleassert(loadfile("/tmp/tmp68iy0x_b"))()
+flags = MAD.element.flagsassert(loadfile("/tmp/tmpp4__ezoj"))()
+sextupole = MAD.element.sextupoleassert(loadfile("/tmp/tmphyb3mius"))()
+quadrupole = MAD.element.quadrupoleassert(loadfile("/tmp/tmpfhi5spt8"))()
+bline = MAD.element.blineassert(loadfile("/tmp/tmpwjmmu9n6"))()
+rbend = MAD.element.rbendassert(loadfile("/tmp/tmp2kmi8i32"))()
+sbend = MAD.element.sbendassert(loadfile("/tmp/tmpq9cv3fjm"))()
+placeholder = MAD.element.placeholderassert(loadfile("/tmp/tmpb6r2wgy1"))()
+instrument = MAD.element.instrumentassert(loadfile("/tmp/tmprhzd19mk"))()
+collimator = MAD.element.collimatorassert(loadfile("/tmp/tmp05ufkmfz"))()
+drift = MAD.element.driftassert(loadfile("/tmp/tmpysdlj2v_"))()
+xrotation = MAD.element.xrotationassert(loadfile("/tmp/tmpmudifogt"))()
+slink = MAD.element.slinkassert(loadfile("/tmp/tmpj0d_5gpe"))()
+marker = MAD.element.markerassert(loadfile("/tmp/tmp72qfcbye"))()
+assembly = MAD.element.assemblyassert(loadfile("/tmp/tmppeoos2yj"))()
+specl_element = MAD.element.specl_elementassert(loadfile("/tmp/tmpyn4lmxfo"))()
+vkicker = MAD.element.vkickerassert(loadfile("/tmp/tmph828yo5r"))()
+hkicker = MAD.element.hkickerassert(loadfile("/tmp/tmpbqfu9d92"))()
+kicker = MAD.element.kickerassert(loadfile("/tmp/tmpdzlu6gzi"))()
+vmonitor = MAD.element.vmonitorassert(loadfile("/tmp/tmpt4gn4ocj"))()
+hmonitor = MAD.element.hmonitorassert(loadfile("/tmp/tmpmt1t3z5a"))()
+changedir = MAD.element.changedirassert(loadfile("/tmp/tmp9bx48m21"))()
+changeref = MAD.element.changerefassert(loadfile("/tmp/tmp5q8aycw0"))()
+element = MAD.element.elementassert(loadfile("/tmp/tmpcneggfmi"))()
+changenrj = MAD.element.changenrjassert(loadfile("/tmp/tmpn7prqouf"))()
+monitor = MAD.element.monitorassert(loadfile("/tmp/tmpcnsbhc8x"))()
+crabcavity = MAD.element.crabcavityassert(loadfile("/tmp/tmpn2e80yjb"))()
+translate = MAD.element.translateassert(loadfile("/tmp/tmp6pagj4gc"))()
+srotation = MAD.element.srotationassert(loadfile("/tmp/tmpmniwr603"))()
+yrotation = MAD.element.yrotationassert(loadfile("/tmp/tmpzvyekv5u"))()
+extrn_element = MAD.element.extrn_elementassert(loadfile("/tmp/tmp6r1oyjuh"))()
+rfmultipole = MAD.element.rfmultipoleassert(loadfile("/tmp/tmpkcf0zjae"))()
+patch_element = MAD.element.patch_elementassert(loadfile("/tmp/tmp7j41hri5"))()
+nllens = MAD.element.nllensassert(loadfile("/tmp/tmpd7zxgw_x"))()
+beambeam = MAD.element.beambeamassert(loadfile("/tmp/tmpzgnxpzk5"))()
+multipole = MAD.element.multipoleassert(loadfile("/tmp/tmphnbo1890"))()
+genmap = MAD.element.genmapassert(loadfile("/tmp/tmp7qaulxqy"))()
+thick_element = MAD.element.thick_elementassert(loadfile("/tmp/tmpktglscaq"))()
+sequence = MAD.element.sequenceassert(loadfile("/tmp/tmpm7pi99e5"))()
+rfcavity = MAD.element.rfcavityassert(loadfile("/tmp/tmpb2lhuvu9"))()
+thin_element = MAD.element.thin_elementassert(loadfile("/tmp/tmpjmzzmdwt"))()
+drift_element = MAD.element.drift_elementassert(loadfile("/tmp/tmpk1czg86g"))()
+elseparator = MAD.element.elseparatorassert(loadfile("/tmp/tmpyfdqu9jc"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpfsxc43o5"))()
+MAD = MAD.MADassert(loadfile("/tmp/tmptfyu3zrw"))()
+
+    psbeam = beam 'psbeam' { particle = 'proton', pc = 2.794987,   } 
+                do MADX.BEAM = psbeam end
+assert(loadfile("/tmp/tmp5yw4m56j"))()
+
+            openSharedMemory("psm_070eef31", true)
+            local offset = sharedata({psbeam.brho, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                do MADX:load('/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_unset_vars.mad', false) end
+do MADX:load('/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_mu.seq', '/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_mu.mad', false) end
+do MADX:load('/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_ss.seq', '/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_ss.mad', false) end
+do MADX:load('/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_fb_lhc.str', '/home/joshua/Documents/MADpy/examples/ex-ps-twiss/ps_fb_lhc_str.mad', false) end
+assert(loadfile("/tmp/tmp9hjy8u2b"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MADX) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpy8iqux0d"))()
+ps = MADX.psdo ps.beam = psbeam end
+assert(loadfile("/tmp/tmpafqsifbm"))()
+
+    srv = survey 'srv' { sequence = ps,   } 
+                do srv:write('PS_survey_py.tfs', {name, kind, s, l, angle, x, y, z, theta, }) end
+assert(loadfile("/tmp/tmpyjq3wcm8"))()
+
+    tws = twiss 'tws' { sequence = ps, method = 6, nslice = 3, chrom = true,   } 
+                assert(loadfile("/tmp/tmp54os2_my"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.gphys) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmprrbskwq0"))()
+melmcol = MAD.gphys.melmcoldo melmcol(tws, {angle, tilt, k0l, k1l, k2l, k3l, k4l, k5l, k6l, k0sl, k1sl, k2sl, k3sl, k4sl, k5sl, k6sl, ksl, hkick, vkick, }) end
+assert(loadfile("/tmp/tmp61lxbrq0"))()
+
+            openSharedMemory("psm_070eef31", true)
+            local offset = sharedata({None, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                do tws:write('PS_twiss_py.tfs', {name, kind, s, x, px, beta11, alfa11, beta22, alfa22, dx, dpx, mu1, mu2, l, angle, k0l, k1l, k2l, k3l, hkick, vkick, }) end
+

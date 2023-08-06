@@ -1,0 +1,108 @@
+> assert(loadfile("/tmp/tmpjyz9247b"))()
+> assert(loadfile("/tmp/tmps0l7ekkx"))()
+Modules:
+option|MAD.option;MAD|MAD;match|object: 'match' 0x7fe13aab95d8;utility|table: 0x7fe13abef4b8;typeid|MAD.typeid;checkglobal|function: 0x7fe13aa7f2d0;_C|userdata: 0x7fe13acbecf0;trace|function: 0x7fe13ac85630;aperture|table: 0x7fe13ac55948;beam|object: 'beam' 0x7fe13ab62ab8;beta0|object: 'beta0' 0x7fe13ab66008;cdamap|function: 0x7fe13ab75798;cmatrix|function: 0x7fe13abbd160;cofind|object: 'cofind' 0x7fe13aad8820;command|object: 'command' 0x7fe13aaf4460;complex|ctype<complex>;constant|table: 0x7fe13ac28d38;correct|object: 'correct' 0x7fe13aac02f8;ctpsa|function: 0x7fe13ab6f980;cvector|function: 0x7fe13abbd2f0;cvname|table: 0x7fe13ab750a0;damap|function: 0x7fe13ab756a0;dbghook|function: 0x7fe13ac9cb50;dynmap|table: 0x7fe13ab80070;element|table: 0x7fe13ab3c190;env|MAD.env;export|function: 0x7fe13ac85920;filesys|table: 0x7fe13acb5248;fun|table: 0x7fe13ac36448;geomap|table: 0x7fe13ab7d250;gfunc|MAD.gfunc;gmath|MAD.gmath;gphys|MAD.gphys;gplot|object: '? <: Gplot' 0x7fe13aa98898;gtpsad|function: 0x7fe13ab6f500;gtpsad_release|function: 0x7fe13ab6f6b0;help|function: 0x7fe13ac9b608;imatrix|function: 0x7fe13abbd1f0;import|function: 0x7fe13ac838f0;ivector|function: 0x7fe13abbd360;libmadx|table: 0x7fe13aa7b370;linspace|function: 0x7fe13abc8470;logrange|function: 0x7fe13ac03458;logspace|function: 0x7fe13abc8560;matrix|function: 0x7fe13abbd060;monomial|function: 0x7fe13ab95098;mtable|object: 'mtable' 0x7fe13aaebb08;nlogrange|function: 0x7fe13ac03610;nrange|function: 0x7fe13ac03570;object|object: 'object' 0x7fe13ab51a60;operator|table: 0x7fe13abef010;plot|object: 'plot' 0x7fe13aa99d88;range|function: 0x7fe13ac03358;reflect|table: 0x7fe13aca23d0;regex|table: 0x7fe13ac68a60;sequence|sequence: 'sequence' 0x7fe13ab3ebc8;show|function: 0x7fe13ac9b900;strict|function: 0x7fe13ac9e098;survey|object: 'survey' 0x7fe13aafcec8;symint|table: 0x7fe13ab86260;synrad|table: 0x7fe13ac58570;toboolean|function: 0x7fe13abebc18;tocomplex|function: 0x7fe13ac042c8;torange|function: 0x7fe13ac051b8;totable|function: 0x7fe13abee0e0;tpsa|function: 0x7fe13ab6f7b8;track|object: 'track' 0x7fe13aad0f28;twiss|object: 'twiss' 0x7fe13aadf120;utest|table: 0x7fe13ac206f8;vector|function: 0x7fe13abbd280;warn|function: 0x7fe13ac88a28;MADX|object: '? <: MADX' 0x7fe13aa778c8;tostring|function: 0x7fe13abedf98;
+> assert(loadfile("/tmp/tmpda8vtcc3"))()
+> assert(loadfile("/tmp/tmpor8cjn7n"))()
+> assert(loadfile("/tmp/tmp3ahy4y5r"))()
+> assert(loadfile("/tmp/tmpzd0__irt"))()
+> assert(loadfile("/tmp/tmp7__166l7"))()
+> assert(loadfile("/tmp/tmpups645k2"))()
+> assert(loadfile("/tmp/tmpdw57i_wp"))()
+> assert(loadfile("/tmp/tmpuhuu4ota"))()
+> assert(loadfile("/tmp/tmppfok_sn6"))()
+> assert(loadfile("/tmp/tmpop12drxu"))()
+> assert(loadfile("/tmp/tmpv230l0z1"))()
+Modules:
+solenoid|solenoid: 'solenoid' 0x7fe13ab404b8;dodecapole|dodecapole: 'dodecapole' 0x7fe13ab40328;decapole|decapole: 'decapole' 0x7fe13ab40198;octupole|octupole: 'octupole' 0x7fe13ab40008;sextupole|sextupole: 'sextupole' 0x7fe13ab3fe78;quadrupole|quadrupole: 'quadrupole' 0x7fe13ab3fc58;bline|bline: 'bline' 0x7fe13ab3ee18;rbend|rbend: 'rbend' 0x7fe13ab3fa08;sbend|sbend: 'sbend' 0x7fe13ab3f7b8;placeholder|placeholder: 'placeholder' 0x7fe13ab3f660;instrument|instrument: 'instrument' 0x7fe13ab3f508;collimator|collimator: 'collimator' 0x7fe13ab3f3b0;drift|drift: 'drift' 0x7fe13ab3f258;slink|slink: 'slink' 0x7fe13ab3f0c8;sequence|sequence: 'sequence' 0x7fe13ab3ebc8;marker|marker: 'marker' 0x7fe13ab3ef70;assembly|assembly: 'assembly' 0x7fe13ab3ed88;specl_element|specl_element: 'specl_element' 0x7fe13ab3e970;extrn_element|extrn_element: 'extrn_element' 0x7fe13ab3e718;patch_element|patch_element: 'patch_element' 0x7fe13ab3e488;thick_element|thick_element: 'thick_element' 0x7fe13ab3de48;kicker|kicker: 'kicker' 0x7fe13ab42b08;drift_element|drift_element: 'drift_element' 0x7fe13ab3d8f8;hmonitor|hmonitor: 'hmonitor' 0x7fe13ab427f0;vkicker|vkicker: 'vkicker' 0x7fe13ab42e20;hkicker|hkicker: 'hkicker' 0x7fe13ab42c60;thin_element|thin_element: 'thin_element' 0x7fe13ab3d388;vmonitor|vmonitor: 'vmonitor' 0x7fe13ab429b0;monitor|monitor: 'monitor' 0x7fe13ab42698;crabcavity|crabcavity: 'crabcavity' 0x7fe13ab424d8;translate|translate: 'translate' 0x7fe13ab41b98;changenrj|changenrj: 'changenrj' 0x7fe13ab420d0;flags|table: 0x7fe13ab3c620;changeref|changeref: 'changeref' 0x7fe13ab41cf0;rfmultipole|rfmultipole: 'rfmultipole' 0x7fe13ab42228;srotation|srotation: 'srotation' 0x7fe13ab41a40;nllens|nllens: 'nllens' 0x7fe13ab415d0;beambeam|beambeam: 'beambeam' 0x7fe13ab413b0;multipole|multipole: 'multipole' 0x7fe13ab40f30;genmap|genmap: 'genmap' 0x7fe13ab40d00;yrotation|yrotation: 'yrotation' 0x7fe13ab418e8;xrotation|xrotation: 'xrotation' 0x7fe13ab41728;rfcavity|rfcavity: 'rfcavity' 0x7fe13ab40a40;element|element: 'element' 0x7fe13ab3c1d8;changedir|changedir: 'changedir' 0x7fe13ab41f78;elseparator|elseparator: 'elseparator' 0x7fe13ab408e8;wiggler|wiggler: 'wiggler' 0x7fe13ab407d8;tkicker|tkicker: 'tkicker' 0x7fe13ab40648;
+> assert(loadfile("/tmp/tmp20xuf5dg"))()
+> assert(loadfile("/tmp/tmp29mu6e6c"))()
+> assert(loadfile("/tmp/tmpmg8vsi7r"))()
+> assert(loadfile("/tmp/tmpb9ap_nf_"))()
+> assert(loadfile("/tmp/tmpylgqvgg9"))()
+> assert(loadfile("/tmp/tmpsz1v0fc6"))()
+> assert(loadfile("/tmp/tmp3m3s6s3t"))()
+> assert(loadfile("/tmp/tmpkncqfftl"))()
+> assert(loadfile("/tmp/tmpx2wtn0h7"))()
+> assert(loadfile("/tmp/tmppvz1hsfe"))()
+> assert(loadfile("/tmp/tmpych1_1wr"))()
+> assert(loadfile("/tmp/tmp6foz3_e0"))()
+> assert(loadfile("/tmp/tmpf46e5sn7"))()
+> assert(loadfile("/tmp/tmpodv11y_r"))()
+> assert(loadfile("/tmp/tmp6qgt2y_y"))()
+> assert(loadfile("/tmp/tmpqi9ltewq"))()
+> assert(loadfile("/tmp/tmpa4n__0kx"))()
+> assert(loadfile("/tmp/tmp6shtzs77"))()
+> assert(loadfile("/tmp/tmpnrj0c4vn"))()
+> assert(loadfile("/tmp/tmpm7duwtju"))()
+> assert(loadfile("/tmp/tmpvm9p221m"))()
+> assert(loadfile("/tmp/tmp3m4vw3mv"))()
+> assert(loadfile("/tmp/tmpkoxvn5v9"))()
+> assert(loadfile("/tmp/tmp_y17u17p"))()
+> assert(loadfile("/tmp/tmp4ix3kmus"))()
+> assert(loadfile("/tmp/tmpp58ynf0a"))()
+> assert(loadfile("/tmp/tmp7r0s_edp"))()
+> assert(loadfile("/tmp/tmpkpbhvgt4"))()
+> assert(loadfile("/tmp/tmp_xevcvii"))()
+> assert(loadfile("/tmp/tmpj6j98k9d"))()
+> assert(loadfile("/tmp/tmp320nzok0"))()
+> assert(loadfile("/tmp/tmp6d2iyo6p"))()
+> assert(loadfile("/tmp/tmp7dm16xgt"))()
+> assert(loadfile("/tmp/tmpmqf5xieh"))()
+> assert(loadfile("/tmp/tmpoou_kw2j"))()
+> assert(loadfile("/tmp/tmpyq_6aow8"))()
+> assert(loadfile("/tmp/tmpe1klkrbw"))()
+> assert(loadfile("/tmp/tmps_ns61t1"))()
+> assert(loadfile("/tmp/tmppiqnibh7"))()
+> assert(loadfile("/tmp/tmp8d7xgwue"))()
+> assert(loadfile("/tmp/tmp9kvgh6fu"))()
+> assert(loadfile("/tmp/tmp74q0jas9"))()
+> assert(loadfile("/tmp/tmp0nt95nwe"))()
+> assert(loadfile("/tmp/tmp1vo53f4j"))()
+> assert(loadfile("/tmp/tmpqql5cp51"))()
+> assert(loadfile("/tmp/tmplwc_mxuf"))()
+> assert(loadfile("/tmp/tmpdjb8izee"))()
+> assert(loadfile("/tmp/tmpfwo08z9o"))()
+> assert(loadfile("/tmp/tmpp3wmod2g"))()
+Modules:
+option|MAD.option;MAD|MAD;match|object: 'match' 0x7fe13aab95d8;utility|table: 0x7fe13abef4b8;typeid|MAD.typeid;checkglobal|function: 0x7fe13aa7f2d0;_C|userdata: 0x7fe13acbecf0;trace|function: 0x7fe13ac85630;aperture|table: 0x7fe13ac55948;beam|object: 'beam' 0x7fe13ab62ab8;beta0|object: 'beta0' 0x7fe13ab66008;cdamap|function: 0x7fe13ab75798;cmatrix|function: 0x7fe13abbd160;cofind|object: 'cofind' 0x7fe13aad8820;command|object: 'command' 0x7fe13aaf4460;complex|ctype<complex>;constant|table: 0x7fe13ac28d38;correct|object: 'correct' 0x7fe13aac02f8;ctpsa|function: 0x7fe13ab6f980;cvector|function: 0x7fe13abbd2f0;cvname|table: 0x7fe13ab750a0;damap|function: 0x7fe13ab756a0;dbghook|function: 0x7fe13ac9cb50;dynmap|table: 0x7fe13ab80070;element|table: 0x7fe13ab3c190;env|MAD.env;export|function: 0x7fe13ac85920;filesys|table: 0x7fe13acb5248;fun|table: 0x7fe13ac36448;geomap|table: 0x7fe13ab7d250;gfunc|MAD.gfunc;gmath|MAD.gmath;gphys|MAD.gphys;gplot|object: '? <: Gplot' 0x7fe13aa98898;gtpsad|function: 0x7fe13ab6f500;gtpsad_release|function: 0x7fe13ab6f6b0;help|function: 0x7fe13ac9b608;imatrix|function: 0x7fe13abbd1f0;import|function: 0x7fe13ac838f0;ivector|function: 0x7fe13abbd360;libmadx|table: 0x7fe13aa7b370;linspace|function: 0x7fe13abc8470;logrange|function: 0x7fe13ac03458;logspace|function: 0x7fe13abc8560;matrix|function: 0x7fe13abbd060;monomial|function: 0x7fe13ab95098;mtable|object: 'mtable' 0x7fe13aaebb08;nlogrange|function: 0x7fe13ac03610;nrange|function: 0x7fe13ac03570;object|object: 'object' 0x7fe13ab51a60;operator|table: 0x7fe13abef010;plot|object: 'plot' 0x7fe13aa99d88;range|function: 0x7fe13ac03358;reflect|table: 0x7fe13aca23d0;regex|table: 0x7fe13ac68a60;sequence|sequence: 'sequence' 0x7fe13ab3ebc8;show|function: 0x7fe13ac9b900;strict|function: 0x7fe13ac9e098;survey|object: 'survey' 0x7fe13aafcec8;symint|table: 0x7fe13ab86260;synrad|table: 0x7fe13ac58570;toboolean|function: 0x7fe13abebc18;tocomplex|function: 0x7fe13ac042c8;torange|function: 0x7fe13ac051b8;totable|function: 0x7fe13abee0e0;tpsa|function: 0x7fe13ab6f7b8;track|object: 'track' 0x7fe13aad0f28;twiss|object: 'twiss' 0x7fe13aadf120;utest|table: 0x7fe13ac206f8;vector|function: 0x7fe13abbd280;warn|function: 0x7fe13ac88a28;MADX|object: '? <: MADX' 0x7fe13aa778c8;tostring|function: 0x7fe13abedf98;
+> assert(loadfile("/tmp/tmpu84s9b0c"))()
+> assert(loadfile("/tmp/tmpwwaf3xxy"))()
+> assert(loadfile("/tmp/tmpinco0bz8"))()
+> assert(loadfile("/tmp/tmp15opic7f"))()
+> assert(loadfile("/tmp/tmpm_ytrdgt"))()
+pyCommand:self.readMADScalar(np.float64)
+finished
+> assert(loadfile("/tmp/tmpb1dgw68q"))()
+> assert(loadfile("/tmp/tmpww0_q2wc"))()
+pyCommand:self.readMADScalar(np.float64)
+finished
+> assert(loadfile("/tmp/tmpg0n1g1mn"))()
+> assert(loadfile("/tmp/tmppnh20r05"))()
+> assert(loadfile("/tmp/tmpryf5mqf0"))()
+> do seq.beam = beam1 end
+> assert(loadfile("/tmp/tmpb4cs_sto"))()
+pyCommand:self.readMADString([1,3])
+finished
+> assert(loadfile("/tmp/tmpkb0fl5vp"))()
+> assert(loadfile("/tmp/tmpwdmel0hn"))()
+pyCommand:self.getMADTable(varName)
+finished
+> assert(loadfile("/tmp/tmp8iw70_j4"))()
+pyCommand:self.getMADTable(varName)
+finished
+> assert(loadfile("/tmp/tmpe4bfmq9i"))()
+pyCommand:self.readMADTable()
+pyCommand:self.readMADString([1,6])	pyCommand:self.readMADString([1,6])	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADString([1,4])	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	pyCommand:self.readMADScalar(np.float64)	tablehasended
+finished
+> do mtbl2:write('tfsTable.tfs') end
+> do local a = {b = {c = {d = 3, 1}}}; print(#a.b.c) end
+1
+> assert(loadfile("/tmp/tmpygl5_cx4"))()
+pyCommand:self.getMADTable(varName)
+finished
+> assert(loadfile("/tmp/tmpvu9b_s30"))()
+pyCommand:self.readMADTable()
+pyCommand:self.readMADString([1,4])	pyCommand:self.readMADString([1,4])	pyCommand:self.readMADString([1,5])	pyCommand:self.readMADString([1,6])	pyCommand:self.readMADString([1,4])	pyCommand:self.readMADString([1,4])	pyCommand:self.readMADString([1,6])	pyCommand:self.readMADString([1,9])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,8])	pyCommand:self.readMADString([1,8])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,6])	pyCommand:self.readMADString([1,4])	pyCommand:self.readMADString([1,5])	pyCommand:self.readMADString([1,8])	pyCommand:self.readMADString([1,6])	pyCommand:self.readMADString([1,2])	pyCommand:self.readMADString([1,2])	pyCommand:self.readMADString([1,2])	pyCommand:self.readMADString([1,3])	pyCommand:self.readMADString([1,3])	pyCommand:self.readMADString([1,3])	pyCommand:self.readMADString([1,5])	pyCommand:self.readMADString([1,4])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	pyCommand:self.readMADString([1,7])	tablehasended
+finished
+> 

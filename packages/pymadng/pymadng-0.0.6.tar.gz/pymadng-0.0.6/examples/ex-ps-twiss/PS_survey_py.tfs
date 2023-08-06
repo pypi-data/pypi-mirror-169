@@ -1,0 +1,11 @@
+@ name               %02s     "PS"
+@ type               %06s     "survey"
+@ title              %08s     "no-title"
+@ origin             %18s     "MAD 0.9.5 Linux 64"
+@ date               %08s     "30/09/22"
+@ time               %08s     "18:45:26"
+@ refcol             %04s     "name"
+@ direction          %le       1
+@ observe            %le       0
+@ implicit           %b       false
+@ misalign           %b       false
