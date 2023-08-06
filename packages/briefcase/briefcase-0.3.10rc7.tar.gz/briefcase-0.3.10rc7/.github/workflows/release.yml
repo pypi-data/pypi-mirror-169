@@ -1,0 +1,59 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3.0.2
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Set build variables
+        env:
+          TAG_NAME: ${{ github.ref }}
+        run: |
+          export TAG=$(basename $TAG_NAME)
+          echo "TAG=${TAG}"
+          echo "VERSION=${TAG#v}"
+          echo "TAG=${TAG}" >> $GITHUB_ENV
+          echo "VERSION=${TAG#v}" >> $GITHUB_ENV
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          draft: true
+          prerelease: false
+      - name: Set up Python
+        uses: actions/setup-python@v4.2.0
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade setuptools
+          pip install build check_manifest setuptools_scm twine
+      - name: Check manifest
+        run: |
+          check-manifest -v
+      - name: Build release artefacts
+        run: |
+          python -m build --sdist --wheel --outdir dist/ .
+      - name: Check release artefacts
+        run: |
+          python -m twine check dist/*
+      - name: Publish release to Test PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository_url: https://test.pypi.org/legacy/
+          password: ${{ secrets.TEST_PYPI_PASSWORD }}
