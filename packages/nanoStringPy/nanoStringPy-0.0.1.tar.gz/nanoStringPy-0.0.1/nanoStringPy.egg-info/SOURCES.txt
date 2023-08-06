@@ -1,0 +1,9 @@
+README.md
+setup.py
+nanoStringPy/__init__.py
+nanoStringPy/main.py
+nanoStringPy/utility.py
+nanoStringPy.egg-info/PKG-INFO
+nanoStringPy.egg-info/SOURCES.txt
+nanoStringPy.egg-info/dependency_links.txt
+nanoStringPy.egg-info/top_level.txt
