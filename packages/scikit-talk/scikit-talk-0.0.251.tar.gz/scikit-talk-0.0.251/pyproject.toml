@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "scikit-talk"
+version = "0.0.251"
+description = "A Python package to help you process real world conversation speech data."
+license = "MIT"
+authors = ["Andreas Liesenfeld", "Gábor Parti"]
+maintainers = [
+    "Andreas Liesenfeld",
+    "Gabor Parti <partigaborhk@gmail.com>"
+]
+readme = "README.md"
+
+# Optionals
+homepage = "https://python-poetry.org/"
+repository = "https://github.com/python-poetry/poetry"
+documentation = "https://python-poetry.org/docs/"
+keywords = ["packaging", "poetry"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+
+
+packages = [{include = "scikit_talk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.0"
+
+[tool.poetry.scripts]
+scikit_talk_prepocessor = 'my_package.preprocessor:cha_to_dataframe'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

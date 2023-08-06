@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: scikit-talk
+Version: 0.0.251
+Summary: A Python package to help you process real world conversation speech data.
+Home-page: https://python-poetry.org/
+License: MIT
+Keywords: packaging,poetry
+Author: Andreas Liesenfeld
+Maintainer: Andreas Liesenfeld
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pandas (>=1.5.0,<2.0.0)
+Project-URL: Documentation, https://python-poetry.org/docs/
+Project-URL: Repository, https://github.com/python-poetry/poetry
+Description-Content-Type: text/markdown
+
+
