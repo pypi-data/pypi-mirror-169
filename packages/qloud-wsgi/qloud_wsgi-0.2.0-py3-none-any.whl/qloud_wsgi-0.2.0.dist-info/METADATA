@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: qloud-wsgi
+Version: 0.2.0
+Summary: Qloud Integration for WSGI applications
+License: MIT
+Author-email: Qloud Development Team <dev@qloud.network>
+Requires-Python: >=3.7
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Topic :: Security
+Requires-Dist: PyJWT>=1.7.1
+Requires-Dist: werkzeug>=0.14.1
+Project-URL: Bug Tracker, https://github.com/QloudNetwork/qloud-integrations/issues
+Project-URL: Homepage, https://github.com/QloudNetwork/qloud-integrations
+Description-Content-Type: text/markdown
+
+# Qloud Integration for WSGI Servers
+
+`qloud-wsgi` is a WSGI middleware compatible with all frameworks that support WSGI, like
+[Flask](https://flask.palletsprojects.com/). It provides a simple way to integrate with [Qloud](https://qloud.network).
+
+## Installation
+
+```bash
+pip install qloud-wsgi
+```
+
+Note, we currently only support Python 3.7 and above.
+
+## Usage
+
+### Flask
+
+```python
+from flask import Flask, request
+import qloud
+
+SECRET = "YOUR_SECRET"
+
+app = Flask(__name__)
+app.wsgi_app = qloud.QloudAuthentication(app.wsgi_app, SECRET, credentials_required=False)
+
+@app.route("/")
+def hello_user():
+    return request.environ.get("auth") or "Hello Anonymous!"
+```
+
+The `SECRET` is the secret key that you can find in the [Qloud Console Dashboard](https://console.qloud.network),
+respectively, for the [DevAuth environment](https://docs.qloud.network/local-development/) it's fixed
+to `00000000000000000000000000000000`.
+
+The middleware injects the decoded JSON Web Token using the key `auth` into the environment of the request (e.g.
+`environ["auth"]` in plain WSGI, or `request.environ.get("auth")` in a Flask app).
+[Our documentation](https://docs.qloud.network/architecture/jwt) has all the information of the fields present in the
+JWT.
+
+### Credentials Required
+
+The `credentials_required` parameter is optional and defaults to `False`. For requests without a JSON Web Token,
+`environ["auth"]` will not be set.
+
+If your application uses [mandatory authentication](https://docs.qloud.network/configuration/authentication-mode), we
+recommend to set `credentials_required` to `True`, the integration itself will then also reject unauthenticated requests
+if they bypass the Proxy.
+
