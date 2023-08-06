@@ -1,0 +1,4 @@
+[console_scripts]
+GuanxiLiaoyu = GuanxiLiaoyu.__main__:main
+guanxi-liaoyu = GuanxiLiaoyu.__main__:main
+
