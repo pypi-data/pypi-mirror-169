@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+anixart/__init__.py
+anixart/__version__.py
+anixart/auth.py
+anixart/endpoints.py
+anixart/errors.py
+anixart/request_handler.py
+anixart.egg-info/PKG-INFO
+anixart.egg-info/SOURCES.txt
+anixart.egg-info/dependency_links.txt
+anixart.egg-info/requires.txt
+anixart.egg-info/top_level.txt
