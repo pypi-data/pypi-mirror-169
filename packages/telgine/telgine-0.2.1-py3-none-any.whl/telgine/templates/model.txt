@@ -1,0 +1,4 @@
+from telgine import *
+
+class {{ name }}(Model):
+    pass
