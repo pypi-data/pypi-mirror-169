@@ -1,0 +1,4 @@
+[console_scripts]
+ChuangzaoJinqian = ChuangzaoJinqian.__main__:main
+chuangzao-jinqian = ChuangzaoJinqian.__main__:main
+
