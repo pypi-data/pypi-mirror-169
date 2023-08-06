@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+foo_testing_versioneer.egg-info/PKG-INFO
+foo_testing_versioneer.egg-info/SOURCES.txt
+foo_testing_versioneer.egg-info/dependency_links.txt
+foo_testing_versioneer.egg-info/top_level.txt
+test_versioneer/__init__.py
+test_versioneer/_version.py
+test_versioneer/main.py
