@@ -1,0 +1,4 @@
+[console_scripts]
+TianshiTaluoQuanshu = TianshiTaluoQuanshu.__main__:main
+tianshi-taluo-quanshu = TianshiTaluoQuanshu.__main__:main
+
