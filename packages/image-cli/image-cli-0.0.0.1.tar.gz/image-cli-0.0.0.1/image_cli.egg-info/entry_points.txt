@@ -1,0 +1,3 @@
+[console_scripts]
+image-cli = image_cli.command_line:main
+

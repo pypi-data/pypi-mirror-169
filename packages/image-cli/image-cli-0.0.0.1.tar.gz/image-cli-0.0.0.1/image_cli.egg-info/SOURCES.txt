@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+image_cli/__init__.py
+image_cli/command_line.py
+image_cli.egg-info/PKG-INFO
+image_cli.egg-info/SOURCES.txt
+image_cli.egg-info/dependency_links.txt
+image_cli.egg-info/entry_points.txt
+image_cli.egg-info/requires.txt
+image_cli.egg-info/top_level.txt
