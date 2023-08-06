@@ -1,0 +1,4 @@
+[console_scripts]
+ShixiShenmingShouce = ShixiShenmingShouce.__main__:main
+shixi-shenming-shouce = ShixiShenmingShouce.__main__:main
+
