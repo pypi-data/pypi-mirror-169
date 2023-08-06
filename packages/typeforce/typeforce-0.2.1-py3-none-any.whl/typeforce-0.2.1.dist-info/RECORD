@@ -1,0 +1,11 @@
+typeforce/__init__.py,sha256=hUzXOIkoGKeuoFgQMeuwnniZS-wQZM1exHfZH2h233w,89
+typeforce/__main__.py,sha256=ZPGytkQ2AZkJkbvPNhYmk7XH9lL6WO4K9U96G9-rQwM,43
+typeforce/_cli.py,sha256=riWsRotwntL4hENJ9Kvec-zP2VVQp-vtisOIVKqqoQI,668
+typeforce/_constants.py,sha256=QAHqldeVjzKtpPx8XdqXB1_odBZxdWBOeqvNn9yAJAA,2956
+typeforce/_core.py,sha256=SEcBeUiJbo7KKteBqSZyGuuaE7iGdC7Ir12I-4PdVnY,2875
+typeforce/_script_inspect.py,sha256=FmDNAGYNcmpYBDas-6jJJ1a2Df8NK1jYOm9SI9mfMVw,216
+typeforce/_script_sites.py,sha256=JIumZZ4bW3orYXuGfcn3cbDl7HI7TZYIv38sSPPtI7Q,99
+typeforce-0.2.1.dist-info/LICENSE,sha256=5vVNKPiaONvWhHklvWAnXV9VFHY4psjgvzW6DY_tOWE,1057
+typeforce-0.2.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+typeforce-0.2.1.dist-info/METADATA,sha256=Jsu_Cfn3GCx5ydtfydDz9a3rSqal-KhYBjoetGBhtKw,2003
+typeforce-0.2.1.dist-info/RECORD,,
