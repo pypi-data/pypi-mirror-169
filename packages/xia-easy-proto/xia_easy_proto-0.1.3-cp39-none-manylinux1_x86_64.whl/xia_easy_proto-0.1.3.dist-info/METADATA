@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: xia-easy-proto
+Version: 0.1.3
+Summary: X-I-A Easy Protobuf Convertor
+Home-page: https://develop.x-i-a.com/docs/xia-easy-proto/0.1.3/index.html
+Author: X-I-A
+Author-email: admin@x-i-a.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: protobuf
+
+.. image:: https://img.shields.io/pypi/v/xia-easy-proto.svg?color=blue
+   :alt: PyPI-Server
+   :target: https://pypi.org/project/xia-easy-proto/
+
+====================================
+X-I-A Easy Protobuf Convertor
+====================================
+
+Introduction
+=============================
+
+Quick protobuf serialization without any definition. The main use case is for using Bigquery's Storage Write API.
+
+
+Requirements
+=============================
+
+In order to use this module, please using the following python runtime
+
+* Python 3.9 or 3.10
+* Windows 64bit, Linux or MacOS11+
+
+
+Quick start
+=============================
+
+Install the package::
+
+    pip install xia-easy-proto
+
+
+And then create your first test test.py::
+
+    from xia_easy_proto import EasyProto
+
+
+    if __name__ == '__main__':
+        songs = {"composer": {'given_name': 'Johann', 'family_name': 'Pachelbel'},
+                 "title": 'Canon in D',
+                 "year": [1680, 1681]}
+        song_class, song_payload = EasyProto.serialize("Song2", songs)
+        print(song_class)  # It is the message class
+        print(song_payload)  # It is the serialized message
+
+
+Here is the example if you want to put the data song to to bigquery::
+
+    import asyncio
+    from google.protobuf.descriptor_pb2 import DescriptorProto
+    from google.cloud.bigquery_storage_v1.types.storage import AppendRowsRequest
+    from google.cloud.bigquery_storage_v1.types.protobuf import ProtoSchema, ProtoRows
+    from google.cloud.bigquery_storage_v1.services.big_query_write import BigQueryWriteAsyncClient
+    from xia_easy_proto import EasyProto
+
+
+    songs = {"composer": {'given_name': 'Johann', 'family_name': 'Pachelbel'},
+             "title": 'Canon in E',
+             "year": [1680, 1681]}
+    song_class, song_payload = EasyProto.serialize("Song2", songs)
+
+
+    async def main():
+        stream_path = BigQueryWriteAsyncClient.write_stream_path("xxx", "xxx", "xxx", "_default")
+        bq_write_client = BigQueryWriteAsyncClient()
+        proto_descriptor = DescriptorProto()
+        song_class().DESCRIPTOR.CopyToProto(proto_descriptor)
+        proto_schema = ProtoSchema(proto_descriptor=proto_descriptor)
+        proto_data = AppendRowsRequest.ProtoData(
+            rows=ProtoRows(serialized_rows=song_payload),
+            writer_schema=proto_schema
+        )
+        append_row_request = AppendRowsRequest(
+            write_stream=stream_path,
+            proto_rows=proto_data
+        )
+        result = await bq_write_client.append_rows(iter([append_row_request]))
+        async for item in result:
+            print(item)
+
+    if __name__ == "__main__":
+        asyncio.run(main())
+
+BQ Table should be::
+
+    [
+        {
+            "name": "composer",
+            "type": "RECORD",
+            "mode": "NULLABLE",
+            "fields": [
+                {
+                    "name": "given_name",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                },
+                {
+                    "name": "family_name",
+                    "type": "STRING",
+                    "mode": "NULLABLE"
+                }
+            ]
+        }
+        {
+            "name": "title",
+            "type": "STRING",
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "lyrics",
+            "type": "STRING",
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "year",
+            "type": "INTEGER",
+            "mode": "REPEATED"
+        }
+    ]
+
+
+
