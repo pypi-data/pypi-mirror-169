@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/ddr_general/__init__.py
+src/ddr_general/utils.py
+src/ddr_general/version.py
+src/ddr_general.egg-info/PKG-INFO
+src/ddr_general.egg-info/SOURCES.txt
+src/ddr_general.egg-info/dependency_links.txt
+src/ddr_general.egg-info/top_level.txt
