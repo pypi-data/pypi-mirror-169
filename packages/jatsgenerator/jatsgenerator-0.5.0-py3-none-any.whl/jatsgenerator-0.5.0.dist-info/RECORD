@@ -1,0 +1,10 @@
+jatsgenerator/__init__.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+jatsgenerator/build.py,sha256=GM0jkqZpX4MRGOdLzeK0vEmNBk9sOfVEAehFiM60QxI,21503
+jatsgenerator/conf.py,sha256=G_paJW0huUNIh0F8IcJ_pARHiFog0pCHb7jgMLwSaJg,1531
+jatsgenerator/generate.py,sha256=gaV9SbdeF8DwckSvm6qSLbffxml05jWto0iWIN3Amb4,15894
+jatsgenerator/utils.py,sha256=p-3ZnP7Vb3dcLeYaqSHhuu75owShxJeSn899ojWbVMM,3093
+jatsgenerator-0.5.0.dist-info/LICENSE,sha256=tVf-s04sTJPXmlI9jPJVOZjNf_B18eIIh71p11oNfNs,1071
+jatsgenerator-0.5.0.dist-info/METADATA,sha256=lMMCFJnxj1Q1YBwhItJKrM6_l7uee9jUPqVhQBRQL74,5898
+jatsgenerator-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jatsgenerator-0.5.0.dist-info/top_level.txt,sha256=_TykBRPaKiKwOzrU68D6UKZr9s3e1QO_dRADNEtAJAw,14
+jatsgenerator-0.5.0.dist-info/RECORD,,
