@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/default.py
+src/is_even_20220929.egg-info/PKG-INFO
+src/is_even_20220929.egg-info/SOURCES.txt
+src/is_even_20220929.egg-info/dependency_links.txt
+src/is_even_20220929.egg-info/top_level.txt
