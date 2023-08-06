@@ -1,0 +1,6 @@
+setup.py
+event-framework-frugal/__init__.py
+event_framework_frugal.egg-info/PKG-INFO
+event_framework_frugal.egg-info/SOURCES.txt
+event_framework_frugal.egg-info/dependency_links.txt
+event_framework_frugal.egg-info/top_level.txt
