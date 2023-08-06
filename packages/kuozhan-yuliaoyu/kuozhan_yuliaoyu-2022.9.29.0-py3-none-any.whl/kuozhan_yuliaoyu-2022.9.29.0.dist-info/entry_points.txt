@@ -1,0 +1,4 @@
+[console_scripts]
+KuozhanYuliaoyu = KuozhanYuliaoyu.__main__:main
+kuozhan-yuliaoyu = KuozhanYuliaoyu.__main__:main
+
