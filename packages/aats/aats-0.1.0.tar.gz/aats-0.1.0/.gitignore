@@ -1,0 +1,9 @@
+logs/
+*.log
+*.pyc
+C++/build_script/Makefile
+C++/build_script/algo_api_cpp.make
+bin/
+build/
+C++/build_scripts/algo_api_cpp.make
+C++/build_scripts/Makefile
