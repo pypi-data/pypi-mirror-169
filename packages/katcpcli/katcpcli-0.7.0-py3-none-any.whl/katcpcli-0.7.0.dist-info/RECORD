@@ -1,0 +1,12 @@
+katcpcli/CommandDispatcher.py,sha256=6iHdOfpSrWKUcmNh4ikLan237YY9F41PMl8TFf-IW5s,4293
+katcpcli/StreamClient.py,sha256=xt5ob21zp5PYSb9fqa61ni9PJ24uZn07TfnMtlppw1c,5716
+katcpcli/UI.py,sha256=GHZFVDkLIibiPDwH3s9Mmc-bH7NTk1_zahX7qitXHPc,7495
+katcpcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+katcpcli/app.py,sha256=2dT6mCI1OiLllQUNnFaWOOFZ8v6onMdwmMDPiTr4rVw,4875
+katcpcli/main.py,sha256=zF000_3wlWh1IsjczTt46Ds9hTpQ7ctD3isB0fqdhts,1841
+katcpcli-0.7.0.dist-info/LICENSE,sha256=CJJ4PY5kNaaFHJTAUqRcY6C_Ibsb3k8rPvCKqH9nJS4,1493
+katcpcli-0.7.0.dist-info/METADATA,sha256=_K7L1vBWcXVhoyGGxEBAUDPzlgV5pwjU84_uxceqUWM,2502
+katcpcli-0.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+katcpcli-0.7.0.dist-info/entry_points.txt,sha256=8gW1bawk1IGWvw9MzdbSN-DVBsDLwYk3r8u_dAxgfgQ,48
+katcpcli-0.7.0.dist-info/top_level.txt,sha256=vP19sXaVl78pH59AmEiQybyJz0bl9uoD64xNKxhSHmM,9
+katcpcli-0.7.0.dist-info/RECORD,,
