@@ -1,0 +1,6 @@
+setup.py
+bigsky-client/__init__.py
+bigsky_client.egg-info/PKG-INFO
+bigsky_client.egg-info/SOURCES.txt
+bigsky_client.egg-info/dependency_links.txt
+bigsky_client.egg-info/top_level.txt
