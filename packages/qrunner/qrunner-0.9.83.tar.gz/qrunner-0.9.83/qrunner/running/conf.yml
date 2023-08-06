@@ -1,0 +1,15 @@
+android:
+  pkg_name: null
+  serial_no: null
+common:
+  base_url: https://www-pre.qizhidao.com/
+  login_headers: {}
+  timeout: 10
+  visit_headers: {}
+ios:
+  pkg_name: null
+  serial_no: null
+web:
+  browser_name: chrome
+  executable_path: null
+  headless: false
