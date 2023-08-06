@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qatg
+Version: 0.5.17
+Summary: An open-source quantum automatic test generator
+Home-page: https://github.com/MartianSheep/quantum-ATG
+Author: Chin-Yang Jen
+Author-email: b08901132@ntu.edu.tw
+License: BSD 3-clause
