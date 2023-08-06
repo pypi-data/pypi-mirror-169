@@ -1,0 +1,9 @@
+pepperize_cdk_dynamodb_backup/__init__.py,sha256=s65K985AECubCQtpY9hNOQBFJLLU5X8psmYluL3ogEU,23186
+pepperize_cdk_dynamodb_backup/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pepperize_cdk_dynamodb_backup/_jsii/__init__.py,sha256=coKPPjQflFS3cR0eIQkV1IkcDm5-VpANKlyJBrunNW0,475
+pepperize_cdk_dynamodb_backup/_jsii/cdk-dynamodb-backup@0.0.128.jsii.tgz,sha256=y8cn8P2lP25pdtszvm0Wt6wnHwvcBr1edVHgtzK05LU,29970
+pepperize.cdk_dynamodb_backup-0.0.128.dist-info/LICENSE,sha256=zc3TwT7f6DTXtg0ATDKtV8rxDNvPK4_WFiEw-D63Jzo,1078
+pepperize.cdk_dynamodb_backup-0.0.128.dist-info/METADATA,sha256=opZjAivDGZ3GnwC12WltRIE8Iz2iZvnjQNLWk1oNaSE,4483
+pepperize.cdk_dynamodb_backup-0.0.128.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pepperize.cdk_dynamodb_backup-0.0.128.dist-info/top_level.txt,sha256=_OwIem1qoqjZB2hi60TbZvxdnr-kMeswGYyMxPC7faw,30
+pepperize.cdk_dynamodb_backup-0.0.128.dist-info/RECORD,,
