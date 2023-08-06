@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Indrajeet
+Version: 0.1
+Summary: My Personal Package
+Home-page: https://github.com/javatechy/dokr
+Author: Indrajeet Singh Yadav
+Author-email: inderjityadav93@gmail.com
+License: Proprietary
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy (>=1.19.0)
+
+# My private package. Don't share,copy,use or change without permission
+
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
+# licence - https://www.eulatemplate.com/live.php?token=bGWPixXa1XA3VMj5H7IToOGlUadEIaJD
