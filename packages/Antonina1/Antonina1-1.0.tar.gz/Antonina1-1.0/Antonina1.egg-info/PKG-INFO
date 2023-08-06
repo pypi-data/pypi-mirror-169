@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Antonina1
+Version: 1.0
+Summary: ('安冬妮娜助手1.0版本，功能非常简陋,用于显示具有安冬妮娜图片的提示弹窗和进度条',)
+Home-page: https://github.com/Jinqk/Antonina.git
+Author: Jinqk
+Author-email: jinqk@mail2.sysu.edu.cn
+Maintainer: Jinqk
+Maintainer-email: jinqk@mail2.sysu.edu.cn
+License: MIT License
+Requires-Python: >=3.6.0

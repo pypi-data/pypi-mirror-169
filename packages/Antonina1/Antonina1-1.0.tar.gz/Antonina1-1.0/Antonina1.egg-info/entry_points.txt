@@ -1,0 +1,3 @@
+[console_scripts]
+Antonina.endpup = Antonina.endpop.py
+Antonina.stpup = Antonina.stpop.py

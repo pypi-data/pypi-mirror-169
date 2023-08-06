@@ -1,0 +1,8 @@
+README.md
+setup.py
+Antonina1.egg-info/PKG-INFO
+Antonina1.egg-info/SOURCES.txt
+Antonina1.egg-info/dependency_links.txt
+Antonina1.egg-info/entry_points.txt
+Antonina1.egg-info/requires.txt
+Antonina1.egg-info/top_level.txt
