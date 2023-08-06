@@ -1,0 +1,2 @@
+[console_scripts]
+git-form-saver = gitformsaver.http_server:main
