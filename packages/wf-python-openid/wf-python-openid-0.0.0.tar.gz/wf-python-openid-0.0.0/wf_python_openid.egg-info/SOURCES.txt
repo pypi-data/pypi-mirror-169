@@ -1,0 +1,6 @@
+setup.py
+wf-python-openid/__init__.py
+wf_python_openid.egg-info/PKG-INFO
+wf_python_openid.egg-info/SOURCES.txt
+wf_python_openid.egg-info/dependency_links.txt
+wf_python_openid.egg-info/top_level.txt
