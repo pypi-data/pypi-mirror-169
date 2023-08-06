@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c8ed/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_6c8ed.dir/build.make CMakeFiles/cmTC_6c8ed.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c8ed.dir/src.c.o
+/opt/rh/devtoolset-10/root/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6c8ed.dir/src.c.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6c8ed
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c8ed.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/cc  -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_6c8ed.dir/src.c.o -o cmTC_6c8ed 
+/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/ld: CMakeFiles/cmTC_6c8ed.dir/src.c.o: in function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/ld: src.c:(.text+0x39): undefined reference to `pthread_detach'
+/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/ld: src.c:(.text+0x45): undefined reference to `pthread_cancel'
+/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/ld: src.c:(.text+0x56): undefined reference to `pthread_join'
+/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/ld: src.c:(.text+0x6a): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [cmTC_6c8ed] Error 1
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTC_6c8ed/fast] Error 2
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

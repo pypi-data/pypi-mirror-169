@@ -1,0 +1,987 @@
+The system is: Linux - 5.15.0-1020-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/rh/devtoolset-10/root/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/3.22.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/rh/devtoolset-10/root/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/3.22.5/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1073b/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1073b.dir/build.make CMakeFiles/cmTC_1073b.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o
+/opt/rh/devtoolset-10/root/usr/bin/cc   -v -o CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -c /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1 -quiet -v /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccU3Tbfl.s
+GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include
+ /usr/local/include
+ /opt/rh/devtoolset-10/root/usr/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 14a6b4f09f9fcb810a645882c76fcd7e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o /tmp/ccU3Tbfl.s
+GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_1073b
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1073b.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -o cmTC_1073b 
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1073b' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwEaXzn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1073b /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1073b' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+    add: [/usr/local/include]
+    add: [/opt/rh/devtoolset-10/root/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include] ==> [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/include] ==> [/opt/rh/devtoolset-10/root/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include;/usr/local/include;/opt/rh/devtoolset-10/root/usr/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1073b/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1073b.dir/build.make CMakeFiles/cmTC_1073b.dir/build]
+  ignore line: [gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/cc   -v -o CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -c /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1 -quiet -v /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccU3Tbfl.s]
+  ignore line: [GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 14a6b4f09f9fcb810a645882c76fcd7e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o /tmp/ccU3Tbfl.s]
+  ignore line: [GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_1073b]
+  ignore line: [/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1073b.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -o cmTC_1073b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1073b' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwEaXzn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1073b /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwEaXzn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1073b] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o] ==> obj [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..]
+    arg [CMakeFiles/cmTC_1073b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o] ==> obj [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/opt/rh/devtoolset-10/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> [/opt/rh/devtoolset-10/root/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o;/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10;/opt/rh/devtoolset-10/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-10/root/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3c48/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a3c48.dir/build.make CMakeFiles/cmTC_a3c48.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o
+/opt/rh/devtoolset-10/root/usr/bin/c++   -v -o CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -c /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1plus -quiet -v -D_GNU_SOURCE /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc691t8r.s
+GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include
+ /usr/local/include
+ /opt/rh/devtoolset-10/root/usr/include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: eff9147bcce598019155543c914cb2bc
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc691t8r.s
+GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_a3c48
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3c48.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a3c48 
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3c48' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccafuzyu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3c48 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3c48' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+    add: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+    add: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+    add: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+    add: [/usr/local/include]
+    add: [/opt/rh/devtoolset-10/root/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10] ==> [/opt/rh/devtoolset-10/root/usr/include/c++/10]
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux] ==> [/opt/rh/devtoolset-10/root/usr/include/c++/10/x86_64-redhat-linux]
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward] ==> [/opt/rh/devtoolset-10/root/usr/include/c++/10/backward]
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include] ==> [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/rh/devtoolset-10/root/usr/include] ==> [/opt/rh/devtoolset-10/root/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/rh/devtoolset-10/root/usr/include/c++/10;/opt/rh/devtoolset-10/root/usr/include/c++/10/x86_64-redhat-linux;/opt/rh/devtoolset-10/root/usr/include/c++/10/backward;/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include;/usr/local/include;/opt/rh/devtoolset-10/root/usr/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3c48/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a3c48.dir/build.make CMakeFiles/cmTC_a3c48.dir/build]
+  ignore line: [gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/c++   -v -o CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -c /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1plus -quiet -v -D_GNU_SOURCE /opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc691t8r.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: eff9147bcce598019155543c914cb2bc]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc691t8r.s]
+  ignore line: [GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_a3c48]
+  ignore line: [/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3c48.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a3c48 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3c48' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccafuzyu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3c48 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccafuzyu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a3c48] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o] ==> obj [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..]
+    arg [CMakeFiles/cmTC_a3c48.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o] ==> obj [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/opt/rh/devtoolset-10/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> [/opt/rh/devtoolset-10/root/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o;/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10;/opt/rh/devtoolset-10/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-10/root/usr/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test W_NO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_abb7f/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_abb7f.dir/build.make CMakeFiles/cmTC_abb7f.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_abb7f.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_DEPRECATED_DECLARATIONS  -Wall -O0 -g    -Wno-deprecated-declarations -o CMakeFiles/cmTC_abb7f.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_abb7f
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abb7f.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_abb7f.dir/src.cxx.o -o cmTC_abb7f 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_ATTRIBUTES succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2b86/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b2b86.dir/build.make CMakeFiles/cmTC_b2b86.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2b86.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_ATTRIBUTES  -Wall -O0 -g    -Wno-attributes -o CMakeFiles/cmTC_b2b86.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b2b86
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2b86.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_b2b86.dir/src.cxx.o -o cmTC_b2b86 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_SIGN_COMPARE succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c39a/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_6c39a.dir/build.make CMakeFiles/cmTC_6c39a.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c39a.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_SIGN_COMPARE  -Wall -O0 -g    -Wno-sign-compare -o CMakeFiles/cmTC_6c39a.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6c39a
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c39a.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_6c39a.dir/src.cxx.o -o cmTC_6c39a 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_CLASS_MEMACCESS succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b74c/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1b74c.dir/build.make CMakeFiles/cmTC_1b74c.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b74c.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_CLASS_MEMACCESS  -Wall -O0 -g    -Wno-class-memaccess -o CMakeFiles/cmTC_1b74c.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b74c
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b74c.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_1b74c.dir/src.cxx.o -o cmTC_1b74c 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_UNDEF_PREFIX succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7bd5e/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_7bd5e.dir/build.make CMakeFiles/cmTC_7bd5e.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bd5e.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_UNDEF_PREFIX  -Wall -O0 -g    -Wno-undef-prefix -o CMakeFiles/cmTC_7bd5e.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7bd5e
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bd5e.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_7bd5e.dir/src.cxx.o -o cmTC_7bd5e 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_UNUSED_RESULT succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b91f/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_5b91f.dir/build.make CMakeFiles/cmTC_5b91f.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5b91f.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_UNUSED_RESULT  -Wall -O0 -g    -Wno-unused-result -o CMakeFiles/cmTC_5b91f.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5b91f
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b91f.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_5b91f.dir/src.cxx.o -o cmTC_5b91f 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_UNUSED_LAMBDA_CAPTURE succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_09afb/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_09afb.dir/build.make CMakeFiles/cmTC_09afb.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09afb.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_UNUSED_LAMBDA_CAPTURE  -Wall -O0 -g    -Wno-unused-lambda-capture -o CMakeFiles/cmTC_09afb.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_09afb
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09afb.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_09afb.dir/src.cxx.o -o cmTC_09afb 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_UNUSED_BUT_SET_VARIABLE succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d83d0/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_d83d0.dir/build.make CMakeFiles/cmTC_d83d0.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d83d0.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_UNUSED_BUT_SET_VARIABLE  -Wall -O0 -g    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_d83d0.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d83d0
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d83d0.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_d83d0.dir/src.cxx.o -o cmTC_d83d0 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_UNKNOWN_PRAGMAS succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76bb6/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_76bb6.dir/build.make CMakeFiles/cmTC_76bb6.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76bb6.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_UNKNOWN_PRAGMAS  -Wall -O0 -g    -Wno-unknown-pragmas -o CMakeFiles/cmTC_76bb6.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76bb6
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76bb6.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_76bb6.dir/src.cxx.o -o cmTC_76bb6 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_STRINGOP_OVERFLOW succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92a43/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_92a43.dir/build.make CMakeFiles/cmTC_92a43.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92a43.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_STRINGOP_OVERFLOW  -Wall -O0 -g    -Wno-stringop-overflow -o CMakeFiles/cmTC_92a43.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_92a43
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92a43.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_92a43.dir/src.cxx.o -o cmTC_92a43 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_UNUSED_VARIABLE succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b871/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4b871.dir/build.make CMakeFiles/cmTC_4b871.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b871.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_UNUSED_VARIABLE  -Wall -O0 -g    -Wno-unused-variable -o CMakeFiles/cmTC_4b871.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b871
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b871.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_4b871.dir/src.cxx.o -o cmTC_4b871 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_REDUNDANT_MOVE succeeded with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dd09/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_2dd09.dir/build.make CMakeFiles/cmTC_2dd09.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2dd09.dir/src.cxx.o
+/opt/rh/devtoolset-10/root/usr/bin/c++ -DW_NO_REDUNDANT_MOVE  -Wall -O0 -g    -Wno-redundant-move -o CMakeFiles/cmTC_2dd09.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2dd09
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dd09.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g   -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_2dd09.dir/src.cxx.o -o cmTC_2dd09 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3044/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a3044.dir/build.make CMakeFiles/cmTC_a3044.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3044.dir/CheckIncludeFile.c.o
+/opt/rh/devtoolset-10/root/usr/bin/cc    -o CMakeFiles/cmTC_a3044.dir/CheckIncludeFile.c.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a3044
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3044.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/cc  -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_a3044.dir/CheckIncludeFile.c.o -o cmTC_a3044 
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b87c/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_7b87c.dir/build.make CMakeFiles/cmTC_7b87c.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o
+/opt/rh/devtoolset-10/root/usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1 -quiet -v -D_REENTRANT /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccfBAxE1.s
+GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include
+ /usr/local/include
+ /opt/rh/devtoolset-10/root/usr/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 14a6b4f09f9fcb810a645882c76fcd7e
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o /tmp/ccfBAxE1.s
+GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_7b87c
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b87c.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/cc  -fopenmp -v  -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -o cmTC_7b87c  -v 
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+Reading specs from /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7b87c' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWCKVM3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7b87c /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. -rpath $ORIGIN CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7b87c' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b87c/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_7b87c.dir/build.make CMakeFiles/cmTC_7b87c.dir/build]
+  ignore line: [gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1 -quiet -v -D_REENTRANT /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccfBAxE1.s]
+  ignore line: [GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 14a6b4f09f9fcb810a645882c76fcd7e]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o /tmp/ccfBAxE1.s]
+  ignore line: [GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_7b87c]
+  ignore line: [/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b87c.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/cc  -fopenmp -v  -Wl -rpath $ORIGIN  CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -o cmTC_7b87c  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7b87c' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWCKVM3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7b87c /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. -rpath $ORIGIN CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWCKVM3.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7b87c] ==> ignore
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..]
+    arg [-rpath] ==> ignore
+    arg [$ORIGIN] ==> ignore
+    arg [CMakeFiles/cmTC_7b87c.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/opt/rh/devtoolset-10/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> [/opt/rh/devtoolset-10/root/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10;/opt/rh/devtoolset-10/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-10/root/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37301/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_37301.dir/build.make CMakeFiles/cmTC_37301.dir/build
+gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o
+/opt/rh/devtoolset-10/root/usr/bin/c++   -Wall -O0 -g -Wno-class-memaccess -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-stringop-overflow -Wno-unused-variable -Wno-redundant-move -fopenmp -v -o CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -g -O0 -Wall -Wno-class-memaccess -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wstringop-overflow=0 -Wno-unused-variable -Wno-redundant-move -version -fopenmp -o /tmp/ccvcCDE4.s
+GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"
+ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward
+ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include
+ /usr/local/include
+ /opt/rh/devtoolset-10/root/usr/include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: eff9147bcce598019155543c914cb2bc
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o /tmp/ccvcCDE4.s
+GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_37301
+/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37301.dir/link.txt --verbose=1
+/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g -Wno-class-memaccess -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-stringop-overflow -Wno-unused-variable -Wno-redundant-move -fopenmp -v  -Wl,-rpath,$ORIGIN  CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -o cmTC_37301  -v 
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+Reading specs from /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/libgomp.spec
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'cmTC_37301' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrYPbS6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_37301 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. -rpath $ORIGIN CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'cmTC_37301' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[2]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37301/fast && gmake[1]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_37301.dir/build.make CMakeFiles/cmTC_37301.dir/build]
+  ignore line: [gmake[2]: Entering directory `/tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/c++   -Wall -O0 -g -Wno-class-memaccess -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-stringop-overflow -Wno-unused-variable -Wno-redundant-move -fopenmp -v -o CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -g -O0 -Wall -Wno-class-memaccess -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wstringop-overflow=0 -Wno-unused-variable -Wno-redundant-move -version -fopenmp -o /tmp/ccvcCDE4.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.1 20210130 (Red Hat 10.2.1-11) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210130 (Red Hat 10.2.1-11)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: eff9147bcce598019155543c914cb2bc]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/as -v --64 -o CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o /tmp/ccvcCDE4.s]
+  ignore line: [GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-5.el7.4]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_37301]
+  ignore line: [/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37301.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-10/root/usr/bin/c++  -Wall -O0 -g -Wno-class-memaccess -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-stringop-overflow -Wno-unused-variable -Wno-redundant-move -fopenmp -v  -Wl -rpath $ORIGIN  CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -o cmTC_37301  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-10/root/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/opt/rh/devtoolset-10/root/usr --mandir=/opt/rh/devtoolset-10/root/usr/share/man --infodir=/opt/rh/devtoolset-10/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --with-default-libstdcxx-abi=gcc4-compatible --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-10.2.1-20210130/obj-x86_64-redhat-linux/isl-install --disable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.1 20210130 (Red Hat 10.2.1-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g' '-Wno-class-memaccess' '-Wno-deprecated-declarations' '-Wno-attributes' '-Wno-sign-compare' '-Wno-undef-prefix' '-Wno-unused-result' '-Wno-unused-lambda-capture' '-Wno-unused-but-set-variable' '-Wno-unknown-pragmas' '-Wstringop-overflow=0' '-Wno-unused-variable' '-Wno-redundant-move' '-fopenmp' '-v' '-o' 'cmTC_37301' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrYPbS6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_37301 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../.. -rpath $ORIGIN CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/rh/devtoolset-10/root/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrYPbS6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_37301] ==> ignore
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..]
+    arg [-rpath] ==> ignore
+    arg [$ORIGIN] ==> ignore
+    arg [CMakeFiles/cmTC_37301.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/opt/rh/devtoolset-10/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> [/opt/rh/devtoolset-10/root/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/opt/rh/devtoolset-10/root/usr/lib/gcc/x86_64-redhat-linux/10;/opt/rh/devtoolset-10/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-10/root/usr/lib]
+  implicit fwks: []
+
+
