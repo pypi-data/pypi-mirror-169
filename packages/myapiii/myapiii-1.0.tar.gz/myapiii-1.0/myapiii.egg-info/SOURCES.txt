@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+myapiii.egg-info/PKG-INFO
+myapiii.egg-info/SOURCES.txt
+myapiii.egg-info/dependency_links.txt
+myapiii.egg-info/requires.txt
+myapiii.egg-info/top_level.txt
+venv/__init__.py
+venv/main.py
