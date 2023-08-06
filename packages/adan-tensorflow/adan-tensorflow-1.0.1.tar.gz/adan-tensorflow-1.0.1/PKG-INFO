@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: adan-tensorflow
+Version: 1.0.1
+Summary: Adan - (ADAptive Nesterov momentum algorithm) Optimizer in Tensorflow
+Home-page: https://github.com/DenisVorotyntsev/adan
+Author: Denis Vorotyntsev
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizer
+Description-Content-Type: text/markdown

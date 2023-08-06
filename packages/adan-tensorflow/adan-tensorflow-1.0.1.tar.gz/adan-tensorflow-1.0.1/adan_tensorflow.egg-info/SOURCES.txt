@@ -1,0 +1,13 @@
+README.md
+setup.py
+adan_tensorflow.egg-info/PKG-INFO
+adan_tensorflow.egg-info/SOURCES.txt
+adan_tensorflow.egg-info/dependency_links.txt
+adan_tensorflow.egg-info/requires.txt
+adan_tensorflow.egg-info/top_level.txt
+tf_adan/__init__.py
+tf_adan/adan.py
+tf_adan/test_adan_dense.py
+tf_adan/test_adan_sparse.py
+tf_adan/torch_adan.py
+tf_adan/utils.py
