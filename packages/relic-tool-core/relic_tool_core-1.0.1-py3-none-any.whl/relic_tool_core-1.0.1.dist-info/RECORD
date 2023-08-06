@@ -1,0 +1,8 @@
+relic/core/__init__.py,sha256=4yXByMiMn1FpslcJdgYeKHUoNJFxLVjOCCZMXfU5LSA,83
+relic/core/errors.py,sha256=ukw3sNPD2zZsFCOKVkX7zjfDeZb7zZo5RQrFFEpH0gs,1119
+relic/core/typeshed.py,sha256=srbfrYORxHajhsgxB09BMoBdjczALvEnlUdumoHyPV8,351
+relic_tool_core-1.0.1.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+relic_tool_core-1.0.1.dist-info/METADATA,sha256=b9i9duU3eCnwn5JwAeG4c9MZGfz9xpkcuxCD_e7SXkk,2463
+relic_tool_core-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+relic_tool_core-1.0.1.dist-info/top_level.txt,sha256=VF9jKoDOcGgiu100lchLi998l6Uo7jM-JvDDrVmhf4M,6
+relic_tool_core-1.0.1.dist-info/RECORD,,
