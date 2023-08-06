@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: nzshm-common
+Version: 0.4.0
+Summary: A small pure python library for shared NZ NSHM data like locations.
+Home-page: https://github.com/GNS-Science/nzshm-common-py
+License: GNU Affero V3
+Author: GNS Science
+Author-email: chrisbc@artisan.co.nz
+Requires-Python: >=3.8,<4.0.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: geometry
+Provides-Extra: test
+Requires-Dist: Shapely[geometry] (>=1.8.3,<2.0.0); extra == "geometry"
+Requires-Dist: geopandas[geometry] (>=0.11.1,<0.12.0); extra == "geometry"
+Description-Content-Type: text/markdown
+
+# nzshm-common
+
+A pure python library of shared objects used in nzshm projects
+
+## Installation
+
+```
+pip install git+https://github.com/GNS-Science/nzshm-common-py>=1.0.0b
+```
+
+## Use
+
+```
+>>> from nzshm_common.location import location
+>>> dir(location)
+['LOCATIONS', 'LOCATION_LISTS', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'location_by_id']
+>>>
+```
+
