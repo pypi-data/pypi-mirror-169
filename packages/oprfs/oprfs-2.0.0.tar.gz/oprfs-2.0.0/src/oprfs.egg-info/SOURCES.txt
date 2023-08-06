@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/oprfs/__init__.py
+src/oprfs/oprfs.py
+src/oprfs.egg-info/PKG-INFO
+src/oprfs.egg-info/SOURCES.txt
+src/oprfs.egg-info/dependency_links.txt
+src/oprfs.egg-info/requires.txt
+src/oprfs.egg-info/top_level.txt
