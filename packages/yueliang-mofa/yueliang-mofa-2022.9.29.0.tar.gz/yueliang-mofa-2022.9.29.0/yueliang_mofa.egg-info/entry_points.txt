@@ -1,0 +1,4 @@
+[console_scripts]
+YueliangMofa = YueliangMofa.__main__:main
+yueliang-mofa = YueliangMofa.__main__:main
+
