@@ -1,0 +1,2 @@
+pyclui>=0.0.18
+xpycommon>=0.0.13

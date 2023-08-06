@@ -1,0 +1,3 @@
+[console_scripts]
+btlm = btlm.__main__:main
+
