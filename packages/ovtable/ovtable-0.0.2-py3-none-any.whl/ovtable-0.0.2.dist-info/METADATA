@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ovtable
+Version: 0.0.2
+Summary: based on curses, ovtable is a table displayed in the terminal with Python API
+Home-page: https://github.com/PiperLiu/ovtable
+Author: Piper Liu
+Author-email: piperliu@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ovtable
+
+[![build](https://github.com/piperliu/ovtable/workflows/build/badge.svg)](https://github.com/piperliu/ovtable/actions?query=workflow%3Abuild)  [![coverage](https://img.shields.io/codecov/c/github/piperliu/ovtable)](https://codecov.io/gh/piperliu/ovtable)  [![pypi](https://img.shields.io/pypi/v/ovtable.svg)](https://pypi.org/project/ovtable/)  [![support-version](https://img.shields.io/pypi/pyversions/ovtable)](https://img.shields.io/pypi/pyversions/ovtable)  [![license](https://img.shields.io/github/license/piperliu/ovtable)](https://github.com/piperliu/ovtable/blob/main/LICENSE)  [![commit](https://img.shields.io/github/last-commit/piperliu/ovtable)](https://github.com/piperliu/ovtable/commits/main)
+
+💻 based on curses, ovtable is a table displayed in the terminal with Python API
+
+
