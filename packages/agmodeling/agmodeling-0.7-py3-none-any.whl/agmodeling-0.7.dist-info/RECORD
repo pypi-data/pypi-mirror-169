@@ -1,0 +1,10 @@
+agmodeling/.gitignore,sha256=w1_HV4hqNI7sTTBHTlsMgd7oqWhSPtCKCH9zesKn4i4,14
+agmodeling/__init__.py,sha256=GQ_MXllas2YUgGh7PSa0HTRiEZ5D9NVli0nMfXSyt_s,158
+agmodeling/scoring/.gitignore,sha256=PcAghwSNW8JJ_NSUM-Owq_qPu_aeX7WxOVxZt-NzuYI,49
+agmodeling/scoring/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agmodeling/scoring/set_method.py,sha256=b6QQLWda91Pjr5zr0eQDnPZHoecgRs8LKIq1H3Qvhno,6749
+agmodeling-0.7.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+agmodeling-0.7.dist-info/METADATA,sha256=LOZTEA8GtQs8ZPlKC5G7p4o4I1SPhS0B2McLyob4nA0,3507
+agmodeling-0.7.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+agmodeling-0.7.dist-info/top_level.txt,sha256=uL52YtmR57ifAb9dbkUcaolmrZsPmjuZZ3oVe-TpUUU,11
+agmodeling-0.7.dist-info/RECORD,,
