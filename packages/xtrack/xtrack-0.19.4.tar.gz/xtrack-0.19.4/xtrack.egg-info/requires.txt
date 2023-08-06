@@ -1,0 +1,9 @@
+numpy>=1.0
+scipy
+xobjects
+xpart
+xdeps
+
+[tests]
+cpymad
+PyHEADTAIL
