@@ -1,0 +1,6 @@
+ytclip
+pdf2image
+ffmpeg-normalize
+appdirs
+PyQt5==5.15.2
+beepy
