@@ -1,0 +1,31 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conExtraction"
+version = "0.0.1"
+description = "Extract the conversation"
+readme = "README.md"
+authors = [{ name = "Vincent Yun", email = "clouddt@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "conversation", "extraction"]
+dependencies = [
+]
+requires-python = ">=3.6"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/conextraction/demo"
+
+[project.scripts]
+realpython = "demo.__main__:main"
