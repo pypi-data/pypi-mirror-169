@@ -1,0 +1,4 @@
+setuptools>=45.0
+pony
+python-ldap
+bcrypt
