@@ -1,0 +1,11 @@
+setup.py
+dsnd_probability_Udacity92822/Binomialdistribution.py
+dsnd_probability_Udacity92822/Gaussiandistribution.py
+dsnd_probability_Udacity92822/Generaldistribution.py
+dsnd_probability_Udacity92822/__init__.py
+dsnd_probability_Udacity92822/setup.py
+dsnd_probability_Udacity92822.egg-info/PKG-INFO
+dsnd_probability_Udacity92822.egg-info/SOURCES.txt
+dsnd_probability_Udacity92822.egg-info/dependency_links.txt
+dsnd_probability_Udacity92822.egg-info/not-zip-safe
+dsnd_probability_Udacity92822.egg-info/top_level.txt
