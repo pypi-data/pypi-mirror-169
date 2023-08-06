@@ -1,0 +1,17 @@
+pilcord/__init__.py,sha256=nOs02I7Dz6bC-_j0EqhwaPplduj0qBG7AjX_0FzQbxQ,147
+pilcord/assets/curveborder.png,sha256=Vu4CNmEeyqKCyP958EAQHuR7F59759j27TebiC6lYh4,842
+pilcord/assets/curvedoverlay.png,sha256=U904d5jadyBUwWe8VBhLtZXWm76n_Iv8mMj6oxOnTj4,2596
+pilcord/assets/fight.jpeg,sha256=1coN5rPxCUXmXIEM01fJFFB0I0hyhYZZyD0b3HM15Cg,81375
+pilcord/assets/levelfont.otf,sha256=2Xk9Oryv4dhlOEQuHjEWYBoW9ivo2w1TE2R5JGyN6Ug,60288
+pilcord/assets/mask_circle.jpg,sha256=6ugtjSw04mc64DwVN4I1BKh6STyd_PiiMBYevdo0otI,9742
+pilcord/assets/overlay1.png,sha256=3ieJKlnGFzFVVamr35v41537t5d3Cqds4qPyW1v5O3A,6394
+pilcord/assets/overlay2.png,sha256=VmIPgyHD4LDolXdL5SIhixhaIgap4MjMsMej4A9di2s,21333
+pilcord/assets/overlay3.png,sha256=7y6ITDbLaSBPzDPOXuKtHbMrRfxLa0Hr-p1P9_qFvfk,36232
+pilcord/assets/overlay4.png,sha256=pi5iMKPlasEwcpouhCsRJNYO0dRqOs7QoWNev8592oE,30990
+pilcord/assets/uwu_mask.png,sha256=5I-_XwcLlLaWraJGeh2wq5BMUI6YfX92I1mOR9Gq3q0,26541
+pilcord/error.py,sha256=9darA-vOLaOg5mhyRFzyF1pbzvoadhml66WfzsKYzFQ,487
+pilcord/meme.py,sha256=3meLfKh8FR2ig1BU2rwn43joPGGnZr67oVoQReCmbdM,3627
+pilcord/ranking_card.py,sha256=u1xTjaFNMm4Q3sosLng_jEdwYMZmMC3REZaFJas_5X0,13853
+pilcord-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pilcord-0.1.3.dist-info/METADATA,sha256=dGvV65bXqRMFaxDwxMMjnQ37uxLGd7Vz9JJIEqo-0DA,7091
+pilcord-0.1.3.dist-info/RECORD,,
