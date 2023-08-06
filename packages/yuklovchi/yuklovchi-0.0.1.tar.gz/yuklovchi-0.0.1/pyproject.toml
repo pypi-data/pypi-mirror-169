@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yuklovchi"
+version = "0.0.1"
+description = "Bu kutobxona yordamida YouTubedan va Instagramdan yuklashingiz mumkin."
+authors = ["Nodir Bahodirov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pywebio = "^1.6.3"
+pytube = "^12.1.0"
+instaloader = "^4.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
