@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rankingTool
+Version: 0.6
+Summary: This is the first version of the package of Rankings UI, which helps visualize the rankings and ratings for comparison.
+Home-page: https://github.com/mk322/Rankings-UI
+Author: Haoqiang Kang
+Author-email: haoqik@cs.washington.edu
+License: MIT
+Keywords: GUI
+License-File: LICENSE.txt
+Requires-Dist: toml
+Requires-Dist: pandas
+Requires-Dist: numpy
+
