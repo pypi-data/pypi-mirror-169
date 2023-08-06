@@ -1,0 +1,3 @@
+include PyCopyFast/requirements.txt
+include PyCopyFast/thirdparty.json
+include PyCopyFast/C:/m_i_t.txt

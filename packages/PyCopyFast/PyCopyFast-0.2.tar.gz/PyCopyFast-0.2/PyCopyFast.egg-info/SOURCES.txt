@@ -1,0 +1,11 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PyCopyFast/requirements.txt
+PyCopyFast/thirdparty.json
+PyCopyFast.egg-info/PKG-INFO
+PyCopyFast.egg-info/SOURCES.txt
+PyCopyFast.egg-info/dependency_links.txt
+PyCopyFast.egg-info/top_level.txt
