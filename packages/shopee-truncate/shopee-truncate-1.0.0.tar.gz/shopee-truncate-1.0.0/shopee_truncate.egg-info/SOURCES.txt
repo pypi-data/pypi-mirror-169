@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_truncate.egg-info/PKG-INFO
+shopee_truncate.egg-info/SOURCES.txt
+shopee_truncate.egg-info/dependency_links.txt
+shopee_truncate.egg-info/top_level.txt
