@@ -1,0 +1,9 @@
+memobj/__init__.py,sha256=YEhqHat0Vz5tVKQBcjVZPHHW71EOYFNe2a9w4lKUXNg,105
+memobj/object.py,sha256=Z2MppDRdv8-aNqj97jTQKkUM-0IdZUYuTGaPFPQ9hbM,2902
+memobj/process.py,sha256=IcD9ypSvQEq_aTLv8l89rojPYuBRubK5cCpk17UByPI,21073
+memobj/property.py,sha256=VOfYw_M24jamyxyqjrKgrg9ep8vosr8PHiHHSKlK5IA,7614
+memobj/utils.py,sha256=tniVjRKRJwvuacSgTJcY2C-n3_QGZw6bOE_ReIUmaiU,1290
+memobj-0.4.0.dist-info/LICENSE,sha256=h1e1eRVmNGSDBIFKg8DyHw4IEGFeIqdqe812PP7w4kM,1086
+memobj-0.4.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+memobj-0.4.0.dist-info/METADATA,sha256=wBqmBqHjMZcjHR0mrEMR3CwJbd_YNDnU9d5hbhzrhaY,1465
+memobj-0.4.0.dist-info/RECORD,,
