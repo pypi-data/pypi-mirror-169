@@ -1,0 +1,4 @@
+[console_scripts]
+MofashiDaquan = MofashiDaquan.__main__:main
+mofashi-daquan = MofashiDaquan.__main__:main
+
