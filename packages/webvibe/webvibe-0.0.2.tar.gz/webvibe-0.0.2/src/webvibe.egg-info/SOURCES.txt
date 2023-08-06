@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/webvibe/__init__.py
+src/webvibe/webvibe.py
+src/webvibe.egg-info/PKG-INFO
+src/webvibe.egg-info/SOURCES.txt
+src/webvibe.egg-info/dependency_links.txt
+src/webvibe.egg-info/requires.txt
+src/webvibe.egg-info/top_level.txt
