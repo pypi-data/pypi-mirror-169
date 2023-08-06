@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mlsgrid-api
+Version: 0.0.14
+Summary: Python library for the MLSGrid API
+Author-email: captivus <366332+captivus@users.noreply.github.com>
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/captivus/mlsgrid_api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mlsgrid_api - Python library for the MLSGrid API
+This library provides a wrapper and convenience functions for the [MLSGrid](https://www.mlsgrid.com/) Multiple Listing Service database replication API.  
+
+Documentation on the API itself can be found [here](https://docs.mlsgrid.com/api-documentation/api-version-2.0).
