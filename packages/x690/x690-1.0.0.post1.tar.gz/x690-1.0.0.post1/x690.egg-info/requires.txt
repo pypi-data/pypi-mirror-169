@@ -1,0 +1,16 @@
+t61codec<2.0,>=1.0.1
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[dev]
+Pygments
+mypy
+sphinx
+sphinx-rtd-theme
+types-dataclasses
+vulture
+
+[test]
+pytest
+pytest-coverage
