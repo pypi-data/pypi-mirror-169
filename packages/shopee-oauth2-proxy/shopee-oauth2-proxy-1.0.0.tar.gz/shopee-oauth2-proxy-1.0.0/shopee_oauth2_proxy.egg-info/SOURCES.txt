@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_oauth2_proxy.egg-info/PKG-INFO
+shopee_oauth2_proxy.egg-info/SOURCES.txt
+shopee_oauth2_proxy.egg-info/dependency_links.txt
+shopee_oauth2_proxy.egg-info/top_level.txt
