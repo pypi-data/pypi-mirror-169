@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sun-phy
+Version: 0.0.1
+Summary: Software SUN PHY modulator
+Author: Sebastien Deriaz
+Author-email: sebastien.deriaz1@gmail.com
+License: UNKNOWN
+Keywords: python,802.15.4g,mr-fsk,mr-o-qpsk,mr-ofdm,ofdm,modulation,modulator,sdr,iq
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# sun_phy
+ A Python implementation of 802.15.4g LR-WPANs SUN PHY
+
+
