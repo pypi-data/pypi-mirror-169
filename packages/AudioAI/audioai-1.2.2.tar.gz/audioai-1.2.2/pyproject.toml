@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "AudioAI"
+version = "1.2.2"
+authors = [
+  { name="Mario Salamanca", email="python@mariosalamanca.pt" },
+]
+description = "Create audio files from text, audio to text and voice typing(only in english at the moment)"
+readme = "README.md"
+requires-python = ">=3.7"
+requires-SpeechRecognition = ">=3.8.1"
+requires-gTTS = ">=2.2.4"
+requires-pydub = ">=0.25.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mariodaniely2003/AudioAI"
+"Bug Tracker" = "https://github.com/mariodaniely2003/AudioAI/issues"
