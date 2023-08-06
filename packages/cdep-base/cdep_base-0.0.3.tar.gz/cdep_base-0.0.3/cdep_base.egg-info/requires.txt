@@ -1,0 +1,6 @@
+
+[package_a]
+cdep_package_a
+
+[package_b]
+cdep_package_b
