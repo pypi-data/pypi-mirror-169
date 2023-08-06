@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_columns_and_index/__init__.py
+a_pandas_ex_columns_and_index/requirements.txt
+a_pandas_ex_columns_and_index/thirdparty.json
+a_pandas_ex_columns_and_index.egg-info/PKG-INFO
+a_pandas_ex_columns_and_index.egg-info/SOURCES.txt
+a_pandas_ex_columns_and_index.egg-info/dependency_links.txt
+a_pandas_ex_columns_and_index.egg-info/requires.txt
+a_pandas_ex_columns_and_index.egg-info/top_level.txt
