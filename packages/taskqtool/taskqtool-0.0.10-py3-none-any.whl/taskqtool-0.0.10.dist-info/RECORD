@@ -1,0 +1,17 @@
+taskqtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskqtool/main.py,sha256=NTEtQhXvXXjeqhkT0GzqsDDnpGGzH8KNltVMVwk9Lv8,875
+taskqtool/myService.py,sha256=OGsioOi5vQbShDYMUlFUq-UG2epvhRUjeojbbnlxBcY,463
+taskqtool/server.py,sha256=d7zVoXXLILCtB9yH1Z01O7MAKsZkMgfa9xe1UAGGv3o,576
+taskqtool/shemas.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskqtool/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskqtool/cli/main.py,sha256=ODYpuefwrmzIC2nacI_tP326bC63ZWrqnHAyo17RSVg,1479
+taskqtool/cli/serve.py,sha256=iEFd8-GwgK--4Jg9Q20r3n0b6UuDnyCP5-EVMZOM6TQ,1167
+taskqtool/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskqtool/utils/_common.py,sha256=750SMCzHdpU5mW3tlVr_ubHp-1xMEd6OAiEcvRrb8v0,1559
+taskqtool/utils/resources.py,sha256=aacdYoBq3k_UHVyMfDjhBTVVnD_QnYvQrKmVFsbT7NA,776
+taskqtool-0.0.10.dist-info/LICENSE,sha256=tnwasecssvJVbbc_9w2CKxYT3zsyQSEpWJufAwxZ1aM,1084
+taskqtool-0.0.10.dist-info/METADATA,sha256=ZwL0nv6HmenHYZLryrxO2Uu6PEyJEwk5tpqqYKOaBOQ,589
+taskqtool-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+taskqtool-0.0.10.dist-info/entry_points.txt,sha256=2tIER9tE6BzpE2yC9lcx19l0xT3tIHfpDqcaZOHf49Y,50
+taskqtool-0.0.10.dist-info/top_level.txt,sha256=msrEkiSvUAVEhl0wtgkODs3bgfsSAOYhTLdVzYOU2pE,10
+taskqtool-0.0.10.dist-info/RECORD,,
