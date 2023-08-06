@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: select-git-author
+Version: 0.2.0
+Summary: Interactively select the author for the next git commit
+Author: Markus Grotz
+Author-email: markus.grotz@kit.edu
+Requires-Python: >=3.6.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click-prompt (>=0.5.1,<0.6.0)

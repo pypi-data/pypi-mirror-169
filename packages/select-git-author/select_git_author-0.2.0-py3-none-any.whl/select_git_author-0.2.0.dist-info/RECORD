@@ -1,0 +1,6 @@
+select_git_author/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+select_git_author/cli.py,sha256=LVP5PCOEtACdraSmuoqg0QoFhETvp6VNVvju6VJ5Ioo,2350
+select_git_author-0.2.0.dist-info/entry_points.txt,sha256=FEF2gRshYDum_Ems-ErAy1Vw4V-yNecUxyPIeCi8vcY,52
+select_git_author-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+select_git_author-0.2.0.dist-info/METADATA,sha256=u2mo-pc3edLU8XlhumG7jlhFinSHW9IwUilbT4_0fBc,506
+select_git_author-0.2.0.dist-info/RECORD,,
