@@ -1,0 +1,11 @@
+leukeleu_django_checks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leukeleu_django_checks/apps.py,sha256=GhM4GDuCBOx2HYaU9AutNQDoVfBtcEBKb7w-ZO8PcW0,209
+leukeleu_django_checks/checks.py,sha256=g4Vy9ZXhO7j8s5fiOt3NW0b4fyHhUBcHxSAHz6Pul4Y,3828
+leukeleu_django_checks/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leukeleu_django_checks/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leukeleu_django_checks/management/commands/list_superusers.py,sha256=9X0bbeAH5om5WJ2hSJ-DTfzYL4X_xirvEBI7aOmxtt0,1030
+leukeleu_django_checks-1.1.1.dist-info/LICENSE,sha256=IUl28qbMz7okxJxAoXivMROUl_Ua6PqlnEylPR2xBFQ,1052
+leukeleu_django_checks-1.1.1.dist-info/METADATA,sha256=J7bjLS5bDnzkxE5yC8_P__nDo0uvZbf38Y9DqtkhRXc,2336
+leukeleu_django_checks-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+leukeleu_django_checks-1.1.1.dist-info/top_level.txt,sha256=P2J3NKAlogNxAHj1qvISTCvouJS4oNYLy1k7Np1YGhY,23
+leukeleu_django_checks-1.1.1.dist-info/RECORD,,
