@@ -1,0 +1,13 @@
+famiterm/ssh.py,sha256=gK_3A5AnoUBOKoSsgfUkoJ-Hknbict8ybS4OaCvgdxw,227
+famiterm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+famiterm/nesppu.cpython-39-x86_64-linux-gnu.so,sha256=AUhRY4qpJbPM5nBuKL1yZLVNunXzpsgHlzHdC9CW3Po,247872
+famiterm/__init__.py,sha256=aAEVz4d-aaDNczoJNXtdKtz9vukf5x7-D_HcKvVPEB8,42
+famiterm/nescpu.cpython-39-x86_64-linux-gnu.so,sha256=k5hitkGC7_WTnLfZ_dYlPPOYsH84kgMT85s2dbVrU08,960568
+famiterm/nesapu.cpython-39-x86_64-linux-gnu.so,sha256=6hOilaaV-5DIN09bVvN6bpgUjxugfZiOiItLuy8I5Fw,775016
+famiterm/run.py,sha256=GtWeuyH0Zf4sHiiRcoA6-KzH3hVtLRwA_0ziuf02zvU,31275
+famiterm-0.1.1.dist-info/top_level.txt,sha256=DuSj71BkKAjOvW44B7CBwOl_6adJhZSbapv7m0GaOTM,9
+famiterm-0.1.1.dist-info/entry_points.txt,sha256=-3y9PMSAuKboc1VqmlgS4jT0AlHPLbcnpUGSyJ4iTgc,76
+famiterm-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+famiterm-0.1.1.dist-info/METADATA,sha256=ukpMSzRJNZIAhZ5LfbtRJ9-HFwCr-8sviwgxc19EaIM,995
+famiterm-0.1.1.dist-info/RECORD,,
+famiterm-0.1.1.dist-info/WHEEL,sha256=RvDNC7WG_jtA8tJl5Arh36KKeuDAxaR7gtO4xTAfLVM,217
