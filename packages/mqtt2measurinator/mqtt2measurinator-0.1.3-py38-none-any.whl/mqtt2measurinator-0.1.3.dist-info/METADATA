@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mqtt2measurinator
+Version: 0.1.3
+Summary: MTR receiver readings from MQTT server to measurinator api
+Home-page: https://github.com/tvallas/mqtt2measurinator
+Author: topo
+Author-email: tvallas@iki.fi
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: paho-mqtt
+
+UNKNOWN
+
