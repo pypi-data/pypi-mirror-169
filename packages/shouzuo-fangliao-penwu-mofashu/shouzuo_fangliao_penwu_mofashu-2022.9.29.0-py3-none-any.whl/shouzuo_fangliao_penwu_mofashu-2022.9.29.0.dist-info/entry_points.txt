@@ -1,0 +1,4 @@
+[console_scripts]
+ShouzuoFangliaoPenwuMofashu = ShouzuoFangliaoPenwuMofashu.__main__:main
+shouzuo-fangliao-penwu-mofashu = ShouzuoFangliaoPenwuMofashu.__main__:main
+
