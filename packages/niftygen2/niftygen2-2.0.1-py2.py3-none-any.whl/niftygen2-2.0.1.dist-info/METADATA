@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: niftygen2
+Version: 2.0.1
+Summary: Python based random image generation
+Home-page: https://github.com/Vaedz7/NiFTy.git
+Author: Vaedz#9210
+Author-email: dhruv.vaed@gmail.com
+License: MIT Licence
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Natural Language :: English
+Requires-Dist: pillow
+
+UNKNOWN
+
+
