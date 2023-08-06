@@ -1,0 +1,215 @@
+Metadata-Version: 2.1
+Name: vestas-azure
+Version: 0.1.10rc4
+Summary: 
+License: Proprietary
+Author: Emil Haldrup Eriksen
+Author-email: emher@vestas.com
+Requires-Python: >=3.9,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: adlfs (>=2022.7.0,<2023.0.0)
+Requires-Dist: azure-identity (>=1.10.0,<2.0.0)
+Requires-Dist: azure-keyvault-secrets (>=4.5.1,<5.0.0)
+Requires-Dist: azure-servicebus (>=7.7.0,<8.0.0)
+Requires-Dist: jsonformatter (>=0.3.1,<0.4.0)
+Requires-Dist: pyarrow (>=8.0.0,<9.0.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# Vestas Azure
+
+The `vestas-azure` package holds Azure related utility functions and objects developed in a Vestas context.
+
+## Getting started
+
+The package is hosted on our internal [JFrog Artifactory](http://pswiki.vestas.net:8090/display/PB/API%3A+Python+client). Please make sure you have configured it correctly before proceeding.
+
+### Installation
+
+Install the package via pip,
+
+```
+pip install vestas-azure
+```
+
+or [Poetry](https://python-poetry.org/),
+
+```
+poetry add vestas-azure 
+```
+
+### Configuration
+
+The configuration is performed via environment variables,
+
+```bash
+VAZ_BLOB_STORAGE_CONTAINER=resources
+VAZ_BLOB_STORAGE_ACCOUNT_NAME=mapublic
+VAZ_BLOB_STORAGE_ACCOUNT_KEY=REDACTED
+VAZ_SERVICE_BUS_CONNECTION_STR=REDACTED
+```
+
+Please see `.env.example` for a complete list of configuration options. For local development purposes, injection using `dot-env` is recommended.
+
+## Development
+
+Make sure that `Python` and [Poetry](https://python-poetry.org/) are installed and setup correctly, see [this guide](http://pswiki.vestas.net:8090/display/CERB/How+to+Python) for details. Create a new environment with all dependencies,
+
+    poetry install
+
+and install the git commit hooks,
+
+	make git_setup
+
+This will enable `black`, `mypy` and `flake8`, which will inform you about any issues before committing.  These tools are enabled in the pipelines, so if they aren't run at submit time, the pipelines will fail.
+
+### Running tests
+
+```
+make test
+```
+
+### Linking to Azure
+
+The linking to Azure (e.g. which storage account to use, which default container, ...) can be specified via environment variables, or using a `.env` file. To link to the public test storage account, simply run
+
+```
+make .env
+```
+
+to generate a `.env` file from the bundled `.env.example` file. If a `.env` doesn't exist already when tests are run, it is generated automatically from `.env.example`.
+
+## Documentation
+
+### Data access abstraction
+
+The `vestas_azure.file_container` modules provides an abstraction for data access in terms of the `FileContainer` interface. Presently, the following backends have been implemented,
+
+- A `DiskContainer` that stores data in a folder on disk
+- An `AzureContainer` that stores data in an Azure Blob Storage container
+- A `DictContainer` that stores data in a Python dictionary, i.e. in-memory
+
+Using the `FileContainer` interface abstraction for data access, code will work with all of these backends.
+
+#### Monkey patches applied
+
+Importing the module will patch the following functions if available:
+
+- `PIL.Image.save`
+- `pandas.DataFrame.to_excel`
+- `pandas.read_excel`
+
+These patches allow these functions to interact with the abstraction.
+
+#### DiskContainer
+
+No configuration is necessary, just point at the folder you want to use as a temporary storage,
+
+```python
+from vestas_azure import DiskContainer
+
+dc = DiskContainer(wd="/tmp/myFolder")
+dc.write("test_file.txt", b"TestContent")
+assert dc.read("test_file.txt") == b"TestContent"
+```
+
+#### AzureContainer
+
+To use an Azure Blob Storage container, it is necessary to provide the name of the target container, the account name, and the account key. In addition to specifying them when instantiating the `AzureContainer` object, they can be provided via environment variables. Azure connections can be set on instantiation, e.g.
+
+```python
+from vestas_azure import AzureContainer
+
+azc = AzureContainer(
+    container_name="sadvpsetc",
+    account_name="MyAccount",
+    account_key="MyAccountKey",
+)
+azc.write("test_file.txt", b"TestContent")
+assert azc.read("test_file.txt") == b"TestContent"
+```
+
+Instantiating the AzureContainer without specifying connection details will then cause a fallback to the configuration set via environment variables,
+
+```python
+from vestas_azure import AzureContainer
+
+azc = AzureContainer()
+azc.write("test_file.txt", b"TestContent")
+assert azc.read("test_file.txt") == b"TestContent"
+```
+
+#### DictContainer
+
+No configuration is necessary,
+
+```python
+from vestas_azure import DictContainer
+
+dc = DictContainer()
+dc.write("test_file.txt", b"TestContent")
+assert dc.read("test_file.txt") == b"TestContent"
+```
+
+#### DataframeContainer
+
+The `vestas_azure.dataframe_container` submodule provides convenience methods for reading and writing Pandas dataframes. When provided with a `FileContainer` object, the `DataFrameContainer` allows reading and writing dataframes to the underlying backend. Data is written and read back in the given `file_format`.
+
+### Blob storage
+
+The `vestas_azure.blob_storage` submodule contains several utility functions for working with blob storages. In addition to functions helping with authentication and getting clients, the following functions are available,
+
+| function            | purpose                                       |
+|---------------------|-----------------------------------------------|
+| upload_dir          | Upload an entire directory to a container     |
+| download_dir        | Download an entire directory from a container |
+| duplicate_container | Copy all files in one container to another    |
+
+### Logging
+
+The `vestas_azure.logging` module holds a range of logging utility functions (e.g. for adding custom logging levels, custom formatters etc.). In addition, an `AzureServiceBusLogHandler` class is included, which redirects logs to an Azure Service Bus (configured via the `VAZ_SERVICE_BUS_CONNECTION_STRING` settings). Similarly, an `AzureServiceBusLogReceiver` class is included for collecting the logs. For an example of how this works in practice, take a look at the [gemini level b source code](https://vestas.visualstudio.com/Gemini/_git/gemini-level-b).
+
+### Config
+
+The `vestas_azure.config` module provides an `AzureConfig` object for settings configuration via pydantic. For some library/project `some_vestas_stuff`, the intended use is to create a `some_vestas_stuff/config.py` module with content like
+
+```python
+from typing import Optional
+from pydantic import BaseSettings, Field
+from vestas_azure import protected_load_dotenv, AzureConfig
+
+
+class SvsSettings(BaseSettings):
+    FOO: Optional[str] = Field(default="bar")
+    SECRET_FOO: Optional[str] = Field(default="my_key_vault|secret_foo")
+
+    class Config:
+        env_prefix = "SVS_"
+
+
+def _parse_settings():
+    _settings = SvsSettings()
+    # NOTE: Extra settings parsing/loading logic can be put here.
+    return _settings
+
+
+protected_load_dotenv()  # load env variables
+cfg = AzureConfig(parse_settings=_parse_settings)  # parse settings
+settings: SvsSettings = cfg.settings  # make available as module level 'settings' attribute
+```
+
+which would then make the setting(s) available across the project similar to the use in `vestas-azure`, i.e.
+
+```python
+from some_vestas_stuff.config import settings
+
+print(settings.FOO)  # will output "bar"
+print(settings.SECRET_FOO)  # will output the content of the secret named "secret_foo" in the "my_key_vault" Azure Key Vault
+```
+
+Note that the special syntax 'KEY_VAULT_NAME|SECRET_NAME' can be used to pull secrets from Azure Key Vaults.
+
