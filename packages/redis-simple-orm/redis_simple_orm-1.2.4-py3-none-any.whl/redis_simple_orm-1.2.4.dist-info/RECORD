@@ -1,0 +1,16 @@
+RSO/__init__.py,sha256=XBKH8E1LmDxv06U39yqMBbXZapOERFgICEDYZs_kRso,22
+RSO/base.py,sha256=lQ_-l5J9n7rOyqn2VwjMUiR8D4yxCqUIUCZCnnzVc1Y,2502
+RSO/index.py,sha256=iowWFAEgMKdh3SOes9zuDaiww5RDiE7MfPzHP3p6Jjs,5040
+RSO/model.py,sha256=XQh4fjSvg4rMWdkgzPbpF8hyo0_-erFrrHllYVKm7pA,1509
+RSO/aioredis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RSO/aioredis/index.py,sha256=pKpDfllpVfDamEUwkZWsKzmO2F-r9WCurDBkr67HtQg,6013
+RSO/aioredis/model.py,sha256=9Dy-qefiLlGIMVCCdv6KxvNfh8MXxhXHnRx1Erefkfk,4108
+RSO/txredisapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RSO/txredisapi/index.py,sha256=EhtJUnGWTdAAGLonohj6Wc6o3RSjJnlr9xj97S7fQis,6516
+RSO/txredisapi/model.py,sha256=5LbpWB94EITEUY_gDFImFcGJbAV69KSGmtgY4dAjO0U,3562
+redis_simple_orm-1.2.4.data/data/LICENSE,sha256=OfKyUdPdeNlNXv5rNbiAPTzn-2xT2jhM8vIvsI0lgb8,1064
+redis_simple_orm-1.2.4.dist-info/LICENSE,sha256=OfKyUdPdeNlNXv5rNbiAPTzn-2xT2jhM8vIvsI0lgb8,1064
+redis_simple_orm-1.2.4.dist-info/METADATA,sha256=MwgBCZbpAEczlHgV5efplIII82sHPiLcfDft80-Z_eM,11539
+redis_simple_orm-1.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+redis_simple_orm-1.2.4.dist-info/top_level.txt,sha256=OVcPkJ1KNp-eG63Oc07SpHnrlO0zs08-bNkMr9ip_0A,4
+redis_simple_orm-1.2.4.dist-info/RECORD,,
