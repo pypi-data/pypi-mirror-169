@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "speech-analytics"
+version = "0.1.2"
+description = ""
+authors = ["Ashleigh Richardson <ashleigh.richardson@uqconnect.edu.au>"]
+readme = "README.md"
+packages = [{include = "speech_analytics"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spacy = "^3.4.1"
+
+[tool.poetry.scripts]
+analysis = "speech_analytics._models:Analysis"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
