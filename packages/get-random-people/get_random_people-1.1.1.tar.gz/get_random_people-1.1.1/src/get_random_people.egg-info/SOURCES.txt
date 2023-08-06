@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/countries.py
+src/countries_capital.py
+src/get_name_gender_religion.py
+src/get_random_people.py
+src/names.py
+src/qualifications.py
+src/get_random_people.egg-info/PKG-INFO
+src/get_random_people.egg-info/SOURCES.txt
+src/get_random_people.egg-info/dependency_links.txt
+src/get_random_people.egg-info/top_level.txt
