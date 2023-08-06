@@ -1,0 +1,4 @@
+[console_scripts]
+ChengweiZhuanyeTaluoshiNigaiShenrudeZhanbuMiji = ChengweiZhuanyeTaluoshiNigaiShenrudeZhanbuMiji.__main__:main
+chengwei-zhuanye-taluoshi-nigai-shenrude-zhanbu-miji = ChengweiZhuanyeTaluoshiNigaiShenrudeZhanbuMiji.__main__:main
+
