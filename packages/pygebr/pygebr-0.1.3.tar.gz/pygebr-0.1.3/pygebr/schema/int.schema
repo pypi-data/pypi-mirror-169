@@ -1,0 +1,56 @@
+{
+  "$id": "/pub/schema/int.schema",
+  "title": "Integer parameter",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "integer"
+    },
+    "keyword": {
+      "$ref": "/pub/schema/keyword.schema"
+    },
+    "description": {
+      "$ref": "/pub/schema/desc.schema"
+    },
+    "required": {
+      "type": "boolean",
+      "description": "informs whether the parameter is required or not"
+    },
+    "multiple": {
+      "type": "boolean",
+      "description": "informs whether the parameter can be informed more than once"
+    },
+    "default": {
+      "type": "integer",
+      "description": "Default int value"
+    },
+    "value": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "/pub/schema/expression.schema"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "literal": {
+                "type": "integer",
+                "description": "Integer value"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "keyword",
+    "description",
+    "required",
+    "multiple"
+  ],
+  "additionalProperties": false
+}
