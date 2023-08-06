@@ -1,0 +1,14 @@
+quakerheritage/__init__.py,sha256=5Nl4p08H271Bi6UoQTI_1q9-zpOR6GGq07mA3_yCtgg,568
+quakerheritage/build.py,sha256=CLfkyYL7PBeoLznqrw39zJ2J_lOlot9U3t9_LTRuf2w,1396
+quakerheritage/callFunctions.py,sha256=CLfkyYL7PBeoLznqrw39zJ2J_lOlot9U3t9_LTRuf2w,1396
+quakerheritage/cleanseData.py,sha256=4pCkx77kAqitiTGsU42qv9kp9eIHtGhbbP4CTNrW4Ig,3333
+quakerheritage/getWebData.py,sha256=5aY6nEYfcrfb0dsneeelbLAcJVpYGnP8bEC9S9NyfSw,2736
+src/quakerheritage/__init__.py,sha256=dR-Csl56LG0eEtScTgvdo9L4vQ-4rCQzv1Q5c2tSMaA,568
+src/quakerheritage/callFunctions.py,sha256=paSCU4fMyMFkJfJBGk3hJRyTlINGBqUUjEGlsEn7WsQ,1409
+src/quakerheritage/cleanseData.py,sha256=4pCkx77kAqitiTGsU42qv9kp9eIHtGhbbP4CTNrW4Ig,3333
+src/quakerheritage/getWebData.py,sha256=5aY6nEYfcrfb0dsneeelbLAcJVpYGnP8bEC9S9NyfSw,2736
+quakerheritage-0.0.5.dist-info/LICENSE.txt,sha256=Nv6u1ubULm-E2y6q2-pQPK8s2BzkOltLaVlPKQ3tkcs,35182
+quakerheritage-0.0.5.dist-info/METADATA,sha256=M26X6mLoae8oqYoO7NvLGnOCnNRfLj_6ihGeaJhxjxM,1721
+quakerheritage-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quakerheritage-0.0.5.dist-info/top_level.txt,sha256=5AZEg4GJnoCwCOr5xEuBecNljedrFt8BHfvUOudshFk,15
+quakerheritage-0.0.5.dist-info/RECORD,,
