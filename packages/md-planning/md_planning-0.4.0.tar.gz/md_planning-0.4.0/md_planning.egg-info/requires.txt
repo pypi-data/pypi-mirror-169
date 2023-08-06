@@ -1,0 +1,11 @@
+Click>=7.0
+pyyaml==6.0
+python-gantt==0.6.0
+python-gantt-csv==0.4.0
+pertchart==0.5.1
+criticalpath==0.1.5
+networkx==2.8.4
+pint==0.19.2
+pandas==1.4.3
+tabulate==0.8.10
+matplotlib==3.6.0
