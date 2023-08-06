@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vetl
+Version: 0.0.0b1
+Summary: Virtual ETL Tools
+Home-page: https://github.com/asyraf-adianto/vetl
+Author: Asyraf N. Adianto
+Author-email: asyraf.adianto@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: petl (>=1.7.0)
+Requires-Dist: redshift-connector (>=2.0.908)
+Requires-Dist: psycopg2-binary (>=2.9.3)
+Requires-Dist: paramiko (>=2.11.0)
+Requires-Dist: sshtunnel (>=0.4.0)
+
+# fastetl
+
