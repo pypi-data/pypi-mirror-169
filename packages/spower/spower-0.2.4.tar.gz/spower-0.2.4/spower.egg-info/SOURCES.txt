@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+spower/__init__.py
+spower/main.py
+spower.egg-info/PKG-INFO
+spower.egg-info/SOURCES.txt
+spower.egg-info/dependency_links.txt
+spower.egg-info/requires.txt
+spower.egg-info/top_level.txt
