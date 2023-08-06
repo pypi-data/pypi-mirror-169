@@ -1,0 +1,6 @@
+mongo_redis_postgres_read_only_user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_redis_postgres_read_only_user/main.py,sha256=Xc02xM163wr9YFXj6mQqj4BKDwhXv4tvVRGVpL-LLCE,7391
+mongo_redis_postgres_read_only_user-0.1.1.dist-info/entry_points.txt,sha256=NvUichJsqLQgG7Gaoyvnfq0J7gLshEBCWP5ZmEeuMuE,81
+mongo_redis_postgres_read_only_user-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+mongo_redis_postgres_read_only_user-0.1.1.dist-info/METADATA,sha256=5yk-yYjQVsEMqFLGxPgJr7bbHchepzQ8xGa_UTcJ9sI,872
+mongo_redis_postgres_read_only_user-0.1.1.dist-info/RECORD,,
