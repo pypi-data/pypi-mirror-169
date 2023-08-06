@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pybusinesscentral
+Version: 2.0.0
+Summary: (v2.0) Dynamics 365 Business Central
+Home-page: UNKNOWN
+Author: Uptick
+Author-email: support@uptickhq.com
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,(v2.0) Dynamics 365 Business Central
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+    (v2.0) Business Central Standard APIs  # noqa: E501
+    
+
