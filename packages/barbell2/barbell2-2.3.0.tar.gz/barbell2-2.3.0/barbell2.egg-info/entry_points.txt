@@ -1,0 +1,7 @@
+[console_scripts]
+bodycomp-adddcmext = barbell2.bodycomp.adddicomextension:main
+bodycomp-copyfiles = barbell2.bodycomp.copyfiles:main
+bodycomp-decompress = barbell2.bodycomp.decompressdicom:main
+bodycomp-flattendirs = barbell2.bodycomp.flattendirectories:main
+castor-buildimport = barbell2.castor.buildimport:main
+
