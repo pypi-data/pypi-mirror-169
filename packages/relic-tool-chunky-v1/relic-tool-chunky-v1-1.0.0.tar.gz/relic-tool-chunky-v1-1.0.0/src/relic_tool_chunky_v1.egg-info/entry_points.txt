@@ -1,0 +1,2 @@
+[relic.sga.handler]
+v1.1 = relic.sga.v1.serialization:chunky_fs_serializer
