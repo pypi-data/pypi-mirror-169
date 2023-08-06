@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: OneNeuron-pypi-pavanjahagirdar
+Version: 0.0.1
+Summary: its an implimentation of Perceptron
+Home-page: https://github.com/pavanjahagirdar/OneNeuron_pypi
+Author: pavanjahagirdar
+Author-email: pavanjahagirdar7@gmail.com
+Project-URL: Bug Tracker, https://github.com/pavanjahagirdar/OneNeuron_pypi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# OneNeuron_pypi
+OneNeuron_pypi
+
+
+# Refernces
+[Python official docs](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+
+[Github docs for github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+
+
+
