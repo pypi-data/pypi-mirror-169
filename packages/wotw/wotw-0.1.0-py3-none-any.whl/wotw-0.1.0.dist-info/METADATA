@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wotw
+Version: 0.1.0
+Summary: Watcher On The Wall watches directories for changes
+License: Apache-2.0
+Author: Simon Kennedy
+Author-email: sffjunkie+code@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# wotw - The Watcher On The Wall
+
+Capture the name edition - Not For Use.
+
