@@ -1,0 +1,11 @@
+signax/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+signax/module.py,sha256=LfUZWDQbnzd28ZW0ist6P_0evfbVpkwbpVQA5YPCZZc,781
+signax/signature.py,sha256=6-T4S1OrQ0PqE7_FyeC6E9XNcWUjAZE2NioU95euy0k,4074
+signax/signature_flattened.py,sha256=k33DOIsvy8KFGm9miEkDUCwPHC972aWMvi1UdF2qS9g,1736
+signax/tensor_ops.py,sha256=fw3ajYzcGEduPUtipPVnphVXleEJNYEGk1JlX9_OWuY,4644
+signax/utils.py,sha256=7lr3dfwJlsNV-03Jy_5z-yTYOuxAFhmOIjgywZerzvI,3390
+signax-0.1.1.dist-info/LICENSE,sha256=KCt6FiZzdTN0sUewneFzq7pJEnZpKm_375ZkcEQKOS0,1071
+signax-0.1.1.dist-info/METADATA,sha256=pBFxLF7uyoFM1FE8Jn8TNHfT3I7mdZCgfv_HCZjH6zw,4739
+signax-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+signax-0.1.1.dist-info/top_level.txt,sha256=L7BVAVT-DH_DFzsM87oTr_Wlpq714PF8Z29IaYnEcGI,7
+signax-0.1.1.dist-info/RECORD,,
