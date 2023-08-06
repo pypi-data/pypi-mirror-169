@@ -1,0 +1,16 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+prospective.egg-info/PKG-INFO
+prospective.egg-info/SOURCES.txt
+prospective.egg-info/dependency_links.txt
+prospective.egg-info/not-zip-safe
+prospective.egg-info/requires.txt
+prospective.egg-info/top_level.txt
+superstore/__init__.py
+superstore/tests/test_superstore.py
