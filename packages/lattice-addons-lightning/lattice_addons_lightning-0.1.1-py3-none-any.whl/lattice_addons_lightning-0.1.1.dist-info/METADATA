@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: lattice-addons-lightning
+Version: 0.1.1
+Summary: Lattice Add-ons
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: boto3
+Requires-Dist: lightning
+
+# State Needed from Agent
+The addons use a set of environment variables that are passed from the agent to understand where they should write checkpoints and how often.
+It utilizes the following:
+
+`LATTICE_CHECKPOINT_ENDPOINT`
+
+This is a string which indicates where the add-ons should write and look for checkpoints.
+If using S3 for example, it takes the following format: `s3://breeze-checkpoint/path/to/storage/`
+It will then use this endpoint to find the S3 bucket and the storage path and save the checkpoints there.
+
+`LATTICE_RUN_ID`
+
+This is a string which indicates the current rendezvous ID.
+This is taken from the agent's `LATTICE_RDZV_ID` so that when storing checkpoints they can be stored
+safely without conflicting with checkpoints stored by other jobs using the same storage backend.
+Continuing the example above, the worker would store its checkpoints at
+`s3://breeze-checkpoint/path/to/storage/<run_id>/checkpoint/`.
+TODO: Make the usage of `run_id` and `rdzv_id` consistent.
+
+`LATTICE_STEPS_PER_CHECKPOINT`
+
+This is passed to the agent to tell it how often to write checkpoints.
+This can be configured by the agent's --steps-per-checkpoint CLI arg or environment variable.
+
+
+## How to pass state
+There are two ways to pass state to the worker:
+
+1. Add it to the `extra_env` dictionary seen [here](https://github.com/breezeml/lattice-agent/blob/8571870de3e2635819edeb4f48b289c9e0eb3b01/src/lattice/torch/launcher/api.py#L227)
+
+2. Add it to the `worker_env` dictionary seen [here](https://github.com/breezeml/lattice-agent/blob/8571870de3e2635819edeb4f48b289c9e0eb3b01/src/lattice/elastic/agent/server/lattice_agent.py#L58)
+
+    **Warning** Make sure all state passed through this dict is a string!
+# How to use Lightning Addons
+Use the import:
+```python
+from lattice_addons.lightning.elastic import ElasticityProvider
+```
+
+Then add this as a callback to your Trainer:
+```python
+trainer = Trainer(
+    default_root_dir='.',
+    max_epochs=30,
+    devices=int(os.environ['LOCAL_WORLD_SIZE']),
+    accelerator='gpu',
+    num_nodes=int(os.environ['WORLD_SIZE']),
+    strategy='ddp',
+    callbacks=[ElasticityProvider(storage_location, every_n_steps=10, batch_size=local_batch_size)],
+)
+```
++ **Note**: For now the only supported storage locations are S3 buckets
+
