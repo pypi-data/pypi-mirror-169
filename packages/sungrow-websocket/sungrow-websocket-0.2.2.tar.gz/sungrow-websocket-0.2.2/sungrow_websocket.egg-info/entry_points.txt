@@ -1,0 +1,2 @@
+[console_scripts]
+sungrow-websocket = sungrow_websocket:main
