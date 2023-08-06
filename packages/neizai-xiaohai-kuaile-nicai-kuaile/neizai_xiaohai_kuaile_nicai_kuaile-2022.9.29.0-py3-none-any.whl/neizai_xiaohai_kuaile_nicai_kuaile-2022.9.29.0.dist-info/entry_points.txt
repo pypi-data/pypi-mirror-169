@@ -1,0 +1,4 @@
+[console_scripts]
+NeizaiXiaohaiKuaileNicaiKuaile = NeizaiXiaohaiKuaileNicaiKuaile.__main__:main
+neizai-xiaohai-kuaile-nicai-kuaile = NeizaiXiaohaiKuaileNicaiKuaile.__main__:main
+
