@@ -1,0 +1,4 @@
+[console_scripts]
+XinshengmingShuziMimaVol1 = XinshengmingShuziMimaVol1.__main__:main
+xinshengming-shuzi-mima-vol1 = XinshengmingShuziMimaVol1.__main__:main
+
