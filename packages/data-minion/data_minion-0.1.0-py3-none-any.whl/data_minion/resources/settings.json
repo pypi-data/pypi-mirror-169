@@ -1,0 +1,19 @@
+{
+    "login_url": "",
+    "class_home_url": "",
+    "student_home_url": "",
+    "theme": "LightBlue",
+    "kudos": 70.0,
+    "uhoh": 60.0,
+    "output_folder": "",
+    "get_new_class_lists": true,
+    "newest_class_list_fn": "",
+    "xlsx_dir": "",
+    "class_lists": [
+        {
+            "name": "Placeholder",
+            "url": ""
+        }
+    ],
+    "xslx_dir": ""
+}

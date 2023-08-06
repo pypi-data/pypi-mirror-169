@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: data-minion
+Version: 0.1.0
+Summary: 
+Author: David Flood
+Author-email: davidfloodii@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: BeautifulSoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: PySimpleGUIQt (>=0.35.0,<0.36.0)
+Requires-Dist: helium (>=3.0.8,<4.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
