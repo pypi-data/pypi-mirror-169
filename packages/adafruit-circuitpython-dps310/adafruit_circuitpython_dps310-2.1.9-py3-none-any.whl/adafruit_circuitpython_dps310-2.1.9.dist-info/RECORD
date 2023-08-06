@@ -1,0 +1,8 @@
+adafruit_dps310/__init__.py,sha256=aOSphhTkA55O0Ro_aTI6h721jCqqqaB61VUUBFiNkIg,377
+adafruit_dps310/advanced.py,sha256=-Jetr-7noZ-35aQ1fTH72V6YmHCcpv51nU_pC9NAoPI,11778
+adafruit_dps310/basic.py,sha256=MM2Ix7JubfcUXSmhPj85Ck5ASfvHSJN44lDKd1hyPwU,10244
+adafruit_circuitpython_dps310-2.1.9.dist-info/LICENSE,sha256=lL6CpRSFW8FPg_7Uk25HW3Ie6YBGNLf4Ja6oU0sYvg0,1104
+adafruit_circuitpython_dps310-2.1.9.dist-info/METADATA,sha256=78TICerdxA24gg6l1oW18uvVlpoJAfor8R40TgThS3M,5432
+adafruit_circuitpython_dps310-2.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+adafruit_circuitpython_dps310-2.1.9.dist-info/top_level.txt,sha256=IGWUAunXGsERdpe-QRb1fWcrUltFTlZOZRzaF7Ehnsw,16
+adafruit_circuitpython_dps310-2.1.9.dist-info/RECORD,,
