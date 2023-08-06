@@ -1,0 +1,50 @@
+[project]
+name = "qloud-wsgi"
+version = "0.2.0"
+description = "Qloud Integration for WSGI applications"
+authors = [
+    { name = "Qloud Development Team", email = "dev@qloud.network" },
+]
+requires-python = ">=3.7"
+dependencies = [
+    "werkzeug>=0.14.1",
+    "PyJWT>=1.7.1",
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Web Environment",
+    "Topic :: Security",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware",
+    "Intended Audience :: Developers",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/QloudNetwork/qloud-integrations"
+"Bug Tracker" = "https://github.com/QloudNetwork/qloud-integrations/issues"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.scripts]
+format = "black ."
+test = "pytest"
+
+[tool.pdm.dev-dependencies]
+style = [
+    "black>=22.8.0",
+]
+test = [
+    "flask>=2.2.2",
+    "pytest>=7.1.3",
+]
