@@ -1,0 +1,4 @@
+einops
+omegaconf
+transformers
+pytorch-lightning
