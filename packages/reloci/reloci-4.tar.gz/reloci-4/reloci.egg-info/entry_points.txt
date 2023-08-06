@@ -1,0 +1,3 @@
+[console_scripts]
+reloci = reloci.cli:reloci
+reloci_info = reloci.cli:info
