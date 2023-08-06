@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aeityper
+Version: 0.0.3
+Summary: Typer. It types for you if pasting is disabled.
+Author: Shreyanshu Malviya
+Author-email: <shreyanshumalviya@gmail.com>
+Keywords: type,write,paste
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Simulates pressing of keyboard and type the copied text. Can be used if pasting is disabled.
