@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoJiuzhang = TaluoJiuzhang.__main__:main
+taluo-jiuzhang = TaluoJiuzhang.__main__:main
+
