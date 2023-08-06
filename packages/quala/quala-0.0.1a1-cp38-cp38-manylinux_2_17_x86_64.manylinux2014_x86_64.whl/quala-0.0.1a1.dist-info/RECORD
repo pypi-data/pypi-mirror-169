@@ -1,0 +1,10 @@
+quala-0.0.1a1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quala-0.0.1a1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+quala-0.0.1a1.dist-info/METADATA,sha256=HlgOxsY33kiiEk_70Or2fjux33mN8FmojKFXjxCA0oM,2081
+quala-0.0.1a1.dist-info/RECORD,,
+quala-0.0.1a1.dist-info/WHEEL,sha256=6MuyRgy2RPOgoLS56qNTKlRcmJGOm7Y1kqnAb1PMmq8,141
+quala/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quala/_quala.so,sha256=haHC9XnQoWV5pREEsGA5UPb1P3R9jxG1FJNDfi9y6Vc,6564208
+quala/__init__.py,sha256=9nLOPT3M2tn6SyxPFROKTJ1pbzuQl1i8aGH4FZERIHI,308
+quala/_quala.pyi,sha256=yeKZJutq46JGuKdfm5-usDask49d4Rlqg55ctsvVJnU,9175
+quala/__init__.pyi,sha256=mp4cDsWbu8ox2Ex9xUxihghas6k-MRxyU2RvbN0qb7U,27
