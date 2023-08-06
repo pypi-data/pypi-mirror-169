@@ -1,0 +1,3 @@
+[console_scripts]
+url2features = url2features.cli:main
+
