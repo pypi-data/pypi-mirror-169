@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: lattice-agent
+Version: 0.1.0rc1
+Summary: Lattice Agent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: GPUtil
+Requires-Dist: python-etcd
+Requires-Dist: requests
+
+# Lattice Agent
+
+## Lattice Agent for PyTorch
+
+Basic usage:
+
+```shell
+python -m lattice.torch.run YOUR_TRAINING_SCRIPT.py
+```
+
+### Configure agent using arguments
+
+The first way to pass arguments to the agent is to pass them directly to the training script, for example:
+```
+python -m lattice.torch.run --nnodes 1:8 --nproc_per_node 1 --rdzv_backend etcd YOUR_TRAINING_SCRIPT.py
+```
+
+The arguments include:
+
+```
+nnodes:                     (required) Number of nodes, or the range of nodes in form <min_nodes>:<max_nodes>
+nproc_per_node:             (not required; default=1) Number of workers per node
+rdzv_backend:               (not required; default=etcd) Backend used for rendezvous (currently only supports etcd)
+rdzv_client_service_host:   (required) Rendezvous backend endpoint
+rdzv_client_service_port:   (not required; default=2379) Rendezvous backend port
+rdzv_id:                    (required) User-defined identifier for this job
+rdzv_conf:                  (not required; default="") Additional rendezvous configurations in form (<key1>=<val1>,<key2>=<val2>,...)
+trainin_script:             (required) Your training script
+training_script_args:       (requirement depends on training_script) Args to the training script
+```
+
+
+### Configure agent using environments variables
+
+The second way is to pass the args to the training script through environment variables.
+For every arg listed above, the corresponding environment variable to set it can be found
+by using the following rule: The argument name is capitalized and preceded by "LATTICE_".
+For example: `nnodes = LATTICE_NNODES`.
+
+Therefore, you can use the following example to run the agent and set all its arguments:
+
+```
+LATTICE_NNODES=1:8                          \
+LATTICE_NPROC_PER_NODE=1                    \
+LATTICE_RDZV_CLIENT_SERVICE_HOST=localhost  \
+LATTICE_RDZV_CLIENT_SERVICE_PORT=2379       \
+LATTICE_RDZV_BACKEND=etcd                   \
+LATTICE_RDZV_ID=test-id                     \
+python -m lattice.torch.run YOUR_TRAINING_SCRIPT.py
+```
