@@ -1,0 +1,3 @@
+[console_scripts]
+gbm-barycor = gbmpulsar.barycor.barycor:main
+gbm-pulsar-pipeline = gbmpulsar.GBM_pulsar_pipeline:main
