@@ -1,0 +1,10 @@
+pm_attacher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pm_attacher/__main__.py,sha256=1rxSxoEtQSAraZk0piOzVxBK3qtzuf8rSIXT0SaQPoA,55
+pm_attacher/database.py,sha256=YJ5a9mPw0cT4-NkXFqC7iTLE2QA55pNyORRuQ2WgalM,863
+pm_attacher/main.py,sha256=09QwgUcgZNnRFBhOgLUiygz_ALhHNNBh9d81Eg6OCfM,6150
+pm_attacher/options.py,sha256=N61WW2jArfJMn3tlivElp1GRsm6ZIvG6IgMzEjSUqaE,1877
+pm_attacher/sql.py,sha256=VGMgugGzNHrHcHN7bFD3f6FWOwSA0BJwJeP-a0791a4,912
+pm_attacher-0.2.3.dist-info/entry_points.txt,sha256=J7VlRxql8ZEJgrGeoG9sno1hLHxGKmkF6QmuMgZ75wQ,52
+pm_attacher-0.2.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pm_attacher-0.2.3.dist-info/METADATA,sha256=4bfpLbatvuDRgnSCincBPTiOPgaBzlpTAjloITnXrFY,6610
+pm_attacher-0.2.3.dist-info/RECORD,,
