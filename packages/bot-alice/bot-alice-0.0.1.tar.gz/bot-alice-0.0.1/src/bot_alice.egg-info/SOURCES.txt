@@ -1,0 +1,13 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/bot_alice.egg-info/PKG-INFO
+src/bot_alice.egg-info/SOURCES.txt
+src/bot_alice.egg-info/dependency_links.txt
+src/bot_alice.egg-info/top_level.txt
+src/conscious/__init__.py
+src/conscious/skills/__init__.py
+src/conscious/skills/literacy.py
+src/senses/__init__.py
+src/senses/keystrokes.py
