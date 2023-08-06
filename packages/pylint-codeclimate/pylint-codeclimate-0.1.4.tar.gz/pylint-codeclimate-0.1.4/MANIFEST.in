@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include setup.*
+include requirements*.txt
+recursive-include pylint *py
+prune docs
+prune tests
