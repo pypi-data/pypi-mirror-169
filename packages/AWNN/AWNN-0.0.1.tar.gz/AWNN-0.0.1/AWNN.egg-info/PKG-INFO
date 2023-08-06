@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: AWNN
+Version: 0.0.1
+Summary: Adaptive Weighted Nearest Neighbor Density Estimation
+Home-page: https://github.com/Karlmyh/AWNN
+Author: Karlmyh
+Author-email: yma@ruc.edu.cn
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# Adaptive Weighted Nearest Neighbor Density Estimation
+Repository corresponds to Adaptive Weighted Nearest Neighbor Density Estimation

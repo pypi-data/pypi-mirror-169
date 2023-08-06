@@ -1,0 +1,6 @@
+README.md
+setup.py
+AWNN.egg-info/PKG-INFO
+AWNN.egg-info/SOURCES.txt
+AWNN.egg-info/dependency_links.txt
+AWNN.egg-info/top_level.txt
