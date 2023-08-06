@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ol-openedx-course-export
+Version: 0.1.2
+Summary: An Open edX plugin to add API for course export to s3
+License: BSD-3-Clause
+Requires-Python: >=3.8
