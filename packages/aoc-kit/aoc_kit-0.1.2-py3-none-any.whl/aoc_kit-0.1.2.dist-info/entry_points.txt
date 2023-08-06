@@ -1,0 +1,3 @@
+[console_scripts]
+aoc-download=aockit.download:main
+
