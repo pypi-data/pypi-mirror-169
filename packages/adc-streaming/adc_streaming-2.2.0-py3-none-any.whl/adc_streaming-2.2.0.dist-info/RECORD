@@ -1,0 +1,13 @@
+adc/__init__.py,sha256=LmW7bm0_u60EoWVvN5_GMGMFpG3lhoIK4A2C_Smd__c,332
+adc/auth.py,sha256=GJ8oj2i_oQ99BbmdCQPKyrS4QYm16WjzHF6JVCa97Bg,2447
+adc/consumer.py,sha256=mJepE6yWzQVgY09ZF4QWBZdfOz0mZcOdIjyQ8ApLUHI,13118
+adc/errors.py,sha256=wPEOLzOo3k-Sh4PO2gA_hgAdSpfa2__At38_LvntagQ,1880
+adc/io.py,sha256=RdfQuhmPLL9wVvUWaggRbeGKUVq5gMFp-QMO4Du-z9o,2541
+adc/kafka.py,sha256=jsFypqYbfJk_CMpznjgUK4lSL7QRuXzYKGObx5OQWtg,933
+adc/oidc.py,sha256=5n1lBANDtb0WVnvVIeBYjzOCU3B6uRgc378a6QNJAI8,1038
+adc/producer.py,sha256=g8JBWPTjdTmL3aK1aWKOBI_icCm8PKwqS-iRz0hz1Hw,5075
+adc_streaming-2.2.0.dist-info/LICENSE,sha256=BzSloDstU84TGMF0A6S-daRS2sVHoDgo3e7yh666Hgg,1519
+adc_streaming-2.2.0.dist-info/METADATA,sha256=6oZ7MZEffr3Ek50EWxYa5Sz0DLMGXfLnpvFaCqmLe_o,2582
+adc_streaming-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+adc_streaming-2.2.0.dist-info/top_level.txt,sha256=8quD7Fop9Wwsv5j59wJl1NsuB_dGLESpqC4Tk7V2Qew,4
+adc_streaming-2.2.0.dist-info/RECORD,,
