@@ -1,0 +1,3 @@
+[spacy_factories]
+make_span_extructure=span_extructure:make_span_extructure
+
