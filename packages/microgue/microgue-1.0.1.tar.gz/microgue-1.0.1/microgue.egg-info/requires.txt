@@ -1,0 +1,6 @@
+aiohttp
+boto3
+flask
+flask-classful
+redis
+requests
