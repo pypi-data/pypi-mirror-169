@@ -1,0 +1,4 @@
+[console_scripts]
+analysis=speech_analytics._models:Analysis
+tester=speech_analytics._models:test_function
+
