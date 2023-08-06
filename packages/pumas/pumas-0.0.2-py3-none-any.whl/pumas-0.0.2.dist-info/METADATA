@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pumas
+Version: 0.0.2
+Summary: todo
+Project-URL: Homepage, https://github.com/KoenBaak/pumas
+Author-email: Koen Baak <koenbaak@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Provides-Extra: doc
+Provides-Extra: test
+Description-Content-Type: text/markdown
+
+# pumas
+todo
