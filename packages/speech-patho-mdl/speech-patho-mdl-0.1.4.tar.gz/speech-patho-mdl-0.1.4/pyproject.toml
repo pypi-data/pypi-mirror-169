@@ -1,0 +1,66 @@
+[tool.poetry]
+authors = [
+  "Craig Trim <craigtrim@gmail.com>",
+]
+
+maintainers = [
+  "Craig Trim <craigtrim@gmail.com>",
+]
+
+description = "Custom Trained Models for Speech Pathology"
+license = "MIT"
+name = "speech-patho-mdl"
+readme = "README.md"
+version = "0.1.4"
+
+keywords = ["nlp", "nlu", "ai", "classification", "intents"]
+repository = "https://github.com/craigtrim/speech-patho-mdl"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+baseblock = "*"
+boto3 = "*"
+openai = "^0.20.0"
+openai-helper = "*"
+opensearch-helper = "*"
+opensearch-py = "^1.1.0"
+owl-builder = "*"
+owl-parser = "*"
+python = "3.8.5"
+requests = "*"
+schema-classification = "*"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+flakeheaven = "*"
+mypy = "*"
+plac = "*"
+pre-commit = "^2.20.0"
+pytest = "*"
+
+[tool.poetry.build]
+generate-setup-file = true
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.flakeheaven]
+base = "https://raw.githubusercontent.com/flakeheaven/flakeheaven/main/pyproject.toml"
+exclude = ["__init__.py", "README.md", "setup.py", ".venv", ".git"]
+format = "grouped"
+max_line_length = 500
+show_source = true
+
+[tool.flakeheaven.plugins]
+# F401 (Missing Import)
+# F403 (Unable to Detect Undefined Names)
+pyflakes = ["+*", "-F401", "-F403"]
+flake8-bandit = ["-*", "+S1??"]
+"flake8-*" = ["+*"]
+flake8-docstrings = ["-*"]

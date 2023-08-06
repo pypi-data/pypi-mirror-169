@@ -1,0 +1,6 @@
+from baseblock import BaseObject
+from speech_patho_mdl.dto import InputTags as InputTags, ServiceEvent as ServiceEvent
+
+class ClassifyInputTags(BaseObject):
+    def __init__(self) -> None: ...
+    def process(self, input_tags: InputTags) -> ServiceEvent: ...
