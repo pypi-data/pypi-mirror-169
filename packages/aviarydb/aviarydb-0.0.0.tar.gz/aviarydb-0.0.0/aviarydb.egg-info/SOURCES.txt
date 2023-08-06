@@ -1,0 +1,6 @@
+setup.py
+aviarydb/__init__.py
+aviarydb.egg-info/PKG-INFO
+aviarydb.egg-info/SOURCES.txt
+aviarydb.egg-info/dependency_links.txt
+aviarydb.egg-info/top_level.txt
