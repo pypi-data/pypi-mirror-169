@@ -1,0 +1,13 @@
+timm==0.6.7
+pywebio==1.6.2
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+setuptools
+pytest
+pytest-cov
+pre-commit
+pytest-subtests
+tox
