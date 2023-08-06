@@ -1,0 +1,3 @@
+[console_scripts]
+docx_parser = docx_parser.bin.main:main.callback
+
