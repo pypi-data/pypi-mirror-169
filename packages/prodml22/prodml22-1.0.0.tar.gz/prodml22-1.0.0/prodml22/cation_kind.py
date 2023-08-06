@@ -1,0 +1,37 @@
+from __future__ import annotations
+from enum import Enum
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/prodmlv2"
+
+
+class CationKind(Enum):
+    AL_3 = "Al+3"
+    B_3 = "B+3"
+    BA_2 = "Ba+2"
+    BE_2 = "Be+2"
+    CA_2 = "Ca+2"
+    CD_2 = "Cd+2"
+    CO_2 = "Co+2"
+    CR_3 = "Cr+3"
+    CU_2 = "Cu+2"
+    FE_2 = "Fe+2"
+    FE_3 = "Fe+3"
+    K = "K+"
+    LI = "Li+"
+    MG_2 = "Mg+2"
+    MN_2 = "Mn+2"
+    MO_6 = "Mo+6"
+    NA = "Na+"
+    NH4 = "NH4+"
+    NI_2 = "Ni+2"
+    P_3 = "P+3"
+    PB_2 = "Pb+2"
+    RB_1 = "Rb+1"
+    SE_4 = "Se+4"
+    SI_4 = "Si+4"
+    SN_4 = "Sn+4"
+    SR_2 = "Sr+2"
+    TI_4 = "Ti+4"
+    TL_1 = "Tl+1"
+    V_2 = "V+2"
+    ZN_2 = "Zn+2"
