@@ -1,0 +1,17 @@
+dataclasses_config/__init__.py,sha256=A4-9gxMrK8S6BKDhp0pGAbus3eSnMWm-SM8zygTTn5w,978
+dataclasses_config/_helpers.py,sha256=9J503saMgsatWAAFBqrrEcCkVBVsGNwgS4cX0aUInlk,3031
+dataclasses_config/backports.py,sha256=mN8Lv-CyLxny1oAwBVItI-znZmYE7OYfXyrw98-D8Hc,224
+dataclasses_config/config.py,sha256=j45YljfRF-kxZkUBcrfurq4QbV9N6iFbVYcypeUjSZU,29667
+dataclasses_config/decorations.py,sha256=0OQ2-hQysVLHgYyRZqfwQxMk5NwWKIoqbdWo6V0HVR4,3298
+dataclasses_config/errors.py,sha256=5ZI7MQpKWAfoGTujKFjYrLCoSQ2mEdqWylqQq-Q_BWM,4033
+dataclasses_config/settings.py,sha256=EY70FvKUQ-dZk8Fy37yOcGZLLbN4GkAG9fTOMeKJt3M,315
+dataclasses_config/util.py,sha256=4vqjyVJART1hka9Fqs4bgGegUKHiOy-rFJtNyBZ_zFg,2916
+dataclasses_config/classes/__init__.py,sha256=e7sEQi_58RXZzrocXNmKl_nQbd3ASZG9aTlzRDOOZCQ,541
+dataclasses_config/classes/duration.py,sha256=BdUJ6ciWAUcvp6QMr2Av3ibylH7qoX_LmuklaqyfH9Y,2759
+dataclasses_config/classes/dynamic_class.py,sha256=gRTBL_BWPfny8Y3tHML9RFynicblWHZO4GD0CYBLP3E,2609
+dataclasses_config/classes/path.py,sha256=TuldshnJG291Mjz7Lpv41NyOoF6uePG9sttQ0SSKqzY,3145
+dataclasses_config-0.4.9.dist-info/LICENSE,sha256=RRvkuv2At20KvoK6tBPjPCnfrUYLjSWwkm6teJAX-LE,1323
+dataclasses_config-0.4.9.dist-info/METADATA,sha256=cWFrHZ5sqGSSiwZ-RBW7LGLD3gHK6CHg68CSj_5qZpA,1870
+dataclasses_config-0.4.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dataclasses_config-0.4.9.dist-info/top_level.txt,sha256=l3HYdVAxvW8u83qB8uUuUzWRiE4yl1e11hikILwuwWI,19
+dataclasses_config-0.4.9.dist-info/RECORD,,
