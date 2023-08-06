@@ -1,0 +1,3 @@
+[console_scripts]
+print_yaml=print_yaml.main:run
+
