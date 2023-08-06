@@ -1,0 +1,3 @@
+include PyPDump/requirements.txt
+include PyPDump/thirdparty.json
+include PyPDump/C:/m_i_t.txt
