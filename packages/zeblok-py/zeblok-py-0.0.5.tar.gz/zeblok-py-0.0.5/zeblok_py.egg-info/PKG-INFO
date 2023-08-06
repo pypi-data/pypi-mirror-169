@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zeblok-py
+Version: 0.0.5
+Summary: Zeblok Python SDK
+Home-page: UNKNOWN
+Author: Karan Pathak
+Author-email: karan@dataturtles.com
+License: UNKNOWN
+Keywords: python,zeblok
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE.md
+
+Zeblok Python SDK to interact the Zeblok Ai-MicroCloud
+
