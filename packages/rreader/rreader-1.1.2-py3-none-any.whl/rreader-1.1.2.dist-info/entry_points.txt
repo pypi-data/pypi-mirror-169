@@ -1,0 +1,2 @@
+[console_scripts]
+rr = rreader_src.run:do

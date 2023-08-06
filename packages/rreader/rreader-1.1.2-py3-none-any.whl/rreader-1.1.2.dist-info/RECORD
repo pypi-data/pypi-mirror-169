@@ -1,0 +1,12 @@
+rreader_src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rreader_src/common.py,sha256=b7Bksk0fOkoLk6Oe1RiIjOuoJTjxg0ZKdVfLrhYttHE,289
+rreader_src/config.py,sha256=et4ads9OuT7vQKQpOLl1Tq6dmn7Md_qCUkOQ1pXQUNA,94
+rreader_src/feeds.json,sha256=KmH2_3AqmKsaxc0eBwapPFE0tS2Sf-SbAN1A4y7iVsE,2226
+rreader_src/get_rss.py,sha256=BKDezupiu39n-dexdvOdOPi9xXgcLu9Y2KWfN95yECg,2561
+rreader_src/run.py,sha256=6c_ebNhkvEAYy8FWH4KYSdd0AouVK9HmFo8vwKD5UbU,20286
+rreader-1.1.2.dist-info/LICENSE,sha256=ksG2cyIBcWydW7q7TWMnBtjSlVFpgIDK0wXQLNdazZU,1091
+rreader-1.1.2.dist-info/METADATA,sha256=7LLGNZ2X3DK4XzWAu0dhTTdUEiMJgP_UPes-cjxL1bE,2060
+rreader-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rreader-1.1.2.dist-info/entry_points.txt,sha256=h8jiUx0uevBDwb0MZKMF-vFaSYHjZLnrBv2PyYIGFmI,42
+rreader-1.1.2.dist-info/top_level.txt,sha256=cRsrod_xGZDqFE2i6Ca42XsAcaMkI8HWP-NrDAJIUeo,12
+rreader-1.1.2.dist-info/RECORD,,
