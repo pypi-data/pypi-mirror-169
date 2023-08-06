@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: validatorcli
+Version: 0.1.0
+Summary: Valicator CLI
+Home-page: UNKNOWN
+Author: Topaz Bott
+Author-email: topaz@topazhome.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: diskcache
+Requires-Dist: tabulate
+Requires-Dist: timeout-decorator
+Requires-Dist: termcolor
+Requires-Dist: tqdm
+Requires-Dist: validatorsdk
+
+# Welcome to the Validator Command Line Tools.
+
+I validate code
+
+## What tools are included?
+
+1. [validator] - a cli which provides linting validation of Infrasfructure as
+   Code.
+
+## How to install?
+
+### Requirements
+
+To install the validatorcli we have a few requirements.
+
+* [Python 3.8]
+
+[Python 3.8]: https://www.python.org/downloads/release/python-386/
+[validator]: ./docs/validator.md
+
+
