@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "fedgraph"
+version = "0.0.3"
+authors = [
+  { name="Jiayu Chang", email="jiayuc@andrew.cmu.edu" },
+]
+# description = ""
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    # "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+# license = { file="LICENSE" }
+keywords = ["Graph Neural Networks", "Federated Learning"]
+
+
+# [project.urls]  # currently disable since sites not public, which cause trouble when uplaoding pacakge
+# "Homepage" = "https://github.com/FedGraph/fedgraph"
+# "Bug Tracker" = "https://github.com/FedGraph/fedgraph/issues"
+requires-python = ">=3.9"
+# dependencies = []
+[project.optional-dependencies]
+dev = ["build", "mypy", "pre-commit"]
+
+
+# third party tools
+[tool.isort]
+profile = "black"
