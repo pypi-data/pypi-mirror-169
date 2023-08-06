@@ -1,0 +1,3 @@
+[console_scripts]
+simulation_build = scripts.simulation_build:simulation_build
+
