@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AutomationServiceBackend-wittigannemarie
+Version: 0.0.1
+Summary: A python project allowing to run a fastapi server that can train and identify NER models in runtime.
+Project-URL: Homepage, https://github.com/AnnemarieWittig/RecognitionService/tree/main/AutomationService
+Project-URL: README, https://github.com/AnnemarieWittig/RecognitionService/tree/main/AutomationService
+Project-URL: Bug Tracker, https://github.com/AnnemarieWittig/RecognitionService/issues
+Author-email: Annemarie Wittig <wittiganmarie@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
