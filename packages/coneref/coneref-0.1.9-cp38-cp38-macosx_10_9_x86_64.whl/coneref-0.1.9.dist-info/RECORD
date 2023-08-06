@@ -1,0 +1,11 @@
+_coneref.cpython-38-darwin.so,sha256=7jMQK3Mc8OPoW42I57HZxruDx8ltHTJh2OLIb1t-6Zs,1160392
+coneref/__init__.py,sha256=gykMH9ya8engazKBz4IqssCT8kFEzCUwuJMqIWwdGk4,90
+coneref/cones_utils.py,sha256=wzcdb-75V5df0HJErROU3gXESUFug1QRqIL8KF6-S9E,5784
+coneref/cvxpy_interface.py,sha256=lg9JSrfpLlbEydgdiZXNB2O5sxndd_vA8Z18t58Fmks,10989
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_one.py,sha256=LNI28Al6DasTT9PuYG749f3JBKhgYJz47Wk0aoJ_4Qc,59
+coneref-0.1.9.dist-info/LICENSE,sha256=1T23ltInF1iLMTNbeD_TOEO_Oj8OqP51-5UDyFOY3MU,1065
+coneref-0.1.9.dist-info/METADATA,sha256=E2pW3RBRbGAq4k-rSa8EPtuAa_MvK1Z7xWjZTeHvosU,5910
+coneref-0.1.9.dist-info/WHEEL,sha256=pXLpj1wTvqlD6RVUEKOuGQGeFX0NOPyDrsC-9xVDmYU,109
+coneref-0.1.9.dist-info/top_level.txt,sha256=GmjaCYzCWz4P2B1vRakhpOs2V5Jm2RXU15MaizbvF7o,23
+coneref-0.1.9.dist-info/RECORD,,
