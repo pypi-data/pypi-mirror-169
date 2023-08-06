@@ -1,0 +1,12 @@
+setup.py
+pywifi-gtyc/__init__.py
+pywifi-gtyc/_wifiutil_linux.py
+pywifi-gtyc/_wifiutil_win.py
+pywifi-gtyc/const.py
+pywifi-gtyc/iface.py
+pywifi-gtyc/profile.py
+pywifi-gtyc/wifi.py
+pywifi_gtyc.egg-info/PKG-INFO
+pywifi_gtyc.egg-info/SOURCES.txt
+pywifi_gtyc.egg-info/dependency_links.txt
+pywifi_gtyc.egg-info/top_level.txt
