@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+CloudWatchLogs2Pandas = CloudWatchLogs2Pandas._modidx:d
+

@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+CloudWatchLogs2Pandas/CloudWatchQuery.py
+CloudWatchLogs2Pandas/__init__.py
+CloudWatchLogs2Pandas/_modidx.py
+CloudWatchLogs2Pandas/core.py
+CloudWatchLogs2Pandas.egg-info/PKG-INFO
+CloudWatchLogs2Pandas.egg-info/SOURCES.txt
+CloudWatchLogs2Pandas.egg-info/dependency_links.txt
+CloudWatchLogs2Pandas.egg-info/entry_points.txt
+CloudWatchLogs2Pandas.egg-info/not-zip-safe
+CloudWatchLogs2Pandas.egg-info/requires.txt
+CloudWatchLogs2Pandas.egg-info/top_level.txt
