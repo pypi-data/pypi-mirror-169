@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: xata
+Version: 0.1.1
+Summary: Python client for Xata.io
+Author: Tudor Golubenco
+License: Apache-2.0
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
+# Python SDK for Xata
+
+[![Documentation Status](https://readthedocs.org/projects/xata-py/badge/?version=latest)](https://xata-py.readthedocs.io/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/xata.svg)](https://badge.fury.io/py/xata)
+
+Simple Python client for xata.io databases. Currently work in progress.
+
+Xata is a Serverless Database that is as easy to use as a spreadsheet, has the
+data integrity of PostgreSQL, and the search and analytics functionality of
+Elasticsearch.
+
+The Python SDK uses type annotations and requires Python 3.8 or higher.
+
+To install, run:
+
+```
+pip install xata
+```
+
+To learn more about Xata, visit [xata.io](https://xata.io).
+
+- Python client documentation: https://xata-py.readthedocs.io
+- API Reference: https://xata-py.readthedocs.io/en/latest/api.html
