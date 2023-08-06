@@ -1,0 +1,4 @@
+[console_scripts]
+tel=telgine.cli:main
+telgine=telgine.cli:main
+

@@ -1,0 +1,17 @@
+<Message>
+    <Text>
+        This is just a text of this  with following buttons
+    </Text>
+    <KeyBoard>
+        <Box direction="row">
+            <Button v-if="is_login">True</Button>
+            <Button v-else="">False</Button>
+            <Button>Another</Button>
+        </Box>
+        <Box direction="column">
+            <Button>1</Button>
+            <Button>2</Button>
+            <Button>3</Button>
+        </Box>
+    </KeyBoard>
+</Message>
