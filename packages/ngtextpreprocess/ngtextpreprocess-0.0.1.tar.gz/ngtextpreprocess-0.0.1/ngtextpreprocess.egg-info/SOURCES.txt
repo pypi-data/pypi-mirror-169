@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ngtextpreprocess/__init__.py
+ngtextpreprocess/global_params.py
+ngtextpreprocess/make_directory.py
+ngtextpreprocess/replacement_dictionary.py
+ngtextpreprocess/text_cleaner.py
+ngtextpreprocess/text_processing.py
+ngtextpreprocess.egg-info/PKG-INFO
+ngtextpreprocess.egg-info/SOURCES.txt
+ngtextpreprocess.egg-info/dependency_links.txt
+ngtextpreprocess.egg-info/requires.txt
+ngtextpreprocess.egg-info/top_level.txt
+test/test_text_processing.py

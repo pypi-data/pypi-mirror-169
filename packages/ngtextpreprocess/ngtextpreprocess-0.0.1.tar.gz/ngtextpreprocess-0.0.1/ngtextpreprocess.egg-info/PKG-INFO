@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: ngtextpreprocess
+Version: 0.0.1
+Summary: A small text cleaning package
+Home-page: https://github.com/ngenux/ngtextpreprocess.git
+Download-URL: https://github.com/ngenux/ngtextpreprocess/archive/refs/tags/0.0.1.tar.gz
+Author: Ngenux Solutions Pvt. Ltd.
+Author-email: connect@ngenux.com
+License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+Project-URL: Bug Tracker, https://github.com/ngenux/ngtextpreprocess.git/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: Common Public License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ngtextpreprocess
+
+**[ngtextpreprocess](https://pypi.org/project/ngtextpreprocess)** a simple Python package that removes noise and extracts the meaningful information from the given input text data.
+
+Unlike plain tokenization and de-tokenization, where useful information like sentences, dates, percentages, monetary values etc
+becomes undentifiable, **ngtextpreprocess** goes one step ahead in preserving these crucial information while removing noisy data.
+
+
+[![Current Release Version](https://shields.io/badge/release-v1.0-purple?&logo=github)](https://github.com/ngenux/ngtextpreprocessing/releases)
+[![Current Release Version](https://shields.io/badge/pypi-v1.1.2-blue?&logo=pypi)](https://pypi.org/project/ngtextpreprocess/)
+![](https://img.shields.io/badge/python-3.8-blue?&logo=Python)
+![](https://img.shields.io/badge/license-Creative%20Commons%20Attribution%20NonCommercial%20NoDerivatives%204.0%20International%20Public%20License-green.svg)
+
+## Table of contents:
+- **[Installation](#installation)**
+- **[Usage](#usage)**
+  * [Cleaning pipeline](#cleaning-pipeline)
+  * [Using required functions in the pipeline](#using-required-functions-in-the-pipeline)
+  * [Individual methods](#individual-methods)
+
+
+
+## Installation:
+
+To install the package in your local environment, open a terminal inside your project directory and type:
+```python
+pip install ngtextpreprocess
+```  
+
+To upgrade the already existing installation, run
+```python
+  pip install -U ngtextpreprocess
+```
+
+
+## Usage:
+The package comes with a cleaning pipeline for performing all the 
+text cleaning processes in a single step.  
+Along with that, the package also can be used for specific text cleaning tasks 
+by accessing the individual methods.
+
+### Cleaning pipeline
+
+```python
+# import the package
+from ngtextpreprocess import CleanText
+
+# initialize the input text
+input_text = """
+                This is a #1234 sampl writtn 100% on 2022/04/14 ___
+                <a href=#> with $100.50 on my @abcd table.</a>
+              """
+
+# instantiate the class object by passing the input text
+ct = CleanText(input_text=input_text)
+
+# call the cleaning pipeline and get the output
+output_text = ct.cleaning_pipeline()
+
+print(output_text)
+
+>> This is a sample written 100% on 2022/04/14 with $100.50 on my table.
+```
+You can customize the pipeline by deciding what all functions
+you would require in the same sequential manner. 
+
+This can be done by backward elimination technique where
+you can set the parameter for the required function as False.
+
+Also you can enable the set_logging parameter to get the
+logging details as a log file in a dynamically created
+logging directory.
+
+Here is how its done.
+
+### Using required functions in the pipeline
+
+In this example, we want the name to stay intact in the output.
+So, we are disabling the remove_name function. Also we are 
+enabling logging to get the log details in the logging
+directory.
+
+```python
+# import
+from ngtextpreprocess import CleanText
+
+# initialize the input text
+input_text = "This is John Doe from U.S. ."
+
+# instantiate
+cleaner = CleanText(input_text)
+
+# call the cleaning_pipeline method
+output_text = cleaner.cleaning_pipeline(set_logging=True, set_remove_name=False)
+
+print(output_text)
+
+>> This is John Doe from
+```
+
+As you can see, the name has been preserved and all other possible
+corrections have been made. Also, the logfiles have been generated.
+
+### Individual methods
+The following are the individual functions used within the pipeline.  
+
+#### For Text Beautification
+1. Cleaning HTML
+2. Fixing ASCII decoding errors
+3. Removing Bullets
+4. Replacing Hexcodes
+5. Removing Symbols and Emojis  
+
+#### For Personal Information Removal
+1. Removing Personal Names
+2. Removing Contact Addresses
+3. Removing Contact Numbers
+4. Removing e-mail address
+5. Removing social-media tags
+6. Removing URL  
+
+#### For Text Correction
+1. Expanding Domain specific short-forms
+(Currently, financial domain has been covered.)
+2. Expanding General short-forms
+3. Fixing Contractions
+4. Removing Punctuations
+5. Removing Extra Whitespaces
+6. Fixing Spelling errors
