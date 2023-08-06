@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/prymbr/__init__.py
+src/prymbr/prymbr.py
+src/prymbr.egg-info/PKG-INFO
+src/prymbr.egg-info/SOURCES.txt
+src/prymbr.egg-info/dependency_links.txt
+src/prymbr.egg-info/top_level.txt
