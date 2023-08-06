@@ -1,0 +1,10 @@
+safetensors/__init__.py,sha256=P9Gql9xMGESY_yNKjb9zRZxHUUx0QFvIsu4BeFfseoc,80
+safetensors/flax.py,sha256=mguBRkA6-FgS_8LeW3w8SOXLT_Sid61Ox6FmkXpol9Y,1063
+safetensors/numpy.py,sha256=v46Dbmq6NQhkA08yfO5DiU9cC--P8jBQOiUAhLCVlLo,1632
+safetensors/safetensors_rust.cpython-310-darwin.so,sha256=gLr5wWiHMEiibxccnftuzRT5APdhg0VW3Kfxi5XqRYA,965408
+safetensors/tensorflow.py,sha256=SSXGWHhoJ9a3s-_y8LDK9Nrh5gttkTsvtxMoOFhtRXs,1024
+safetensors/torch.py,sha256=5Y3VQcZZPlKwTwgi9brD_1G_7vZuJ9cfK3dhMB664nM,2388
+safetensors-0.2.1.dist-info/METADATA,sha256=y_Sp2T0EtDYDlC_EccR6ou66lY1juPvaVNvT-xH3h_M,1971
+safetensors-0.2.1.dist-info/WHEEL,sha256=Mp26lirrtUNzLUWsPKBAjl3RVvrCg7YEjI0nue_kNcE,112
+safetensors-0.2.1.dist-info/top_level.txt,sha256=aeGq-bvSQiWej-UZBQOQs1V-KEP0Oa7_7MyN0iD5g8I,12
+safetensors-0.2.1.dist-info/RECORD,,
