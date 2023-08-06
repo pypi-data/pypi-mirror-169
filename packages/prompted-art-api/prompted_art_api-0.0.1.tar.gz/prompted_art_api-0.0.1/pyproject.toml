@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "prompted-art-api"
+version = "0.0.1"
+authors = [
+    { name = "Marc Puig", email = "marc.puig@gmail.com" },
+]
+description = "An API REST client for Prompted.art"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Artistic Software",
+]
+license = { file = "LICENSE" }
+keywords = ["API", "REST", "generative art", "stable diffusion"]
+
+[project.urls]
+Homepage = "https://github.com/mpuig/prompted-art-api-client"
+
+
