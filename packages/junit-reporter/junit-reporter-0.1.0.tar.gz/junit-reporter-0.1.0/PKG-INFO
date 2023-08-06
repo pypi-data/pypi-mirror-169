@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: junit-reporter
+Version: 0.1.0
+Summary: A Python3 package that generates test results in the standard JUnit XML format for use with Jenkins and otherbuild integration servers.
+Home-page: https://github.com/Robert-96/junit-reporter
+Author: Robert-96
+Author-email: dezmereanrobert@gmail.com
+License: GNU GPLv3
+Project-URL: Bug Tracker, https://github.com/Robert-96/junit-reporter/issues
+Project-URL: Documentation, https://github.com/Robert-96/junit-reporter/blob/main/README.md
+Project-URL: Source, https://github.com/Robert-96/junit-reporter
+Keywords: XML,JUnit
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Topic :: Utilities
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# junit-reporter
+
+A Python3 package that generates test results in the standard JUnit XML format for use with Jenkins and other build integration servers.
+
+## Installation
+
+Use the following command to install ``junit-reporter``:
+
+```
+$ pip install junit-reporter
+```
+
+## Quickstart
+
+Create a test report:
+
+```python
+from junit_reporter import TestCase, TestSuite, JUnitReporter
+
+test_case = TestCase('Test #1', classname='some.class.name', stdout='I am stdout!', stderr='I am stderr!')
+test_suite = TestSuite('Test Suite #1', [test_case])
+
+xml = JUnitReporter.report_to_string([test_suite])
+```
+
+It produces the following output:
+
+```xml
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0">
+    <testsuite name="Test Suite #1" tests="1" assertions="0" disabled="0" errors="0" failures="0" skipped="0" time="0">
+        <testcase name="Test #1" classname="some.class.name">
+            <system-out>I am stdout!</system-out>
+            <system-err>I am stderr!</system-err>
+        </testcase>
+    </testsuite>
+</testsuites>
+```
+
+## Running the tests
+
+```
+$ pytest tests
+```
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).

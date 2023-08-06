@@ -1,0 +1,13 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+setup.py
+junit_reporter/__init__.py
+junit_reporter/__version__.py
+junit_reporter/xml.py
+junit_reporter.egg-info/PKG-INFO
+junit_reporter.egg-info/SOURCES.txt
+junit_reporter.egg-info/dependency_links.txt
+junit_reporter.egg-info/top_level.txt
