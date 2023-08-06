@@ -1,0 +1,3 @@
+graft src/virtualsmoke/*
+recursive-include src/virtualsmoke *.gz
+recursive-include src/virtualsmoke *.h5

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/virtualsmoke/meanpathcaler.gz
+src/virtualsmoke/mfp_model.h5
+src/virtualsmoke.egg-info/PKG-INFO
+src/virtualsmoke.egg-info/SOURCES.txt
+src/virtualsmoke.egg-info/dependency_links.txt
+src/virtualsmoke.egg-info/requires.txt
+src/virtualsmoke.egg-info/top_level.txt
