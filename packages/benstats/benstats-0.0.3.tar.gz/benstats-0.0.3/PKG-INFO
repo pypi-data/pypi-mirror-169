@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: benstats
+Version: 0.0.3
+Summary: A Python package for calculating Benford's Law statistics on images
+Project-URL: Documentation, https://github.com/unknown/benstats#readme
+Project-URL: Issues, https://github.com/unknown/benstats/issues
+Project-URL: Source, https://github.com/unknown/benstats
+Author-email: gv-sh <gv-sh@outlook.com>, bhaumikdebanshu <bhaumikdebanshu@gmail.com>
+License-File: LICENSE.txt
+Keywords: benford,image,statistics
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+# benstats
+A Python package for calculating Benford's Law statistics on images
+
+[![PyPI - Version](https://img.shields.io/pypi/v/benstats.svg)](https://pypi.org/project/benstats)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/benstats.svg)](https://pypi.org/project/benstats)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install benstats
+```
+
+## Usage
+
+### Importing the package
+
+```python
+import benstats
+```
+
+### Read an image
+```python 
+image = benstats.read("path/to", "image.png")
+```
+Supported image formats: bmp, dib, jpeg, jpg, jpe, jp2, png, webp, pbm, pgm, ppm, pxm, pnm, sr, ras, tiff, tif, exr, hdr, pic
+
+### Calculate Benford's Law statistics
+```python
+benstats.benstats(image, channels=['rgb', 'gray'], scale=1, min=0, max=255)
+```
+- `channels`: list of channels to calculate statistics for. Possible values: `rgb`, `hsv`, `gray`, `lab`, `luv`, `xyz`, `ycbcr`
+- `scale`: scale factor for the image. If `scale` is less than 1, the image will be downsampled. If `scale` is greater than 1, the image will be upsampled.
+- `min`: new range min to map pixel values into. Default: 0
+- `max`: new range max to map pixel values into. Default: 255
+
+Returns a dictionary of channelwise statistics.
+
+### Plotting Benford's Law statistics
+```python
+benstats.benplot(image, channels=['rgb'], scale=1, min=0, max=255)
+```
+Same parameters as above.
+
+## License
+
+`benstats` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+-----
+Built by @gv-sh @bhaumikdebanshu
