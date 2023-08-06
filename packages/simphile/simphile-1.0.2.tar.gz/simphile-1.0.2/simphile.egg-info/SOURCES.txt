@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+simphile/__init__.py
+simphile/compression_similarity.py
+simphile/euclidian_similarity.py
+simphile/jaccard_similarity.py
+simphile/naive_bayes.py
+simphile/sets.py
+simphile/text_processor.py
+simphile/text_utils.py
+simphile.egg-info/PKG-INFO
+simphile.egg-info/SOURCES.txt
+simphile.egg-info/dependency_links.txt
+simphile.egg-info/requires.txt
+simphile.egg-info/top_level.txt
