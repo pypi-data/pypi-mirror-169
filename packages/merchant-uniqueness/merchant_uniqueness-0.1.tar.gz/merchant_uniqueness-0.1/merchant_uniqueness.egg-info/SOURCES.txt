@@ -1,0 +1,12 @@
+README.md
+licence.txt
+setup.cfg
+setup.py
+merchant_uniqueness.egg-info/PKG-INFO
+merchant_uniqueness.egg-info/SOURCES.txt
+merchant_uniqueness.egg-info/dependency_links.txt
+merchant_uniqueness.egg-info/not-zip-safe
+merchant_uniqueness.egg-info/requires.txt
+merchant_uniqueness.egg-info/top_level.txt
+unique/__init__.py
+unique/unique.py
