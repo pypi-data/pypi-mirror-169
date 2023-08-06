@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoTuxiangShidian = TaluoTuxiangShidian.__main__:main
+taluo-tuxiang-shidian = TaluoTuxiangShidian.__main__:main
+
