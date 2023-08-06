@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: deepinc
+Version: 0.1.0
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://gitee.com/swj123/deep-inc.git
+Author: Wenju Sun
+Author-email: SunWenJu@bjtu.edu.cn
+License: MIT license
+Keywords: deepinc
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+
+=======================
+deepINC 增量学习工具包
+=======================
+
+
+.. image:: https://img.shields.io/pypi/v/visintincremental.svg
+        :target: https://pypi.python.org/pypi/deepinc
+
+.. image:: https://readthedocs.org/projects/visintincremental/badge/?version=latest
+        :target: https://deepINC.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+增量学习工具库，实现了常用数据集，典型模型，工具函数。支撑综述《基于深度神经网络的增量学习技术研究现状综述》的实验。
+
+* 开源许可: MIT license
+* 文档: https://deepINC.readthedocs.io.
+* 代码: https://gitee.com/swj123/deep-inc.git
+
+开始使用
+------------
+
+准备使用增量学习工具库? 按如下步骤本地使用 `deepINC` .
+
+1. 使用 pip 安装 `deepINC`::
+
+    $ pip install deepinc
+
+2. 在 .py 程序中引用::
+
+    $ import deepinc as di
+    $ from deepinc.utils.args import get_args
+    $ from deepinc.utils.training import train_il
+
+3. 初始化配置项::
+
+    $ args = get_args()
+    $
+    $ args.model = 'lwf'              # 模型名称
+    $ args.dataset = 'seq-mnist'      # 数据集
+    $ args.print_freq = 1             # 报告loss的频率
+    $ args.n_epochs = 1               # 迭代次数
+    $ args.device = 'cpu'             # 设备
+    $
+    $ args.lr = 0.02                  # 学习率
+    $ args.batch_size = 64            # batch size
+    $ args.alpha = 5                  # 蒸馏损失权重
+    $ args.softmax_temp = 2.0         # 蒸馏损失温度系数
+    $ args.wd_reg = 5e-5              # 正则项权重
+
+   这里可以随心更改
+
+4. 增量训练::
+
+    $ train_il(args)
+
+5. 等待训练结束~
+
+关联代码
+------------
+https://github.com/aimagelab/mammoth.
+
+
+
+
+=======
+History
+=======
+
+0.1.0 (2022-09-22)
+------------------
+
+* First release on PyPI.
+
+
