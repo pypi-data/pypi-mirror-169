@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_pypiserver.egg-info/PKG-INFO
+shopee_pypiserver.egg-info/SOURCES.txt
+shopee_pypiserver.egg-info/dependency_links.txt
+shopee_pypiserver.egg-info/top_level.txt
