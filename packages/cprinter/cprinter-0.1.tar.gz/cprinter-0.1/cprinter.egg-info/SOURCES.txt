@@ -1,0 +1,11 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cprinter/requirements.txt
+cprinter/thirdparty.json
+cprinter.egg-info/PKG-INFO
+cprinter.egg-info/SOURCES.txt
+cprinter.egg-info/dependency_links.txt
+cprinter.egg-info/top_level.txt
