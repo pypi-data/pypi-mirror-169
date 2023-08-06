@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block styling %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block content %}
+<h1 class="hero">yark</h1>
+<form action="/" method="post">
+    <input type="text" name="channel" placeholder="e.g. pewdiepie">
+</form>
+{% endblock %}
