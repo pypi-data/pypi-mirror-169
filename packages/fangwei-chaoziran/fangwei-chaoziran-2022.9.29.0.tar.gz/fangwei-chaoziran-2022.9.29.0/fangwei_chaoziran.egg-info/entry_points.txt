@@ -1,0 +1,4 @@
+[console_scripts]
+FangweiChaoziran = FangweiChaoziran.__main__:main
+fangwei-chaoziran = FangweiChaoziran.__main__:main
+
