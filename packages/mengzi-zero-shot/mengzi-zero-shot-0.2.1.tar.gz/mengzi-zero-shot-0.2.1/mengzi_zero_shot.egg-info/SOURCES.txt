@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+mengzi_zero_shot.egg-info/PKG-INFO
+mengzi_zero_shot.egg-info/SOURCES.txt
+mengzi_zero_shot.egg-info/dependency_links.txt
+mengzi_zero_shot.egg-info/requires.txt
+mengzi_zero_shot.egg-info/top_level.txt
+mengzi_zs/__init__.py
+mengzi_zs/inference.py
+mengzi_zs/prompts.py
