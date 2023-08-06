@@ -1,0 +1,3 @@
+[console_scripts]
+abi=eth_abi_tool:cli
+
