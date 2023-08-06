@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: text-manipulations
+Version: 0.1.0
+Summary: Tools to manipulate text
+License: MIT
+Author-email: Kristoffer Andersson <kristoffer.andersson@gu.se>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# text-manipulations-py
+Simple functions to manipulate text
+
+
+# Release Notes
+
+## Latest Changes
+
+## 0.1.0
+
+- Created project.
+- Add function shave_marks.
+
