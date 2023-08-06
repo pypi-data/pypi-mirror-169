@@ -1,0 +1,11 @@
+core/__init__.py,sha256=2cHdKObgv9z9agOxmD4qcAtwz4CqrN5Wa6VjtxNFV_o,527
+core/network/__init__.py,sha256=931ZX_zHZ_8t8hHowpYOdnGo_HlpVnEg7tkeLNti5Dg,2551
+core/web/__init__.py,sha256=b7qtXY2F5nlQSRqQgjpLKXbHaP4-6fYkCQ4dyhsSIZI,3509
+core/web/imitate.py,sha256=3kKKvOeq4hz-lpzFfLAf4z-TK6BbHHxHcqln-mu2Sdc,5982
+core/zip/__init__.py,sha256=029OeHIUh7tIaT_nw_BLwlRC38JmAht7SKFVF6IOhOk,667
+path_dict/__init__.py,sha256=MCMSnSBWZ5dRkF-SenslHuiuanHZBAt6fVFBzWlZAnw,291
+MoliGeek-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+MoliGeek-0.1.0.dist-info/METADATA,sha256=j889kMYYY6EUZLnmIgYe9S-mS46hFsWqn-URJ1Ov1Qc,726
+MoliGeek-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MoliGeek-0.1.0.dist-info/top_level.txt,sha256=zNznyE5w0bBYhmjgOfmfUoJFcePRdoW-H7ScqBNu2z8,15
+MoliGeek-0.1.0.dist-info/RECORD,,
