@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poetry-codeartifact-login
+Version: 0.1.0
+Summary: Poetry plugin for logging in to AWS CodeArtifact.
+Author: Translucence Biosystems
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: boto3 (>=1.24.82,<2.0.0)
+Requires-Dist: poetry (>=1.2.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Poetry AWS CodeArtifact Login
+A Poetry plugin for authenticating with AWS CodeArtifact.
+
