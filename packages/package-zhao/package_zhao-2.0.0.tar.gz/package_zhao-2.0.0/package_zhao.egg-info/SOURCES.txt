@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+package_zhao/__init__.py
+package_zhao/main.py
+package_zhao.egg-info/PKG-INFO
+package_zhao.egg-info/SOURCES.txt
+package_zhao.egg-info/dependency_links.txt
+package_zhao.egg-info/top_level.txt
