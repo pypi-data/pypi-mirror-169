@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: code-var
+Version: 0.0.9
+Summary: "code_var is tools for varname in shell"
+Author: caolipin
+Requires-Python: >=3.6.2,<4.0.0
