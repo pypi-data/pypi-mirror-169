@@ -1,0 +1,2 @@
+[console_scripts]
+jw_rpcm = jw_rpcm.cli:main

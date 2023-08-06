@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jw_rpcm
+Version: 0.0.3
+Summary: Rational Polynomial Camera Model for optical satellite images.
+Home-page: https://github.com/JaeWangL/rpcm
+Download-URL: https://pypi.org/project/jw-rpcm
+Author: JaeWang Lee
+Author-email: JaeWangL <jnso5072@outlook.kr>
+Project-URL: Bug Tracker, https://github.com/JaeWangL/rpcm/issues
+Project-URL: Source Code, https://github.com/JaeWangL/rpcm
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# jw_rpcm
