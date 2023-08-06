@@ -1,0 +1,12 @@
+include changedetector/*.py
+include changedetector/*
+include requirements.txt
+include changedetector/scripts/*
+include changedetector/scripts/*.sh
+include changedetector/tests/*.py
+include changedetector/tests/*.txt
+include changedetector/tests/*.rb
+include changedetector/tests/*.c
+include changedetector/tests/*.cpp
+include changedetector/tests/*.md
+include changedetector/tests/*.css
