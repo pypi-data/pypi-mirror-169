@@ -1,0 +1,19 @@
+# Direct dependencies
+# Keep in sync with setup.py
+coverage==6.4.4
+cram==0.7
+parameterized==0.8.1
+pytest==7.1.3
+
+# Indirect dependencies
+attrs==22.1.0
+importlib-metadata==4.12.0
+iniconfig==1.1.1
+packaging==21.3
+pluggy==1.0.0
+py==1.11.0
+pyparsing==3.0.9
+toml==0.10.2
+tomli==2.0.1
+typing-extensions==4.3.0
+zipp==3.8.1
