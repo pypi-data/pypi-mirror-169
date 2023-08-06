@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: colloptpy
+Version: 0.1.0
+Summary: Collocation optimisation software written in Python.
+Author: Christoph Hoeppke
+License-File: LICENSE
