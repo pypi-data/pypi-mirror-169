@@ -1,0 +1,10 @@
+simplemp/__init__.py,sha256=605ub0ro0CIMYjJzha47gRsyIz7vaU3kx0nOcD98GJE,111
+simplemp/face_detector.py,sha256=3egfZYXjkuP9lc2GvBSn_mjCGPCzsVZc8HyJHfGF82g,1678
+simplemp/hands_detector.py,sha256=6jgxP01Atu85uqkOFRkrNgr3Qki_kH_fE19VM2KMs6g,54365
+simplemp/pose_detector.py,sha256=Jt0G6UD_sUJ_CRV0QSg2NoHYgOuN47vIP6hF7I2wQ1c,1316
+simplemp/tmimage.py,sha256=lIAAmfjek3Jl86gu2b0Ax89AKx1KFhswiRKIFLUvqa0,5033
+simplemp-0.5.dist-info/LICENSE,sha256=5PGNxtToA4KbNqWf6UDn1qHur4bv8yERYgebnSXaTbo,849
+simplemp-0.5.dist-info/METADATA,sha256=FHeqZgHmEL45dcHsI2YQn0SkZV1GMeyPVEbaVE0_kxE,573
+simplemp-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simplemp-0.5.dist-info/top_level.txt,sha256=pitAEJNvCd7ABz6DSwZ6HC_VpUhjwIUixqTgW3t_P0M,9
+simplemp-0.5.dist-info/RECORD,,
