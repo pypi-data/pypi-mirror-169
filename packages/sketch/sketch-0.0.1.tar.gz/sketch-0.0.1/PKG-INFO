@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sketch
+Version: 0.0.1
+Summary: Compute, store and operate on data sketches
+Home-page: https://github.com/approximatelabs/sketch
+Author: Justin Waugh
+Author-email: justin@approximatelabs.com
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/approximatelabs/sketch
+Keywords: data sketch model etl automatic join ai embedding profiling
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# sketch
+
+-- Currently in active development --
+
+A package for simplifying the use of data-sketches in python workflows.
+
+Includes a self-hostable fastAPI web-server for hosting sketches and hosting widgets for embedding the charts.
+
+

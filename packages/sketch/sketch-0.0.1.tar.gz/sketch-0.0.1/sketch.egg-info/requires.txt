@@ -1,0 +1,9 @@
+altair>=4.2
+pandas>1.4
+bcrypt>=3.2.2
+python-jose>=3.3
+passlib>=1.7.4
+databases[aiosqlite]>=0.6
+datasketch>=1.5
+fastapi[all]>=0.79
+pyarrow>=8.0
