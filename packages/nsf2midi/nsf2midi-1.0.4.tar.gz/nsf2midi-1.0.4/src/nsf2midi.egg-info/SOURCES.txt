@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/nsf2midi/__init__.py
+src/nsf2midi/__main__.py
+src/nsf2midi.egg-info/PKG-INFO
+src/nsf2midi.egg-info/SOURCES.txt
+src/nsf2midi.egg-info/dependency_links.txt
+src/nsf2midi.egg-info/requires.txt
+src/nsf2midi.egg-info/top_level.txt
