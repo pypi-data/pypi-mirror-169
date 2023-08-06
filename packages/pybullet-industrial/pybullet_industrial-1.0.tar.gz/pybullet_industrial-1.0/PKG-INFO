@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pybullet_industrial
+Version: 1.0
+Summary: Pybullet_industrial is a process-aware robot simulation framework for pybullet.
+Home-page: https://pybullet-industrial.readthedocs.io/en/latest/
+Author: Jan Baumgärtner, Malte Hansjosten, Dominik Schönhofen
+License: MIT
+
+Pybullet_industrial is a process-aware robot simulation framework for pybullet.
