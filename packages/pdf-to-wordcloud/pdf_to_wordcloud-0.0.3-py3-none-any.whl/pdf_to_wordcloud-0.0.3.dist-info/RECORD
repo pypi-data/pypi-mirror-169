@@ -1,0 +1,10 @@
+pdf_to_wordcloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_to_wordcloud/pdf_to_wordcloud.py,sha256=kb9Iv5JNa0-a81NXSdkswkSqF_2dP1AocFlTmf1vD48,3853
+pdf_to_wordcloud/data/mask.png,sha256=rMlt7npfjHlqid2swfl9ALG3W_4WaLbmRB5prNE1C54,399204
+pdf_to_wordcloud/data/stopwords.txt,sha256=4G2RaHBBJnu3NGh2SfMn9akK_m8kN_cQePT87xwA4Hw,110
+pdf_to_wordcloud-0.0.3.dist-info/LICENSE,sha256=-bes3i67MM0p9OkpqS8XDBrKvZkgJXiP925Jue7OUPs,1070
+pdf_to_wordcloud-0.0.3.dist-info/METADATA,sha256=0G286zNjxH5twBZnZEK3IiMTa_Q90FC3E-PIZV6dkJ0,1333
+pdf_to_wordcloud-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdf_to_wordcloud-0.0.3.dist-info/entry_points.txt,sha256=Dcgclf0I78lmR1ucJg44A1g2Nv9yBJydWf-YeOfFbXs,62
+pdf_to_wordcloud-0.0.3.dist-info/top_level.txt,sha256=LwmAbte8g3e4kmBd8TRct3J42eI5QZSQTnXD4S-KXhM,17
+pdf_to_wordcloud-0.0.3.dist-info/RECORD,,
