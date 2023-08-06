@@ -1,0 +1,3 @@
+[console_scripts]
+dead_function_finder = dead_function_finder.dead_function_finder:main
+

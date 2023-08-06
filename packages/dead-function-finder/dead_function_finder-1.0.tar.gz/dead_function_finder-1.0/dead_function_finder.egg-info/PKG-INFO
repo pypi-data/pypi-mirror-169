@@ -1,0 +1,74 @@
+Metadata-Version: 1.1
+Name: dead-function-finder
+Version: 1.0
+Summary: Utility to find dead functions within a codebase.
+Home-page: https://github.com/gabfl/dead_function_finder
+Author: Gabriel Bordeaux
+Author-email: pypi@gab.lc
+License: MIT
+Description: dead_function_finder
+        ====================
+        
+        |Build Status| |codecov| |MIT licensed|
+        
+        Utility to find dead functions within a codebase.
+        
+        Languages supported
+        -------------------
+        
+        -  Python
+        -  PHP
+        
+        Installation
+        ------------
+        
+        Using PIP
+        ~~~~~~~~~
+        
+        .. code:: bash
+        
+           pip3 install dead_function_finder
+        
+        From sources
+        ~~~~~~~~~~~~
+        
+        .. code:: bash
+        
+           git clone https://github.com/gabfl/dead_function_finder.git && cd dead_function_finder
+           pip3 install .
+        
+        Usage
+        -----
+        
+        .. code:: bash
+        
+           dead_function_finder --path "~/my/codebase" --language python
+        
+           # Specific patterns can be excluded with --exclude:
+           dead_function_finder --path "~/my/codebase" --language python --exclude '/venv/,/unittest/'
+        
+        Limitations
+        -----------
+        
+        -  The program searches for unique function names; it is not currently
+           aware of class context.
+        -  Functions called with magic methods or whose names are dynamically
+           resolved might result in false positives.
+        
+        .. |Build Status| image:: https://github.com/gabfl/dead_function_finder/actions/workflows/ci.yml/badge.svg?branch=main
+           :target: https://github.com/gabfl/dead_function_finder/actions
+        .. |codecov| image:: https://codecov.io/gh/gabfl/dead_function_finder/branch/main/graph/badge.svg
+           :target: https://codecov.io/gh/gabfl/dead_function_finder
+        .. |MIT licensed| image:: https://img.shields.io/badge/license-MIT-green.svg
+           :target: https://raw.githubusercontent.com/gabfl/dead_function_finder/main/LICENSE
+        
+Platform: UNKNOWN
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
