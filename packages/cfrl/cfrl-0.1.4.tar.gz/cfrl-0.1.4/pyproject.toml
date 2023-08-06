@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cfrl"
+version = "0.1.4"
+description = ""
+authors = ["Chufan Chen <chenchufan@zju.edu.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "1.12.0"
+numpy = "^1.10.4"
+gym = {version = "^0.23.0", extras = ["classic_control"]}
+wandb = "^0.13.3"
+packaging = "^21.3"
+opencv-python = "^3.4.0"
+
+ale-py = {version = "^0.7", optional = true}
+AutoROM = {version = "^0.4.2", optional = true, extras = ["accept-rom-license"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+atari = ["ale-py", "AutoROM"]
