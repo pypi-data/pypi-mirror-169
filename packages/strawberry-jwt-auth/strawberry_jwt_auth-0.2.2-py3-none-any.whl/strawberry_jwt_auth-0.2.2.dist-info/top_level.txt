@@ -1,0 +1,1 @@
+strawberry_jwt_auth
