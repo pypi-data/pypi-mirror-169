@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: git-jira
+Version: 0.0.0
+Summary: A git addon to manage Jira from git
+Home-page: https://github.com/rloredo/git-jira
+Author: rloredo
+Author-email: loredo.rod@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.2
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: click (>=8.0)
+Requires-Dist: jira (>=3.4.1)
+Requires-Dist: PyYAML (==6.0)
+Provides-Extra: dev
+Requires-Dist: tox (==3.26) ; extra == 'dev'
+Requires-Dist: pytest (==7.1) ; extra == 'dev'
+Requires-Dist: mypy (==0.981) ; extra == 'dev'
+Requires-Dist: black (==22.8) ; extra == 'dev'
+Requires-Dist: pylint (==2.15) ; extra == 'dev'
+
+# git-jira
+
+A git addon to manage Jira from git.
+
+# Installation
+
+The easiest (and best) way to install git-jira is through pip:
+
+```bash
+pip install git-jira
+```
+
+To make it work, you need a `config.yml` with your authentication credentials and default project.  
+For that, run `git jira config`.
+
+## Development
+
+```bash
+virtualenv env 
+source env/bin/activate
+pip install -e ".[dev]"
+```

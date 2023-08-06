@@ -1,0 +1,9 @@
+git_jira/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_jira/cli.py,sha256=Ra93gvnAFwn4jMSZ7mTcKaI6EYKRgsp-vDixASt59x0,1781
+git_jira/config.py,sha256=Vc9WDbVLMbugGQWmvmXQhs6XL6WRird_2oDy_oVIRWA,1577
+git_jira-0.0.0.dist-info/LICENSE.txt,sha256=bvQ2t55-ihmnXZbWOqbZi5y7tj4UiyIQ0Xs0F2ALUL4,1075
+git_jira-0.0.0.dist-info/METADATA,sha256=Soy10hxoSSm1X_dV_POvSxs90-GbaIG8SPXXCyZcaGE,1478
+git_jira-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+git_jira-0.0.0.dist-info/entry_points.txt,sha256=zPUHihlgF-3MuFv_oW7JxCf3AopBvz1cahF7U2XIXmA,46
+git_jira-0.0.0.dist-info/top_level.txt,sha256=PyfFoSX5tpDfUFJs6A1q3sUKlCrVkMrvoqjyLuxDiI0,9
+git_jira-0.0.0.dist-info/RECORD,,
