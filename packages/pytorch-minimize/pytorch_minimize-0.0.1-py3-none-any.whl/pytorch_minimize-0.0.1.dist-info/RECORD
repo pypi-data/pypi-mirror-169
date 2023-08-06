@@ -1,0 +1,16 @@
+torchmin/__init__.py,sha256=3RrszTeqBW3NvfVAubKUZzQERTYoa4l7IO-KPN4xunc,278
+torchmin/benchmarks.py,sha256=dFxBUmjizqJdA28yLaTm2Drey7Q6fMgnqp8-vw6MICc,1609
+torchmin/bfgs.py,sha256=UGEx21ZVAp0h_8ArNIcyx0FNBIfADMMGujDfgb-vugI,12744
+torchmin/cg.py,sha256=f0LVqm48xxtQZiG4ahH10cwOysDDqwl3G6PMPvc4HIo,4753
+torchmin/cg_old.py,sha256=UEpu6O5JCfnwxfkYh9hDwzcuBHXj4S6bMHRefFv1-P8,5058
+torchmin/function.py,sha256=AzKma3pjf6gV5LBlFk9F_t7Xrb3qnKmRhnN27MicLP8,6003
+torchmin/line_search.py,sha256=571uJveeCpxzklos1Pod3Wtbw3spf7IGtBhdilahtGs,8196
+torchmin/line_search_custom.py,sha256=uqxZ2ciMlyErVSdIlmKlEFCoUMcsJvz43mc4X0o0Cr8,10851
+torchmin/minimize.py,sha256=oopQD7r0nvFvNK2tdXGyfI9F2RlgYpcbssrZIGz6k-I,3603
+torchmin/minimize_constr.py,sha256=jF76nQGhMXuuX1U73_RbPHQxYt_Czgu_ijF8rxykEl4,7825
+torchmin/newton.py,sha256=U6fJNvc6ZpbCZcvdG31Ho79aoZcwJySQUrWvwX2P6ac,14013
+pytorch_minimize-0.0.1.dist-info/LICENSE,sha256=tPzq4LZN-MRjHhBo-EXsZoAEZ_kfZIWPvUD-CKfxaxw,1071
+pytorch_minimize-0.0.1.dist-info/METADATA,sha256=mIxfBEVy15DSXb1a5Y67eR7PDbW53cHHHYGOmDk_JlE,9352
+pytorch_minimize-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytorch_minimize-0.0.1.dist-info/top_level.txt,sha256=2W-baw4HurdByM0rFYzB0n6Q80VlJ3q4Tmt1c0FCMrw,9
+pytorch_minimize-0.0.1.dist-info/RECORD,,
