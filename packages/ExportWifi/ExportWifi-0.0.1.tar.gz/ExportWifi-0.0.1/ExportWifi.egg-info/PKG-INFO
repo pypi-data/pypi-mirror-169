@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ExportWifi
+Version: 0.0.1
+Summary: Exporting WI-FI Files
+Home-page: 
+Author: Fawaz Bashiru
+Author-email: fawazbashiru@gmail.com
+License: MIT
+Keywords: export_wifi
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+Created by: Fawaz Bashiru
+This a module which imports WI-FI files and detects the current WI-FI name and the current WI-FI password of the target.
+
+Every imported file is going to be saved in the directory where your server is located.
+
+Change Log
+==========
+
+0.0.1 (1/10/2022)
+-----------------
+- First Release
