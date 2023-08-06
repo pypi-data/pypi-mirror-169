@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_trimlog.egg-info/PKG-INFO
+shopee_trimlog.egg-info/SOURCES.txt
+shopee_trimlog.egg-info/dependency_links.txt
+shopee_trimlog.egg-info/top_level.txt
