@@ -1,0 +1,3 @@
+btl2cap>=0.0.4
+pyclui>=0.0.18
+xpycommon>=0.0.13
