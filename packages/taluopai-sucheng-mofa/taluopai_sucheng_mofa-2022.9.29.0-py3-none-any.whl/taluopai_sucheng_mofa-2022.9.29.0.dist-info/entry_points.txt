@@ -1,0 +1,4 @@
+[console_scripts]
+TaluopaiSuchengMofa = TaluopaiSuchengMofa.__main__:main
+taluopai-sucheng-mofa = TaluopaiSuchengMofa.__main__:main
+
