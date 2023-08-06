@@ -1,0 +1,2 @@
+[console_scripts]
+hexdumper = hexdumper.__main__:main

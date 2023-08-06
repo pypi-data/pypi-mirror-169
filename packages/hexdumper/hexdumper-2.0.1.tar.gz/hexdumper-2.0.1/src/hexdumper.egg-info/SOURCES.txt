@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+src/hexdumper/Controller.py
+src/hexdumper/__init__.py
+src/hexdumper/__main__.py
+src/hexdumper.egg-info/PKG-INFO
+src/hexdumper.egg-info/SOURCES.txt
+src/hexdumper.egg-info/dependency_links.txt
+src/hexdumper.egg-info/entry_points.txt
+src/hexdumper.egg-info/requires.txt
+src/hexdumper.egg-info/top_level.txt
