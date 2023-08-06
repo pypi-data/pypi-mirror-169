@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/cleancourt.egg-info/PKG-INFO
+src/cleancourt.egg-info/SOURCES.txt
+src/cleancourt.egg-info/dependency_links.txt
+src/cleancourt.egg-info/requires.txt
+src/cleancourt.egg-info/top_level.txt
