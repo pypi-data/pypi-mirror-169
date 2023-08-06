@@ -1,0 +1,6 @@
+setup.py
+harbour-consul-client/__init__.py
+harbour_consul_client.egg-info/PKG-INFO
+harbour_consul_client.egg-info/SOURCES.txt
+harbour_consul_client.egg-info/dependency_links.txt
+harbour_consul_client.egg-info/top_level.txt
