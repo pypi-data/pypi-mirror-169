@@ -1,0 +1,7 @@
+---
+- name: Example
+  hosts: localhost
+  tasks:
+    - name: Play name
+      debug:
+        msg: "Hello {{ ansible_facts.env | list }}!"
