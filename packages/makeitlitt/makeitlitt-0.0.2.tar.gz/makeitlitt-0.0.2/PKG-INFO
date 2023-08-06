@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: makeitlitt
+Version: 0.0.2
+Summary: Get dynamic functionality for built-in datatypes
+Home-page: UNKNOWN
+Author: Siddharth Verma (artistwhocode)
+Author-email: <siddharthverma.er.cse@gmail.com>
+License: UNKNOWN
+Description: 
+        # makeitlitt
+        Adding custom dynamic methods and functionality for Built-in Data Types
+        
+Keywords: dynamic,data,datatypes,list
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
