@@ -1,0 +1,17 @@
+vxci/__init__.py,sha256=WlMBNrzKywm5RAbqEVgEgcG7Opc4cf3-wpAnO8PdoEI,23
+vxci/checkers.py,sha256=C0Log4Fn0UFFia5SEnwJlWwRTenQgAvq2WxSn0hlFEg,3818
+vxci/common.py,sha256=llxKGCKdtuOASj1OgITYsD4ME0QXN-3Ql1FGnEYWfA8,30185
+vxci/coverage.py,sha256=Jf57NEBLNR-OAmKVp5tZ4BTRGIKA4MEfVzIo5rWZ6eU,3099
+vxci/get_addons.py,sha256=r7aRs6lJgvoFtMg_ZrCFrbafssO_7VQ98n-jHEmCL0A,6340
+vxci/image.py,sha256=ApW2pLStqo8UEZHJKJj5GrCHBkPocOXQr_K78mg4GiA,1501
+vxci/tools_test.py,sha256=hQIEwm_mFbh7mAqvqsaTwBbl_jT1mfBbrf2tX0o5OpA,1344
+vxci/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vxci/commands/command.py,sha256=e-J1Ks2onITWrnU772o5WRTRvGkOh6ytb_6VEoQ5DDY,19112
+vxci/templates/coveragerc,sha256=w7T-zLJuuxUPcFy5qBCDPthz-zwRnzSjSg77HsT3qLw,841
+vxci-0.0.17.dist-info/AUTHORS.rst,sha256=bMli4x8mv4uzQeiV-icP1h-WuXupw_n3eD9REaXmH6Q,52
+vxci-0.0.17.dist-info/LICENSE,sha256=3TxvaRRU-tyriKOEd7ru6ApjFgYsC_ypBq_pGTvWVVQ,1285
+vxci-0.0.17.dist-info/METADATA,sha256=EeHYnOc_5VOTmhKQpQbkuEjOzk2rV0hZnl2kxH8tNqM,2153
+vxci-0.0.17.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+vxci-0.0.17.dist-info/entry_points.txt,sha256=o0eCh-gSINY2-q6nyAvFTyNwFloZiUvRuRrMqF6wxBE,51
+vxci-0.0.17.dist-info/top_level.txt,sha256=RXaluus9cDF9FgqroeByDVzZ6uuJMH0pWZeEW6EqEHU,5
+vxci-0.0.17.dist-info/RECORD,,
