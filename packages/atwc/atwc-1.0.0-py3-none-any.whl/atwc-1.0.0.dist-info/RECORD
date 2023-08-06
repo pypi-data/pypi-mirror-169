@@ -1,0 +1,9 @@
+atwc/__init__.py,sha256=lVsVBo8LAvTz_kgk-rzY3sdO9XoUGf4iP6uJ2oNQCts,667
+atwc/__version__.py,sha256=vV-BhTvLBJWEVWZc17wrzxsuil7zDUg-SC_UjbXmD3I,634
+atwc/browsers.py,sha256=99jhetv08aL4072UDVWcrdbHFYIbbEJVdLT82H-Vy-M,7127
+atwc/client.py,sha256=F9UsbMN0j1n-3pOPW1VrHFTGjO1QIhrXqw2GmZt91Pc,2826
+atwc/utils.py,sha256=jD3RGeO-wPEPsXH_UzHUbCcIDXpTVFSOQdL7TmVUKyU,856
+atwc-1.0.0.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+atwc-1.0.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+atwc-1.0.0.dist-info/METADATA,sha256=aoHWVz1BXKecDPc6N3kF3_GoxnN3AxzieB5R-G_r7cU,2556
+atwc-1.0.0.dist-info/RECORD,,
