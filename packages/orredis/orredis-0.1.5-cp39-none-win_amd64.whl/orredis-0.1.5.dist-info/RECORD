@@ -1,0 +1,9 @@
+orredis-0.1.5.dist-info/METADATA,sha256=p-XG4rXrCURhZjiCUwt1d9Cq_Q7u4wJ3lNChIKOhZUI,22504
+orredis-0.1.5.dist-info/WHEEL,sha256=9zF_MELAjPTU_i3vpR7iKNJqCzFpib6UB7_xiUqYJhg,95
+orredis-0.1.5.dist-info/license_files/LICENSE,sha256=aaAbhGFqiHYu2aqzFN0JlZAGP0PpXbChzh-AcNKuxHw,1129
+orredis/abstract.py,sha256=pqWwr9-sgMIasQ9qftRO_vqJUW9RxnD0f7_iQipxBAY,2888
+orredis/orredis.pyi,sha256=cxrnge6KG4JOJET2-cjz2x41ISBqo8LGlNa-pBhQlI8,12976
+orredis/py.typed.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orredis/__init__.py,sha256=trZaqP3apFTC3byHme65fq60fZWW2thCg69YK6Oqj5w,137
+orredis/orredis.cp39-win_amd64.pyd,sha256=PbK0iLPZ8WROhXWKpCk_peV52BZkKZ2pmGfYrwKN6KM,2644480
+orredis-0.1.5.dist-info/RECORD,,
