@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+lock-groups-plugin=poetry_lock_groups.plugin:LockGroupsPlugin
+
