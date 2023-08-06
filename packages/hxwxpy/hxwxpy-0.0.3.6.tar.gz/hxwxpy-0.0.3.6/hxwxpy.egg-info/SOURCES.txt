@@ -1,0 +1,10 @@
+setup.py
+hxwxpy/__init__.py
+hxwxpy/api_sendtext.py
+hxwxpy/wd.txt
+hxwxpy/word_filter.py
+hxwxpy.egg-info/PKG-INFO
+hxwxpy.egg-info/SOURCES.txt
+hxwxpy.egg-info/dependency_links.txt
+hxwxpy.egg-info/requires.txt
+hxwxpy.egg-info/top_level.txt
