@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: rad-tools
+Version: 0.0.0.3
+Summary: Collection of scripts from my PhD
+Home-page: https://github.com/adrybakov/rad-tools
+Download-URL: https://github.com/adrybakov/rad-tools.git
+Author: Andrey Rybakov
+Author-email: rybakov.ad@icloud.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+
+Script Collection
+=================
+Various scripts which were useful during my PhD.
+
+Installation
+============
+``pip3 install rad-tools``
+
+Update : ``pip3 install rad-tools --upgrade``
+
+`tb2j_plotter.py <https://github.com/adrybakov/rad-tools/blob/master/doc/tb2j_plotter.rst>`_
+============================================================================================
+Script for visualisation of TB2J exchange.out file.
+---------------------------------------------------
+
+Allows the user to visualise the exchange.out file. 
+Currently sorting by R vector, distance and template file is supported.
+
