@@ -1,0 +1,11 @@
+btjenesten/__init__.py,sha256=dLrfnMricqc0TWeH5ESaMWnoGt_aWwcppFVuCNl_sKQ,63
+btjenesten/analysis.py,sha256=1BmL6-xMXetoaQQf5Kz-rvygSDp-FQtke6Be3uP8DS8,12690
+btjenesten/bbtools.py,sha256=0FjvxL4HLBwm4GroHe3tS6bNTGVBzle02IrwcYOISo4,12878
+btjenesten/btjenesten.py,sha256=4c9SoQAHEr6x5Z_RdxaBWy9hjOTBNSWn0q6M6Dw_dK0,141
+btjenesten/gpr.py,sha256=olVkG3vL1cEqYHrLETA1rGzxZ_87wxRy4OUnyodxas8,13225
+btjenesten/gpr_test.py,sha256=LtJX_LfCKq9e9aOZAbEpLiE5CrKSYG4BCN2Qe3RuW50,723
+btjenesten/kernels.py,sha256=1uiP1K5zVW6ZWq_DVrOqIcTVsD2jtMul_yr9D5px_AY,1876
+btjenesten-0.26.dist-info/METADATA,sha256=ObamUezEpsTyWiVVIg5s-79mujkApHiEAGmWw0h74TA,721
+btjenesten-0.26.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+btjenesten-0.26.dist-info/top_level.txt,sha256=kVTYT8aLAwLW6PJGhxd0EMFzU7AYQaxMOMD-6bNTBlU,11
+btjenesten-0.26.dist-info/RECORD,,
