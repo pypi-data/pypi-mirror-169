@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-mongodm
+Version: 0.0.2
+Summary: Asynchronous Python ODM for MongoDB based on Motor
+Author: Ferréol Jeannot-Lorente
+Project-URL: Homepage, https://github.com/tritons-io/MongODM
+Project-URL: Bug Tracker, https://github.com/tritons-io/MongODM/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pydantic (==1.10.2)
+Requires-Dist: typing-extensions (==4.3.0) ; python_version >= "3.7"
+
