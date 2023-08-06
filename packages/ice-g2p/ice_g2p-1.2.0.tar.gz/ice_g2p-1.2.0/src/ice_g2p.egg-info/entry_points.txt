@@ -1,0 +1,3 @@
+[console_scripts]
+fetch-models = ice_g2p.fetch_models:main
+ice-g2p = ice_g2p.main:main
