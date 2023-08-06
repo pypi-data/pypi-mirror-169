@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_auto_deployment.egg-info/PKG-INFO
+shopee_auto_deployment.egg-info/SOURCES.txt
+shopee_auto_deployment.egg-info/dependency_links.txt
+shopee_auto_deployment.egg-info/top_level.txt
