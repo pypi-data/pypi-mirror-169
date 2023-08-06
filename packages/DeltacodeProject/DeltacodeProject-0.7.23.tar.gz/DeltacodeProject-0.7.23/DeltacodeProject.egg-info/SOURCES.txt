@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+DeltacodeProject.egg-info/PKG-INFO
+DeltacodeProject.egg-info/SOURCES.txt
+DeltacodeProject.egg-info/dependency_links.txt
+DeltacodeProject.egg-info/top_level.txt
