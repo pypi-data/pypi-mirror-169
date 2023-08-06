@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: headlight
+Version: 0.1.13
+Summary: A database migration toolkit.
+Home-page: https://github.com/alex-oleshkevich/headlight
+License: MIT
+Author: Alex Oleshkevich
+Author-email: alex.oleshkevich@gmail.com
+Requires-Python: >=3.10.0,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Provides-Extra: postgresql
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.3,<3.0.0); extra == "postgresql"
+Requires-Dist: tomlkit (>=0.11.1,<0.12.0)
+Project-URL: Documentation, https://github.com/alex-oleshkevich/headlight
+Project-URL: Repository, https://github.com/alex-oleshkevich/headlight
+Description-Content-Type: text/markdown
+
+# headlight
+
+A database migration toolkit.
+
+![PyPI](https://img.shields.io/pypi/v/headlight)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/alex-oleshkevich/headlight/Lint)
+![GitHub](https://img.shields.io/github/license/alex-oleshkevich/headlight)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/pypi/headlight)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/headlight)
+![GitHub Release Date](https://img.shields.io/github/release-date/alex-oleshkevich/headlight)
+
+## Installation
+
+Install `headlight` using PIP or poetry:
+
+```bash
+pip install headlight
+# or
+poetry add headlight
+```
+
+## Features
+
+- TODO
+
+## Usage
+
+### Create migration file
+
+```bash
+# create migration with
+headlight new --name initial
+```
+
+It will create a new python file in `migrations` directory
+
+### Define schema
+
+```python
+# migrations/0000_initial.py
+
+from headlight import Blueprint, types
+
+date = "2022-08-21T16:19:13.465195"
+author = "alex"
+transactional = True
+
+
+def migrate(schema: Blueprint) -> None:
+    with schema.create_table('users') as table:
+        table.autoincrements()
+        table.add_column('first_name', types.VarCharType(256))
+        table.add_column('last_name', types.VarCharType(256))
+        table.add_column('email', types.VarCharType(256))
+        table.add_column('password', types.VarCharType(512))
+        table.add_column('active', types.BooleanType(), default='1')
+        table.add_column('photo', types.VarCharType(512), null=True)
+        table.add_column('deleted_at', types.DateTimeType(True), null=True)
+        table.add_created_timestamp('joined_at')
+        table.add_index(['(lower(email))'], unique=True)
+```
+
+### Execute migration
+
+```bash
+headlight upgrade
+```
+
+All migrations will be applied to the database
+
+### Rollback migration
+
+```bash
+headlight downgrade
+```
+
+The last migration will be rolled back,
+

@@ -1,0 +1,3 @@
+[console_scripts]
+headlight=headlight.console:main
+
