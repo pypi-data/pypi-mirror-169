@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_os_init_cloud.egg-info/PKG-INFO
+shopee_os_init_cloud.egg-info/SOURCES.txt
+shopee_os_init_cloud.egg-info/dependency_links.txt
+shopee_os_init_cloud.egg-info/top_level.txt
