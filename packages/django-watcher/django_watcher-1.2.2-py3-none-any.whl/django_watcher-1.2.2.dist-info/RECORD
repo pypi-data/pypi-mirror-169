@@ -1,0 +1,12 @@
+django_watcher/__init__.py,sha256=nUePTHoncKNeeTBiucvXdC2nv5doCgrO3F_tUunVETY,254
+django_watcher/abstract_watcher.py,sha256=2Yu58IG6bLY_4q1urLOlV_aXSS0siFWcl0aglNrFwBY,1634
+django_watcher/decorators/__init__.py,sha256=23r27zT0i-9rDKzJxraqDQNopO7-vlW_kgMszlsFEaE,3137
+django_watcher/decorators/helpers.py,sha256=h2uvBz2-02zwj0GdYL7QKME6ReRV4Thf-1nuoVEPQqc,2605
+django_watcher/decorators/model.py,sha256=deq_iVHBFLZ0c68oXjzJL9Wh2pQ0Y8GnGfmlzcVTOjk,2056
+django_watcher/decorators/queryset.py,sha256=sj-mCT_HyfYxxZYMSLSuE-OGwd0WxIVblGtHAy4kqLs,910
+django_watcher/decorators/querytools.py,sha256=EPZYHNv2WF0lRDG5-0B6LDby8eJMnTD0hbI0J6fraS0,3548
+django_watcher/mixins.py,sha256=1W9QqOR2H_HvOsKKpdRYHdvrdQmkv_k6UZw6irYitP0,10231
+django_watcher-1.2.2.dist-info/LICENSE,sha256=5Th8P_NwfWY3Pgah6aZTkIe2vMqjpPfIOGD6XqTIhds,1104
+django_watcher-1.2.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_watcher-1.2.2.dist-info/METADATA,sha256=gYymMIswOjVMnLjx-uScX1w2GZCFYUBoFjIbv4pLu_A,903
+django_watcher-1.2.2.dist-info/RECORD,,
