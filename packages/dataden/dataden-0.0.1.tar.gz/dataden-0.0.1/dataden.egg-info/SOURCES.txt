@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+dataden.egg-info/PKG-INFO
+dataden.egg-info/SOURCES.txt
+dataden.egg-info/dependency_links.txt
+dataden.egg-info/top_level.txt

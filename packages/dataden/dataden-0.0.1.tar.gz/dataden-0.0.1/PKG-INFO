@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dataden
+Version: 0.0.1
+Summary: A package used for generating dummy data.
+Author-email: Peter Kratz <pkratz22@gmail.com>
+Project-URL: Homepage, https://github.com/pkratz22/dataden
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dataden
+
+Developed to create mock data for dates in a sequential process.
+
+For example, if a company has a program that has four steps, it will create date data in sequential order.
+It also allows users to indicate that a percentage of a column should be null (to account for the sequential data never reaching the last step).
