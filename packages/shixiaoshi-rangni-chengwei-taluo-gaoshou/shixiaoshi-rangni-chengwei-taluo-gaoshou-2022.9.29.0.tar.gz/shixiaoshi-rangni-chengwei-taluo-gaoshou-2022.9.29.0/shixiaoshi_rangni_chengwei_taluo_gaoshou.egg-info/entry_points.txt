@@ -1,0 +1,4 @@
+[console_scripts]
+ShixiaoshiRangniChengweiTaluoGaoshou = ShixiaoshiRangniChengweiTaluoGaoshou.__main__:main
+shixiaoshi-rangni-chengwei-taluo-gaoshou = ShixiaoshiRangniChengweiTaluoGaoshou.__main__:main
+
