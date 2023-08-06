@@ -1,0 +1,12 @@
+ankamantatra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankamantatra/__main__.py,sha256=ljPfM_vDKWlhPpLjRUCXWpBNccswnyWra1C_Jc30oDU,517
+ankamantatra/commands/__init__.py,sha256=IsoH5EPqVh6uw0-xL-7TMWGlHUm1gt8nK3qE-7puH9Q,40
+ankamantatra/commands/list_questions.py,sha256=1EYojkjqO9nDvLoXFV4T750NzMFZAbv75wN50ewmfg4,2279
+ankamantatra/commands/play_quizz.py,sha256=rl9xLiNm7_hwtjH1w7A92zzxyjCxuV5VWsmwjz9UFlE,8073
+ankamantatra/data.json,sha256=75yEWuObFH4NZ8CUh8LnzJLzFp9NpNpnD9IqeXh-YwU,13667
+ankamantatra/utils.py,sha256=r4mmisQQ3E2rz2o_jU1xWcei5WWD3Qz1ERviPBsIl2c,574
+ankamantatra-0.7.2b0.dist-info/entry_points.txt,sha256=eNBzpBW8RjR5T1vlw_fyQFUOILnO58Q3Td5pvvSSHcg,59
+ankamantatra-0.7.2b0.dist-info/LICENSE,sha256=thbY4H9mrwwsYT4Glx0C4rX4jwUasUA0I3peAFbdp4k,1068
+ankamantatra-0.7.2b0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+ankamantatra-0.7.2b0.dist-info/METADATA,sha256=tF6n84dgJgWj_UWR7aKttv_FyLD5QCfYChprzFZaLo0,2756
+ankamantatra-0.7.2b0.dist-info/RECORD,,

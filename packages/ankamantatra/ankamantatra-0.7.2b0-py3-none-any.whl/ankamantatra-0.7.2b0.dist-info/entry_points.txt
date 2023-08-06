@@ -1,0 +1,3 @@
+[console_scripts]
+ankamantatra=ankamantatra.__main__:main
+
