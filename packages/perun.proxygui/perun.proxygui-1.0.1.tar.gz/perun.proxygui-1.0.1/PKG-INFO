@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: perun.proxygui
+Version: 1.0.1
+Summary: Module with gui for perun proxy
+Home-page: https://github.com/CESNET/perun.proxygui
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
