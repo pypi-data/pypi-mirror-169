@@ -1,0 +1,28 @@
+[project]
+name = "GitlabHttpLogger"
+version = "0.0.1"
+authors = [
+    { name="Lukáš Hejcman", email="lukas.hejcman@outlook.com" },
+]
+description = "A simple logging handler to publish logs to the GitLab HTTP Alert system."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English",
+]
+
+dependencies = [
+    'requests',
+]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"

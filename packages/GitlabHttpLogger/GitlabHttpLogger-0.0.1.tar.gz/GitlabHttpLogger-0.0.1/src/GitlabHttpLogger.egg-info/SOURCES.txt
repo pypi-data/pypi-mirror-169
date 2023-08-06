@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/GitlabHttpLogger.egg-info/PKG-INFO
+src/GitlabHttpLogger.egg-info/SOURCES.txt
+src/GitlabHttpLogger.egg-info/dependency_links.txt
+src/GitlabHttpLogger.egg-info/requires.txt
+src/GitlabHttpLogger.egg-info/top_level.txt
+src/gitlab_http_logger/__init__.py
+src/gitlab_http_logger/handler.py
