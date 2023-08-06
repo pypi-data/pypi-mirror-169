@@ -1,0 +1,4 @@
+[console_scripts]
+TaluopaiShiyongShuomingshu = TaluopaiShiyongShuomingshu.__main__:main
+taluopai-shiyong-shuomingshu = TaluopaiShiyongShuomingshu.__main__:main
+
