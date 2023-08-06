@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cgi-server
+Version: 1.2.4
+Summary: multi thread cgi server using python3
+Home-page: https://github.com/0x404/cgi-server
+Author: zengqunhong, xuzheyuan
+Author-email: zengqunhong@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
