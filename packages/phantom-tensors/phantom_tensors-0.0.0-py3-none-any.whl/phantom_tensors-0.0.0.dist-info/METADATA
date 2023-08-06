@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: phantom-tensors
+Version: 0.0.0
+Summary: Tensor types with variadic shapes that support static and runtime type checking
+Author: Ryan Soklaski
+Author-email: rsoklaski@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: typing-extensions (>=4.1.0)
+Provides-Extra: beartype
+Requires-Dist: beartype (>=0.10.4) ; extra == 'beartype'
+Provides-Extra: numpy
+Requires-Dist: numpy (>=1.21.0) ; extra == 'numpy'
+Provides-Extra: torch
+Requires-Dist: torch (>=1.7.0) ; extra == 'torch'
+
+The goal of this project is to let users write tensor-like types with variadic shapes (PEP 646) that are amendable to both: static type checking (without a mypy plugin), as well as cross-tensor consistent runtime checking of shapes. This is achieved using minimal hacks (no mypy plugin necessary).

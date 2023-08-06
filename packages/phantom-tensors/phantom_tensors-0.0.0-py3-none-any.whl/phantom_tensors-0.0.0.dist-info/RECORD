@@ -1,0 +1,16 @@
+phantom_tensors/__init__.py,sha256=HhOFgTWeF7sROvyivDQbTF9zsFV-Ov9VSm0zOUOfSqI,208
+phantom_tensors/_internals.py,sha256=nIVYTKcQQoi7AtmC3n3uOYzplVhnaihtIWQfWtoSaas,6761
+phantom_tensors/_parse.py,sha256=S5diGlVeZWJQmnDqlJ1nuxA3DBsemjKUQAAHbQ7VJHo,8919
+phantom_tensors/_utils.py,sha256=tvv3nreF78ixGBrihx_i1v3Cp0qQuimGKco9vu5TzmY,1750
+phantom_tensors/_version.py,sha256=mJb6Cs1rLwRG5MihIf8UFUqkFReYPtjrYHdK7gr4DBk,497
+phantom_tensors/alphabet.py,sha256=tvu5VLD8uEPOzI-Pu3aldaQySdm1Qve7P-kDlnCyH9k,1057
+phantom_tensors/array.py,sha256=lYFTPITzUdEW8l_7EQe8Uk6DOScc5FLR_TIXfFQ9Bo0,395
+phantom_tensors/errors.py,sha256=J9MDmioQMXuS9BilcitZ58YAdwfor-2lr6-9aNdMvt4,56
+phantom_tensors/numpy.py,sha256=FSj8xeQF2s6bIMgNLWFdadDimDtiSqcojJ2GioEpbtA,1463
+phantom_tensors/torch.py,sha256=Duj4UbK-KnkL2GphMY7GxzFw3trJaDN5OkZzqmCiJdU,1263
+phantom_tensors/words.py,sha256=JJSvgCXS1tgXTzW9AJgptUHTd9RnT-g_LvHgjB8HJTM,1243
+phantom_tensors-0.0.0.dist-info/LICENSE.txt,sha256=d7sRIImirUSpmflSRSuPtD9JQGtR0xuBz37yBwfoQgQ,1070
+phantom_tensors-0.0.0.dist-info/METADATA,sha256=Oh9je5XaElHU_JTE7BwH65Cuf-DwYVTKtros4Mmko7Q,1323
+phantom_tensors-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+phantom_tensors-0.0.0.dist-info/top_level.txt,sha256=SIRre0ptYEEsmQ310fFT67m4dMyQg_tbhIqzT4ON_AY,16
+phantom_tensors-0.0.0.dist-info/RECORD,,
