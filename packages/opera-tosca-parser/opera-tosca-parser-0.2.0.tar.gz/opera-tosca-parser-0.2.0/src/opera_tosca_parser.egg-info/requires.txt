@@ -1,0 +1,6 @@
+pyyaml<=5.4.1
+shtab>=1.5.5
+
+[test]
+wheel==0.37.1
+pytest==7.1.3
