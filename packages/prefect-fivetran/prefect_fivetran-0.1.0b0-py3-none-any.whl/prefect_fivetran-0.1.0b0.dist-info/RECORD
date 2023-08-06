@@ -1,0 +1,11 @@
+prefect_fivetran/__init__.py,sha256=uILB5136GMEdnI4DXfOTEC4m8zzLmaK5Rx-oGlQaMC8,153
+prefect_fivetran/_version.py,sha256=iq6BwTsoHjfCsgNyLVyFj_0wfb32L5WpJj1E1kRl288,502
+prefect_fivetran/clients.py,sha256=UB1N0qlqYBgdHl4iq_UMTWoxICa6UYyQdGdOEqKV2Ik,3576
+prefect_fivetran/connectors.py,sha256=6SvgOuLY_097qgoScbFLX67ayvHvDZqgbVUiIYmc3Ig,16302
+prefect_fivetran/credentials.py,sha256=bL1ZIV2nYHUNPmVUXrS1jv2k6kqrEpeU1e3w09OF7dA,1831
+prefect_fivetran-0.1.0b0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_fivetran-0.1.0b0.dist-info/METADATA,sha256=Jq7rhfl5MIbkodzEf2m9OZOdCRkGvgAH07JK5irps2w,3484
+prefect_fivetran-0.1.0b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_fivetran-0.1.0b0.dist-info/entry_points.txt,sha256=ao8ZNgBD4yy25_P_64SqEq4t56qJ0UGIJIoYqsLxclo,58
+prefect_fivetran-0.1.0b0.dist-info/top_level.txt,sha256=dmKrmkdBkMBeDq_5xfl7mKZH-14NsLzv7fA2GmtOxfo,17
+prefect_fivetran-0.1.0b0.dist-info/RECORD,,
