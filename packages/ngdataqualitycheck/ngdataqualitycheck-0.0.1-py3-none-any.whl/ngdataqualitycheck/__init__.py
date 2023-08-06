@@ -1,0 +1,1 @@
+from ngdataqualitycheck.data_quality import generate_report

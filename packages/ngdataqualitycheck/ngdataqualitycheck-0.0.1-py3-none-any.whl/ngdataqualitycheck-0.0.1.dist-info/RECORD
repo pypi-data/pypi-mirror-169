@@ -1,0 +1,12 @@
+ngdataqualitycheck/__init__.py,sha256=flYKsn1vVB9Fw6Z7sBG3G9-AykIbsJWvzb6Zo6BFGKE,61
+ngdataqualitycheck/data_quality.py,sha256=12B9HqMWKxLXAYsWvOKrL1icEq7hYLQVJyX4-jykfVo,47378
+ngdataqualitycheck/data_stats.py,sha256=3U00EN7z1QRIzaanUa1ofNQLrvMvDy5yYFYCW_QLTIg,9987
+ngdataqualitycheck/global_params.py,sha256=ESSwX2fX0qB6FltFCH0wlLwM_ZiTOLMmC6tvQ8htoAk,2550
+ngdataqualitycheck/helper.py,sha256=A3bRF909U5Ay8n6X2GIzjNohSck9nrRZLWRKX4mkKK4,10583
+ngdataqualitycheck/make_directory.py,sha256=SpIovIyr9unRTxeqaC_9XF6v_eavHYzDyCJFho4KAuo,2960
+ngdataqualitycheck/plot_builder.py,sha256=uN8EeySBnb6HMRaRxQfQK_qZkZaerLgMpUPMbQo56lE,16940
+ngdataqualitycheck-0.0.1.dist-info/LICENSE,sha256=F8P6J5HSIbegXMXoHYNDDuNdXH3MzdtH5liWjNLjxMQ,13312
+ngdataqualitycheck-0.0.1.dist-info/METADATA,sha256=sC45D37rUOztu2fcgrLfAruQg192_V7UeZ7itVBu2os,2500
+ngdataqualitycheck-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ngdataqualitycheck-0.0.1.dist-info/top_level.txt,sha256=3m9kCMMTXZztIjO8-M6AWyCBc0PvU2F9HK16dwxfNXw,19
+ngdataqualitycheck-0.0.1.dist-info/RECORD,,
