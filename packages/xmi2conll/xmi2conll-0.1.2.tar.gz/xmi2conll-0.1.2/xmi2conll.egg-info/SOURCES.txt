@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+x2c.py
+src/__init__.py
+src/cli_utils.py
+src/x2c_converters.py
+xmi2conll.egg-info/PKG-INFO
+xmi2conll.egg-info/SOURCES.txt
+xmi2conll.egg-info/dependency_links.txt
+xmi2conll.egg-info/entry_points.txt
+xmi2conll.egg-info/requires.txt
+xmi2conll.egg-info/top_level.txt
