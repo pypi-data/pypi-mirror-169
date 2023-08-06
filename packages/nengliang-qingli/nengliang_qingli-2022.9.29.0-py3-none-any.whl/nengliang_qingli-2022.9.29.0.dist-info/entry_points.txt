@@ -1,0 +1,4 @@
+[console_scripts]
+NengliangQingli = NengliangQingli.__main__:main
+nengliang-qingli = NengliangQingli.__main__:main
+
