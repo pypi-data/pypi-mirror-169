@@ -1,0 +1,4 @@
+[console_scripts]
+XuanxueZhanbu = XuanxueZhanbu.__main__:main
+xuanxue-zhanbu = XuanxueZhanbu.__main__:main
+
