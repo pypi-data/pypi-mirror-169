@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_chatbot_kaleido.egg-info/PKG-INFO
+shopee_chatbot_kaleido.egg-info/SOURCES.txt
+shopee_chatbot_kaleido.egg-info/dependency_links.txt
+shopee_chatbot_kaleido.egg-info/top_level.txt
