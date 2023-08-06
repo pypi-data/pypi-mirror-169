@@ -1,0 +1,6 @@
+evaics>=0.0.33
+ttsbroker
+soundfile
+sounddevice
+oauth2client
+numpy
