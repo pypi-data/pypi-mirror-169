@@ -1,0 +1,8 @@
+s3_sqlite3/__init__.py,sha256=wQsHHUasRh3TMaDfHxQvH7kEUjmL8Bi3Uw73PAX4hvs,128
+s3_sqlite3/s3_sqlite3.py,sha256=Owtb9kvtjh80w1mr-TiM9bJASH9EOj63DW8ZShQ9f2A,1356
+s3_sqlite3/s3vfs.py,sha256=u2PR9DSHLFL2uk4G-e0cU0wYmMGUtk0QZWLadto1MnM,4463
+s3_sqlite3/s3vfsfile.py,sha256=-JVyWQBk3G84uvSCG_NYYK086z14EjACUPjrG9DRIm0,4263
+S3Sqlite3-0.1.dist-info/METADATA,sha256=SgKZJO3HdOMrpSc0qmGuDV-lhNNTx2YYAHEp6iKHItc,339
+S3Sqlite3-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+S3Sqlite3-0.1.dist-info/top_level.txt,sha256=Hgnq0ml6N4mjCqF6yjIO8lXcuzzQDS99X95hKk14AAw,11
+S3Sqlite3-0.1.dist-info/RECORD,,
