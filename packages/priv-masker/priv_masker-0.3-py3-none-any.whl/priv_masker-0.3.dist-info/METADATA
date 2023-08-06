@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: priv-masker
+Version: 0.3
+Summary: Text anonymization tool
+Home-page: UNKNOWN
+Author: Adam Nowakowski
+Author-email: adam.nowakowski@nask.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.22.2)
+Requires-Dist: spacy (>=3.0)
+Requires-Dist: setuptools (>=57.0.0)
+Requires-Dist: pandas (>=1.4.1)
+Requires-Dist: scipy (>=1.8.0)
+
+Narzędzie do anonimizacji - maskowania - danych osobowych i wrażliwych w dokumentach. Przyjmuje na wejściu pliki pdf lub txt, lecz wynik zwraca wyłącznie w formie tekstowej. Oparty na otwartej bibliotece PrivMasker dla Pythona, która umożliwia automatyczną detekcję oraz szybkie i skuteczne maskowanie danych osobowych i wrażliwych w różnego typu dokumentach. W zależności od rodzaju tekstu i preferencji użytkownika możliwy jest opcjonalny wybór maskowanych komponentów:
+
+imię i nazwisko
+dane kontaktowe (numery telefonów, adresy e-mail)
+adresy fizyczne
+daty
+numery identyfikacyjne
+kwoty
+Dzięki zastosowaniu nowoczesnych, inteligentnych algorytmów służących przetwarzaniu języka naturalnego poddany analizie tekst dzielony jest na mniejsze elementy, tzw. tokeny, które następnie anotowane są zgodnie ze swoją funkcją językową w tekście. Automatycznie rozpoznawane są w ten sposób np. imiona, nazwiska, nazwy ulic, liczby powiązane z nazwą waluty czy ciągi liczbowe powiązane z nazwami systemów identyfikacji. Na podstawie danych dostarczanych przez annotatory poszczególne maski, selekcjonowane przez użytkownika, dokonują anonimizacji tokenów odpowiadających danej kategorii.
+
+Intuicyjny interfejs narzędzia pozwala na wprowadzenie treści poddawanych analizie przez wklejenie tekstu źródłowego lub załadowanie przetworzonego przez OCR pliku PDF. Po wykonaniu zadania PrivMasker umożliwia pobranie zanonimizowanego dokumentu w prostym formacie TXT.
+
+Automatycznie selekcjonowane informacje wrażliwe maskowane są do postaci [XXX] bez względu na długość anonimizowanej sekwencji. Przykład anonimizacji krótkiego tekstu zawierającego dane wrażliwe:
+
+Halina Kowalska (tel. 228595959, adres e-mail: halina.kowalska@xyz.com), reprezentująca Stowarzyszenie Przedsiębiorców Polskich, zamieszkała w Warszawie przy ulicy Juliusza Słowackiego 13/13, identyfikująca się numerem PESEL 76121305873, złożyła w dniu 12 sierpnia 2022 oświadczenie wyjaśniające i uiściła karę grzywny w wysokości 500 złotych.
+
+[XXX] [XXX] (tel. [XXX], adres e-mail: [XXX]), reprezentująca [XXX] [XXX] [XXX], zamieszkała w [XXX] przy [XXX] [XXX] [XXX] [XXX], identyfikująca się numerem PESEL [XXX], złożyła w dniu [XXX] [XXX] [XXX] oświadczenie wyjaśniające i uiściła karę grzywny w wysokości [XXX] złotych.
+Szczegółowe informacje dotyczące architektury modelu i wszystkich funkcjonalności narzędzia dostępne są w przygotowanej przez twórców dokumentacji.
+
