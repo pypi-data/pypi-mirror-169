@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mathscapes
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/mathscapes#readme
+Project-URL: Issues, https://github.com/unknown/mathscapes/issues
+Project-URL: Source, https://github.com/unknown/mathscapes
+Author-email: gv-sh <gv-sh@outlook.com>
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# mathscapes
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mathscapes.svg)](https://pypi.org/project/mathscapes)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mathscapes.svg)](https://pypi.org/project/mathscapes)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install mathscapes
+```
+
+## License
+
+`mathscapes` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
