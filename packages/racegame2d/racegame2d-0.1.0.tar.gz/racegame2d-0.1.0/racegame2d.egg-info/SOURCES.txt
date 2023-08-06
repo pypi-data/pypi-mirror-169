@@ -1,0 +1,16 @@
+setup.py
+racegame2d/__init__.py
+racegame2d/animator.py
+racegame2d/game_object.py
+racegame2d/gameworld.py
+racegame2d/geom_utils.py
+racegame2d/racecar.py
+racegame2d/racegame_display.py
+racegame2d/trackpiece.py
+racegame2d/trajectory_render.py
+racegame2d/virtual_display.py
+racegame2d.egg-info/PKG-INFO
+racegame2d.egg-info/SOURCES.txt
+racegame2d.egg-info/dependency_links.txt
+racegame2d.egg-info/requires.txt
+racegame2d.egg-info/top_level.txt
