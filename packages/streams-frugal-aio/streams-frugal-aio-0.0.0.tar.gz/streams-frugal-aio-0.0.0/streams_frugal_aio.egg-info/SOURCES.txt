@@ -1,0 +1,6 @@
+setup.py
+streams-frugal-aio/__init__.py
+streams_frugal_aio.egg-info/PKG-INFO
+streams_frugal_aio.egg-info/SOURCES.txt
+streams_frugal_aio.egg-info/dependency_links.txt
+streams_frugal_aio.egg-info/top_level.txt
