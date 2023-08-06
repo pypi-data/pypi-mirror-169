@@ -1,0 +1,3 @@
+[console_scripts]
+gendiscal_tree = gendiscalpy.GenDisCalTree:main
+install_gendiscal = gendiscalpy.install_gendiscal:main

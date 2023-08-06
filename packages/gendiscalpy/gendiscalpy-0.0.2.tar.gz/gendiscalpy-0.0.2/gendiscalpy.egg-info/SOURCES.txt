@@ -1,0 +1,14 @@
+LICENCE.md
+README.md
+setup.py
+gendiscalpy/GenDisCal.py
+gendiscalpy/GenDisCalTree.py
+gendiscalpy/__init__.py
+gendiscalpy/install_gendiscal.py
+gendiscalpy/utils.py
+gendiscalpy.egg-info/PKG-INFO
+gendiscalpy.egg-info/SOURCES.txt
+gendiscalpy.egg-info/dependency_links.txt
+gendiscalpy.egg-info/entry_points.txt
+gendiscalpy.egg-info/requires.txt
+gendiscalpy.egg-info/top_level.txt
