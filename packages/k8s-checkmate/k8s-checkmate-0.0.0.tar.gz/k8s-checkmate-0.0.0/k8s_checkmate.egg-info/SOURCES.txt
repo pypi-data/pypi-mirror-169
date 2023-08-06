@@ -1,0 +1,6 @@
+setup.py
+k8s-checkmate/__init__.py
+k8s_checkmate.egg-info/PKG-INFO
+k8s_checkmate.egg-info/SOURCES.txt
+k8s_checkmate.egg-info/dependency_links.txt
+k8s_checkmate.egg-info/top_level.txt
