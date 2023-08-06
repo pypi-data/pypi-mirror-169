@@ -1,0 +1,425 @@
+Metadata-Version: 2.1
+Name: aws-container-launcher
+Version: 1.1.0
+Summary: AWS Container Launcher makes it easy to programmatically run a Docker container in AWS using the Python module
+Home-page: https://github.com/kankou-aliaksei/aws-container-launcher
+Author: Aliaksei Kankou
+Author-email: aliaksei.kankou@gmail.com
+Project-URL: Bug Tracker, https://github.com/kankou-aliaksei/aws-container-launcher/issues
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.23.10)
+Requires-Dist: amazon-ec2-best-instance (>=0.1.0)
+
+# Prerequisites
+
+* Python 3.7
+* AWS Credentials
+
+# AWS Container Launcher (aws-container-launcher)
+
+AWS Container Launcher makes it easy to programmatically run a Docker container in AWS using the Python module.
+
+| WARNING: After processing a job, you are in charge of destroying the infrastructure. Do not forget to call the "destroy" method; otherwise, the instance will continue to operate and you will be charged by Amazon. |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+# Instance type determination
+
+You can specify the instance type explicitly or set the CPU and memory, and the module will automatically select the optimal instance type for you.
+
+# Examples
+
+## Minimal example with providing an instance type
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'instance_type': 't3.micro',  # required. Alternatively, use 'cpu' and 'memory' parameters pair.
+}
+
+'''
+Asynchronously running of an ECS task.
+However, resource initializing happens synchronously (EC2, etc.) and takes up to 5 minutes
+'''
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(10)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+## Minimal example with providing 'cpu' and 'memory' pair
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'cpu': 1,  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+    'memory': 4  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+}
+
+'''
+Asynchronously running of an ECS task.
+However, resource initializing happens synchronously (EC2, etc.) and takes up to 5 minutes
+'''
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(10)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+# Advanced
+
+```
+import time
+import logging
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+logger = logging
+logging.basicConfig(level=logging.INFO)
+
+acl = ContainerLauncher({
+    'monitoring_table_tags': {
+        'k1': 'v1',
+        'k2': 'v2'
+    },  # optional. It is tagging for the monitoring DynamoDB table.
+        # The DynamoDB table will be created if it doesn't exist and will be reused if it exists.
+    'logger': logger,
+    'region': 'us-east-1'
+})
+
+entry_id = str(time.time()).replace('.', '')
+
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'cpu': 1,  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+    'memory': 4,  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+    'id': entry_id,  # optional. The ID must be unique for each task.
+                     # Otherwise, you will get the same status for an already completed job.
+                     # If not provided, then ID will be generated automatically.
+    'name_suffix': <name_suffix>,  # optional. The name_suffix must be unique for each job run.
+    'ec2_sg_id': <security_group_id>,  # optional. Default: A default VPC security group
+    'tags': {
+        'k1': 'v1',
+        'k2': 'v2'
+    },  # optional
+    'is_spot': True,  # Default: False
+    'instance_type': 't3.micro',  # required. Alternatively, use 'cpu' and 'memory' parameters pair.
+                                     # The instance type has priority over 'cpu' and 'memory' parameters pair.
+    'storages': [
+        {
+            'type': 'fsx',
+            'file_system_id': <file_system_id>,
+            'dir': '/fsx'  # It is a path to access FSx space from an EC2 instance. Default: /fsx
+        },
+        {
+            'type': 'ssd_instance_store'
+        }
+    ],  # optional
+    'options': {
+        'scaling_enabled': True
+    }  # Used as a safety catch if you forgot to destroy the infrastructure after processing the job.
+       # If the CPU activity for the EC2 instance is less than 1 percent for 3 hours,
+       # the EC2 instance will be terminated by Auto Scaling Policy.
+}
+
+'''
+Asynchronously running of an ECS task.
+However, resource initializing happens synchronously (EC2, etc.)
+and takes up to 5 minutes
+'''
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(10)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+status = get_container_status_response['status']
+
+print(status)
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+
+```
+
+# Storage
+
+## Amazon FSx for Lustre
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 120'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'instance_type': 'm5d.4xlarge',
+    'storages': [
+        {
+            'type': 'fsx',
+            'file_system_id': <file_system_id>,
+            'dir': '/fsx'  # It is a path to access FSx space from an EC2 instance. Default: /fsx
+        }
+    ],
+    'ecs_task_definition': {
+        'volumes': [
+            {
+                'name': 'fsx_storage',
+                'host': {
+                    'sourcePath': '/fsx'  # Must be matched with "storages[.type == 'fsx'].dir"
+                }
+            }
+        ],
+        'containerDefinitions': {
+            'mountPoints': [
+                {
+                    'sourceVolume': 'fsx_storage',
+                    'containerPath': '/fsx',  # It is a path to access FSx space from a docker container.
+                    'readOnly': False
+                },
+            ]
+        },
+    },
+}
+
+# Async running of an ECS task
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(300)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+print(get_container_status_response)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+## SSD instance store
+
+* It you specify instance type explicitly and instance type doesn't support NVMe SSD storage, then SSD instance store configuration is ignored
+* If you specify CPU and memory pair then the package automatically pick up optimal instance type with instance store
+* The solution automatically combines all ephemeral disks using RAID 0; thus, all disks are treated as one file system, and all space is available on the specified path
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 120'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'instance_type': 'm5d.4xlarge',  # required
+    'storages': [
+        {
+            'type': 'ssd_instance_store',
+            'dir': '/ssd1'  # It is a path to access SSD instance store space from an EC2 instance. Default: /ssd
+        }
+    ],
+    'ecs_task_definition': {
+        'volumes': [
+            {
+                'name': 'ssd_instance_store',
+                'host': {
+                    'sourcePath': '/ssd1'  # Must be matched with "storages[.type == 'ssd_instance_store'].dir"
+                }
+            }
+        ],
+        'containerDefinitions': {
+            'mountPoints': [
+                {
+                    'sourceVolume': 'ssd_instance_store',
+                    'containerPath': '/ssd',  # It is a path to access SSD instance store space from a docker container.
+                    'readOnly': False
+                }
+            ]
+        }
+    }
+}
+
+# Async running of an ECS task
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(300)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+print(get_container_status_response)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+## EFS
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 600'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'instance_type': 'm5d.4xlarge',  # required
+    'ecs_task_definition': {
+        'volumes': [
+            {
+                'name': 'efs',
+                'efsVolumeConfiguration': {
+                    'fileSystemId': <file_system_id>,
+                    'rootDirectory': '/',
+                    'transitEncryption': 'ENABLED',
+                    'authorizationConfig': {
+                        'accessPointId': <access_point_id>,
+                        'iam': 'ENABLED'
+                    }
+                }
+            }
+        ],
+        'containerDefinitions': {
+            'mountPoints': [
+                {
+                    'sourceVolume': 'efs',
+                    'containerPath': '/mnt/efs',
+                    'readOnly': False
+                }
+            ],
+            'workingDirectory': '/mnt/efs'
+        }
+    }
+}
+
+# Async running of an ECS task
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(700)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+print(get_container_status_response)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+# Privileged mode
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 600'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'instance_type': 't3.small',  # required
+    'ecs_task_definition': {
+        'containerDefinitions': {
+            'privileged': True
+        }
+    }
+}
+
+# Async running of an ECS task
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(700)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+print(get_container_status_response)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+# Security
+
+Currently, all IAM roles have policies with administrator rights. The roles will eventually be adjustable in the future.
