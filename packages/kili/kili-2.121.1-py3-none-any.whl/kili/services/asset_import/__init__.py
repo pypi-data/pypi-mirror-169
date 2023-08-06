@@ -1,0 +1,44 @@
+"""Service for importing objects into kili"""
+
+from typing import List
+
+from kili.authentication import KiliAuth
+from kili.constants import NO_ACCESS_RIGHT
+from kili.queries.project import QueriesProject
+from kili.services.asset_import.image import ImageDataImporter
+from kili.services.asset_import.legacy import LegacyDataImporter
+from kili.services.asset_import.pdf import PdfDataImporter
+from kili.services.asset_import.text import TextDataImporter
+from kili.services.asset_import.types import AssetLike
+from kili.services.asset_import.video import VideoDataImporter
+
+from .base import LoggerParams, ProcessingParams, ProjectParams
+
+importer_by_type = {
+    "PDF": PdfDataImporter,
+    "IMAGE": ImageDataImporter,
+    "TEXT": TextDataImporter,
+    "VIDEO": VideoDataImporter,
+    "FRAMES": VideoDataImporter,
+}
+
+
+def import_assets(
+    auth: KiliAuth, project_id: str, assets: List[AssetLike], raise_error=True, disable_tqdm=False
+):
+    """
+    import the selected assets into the specified project
+    """
+    kili = QueriesProject(auth)
+    projects = kili.projects(project_id, disable_tqdm=True)
+    assert len(projects) == 1, NO_ACCESS_RIGHT
+    input_type = projects[0]["inputType"]
+
+    project_params = ProjectParams(project_id=project_id, input_type=input_type)
+    processing_params = ProcessingParams(raise_error=raise_error)
+    logger_params = LoggerParams(disable_tqdm=disable_tqdm)
+    importer_params = (auth, project_params, processing_params, logger_params)
+
+    asset_importer = importer_by_type.get(input_type, LegacyDataImporter)(*importer_params)
+    result = asset_importer.import_assets(assets=assets)
+    return result
