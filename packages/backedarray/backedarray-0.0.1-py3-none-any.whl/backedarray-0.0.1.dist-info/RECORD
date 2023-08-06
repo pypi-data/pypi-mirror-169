@@ -1,0 +1,12 @@
+backedarray/__init__.py,sha256=BOjByAPZRwt6Lms7pDY5uDXr5CQ7ZxQiCQUhRFVY3eY,188
+backedarray/dense_array.py,sha256=Ay1EtCmtBKn8ExdYGHUrY9zrrN-SAy8F8EIEzgwO9SQ,260
+backedarray/h5f5_dense_array.py,sha256=h5nRR6LlkC6Y5D6F06bFJYBCoCAZDSrk8Zxp7H4be7g,1543
+backedarray/index.py,sha256=KwRI_Q0ZNvZvEToCOQ3dizw6RVN0ZFBUPqXVcsgGcy8,196
+backedarray/sparse_array.py,sha256=O-rmPOtg7dYSN-CkJ5AVZqKw3SsKqmD6iYwo-ATzHuY,6633
+backedarray/types.py,sha256=8OX0hTQELa0KFOITXICE4p8WaUXIhxnhvJDsteQery4,337
+backedarray/utils.py,sha256=xgtPJwcsHP2zb1k_oha9n49fyNSjuKIsvux8XrAk-JU,1866
+backedarray/zarr_dense_array.py,sha256=I7vjaGZYbWgMvUHrpwOsw_iKyY1PjxESS7ifk0t7zLM,477
+backedarray-0.0.1.dist-info/METADATA,sha256=IYW20rHJuhREBHJKicvwrA9_O_h8bekdocx3mxHyR5I,11666
+backedarray-0.0.1.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+backedarray-0.0.1.dist-info/licenses/LICENSE,sha256=o_c3O60f9MTmgCxI4SZztHrgo9Sx2xB0NlVz1-jHTn4,1517
+backedarray-0.0.1.dist-info/RECORD,,
