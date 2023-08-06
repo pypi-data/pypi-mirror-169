@@ -1,0 +1,7 @@
+LICENSE
+MANIFEST.in
+setup.py
+cristian_lib.egg-info/PKG-INFO
+cristian_lib.egg-info/SOURCES.txt
+cristian_lib.egg-info/dependency_links.txt
+cristian_lib.egg-info/top_level.txt
