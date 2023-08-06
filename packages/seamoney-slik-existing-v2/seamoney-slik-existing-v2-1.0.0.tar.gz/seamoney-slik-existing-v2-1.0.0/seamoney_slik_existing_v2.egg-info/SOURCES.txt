@@ -1,0 +1,6 @@
+README.md
+setup.py
+seamoney_slik_existing_v2.egg-info/PKG-INFO
+seamoney_slik_existing_v2.egg-info/SOURCES.txt
+seamoney_slik_existing_v2.egg-info/dependency_links.txt
+seamoney_slik_existing_v2.egg-info/top_level.txt
