@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "fastbootpy"
+version = "0.4.1"
+description = ""
+authors = ["Orekhov Arkady <arckadyor34@google.com>"]
+readme = "README.md"
+homepage = "https://github.com/WorkHardes/fastbootpy"
+repository = "https://github.com/WorkHardes/fastbootpy"
+documentation = "https://github.com/WorkHardes/fastbootpy"
+keywords = ["fastboot", "usb", "android"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyusb = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.961"
+bandit = "^1.7.4"
+black = {version = "^22.3.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

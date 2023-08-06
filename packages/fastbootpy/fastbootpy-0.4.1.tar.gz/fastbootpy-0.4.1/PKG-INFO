@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: fastbootpy
+Version: 0.4.1
+Summary: 
+Home-page: https://github.com/WorkHardes/fastbootpy
+Keywords: fastboot,usb,android
+Author: Orekhov Arkady
+Author-email: arckadyor34@google.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: pyusb (>=1.2.1,<2.0.0)
+Project-URL: Documentation, https://github.com/WorkHardes/fastbootpy
+Project-URL: Repository, https://github.com/WorkHardes/fastbootpy
+Description-Content-Type: text/markdown
+
+# Fastbootpy
+
+Fastbootpy is based on pyusb and using libusb1 for USB communications.
+
+---
+
+## Installation
+
+### pip
+
+```bash
+poetry add fastbootpy
+```
+
+### poetry
+
+```bash
+poetry add fastbootpy
+```
+
+---
+
+## Supported fastboot commands
+
+- getvar
+- download
+- upload
+- flash
+- erase
+- boot
+- continue
+- reboot
+
+---
+
+## Examples
+
+All examples of using library you can find in folder examples.
+
+Get and display all fastboot devices which are connected with pc via usb.
+
+```python
+from fastbootpy import FastbootManager
+
+
+def main() -> None:
+    fastboot_devices = FastbootManager.devices()
+    print("fastboot_devices:", fastboot_devices)
+
+
+if __name__ == "__main__":
+    main()
+```
+
+Boot device into regular mode.
+
+```python
+from fastbootpy import FastbootDevice
+
+
+def main() -> None:
+    serial = "emulator-5554"
+    device = FastbootDevice.connect(serial)
+    device.boot()
+
+
+if __name__ == "__main__":
+    main()
+```
+
+Getvar command example.
+
+```python
+from fastbootpy import FastbootDevice, FastbootManager
+
+
+def main() -> None:
+    fastboot_devices = FastbootManager.devices()
+    serial = fastboot_devices[0]
+    device = FastbootDevice.connect(serial)
+    result = device.getvar("all")
+    print("result:", result)
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
