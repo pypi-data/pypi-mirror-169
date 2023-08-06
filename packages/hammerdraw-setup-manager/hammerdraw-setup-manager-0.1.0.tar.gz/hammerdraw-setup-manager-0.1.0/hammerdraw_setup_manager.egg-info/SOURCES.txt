@@ -1,0 +1,9 @@
+LICENSE
+README.md
+hammerdraw_setup_manager.py
+setup.py
+hammerdraw_setup_manager.egg-info/PKG-INFO
+hammerdraw_setup_manager.egg-info/SOURCES.txt
+hammerdraw_setup_manager.egg-info/dependency_links.txt
+hammerdraw_setup_manager.egg-info/requires.txt
+hammerdraw_setup_manager.egg-info/top_level.txt

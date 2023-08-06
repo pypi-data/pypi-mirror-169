@@ -1,0 +1,9 @@
+extended-setup-tools~=0.1.7
+
+[all]
+lxml
+unittest-xml-reporting
+
+[test]
+lxml
+unittest-xml-reporting
