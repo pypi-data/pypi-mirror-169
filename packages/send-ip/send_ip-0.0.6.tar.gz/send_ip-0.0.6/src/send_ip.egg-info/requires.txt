@@ -1,0 +1,10 @@
+PyYAML>=5.3.1
+paramiko>=2.6.0
+py_console
+scp
+
+[dev]
+PyYAML==5.3.1
+check-manifest
+paramiko==2.6.0
+twine
