@@ -1,0 +1,4 @@
+[console_scripts]
+FanzhuanMingyundeLiliang = FanzhuanMingyundeLiliang.__main__:main
+fanzhuan-mingyunde-liliang = FanzhuanMingyundeLiliang.__main__:main
+
