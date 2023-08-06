@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: prenotazione-unimi
+Version: 2.0.1
+Summary: Command line program that handles booking for lessons at UNIMI
+Home-page: https://github.com/Mroik/prenotazione_unimi
+Author: Mroik
+Author-email: mroik@delayed.space
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: lxml (==4.9.1)
+
