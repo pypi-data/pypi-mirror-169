@@ -1,0 +1,9 @@
+torch
+pyrates
+numpy
+matplotlib
+scipy
+
+[dev]
+pytest
+bump2version
