@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: schemodel
+Version: 1.1.0
+Summary: scheme validate and save to database(support mysql , mongodb)
+Home-page: UNKNOWN
+Author: abo123456789
+Author-email: abcdef123456chen@sohu.com
+Maintainer: abo123456789
+Maintainer-email: abcdef123456chen@sohu.com
+License: MIT License
+Keywords: scheme validate,database,mongodb,mysql
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: curd (>=0.0.11)
+Requires-Dist: pymongo (>=3.5.1)
+Requires-Dist: schemv (>=2.1.1.1)
+
+UNKNOWN
+
+

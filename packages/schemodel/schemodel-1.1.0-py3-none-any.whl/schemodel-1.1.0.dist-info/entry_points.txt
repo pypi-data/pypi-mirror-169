@@ -1,0 +1,3 @@
+[console_scripts]
+mcc = mysql_conn_check.mcc:mysql_connection
+
