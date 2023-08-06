@@ -1,0 +1,41 @@
+# resourceful
+Human friendly HTTP client for RESTful APIs
+
+## Usage
+
+```python
+>>> import resourceful
+>>> solaire = resourceful.API(url='https://api.le-systeme-solaire.net/rest')
+>>> bodies = solaire.resource('bodies')
+>>> bodies.url
+'https://api.le-systeme-solaire.net/rest/bodies'
+>>> solaire.bodies.url
+'https://api.le-systeme-solaire.net/rest/bodies'
+>>> rsp = bodies.get()
+>>> rsp.json()
+{
+  "bodies": [
+    {
+      "id": "lune",
+      "name": "La Lune",
+      "englishName": "Moon",
+      "isPlanet": false,
+      "moons": null,
+      "semimajorAxis": 384400,
+      "perihelion": 363300,
+      "aphelion": 405500,
+      "eccentricity": 0.0549,
+      "inclination": 5.145,
+      "mass": {
+        "massValue": 7.346,
+        "massExponent": 22
+      },
+      "vol": {
+        "volValue": 2.1968,
+        "volExponent": 10
+      },
+      "density": 3.344,
+      "gravity": 1.62,
+      "escape": 2380,
+...
+```
