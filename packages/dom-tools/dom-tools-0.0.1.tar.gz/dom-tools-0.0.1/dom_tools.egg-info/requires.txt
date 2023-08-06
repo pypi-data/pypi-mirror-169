@@ -1,0 +1,12 @@
+click
+click-default-group
+figlet
+psutil
+pyaml
+pyfiglet
+PyInquirer
+pytest
+python-ldap
+PyYAML
+sh
+tabulate

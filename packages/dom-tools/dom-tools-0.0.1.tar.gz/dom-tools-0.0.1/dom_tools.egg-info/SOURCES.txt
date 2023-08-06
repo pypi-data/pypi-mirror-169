@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+dom_tools.egg-info/PKG-INFO
+dom_tools.egg-info/SOURCES.txt
+dom_tools.egg-info/dependency_links.txt
+dom_tools.egg-info/requires.txt
+dom_tools.egg-info/top_level.txt
