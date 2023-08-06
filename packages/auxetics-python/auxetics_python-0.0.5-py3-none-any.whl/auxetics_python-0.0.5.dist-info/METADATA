@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: auxetics-python
+Version: 0.0.5
+Summary: A Python package for Auxetics
+Project-URL: Homepage, https://github.com/gv-sh/auxetics-python
+Project-URL: Bug Tracker, https://github.com/gv-sh/auxetics-python/issues
+Author-email: gv-sh <gv-sh@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# auxetics-python
+A Python package for Auxetics
+
