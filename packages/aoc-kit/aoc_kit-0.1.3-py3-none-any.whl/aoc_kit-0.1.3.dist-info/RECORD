@@ -1,0 +1,11 @@
+aockit/__init__.py,sha256=eW2TPrlx7Or5VOD0LtLw5v5PJIo6k7egY3zJTklRkuc,544
+aockit/download.py,sha256=ck_PtnSZofQT2LIG_xarnIL-qQtFtJGTvmAoontamD8,1863
+aockit/exceptions.py,sha256=ZWeRjdhw03uTOiuaK9DXI8wXwsnGheSTnUD_uqpjQck,82
+aockit/misc.py,sha256=lfCMaZwzZz3T0fBfknEg7VA7nfcvzZitkzfRPZ2DCi0,1876
+aockit/settings.py,sha256=3hQFXaMWz1xyeoQr4mTQJ9JKQ5tnS_mi_W2LXLusCVQ,192
+aockit/template.py,sha256=2e-h76z6qhCWMxjPyMgHvuik_upSCZFKRrBRByKw7hU,966
+aoc_kit-0.1.3.dist-info/entry_points.txt,sha256=TzmDbS0-HOKUbCYLtoEIGhvEsYeYIPzzg66DvkHMQA8,86
+aoc_kit-0.1.3.dist-info/LICENSE,sha256=0kna1XjtIg45q3mNFFnaGTYE7yZWKGVed3uc_nPL4J8,1075
+aoc_kit-0.1.3.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+aoc_kit-0.1.3.dist-info/METADATA,sha256=plwzRNv4E1gWHnj72dPcIYuvybQtuB68ifz4h1ZVW-Y,784
+aoc_kit-0.1.3.dist-info/RECORD,,
