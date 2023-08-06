@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: gravityzone
+Version: 0.0.1.dev1
+Summary: Bitdefender GravityZone Control Center API client
+Home-page: https://github.com/forensic-security/gravityzone#readme
+Author: Nuno André
+Author-email: mail@nunoand.re
+License: BSD-3-Clause
+Project-URL: Source, https://github.com/forensic-security/gravityzone
+Project-URL: Bug Tracker, https://github.com/forensic-security/gravityzone/issues
+Keywords: bitdefender,gravityzone,antivirus,mssp
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Security
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx (>=0.22.0)
+Requires-Dist: typing-extensions (>=4.3.0) ; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+# Bitdefender GravityZone Control Center API Client
+
+## Docs
+
+- [API Docs](https://www.bitdefender.com/business/support/en/77211-125277-public-api.html)
+
+
