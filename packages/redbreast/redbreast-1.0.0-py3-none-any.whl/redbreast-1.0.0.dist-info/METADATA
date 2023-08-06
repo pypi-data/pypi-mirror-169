@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: redbreast
+Version: 1.0.0
+Summary: Robin's python utilities
+Home-page: https://github.com/binnev/redbreast
+Author: Robin Neville
+Author-email: robin.m.neville@gmail.com
+Project-URL: Bug Tracker, https://github.com/binnev/redbreast/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django (>=3.2)
+Requires-Dist: typing (>=3.7)
+Requires-Dist: packaging (>=3.0.9)
+
+# Robin's python utilities
