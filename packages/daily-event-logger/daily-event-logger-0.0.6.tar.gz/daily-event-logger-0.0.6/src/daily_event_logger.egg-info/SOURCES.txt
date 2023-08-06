@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/daily_event_logger.egg-info/PKG-INFO
+src/daily_event_logger.egg-info/SOURCES.txt
+src/daily_event_logger.egg-info/dependency_links.txt
+src/daily_event_logger.egg-info/entry_points.txt
+src/daily_event_logger.egg-info/requires.txt
+src/daily_event_logger.egg-info/top_level.txt
+src/elog/__init__.py
+src/elog/elog.py
