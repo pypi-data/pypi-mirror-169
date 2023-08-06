@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+monprogramme.egg-info/PKG-INFO
+monprogramme.egg-info/SOURCES.txt
+monprogramme.egg-info/dependency_links.txt
+monprogramme.egg-info/entry_points.txt
+monprogramme.egg-info/top_level.txt
