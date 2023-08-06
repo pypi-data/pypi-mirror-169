@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: moh0009-calc
+Version: 1
+Summary: calculator
+Home-page: https://github.com/moh0009/Calc
+Author: moh0009
+Author-email: 23ii.mancy@gmail.com
+License: MIT
+Keywords: calculator,calc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+
+
+Calc library
+
+this libaray  for calculation numbers with python
+
+here is the functions: 
+
+calc.add(number 1 , number 2)
+calc.subtract(number 1 , number 2)
+calc.multiply(number 1 , number 2)
+calc.division(number 1 , number 2)
+
+
+example :
+
+from calc import calc
+print(calc.add(12,5))
+
+the output well be 17
+
+for any issues write it here https://github.com/moh0009/Calc/issues
+
+
+see my replit https://replit.com/@moh0009 and my github https://github.com/moh0009
+
+change log
+
+
+1.0  (4/4/2022)
+---------------
+-frist release
+    
+
