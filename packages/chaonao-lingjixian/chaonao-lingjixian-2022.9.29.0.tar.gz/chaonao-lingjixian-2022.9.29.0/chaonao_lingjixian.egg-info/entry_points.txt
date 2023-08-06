@@ -1,0 +1,4 @@
+[console_scripts]
+ChaonaoLingjixian = ChaonaoLingjixian.__main__:main
+chaonao-lingjixian = ChaonaoLingjixian.__main__:main
+
