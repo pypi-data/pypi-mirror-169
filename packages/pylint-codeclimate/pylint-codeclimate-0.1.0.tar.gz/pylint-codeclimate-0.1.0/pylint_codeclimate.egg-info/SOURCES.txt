@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pylint_codeclimate/dummy.py
+pylint_codeclimate.egg-info/PKG-INFO
+pylint_codeclimate.egg-info/SOURCES.txt
+pylint_codeclimate.egg-info/dependency_links.txt
+pylint_codeclimate.egg-info/top_level.txt
+pylint_codeclimate.egg-info/zip-safe
