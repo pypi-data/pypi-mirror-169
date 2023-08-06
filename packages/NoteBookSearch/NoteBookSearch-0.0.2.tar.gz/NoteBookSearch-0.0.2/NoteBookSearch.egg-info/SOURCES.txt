@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+NoteBookSearch/DataRead.py
+NoteBookSearch/NoteBookSearch.py
+NoteBookSearch/__init__.py
+NoteBookSearch/__version__.py
+NoteBookSearch.egg-info/PKG-INFO
+NoteBookSearch.egg-info/SOURCES.txt
+NoteBookSearch.egg-info/dependency_links.txt
+NoteBookSearch.egg-info/top_level.txt
+Test/Note_Search_Tests.py
+Test/__init__.py
