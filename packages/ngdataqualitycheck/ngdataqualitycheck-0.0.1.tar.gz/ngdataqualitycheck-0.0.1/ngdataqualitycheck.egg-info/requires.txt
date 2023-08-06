@@ -1,0 +1,9 @@
+numpy
+pandas
+python-docx
+matplotlib
+seaborn
+beautifulsoup4
+wordcloud
+nltk
+missingno

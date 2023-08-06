@@ -1,0 +1,88 @@
+import os
+from datetime import datetime
+from ngdataqualitycheck.global_params import *
+
+
+class MakeDirectory:
+    """
+        This class is used for automatic creation of a directory structure.
+    """
+
+    def __init__(self, dir_structure=None, basefolder=None):
+        # for creating a directory using a single path.
+        self.dir_structure = dir_structure
+        # for creating a directory using separate folder and file name.
+        self.basefolder = basefolder
+        self.curr_year = datetime.now().strftime("%Y")
+        self.curr_month = datetime.now().strftime("%m")
+        self.curr_day = datetime.now().strftime("%d")
+        self.date = datetime.now().date()
+        self.hour = datetime.now().strftime("%H")
+        self.mins = datetime.now().strftime("%M")
+        self.sec = datetime.now().strftime("%S")
+        self.time = "{}-{}-{}".format(
+            self.hour,
+            self.mins,
+            self.sec)
+
+    def create_logging_file(self, foldername=None):
+        """
+            Creates a logging directory structure
+
+            :param self: Inherited from class attributes
+            :return: Logging directory path
+            :rtype: str
+        """
+        try:
+            # creating custom folder path
+            fold_path = "{}\\{}\\{}\\{}\\{}".format(
+                self.basefolder,
+                foldername,
+                self.curr_year,
+                self.curr_month,
+                self.curr_day)
+
+            # creating absolute path
+            logfold_name = os.path.join(curr_directory, fold_path)
+
+            # creating the final directory structure
+            if not os.path.exists(logfold_name):
+                os.makedirs(logfold_name)
+
+            # generating the logging file name
+            log_txt = logfold_name+"\\" + \
+                "logfiles_{}_{}.txt".format(
+                    self.date,
+                    self.time
+                )
+            return log_txt
+
+        except Exception as e:
+            return f"Couldn't create log file: \n{str(e)}"
+
+    def create_directory(self, foldername=None):
+        """
+        Creates a directory
+
+        :param foldername: Name of the folder, defaults to None
+        :type foldername: str, optional
+        """
+        try:
+            # creating custom folder path
+            fold_path = "{}\\{}\\{}\\{}\\{}".format(
+                self.basefolder,
+                foldername,
+                self.curr_year,
+                self.curr_month,
+                self.curr_day)
+
+            # creating absolute path
+            fold_name = os.path.join(curr_directory, fold_path)
+
+            # creating the final directory structure
+            if not os.path.exists(fold_name):
+                os.makedirs(fold_name)
+            return fold_name
+        except Exception as e:
+            print(f"Failed to create directory: \n{str(e)}")
+

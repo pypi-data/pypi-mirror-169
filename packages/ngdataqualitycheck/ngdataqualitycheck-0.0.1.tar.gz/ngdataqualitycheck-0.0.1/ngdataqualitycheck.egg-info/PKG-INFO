@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: ngdataqualitycheck
+Version: 0.0.1
+Summary: Package for checking data quality.
+Home-page: https://github.com/ngenux/ngdataqualitycheck
+Download-URL: https://github.com/ngenux/ngdataqualitycheck/archive/refs/tags/0.0.1.tar.gz
+Author: Ngenux Solutions Pvt. Ltd.
+Author-email: connect@ngenux.com
+License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+Project-URL: Bug Tracker, https://github.com/ngenux/ngdataqualitycheck/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: Common Public License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ngdataqualitycheck
+
+**[ngdataqualitycheck](https://pypi.org/project/ngdataqualitycheck)** a Python package for checking data quality and generating the data quality report.
+
+
+[![Current Release Version](https://shields.io/badge/release-v0.1.0-purple?&logo=github)](https://github.com/ngenux/ngdataqualitycheck/releases)
+[![Current Release Version](https://shields.io/badge/pypi-v0.1.0-blue?&logo=pypi)](https://pypi.org/project/ngdataqualitycheck/)
+![](https://img.shields.io/badge/python-3.8-blue?&logo=Python)
+![](https://img.shields.io/badge/license-Creative%20Commons%20Attribution%20NonCommercial%20NoDerivatives%204.0%20International%20Public%20License-green.svg)
+
+## Table of contents:
+- **[Installation](#installation)**
+- **[Usage](#usage)**
+
+## Installation:
+
+To install the package in your local environment, open a terminal inside your project directory and type:
+```python
+pip install ngdataqualitycheck
+```  
+
+To upgrade the already existing installation, run
+```python
+  pip install -U ngdataqualitycheck
+```
+
+## Usage:
+
+Here is how you can use the package in your working environment.
+
+```python
+# import the package
+from ngdataqualitycheck import generate_report
+
+# define the filename
+filename = 'sample.csv'
+
+# call the method
+generate_report(filename)
+```
+This will generate a consolidated word document along with three
+csv files that contains the global statistics, profile schema and the
+profile summary.

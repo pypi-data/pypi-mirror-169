@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ngdataqualitycheck/__init__.py
+ngdataqualitycheck/data_quality.py
+ngdataqualitycheck/data_stats.py
+ngdataqualitycheck/global_params.py
+ngdataqualitycheck/helper.py
+ngdataqualitycheck/make_directory.py
+ngdataqualitycheck/plot_builder.py
+ngdataqualitycheck.egg-info/PKG-INFO
+ngdataqualitycheck.egg-info/SOURCES.txt
+ngdataqualitycheck.egg-info/dependency_links.txt
+ngdataqualitycheck.egg-info/requires.txt
+ngdataqualitycheck.egg-info/top_level.txt
