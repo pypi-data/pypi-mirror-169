@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+nerfstudio/__init__.py
+nerfstudio.egg-info/PKG-INFO
+nerfstudio.egg-info/SOURCES.txt
+nerfstudio.egg-info/dependency_links.txt
+nerfstudio.egg-info/entry_points.txt
+nerfstudio.egg-info/requires.txt
+nerfstudio.egg-info/top_level.txt
+scripts/__init__.py
+scripts/eval.py
+scripts/process_data.py
+scripts/train.py
