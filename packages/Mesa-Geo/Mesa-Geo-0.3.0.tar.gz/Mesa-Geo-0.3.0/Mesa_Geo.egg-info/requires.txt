@@ -1,0 +1,15 @@
+mesa~=1.0.0
+geopandas
+libpysal
+rtree
+rasterio>=1.3b1
+shapely
+numpy
+pyproj
+folium
+
+[dev]
+black
+flake8
+pytest
+pytest-cov
