@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+googlesearcher/__init__.py
+googlesearcher/core.py
+googlesearcher/error.py
+googlesearcher/result.py
+googlesearcher.egg-info/PKG-INFO
+googlesearcher.egg-info/SOURCES.txt
+googlesearcher.egg-info/dependency_links.txt
+googlesearcher.egg-info/requires.txt
+googlesearcher.egg-info/top_level.txt
