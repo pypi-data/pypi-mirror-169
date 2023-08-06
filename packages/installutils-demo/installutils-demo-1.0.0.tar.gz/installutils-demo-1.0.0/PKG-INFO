@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: installutils-demo
+Version: 1.0.0
+Summary: a template for executing build steps on package install - demo version
+Home-page: https://github.com/acamach0/installutils
+Author: The InstallUtils Team
+Author-email: 44acamach0@gmail.com
+License: GPLv3
+Description: A template for executing code during install of a python module
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown

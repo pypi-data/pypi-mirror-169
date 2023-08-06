@@ -1,0 +1,8 @@
+README.md
+setup.py
+installutils/__init__.py
+installutils/util.py
+installutils_demo.egg-info/PKG-INFO
+installutils_demo.egg-info/SOURCES.txt
+installutils_demo.egg-info/dependency_links.txt
+installutils_demo.egg-info/top_level.txt
