@@ -1,0 +1,6 @@
+setup.py
+harbour-lambda-cloudwatch/__init__.py
+harbour_lambda_cloudwatch.egg-info/PKG-INFO
+harbour_lambda_cloudwatch.egg-info/SOURCES.txt
+harbour_lambda_cloudwatch.egg-info/dependency_links.txt
+harbour_lambda_cloudwatch.egg-info/top_level.txt
