@@ -1,0 +1,6 @@
+setup.py
+wf-elementtree/__init__.py
+wf_elementtree.egg-info/PKG-INFO
+wf_elementtree.egg-info/SOURCES.txt
+wf_elementtree.egg-info/dependency_links.txt
+wf_elementtree.egg-info/top_level.txt
