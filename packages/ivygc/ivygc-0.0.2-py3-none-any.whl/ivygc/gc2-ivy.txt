@@ -1,0 +1,19 @@
+def pure_ivy(x):
+    y = ivy.mean(x)
+    z = ivy.sum(x)
+    f = ivy.var(y)
+    k = ivy.cos(z)
+    m = ivy.sin(f)
+    o = ivy.tan(y)
+    return ivy.concatenate(
+        [k, m, o], -1)
+
+# input
+x = ivy.array([[1., 2., 3.]])
+
+# create graph
+graph = ivy.compile_graph(
+    pure_ivy, x)
+
+# call graph
+ret = graph(x)

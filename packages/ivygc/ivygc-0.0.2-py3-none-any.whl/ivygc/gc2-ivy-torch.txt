@@ -1,0 +1,19 @@
+def mix(x):
+    y = ivy.mean(x)
+    z = torch.sum(x)
+    f = ivy.var(y)
+    k = torch.cos(z)
+    m = ivy.sin(f)
+    o = torch.tan(y)
+    return ivy.concatenate(
+        [k, m, o], -1)
+
+# input
+x = ivy.array([[1., 2., 3.]])
+
+# create graph
+graph = ivy.compile_graph(
+    mix, x)
+
+# call graph
+ret = graph(x)

@@ -1,0 +1,10 @@
+def fn(x, w, b):
+    y = torch.add(torch.add(b,w), x)
+    print('message')
+    wx = torch.matmul(w, x)
+    ret = torch.add(wx, b)
+    temp = torch.mul(y, wx)
+    return ret
+
+x = ivy.array([[1., 2., 3.]])
+graph = ivy.compile_graph(fn, x)
