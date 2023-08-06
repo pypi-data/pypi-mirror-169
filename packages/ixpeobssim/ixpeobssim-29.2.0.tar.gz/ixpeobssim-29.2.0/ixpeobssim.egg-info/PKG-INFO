@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ixpeobssim
+Version: 29.2.0
+Summary: An X-ray polarimetry simulation framework
+Home-page: https://github.com/lucabaldini/ixpeobssim/
+Author: The ixpeobssim team
+License: GNU General Public License v3 or later
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Development Status :: 4 - Beta
+License-File: LICENSE
