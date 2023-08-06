@@ -1,0 +1,6 @@
+pymeos-cffi==0.0.16
+python-dateutil
+spans
+postgis
+shapely
+geopandas
