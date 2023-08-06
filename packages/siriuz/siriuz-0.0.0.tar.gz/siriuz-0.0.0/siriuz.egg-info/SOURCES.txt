@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+siriuz/__init__.py
+siriuz/siriuz.py
+siriuz.egg-info/PKG-INFO
+siriuz.egg-info/SOURCES.txt
+siriuz.egg-info/dependency_links.txt
+siriuz.egg-info/top_level.txt
