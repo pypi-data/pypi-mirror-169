@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: grav-waldo
+Version: 0.1.0
+Summary: waveform anomaly detector
+Home-page: UNKNOWN
+Author: Tibério A. Pereira
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tensorflow
+
+UNKNOWN
+
+
