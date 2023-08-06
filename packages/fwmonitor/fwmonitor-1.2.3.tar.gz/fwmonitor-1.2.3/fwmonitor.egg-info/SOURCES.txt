@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+fwmonitor
+setup.cfg
+setup.py
+fwmonitor.egg-info/PKG-INFO
+fwmonitor.egg-info/SOURCES.txt
+fwmonitor.egg-info/dependency_links.txt
+fwmonitor.egg-info/top_level.txt
