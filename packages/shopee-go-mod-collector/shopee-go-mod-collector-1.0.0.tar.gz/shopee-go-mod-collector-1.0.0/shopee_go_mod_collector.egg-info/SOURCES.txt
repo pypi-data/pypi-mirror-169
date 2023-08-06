@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_go_mod_collector.egg-info/PKG-INFO
+shopee_go_mod_collector.egg-info/SOURCES.txt
+shopee_go_mod_collector.egg-info/dependency_links.txt
+shopee_go_mod_collector.egg-info/top_level.txt
