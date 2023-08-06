@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/azdsdr.egg-info/PKG-INFO
+src/azdsdr.egg-info/SOURCES.txt
+src/azdsdr.egg-info/dependency_links.txt
+src/azdsdr.egg-info/requires.txt
+src/azdsdr.egg-info/top_level.txt
+src/dr/__init__.py
+src/dr/azdsdr.py
+src/dr/samples.py
