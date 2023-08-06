@@ -1,0 +1,17 @@
+pygeobase
+h5py
+pygeogrids
+ease_grid
+repurpose
+trollsift==0.2.1
+datedown
+pynetcf
+more_itertools
+parse
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+pytest-cov
+pytest
