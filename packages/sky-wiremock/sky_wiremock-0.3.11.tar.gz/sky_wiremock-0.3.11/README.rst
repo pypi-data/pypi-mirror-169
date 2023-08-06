@@ -1,0 +1,135 @@
+============
+sky-wiremock
+============
+
+
+.. image:: https://img.shields.io/pypi/v/sky_wiremock.svg
+        :target: https://pypi.python.org/pypi/sky_wiremock
+
+.. image:: https://img.shields.io/travis/grubert65/sky_wiremock.svg
+        :target: https://travis-ci.org/grubert65/sky_wiremock
+
+.. image:: https://readthedocs.org/projects/sky-wiremock/badge/?version=latest
+        :target: https://sky-wiremock.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Python HTTP client for wiremock
+
+
+Features
+--------
+
+Usage::
+
+    from sky_wiremock.sky_wiremock import Wiremock
+
+    # get a client object
+    w = Wiremock("localhost", 8080)
+
+
+    # get the list of all mappings defined
+    mappings = w.mappings()
+
+    # get a mapping by its id
+    mapping = w.mapping_by_id(id)
+
+    # get a mapping by its request path and method
+    mapping = w.mapping_by_url_and_method(url, method)
+
+    # add a single mapping and get back its id
+    id = w.add_mapping({
+        "request": {
+            "method": "GET",
+            "url": "/some/thing"
+        },
+        "response": {
+            "status": 200,
+            "body": "Hello world!",
+            "headers": {
+                "Content-Type": "text/plain"
+            }
+        } 
+    })
+
+    # populate wiremock with a list of mappings and
+    # get their ids
+    ids = w.populate([{
+        "request": {
+            "method": "GET",
+            "url": "/some/thing"
+        },
+        "response": {
+            "status": 200,
+            "body": "Hello world!",
+            "headers": {
+                "Content-Type": "text/plain"
+            }
+        }
+    },{
+        "request": {
+            "method": "GET",
+            "url": "/some/thing/else"
+        },
+            "response": {
+            "status": 200,
+            "body": "Hello world again!",
+            "headers": {
+                "Content-Type": "text/plain"
+            }
+        }
+    }])
+
+    # delete a mapping by its id
+    # returns the deleted mapping id or -1 in 
+    # case of errors
+    id = w.delete_mapping(id)
+
+    # add a fixed delay to a mapping
+    delayed_id = w.fixed_delay(url, method, 10000)
+
+    # add a global fixed delay
+    ret = w.global_fixed_delay(300)
+
+    # add a random delay to a mapping dictionary
+    delayed_id = w.random_delay(
+        filter={
+            "method": "GET",
+            "url": "/some/thing/to/delay"
+        }, 
+        delayDistribution={
+            "type": "lognormal",
+            "median": 80,
+            "sigma": 0.4
+        })
+
+    # add a global random delay
+    ret = w.global_random_delay({
+        "type": "lognormal",
+        "median": 90,
+        "sigma": 0.1
+    })
+
+    # add a chunked dribble delay to a mapping
+    delayed_id = w.chunked_dribble_delay(mapping, {
+        "numberOfChunks": 5,
+        "totalDuration": 1000
+    })
+
+    # resets a list of mappings deleting all delays attached to them
+    # returns the list of mapping ids actually reset
+    ids_up = w.up([{
+        "method": "GET",
+        "url": "/some/thing/to/delete"
+    }])
+
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
