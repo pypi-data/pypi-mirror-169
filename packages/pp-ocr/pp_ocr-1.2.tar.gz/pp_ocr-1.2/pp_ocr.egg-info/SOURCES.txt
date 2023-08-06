@@ -1,0 +1,16 @@
+MANIFEST.in
+requirements.txt
+setup.py
+pp_ocr/__init__.py
+pp_ocr/decode.py
+pp_ocr/ocr.py
+pp_ocr/pp_det.py
+pp_ocr/pp_rec.py
+pp_ocr.egg-info/PKG-INFO
+pp_ocr.egg-info/SOURCES.txt
+pp_ocr.egg-info/dependency_links.txt
+pp_ocr.egg-info/requires.txt
+pp_ocr.egg-info/top_level.txt
+pp_ocr/models/pp_det.onnx
+pp_ocr/models/ppocr_keys_v1.txt
+pp_ocr/models/pprec_v2.onnx
