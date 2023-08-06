@@ -1,0 +1,3 @@
+[console_scripts]
+anyrepo=anyrepo._cli:main
+
