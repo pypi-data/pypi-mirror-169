@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: streamlit-camera-input-live
+Version: 0.1.0
+Summary: Alternative version of st.camera_input which returns the webcam images live, without any button press needed
+Author: Zachary Blackwood
+Author-email: zachary@streamlit.io
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit (>=1.2)
+Requires-Dist: jinja2
+
+# streamlit-camera-input-live
+
+Alternative version of st.camera_input which returns the webcam images live, without any button press needed
+
+## Installation instructions 
+
+```sh
+pip install streamlit-camera-input-live
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from camera_input_live import camera_input_live
+
+value = camera_input_live()
+
+st.write(value)

@@ -1,0 +1,10 @@
+camera_input_live/__init__.py,sha256=Yg85AynvuQbL6I2if_SYTYGzx4-eYuAOrXxxn3MuAAI,1396
+camera_input_live/frontend/index.html,sha256=ro9tXHoj2JadrNgxgGIR7gpv49WuWwFGaH8jwAqOTqU,628
+camera_input_live/frontend/main.js,sha256=fjxEPuWRAL-yA-PkzUkf9BJkeX95KfofELgTAq1oP4w,3057
+camera_input_live/frontend/streamlit-component-lib.js,sha256=LdsY3Moj3IPUPtagiMaoPl31OabzgeZw6v5_iEqf6xY,1121
+camera_input_live/frontend/style.css,sha256=6liPoyKggJYFnVwN8DVFK-Rpi8PEJz251Ax7ueO5oQs,915
+streamlit_camera_input_live-0.1.0.dist-info/LICENSE,sha256=na_oGFEjuESWP1DRbwbBvVC1VQYPIan69RlYFNo3BGI,1076
+streamlit_camera_input_live-0.1.0.dist-info/METADATA,sha256=TcaiRXm28gzeDEvM4t8lOoxUt2_cOC8-lK8afqL-69M,765
+streamlit_camera_input_live-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streamlit_camera_input_live-0.1.0.dist-info/top_level.txt,sha256=AR9GnINMcTtCQ2-ZMG6yuYB46xLVO3sBww95hZvqoZY,18
+streamlit_camera_input_live-0.1.0.dist-info/RECORD,,
