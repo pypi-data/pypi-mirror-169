@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: emark
+Version: 1.0rc1
+Summary: Markdown template based HTML and text emails for Django.
+Keywords: Markdown,Django,email,templates,HTML
+Author-email: Rust Saiargaliev <fly.amureki@gmail.com>, Johannes Maron <johannes@maron.family>, Mostafa Mohamed <mostafa.anm91@gmail.com>, Jacqueline Kraus <jacquelinekraus1992@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Requires-Dist: django
+Requires-Dist: markdown
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-django ; extra == "test"
+Requires-Dist: model_bakery ; extra == "test"
+Project-URL: Changelog, https://github.com/voiio/emark/releases
+Project-URL: Project-URL, https://github.com/voiio/emark
+Provides-Extra: test
+
+# emark
+Markdown template based HTML and text emails for Django.
+
+* simple email templates with markdown
+* support for HTML and text emails
+* i18n support
+* built-in UTM tracking
+
+[![PyPi Version](https://img.shields.io/pypi/v/emark.svg)](https://pypi.python.org/pypi/emark/)
+[![Test Coverage](https://codecov.io/gh/voiio/emark/branch/main/graph/badge.svg)](https://codecov.io/gh/voiio/emark)
+[![GitHub License](https://img.shields.io/github/license/voiio/emark)](https://raw.githubusercontent.com/voiio/emark/master/LICENSE)
+
+## Setup
+
+```shell
+python3 -m pip install emark
+```
+
+```python
+# settings.py
+INSTALLED_APPS = [
+    'emark',
+    # ...
+]
+```
+
+```shell
+python3 manage.py migrate
+```
+
+## Usage
+
+```markdown
+<!-- myapp/email.md -->
+# Hello World
+
+Hi {{ user.short_name }}!
+```
+
+```python
+# myapp/emails.py
+from emark.message import MarkdownEmail
+
+class MyMessage(MarkdownEmail):
+    subject = "Hello World"
+    template_name = "myapp/email.md"
+
+
+# render and send the email
+MyMessage(language="en", to=["peter.parker@avengers.com"]).send()
+```
+
