@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: VisageScript
+Version: 0.0.1
+Summary: This package contains implementation of VisageScript programming language.
+Home-page: https://github.com/PythonApkDev/PythonApkDev.github.io/tree/main/advanced-projects/VisageScript
+Author: PythonApkDev
+Author-email: pythonapkdev2022@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VisageScript (Version 0.0.1)
+
+**VisageScript** is a programming language coded in Python with a mix of Python, Java, JavaScript, 
+and Ruby syntax and functionalities.
+
+## Variable Declaration
+
+Variables in VisageScript can be declared as either static or dynamic-typed.
+
+### Dynamic-Typed Declaration
+
+For dynamic-typed variable declaration, we use the keyword 'var'. In this case, it is possible to update the value 
+of the variable to another type's value. The following code shows that the variable 'a' can have its type changed 
+from 'int' to 'float'.
+
+```
+var a = 5;
+a = 6.5;
+print a
+```
+
+The code above will print the value '6.5'.
+
+### Static-Typed Declaration
+
+Static-typed variable declaration involves directly specifying the type of the variable declared. So far, VisageScript 
+supports 'int' and 'float' types. Since both 'int' and 'float' are numeric data types, all basic arithmetic operations 
+and comparison operations can be applied between them.
+
+The following code adds an 'int' and a 'float'.
+
+```
+int a = 5;
+float b = 6.5;
+print a + b
+```
+
+The code above will print the value '11.5'.
+
+## Executable File
+
+The executable file for VisageScript runner can be downloaded at 
+https://github.com/PythonApkDev/PythonApkDev.github.io/blob/main/advanced-projects/VisageScript/VisageScript/dist/VisageScript/VisageScript.
+
+## Source Code
+
+Python code used to create VisageScript programming language is available in 
+https://github.com/PythonApkDev/PythonApkDev.github.io/blob/main/advanced-projects/VisageScript/VisageScript/VisageScript.py.
+
+## Unit Tests
+
+Python unit tests created using Python's "unittest" module, testing some VisageScript code snippets is available in 
+https://github.com/PythonApkDev/PythonApkDev.github.io/blob/main/advanced-projects/VisageScript/VisageScript/VisageScript_tests.py.
+
+## Installation
+
+**pip install VisageScript**
+
+## How to Use the Executable File?
+
+First, open by double-clicking the file "VisageScript". How the executable file looks like is shown 
+in the image below (the file is enclosed with a red rectangle).
+
+### Image 1
+
+![Excecutable File](images/Executable%20File.png)
+
+## Getting Started
+
+Once you run the executable file, you will be asked whether you want to continue using VisageScript runner or not.
+
+### Image 2
+
+![Getting Started](images/Getting%20Started.png)
+
+## The Runner
+
+You will be asked to enter the path of the VisageScript (.vsgsc file) you want to run in the runner. The output of 
+the VisageScript program will be printed on the terminal. In the image below, the output of the VisageScript file 
+"example1.vsgsc" is printed.
+
+### Image 3
+
+![The Runner](images/The%20Runner.png)
