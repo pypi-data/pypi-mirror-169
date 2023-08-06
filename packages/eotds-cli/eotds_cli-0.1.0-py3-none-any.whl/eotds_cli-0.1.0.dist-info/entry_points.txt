@@ -1,0 +1,3 @@
+[console_scripts]
+eotds-cli=eotds_cli.main:app
+
