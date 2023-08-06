@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fasterprimes.egg-info/PKG-INFO
+fasterprimes.egg-info/SOURCES.txt
+fasterprimes.egg-info/dependency_links.txt
+fasterprimes.egg-info/requires.txt
+fasterprimes.egg-info/top_level.txt
+primes/__init__.py
+primes/primes.py
+primes/primes_alternate_ways.py
