@@ -1,0 +1,4 @@
+[console_scripts]
+TujieMonvMofashiShidian = TujieMonvMofashiShidian.__main__:main
+tujie-monv-mofashi-shidian = TujieMonvMofashiShidian.__main__:main
+
