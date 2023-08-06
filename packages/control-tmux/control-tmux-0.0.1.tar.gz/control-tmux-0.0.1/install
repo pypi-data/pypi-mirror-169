@@ -1,0 +1,6 @@
+#!/bin/sh
+IFS=
+cd `dirname $0`
+
+versionator --build --install
+versionator --install --installpy venv/bin/python

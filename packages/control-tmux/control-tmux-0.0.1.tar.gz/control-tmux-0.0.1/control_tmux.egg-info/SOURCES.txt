@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.html
+README.md
+controltmux.py
+gendoc
+install
+pyproject.toml
+setup.cfg
+control_tmux.egg-info/PKG-INFO
+control_tmux.egg-info/SOURCES.txt
+control_tmux.egg-info/dependency_links.txt
+control_tmux.egg-info/entry_points.txt
+control_tmux.egg-info/requires.txt
+control_tmux.egg-info/top_level.txt

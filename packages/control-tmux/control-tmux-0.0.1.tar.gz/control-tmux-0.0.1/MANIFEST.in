@@ -1,0 +1,4 @@
+include CHANGELOG.md
+include README.html
+include gendoc
+include install
