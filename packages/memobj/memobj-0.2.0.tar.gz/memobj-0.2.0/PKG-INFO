@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: memobj
+Version: 0.2.0
+Summary: A library for defining objects in memory
+Home-page: https://github.com/StarrFox/memobj
+License: MIT
+Author: StarrFox
+Author-email: starrfox6312@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: regex (>=2022.9.13,<2023.0.0)
+Project-URL: Repository, https://github.com/StarrFox/memobj
+Description-Content-Type: text/markdown
+
+# memobj
+A library for defining objects in memory
+
+## installing
+python 3.11+ only!
+`pip install memobj`
+
+## support
+discord
+https://discord.gg/7hBStdXkyR
+
