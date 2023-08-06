@@ -1,0 +1,4 @@
+[console_scripts]
+LianjinshuRumen = LianjinshuRumen.__main__:main
+lianjinshu-rumen = LianjinshuRumen.__main__:main
+
