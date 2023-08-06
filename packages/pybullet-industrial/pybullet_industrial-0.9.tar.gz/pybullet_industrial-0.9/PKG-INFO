@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: pybullet_industrial
+Version: 0.9
+Summary: Pybullet_industrial is a process-aware robot simulation framework for pybullet.
+Author: Jan Baumgärtner
