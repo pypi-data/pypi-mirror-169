@@ -1,0 +1,4 @@
+jupyterlab
+jupyter_client
+kestrel-lang>=1.4.1
+pandas
