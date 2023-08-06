@@ -1,0 +1,6 @@
+Campaign delta:
+    mean: 20513.088082313538
+    sdev: 0.0
+Case delta:
+    mean: 0.027350823251512762
+    sdev: 0.00306181668840147

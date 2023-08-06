@@ -1,0 +1,4 @@
+include src/qwilfish/configuration/default.yaml
+include src/qwilfish/configuration/README.md
+include src/qwilfish/plugins/README.md
+include README.md

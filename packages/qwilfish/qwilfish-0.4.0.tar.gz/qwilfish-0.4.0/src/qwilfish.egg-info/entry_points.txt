@@ -1,0 +1,2 @@
+[console_scripts]
+qwilfish = qwilfish.main:main
