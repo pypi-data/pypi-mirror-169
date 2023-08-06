@@ -1,0 +1,9 @@
+README.md
+setup.py
+SupportSlack.egg-info/PKG-INFO
+SupportSlack.egg-info/SOURCES.txt
+SupportSlack.egg-info/dependency_links.txt
+SupportSlack.egg-info/top_level.txt
+scripts/__init__.py
+scripts/main.py
+scripts/test.py
