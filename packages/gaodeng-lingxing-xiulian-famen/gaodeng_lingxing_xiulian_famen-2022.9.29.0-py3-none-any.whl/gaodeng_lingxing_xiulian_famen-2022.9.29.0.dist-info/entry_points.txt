@@ -1,0 +1,4 @@
+[console_scripts]
+GaodengLingxingXiulianFamen = GaodengLingxingXiulianFamen.__main__:main
+gaodeng-lingxing-xiulian-famen = GaodengLingxingXiulianFamen.__main__:main
+
