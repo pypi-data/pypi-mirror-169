@@ -1,0 +1,10 @@
+click>=8.0
+jira>=3.4.1
+PyYAML==6.0
+
+[dev]
+tox==3.26
+pytest==7.1
+mypy==0.981
+black==22.8
+pylint==2.15

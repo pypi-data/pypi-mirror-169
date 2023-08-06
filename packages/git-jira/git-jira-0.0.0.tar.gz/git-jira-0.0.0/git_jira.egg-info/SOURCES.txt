@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+git_jira/__init__.py
+git_jira/cli.py
+git_jira/config.py
+git_jira.egg-info/PKG-INFO
+git_jira.egg-info/SOURCES.txt
+git_jira.egg-info/dependency_links.txt
+git_jira.egg-info/entry_points.txt
+git_jira.egg-info/requires.txt
+git_jira.egg-info/top_level.txt
