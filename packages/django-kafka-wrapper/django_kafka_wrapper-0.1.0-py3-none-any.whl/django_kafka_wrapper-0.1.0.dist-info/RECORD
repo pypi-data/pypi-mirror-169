@@ -1,0 +1,16 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafka_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafka_wrapper/apps.py,sha256=E9Cwn9mWOJQscaVUB9uezZTmTmmhLDbKH7sP2wF_gT4,105
+kafka_wrapper/base.py,sha256=BiVT-9PQ55rORhzYWv2YQNqdoqEg9fF2h3DZapgstFo,404
+kafka_wrapper/consumers.py,sha256=NV2PkFvm8YT1vb610b03hLCmqU7zcVsunw6ziK8P4xQ,2545
+kafka_wrapper/enum.py,sha256=FcyvQyxJv87qzeOBMdIR3PUF_fs-oe590g1NUrEn3OE,100
+kafka_wrapper/producers.py,sha256=CQ5E16VJ0SDGXEqG387lBvVS6zAgwatpOz_7-TWOmns,2042
+kafka_wrapper/settings.py,sha256=xxnfFWyWqIbx4zelSftE_-6rKg_P1DS7zj_OdJKn9ZU,602
+kafka_wrapper/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafka_wrapper/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafka_wrapper/management/commands/run_kafka_consumers.py,sha256=djVKG-KGGNrC5HcPcGUT_zDiC9zBYuSKABGVF44vmSI,2724
+django_kafka_wrapper-0.1.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+django_kafka_wrapper-0.1.0.dist-info/METADATA,sha256=r9vaDVrSW_RUK64s63Us6h7Csbm1AX_g5dSA-Rcktt0,1850
+django_kafka_wrapper-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_kafka_wrapper-0.1.0.dist-info/top_level.txt,sha256=eICXmMM5yhv6IIb_y62TH0WVlJoXe1SrGmSOPDVZZvc,23
+django_kafka_wrapper-0.1.0.dist-info/RECORD,,
