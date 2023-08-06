@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+nitvars/__init__.py
+nitvars/__main__.py
+nitvars/nitvars.py
+nitvars/nitvars_test.py
+nitvars.egg-info/PKG-INFO
+nitvars.egg-info/SOURCES.txt
+nitvars.egg-info/dependency_links.txt
+nitvars.egg-info/not-zip-safe
+nitvars.egg-info/top_level.txt
