@@ -1,0 +1,7 @@
+Change Log
+==========
+
+0.0.1 (09/29/2022)
+------------------
+- First Release
+- 5 easy to use Requests to manipulate the TigitaalAPI

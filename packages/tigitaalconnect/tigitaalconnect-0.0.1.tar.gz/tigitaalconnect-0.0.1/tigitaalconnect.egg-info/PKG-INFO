@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tigitaalconnect
+Version: 0.0.1
+Summary: Tigitaal's Official Python Package to connect with TigitaalAPI
+Author: Ninjagor
+Author-email: ninjagor.spoon@gmail.com
+Keywords: python,first package
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENCE.txt
+
+The official Python Library to connect with the TigitaalAPI! This library helps easily send requests
+to the API, so you dont have to do the hard work of manually setting up requests.
+Use a range of easy-to-use functions and explore the endless posibilities of the TigitaalAPI with 
+TigitalConnect!
+
+
+INSTALLATION:
+
+`pip install tigitaalconnect`
+
+REQUESTS:
+
+`reload(token)
+reloadadvanced(username, password)
+pfp(username, password, fileid)
+nickname(username, password, new_nickname)
+mail(username, password, new_email)`
+
+Change Log
+==========
+
+0.0.1 (09/29/2022)
+------------------
+- First Release
+- 5 easy to use Requests to manipulate the TigitaalAPI
