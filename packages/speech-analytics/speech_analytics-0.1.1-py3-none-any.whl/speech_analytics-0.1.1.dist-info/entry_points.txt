@@ -1,0 +1,3 @@
+[console_scripts]
+models=speech_analytics._models
+
