@@ -1,0 +1,13 @@
+date_master/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+date_master/backup.py,sha256=Z4H69GIkGS7_j_36v7ml_fuKJ7Sl7iREoo9ZDR6ciQ4,1258
+date_master/changeformat.py,sha256=PQjmvzZZg6nA4GIBBKzJtLx-IyrDqjVbWG09CwiWw0E,1717
+date_master/changeorder.py,sha256=hTImy1i1_Q-HB9-O2WooMGIwG_Xn6TlZyDGLbgQOtfw,1407
+date_master/date.py,sha256=8nb3At9cjjuzI6l68mgyHkt6xW83nUFx2PRcYyRUC1E,4771
+date_master/exceptions.py,sha256=A44jH2GBvaN4vpJZFv3bkQmv28wCgCRGNbSzwuA56KQ,418
+date_master/numbertoword.py,sha256=JMPmbRtQK7RN-wRlgecpKeCFmZn4g2TUuX6xGNF05no,1307
+date_master/validation.py,sha256=qbG5VjNHsaFRNhHj0E7nzHKnzyTxIcKTEATPoY7imT0,4499
+date_master-1.1.0.dist-info/LICENSE,sha256=FGvdPgdLSC4gnNtm7NNkTrQdZFO91JMb1PNc0g7RR_s,1071
+date_master-1.1.0.dist-info/METADATA,sha256=Vx0r0vQEdP9A6lutvosPvORh2pf4G-PjmShY_95oOXw,6096
+date_master-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+date_master-1.1.0.dist-info/top_level.txt,sha256=Wy_7qsES8YsCJlM6duRo71lrT2-1pa4WkLCphmltnF4,12
+date_master-1.1.0.dist-info/RECORD,,
