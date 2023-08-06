@@ -1,0 +1,13 @@
+simphile/__init__.py,sha256=fH5eI1AKArlf5lswT7mg2sLfT4RPMCodJiyeiaVO_XM,1157
+simphile/compression_similarity.py,sha256=nzHPYuC18y6eV6SyCm-N3nyI4BcaWcpyHnzldb3_MI0,2907
+simphile/euclidian_similarity.py,sha256=rzCs5EQp_EA-nY06g62ltNt3HoJiJWwuioLzoRRxXG4,1682
+simphile/jaccard_similarity.py,sha256=GgzIEnYs13f6du4XeqjspVAkRorGdQODSvtf99lXeyI,1579
+simphile/naive_bayes.py,sha256=CCYIRlKSXcXZiLgmAPF4hRS9ETJ_htxTzvsNVrxevyo,4304
+simphile/sets.py,sha256=cVBN2cj2etXBZCfnIphDOb_-iRzeL2mP0FGFX1Mg6Ho,2318
+simphile/text_processor.py,sha256=09D7bJSLplSGRqM5gI5o1JET455MxGEHrptkfQMhtvM,2712
+simphile/text_utils.py,sha256=pd0kwpCg2gkdIzqQ5Lxci_ftGFpkS8QYB9p6IJRCmcg,973
+simphile-1.0.0.dist-info/LICENSE,sha256=-N_-p369K0YUFhYm0-BmAcrCxX9lPip9YsIZl0Efv3o,1049
+simphile-1.0.0.dist-info/METADATA,sha256=EsETG7QQU0iVX3Y2Z1eQrxvyaua-NfX9teo5IqovJG8,4218
+simphile-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simphile-1.0.0.dist-info/top_level.txt,sha256=coBgnNq-yo0zUxpad9fx_vTKUxC-5zXcyFH7FtSUH_I,9
+simphile-1.0.0.dist-info/RECORD,,
