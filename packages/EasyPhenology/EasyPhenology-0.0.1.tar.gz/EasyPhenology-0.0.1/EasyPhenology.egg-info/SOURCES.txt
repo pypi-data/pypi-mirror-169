@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+EasyPhenology/__init__.py
+EasyPhenology.egg-info/PKG-INFO
+EasyPhenology.egg-info/SOURCES.txt
+EasyPhenology.egg-info/dependency_links.txt
+EasyPhenology.egg-info/top_level.txt

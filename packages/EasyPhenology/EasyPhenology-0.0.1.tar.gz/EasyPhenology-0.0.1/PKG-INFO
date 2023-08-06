@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: EasyPhenology
+Version: 0.0.1
+Summary: Calculates vegetation phenological transition dates
+Home-page: UNKNOWN
+Author: Annu Panwar
+Author-email: apanwar@bgc-jena.mpg.de
+License: MIT
+Description: 
+        # EasyPhenology  
+        EasyPhenology is a software package for calculing phenological transition dates. It has
+        numpy at it’s core, making model building and prediction extremely fast. The
+        core code was written to obtain the phenological transition dates for eddy covariance data using Gross primary productivity.
+        EasyPhenology is currently used in a DFG funded project PhenoFeedBacks 
+        
+        
+        
+        ## Full documentation  
+        
+        
+        ## Get in touch
+        
+        
+        ## Citation
+        
+        
+        ## Acknowledgments
+        
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (26/09/2022)
+        -------------------
+        - First Release
+Keywords: Phenology
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
