@@ -1,0 +1,1 @@
+from thesis_classifier.main import Classifier
