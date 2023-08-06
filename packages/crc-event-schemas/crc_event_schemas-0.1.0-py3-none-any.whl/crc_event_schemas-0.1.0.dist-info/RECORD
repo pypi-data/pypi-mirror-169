@@ -1,0 +1,14 @@
+event_schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schemas/apps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schemas/apps/advisor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schemas/apps/advisor/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schemas/apps/advisor/v1/advisor_recommendations.py,sha256=xH6zlDBPK18sDOkQR0Ucr2CJPvIcGtzsFs4n6RqCVT4,6552
+event_schemas/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schemas/core/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schemas/core/v1/error.py,sha256=_6rSPIbVj2zvPtdq-T-WoDi9qKfSlq0APl7MWMls3Co,2803
+event_schemas/core/v1/rhel_system.py,sha256=GzljeYKIMYzS0qQOgRYtx-W0Xh3L6xStUFbNM3uAyik,4092
+crc_event_schemas-0.1.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+crc_event_schemas-0.1.0.dist-info/METADATA,sha256=UXyNNUBRjacSEKv98iabEIECQbJ5Cx61QI8r5cORyC4,212
+crc_event_schemas-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+crc_event_schemas-0.1.0.dist-info/top_level.txt,sha256=VCOkrwwY0tjFui2b2fnMGktAytMKws7Qgq1_La8jCCM,14
+crc_event_schemas-0.1.0.dist-info/RECORD,,
