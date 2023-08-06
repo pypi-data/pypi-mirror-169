@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BINDEC_Converter.egg-info/PKG-INFO
+BINDEC_Converter.egg-info/SOURCES.txt
+BINDEC_Converter.egg-info/dependency_links.txt
+BINDEC_Converter.egg-info/entry_points.txt
+BINDEC_Converter.egg-info/top_level.txt
