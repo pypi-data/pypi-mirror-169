@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: docx_parser
+Version: 1.0.0
+Summary: parse all contents of a docx file with python-docx
+Home-page: https://github.com/suqingdong/docx_parser
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: MIT License
+Description: ## Parse all contents of a docx file with `python-docx`
+        
+        ### Installation
+        ```bash
+        python3 -m pip install docx-parser
+        ```
+        
+        ### Features:
+        - `paragraph`: text paragraph, with style_id
+        - `multipart`: paragraph with image or hyperlink
+        - `table`: table data with merged_cells
+        
+        ### Examples
+        - CMD
+        ```bash
+        docx_parser tests/demo.docx
+        docx_parser tests/demo.docx -A base64 -o out.jl
+        ```
+        - Python
+        ```python
+        from docx_parser import DocumentParser
+        
+        infile = 'tests/demo.docx'
+        doc = DocumentParser(infile)
+        for _type, item in doc.parse():
+            print(_type, item)
+        ```
+        ---
+        
+        ### ToDo
+        - parse text style: color, bgcolor, font, bold, italic ...
+        - parse paragraph format
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
