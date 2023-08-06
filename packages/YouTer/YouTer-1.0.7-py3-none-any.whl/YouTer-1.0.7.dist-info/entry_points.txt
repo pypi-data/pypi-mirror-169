@@ -1,0 +1,3 @@
+[console_scripts]
+youter = YouTer.__main__:main_program
+
