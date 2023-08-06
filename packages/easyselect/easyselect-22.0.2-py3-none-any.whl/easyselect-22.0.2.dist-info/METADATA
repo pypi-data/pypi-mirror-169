@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: easyselect
+Version: 22.0.2
+Summary: simple and pretty tool for selecting items by keyboard in terminal
+Project-URL: Homepage, https://github.com/gmankab/easyselect
+Project-URL: Bug Tracker, https://github.com/gmankab/easyselect/issues
+Project-URL: Documentation, https://github.com/gmankab/easyselect
+Author-email: gmanka <gmankab@gmail.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pynput
+Requires-Dist: rich
+Description-Content-Type: text/markdown
+
+# selection by gmanka
+
+simple and pretty tool for selecting items by keyboard in terminal
+[github.com/gmankab/easyselect](https://github.com/gmankab/easyselect)
+
+```py
+from selection import Selection
+
+yes_or_no = Selection(
+    items = [
+        'yes',
+        'no',
+    ]
+)
+
+answer = yes_or_no.choose()
+print(answer)
+```
+
+selection also support [rich styles](https://rich.readthedocs.io/en/stable/style.html)
+
+```py
+yes_or_no = Selection(
+    items = [
+        'yes',
+        'no',
+    ],
+    styles = [
+        'green',
+        'red'
+    ]
+)
+```
