@@ -1,0 +1,6 @@
+speech_analytics/__init__.py,sha256=hMFZuTiLnInwxMbPve4uQ49BIawLswayp08cgOrg-XM,22
+speech_analytics/models.py,sha256=B8w1Tr_c8twDZ15XAkLAjsxUBl7Dp8dg-okTXIEZLtY,11592
+speech_analytics/test1.json,sha256=iB8XTijtV4Qkz58kngpJO7COT9DN0RBsJ6_XvIkzzIA,15289
+speech_analytics-0.1.8.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+speech_analytics-0.1.8.dist-info/METADATA,sha256=_QhPQJPZ0teDi7ape_3PCB7NHfb8J-Xak9HbDRqwq8Y,4361
+speech_analytics-0.1.8.dist-info/RECORD,,
