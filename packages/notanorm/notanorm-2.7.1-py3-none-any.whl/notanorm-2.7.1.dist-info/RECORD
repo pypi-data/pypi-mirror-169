@@ -1,0 +1,11 @@
+notanorm/__init__.py,sha256=Wq_2VED_iDRWwaivlcn6AedmlABSoZlg9LsOmV6t27s,421
+notanorm/base.py,sha256=8J5gvOLYMWAC9vbqFtYI2QjsBfZ0Cu3CzXb40BFaQ3k,21437
+notanorm/errors.py,sha256=DvIp8QQy2E2t0qE2fJWGoTIDewwcG_LfoNIPxKOCr98,612
+notanorm/model.py,sha256=_DMDN6yng_b09DOUZtNToAJFKWQn8mmJZwYndyG8f4A,1985
+notanorm/mysql.py,sha256=14hmamaMoic5RIfeV2h1inVj6KK7tXX2OEcXxfxulGE,7262
+notanorm/sqlite.py,sha256=Ogk2OiDJGb-BQQkUoDxt-3ZUCCUz2sNb7pAdqr0KBCs,9260
+notanorm-2.7.1.dist-info/LICENSE,sha256=Ly9aO8k5OMywsjEsmiciBV5fC2pgd17rrEctY_NXFAo,8193
+notanorm-2.7.1.dist-info/METADATA,sha256=c6cvThng_tGEngQWTj_e-uqIQhiv8bIDHla3icYP3KM,3323
+notanorm-2.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+notanorm-2.7.1.dist-info/top_level.txt,sha256=qH8fjkQmmRl509pI6WEPGl8urUHuNWSiL8ItMmsmDUM,9
+notanorm-2.7.1.dist-info/RECORD,,
