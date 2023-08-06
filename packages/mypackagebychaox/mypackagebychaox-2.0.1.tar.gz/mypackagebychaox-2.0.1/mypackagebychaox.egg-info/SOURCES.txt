@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.py
+mypackagebychaox/__init__.py
+mypackagebychaox/__version__.py
+mypackagebychaox/core.py
+mypackagebychaox/main.py
+mypackagebychaox.egg-info/PKG-INFO
+mypackagebychaox.egg-info/SOURCES.txt
+mypackagebychaox.egg-info/dependency_links.txt
+mypackagebychaox.egg-info/top_level.txt
