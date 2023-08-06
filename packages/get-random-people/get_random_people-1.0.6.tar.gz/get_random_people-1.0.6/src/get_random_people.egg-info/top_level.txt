@@ -1,0 +1,6 @@
+countries
+countries_capital
+get_name_gender_religion
+get_random_people
+names
+qualifications
