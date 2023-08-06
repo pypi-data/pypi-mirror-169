@@ -1,0 +1,13 @@
+mum/__init__.py,sha256=gED6NmbENiqLOKX_pIPGhr5mPqSw-aerPaJ0M4zAKgc,791
+mum/abstractsingleton.py,sha256=ErdBpPBfFtRBrqiNr_x-MS2tgaTnb3d7tof3diNdOuQ,1053
+mum/noduplicates.py,sha256=cL7yJwAd_KnoDXMM7H4oipfr34Jc7rQcQLR3Sy0Q874,2048
+mum/singleton.py,sha256=1oRZP63N8bJYqkXX6ECaR6fq_5VfrNNwfQYiVBWleto,1047
+src/__init__.py,sha256=gED6NmbENiqLOKX_pIPGhr5mPqSw-aerPaJ0M4zAKgc,791
+src/abstractsingleton.py,sha256=ZFNHRkEh4Emz9x-c6VGiXWLJYferCt3JbwCywF_dA-8,1000
+src/noduplicates.py,sha256=cL7yJwAd_KnoDXMM7H4oipfr34Jc7rQcQLR3Sy0Q874,2048
+src/singleton.py,sha256=TGLe_nb6iC7BIHA8mSBOYb4YuWtkJtpf2LN5nUGb9eE,995
+myusefulmetaclasses-0.0.7.dist-info/COPYING,sha256=CuBIWlvTemPmNgNZZBfk6w5lMzT6bH-TLKOg6F1K8ic,35148
+myusefulmetaclasses-0.0.7.dist-info/METADATA,sha256=eGQor1U5npe1xDj1w-dfcAgZNg4bZkEgj8Jtm367pL8,1057
+myusefulmetaclasses-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+myusefulmetaclasses-0.0.7.dist-info/top_level.txt,sha256=BlA86AAtfv2scacf1nC5dr6-p6qRwU5SvUaoTpwuWfk,4
+myusefulmetaclasses-0.0.7.dist-info/RECORD,,
