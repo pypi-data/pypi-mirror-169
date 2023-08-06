@@ -1,0 +1,3 @@
+[console_scripts]
+dspf=dspf.__main__:main
+
