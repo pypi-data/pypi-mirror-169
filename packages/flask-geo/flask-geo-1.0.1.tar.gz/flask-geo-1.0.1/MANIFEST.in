@@ -1,0 +1,2 @@
+exclude flask_geo/app.py
+prune tests
