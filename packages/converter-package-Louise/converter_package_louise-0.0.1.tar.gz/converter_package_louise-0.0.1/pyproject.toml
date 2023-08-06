@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "converter_package_Louise"
+version = "0.0.1"
+authors = [
+  { name="Louise", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Lou13213/M1-2022-git-workflow"
+"Bug Tracker" = "https://github.com/Lou13213/M1-2022-git-workflow/issues"
