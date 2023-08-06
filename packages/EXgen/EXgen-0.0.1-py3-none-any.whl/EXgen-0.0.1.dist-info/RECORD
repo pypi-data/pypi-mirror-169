@@ -1,0 +1,13 @@
+EXgen/EXgen.py,sha256=NXInxADnzTj1YhSmwjCQ6VWbfnwnkPYIbetr9edZgpQ,6714
+EXgen/__init__.py,sha256=Ixjcvc7RHgamWfy1L6o5MH01LDM4thbQnS_z1Ku0CDM,24
+EXgen/templates/homework_template.tex,sha256=E4JmOz3RRrCZGkJjozWTzr1lLN-09h0TGgfP-rxYWKk,2358
+EXgen/templates/figures/TUG_logo.eps,sha256=cWme2TePrxqAHacgyYMsB8wPXzEXAMxctBwaga5Mm8Q,92363
+EXgen/templates/figures/igte_logo.eps,sha256=tNVfLeYea0IyQGxqsRtcPjswaYimux8iSojjsJ5kfaI,19880
+EXgen/util/__init__.py,sha256=NI0s6Fc2v91kkU9eAuBEbTztaA6tqTi9LbN53Q_3UB8,32
+EXgen/util/expression_handler.py,sha256=iul7YLu0NtwxU2DYa_dY5A4qd-ac4C_lcr6idHx2OtA,1991
+EXgen-0.0.1.data/scripts/generate-ex,sha256=eHlIfHJTLLJa0KVAwsxoQiy1C-P-4PABoRY9edU2gcQ,366
+EXgen-0.0.1.dist-info/LICENSE,sha256=KGmQFwlj1sfmZI5WGgqDngDCPDmy_7ZR-yi0Ef6rkXw,1060
+EXgen-0.0.1.dist-info/METADATA,sha256=Ktt5Byw3YpztVuEqYekbWob8Bivxlwk11kbrTunyr78,617
+EXgen-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+EXgen-0.0.1.dist-info/top_level.txt,sha256=vA0H3pWY-oQO_kXmwfWhdMfYYyo-CNHqExtj9cTG24M,6
+EXgen-0.0.1.dist-info/RECORD,,
