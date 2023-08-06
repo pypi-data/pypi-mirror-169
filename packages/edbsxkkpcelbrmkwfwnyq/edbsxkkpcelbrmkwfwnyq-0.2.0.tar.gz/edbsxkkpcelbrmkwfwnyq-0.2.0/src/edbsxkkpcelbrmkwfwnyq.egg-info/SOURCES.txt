@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/edbsxkkpcelbrmkwfwnyq.egg-info/PKG-INFO
+src/edbsxkkpcelbrmkwfwnyq.egg-info/SOURCES.txt
+src/edbsxkkpcelbrmkwfwnyq.egg-info/dependency_links.txt
+src/edbsxkkpcelbrmkwfwnyq.egg-info/top_level.txt
+src/testing/__init__.py
+src/testing/__main__.py
+src/testing/utils.py
+src/testing/assessments/__init__.py
+src/testing/assessments/aac_python.py
