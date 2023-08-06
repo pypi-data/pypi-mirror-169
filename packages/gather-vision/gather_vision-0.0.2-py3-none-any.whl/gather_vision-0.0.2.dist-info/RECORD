@@ -1,0 +1,12 @@
+gather_vision/__init__.py,sha256=y9pYjGYOGBvJ_dNPckaT5xutz9UYoSk1kXWFA5sPlLk,119
+gather_vision/app.py,sha256=_zFTLhGTnZI5WfmTqDudCWt2EF5kPas1Qvy2bgXfC5s,2622
+gather_vision/cli.py,sha256=N6HdnXd_4Ry7s3ZJaqvtWY-Jk7a0KEFOZdcxrnPM_JQ,4684
+gather_vision/model.py,sha256=-943psBGjX1bZPoZ5q7SIRwztDwggnHN_tW3u0-s3co,2832
+gather_vision/plugin.py,sha256=b3csrZMyt4iZjjaPuVgy-RdovRAE7g8tq6rGMyQ3e_M,948
+gather_vision/utils.py,sha256=nlXc_Bc2aP_dVGXunYJAQV0_5mp-iZsXU0pEnTXTPN4,1841
+gather_vision-0.0.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+gather_vision-0.0.2.dist-info/METADATA,sha256=tEM3Y9XxBHc91cDbe2GAWCxtFm7ksecYi6PCptsNK9A,3649
+gather_vision-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gather_vision-0.0.2.dist-info/entry_points.txt,sha256=_virw3MksWZSOPNR-cexol1381MobeK4EGnr9MfBJc8,57
+gather_vision-0.0.2.dist-info/top_level.txt,sha256=bZe7JyVmjN7RpYy6WJyiB3zfKk0X2XMH1rqkTf2uM9c,14
+gather_vision-0.0.2.dist-info/RECORD,,
