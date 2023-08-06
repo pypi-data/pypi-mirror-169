@@ -1,0 +1,10 @@
+numpy
+pandas
+xarray
+statsmodels
+seaborn
+sklearn
+scipy
+eofs
+Cartopy
+matplotlib
