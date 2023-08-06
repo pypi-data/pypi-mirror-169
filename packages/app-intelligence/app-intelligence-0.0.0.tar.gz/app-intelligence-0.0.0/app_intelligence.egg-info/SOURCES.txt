@@ -1,0 +1,6 @@
+setup.py
+app-intelligence/__init__.py
+app_intelligence.egg-info/PKG-INFO
+app_intelligence.egg-info/SOURCES.txt
+app_intelligence.egg-info/dependency_links.txt
+app_intelligence.egg-info/top_level.txt
