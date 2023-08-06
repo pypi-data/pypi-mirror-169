@@ -1,0 +1,2 @@
+[console_scripts]
+ibmsupervisor = ibmsupervisor.main:main
