@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aarish_api/__init__.py
+aarish_api/api_function.py
+aarish_api.egg-info/PKG-INFO
+aarish_api.egg-info/SOURCES.txt
+aarish_api.egg-info/dependency_links.txt
+aarish_api.egg-info/requires.txt
+aarish_api.egg-info/top_level.txt
