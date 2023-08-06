@@ -1,0 +1,15 @@
+povideo/__init__.py,sha256=_tExzq2ZNxXHXXphzYWeMR0IY7VtN82xtF2AzeJxdO0,33
+povideo/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+povideo/api/video.py,sha256=Oy9muWpGJkzIVIYbDZLBDXz64yKBOykYbmWVjQL0m_Y,380
+povideo/core/VideoType.py,sha256=XcF2t7I4Q6tx3DPNilTVtBibCVg9ZZnBnLodJVUeKTY,994
+povideo/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+povideo/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+povideo/lib/tencent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+povideo/lib/tencent/audio2txt_service.py,sha256=9YS3DLIh3cj_0yuwzmuXJx9H5ebxXeO9pbjHqEwVwZ4,5527
+tests/__init__.py,sha256=FBgztsUeQJbeuJCMwiI_0p7qSDgVQvUA1dhgmTBfNeo,183
+tests/test_video.py,sha256=jM9BbwwHu-iCOWcDw4g1h-iK6dpNcO6XZo5hiELzNaQ,327
+povideo-0.0.3.dist-info/LICENSE,sha256=GQ6XaGbsxl2OlUBlk1jLBtkHC8U1p6Bw9E1P1XqYAlU,1093
+povideo-0.0.3.dist-info/METADATA,sha256=8_C0K5mfRk-ivkT69lR6WuBhrhHnKIKHFLOfhGG3cBw,10514
+povideo-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+povideo-0.0.3.dist-info/top_level.txt,sha256=RZAaT2bRyV3mWtEIB6WHCm3gwPoP9b6xRQmEaw6nYtk,14
+povideo-0.0.3.dist-info/RECORD,,
