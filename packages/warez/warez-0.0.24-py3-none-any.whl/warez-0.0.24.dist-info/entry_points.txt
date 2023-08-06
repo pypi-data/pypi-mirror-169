@@ -1,0 +1,3 @@
+[console_scripts]
+warez=warez.__main__:main
+
