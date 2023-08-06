@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+gplearn/__init__.py
+gplearn/_program.py
+gplearn/fitness.py
+gplearn/functions.py
+gplearn/genetic.py
+gplearn/utils.py
+gplearn_biaowang.egg-info/PKG-INFO
+gplearn_biaowang.egg-info/SOURCES.txt
+gplearn_biaowang.egg-info/dependency_links.txt
+gplearn_biaowang.egg-info/not-zip-safe
+gplearn_biaowang.egg-info/requires.txt
+gplearn_biaowang.egg-info/top_level.txt
