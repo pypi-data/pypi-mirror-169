@@ -1,0 +1,14 @@
+# To be placed in a downloads directory and renamed to "rulesXX.toml"
+# where XX is a 2 digit zero padded number
+
+mode = "Extensions"
+
+Documents = [ ".pdf", ".doc", ".docx", ".html", ".epub", ".mobi", ".txt", ".tif"]
+Pictures = [ ".jpeg", ".jpg", ".png", ".bmp", ".gif", ".svg"]
+Archives = [ ".zip", ".7zip", ".tar", ".bz", ".gz", ".xz", ".bz2", ".tgz"]
+Videos = ['.webm', '.mpg', '.mp2', '.mpeg', '.mpe', '.mpv', '.ogg', '.mp4', ".mkv"]
+Audio = [".mp3"]
+ProgramFiles = [".py", ".jar", ".crx", ".cpp", ".run", ".so", ".deb", ".java", ".exe", ".AppImage"]
+DiskImages = [".iso", ".img"]
+uxn = [".tal", ".rom"]
+Orca = [".orca"]
