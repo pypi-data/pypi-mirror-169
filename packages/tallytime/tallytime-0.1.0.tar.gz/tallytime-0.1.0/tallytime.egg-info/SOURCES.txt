@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+tallytime/__init__.py
+tallytime/__main__.py
+tallytime/__version__.py
+tallytime/_utils.py
+tallytime/exceptions.py
+tallytime/loggers.py
+tallytime/settings.py
+tallytime/tally_log.py
+tallytime/tally_session.py
+tallytime.egg-info/PKG-INFO
+tallytime.egg-info/SOURCES.txt
+tallytime.egg-info/dependency_links.txt
+tallytime.egg-info/top_level.txt
