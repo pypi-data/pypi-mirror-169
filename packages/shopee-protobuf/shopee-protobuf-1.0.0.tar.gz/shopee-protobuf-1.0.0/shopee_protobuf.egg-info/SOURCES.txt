@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_protobuf.egg-info/PKG-INFO
+shopee_protobuf.egg-info/SOURCES.txt
+shopee_protobuf.egg-info/dependency_links.txt
+shopee_protobuf.egg-info/top_level.txt
