@@ -1,0 +1,15 @@
+pyats.tcl-22.9-py3.10-nspkg.pth,sha256=e0Aa4MZQ9F423CwtNHHpsEDtEBEJtZolebDzazoPJyI,534
+pyats/tcl/__init__.py,sha256=Zlc5fOxxbl8OV-r3r6et5SB-5ft7g_bJRY4oXjbUMdQ,1478
+pyats/tcl/array.cpython-310-darwin.so,sha256=zs758FKSetX1QHMEqnQAeZQy9tgFPUvjZxp1h_24C2o,83032
+pyats/tcl/history.cpython-310-darwin.so,sha256=mqwtMUVhsZTVWh1ekT-xYjpGHg_caHhfv8VsXcT17SM,125146
+pyats/tcl/internal.cpython-310-darwin.so,sha256=o53cNJc8hWxlTL6QRA5ScgGE1Pax4k0PJ-Dpg4NL270,179003
+pyats/tcl/interpreter.cpython-310-darwin.so,sha256=ZDz1VxWNIivy7PXDxJGRiX24i44IthpQNNiECX3iYz8,207598
+pyats/tcl/keyedlist.cpython-310-darwin.so,sha256=XbPkHca1gSsd0vbXxWCQe3wf8cHZSqfGEfpIfRLEL-M,157948
+pyats/tcl/namespace.cpython-310-darwin.so,sha256=EERGVFZW2rGuVok5clYKIHUEOj6cXCMwe6UeA8xBe7g,489676
+pyats/tcl/q.cpython-310-darwin.so,sha256=lLTOeaK5ijIxCt_KGCVaG8ulstxYxrjJw2LvnFDRK5w,102932
+pyats/tcl/tclstr.cpython-310-darwin.so,sha256=kHBWR5eIghoW5aNGRPe-p_DBq4BnMKsnTRHMmuKXTwk,122089
+pyats.tcl-22.9.dist-info/METADATA,sha256=oPsy-9neD574c_zc6hcfZIdICtaug3KcWoSntunxAVA,3064
+pyats.tcl-22.9.dist-info/WHEEL,sha256=jG5BoX32Jhsz2SLcqRlPz45-8Vt3RRzRIse_rqHHX3Q,110
+pyats.tcl-22.9.dist-info/namespace_packages.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.tcl-22.9.dist-info/top_level.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.tcl-22.9.dist-info/RECORD,,
