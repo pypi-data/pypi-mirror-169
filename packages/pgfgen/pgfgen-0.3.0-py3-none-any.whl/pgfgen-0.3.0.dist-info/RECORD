@@ -1,0 +1,16 @@
+pgfgen/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+pgfgen/__main__.py,sha256=5NfvjUPgLFX1dAdGf0OzMA00tyYRuM5_KLSTYvqVUCM,2635
+pgfgen/config.py,sha256=V1JCoNm_coUA4K3vaMNWVTwZRt1YmZnsOT_GmX_Gw7A,6363
+pgfgen/defaults.py,sha256=DIJvOfNtA8fffNFEMtbHgT_5NoG96FhDlDmO4GRCcso,329
+pgfgen/exceptions.py,sha256=jCVQGxnAFryV1y_dkZv2KeRX78UG9eBx2XKTzvP_MJc,429
+pgfgen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgfgen/svgnodes.py,sha256=Cbgqv5ocmZeB7jTTvcJ4v28t1i23BeJhw0y56pZvSrg,40618
+pgfgen/templating.py,sha256=ceddvqJGeEbWj4StY0f8Gy3Nhbj5pajVTuu_IFomnK4,6357
+pgfgen/types.py,sha256=0PTkVsmMq6_OrtQDD4I_Hekesi_9Rml0VIgztdZIc2k,498
+pgfgen/util.py,sha256=OvZ8X5k0So1RMwWQWCYZjLZtGRSbJGqyViqBkHfTGV0,1065
+pgfgen-0.3.0.dist-info/LICENSE.txt,sha256=WSVv_Uz-lDJD4H8BdfXVIl0hsxRYTFj3yFtaXkX6ZMc,1070
+pgfgen-0.3.0.dist-info/METADATA,sha256=6ey9gtctib8KtLvlESPtrRgidcbUnmUAwHDOEgoNT2E,2835
+pgfgen-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pgfgen-0.3.0.dist-info/entry_points.txt,sha256=E4-HpoW8z2OtEJOuHV82acl4JuLLMBHVDVXy7YHP25s,48
+pgfgen-0.3.0.dist-info/top_level.txt,sha256=P-ii8A4Qt32ClImoWV-4nDzZYId08KllrKiRH7lV6zI,7
+pgfgen-0.3.0.dist-info/RECORD,,
