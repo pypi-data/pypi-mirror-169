@@ -1,0 +1,20 @@
+def unclean(x, w, b):
+    y = b + w + x
+    print('message')
+    wx = w * x
+    ret = wx + b
+    temp = y * wx
+    return ret
+
+# input
+x = ivy.array([1., 2., 3.])
+w = ivy.random_unifrom(
+    -1, 1, (3, 3))
+b = ivy.zeros((3,))
+
+# compile graph
+graph = ivy.compile_graph(
+    unclean, x, w, b)
+
+# execute graph
+graph(x, w, b)

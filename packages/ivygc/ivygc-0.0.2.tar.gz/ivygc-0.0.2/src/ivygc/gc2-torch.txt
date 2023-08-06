@@ -1,0 +1,19 @@
+def pure_torch(x):
+    y = torch.mean(x)
+    z = torch.sum(x)
+    f = torch.var(y)
+    k = torch.cos(z)
+    m = torch.sin(f)
+    o = torch.tan(y)
+    return torch.cat(
+        [k, m, o], -1)
+
+# input
+x = torch.tensor([[1., 2., 3.]])
+
+# create graph
+graph = ivy.compile_graph(
+    pure_torch, x)
+
+# call graph
+ret = graph(x)

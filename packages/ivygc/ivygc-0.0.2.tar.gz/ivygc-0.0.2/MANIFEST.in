@@ -1,0 +1,4 @@
+include src/ivygc/bg.jpg
+include src/ivygc/status.jpg
+include src/ivygc/*.txt
+include src/ivygc/*.grammar

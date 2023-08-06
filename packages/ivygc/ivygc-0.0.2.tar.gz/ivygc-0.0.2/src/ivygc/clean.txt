@@ -1,0 +1,20 @@
+def clean(x, w, b):
+    return w*x + b
+
+
+
+
+
+
+# input
+x = ivy.array([1., 2., 3.])
+w = ivy.random_unifrom(
+    -1, 1, (3, 3))
+b = ivy.zeros((3,))
+
+# compile graph
+graph = ivy.compile_graph(
+    clean, x, w, b)
+
+# execute graph
+graph(x, w, b)
