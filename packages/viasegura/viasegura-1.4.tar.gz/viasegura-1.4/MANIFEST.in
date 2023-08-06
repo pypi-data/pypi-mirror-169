@@ -1,0 +1,3 @@
+include viasegura/config.json
+include viasegura/lanenet_config.json
+include viasegura/configs/images_processot.json
