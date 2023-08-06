@@ -1,0 +1,8 @@
+LICENSE
+README.md
+kill_thread.py
+setup.py
+kill_thread.egg-info/PKG-INFO
+kill_thread.egg-info/SOURCES.txt
+kill_thread.egg-info/dependency_links.txt
+kill_thread.egg-info/top_level.txt
