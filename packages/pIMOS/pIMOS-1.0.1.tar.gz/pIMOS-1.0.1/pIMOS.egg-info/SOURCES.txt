@@ -1,0 +1,200 @@
+.gitignore
+KISSME2017_Instruments.csv
+Progress.pptx
+README.md
+dirtworm.gif
+dirtworm_strong.gif
+environment.yml
+notepad
+setup.py
+.ipynb_checkpoints/CF Compliance Checks-checkpoint.ipynb
+.ipynb_checkpoints/Nortek Vector-checkpoint.ipynb
+.ipynb_checkpoints/RDI ADCP-checkpoint.ipynb
+.ipynb_checkpoints/Seabird 37 39 and 56-checkpoint.ipynb
+Rayson Database/KISSME2017_Obs.db
+__pycache__/adcpio.cpython-38.pyc
+__pycache__/seabird.cpython-38.pyc
+__pycache__/seabird.cpython-39.pyc
+__pycache__/transform.cpython-38.pyc
+dist/pIMOS-1.0.0-py3-none-any.whl
+make_gif/pIMOS GIF.ipynb
+make_gif/gif/dirtworm.gif
+make_gif/gif/dirtworm_strong.gif
+make_gif/gif/stills/dirtworm0.png
+make_gif/gif/stills/dirtworm1.png
+make_gif/gif/stills/dirtworm10.png
+make_gif/gif/stills/dirtworm11.png
+make_gif/gif/stills/dirtworm12.png
+make_gif/gif/stills/dirtworm13.png
+make_gif/gif/stills/dirtworm2.png
+make_gif/gif/stills/dirtworm3.png
+make_gif/gif/stills/dirtworm4.png
+make_gif/gif/stills/dirtworm5.png
+make_gif/gif/stills/dirtworm6.png
+make_gif/gif/stills/dirtworm7.png
+make_gif/gif/stills/dirtworm8.png
+make_gif/gif/stills/dirtworm9.png
+make_gif/gif/stills/dirtworm_strong0.png
+make_gif/gif/stills/dirtworm_strong1.png
+make_gif/gif/stills/dirtworm_strong10.png
+make_gif/gif/stills/dirtworm_strong11.png
+make_gif/gif/stills/dirtworm_strong12.png
+make_gif/gif/stills/dirtworm_strong13.png
+make_gif/gif/stills/dirtworm_strong2.png
+make_gif/gif/stills/dirtworm_strong3.png
+make_gif/gif/stills/dirtworm_strong4.png
+make_gif/gif/stills/dirtworm_strong5.png
+make_gif/gif/stills/dirtworm_strong6.png
+make_gif/gif/stills/dirtworm_strong7.png
+make_gif/gif/stills/dirtworm_strong8.png
+make_gif/gif/stills/dirtworm_strong9.png
+notebooks/Nortek_Signature.ipynb
+notebooks/postgreSQL_db_create.ipynb
+notebooks/xarray_wrapper_Nortek_Signature.ipynb
+notebooks/xarray_wrapper_Nortek_Vector.ipynb
+notebooks/xarray_wrapper_RDI_LONGRANGER_ADCP.ipynb
+notebooks/xarray_wrapper_Seabird_37_39_and_56.ipynb
+notebooks/xarray_wrapper_WetlabsNTU.ipynb
+notebooks/xarray_wrapper_intro.ipynb
+notebooks/xarray_wrapper_introcuction_continued.ipynb
+notebooks/.ipynb_checkpoints/ADCP QAQC GUI-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/CF Compliance Checks-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/Nortek Signature-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/Nortek Vector-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/RDI ADCP [SP250 LR using xrwrap]-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/RDI ADCP [using adcpio]-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/RDI ADCP [using rdi_adcp]-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/Seabird_37_39_and_56 [using xrwrap]-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/postgreSQL_db_create-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/pp_monthly_rose-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/xarray_wrapper_Nortek_Signature-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/xarray_wrapper_RDI_LONGRANGER_ADCP-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/xarray_wrapper_Seabird_37_39_and_56-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/xarray_wrapper_WetlabsNTU-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/xarray_wrapper_intro-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/xarray_wrapper_introcuction_continued-checkpoint.ipynb
+notebooks/__pycache__/RDI_ADCP_PD02.cpython-39.pyc
+notebooks/__pycache__/adcpio.cpython-38.pyc
+notebooks/__pycache__/adcpio.cpython-39.pyc
+notebooks/__pycache__/rdi_adcp.cpython-39.pyc
+notebooks/__pycache__/rdi_adcp_utils.cpython-39.pyc
+notebooks/old_notebooks/ADCP QAQC GUI [replaced by pIMOSview].ipynb
+notebooks/old_notebooks/Nortek Vector.ipynb
+notebooks/old_notebooks/RDI ADCP [using adcpio].ipynb
+notebooks/old_notebooks/RDI ADCP [using rdi_adcp].ipynb
+pIMOS/api.py
+pIMOS.egg-info/PKG-INFO
+pIMOS.egg-info/SOURCES.txt
+pIMOS.egg-info/dependency_links.txt
+pIMOS.egg-info/requires.txt
+pIMOS.egg-info/top_level.txt
+pIMOS/__pycache__/api.cpython-39.pyc
+pIMOS/read/SEABIRD_37_39_56.py
+pIMOS/read/SEABIRD_CTD.py
+pIMOS/read/lisst.py
+pIMOS/read/__pycache__/SEABIRD_37_39_56.cpython-39.pyc
+pIMOS/read/__pycache__/SEABIRD_CTD.cpython-39.pyc
+pIMOS/read/__pycache__/lisst.cpython-39.pyc
+pIMOS/utils/UWA_archive_utils.py
+pIMOS/utils/nortek_signature_utils.py
+pIMOS/utils/othertime.py
+pIMOS/utils/quality_control.py
+pIMOS/utils/rdi_adcp_utils.py
+pIMOS/utils/seabird_utils.py
+pIMOS/utils/__pycache__/UWA_archive_utils.cpython-39.pyc
+pIMOS/utils/__pycache__/nortek_signature_utils.cpython-39.pyc
+pIMOS/utils/__pycache__/othertime.cpython-39.pyc
+pIMOS/utils/__pycache__/quality_control.cpython-38.pyc
+pIMOS/utils/__pycache__/quality_control.cpython-39.pyc
+pIMOS/utils/__pycache__/rdi_adcp_utils.cpython-39.pyc
+pIMOS/utils/__pycache__/seabird_utils.cpython-39.pyc
+pIMOS/xrwrap/lisst.py
+pIMOS/xrwrap/nortek_signature.py
+pIMOS/xrwrap/nortek_vector.py
+pIMOS/xrwrap/pimos_pls.py
+pIMOS/xrwrap/pimoswrap.py
+pIMOS/xrwrap/pl2_stacked_mooring.py
+pIMOS/xrwrap/pl2_stacked_transect.py
+pIMOS/xrwrap/rdi_adcp.py
+pIMOS/xrwrap/rsi_vmp.py
+pIMOS/xrwrap/seabird_37_39_56.py
+pIMOS/xrwrap/solander_ctd.py
+pIMOS/xrwrap/wetlabs_ntu.py
+pIMOS/xrwrap/__pycache__/RDI_ADCP_PD02.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/lisst.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/nortek_signature.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/nortek_vector.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/pimos_pls.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/pimoswrap.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/pl2_stacked_mooring.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/pl2_stacked_transect.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/rdi_adcp.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/rsi_vmp.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/seabird_37_39_56.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/solander_ctd.cpython-39.pyc
+pIMOS/xrwrap/__pycache__/wetlabs_ntu.cpython-39.pyc
+pIMOS/xrwrap_old/LISST.py
+pIMOS/xrwrap_old/NORTEK_SIGNATURE.py
+pIMOS/xrwrap_old/NORTEK_VECTOR.py
+pIMOS/xrwrap_old/RDI_ADCP_PD02.py
+pIMOS/xrwrap_old/SEABIRD_37_39_56.py
+pIMOS/xrwrap_old/SOLANDER_CTD.py
+pIMOS/xrwrap_old/WETLABS_NTU.py
+pIMOS/xrwrap_old/rsi_vmp.py
+pIMOS/xrwrap_old/__pycache__/LISST.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/NORTEK_SIGNATURE.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/NORTEK_VECTOR.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/RDI_ADCP_PD02.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/SEABIRD_37_39_56.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/SOLANDER_CTD.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/WETLABS_NTU.cpython-39.pyc
+pIMOS/xrwrap_old/__pycache__/rsi_vmp.cpython-39.pyc
+postgres/config.txt
+postgres/db_connect.ipynb
+postgres/db_create.ipynb
+postgres/django.ipynb
+postgres/.ipynb_checkpoints/db_connect-checkpoint.ipynb
+postgres/.ipynb_checkpoints/db_create-checkpoint.ipynb
+postgres/.ipynb_checkpoints/django-checkpoint.ipynb
+postgres/pymos/db.sqlite3
+postgres/pymos/manage.py
+postgres/pymos/polls/__init__.py
+postgres/pymos/polls/admin.py
+postgres/pymos/polls/apps.py
+postgres/pymos/polls/models.py
+postgres/pymos/polls/tests.py
+postgres/pymos/polls/urls.py
+postgres/pymos/polls/views.py
+postgres/pymos/polls/__pycache__/__init__.cpython-38.pyc
+postgres/pymos/polls/__pycache__/admin.cpython-38.pyc
+postgres/pymos/polls/__pycache__/apps.cpython-38.pyc
+postgres/pymos/polls/__pycache__/models.cpython-38.pyc
+postgres/pymos/polls/__pycache__/urls.cpython-38.pyc
+postgres/pymos/polls/__pycache__/views.cpython-38.pyc
+postgres/pymos/polls/migrations/0001_initial.py
+postgres/pymos/polls/migrations/__init__.py
+postgres/pymos/polls/migrations/__pycache__/0001_initial.cpython-38.pyc
+postgres/pymos/polls/migrations/__pycache__/__init__.cpython-38.pyc
+postgres/pymos/pymos/__init__.py
+postgres/pymos/pymos/asgi.py
+postgres/pymos/pymos/settings.py
+postgres/pymos/pymos/urls.py
+postgres/pymos/pymos/wsgi.py
+postgres/pymos/pymos/__pycache__/__init__.cpython-38.pyc
+postgres/pymos/pymos/__pycache__/settings.cpython-38.pyc
+postgres/pymos/pymos/__pycache__/urls.cpython-38.pyc
+postgres/pymos/pymos/__pycache__/wsgi.cpython-38.pyc
+source_py_code/RDI_ADCP_PD02.py
+source_py_code/adcpio - Copy.py
+source_py_code/adcpio.py
+source_py_code/gui.py
+source_py_code/oceanmooring.py
+source_py_code/rdi_adcp.py
+source_py_code/seabird.py
+source_py_code/transform.py
+source_py_code/vemco.py
+source_py_code/edge lisst and CTD code/_ctd_to_nc.py
+source_py_code/edge lisst and CTD code/l_lisst_to_nc.py
+source_py_code/edge lisst and CTD code/lisst.py
+source_py_code/edge lisst and CTD code/othertime.py
+source_py_code/edge lisst and CTD code/p_lisst_to_nc.py
