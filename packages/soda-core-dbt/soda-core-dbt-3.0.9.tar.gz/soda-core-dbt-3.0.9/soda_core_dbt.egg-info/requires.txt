@@ -1,0 +1,2 @@
+soda-core==3.0.9
+dbt-core~=1.2.0
