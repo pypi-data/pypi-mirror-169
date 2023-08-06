@@ -1,0 +1,14 @@
+feature_reviser/__init__.py,sha256=ztRTy3HRX9jIOq9-jmYrLyeraj-wRL_43b1k4KmF3AI,752
+feature_reviser/feature_selection/reviser.py,sha256=W6cC2ygxkqxuAOyM0Jz1PuOJLoKl6yp3E_MMgKymCXo,3207
+feature_reviser/feature_selection/selector.py,sha256=7x_TBOQwonGXWJ2IyAUb2XGbAKmfTCH2D3AUMSbumU8,6048
+feature_reviser/transformer/base_transformer.py,sha256=YcIgNvR2vRXorGZ4tS2YFRtyQeH9Oe_vbDxt8O4ELac,647
+feature_reviser/transformer/datetime_transformer.py,sha256=q7ZcxAIgEyylWEROe3BXhXlzbDhwweW0e-IMYqwc2PQ,3128
+feature_reviser/transformer/encoder_transformer.py,sha256=1ajdW4L1WEsqLl2Ma6AWg6dwkSclUXKspS-pkN-jByo,1533
+feature_reviser/transformer/generic_transformer.py,sha256=VG2-GE2Gbmc3n3aL5ykxPdMxL11IRclpbUc3RDjXhOc,11772
+feature_reviser/transformer/number_transformer.py,sha256=KdD58l5QuV42UKqszF4kdVYZZHOs4qNrb-PSnHIDkqU,4685
+feature_reviser/transformer/string_transformer.py,sha256=Vnt_6z_zpMRECkg1r9PGA5L0edrhHCS6SD5OAwopkog,11201
+feature_reviser/utils.py,sha256=a1TMozmw_FXgo9t-2-5Nb0EcGn2iz6juHBqv0oEl9uQ,4049
+feature_reviser-0.3.81.dist-info/LICENSE,sha256=vVCeuORSw6nl2d0Lz-9dQyFbhkPRHEcU60yPpa-H_hk,1074
+feature_reviser-0.3.81.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+feature_reviser-0.3.81.dist-info/METADATA,sha256=UDX_rL2cIyrJrWU87vI1McOuxPYN6DAVG4dRCZa8kpo,8043
+feature_reviser-0.3.81.dist-info/RECORD,,
