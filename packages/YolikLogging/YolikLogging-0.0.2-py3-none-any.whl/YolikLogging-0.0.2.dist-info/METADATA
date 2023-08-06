@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: YolikLogging
+Version: 0.0.2
+Summary: 自定义logging
+Home-page: http://www.baidu.com
+Author: yolik
+Author-email: 252769838@qq.com
+Maintainer: yolik
+Maintainer-email: 252769838@qq.com
+License: BSD License
+Platform: all
+Requires-Dist: colorama
+
