@@ -1,0 +1,4 @@
+[console_scripts]
+MeihuoMofa = MeihuoMofa.__main__:main
+meihuo-mofa = MeihuoMofa.__main__:main
+
