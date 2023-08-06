@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dash-local-react-components
+Version: 1.0.0
+Summary: Allows for loading react components in Dash applications directly from local project files, without a separate build process.
+Author-email: Tomasz Rewak <tomasz.rewak@gmail.com>
+Project-URL: Homepage, https://github.com/TomaszRewak/dash-local-react-components
+Project-URL: Bug Tracker, https://github.com/TomaszRewak/dash-local-react-components/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dash (<3,>=2.6.0)
+
+# dash-local-react-components
