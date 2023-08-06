@@ -1,0 +1,8 @@
+README.md
+setup.py
+installutils/__init__.py
+installutils/util.py
+installutils_nohook.egg-info/PKG-INFO
+installutils_nohook.egg-info/SOURCES.txt
+installutils_nohook.egg-info/dependency_links.txt
+installutils_nohook.egg-info/top_level.txt
