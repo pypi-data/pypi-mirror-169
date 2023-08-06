@@ -1,0 +1,2 @@
+relic-tool-chunky-core~=1.0.0
+relic-tool-chunky-v1~=1.0.0

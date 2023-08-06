@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+relic_tool_chunky.egg-info/PKG-INFO
+relic_tool_chunky.egg-info/SOURCES.txt
+relic_tool_chunky.egg-info/dependency_links.txt
+relic_tool_chunky.egg-info/requires.txt
+relic_tool_chunky.egg-info/top_level.txt
