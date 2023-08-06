@@ -1,0 +1,6 @@
+numpy
+scipy
+opencv-python
+pytest-shutil
+matplotlib
+plotly
