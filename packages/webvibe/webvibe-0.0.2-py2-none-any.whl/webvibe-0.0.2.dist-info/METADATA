@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: webvibe
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/itsn0b1t4
+Author: Mohammad Alamin
+Author-email: itsn0b1t4@gmail.com
+License: MIT
+Keywords: webvibe,website tool
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: urllib2
+Requires-Dist: lolcat
+
+UNKNOWN
+
+
