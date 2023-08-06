@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: SdaMyPrimPackage
+Version: 4.3.1
+Summary: A package that prints PRIM numbers
+Home-page: UNKNOWN
+Author: Guido Xhindoli
+Author-email: <mail@gmail.com>
+License: UNKNOWN
+Keywords: pythonsdaal,SdaMyPrimPackage,prim,prim  numbers,sda,SDA
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+UNKNOWN
+

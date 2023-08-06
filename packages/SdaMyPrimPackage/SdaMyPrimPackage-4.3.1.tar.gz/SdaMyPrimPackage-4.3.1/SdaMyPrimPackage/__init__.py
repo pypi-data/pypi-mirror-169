@@ -1,0 +1,1 @@
+from SdaMyPrimPackage import main
