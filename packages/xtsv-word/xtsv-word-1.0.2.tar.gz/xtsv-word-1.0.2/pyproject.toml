@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "xtsv-word"
+version = "1.0.2"
+description = "A dataclass-like structure to make the handling of xtsv token attributes comfortable and transparent"
+homepage = "https://github.com/ril-lexknowrep/xtsv-word"
+authors = ["Pethő Gergely <pagstudium@gmail.com>"]
+license = "LGPLv3"
+readme = "README.md"
+packages = [{include = "xtsv_word"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
