@@ -1,0 +1,9 @@
+index_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+index_template/create_templates.py,sha256=UNJQB6OaXleM7hHjVWiEDS9BD38ZOi-v6pgKmHoFjRM,546
+index_template/field_definitions.py,sha256=mkftIgZNBjtoHaHIxw7QMNy6Jh4D-24TDBobsjth6io,17622
+index_template/index_configs.py,sha256=vkpkxi5GAMyFVmnaSX-tHwpiAwt5gDJakIUKJWwnlFk,1267
+index_template/template_schema.py,sha256=6ZLj47qFnY1SVgxyci73BsrvZ76FxA_4x6xBIdiyoUI,1083
+index_template/utils.py,sha256=QQNYgAuiyqP40c-c7R9iQyv0arJ6BsThMK7qhIPmlhE,1164
+index_template-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+index_template-0.1.0.dist-info/METADATA,sha256=ovjsZQvmdMM3wLCosbLKN9zT9VuZ-rpe1lw00yOPea0,2099
+index_template-0.1.0.dist-info/RECORD,,
