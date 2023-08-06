@@ -1,0 +1,10 @@
+gitlab2pandas/__init__.py,sha256=2GWffEF1rjyrveUGdfR8y3cl3JUnX0gJjr8Ryy_u4JQ,21
+gitlab2pandas/core.py,sha256=nXZdutg7wgP1zfoiOXrlRr1g0a8XfEFPyr2RNLF2iLs,11975
+gitlab2pandas/extractions.py,sha256=gyppsN_z_4glMSC5TLPZ1C84aqS9IoLvQP45j_fSGNA,35986
+gitlab2pandas/gitlab2pandas.py,sha256=vp-_ndjAQoKjVcHBbXUA36OH4639MoJpXnBDtcyV-Z8,1463
+gitlab2pandas/processing.py,sha256=Vdf7WnRAtmc4W11UEtdKkjIhq_d_1TAXc8lUN_NhzEc,2815
+gitlab2pandas-0.0.4.dist-info/LICENSE,sha256=9IcxwsG6pKuQmsUNJjb6b_tL34D_INDwEJp65qpweu8,1350
+gitlab2pandas-0.0.4.dist-info/METADATA,sha256=xgAjfMWvff4npm5LzkxDj6z9gtqwq4DDliRVKYYDPS4,2141
+gitlab2pandas-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitlab2pandas-0.0.4.dist-info/top_level.txt,sha256=pugE10EmPDfrduOyxgqZO30mWi6msVpCdfeeuZiYZCM,14
+gitlab2pandas-0.0.4.dist-info/RECORD,,
