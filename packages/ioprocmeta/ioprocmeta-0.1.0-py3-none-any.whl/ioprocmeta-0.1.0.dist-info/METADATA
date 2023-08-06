@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ioprocmeta
+Version: 0.1.0
+Summary: 
+Author: Benjamin Fuchs
+Author-email: benjamin.fuchs@dlr.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attr (>=0.3.1,<0.4.0)
+Requires-Dist: cattrs (>=1.8.0,<2.0.0)
