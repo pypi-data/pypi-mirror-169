@@ -1,0 +1,165 @@
+import datetime
+from typing import Any, Dict, List, Type, TypeVar
+
+import attr
+from dateutil.parser import isoparse
+
+from ..models.attachment import Attachment
+from ..models.content import Content
+from ..models.user_basic import UserBasic
+
+T = TypeVar("T", bound="FullActor")
+
+
+@attr.s(auto_attribs=True)
+class FullActor:
+    """
+    Attributes:
+        fid (str):
+        url (str):
+        domain (str):
+        creation_date (datetime.datetime):
+        last_fetch_date (datetime.datetime):
+        name (str):
+        preferred_username (str):
+        full_username (str):
+        type (str):
+        is_local (bool):
+        is_channel (bool):
+        manually_approves_followers (bool):
+        user (UserBasic):
+        summary (Content):
+        icon (Attachment):
+    """
+
+    fid: str
+    url: str
+    domain: str
+    creation_date: datetime.datetime
+    last_fetch_date: datetime.datetime
+    name: str
+    preferred_username: str
+    full_username: str
+    type: str
+    is_local: bool
+    is_channel: bool
+    manually_approves_followers: bool
+    user: UserBasic
+    summary: Content
+    icon: Attachment
+    additional_properties: Dict[str, Any] = attr.ib(init=False, factory=dict)
+
+    def to_dict(self) -> Dict[str, Any]:
+        fid = self.fid
+        url = self.url
+        domain = self.domain
+        creation_date = self.creation_date.isoformat()
+
+        last_fetch_date = self.last_fetch_date.isoformat()
+
+        name = self.name
+        preferred_username = self.preferred_username
+        full_username = self.full_username
+        type = self.type
+        is_local = self.is_local
+        is_channel = self.is_channel
+        manually_approves_followers = self.manually_approves_followers
+        user = self.user.to_dict()
+
+        summary = self.summary.to_dict()
+
+        icon = self.icon.to_dict()
+
+        field_dict: Dict[str, Any] = {}
+        field_dict.update(self.additional_properties)
+        field_dict.update(
+            {
+                "fid": fid,
+                "url": url,
+                "domain": domain,
+                "creation_date": creation_date,
+                "last_fetch_date": last_fetch_date,
+                "name": name,
+                "preferred_username": preferred_username,
+                "full_username": full_username,
+                "type": type,
+                "is_local": is_local,
+                "is_channel": is_channel,
+                "manually_approves_followers": manually_approves_followers,
+                "user": user,
+                "summary": summary,
+                "icon": icon,
+            }
+        )
+
+        return field_dict
+
+    @classmethod
+    def from_dict(cls: Type[T], src_dict: Dict[str, Any]) -> T:
+        d = src_dict.copy()
+        fid = d.pop("fid")
+
+        url = d.pop("url")
+
+        domain = d.pop("domain")
+
+        creation_date = isoparse(d.pop("creation_date"))
+
+        last_fetch_date = isoparse(d.pop("last_fetch_date"))
+
+        name = d.pop("name")
+
+        preferred_username = d.pop("preferred_username")
+
+        full_username = d.pop("full_username")
+
+        type = d.pop("type")
+
+        is_local = d.pop("is_local")
+
+        is_channel = d.pop("is_channel")
+
+        manually_approves_followers = d.pop("manually_approves_followers")
+
+        user = UserBasic.from_dict(d.pop("user"))
+
+        summary = Content.from_dict(d.pop("summary"))
+
+        icon = Attachment.from_dict(d.pop("icon"))
+
+        full_actor = cls(
+            fid=fid,
+            url=url,
+            domain=domain,
+            creation_date=creation_date,
+            last_fetch_date=last_fetch_date,
+            name=name,
+            preferred_username=preferred_username,
+            full_username=full_username,
+            type=type,
+            is_local=is_local,
+            is_channel=is_channel,
+            manually_approves_followers=manually_approves_followers,
+            user=user,
+            summary=summary,
+            icon=icon,
+        )
+
+        full_actor.additional_properties = d
+        return full_actor
+
+    @property
+    def additional_keys(self) -> List[str]:
+        return list(self.additional_properties.keys())
+
+    def __getitem__(self, key: str) -> Any:
+        return self.additional_properties[key]
+
+    def __setitem__(self, key: str, value: Any) -> None:
+        self.additional_properties[key] = value
+
+    def __delitem__(self, key: str) -> None:
+        del self.additional_properties[key]
+
+    def __contains__(self, key: str) -> bool:
+        return key in self.additional_properties
