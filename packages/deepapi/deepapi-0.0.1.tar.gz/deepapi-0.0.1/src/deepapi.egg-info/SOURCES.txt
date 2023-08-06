@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/deepapi.py
+src/utils.py
+src/dataset/__init__.py
+src/dataset/imagenet.py
+src/deepapi.egg-info/PKG-INFO
+src/deepapi.egg-info/SOURCES.txt
+src/deepapi.egg-info/dependency_links.txt
+src/deepapi.egg-info/top_level.txt
+src/models/__init__.py
+src/models/inceptionv3.py
+src/models/resnet50.py
+src/models/vgg16.py
