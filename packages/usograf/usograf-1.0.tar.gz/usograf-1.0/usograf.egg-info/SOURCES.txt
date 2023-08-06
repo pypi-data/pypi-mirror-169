@@ -1,0 +1,7 @@
+setup.py
+usograf/__init__.py
+usograf/funcgraficos.py
+usograf.egg-info/PKG-INFO
+usograf.egg-info/SOURCES.txt
+usograf.egg-info/dependency_links.txt
+usograf.egg-info/top_level.txt
