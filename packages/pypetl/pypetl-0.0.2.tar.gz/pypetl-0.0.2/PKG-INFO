@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pypetl
+Version: 0.0.2
+Summary: Python ETL Tools
+Home-page: https://github.com/asyraf-adianto/pypetl
+Author: Asyraf N. Adianto
+Author-email: asyraf.adianto@renos.id
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# fastetl
+
