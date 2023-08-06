@@ -1,0 +1,6 @@
+setup.py
+tasker-client-py/__init__.py
+tasker_client_py.egg-info/PKG-INFO
+tasker_client_py.egg-info/SOURCES.txt
+tasker_client_py.egg-info/dependency_links.txt
+tasker_client_py.egg-info/top_level.txt
