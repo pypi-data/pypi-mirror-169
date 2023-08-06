@@ -1,0 +1,9 @@
+pdf_oralia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_oralia/extract.py,sha256=5EGSACauuxBTbNIQVBCVtnsH6JPBV_8sGHCGz1joMxw,1649
+pdf_oralia/extract_charge.py,sha256=RwyXpPaAMaxnW4gy2fA8HvX4379a5uSwN3hX8HzImYM,910
+pdf_oralia/extract_locataire.py,sha256=dhvclYl-wvJtWTOXf1ZAFOKGFPx6U0pMIqj_5veP0Tg,1417
+pdf_oralia/scripts.py,sha256=UBHMhgxDeOe8kSfpJfximT71lo92WTfYHeKWwevHPOQ,797
+pdf_oralia-0.1.1.dist-info/entry_points.txt,sha256=7oEzhspSbWDlOAiUA4P2DfOq0ZIazI6pM18iPPGMwmU,54
+pdf_oralia-0.1.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pdf_oralia-0.1.1.dist-info/METADATA,sha256=aNdF6WTOWw9LWPqA1JnN78r8yjXbYSV9KudfKaXFIJ8,514
+pdf_oralia-0.1.1.dist-info/RECORD,,
