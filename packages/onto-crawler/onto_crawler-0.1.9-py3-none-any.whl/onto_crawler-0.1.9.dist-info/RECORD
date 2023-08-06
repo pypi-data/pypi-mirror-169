@@ -1,0 +1,10 @@
+onto_crawler/__init__.py,sha256=60nUT-70IAhLH3IfqSB8EIY33_pJsgCR3bdJtjSXl9o,349
+onto_crawler/__main__.py,sha256=sBMJRN5JshhNikHGDT_rxgwjisOOnBgyCr6aOmu07qI,329
+onto_crawler/api.py,sha256=uLiUrVCTui8Wqtke2AHXV3iTlfP7VW_yLq7Qf_QGdWk,4861
+onto_crawler/cli.py,sha256=TAL1771DLmDliMBhhj1aGR3e-B4WuI7VujkQIpE-7iM,4274
+onto_crawler/version.py,sha256=aQbfYsTUtvKVEhRyoc9aa8BXL0tf7lQpybpaHAa3CRM,1157
+onto_crawler-0.1.9.dist-info/entry_points.txt,sha256=0mwlr7xqStZj-aLxRffsmsG2mQBTYnEZXw9ysqZFqlI,48
+onto_crawler-0.1.9.dist-info/LICENSE,sha256=L2qvGyv7UPsoxIaJSGMAcXi3xGgP1CatEx2PivT_cbk,1070
+onto_crawler-0.1.9.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+onto_crawler-0.1.9.dist-info/METADATA,sha256=ieZNPwzmO0kZMUVHCQ4aE6NbFc-7NEkZDshteJRIP0A,1519
+onto_crawler-0.1.9.dist-info/RECORD,,
