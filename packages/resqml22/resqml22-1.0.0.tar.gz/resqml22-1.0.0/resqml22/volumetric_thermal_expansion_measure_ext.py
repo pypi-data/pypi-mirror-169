@@ -1,0 +1,24 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Optional, Union
+from resqml22.volumetric_thermal_expansion_uom import VolumetricThermalExpansionUom
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/commonv2"
+
+
+@dataclass
+class VolumetricThermalExpansionMeasureExt:
+    value: Optional[float] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+    uom: Optional[Union[VolumetricThermalExpansionUom, str]] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+            "pattern": r".*:.*",
+        }
+    )

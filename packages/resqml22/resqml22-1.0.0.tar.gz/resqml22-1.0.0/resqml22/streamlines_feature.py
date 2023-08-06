@@ -1,0 +1,45 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Optional, Union
+from resqml22.abstract_technical_feature import AbstractTechnicalFeature
+from resqml22.streamline_flux import StreamlineFlux
+from resqml22.time_index import TimeIndex
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/resqmlv2"
+
+
+@dataclass
+class StreamlinesFeature(AbstractTechnicalFeature):
+    """Specification of the vector field upon which the streamlines are based.
+
+    Streamlines are commonly used to trace the flow of phases (water /
+    oil / gas / total) based upon their flux at a specified time. They
+    may also be used for trace components for compositional simulation,
+    e.g., CO2, or temperatures for thermal simulation. The flux
+    enumeration provides support for the most usual cases with provision
+    for extensions to other fluxes.
+
+    :ivar flux: Specification of the streamline flux, drawn from the
+        enumeration.
+    :ivar time_index:
+    """
+    class Meta:
+        namespace = "http://www.energistics.org/energyml/data/resqmlv2"
+
+    flux: Optional[Union[StreamlineFlux, str]] = field(
+        default=None,
+        metadata={
+            "name": "Flux",
+            "type": "Element",
+            "required": True,
+            "pattern": r".*:.*",
+        }
+    )
+    time_index: Optional[TimeIndex] = field(
+        default=None,
+        metadata={
+            "name": "TimeIndex",
+            "type": "Element",
+            "required": True,
+        }
+    )
