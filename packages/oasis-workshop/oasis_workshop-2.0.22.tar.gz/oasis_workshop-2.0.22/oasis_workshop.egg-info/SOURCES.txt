@@ -1,0 +1,11 @@
+README.md
+setup.py
+oasis_workshop.egg-info/PKG-INFO
+oasis_workshop.egg-info/SOURCES.txt
+oasis_workshop.egg-info/dependency_links.txt
+oasis_workshop.egg-info/requires.txt
+oasis_workshop.egg-info/top_level.txt
+src/__init__.py
+src/client.py
+src/funcs.py
+src/session.py
