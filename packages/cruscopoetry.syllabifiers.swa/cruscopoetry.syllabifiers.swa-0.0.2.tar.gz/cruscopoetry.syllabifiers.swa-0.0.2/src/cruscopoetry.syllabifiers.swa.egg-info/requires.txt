@@ -1,0 +1,1 @@
+cruscopoetry.syllabifiers.abstract==0.0.2
