@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: aws-container-launcher
+Version: 0.0.1
+Summary: AWS Container Launcher helps to run a docker container in AWS
+Home-page: https://github.com/kankou-aliaksei/aws-container-launcher
+Author: Aliaksei Kankou
+Author-email: aliaksei.kankou@gmail.com
+Project-URL: Bug Tracker, https://github.com/kankou-aliaksei/aws-container-launcher/issues
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.23.10)
+Requires-Dist: amazon-ec2-best-instance
+
+# Prerequisites
+
+* Python 3.7
+* AWS Credentials
+
+# AWS Container Launcher (aws-container-launcher)
+
+AWS Container Launcher helps to run a docker container in AWS.
+
+# Examples
+
+| WARNING: After processing a job, you are in charge of destroying the infrastructure. Do not forget to call the "destroy" method; otherwise, the instance will continue to operate and you will be charged by Amazon. |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+## Minimal example with providing an instance type
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'instance_type': 't3.micro',  # required. Alternatively, use 'cpu' and 'memory' parameters pair.
+}
+
+'''
+Asynchronously running of an ECS task. However, resource initializing happens synchronously (EC2, etc.) and takes up to 5 minutes
+'''
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(10)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+## Minimal example with providing 'cpu' and 'memory' pair
+
+```
+import time
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+acl = ContainerLauncher()
+
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'cpu': 1,  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+    'memory': 4  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+}
+
+'''
+Asynchronously running of an ECS task. However, resource initializing happens synchronously (EC2, etc.) and takes up to 5 minutes
+'''
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(10)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+status = get_container_status_response['status']
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+```
+
+# Advanced
+
+```
+import time
+import logging
+from aws_container_launcher import ContainerLauncher, RunStatus
+
+logger = logging
+logging.basicConfig(level=logging.INFO)
+
+acl = ContainerLauncher({
+    'monitoring_table_tags': {
+        'k1': 'v1',
+        'k2': 'v2'
+    },  # optional. It is tagging for the monitoring DynamoDB table.
+        # The DynamoDB table will be created if it doesn't exist and will be reused if it exists.
+    'logger': logger,
+    'region': 'us-east-1'
+})
+
+entry_id = str(time.time()).replace('.', '')
+
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],  # required
+    'docker_image': 'ubuntu:latest',  # required
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],  # required
+    'cpu': 1,  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+    'memory': 4,  # required. Alternatively, use the 'instance_type' parameter for 'cpu' and 'memory' parameters pair.
+    'id': entry_id,  # optional. The ID must be unique for each task.
+                     # Otherwise, you will get the same status for an already completed job.
+                     # If not provided, then ID will be generated automatically.
+    'ec2_sg_id': <security_group_id>,  # optional. Default: A default VPC security group
+    'tags': {
+        'k1': 'v1',
+        'k2': 'v2'
+    },  # optional
+    'is_spot': False,  # Default: True
+    'instance_type': 't3.micro',  # required. Alternatively, use 'cpu' and 'memory' parameters pair.
+                                     # The instance type has priority over 'cpu' and 'memory' parameters pair.
+    'storage': {
+        'type': 'fsx',  # fsx support only
+        'file_system_id': <file_system_id>,
+        'dir': '/fsx'  # It is a path to access FSx space from a docker container. Default: /fsx
+    },  # optional
+    'options': {
+        'scaling_enabled': True
+    }  # Used as a safety catch if you forgot to destroy the infrastructure after processing the job.
+       # If the CPU activity for the EC2 instance is less than 1 percent for 3 hours,
+       # the EC2 instance will be terminated by Auto Scaling Policy.
+}
+
+'''
+Asynchronously running of an ECS task.
+However, resource initializing happens synchronously (EC2, etc.)
+and takes up to 5 minutes
+'''
+start_container_response = acl.start_container(start_container_input)
+
+entry_id = start_container_response['entry_id']
+
+time.sleep(10)
+
+get_container_status_response = acl.get_container_status(entry_id)
+
+status = get_container_status_response['status']
+
+print(status)
+
+assert status == RunStatus.COMPLETED.name
+
+acl.destroy(entry_id)
+
+
+```
+
+# Storage
+
+## Amazon FSx for Lustre
+
+```
+start_container_input = {
+    'commands': [
+        'sleep 1'
+    ],
+    'docker_image': 'ubuntu:latest',
+    'subnet_ids': [<subnet_id_1>, <subnet_id_2>],
+    'cpu': 1,
+    'memory': 4,
+    'storage': {
+        'type': 'fsx',
+        'file_system_id': <file_system_id>,
+        'dir': '/fsx'
+    }
+}
+```
+
+# Security
+
+Currently, all IAM roles have policies with administrator rights. The roles will eventually be adjustable in the future.
