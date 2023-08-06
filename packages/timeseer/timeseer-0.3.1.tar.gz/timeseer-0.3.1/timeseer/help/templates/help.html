@@ -1,0 +1,61 @@
+{% extends 'timeseer.html' %}
+
+{% from 'macros.html' import menu %}
+
+{% macro help_menu(active) %}
+{{
+    menu(
+        'Help',
+        [
+            ('Getting started', url_for('help.display_help', sourcename=source_name)),
+            ('Admin documentation', url_for('help.display_admin_help', sourcename=source_name)),
+            ('Source documentation', url_for('sources.display_documentation_index', sourcename=source_name)),
+            ('Score documentation', url_for('help.display_score_help', sourcename=source_name)),
+            ('Compliance report', url_for('help.compliance_report', sourcename=source_name)),
+        ],
+        active,
+    )
+}}
+{% endmacro %}
+
+{% block menu %}
+{{ help_menu('Getting started') }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <h2 class="h4">Getting started</h2>
+</div>
+
+<div class="my-4">
+    <a class="btn btn-primary" href="mailto:feedback@timeseer.ai">Make a wish</a>
+    <a class="btn btn-primary" href="mailto:bugs@timeseer.ai">Report a bug</a>
+</div>
+
+<div class="my-5">
+    <h3 class="h5">Release notes</h3>
+    <h4 class="h6">0.3.4</h4>
+    <ul>
+        <li>
+            Allow selection of individual modules in univariate and multivariate blocks.
+        </li>
+        <li>
+            <a href="{{ url_for('config.manage_resources', sourcename=source_name) }}">Import and export of resources</a> from and to YAML is now possible.
+        </li>
+        <li>
+            The <a href="https://pypi.org/project/timeseer/">Python SDK</a> has been extended:
+            <ul>
+                <li>Allow creating resources from code, YAML, TOML or JSON.</li>
+                <li>Allow listing all sources exposed by a flow.</li>
+                <li>
+                    Uploading data does no longer require a source of type <code>upload</code>.
+                    When uploading,
+                    a <a href="{{ url_for('data_sets.list_data_sets', sourcename=source_name) }}">data set</a> will be created.
+                    Data sets can be used in flows and series sets.
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+{% endblock %}

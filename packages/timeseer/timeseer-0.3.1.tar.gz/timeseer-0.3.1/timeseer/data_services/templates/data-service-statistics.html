@@ -1,0 +1,70 @@
+{% extends 'timeseer.html' %}
+{% from 'data-service-header.html' import data_service_breadcrumb, data_service_header with context %}
+{% from 'macros.html' import menu_back, visualize_series %}
+
+{% block styles %}
+<style nonce="{{ csp_nonce }}">
+    .score-table {
+        table-layout: fixed;
+    }
+    .score-table .score-grouping {
+        width: 20%;
+    }
+    .score-table .score {
+        width: 20%;
+    }
+</style>
+{% endblock %}
+
+{% block menu %}
+{{ menu_back(url_for('data_services.show_data_service_view_evaluation', viewevaluationid=view_evaluation.db_id, sourcename=source_name)) }}
+{% endblock %}
+
+{% set title = 'Statistics' %}
+
+{% block breadcrumb %}
+{{
+    data_service_breadcrumb(view_evaluation, [title])
+}}
+{% endblock %}
+
+{% block csp_style %}
+'self' 'unsafe-inline'
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='dist/charts.js') }}" nonce="{{ csp_nonce }}"></script>
+{% endblock %}
+
+{% block main %}
+{{ data_service_header(view_evaluation, title) }}
+
+{% for evaluation, statistics in all_statistics|dictsort(reverse=true) %}
+<div class="accordion accordion-flush" id="accordion-{{loop.index}}">
+    {% if statistics|list|count > 0 %}
+    <h2 class="accordion-header" id="heading-{{loop.index}}">
+        <button class="accordion-button {% if loop.index != 1 %}collapsed{% endif %}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{loop.index}}" {% if loop.index != 1 %} aria-expanded="false" {% endif %} {% if loop.index == 1 %} aria-expanded="true" {% endif %} aria-controls="collapse-{{loop.index}}">
+            Statistics from {{ all_block_evaluations[evaluation].name }} ({{ all_block_evaluations[evaluation].flow_evaluation.group.flow.name}}) on {{ all_block_evaluations[evaluation].flow_evaluation.group.date|ts_datetime }}
+        </button>
+    </h2>
+    {% endif %}
+    <div id="collapse-{{loop.index}}" class="accordion-collapse {% if loop.index == 1 %}show{% endif %}{% if loop.index != 1 %}collapse {% endif %}" aria-labelledby="heading-{{loop.index}}" data-bs-parent="#accordion-{{loop.index}}">
+        {% if statistics|list|count > 0 %}
+        <div class="accordion-body">
+            {% include 'fragments/statistics-table.html' %}
+        </div>
+        {% else %}
+        <div class="alert alert-info mt-2">
+            No statistics available.
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endfor %}
+{% if all_statistics|count == 0 %}
+<div class="alert alert-info">
+    No statistics available.
+</div>
+{% endif %}
+{% endblock %}

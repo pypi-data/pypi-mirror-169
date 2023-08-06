@@ -1,0 +1,165 @@
+{% extends 'series-layout.html' %}
+
+{% from 'macros.html' import display_event_frame_checks, bootstrap_icon, pagination %}
+
+{% macro visualize_sorting(sort_field, sort_direction, field) %}
+    {% if sort_field == field %}
+        {% if sort_direction == 'asc' %}
+        {% set other_direction = 'desc' %}
+        {% else %}
+        {% set other_direction = 'asc' %}
+        {% endif %}
+        <a class="text-reset text-decoration-none" href="{{ url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame_type, startDate=start_date, endDate=end_date, sort=field, direction=other_direction, blockevaluationid=block_evaluation.db_id, kpi=kpi) }}">
+            {{ caller() }}
+            {% if sort_direction == 'desc' %}
+            <svg class="bi" width="16" height="16" fill="currentColor">
+                <use xlink:href="/static/dist/bootstrap-icons.svg#caret-down-fill"/>
+            </svg>
+            {% else %}
+            <svg class="bi" width="16" height="16" fill="currentColor">
+                <use xlink:href="/static/dist/bootstrap-icons.svg#caret-up-fill"/>
+            </svg>
+            {% endif %}
+        </a>
+    {% else %}
+        <a class="text-reset text-decoration-none" href="{{ url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame_type, startDate=start_date, endDate=end_date, sort=field, direction=sort_direction, blockevaluationid=block_evaluation.db_id, kpi=kpi) }}">
+            {{ caller() }}
+            {% if sort_direction == 'desc' %}
+            <svg class="bi text-secondary" width="16" height="16" fill="currentColor">
+                <use xlink:href="/static/dist/bootstrap-icons.svg#caret-down"/>
+            </svg>
+            {% else %}
+            <svg class="bi text-secondary" width="16" height="16" fill="currentColor">
+                <use xlink:href="/static/dist/bootstrap-icons.svg#caret-up"/>
+            </svg>
+            {% endif %}
+        </a>
+    {% endif %}
+{% endmacro %}
+
+{% block menu %}
+{{ series_menu('Event frames') }}
+{% endblock %}
+
+{% block series_title %}
+<h2 class="h4">{{ event_frame_type }}</h2>
+{% endblock %}
+
+{% block series_action %}
+<button type="submit"
+        class="btn btn-primary me-2"
+        form="eventframeselection"
+        formmethod="POST"
+        formaction="{{ url_for('.export_event_frames') }}">
+        Export to XLSX
+</button>
+{% endblock %}
+
+{% block series_content %}
+{% if checks_metadata|count > 0 %}
+{{ display_event_frame_checks(checks_metadata) }}
+{% endif %}
+
+{% if kpi %}
+<div class="mb-3">
+    <small class="text-muted">
+        Showing event frames for the <b>{{kpi}}</b> KPI.
+        {% if event_frame_duration %}
+        Minimal duration: {{event_frame_duration}}.
+        {% else %}
+        No filter configured.
+        {% endif %}
+    </small>
+</div>
+{% endif %}
+
+<form class="mb-3" id="eventframeselection">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <input type="hidden" name="seriesid" value="{{ series.series_id }}">
+    <input type="hidden" name="sort" value="{{ sort_field }}">
+    <input type="hidden" name="direction" value="{{ sort_direction }}">
+    <input type="hidden" name="type" value="{{ event_frame_type }}">
+    <input type="hidden" name="blockevaluationid" value="{{ block_evaluation.db_id }}">
+    <div class="row align-items-end gx-2">
+        <div class="col-lg">
+            <label for="startDateInput" class="col-form-label">Start date</label>
+            <input type="datetime-local" step="1" class="form-control" id="startDateInput" name="startDate" data-ts-datetime-value="{{ start_date }}">
+        </div>
+
+        <div class="col-lg">
+            <label for="endDateInput" class="col-form-label">End date</label>
+            <input type="datetime-local" step="1" class="form-control" id="endDateInput" name="endDate" data-ts-datetime-value="{{ end_date }}">
+        </div>
+        <div class="col-lg-auto mt-lg-0 mt-2">
+            <button type="submit" class="btn btn-secondary">List</button>
+        </div>
+    </div>
+
+</form>
+
+{% if event_frames %}
+{{ pagination(
+    paging,
+    url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame_type, startDate=start_date, endDate=end_date, page=paging.page-1, sort=sort_field, direction=sort_direction, blockevaluationid=block_evaluation.db_id, kpi=kpi),
+    url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame_type, startDate=start_date, endDate=end_date, page=paging.page+1, sort=sort_field, direction=sort_direction, blockevaluationid=block_evaluation.db_id, kpi=kpi)
+) }}
+<table class="ts-table table table-borderless">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col">
+                {% call visualize_sorting(sort_field, sort_direction, 'start_date') %}
+                    Start date
+                {% endcall %}
+            </th>
+            <th scope="col">
+                {% call visualize_sorting(sort_field, sort_direction, 'end_date') %}
+                    End date
+                {% endcall %}
+            </th>
+            <th scope="col">
+                {% call visualize_sorting(sort_field, sort_direction, 'duration') %}
+                    Duration
+                {% endcall %}
+            </th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for frame in event_frames %}
+        <tr class="border-bottom">
+            <td>{{ frame.start_date|ts_datetime }}</td>
+            {% if frame.end_date is not none %}
+            <td>{{ frame.end_date|ts_datetime }}</td>
+            <td>{{ (frame.end_date - frame.start_date)|timedeltaformat }}</td>
+            {% else %}
+            <td>-</td>
+            <td>-</td>
+            {% endif %}
+            <td>
+                <form action="{{ url_for('.chart') }}">
+                    <input type="hidden" name="seriesid" value="{{ series.series_id }}">
+                    <input type="hidden" name="startDate" value="{{ frame.start_date }}">
+                    {% if frame.end_date %}
+                    <input type="hidden" name="endDate" value="{{ frame.end_date }}">
+                    {% endif %}
+                    <input type="hidden" name="blockevaluationid" value="{{ block_evaluation.db_id }}">
+                    <input type="hidden" name="context" value="10">
+                    <input type="submit" class="btn btn-secondary btn-sm" value="Visualize">
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{{ pagination(
+    paging,
+    url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame_type, startDate=start_date, endDate=end_date, page=paging.page-1, sort=sort_field, direction=sort_direction, blockevaluationid=block_evaluation.db_id, kpi=kpi),
+    url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame_type, startDate=start_date, endDate=end_date, page=paging.page+1, sort=sort_field, direction=sort_direction, blockevaluationid=block_evaluation.db_id, kpi=kpi)
+) }}
+{% else %}
+<div class="alert alert-info">
+    No event frames available in this time frame.
+</div>
+{% endif %}
+
+{% endblock %}}
