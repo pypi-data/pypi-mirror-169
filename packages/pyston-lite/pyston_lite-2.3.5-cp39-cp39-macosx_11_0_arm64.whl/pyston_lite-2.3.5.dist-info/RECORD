@@ -1,0 +1,6 @@
+pyston_lite.cpython-39-darwin.so,sha256=LQlPqmdBFgF73cy8NRxrAppG4QN_pQd09sDONpWYOPE,289104
+pyston_lite.dylibs/libgcc_s.1.1.dylib,sha256=IZnitGdOma7gzufTQ05tmC3xfYLSRKDZgzPHKhWB_fA,112256
+pyston_lite-2.3.5.dist-info/RECORD,,
+pyston_lite-2.3.5.dist-info/WHEEL,sha256=oITnL8r4K9lhj-wWSHlE2XUA0J8WLXdegrKtvi_34zA,108
+pyston_lite-2.3.5.dist-info/top_level.txt,sha256=CUzlTx3JtlKdK7mTvPtpTnuvsk-LTz5FnosNT9v1uyY,12
+pyston_lite-2.3.5.dist-info/METADATA,sha256=eGXPsirRQM8l283GiZKEAggyGWW-h-KjdV4Jdhha8SI,509
