@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: l2term
+Version: 0.0.0
+Summary: Dynamically display a list to the terminal and provides a convenient way to display messages from concurrent asyncio or multiprocessing Pool processes.
+Home-page: https://github.com/soda480/l2term
+Author: Emilio Reyes
+Author-email: soda480@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+Use [list2term](https://pypi.org/project/list2term) instead.
