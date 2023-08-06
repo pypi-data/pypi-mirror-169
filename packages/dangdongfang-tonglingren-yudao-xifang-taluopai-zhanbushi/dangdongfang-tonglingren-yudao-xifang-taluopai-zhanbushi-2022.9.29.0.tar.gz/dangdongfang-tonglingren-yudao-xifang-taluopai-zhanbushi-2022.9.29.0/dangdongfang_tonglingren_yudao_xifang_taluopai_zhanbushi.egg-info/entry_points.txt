@@ -1,0 +1,4 @@
+[console_scripts]
+DangdongfangTonglingrenYudaoXifangTaluopaiZhanbushi = DangdongfangTonglingrenYudaoXifangTaluopaiZhanbushi.__main__:main
+dangdongfang-tonglingren-yudao-xifang-taluopai-zhanbushi = DangdongfangTonglingrenYudaoXifangTaluopaiZhanbushi.__main__:main
+
