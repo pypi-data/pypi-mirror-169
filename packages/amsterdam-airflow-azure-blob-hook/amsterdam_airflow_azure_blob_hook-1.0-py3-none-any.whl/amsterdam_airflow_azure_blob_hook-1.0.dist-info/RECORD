@@ -1,0 +1,5 @@
+azure_blob_hook/__init__.py,sha256=J0Ohk4WeHMgbMktiladcBhFGn-_ty6vReNwDagJoV7o,47
+azure_blob_hook/azure_blob_hook.py,sha256=hN8HkNkzyQaNZgEQ07TsYIZkZ63ak8od8ZCtSXAyi-A,8304
+amsterdam_airflow_azure_blob_hook-1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+amsterdam_airflow_azure_blob_hook-1.0.dist-info/METADATA,sha256=ZDgRF_F-1cq36651Z93j9h9ANhin0t1_7PbytJUlLNE,910
+amsterdam_airflow_azure_blob_hook-1.0.dist-info/RECORD,,
