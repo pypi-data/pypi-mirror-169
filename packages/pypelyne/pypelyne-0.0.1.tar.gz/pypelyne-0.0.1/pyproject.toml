@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools>=42"
+    , "pyodbc>=4.0.32"
+    , "servicepy>=1.0.0"
+    , "memdb>=0.0.4"
+    , "storagy>=1.0.0.dev1"]
+build-backend = "setuptools.build_meta"
