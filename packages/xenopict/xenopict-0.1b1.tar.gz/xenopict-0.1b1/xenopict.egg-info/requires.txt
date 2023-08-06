@@ -1,0 +1,7 @@
+matplotlib
+six>=1.13.0
+colorio
+numpy
+simplejson
+rdkit
+shapely
