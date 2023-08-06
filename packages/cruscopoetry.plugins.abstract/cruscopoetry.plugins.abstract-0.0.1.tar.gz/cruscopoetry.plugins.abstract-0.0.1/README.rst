@@ -1,0 +1,1 @@
+Package of abstract classes for the release of new CruscoPoetry plugins.
