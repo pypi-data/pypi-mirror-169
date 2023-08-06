@@ -1,0 +1,3 @@
+[console_scripts]
+blablamower=blablamower.__main__:main
+
