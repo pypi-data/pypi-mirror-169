@@ -1,0 +1,26 @@
+.gitattributes
+LICENSE
+README.md
+setup.py
+Example/Documentation.md
+Example/example framing.tif
+Example/example image 1.tif
+Example/example image 2.tif
+Example/example.ipynb
+Example/.ipynb_checkpoints/example-checkpoint.ipynb
+Example/images/Anaconda Navigator.png
+Example/images/Jupyter 1.png
+Example/images/Jupyter 2.png
+Example/images/Jupyter 3.png
+Example/images/Jupyter 4.png
+Example/images/Terminal 1.png
+Example/images/Untitled.ipynb
+Example/images/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+blobber/__init__.py
+blobber/blobber.py
+blobber/blobber_constants.py
+blobber.egg-info/PKG-INFO
+blobber.egg-info/SOURCES.txt
+blobber.egg-info/dependency_links.txt
+blobber.egg-info/requires.txt
+blobber.egg-info/top_level.txt
