@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: root_painter_trainer
+Version: 0.2.18.2
+Summary: Trainer (server component) for RootPainter
+Home-page: https://github.com/Abe404/root_painter
+Author: Abraham George Smith
+Author-email: UNKNOWN
+License: GPL-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
