@@ -1,0 +1,2 @@
+[hatch]
+pip-deepfreeze = hatch_pip_deepfreeze.hooks
