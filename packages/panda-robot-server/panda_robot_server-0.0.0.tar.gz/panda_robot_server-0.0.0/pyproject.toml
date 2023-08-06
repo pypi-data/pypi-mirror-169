@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "panda-robot-server"
+description = "Web Server to control the Franka Emika Panda robot."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "William Shen", email = "willshen@mit.edu" },
+]
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "License :: OSI Approved :: MIT License",
+]
+keywords = ["robotics", "panda"]
+dependencies = [
+    "sanic",
+    "pyjwt",
+    "requests",
+    # LISDF - comment out for now as pypi doesn't like it.
+    # "lisdf@git+https://github.com/Learning-and-Intelligent-Systems/lisdf.git",
+    # For motion planning
+    "pybullet",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/williamshen-nz/panda-robot-server"
+
+[project.optional-dependencies]
+lint = [
+    "isort",
+    "black",
+    "mypy",
+]
+tests = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+
+[tool.hatch.version]
+path = "panda_robot_server/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["panda_robot_server"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+

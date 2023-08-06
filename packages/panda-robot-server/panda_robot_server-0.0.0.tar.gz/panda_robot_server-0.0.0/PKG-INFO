@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: panda-robot-server
+Version: 0.0.0
+Summary: Web Server to control the Franka Emika Panda robot.
+Project-URL: Homepage, https://github.com/williamshen-nz/panda-robot-server
+Author-email: William Shen <willshen@mit.edu>
+License-File: LICENSE
+Keywords: panda,robotics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: pybullet
+Requires-Dist: pyjwt
+Requires-Dist: requests
+Requires-Dist: sanic
+Provides-Extra: lint
+Requires-Dist: black; extra == 'lint'
+Requires-Dist: isort; extra == 'lint'
+Requires-Dist: mypy; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-cov; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# panda-robot-server
+
+[![PyPI - Version](https://img.shields.io/pypi/v/panda-robot-server.svg)](https://pypi.org/project/panda-robot-server)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/panda-robot-server.svg)](https://pypi.org/project/panda-robot-server)
+
+HTTP Server to control the Franka Emika Panda robot.
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install panda-robot-server
+```
+
+## License
+
+`panda-robot-server` is distributed under the terms of the [MIT license](LICENSE).
