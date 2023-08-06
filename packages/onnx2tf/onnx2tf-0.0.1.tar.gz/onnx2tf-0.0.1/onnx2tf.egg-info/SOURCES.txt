@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+onnx2tf/__init__.py
+onnx2tf/__main__.py
+onnx2tf/onnx2tf.py
+onnx2tf.egg-info/PKG-INFO
+onnx2tf.egg-info/SOURCES.txt
+onnx2tf.egg-info/dependency_links.txt
+onnx2tf.egg-info/entry_points.txt
+onnx2tf.egg-info/top_level.txt
