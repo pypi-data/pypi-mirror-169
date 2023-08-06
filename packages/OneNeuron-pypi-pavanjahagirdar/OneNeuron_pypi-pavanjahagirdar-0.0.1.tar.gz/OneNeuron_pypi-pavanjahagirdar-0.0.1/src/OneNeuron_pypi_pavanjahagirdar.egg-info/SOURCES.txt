@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/OneNeuron_pypi_pavanjahagirdar.egg-info/PKG-INFO
+src/OneNeuron_pypi_pavanjahagirdar.egg-info/SOURCES.txt
+src/OneNeuron_pypi_pavanjahagirdar.egg-info/dependency_links.txt
+src/OneNeuron_pypi_pavanjahagirdar.egg-info/requires.txt
+src/OneNeuron_pypi_pavanjahagirdar.egg-info/top_level.txt
