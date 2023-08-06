@@ -1,0 +1,2 @@
+[console_scripts]
+rare = rare.__main__:main
