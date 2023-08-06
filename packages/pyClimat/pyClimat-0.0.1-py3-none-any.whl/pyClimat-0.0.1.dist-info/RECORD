@@ -1,0 +1,11 @@
+pyClimat/__init__.py,sha256=Z66pOVbqqc4n7XzjX7Crrkto4MYifcWbJDiaGw7kpak,396
+pyClimat/analysis.py,sha256=J9YbR3gP2g1no7i8cdOT2loSczFffI0Eh3AYh4QqLxo,36944
+pyClimat/data.py,sha256=kOIrf27TIbe2gsbEMyvIaoaH7vgD_2TXCL0zY7_TcBc,5902
+pyClimat/gtopo.py,sha256=1jTHaVd_pZhlb3kJWB28mHVbp7Nyg72z04fn5EpCf9o,12592
+pyClimat/plot_utils.py,sha256=FvlV42ylCj1LRmWA8qCWuO-hGdWpfA1yY5hI1MJoq8E,8796
+pyClimat/plots.py,sha256=VKvxfd-A3lriFA0AS4itX6t0CijW5DqmWUJQ62r8RuI,62993
+pyClimat/utils.py,sha256=4CYAqgLjhWQ9BBzAOFvXjPac4n3lfxmgt8lNQCv2fDg,1055
+pyClimat-0.0.1.dist-info/METADATA,sha256=v0ed9D7CrKjxrqUjy_DuBz4YcM6jyAz1fv6yHFl2Kps,2322
+pyClimat-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyClimat-0.0.1.dist-info/top_level.txt,sha256=ah5b63ZwwjqsozIvKY4sCfHlAmPqrUy3f8Q_A-cHESk,9
+pyClimat-0.0.1.dist-info/RECORD,,
