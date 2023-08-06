@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+./cloudbatch/__init__.py
+./cloudbatch/cloudbatch.py
+./cloudbatch/cloudbatch_apply.py
+cloudbatch.egg-info/PKG-INFO
+cloudbatch.egg-info/SOURCES.txt
+cloudbatch.egg-info/dependency_links.txt
+cloudbatch.egg-info/requires.txt
+cloudbatch.egg-info/top_level.txt
