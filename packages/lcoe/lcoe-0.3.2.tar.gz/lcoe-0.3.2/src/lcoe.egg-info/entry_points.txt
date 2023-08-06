@@ -1,0 +1,2 @@
+[console_scripts]
+lcoe = lcoe.lcoe:run
