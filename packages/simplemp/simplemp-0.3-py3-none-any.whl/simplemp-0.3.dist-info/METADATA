@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simplemp
+Version: 0.3
+Summary: A Python Library For Mediapipe
+Home-page: https://www.moyalab.com
+Download-URL: https://www.moyalab.com
+Author: devdio
+Author-email: kei.devdio@gmail.com
+Keywords: AI,Robot,CV,Mediapipe
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-contrib-python
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe (==0.8.10.1)
+
+## Package for Simple Mediapipe
+
+
+
