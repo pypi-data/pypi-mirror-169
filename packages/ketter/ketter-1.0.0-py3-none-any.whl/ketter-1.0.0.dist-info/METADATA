@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ketter
+Version: 1.0.0
+Author-email: Kelsey Mwongeli <kelseykm.git@gmail.com>
+License-File: LICENSE
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: tqdm
+
