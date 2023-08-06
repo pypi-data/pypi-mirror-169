@@ -1,0 +1,13 @@
+famiterm/__init__.py,sha256=aAEVz4d-aaDNczoJNXtdKtz9vukf5x7-D_HcKvVPEB8,42
+famiterm/nesapu.cpython-38-darwin.so,sha256=JvdRJNur6VRCX0AoHFT-CR0nf7Ksu2KqYutOZjPC1AU,109904
+famiterm/nescpu.cpython-38-darwin.so,sha256=8FpoF8YWJnKa-VLsYzSVMkzIxFSwq_jdwbWBrfq_RRM,133728
+famiterm/nesppu.cpython-38-darwin.so,sha256=kFm-XMmosPGYjKdenbGjbajlxhUDkzAxVTYX1FEgcVg,69304
+famiterm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+famiterm/run.py,sha256=GtWeuyH0Zf4sHiiRcoA6-KzH3hVtLRwA_0ziuf02zvU,31275
+famiterm/ssh.py,sha256=gK_3A5AnoUBOKoSsgfUkoJ-Hknbict8ybS4OaCvgdxw,227
+famiterm-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+famiterm-0.1.1.dist-info/METADATA,sha256=ukpMSzRJNZIAhZ5LfbtRJ9-HFwCr-8sviwgxc19EaIM,995
+famiterm-0.1.1.dist-info/WHEEL,sha256=pXLpj1wTvqlD6RVUEKOuGQGeFX0NOPyDrsC-9xVDmYU,109
+famiterm-0.1.1.dist-info/entry_points.txt,sha256=-3y9PMSAuKboc1VqmlgS4jT0AlHPLbcnpUGSyJ4iTgc,76
+famiterm-0.1.1.dist-info/top_level.txt,sha256=DuSj71BkKAjOvW44B7CBwOl_6adJhZSbapv7m0GaOTM,9
+famiterm-0.1.1.dist-info/RECORD,,
