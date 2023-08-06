@@ -1,0 +1,12 @@
+ciso8601
+httpx
+requests
+six
+
+[dev]
+nose
+pipreqs
+twine
+
+[sqlalchemy]
+sqlalchemy
