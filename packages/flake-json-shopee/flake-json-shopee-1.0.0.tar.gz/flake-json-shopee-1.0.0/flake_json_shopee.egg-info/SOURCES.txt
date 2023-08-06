@@ -1,0 +1,6 @@
+README.md
+setup.py
+flake_json_shopee.egg-info/PKG-INFO
+flake_json_shopee.egg-info/SOURCES.txt
+flake_json_shopee.egg-info/dependency_links.txt
+flake_json_shopee.egg-info/top_level.txt
