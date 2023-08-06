@@ -1,0 +1,4 @@
+[console_scripts]
+LingjixianDiwuZhenyan = LingjixianDiwuZhenyan.__main__:main
+lingjixian-diwu-zhenyan = LingjixianDiwuZhenyan.__main__:main
+
