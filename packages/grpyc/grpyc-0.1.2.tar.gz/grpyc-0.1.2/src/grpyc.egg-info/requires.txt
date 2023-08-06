@@ -1,0 +1,2 @@
+grpcio-tools>=1.49.1
+Click
