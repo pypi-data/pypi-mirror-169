@@ -1,0 +1,11 @@
+License.txt
+README.md
+setup.py
+neural_chat/__init__.py
+neural_chat/main.py
+neural_chat/voice_assistant.py
+neural_chat.egg-info/PKG-INFO
+neural_chat.egg-info/SOURCES.txt
+neural_chat.egg-info/dependency_links.txt
+neural_chat.egg-info/requires.txt
+neural_chat.egg-info/top_level.txt
