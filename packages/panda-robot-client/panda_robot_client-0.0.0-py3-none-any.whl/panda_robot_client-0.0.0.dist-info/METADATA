@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: panda-robot-client
+Version: 0.0.0
+Summary: Python Client for calling the web server for the Franka Emika Panda robot.
+Project-URL: Homepage, https://github.com/williamshen-nz/panda-robot-client
+Author-email: William Shen <willshen@mit.edu>
+License-File: LICENSE
+Keywords: panda,robotics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: pyjwt
+Requires-Dist: requests
+Provides-Extra: lint
+Requires-Dist: black; extra == 'lint'
+Requires-Dist: isort; extra == 'lint'
+Requires-Dist: mypy; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-cov; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# panda-robot-client
+
+[![PyPI - Version](https://img.shields.io/pypi/v/panda-robot-client.svg)](https://pypi.org/project/panda-robot-client)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/panda-robot-client.svg)](https://pypi.org/project/panda-robot-client)
+
+Python Client for calling the web server for the Franka Emika Panda robot.
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install panda-robot-client
+```
+
+## License
+
+`panda-robot-client` is distributed under the terms of the [MIT license](LICENSE).
