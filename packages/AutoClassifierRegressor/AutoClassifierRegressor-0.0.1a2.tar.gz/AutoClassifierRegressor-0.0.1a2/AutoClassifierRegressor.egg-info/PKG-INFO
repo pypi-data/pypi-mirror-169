@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: AutoClassifierRegressor
+Version: 0.0.1a2
+Summary: Tools for getting analysis of all classifiers and regressors
+Home-page: https://github.com/anagha-bhople/auto_classifier_regressor
+Author: Anagha Bhople
+Author-email: Anagha Bhople <bhoplea34@gmail.com>, Swapnil Dewalkar <swapnildewalkar1995@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2022] [Anagha Bhople]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/anagha-bhople/auto_classifier_regressor
+Project-URL: Bug Tracker, https://github.com/anagha-bhople/auto_classifier_regressor/issues
+Keywords: ML classifier regressor neural network sklearn analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+## For Regression call this function with following parameters
+
+##### regression_report_generation(dataframe, target=target_column_name)
+
+## For Classification call this function with following parameters
+
+##### classification_report_generation(dataframe, target_column_name, n=2)
+
+    1. put n=2 for binary classification
+    2. for multiclass classification put n=no of classes
+
+## prerequisite:
+
+    1. Label Encode all Categorical Variables including target classification variable
+    2. Install all dependancies

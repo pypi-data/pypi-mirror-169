@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+AutoClassifierRegressor/ReportGenerator.py
+AutoClassifierRegressor/__init__.py
+AutoClassifierRegressor.egg-info/PKG-INFO
+AutoClassifierRegressor.egg-info/SOURCES.txt
+AutoClassifierRegressor.egg-info/dependency_links.txt
+AutoClassifierRegressor.egg-info/requires.txt
+AutoClassifierRegressor.egg-info/top_level.txt
