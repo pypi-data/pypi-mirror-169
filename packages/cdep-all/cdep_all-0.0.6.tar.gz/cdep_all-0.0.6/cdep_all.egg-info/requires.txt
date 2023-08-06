@@ -1,0 +1,6 @@
+
+[subpackage_a]
+cdep_all[subpackage_a]
+
+[subpackage_b]
+cdep_all[subpackage_b]

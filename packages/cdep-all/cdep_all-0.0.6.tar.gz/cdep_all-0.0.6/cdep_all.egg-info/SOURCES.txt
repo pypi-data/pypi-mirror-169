@@ -1,0 +1,7 @@
+setup.py
+cdep_all.egg-info/PKG-INFO
+cdep_all.egg-info/SOURCES.txt
+cdep_all.egg-info/dependency_links.txt
+cdep_all.egg-info/requires.txt
+cdep_all.egg-info/top_level.txt
+cdepall/__init__.py
