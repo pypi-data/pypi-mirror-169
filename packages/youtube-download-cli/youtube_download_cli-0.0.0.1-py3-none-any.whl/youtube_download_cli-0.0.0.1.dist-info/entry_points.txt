@@ -1,0 +1,3 @@
+[console_scripts]
+youtube-download-cli = youtube_download_cli.command_line:main
+
