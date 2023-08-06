@@ -1,0 +1,11 @@
+.gitignore
+Makefile
+README.md
+pyproject.toml
+example/demo.py
+logcontext/__init__.py
+logcontext/_main.py
+logcontext.egg-info/PKG-INFO
+logcontext.egg-info/SOURCES.txt
+logcontext.egg-info/dependency_links.txt
+logcontext.egg-info/top_level.txt
