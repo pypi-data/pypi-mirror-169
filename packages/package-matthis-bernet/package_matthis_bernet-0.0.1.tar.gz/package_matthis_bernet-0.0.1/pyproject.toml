@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "package_matthis_bernet"
+version = "0.0.1"
+authors = [
+  { name="Matthis_package_TP2", email="matthis.bernet@isen.yncrea.fr" },
+]
+description = "Package du TP2 de Matthis Bernet"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MattiZZZ241/M1-2022-git-workflow"
