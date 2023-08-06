@@ -1,0 +1,11 @@
+desc_dict_io/__init__.py,sha256=PK3iJGjL6VMtXnw4Lmwb2eYzp33rha8Qc6LfPBNLTJQ,451
+desc_dict_io/_version.py,sha256=0-JtCJyVj1i20nXvIr-QsJZ-UgaBFIu9bdQTF7B9UP8,171
+desc_dict_io/errors.py,sha256=LPv9r2oye_4LWjU9o6iF1YVm_taAxBkvsf-IvM_al3M,350
+desc_dict_io/ioUtils.py,sha256=Biu8j2o6ogKoGiT6jQFydmvBkVkU97BFgcQGoCFknBE,20832
+desc_dict_io/types.py,sha256=758hP7hQXADAY2qdphNL-9CvQVQiJVDGDz93bTx0lgg,624
+desc_dict_io/utils.py,sha256=gGXjdTCqSOKwaM7pqebXUETpUp2SzyAW-OWHSScL0Xg,2346
+desc_dict_io-0.2.dist-info/LICENSE,sha256=UxaFZh-4juxT4bnDq-MbA-peHjeY7adJd7e-O5AtL0U,1553
+desc_dict_io-0.2.dist-info/METADATA,sha256=gepQXDcNZ2P59nnXfTUvx17aV7HyFa4DkV_IpyvILm8,3317
+desc_dict_io-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+desc_dict_io-0.2.dist-info/top_level.txt,sha256=xg33g_EG7OQtiMlvWmzLMYw_U49CQFnLqJfKBKSvd3g,13
+desc_dict_io-0.2.dist-info/RECORD,,
