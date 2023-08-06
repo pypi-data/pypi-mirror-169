@@ -1,0 +1,11 @@
+prefect_soda_core/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+prefect_soda_core/_version.py,sha256=SadwA18Ua2pej47XlTVeF0Q9uioL_40IQ2Yk9d9C3Bg,497
+prefect_soda_core/exceptions.py,sha256=UJjvoqdjBjjCKwqeMqqKc4OCIGRYj4XUugenMVilixk,220
+prefect_soda_core/soda_configuration.py,sha256=Q-Tu4hFPljWiJNH0AKeIp8vg9L4Xj806RzYtMmInziE,2797
+prefect_soda_core/sodacl_check.py,sha256=ypuqaBHRTzg_206TVEKg5dlOyaywBTgEXgyifPwuNCY,2457
+prefect_soda_core/tasks.py,sha256=uJx66jReSNlbM__R067y9CC-rNCFRcT_we49GogrROg,3514
+prefect_soda_core-0.1.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_soda_core-0.1.1.dist-info/METADATA,sha256=vABITsa32UQPT9Y_XI6HCFLw5zAK3y0G5SFp0gNoTD0,4764
+prefect_soda_core-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_soda_core-0.1.1.dist-info/top_level.txt,sha256=Rjcy-KNWnBBM-ewXDSCyxczXKKN3XG6dW9lzAMXM9uY,18
+prefect_soda_core-0.1.1.dist-info/RECORD,,
