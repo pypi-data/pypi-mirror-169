@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+trace_skeleton.c
+trace_skeleton.i
+trace_skeleton.py
+trace_skeleton.egg-info/PKG-INFO
+trace_skeleton.egg-info/SOURCES.txt
+trace_skeleton.egg-info/dependency_links.txt
+trace_skeleton.egg-info/top_level.txt
