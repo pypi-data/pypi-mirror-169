@@ -1,0 +1,6 @@
+swap_schema_operator/__init__.py,sha256=M8bp5mmTafkC2MirCGL3Sg29EDAoQX5-V37nyd_44v4,36
+swap_schema_operator/swap_schema_operator.py,sha256=BxqMU2Yg0ej48wW1Ku5krMq8U2N2Xg1bV0pMrmhDggA,3126
+amsterdam_airflow_swap_schema_operator-1.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amsterdam_airflow_swap_schema_operator-1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+amsterdam_airflow_swap_schema_operator-1.1.dist-info/METADATA,sha256=AnwaX68dsFZORf7xtFMr7PdNtzGWScc6HwRXTn0culc,953
+amsterdam_airflow_swap_schema_operator-1.1.dist-info/RECORD,,
