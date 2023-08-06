@@ -1,0 +1,4 @@
+requests
+pandas
+scipy
+alice_blue
