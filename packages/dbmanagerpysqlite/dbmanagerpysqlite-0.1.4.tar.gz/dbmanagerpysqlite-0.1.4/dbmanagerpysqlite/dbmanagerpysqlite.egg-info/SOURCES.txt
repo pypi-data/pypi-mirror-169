@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+dbmanagerpysqlite/dbmanagerpysqlite.egg-info/PKG-INFO
+dbmanagerpysqlite/dbmanagerpysqlite.egg-info/SOURCES.txt
+dbmanagerpysqlite/dbmanagerpysqlite.egg-info/dependency_links.txt
+dbmanagerpysqlite/dbmanagerpysqlite.egg-info/top_level.txt
