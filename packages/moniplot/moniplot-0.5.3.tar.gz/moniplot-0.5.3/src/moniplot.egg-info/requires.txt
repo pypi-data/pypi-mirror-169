@@ -1,0 +1,7 @@
+h5py>=2.1
+matplotlib>=3.3
+numpy>=1.19
+xarray>=0.19
+
+[toml]
+toml
