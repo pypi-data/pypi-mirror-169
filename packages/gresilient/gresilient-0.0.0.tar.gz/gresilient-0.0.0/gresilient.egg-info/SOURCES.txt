@@ -1,0 +1,6 @@
+setup.py
+gresilient/__init__.py
+gresilient.egg-info/PKG-INFO
+gresilient.egg-info/SOURCES.txt
+gresilient.egg-info/dependency_links.txt
+gresilient.egg-info/top_level.txt
