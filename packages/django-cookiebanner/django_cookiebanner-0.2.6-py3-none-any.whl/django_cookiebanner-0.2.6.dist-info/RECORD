@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=4eicSdBBqkQD5xIz6NXj6PVs_sSjw1CZO9hKLIbDq74,134
+cookiebanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookiebanner/locale/de/LC_MESSAGES/django.mo,sha256=9l_UVKVbcm3mRpadwYEMjqye3NAuXasDaw16mTDtGS8,517
+cookiebanner/locale/de/LC_MESSAGES/django.po,sha256=Dik_iE644PrhUGxvhkvc1qyLpr6QyqEJhFcPaGaUa4o,897
+cookiebanner/templates/cookiebanner/bootstrap4.html,sha256=OiTa1W5hXZpDjaENCwc7sSwnRKSpUEgJwC9m1u8COlI,5780
+cookiebanner/templates/cookiebanner/vanilla.html,sha256=GUBN_w3-c28WjOFYKJMfQJj6zzhwQtfRBDYmVzeeuOk,6746
+cookiebanner/templatetags/cookiebanner.py,sha256=Tri4MOwKO8J5HMkEB8UN-PJe5x1KDsSDQyth2llLFdI,1826
+django_cookiebanner-0.2.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_cookiebanner-0.2.6.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+django_cookiebanner-0.2.6.dist-info/METADATA,sha256=l7Gr3NssTBgCY8DFTswdEKHIFCNu1iIyHc0pqHrBk9k,2773
+django_cookiebanner-0.2.6.dist-info/RECORD,,
