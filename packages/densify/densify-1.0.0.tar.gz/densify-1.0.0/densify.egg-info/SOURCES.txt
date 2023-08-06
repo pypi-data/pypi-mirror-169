@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+densify/__init__.py
+densify/animate_densify.py
+densify/densify.py
+densify.egg-info/PKG-INFO
+densify.egg-info/SOURCES.txt
+densify.egg-info/dependency_links.txt
+densify.egg-info/top_level.txt
