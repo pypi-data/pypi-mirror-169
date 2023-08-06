@@ -1,0 +1,10 @@
+boards/__init__.py,sha256=hwazEJvhB8rbL4D3rNDNREPXDY-e1NHYpTrkTIVUfmM,123
+boards/__main__.py,sha256=cK04fQOUWkShMqoHuyI-nRPID8G5esfTjZ-X36DtOUU,102
+boards/app.py,sha256=dBjM8ylQLHGAqI2JIS_yh2Xgu6OPYVlCLaXs8zIysmM,1821
+boards/board.py,sha256=zv1Gv9R7PHRwYXH2Nt_9fJfA0ydBC9W24OZkAJhIZPc,17669
+boards/cli.py,sha256=OXhFK9ZxzlscDn8v77_CKfXVRdrk45JXYxlFUwVLbvc,3147
+zillionare_ths_boards-0.1.1.dist-info/entry_points.txt,sha256=zU2G6kAzsp0lq0qwPmoJrKg9-bUnX88tp5OskkBklEY,42
+zillionare_ths_boards-0.1.1.dist-info/LICENSE,sha256=c9pjf9uJq0VfWE_WGcxRS6HvfCQLxn3N4b65ET8S6dQ,1068
+zillionare_ths_boards-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+zillionare_ths_boards-0.1.1.dist-info/METADATA,sha256=5O3xL48JkxK7JgKFjpGIMGc06yXGYpBQ_tPPMLs3XlE,5395
+zillionare_ths_boards-0.1.1.dist-info/RECORD,,
