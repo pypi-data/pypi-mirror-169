@@ -1,0 +1,14 @@
+README.md
+setup.py
+processamento_imagem_desafioDIO/__init__.py
+processamento_imagem_desafioDIO.egg-info/PKG-INFO
+processamento_imagem_desafioDIO.egg-info/SOURCES.txt
+processamento_imagem_desafioDIO.egg-info/dependency_links.txt
+processamento_imagem_desafioDIO.egg-info/requires.txt
+processamento_imagem_desafioDIO.egg-info/top_level.txt
+processamento_imagem_desafioDIO/executar/__init__.py
+processamento_imagem_desafioDIO/executar/entradasaida.py
+processamento_imagem_desafioDIO/executar/plotar.py
+processamento_imagem_desafioDIO/processamento/__init__.py
+processamento_imagem_desafioDIO/processamento/combinar.py
+processamento_imagem_desafioDIO/processamento/transformar.py
