@@ -1,0 +1,17 @@
+dymax/__init__.py,sha256=qHZrkxLN3aKKwSM9BhCCJAeOrjk_7aN3ePGw6WWA8GA,181
+dymax/constants.py,sha256=cbnjnCBOSwvaJSkyRdq6cJ_5EIXstW90-ndWr8lFxD8,4292
+dymax/convert.py,sha256=VBTq6c5Gw72lsvM0vwMW5cr-k4FgaoMsuQywkPNTMfE,13501
+dymax/examples.py,sha256=kIdCTSjR-Fw_8jRaAuOJJWGHvpAZKvxm5NNO7Y_T760,15880
+dymax/io.py,sha256=XXB338rXhkoGpU1Hjxch5d1OixtopSV98VH5XWB2gjM,4538
+dymax/data/bmng.jpg,sha256=EPU4mzZdfs6J9opzzlZT-1aSFF_eGB_GRZbQ2Hy4m7g,2311548
+dymax/data/etopo1.jpg,sha256=3bQ54ee0l11e6QTYmnxKjmdtaAgJtfsDmWl2FUGV3iI,1340111
+dymax/data/gshhs_c.xz,sha256=0LVE93RsWIeCJ77A_sCotjOWDDkRgY0ePvBG7Y3B6hI,119704
+dymax/data/gshhs_f.xz,sha256=ucs4lhzCKhDB-Kxq7dhOoTyCv5BncwbDcP1W-jKZatk,39799344
+dymax/data/gshhs_h.xz,sha256=qZwox5mcDFGXOC39lxS6-6dklxhX_Fsjy3lQCczSOkA,11137020
+dymax/data/gshhs_i.xz,sha256=7tY_rZ1XehShXWMyoua8YSfaNRYMtLr93SeayRCC56s,3040012
+dymax/data/gshhs_l.xz,sha256=J7Xn30oMStBa4fXt8eE_XM5AWqe-foFn3nfqdHr6wus,727268
+dymax-1.1.3.dist-info/LICENSE,sha256=cHT7ZoGPu8dx5SuyWwJzpYak7UK_Ickjt-iAzxqVl-k,20851
+dymax-1.1.3.dist-info/METADATA,sha256=1kYeXv1m7qE7RU77dNlps-dbOrYrakC2LXDx1hArAew,768
+dymax-1.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dymax-1.1.3.dist-info/top_level.txt,sha256=tR4oWESf2Vi9gbHLWTu-pIygCjVobPMfEr8oIn2_wVc,6
+dymax-1.1.3.dist-info/RECORD,,
