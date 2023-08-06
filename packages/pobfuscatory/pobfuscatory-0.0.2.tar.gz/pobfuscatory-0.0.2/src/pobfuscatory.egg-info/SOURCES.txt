@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pobfuscatory/__init__.py
+src/pobfuscatory/__main__.py
+src/pobfuscatory/obfuscator.py
+src/pobfuscatory.egg-info/PKG-INFO
+src/pobfuscatory.egg-info/SOURCES.txt
+src/pobfuscatory.egg-info/dependency_links.txt
+src/pobfuscatory.egg-info/requires.txt
+src/pobfuscatory.egg-info/top_level.txt
