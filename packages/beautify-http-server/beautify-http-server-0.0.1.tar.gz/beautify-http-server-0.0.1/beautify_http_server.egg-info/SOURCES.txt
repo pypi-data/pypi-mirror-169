@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+beautify_http_server.egg-info/PKG-INFO
+beautify_http_server.egg-info/SOURCES.txt
+beautify_http_server.egg-info/dependency_links.txt
+beautify_http_server.egg-info/entry_points.txt
+beautify_http_server.egg-info/requires.txt
+beautify_http_server.egg-info/top_level.txt
+http_server/__init__.py
+http_server/server.py
+http_server/templates/base.template
+http_server/templates/file.template
+http_server/templates/listing.template
