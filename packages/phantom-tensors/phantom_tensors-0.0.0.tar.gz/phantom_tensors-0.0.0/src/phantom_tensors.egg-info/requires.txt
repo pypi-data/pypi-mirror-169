@@ -1,0 +1,10 @@
+typing-extensions>=4.1.0
+
+[beartype]
+beartype>=0.10.4
+
+[numpy]
+numpy>=1.21.0
+
+[torch]
+torch>=1.7.0
