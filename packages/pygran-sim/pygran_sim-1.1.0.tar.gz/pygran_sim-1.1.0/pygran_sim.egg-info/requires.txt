@@ -1,0 +1,9 @@
+numpy
+scipy
+
+[extras]
+mpi4py
+
+[tests]
+pytest
+pytest-cov
