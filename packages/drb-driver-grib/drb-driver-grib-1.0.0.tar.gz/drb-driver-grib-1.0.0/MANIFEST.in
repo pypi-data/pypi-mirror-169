@@ -1,0 +1,2 @@
+include versioneer.py
+include drb_driver_grib/_version.py
