@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pylint-codeclimate
+Version: 0.1.0
+Summary: TODO
+Home-page: https://gitlab.com/jlecomte/projects/flasket
+Author: Julien Lecomte
+Author-email: julien@lecomte.at
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9.*
+Description-Content-Type: text/markdown
+
