@@ -1,0 +1,8 @@
+setup.py
+simple_preprocessing/__init__.py
+simple_preprocessing/encoder_switcher.py
+simple_preprocessing.egg-info/PKG-INFO
+simple_preprocessing.egg-info/SOURCES.txt
+simple_preprocessing.egg-info/dependency_links.txt
+simple_preprocessing.egg-info/requires.txt
+simple_preprocessing.egg-info/top_level.txt
