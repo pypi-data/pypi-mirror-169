@@ -1,0 +1,3 @@
+[console_scripts]
+scriptmerge=scriptmerge.main:main
+

@@ -1,0 +1,9 @@
+scriptmerge/__init__.py,sha256=hYtTe5Ts4-5_e_bw9REi7qBPWR2j_CGXhCLOls6g1es,12644
+scriptmerge/main.py,sha256=-IbJZJR0RpA9lP3MWvmo7vqIgW4xGNaE7xJqm_Cs_sg,1402
+scriptmerge/prelude.py,sha256=XII0M0DOkYIxWukhcGEGv9r91rHdxTt1MrKDd_x27Eo,1160
+scriptmerge/stdlib.py,sha256=JyArcrQIldnSqeN75wq35BMPwfZR4ZD36778LXvVSo4,4563
+scriptmerge-1.0.0.dist-info/entry_points.txt,sha256=2wJZM7h8c9MtDU8fjFUSUFTvnNibdNsdAQAL0i3Hy5c,53
+scriptmerge-1.0.0.dist-info/LICENSE,sha256=dp3kv3IfVed65MJ393qBvdI62qoQkOxif1g3ejnq_n8,1307
+scriptmerge-1.0.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+scriptmerge-1.0.0.dist-info/METADATA,sha256=nhazw6JVeF-UWE8Qdz-Xdl_e5jZhQrMHUMkufe_jWqg,4837
+scriptmerge-1.0.0.dist-info/RECORD,,
