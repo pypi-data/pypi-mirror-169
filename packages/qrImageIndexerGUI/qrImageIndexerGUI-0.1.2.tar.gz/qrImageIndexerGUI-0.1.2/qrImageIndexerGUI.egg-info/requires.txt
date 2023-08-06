@@ -1,0 +1,10 @@
+qrImageIndexer>=0.7.3
+PyMuPDF
+pillow
+natsort
+
+[dev]
+pytest
+bumpver
+setuptools
+pytest-mock
