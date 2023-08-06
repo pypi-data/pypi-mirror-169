@@ -1,0 +1,8 @@
+n3d3/libN3D3.cpython-36m-x86_64-linux-gnu.so,sha256=cBDgHdge9xSv9BVkL03cOoZXCT7HIMMDzbQaw7MxXm0,1772408
+n3d3/__init__.py,sha256=PsqKWwCUxMLqL_nEZo0tgcQ1mp_taK4UyBGA0vOi1uY,27
+n3d3/tensor.py,sha256=NTpyZFJEyhuiin5usguyMnWrr-Pkst0TiqWmiIbi1xI,1513
+n3d3-0.0.2.dist-info/top_level.txt,sha256=nc4PQCGUcTGtFbfd8GGlt2JPp0xKQinObPhRdkxc_K0,13
+n3d3-0.0.2.dist-info/LICENSE,sha256=tI9dwW8UTNed2q3OPMjvGDd4oLT3WrQ2LhNLNHyiDz0,21863
+n3d3-0.0.2.dist-info/METADATA,sha256=I4AwMrVwTZ4nWYCRehyqpzW864Ee-xjOhA36JYfN76Q,1624
+n3d3-0.0.2.dist-info/RECORD,,
+n3d3-0.0.2.dist-info/WHEEL,sha256=FGGRUrvefXOiAJfyJCZAiu4TpTMkXB_CzdEp3x2T96E,150
