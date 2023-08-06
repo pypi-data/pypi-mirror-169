@@ -1,0 +1,11 @@
+osgeonorge/__init__.py,sha256=Fc7SheGiwpkrv9cp0BLUKSHPCjSQbXAmDU-5uAL-tNE,124
+osgeonorge/__main__.py,sha256=5jVwA5Ld_BAqc-5LCzJHewBurAFxiWq01imkTN4_k-g,345
+osgeonorge/geonorge.py,sha256=VBu9EW63ax4ZQTmAxWOcJ4nvaUo4Y65x9kHpjQjs4hc,27974
+osgeonorge/grassgis.py,sha256=hqc_Vg3IrsJHXj_W_ifjEsOji21rsunkTpeNNhBQI1I,1892
+osgeonorge/postgis.py,sha256=jPDPVcMhCyznd7FgCp9Rsvismgl8Jk_H3QliK8tlPxI,22836
+osgeonorge/postgres.py,sha256=xcx6GHpE53EZBAMwPtW9HnB2Zzh15Yzg4XsP8HLvTmI,15302
+osgeonorge/sosi.py,sha256=9qnawqlaGLP127hOFqUQIFE6I2y92Pui9NuFVBuO78Y,6315
+osgeonorge/utils.py,sha256=tspH4aUZMH1NoziOvywqjFLNU-cFMTfjB9ShKdJmVbw,10468
+osgeonorge-0.2.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+osgeonorge-0.2.1.dist-info/METADATA,sha256=8YdpyLjpnA9MGystIcAtPUrXdIiY_nJLoRonpvvxq3U,3898
+osgeonorge-0.2.1.dist-info/RECORD,,
