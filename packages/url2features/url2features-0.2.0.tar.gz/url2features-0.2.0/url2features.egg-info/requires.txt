@@ -1,0 +1,6 @@
+pandas
+numpy
+sklearn
+whois
+dnspython
+geocoder
