@@ -1,0 +1,6 @@
+apache-airflow-providers-common-sql>=1.2.0
+apache-airflow>=2.2.0
+pyodbc
+
+[common.sql]
+apache-airflow-providers-common-sql
