@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+NOEL.egg-info/PKG-INFO
+NOEL.egg-info/SOURCES.txt
+NOEL.egg-info/dependency_links.txt
+NOEL.egg-info/entry_points.txt
+NOEL.egg-info/top_level.txt
