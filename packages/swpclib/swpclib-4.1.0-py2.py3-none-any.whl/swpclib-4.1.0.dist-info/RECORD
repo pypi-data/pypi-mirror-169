@@ -1,0 +1,10 @@
+swpclib/__init__.py,sha256=iS4tngOaOVvovB1KIPlTY2CDjw7Oc3RwekMRu9kiA-k,161
+swpclib/alerts.py,sha256=u35FIR1-eLJFdkwU6KN7kIg87BaT2tvMma7IgrGYVrI,7052
+swpclib/cli.py,sha256=44dNAg7lgeUpD7WBOm4fJXcwSK1TN-TwzVL2LWK_RHE,1679
+swpclib/swpclib.py,sha256=ZZNIdtkl40UV5n9xfn60jYW8hyfMSz1LTjGv744G-bc,5811
+swpclib-4.1.0.dist-info/LICENSE,sha256=uXRyWcqLCv0CAfmIv0Al10sR8fHcbhst6QbR2UIvvgE,1071
+swpclib-4.1.0.dist-info/METADATA,sha256=PhQNJUCdIvS2OWTJGJsh7dmei6M4Cf61LKNY2G13xvM,430
+swpclib-4.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+swpclib-4.1.0.dist-info/entry_points.txt,sha256=kfF971ENpbz-Uzi_krR2f5ND3rtDYvMJj128CDGtjLs,51
+swpclib-4.1.0.dist-info/top_level.txt,sha256=g0QJZt7EfpxJK5xg65Stf1Ly4RjqB-TtHxltfSxTwf8,8
+swpclib-4.1.0.dist-info/RECORD,,
