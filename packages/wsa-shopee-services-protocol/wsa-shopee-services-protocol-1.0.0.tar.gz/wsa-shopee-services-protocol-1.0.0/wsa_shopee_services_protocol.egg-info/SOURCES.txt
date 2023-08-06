@@ -1,0 +1,6 @@
+README.md
+setup.py
+wsa_shopee_services_protocol.egg-info/PKG-INFO
+wsa_shopee_services_protocol.egg-info/SOURCES.txt
+wsa_shopee_services_protocol.egg-info/dependency_links.txt
+wsa_shopee_services_protocol.egg-info/top_level.txt
