@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: miraicfg
+Version: 0.1.0
+Summary: Mirai configuration extraction utility
+Home-page: https://github.com/FernandoDoming/identikit
+Author: Fernando Domínguez
+Author-email: fernando.dom.del@gmail.com
+License: GNU GPL v3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
