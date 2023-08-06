@@ -1,0 +1,6 @@
+setup.py
+skynet-reporter/__init__.py
+skynet_reporter.egg-info/PKG-INFO
+skynet_reporter.egg-info/SOURCES.txt
+skynet_reporter.egg-info/dependency_links.txt
+skynet_reporter.egg-info/top_level.txt
