@@ -1,0 +1,4 @@
+[console_scripts]
+sdapy_gui = sdapy.sneGui:main
+sdapy_run = sdapy.snerun:main
+
