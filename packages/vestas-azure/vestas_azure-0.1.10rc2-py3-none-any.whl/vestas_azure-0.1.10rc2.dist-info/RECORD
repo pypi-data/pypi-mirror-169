@@ -1,0 +1,11 @@
+vestas_azure/__init__.py,sha256=3avY4q6Tl4Ye3-d9NjThSDqkcLNh5tJ36dXktHA-57o,350
+vestas_azure/blob_storage.py,sha256=sjWGx0WywlmdExqCbGhmxgREYcEy_bAqMos0_xZrQd4,13059
+vestas_azure/config.py,sha256=GLn5XM31cOzL7IePFHsbT-hD-1yTGO6i45FlzN3eS1Y,3705
+vestas_azure/dataframe_container.py,sha256=CotIkLsKz_n6HUiPA28iHNEsyt7hTKZTnNSE-ZUOHuY,2077
+vestas_azure/file_container.py,sha256=QVNNsi5FgWc_gLmG3M6WiyG0Jfn9g3UGKdGrhX7-YzQ,12004
+vestas_azure/logging.py,sha256=brblDkG2_yF9vjgyUoSLWVxAnWr1b-dxskCcZsLmcJM,7833
+vestas_azure/service_bus.py,sha256=urS-U21qKOap9Y4XY0lHgDb6Aeh0VFz5T-7JiZ_ixSw,3353
+vestas_azure/utils.py,sha256=vvtdp0L8T0y_9AFMqQ5n96-Wb495pjSR4E57ZFZkZUc,4855
+vestas_azure-0.1.10rc2.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+vestas_azure-0.1.10rc2.dist-info/METADATA,sha256=Z6cFrNV-y-cl1Sh7sOwu3fgNvjkthb0nAGXHPmde4YA,7827
+vestas_azure-0.1.10rc2.dist-info/RECORD,,
