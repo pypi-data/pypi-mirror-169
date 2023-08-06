@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+thesis_classifier/__init__.py
+thesis_classifier/main.py
+thesis_classifier.egg-info/PKG-INFO
+thesis_classifier.egg-info/SOURCES.txt
+thesis_classifier.egg-info/dependency_links.txt
+thesis_classifier.egg-info/requires.txt
+thesis_classifier.egg-info/top_level.txt
