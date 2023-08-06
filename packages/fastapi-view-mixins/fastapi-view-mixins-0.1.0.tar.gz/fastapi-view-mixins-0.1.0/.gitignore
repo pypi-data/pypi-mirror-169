@@ -1,0 +1,9 @@
+.idea
+.env
+.flake8
+pytest.ini
+.isort.cfg
+.pytest_cache
+htmlcov
+venv
+test.db

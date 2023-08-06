@@ -1,0 +1,229 @@
+from unittest.mock import patch
+
+import pytest
+
+from fastapi_views.ext.pymongo.pagination.core import (
+    PaginationCursor,
+    PaginationLimitOffset,
+    PaginatorAPI,
+    paginate_api
+)
+from fastapi_views.pagination.annotations import CursorResponse
+from fastapi_views.utils import encode_value
+
+
+@pytest.fixture()
+def limit_offset_api(request_fixture, request, pymongo_database):
+    request_fixture.query_params = {
+        'page': request.param,
+        'limit': 3,
+    }
+    return paginate_api(
+        statement={},
+        request=request_fixture,
+        kwargs={
+            'collection': pymongo_database.get_collection('test_collection')
+        }
+    )
+
+
+@pytest.fixture()
+@patch('fastapi_views.ext.pymongo.pagination.core.PaginationCursor._filter_query')
+def cursor_api(q, request_fixture, request, pymongo_database):
+    cursor, ordering, operator_expr, operator_value = request.param
+
+    if cursor is not None:
+        q.return_value = pymongo_database.test_collection.find(
+            {'$expr': {f'${operator_expr}': ['$id', operator_value]}}
+        )
+    request_fixture.query_params = {
+        'limit': 2,
+        'cursor': cursor,
+    }
+    return paginate_api(
+        statement={},
+        request=request_fixture,
+        strategy=PaginationCursor,
+        kwargs={
+            'model': 'test_collection',
+            'ordering': ordering,
+            'cursor_prefixes': ['custom_next__', 'custom_prev__'],
+            'collection': pymongo_database.get_collection('test_collection')
+        }
+    )
+
+
+class TestPaginatorAPI:
+
+    @patch('fastapi_views.ext.pymongo.pagination.core.PaginatorAPI.strategy_response')
+    def test_init(self, response_mock, request_fixture):
+        """Test if values are initialized as expected."""
+        response_mock.return_value = {}
+
+        paginator = PaginatorAPI(
+            statement={},
+            request=request_fixture,
+            paginate_by=2
+        )
+        assert paginator.statement is not None
+        assert paginator.request is not None
+        assert paginator.session is None
+        assert paginator.strategy is not None
+        assert paginator.paginate_by is not None
+        assert paginator.strategy == PaginationLimitOffset
+        assert paginator.paginate_by == 2
+        assert paginator.kwargs == {
+            'model': None,
+            'ordering': None,
+            'cursor_prefixes': None,
+        }
+
+
+class TestLimitOffset:
+
+    @pytest.mark.parametrize('limit_offset_api', [0, 1, 2, 3], indirect=['limit_offset_api'])
+    def test_strategy_response_common(self, limit_offset_api: dict):
+        """Test pagination response the same common values in every page."""
+        assert limit_offset_api['total'] == 50
+        assert limit_offset_api['total_pages'] == 16
+        assert limit_offset_api['page_limit'] == 3
+
+    @pytest.mark.parametrize('limit_offset_api', [0], indirect=['limit_offset_api'])
+    def test_strategy_response(self, limit_offset_api: dict):
+        """Test pagination response starting at page 0."""
+        assert limit_offset_api['count'] == 3
+        assert limit_offset_api['next_page'] == 'https://example.com?page=1&limit=3'
+        assert limit_offset_api['previous_page'] is None
+        assert limit_offset_api['last_page'] == 'https://example.com?page=16&limit=3'
+
+    @pytest.mark.parametrize('limit_offset_api', [1], indirect=['limit_offset_api'])
+    def test_strategy_response_1(self, limit_offset_api: dict):
+        """Test pagination response starting at page 1."""
+        assert limit_offset_api['count'] == 3
+        assert limit_offset_api['next_page'] == 'https://example.com?page=2&limit=3'
+        assert limit_offset_api['previous_page'] == 'https://example.com?page=0&limit=3'
+        assert limit_offset_api['last_page'] == 'https://example.com?page=16&limit=3'
+
+    @pytest.mark.parametrize('limit_offset_api', [16], indirect=['limit_offset_api'])
+    def test_strategy_response_last(self, limit_offset_api: dict):
+        """Test pagination response starting at last page."""
+        assert limit_offset_api['count'] == 2
+        assert limit_offset_api['next_page'] is None
+        assert limit_offset_api['previous_page'] == 'https://example.com?page=15&limit=3'
+        assert limit_offset_api['last_page'] == 'https://example.com?page=16&limit=3'
+
+
+cursor_to_load_last_page = encode_value('custom_next__48&page__16').decode("utf-8")
+cursor_to_load_last_page_reverse = encode_value('custom_next__3&page__4').decode("utf-8")
+
+
+def assert_result(result: CursorResponse, next_cursor=None, prev_cursor=None):
+    """
+    Count is the same for all results because in our test we have 10 objects,
+    which paginated by 2 gives equal number of objects per page.
+    """
+    assert result['count'] == 2
+    assert result['page_limit'] == 2
+    assert result['first_page'] == 'https://example.com?limit=2'
+    if next_cursor is not None:
+        next_page_url = f'https://example.com?limit=2&cursor={next_cursor.decode("utf-8")}'
+        assert result['next_page'] == next_page_url
+    else:
+        assert result['next_page'] is None
+
+    if prev_cursor is not None:
+        prev_url = f'https://example.com?limit=2&cursor={prev_cursor.decode("utf-8")}'
+        assert result['previous_page'] == prev_url
+    else:
+        assert result['previous_page'] is None
+
+
+class TestCursorAscendingOrder:
+    """We assume in tests that we have 50 objects ordered by id paginated by 2."""
+
+    @staticmethod
+    def _get_doc_id(doc: dict):
+        return doc.get('id')
+
+    @staticmethod
+    def assert_common(result):
+        assert result['count'] == 2
+        assert result['page_limit'] == 2
+        assert result['first_page'] == 'https://example.com?limit=2'
+
+    @pytest.mark.parametrize('cursor_api', [(None, ['id'], None, None)], indirect=['cursor_api'])
+    def test_strategy_response(self, cursor_api: dict):
+        """Test pagination response."""
+        next_page_cursor = encode_value('custom_next__2&page__1')
+        assert_result(cursor_api, next_page_cursor)
+        api_ids = list(map(self._get_doc_id, cursor_api['results']))
+        assert api_ids == [1, 2]
+
+    @pytest.mark.parametrize(
+        'cursor_api',
+        [('Y3VzdG9tX25leHRfXzImcGFnZV9fMQ==', ['id'], 'gt', 2)],
+        indirect=['cursor_api'],
+    )
+    def test_strategy_response_with_cursor(self, cursor_api: dict):
+        """Test pagination response 'at page 1'."""
+        next_page_cursor = encode_value('custom_next__4&page__2')
+        previous_page_cursor = encode_value('custom_prev__3&page__0')
+        assert_result(cursor_api, next_page_cursor, previous_page_cursor)
+        api_ids = list(map(self._get_doc_id, cursor_api['results']))
+        assert api_ids == [3, 4]
+
+    @pytest.mark.parametrize(
+        'cursor_api', [(cursor_to_load_last_page, ['id'], 'gt', 48)],
+        indirect=['cursor_api'],
+    )
+    def test_strategy_response_with_cursor_last_page(self, cursor_api: dict):
+        """Test pagination response 'in last page'."""
+        previous_page_cursor = encode_value('custom_prev__49&page__15')
+        assert_result(cursor_api, prev_cursor=previous_page_cursor)
+
+        api_ids = list(map(self._get_doc_id, cursor_api['results']))
+        assert api_ids == [49, 50]
+
+
+class TestCursorDescendingOrder:
+    """We assume in tests that we have 50 objects ordered by id desc paginated by 2."""
+
+    @staticmethod
+    def _get_doc_id(doc: dict):
+        return doc.get('id')
+
+    @pytest.mark.parametrize('cursor_api', [(None, ['-id'], None, None)], indirect=['cursor_api'])
+    def test_strategy_response(self, cursor_api: dict):
+        """Test pagination response."""
+        next_page_cursor = encode_value('custom_next__49&page__1')
+        assert_result(cursor_api, next_page_cursor)
+
+        api_ids = list(map(self._get_doc_id, cursor_api['results']))
+        assert api_ids == [50, 49]
+
+    @pytest.mark.parametrize(
+        'cursor_api',
+        [('Y3VzdG9tX25leHRfXzkmcGFnZV9fMQ==', ['-id'], 'lt', 49)],
+        indirect=['cursor_api'],
+    )
+    def test_strategy_response_with_cursor(self, cursor_api: dict):
+        """Test pagination response 'at page 1'."""
+        next_page_cursor = encode_value('custom_next__47&page__2')
+        previous_page_cursor = encode_value('custom_prev__48&page__0')
+        assert_result(cursor_api, next_page_cursor, previous_page_cursor)
+
+        api_ids = list(map(self._get_doc_id, cursor_api['results']))
+        assert api_ids == [48, 47]
+
+    @pytest.mark.parametrize(
+        'cursor_api',
+        [(cursor_to_load_last_page_reverse, ['-id'], 'lt', 3)],
+        indirect=['cursor_api'],
+    )
+    def test_strategy_response_with_cursor_last_page(self, cursor_api: dict):
+        """Test pagination response 'in last page'."""
+        previous_page_cursor = encode_value('custom_prev__2&page__3')
+        assert_result(cursor_api, prev_cursor=previous_page_cursor)
+
+        api_ids = list(map(self._get_doc_id, cursor_api['results']))
+        assert api_ids == [2, 1]
