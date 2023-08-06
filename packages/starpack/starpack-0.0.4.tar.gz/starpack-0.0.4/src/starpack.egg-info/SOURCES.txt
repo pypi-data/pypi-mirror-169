@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/starpack/__init__.py
+src/starpack/__main__.py
+src/starpack.egg-info/PKG-INFO
+src/starpack.egg-info/SOURCES.txt
+src/starpack.egg-info/dependency_links.txt
+src/starpack.egg-info/entry_points.txt
+src/starpack.egg-info/requires.txt
+src/starpack.egg-info/top_level.txt
+src/starpack/resources/__init__.py
+src/starpack/resources/resources.py
+src/tests/__init__.py
+src/tests/test_commands.py
+src/tests/test_main_funcs.py
