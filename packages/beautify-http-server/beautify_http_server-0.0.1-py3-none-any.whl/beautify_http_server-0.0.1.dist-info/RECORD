@@ -1,0 +1,11 @@
+http_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+http_server/server.py,sha256=kcCYAFRNy5xF26NOPyKXZHZH6A37Gd7E9Dh7KB5EYNQ,8104
+http_server/templates/base.template,sha256=st_FOz5Qd8QmBncC5cJ5w_I-HaOEv5BBu6CPpiODF_Q,7268
+http_server/templates/file.template,sha256=NDoQBNcfFfokgeerHJPfYYlY93o2IpU4_YxHSPTRNZA,7895
+http_server/templates/listing.template,sha256=62_n7_EEDzg5xHU1r7Gx6WCUCVctymCR1G55T7nP8f0,1338
+beautify_http_server-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+beautify_http_server-0.0.1.dist-info/METADATA,sha256=-_VGYFVWBv3BLiismCjNVQYdgi5zWYjOMdDuM-teMQk,3930
+beautify_http_server-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+beautify_http_server-0.0.1.dist-info/entry_points.txt,sha256=gRC7HOv1mJO-pgNWUuDJ8DpVFTuQfIFgxkNGaZkmc7s,56
+beautify_http_server-0.0.1.dist-info/top_level.txt,sha256=8Q72KtD0t87wbZQpf659qGv69odqAA672jyX4J5_cOs,12
+beautify_http_server-0.0.1.dist-info/RECORD,,
