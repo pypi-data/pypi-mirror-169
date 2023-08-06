@@ -1,0 +1,21 @@
+[Unit]
+Description=Task Server
+Documentation=http://zhcloud.top
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=root
+Group=root
+ExecStart=/usr/bin/python xxx.py
+ExecReload=
+ExecStop=
+
+LimitMEMLOCK=infinity
+# total threads (user+kernel)
+TasksMax=infinity
+TasksAccounting=false
+
+
+[Install]
+WantedBy=multi-user.target
