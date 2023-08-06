@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+src/hash_calc/Controller.py
+src/hash_calc/HashCalc.py
+src/hash_calc/__init__.py
+src/hash_calc/__main__.py
+src/hash_calc.egg-info/PKG-INFO
+src/hash_calc.egg-info/SOURCES.txt
+src/hash_calc.egg-info/dependency_links.txt
+src/hash_calc.egg-info/entry_points.txt
+src/hash_calc.egg-info/top_level.txt
