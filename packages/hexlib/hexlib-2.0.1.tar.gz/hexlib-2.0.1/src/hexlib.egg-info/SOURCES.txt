@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+src/hexlib/HexTwin.py
+src/hexlib/Hexdump.py
+src/hexlib/PerfMon.py
+src/hexlib/TestFileCreator.py
+src/hexlib/__init__.py
+src/hexlib.egg-info/PKG-INFO
+src/hexlib.egg-info/SOURCES.txt
+src/hexlib.egg-info/dependency_links.txt
+src/hexlib.egg-info/top_level.txt
