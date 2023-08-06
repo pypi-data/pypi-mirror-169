@@ -1,0 +1,1 @@
+from python3_markdown_extension_graphviz.main import makeExtension
