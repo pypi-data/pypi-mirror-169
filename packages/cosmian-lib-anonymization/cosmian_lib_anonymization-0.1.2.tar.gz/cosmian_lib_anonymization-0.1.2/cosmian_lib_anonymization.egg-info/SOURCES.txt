@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cosmian_lib_anonymization/__init__.py
+cosmian_lib_anonymization/anonymization.py
+cosmian_lib_anonymization/anonymize_dataset.py
+cosmian_lib_anonymization.egg-info/PKG-INFO
+cosmian_lib_anonymization.egg-info/SOURCES.txt
+cosmian_lib_anonymization.egg-info/dependency_links.txt
+cosmian_lib_anonymization.egg-info/not-zip-safe
+cosmian_lib_anonymization.egg-info/requires.txt
+cosmian_lib_anonymization.egg-info/top_level.txt
