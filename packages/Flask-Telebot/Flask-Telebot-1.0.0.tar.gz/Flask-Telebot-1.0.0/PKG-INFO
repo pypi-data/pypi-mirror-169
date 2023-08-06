@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: Flask-Telebot
+Version: 1.0.0
+Summary: Telebot on flask
+Home-page: https://github.com/GatLab/Flask-Telebot.git
+Author: Gatlab
+Author-email: Gatlab <dev@gatlab.co>
+License: Copyright 2022 Gatlab <dev@gatlab.co>
+        
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        
+         http://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+        
+Project-URL: Homepage, https://github.com/GatLab/Flask-Telebot
+Project-URL: Bug Tracker, https://github.com/GatLab/Flask-Telebot/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flask-Telebot
+
+A simple way to demo Flask apps from your machine.
+Makes your [Flask](http://flask.pocoo.org/) apps running on localhost available
+ over the internet via the excellent [ngrok](https://ngrok.com/) tool.
+
+## Compatability
+Python 3.6+ is required.
+
+## Installation
+
+```bash
+pip install Flask-Telebot
+```
+### Inside Jupyter / Colab Notebooks
+Notebooks have [an issue](https://stackoverflow.com/questions/51180917/python-flask-unsupportedoperation-not-writable) with newer versions of Flask, so force an older version if working in these environments.
+```bash
+!pip install flask==0.12.2
+```
+See the [example notebook](https://colab.research.google.com/github/GatLab/Flask-Telebot/blob/master/examples/example.ipynb) for a working example.
+
+## Quickstart
+1. Import with ```from flask_telebot import FlaskTelebot```
+```python
+# example.py
+from flask import Flask
+from flask_telebot import FlaskTelebot
+
+app = Flask(__name__)
+tele=FlaskTelebot(token='TELEGRAM_BOT_TOKEN')
+tele.init_app(app)
+
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+if __name__ == '__main__':
+    app.run()
+```
+Running the example:
+```bash
+python example.py
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Running on http://<random-address>.ngrok.io
+```
