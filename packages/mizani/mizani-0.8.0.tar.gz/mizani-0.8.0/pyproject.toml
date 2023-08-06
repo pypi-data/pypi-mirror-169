@@ -1,0 +1,36 @@
+# Reference https://github.com/pydata/xarray/blob/main/pyproject.toml
+[build-system]
+requires = [
+    "setuptools>=45",
+    "setuptools_scm[toml]>=6.2",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+# Coverage.py
+[tool.coverage.run]
+branch = true
+source = ["mizani"]
+include = [
+   "mizani/*"
+]
+omit = [
+   "setup.py",
+   "mizani/_version.py",
+   "mizani/external/*",
+   "mizani/tests/*",
+]
+disable_warnings = ["include-ignored"]
+
+[tool.coverage.report]
+exclude_lines = [
+   "pragma: no cover",
+   "^def test_",
+   "if __name__ == .__main__.:",
+   "while k < float\\('inf'\\):"
+]
+precision = 1
+
+[tool.setuptools_scm]
+fallback_version = "999"
+version_scheme = 'post-release'
