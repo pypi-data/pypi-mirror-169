@@ -1,0 +1,63 @@
+[
+  {
+    "id": "xxxx",
+    "customer_id": "xxxx",
+    "address_id": "xxxx",
+    "service_pro_id": null,
+    "label": "Home",
+    "address": {
+      "id": "xxxx",
+      "line1": "Home Address",
+      "line2": "",
+      "city": "Town",
+      "state": "State",
+      "postal_code": "54321"
+    },
+    "service_pro": null,
+    "devices": [
+      {
+        "id": "xxxx",
+        "serial_number": "R160-AXX-XY-12345678",
+        "uid": null,
+        "model": "TR-36",
+        "device_type": "water_heater",
+        "location_id": "xxxx",
+        "device_status": "STATUS_HEALTHY",
+        "installed_by_installer_id": null,
+        "last_connected": null,
+        "label": "Home",
+        "registration_key": null,
+        "current_data": {
+          "device_id": "1061",
+          "inlet_temperature": "32.86",
+          "outlet_temperature": "39.45",
+          "temperature_set_point": "54.666668",
+          "pending_temperature_set_point": "54.666666666667",
+          "polling_interval": "-1",
+          "pending_polling_interval": null,
+          "firmware_version": null,
+          "error_code": "0",
+          "error_message": "Normal",
+          "power_percentage": "0",
+          "total_flow": "49933",
+          "total_watt_seconds": null,
+          "element_1_amps": null,
+          "element_2_amps": null,
+          "element_3_amps": null,
+          "element_4_amps": null,
+          "incoming_voltage": "242.32",
+          "pcb_temp": "44.89",
+          "peak_time": null,
+          "pending_peak_time": null,
+          "eco_setting": "0",
+          "pending_eco_setting": null,
+          "vacation_setting": "0",
+          "pending_vacation_setting": null,
+          "mobile_specific_data": null,
+          "current_metrics": "{\"incoming_voltage\":242.32,\"timestamp\":\"2022-08-22T00:20:24Z\",\"flow_rate\":0,\"power_percentage\":0,\"element_2_amps\":0,\"inlet_temperature\":32.86,\"element_3_amps\":0,\"pcb_temp\":44.89,\"element_1_amps\":0,\"total_flow\":49933,\"element_4_amps\":0,\"outlet_temperature\":39.45}",
+          "latest_metric_timestamp": "2022-08-22 00:20:24"
+        }
+      }
+    ]
+  }
+]

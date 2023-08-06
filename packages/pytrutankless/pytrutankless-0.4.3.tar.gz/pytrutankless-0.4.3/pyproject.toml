@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools >= 61.0", "setuptools_scm[toml] >= 6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytrutankless"
+description = "A Python client library for the TruTankless API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file="LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+authors = [{name = "Matt Coleman", email = "mdcoleman001@gmail.com"}]
+dependencies = ["aiohttp"]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["black", "flake8", "isort", "pre-commit", "pytest", "pyyaml", "yamllint"]
+
+[project.urls]
+"Homepage" = "https://github.com/colemamd/pytrutankless"
+"Download" = "https://github.com/CyanBook/pytrutankless/releases/latest"
+"Source Code" = "https://github.com/colemamd/pytrutankless"
+"Bug Reports" = "https://github.com/colemamd/pytrutankless/issues"
+"Release Notes" = "https://github.com/colemamd/pytrutankless/releases/)"
+
+[tool.setuptools]
+packages = ["pytrutankless"]
+
+[tool.setuptools_scm]
+version_scheme = "python-simplified-semver"
+
+[tools.isort]
+profile = "black"
+src_paths = ["src/pytrutankless", "tests"]
