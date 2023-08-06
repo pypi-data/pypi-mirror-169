@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tocy.py
+tocy.egg-info/PKG-INFO
+tocy.egg-info/SOURCES.txt
+tocy.egg-info/dependency_links.txt
+tocy.egg-info/top_level.txt
