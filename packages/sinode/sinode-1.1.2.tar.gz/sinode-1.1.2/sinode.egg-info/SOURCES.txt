@@ -1,0 +1,8 @@
+README.md
+setup.py
+sinode/__init__.py
+sinode/sinode.py
+sinode.egg-info/PKG-INFO
+sinode.egg-info/SOURCES.txt
+sinode.egg-info/dependency_links.txt
+sinode.egg-info/top_level.txt
