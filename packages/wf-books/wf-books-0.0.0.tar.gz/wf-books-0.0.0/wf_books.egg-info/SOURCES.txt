@@ -1,0 +1,6 @@
+setup.py
+wf-books/__init__.py
+wf_books.egg-info/PKG-INFO
+wf_books.egg-info/SOURCES.txt
+wf_books.egg-info/dependency_links.txt
+wf_books.egg-info/top_level.txt
