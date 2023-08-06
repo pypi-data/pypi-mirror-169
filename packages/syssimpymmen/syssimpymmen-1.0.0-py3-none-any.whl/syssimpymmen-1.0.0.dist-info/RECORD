@@ -1,0 +1,10 @@
+syssimpymmen/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+syssimpymmen/mmen.py,sha256=JWVzwmR0XolHcN9NIo0bL7cCTfg5s2NvU4Cd0pn7W5M,64889
+syssimpymmen/data/MR_earthlike_rocky.txt,sha256=uoWOlqV-yWMTriHeMsHzlIzJs6bnRivu_UCBeJO0J10,852
+syssimpymmen/data/MR_pure_iron.txt,sha256=FEofETiDmfQCUjtJ84jcgz_cSc7QWW5HxVuPYYDztfk,815
+syssimpymmen/data/MRpredict_table_weights3025_R1001_Q1001.txt,sha256=KkUEzW9VEZhRUc-1g_cdlaV66G-TapHt4mBjT2xStEQ,20088789
+syssimpymmen-1.0.0.dist-info/LICENSE,sha256=W49hfcEIdmkVyULzWbg4xY-HFe9CN0oMeaUC5OSFiWQ,1073
+syssimpymmen-1.0.0.dist-info/METADATA,sha256=pfYDbTW16yeX6xaIVB-fjpkH7I39dSO4Cg89j3p8SSU,2285
+syssimpymmen-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+syssimpymmen-1.0.0.dist-info/top_level.txt,sha256=HGDtnmo9a-b4gb2qe_aApvo6UD9lMldDoNqmLtMaesU,13
+syssimpymmen-1.0.0.dist-info/RECORD,,
