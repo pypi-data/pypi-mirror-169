@@ -1,0 +1,5 @@
+{
+  "$id": "/pub/schema/placeholder.schema",
+  "type": "string",
+  "description": "placeholder to be used in widget's entry"
+}

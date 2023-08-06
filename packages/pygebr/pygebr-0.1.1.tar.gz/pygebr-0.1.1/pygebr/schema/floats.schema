@@ -1,0 +1,63 @@
+{
+  "$id": "/pub/schema/floats.schema",
+  "title": "Array of floats parameter",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "floats"
+    },
+    "keyword": {
+      "$ref": "/pub/schema/keyword.schema"
+    },
+    "description": {
+      "$ref": "/pub/schema/desc.schema"
+    },
+    "required": {
+      "type": "boolean",
+      "description": "informs whether the parameter is required or not"
+    },
+    "multiple": {
+      "type": "boolean",
+      "description": "informs whether the parameter can be informed more than once"
+    },
+    "separator": {
+      "$ref": "/pub/schema/separator.schema"    
+    },
+    "placeholder": {
+      "$ref": "/pub/schema/placeholder.schema"
+    },
+    "default": {
+      "type": "number",
+      "description": "Default floats value"
+    },
+    "value": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "/pub/schema/expression.schema"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "literal": {
+                "type": "string",
+                "description": "Array of floats"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "keyword",
+    "description",
+    "required",
+    "multiple",
+    "separator"
+  ],
+  "additionalProperties": false
+}

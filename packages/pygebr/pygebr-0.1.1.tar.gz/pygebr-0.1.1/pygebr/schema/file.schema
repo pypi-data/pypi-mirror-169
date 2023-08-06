@@ -1,0 +1,80 @@
+{
+  "$id": "/pub/schema/file.schema",
+  "title": "Filename parameter",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "file"
+    },
+    "keyword": {
+      "$ref": "/pub/schema/keyword.schema"
+    },
+    "required": {
+      "type": "boolean",
+      "description": "informs whether the parameter is required or not"
+    },
+    "multiple": {
+      "type": "boolean",
+      "description": "informs whether the parameter can be informed more than once"
+    },
+    "description": {
+      "$ref": "/pub/schema/desc.schema"
+    },
+    "placeholder": {
+      "$ref": "/pub/schema/placeholder.schema"
+    },
+    "fileType": {
+      "type": "string",
+      "description": "Type of expected file",
+      "examples": [
+        "Image file",
+        "SEG-Y data"
+      ]
+    },
+    "filePattern": {
+      "type": "string",
+      "description": "Pattern to filter filenames",
+      "examples": [
+        "*.png; *.jpg",
+        "*.su"
+      ]
+    },
+    "default": {
+      "type": "string",
+      "description": "Default filenane"
+    },
+    "value": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "/pub/schema/expression.schema"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "literal": {
+                "type": "string",
+                "description": "Filename"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "keyword",
+    "description",
+    "required",
+    "multiple"
+  ],
+  "dependencies": {
+    "filePattern": [
+      "fileType"
+    ]
+  },
+  "additionalProperties": false
+}
