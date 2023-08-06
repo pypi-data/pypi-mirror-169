@@ -1,0 +1,3 @@
+[console_scripts]
+xiaoming-weather = xiaoming_weather.xiaoming:main
+
