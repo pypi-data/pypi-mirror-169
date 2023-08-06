@@ -1,0 +1,6 @@
+setup.py
+wf-poster/__init__.py
+wf_poster.egg-info/PKG-INFO
+wf_poster.egg-info/SOURCES.txt
+wf_poster.egg-info/dependency_links.txt
+wf_poster.egg-info/top_level.txt
