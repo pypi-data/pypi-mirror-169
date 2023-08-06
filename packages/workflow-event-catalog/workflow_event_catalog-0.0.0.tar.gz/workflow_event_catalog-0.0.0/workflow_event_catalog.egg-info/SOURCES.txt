@@ -1,0 +1,6 @@
+setup.py
+workflow_event_catalog/__init__.py
+workflow_event_catalog.egg-info/PKG-INFO
+workflow_event_catalog.egg-info/SOURCES.txt
+workflow_event_catalog.egg-info/dependency_links.txt
+workflow_event_catalog.egg-info/top_level.txt
