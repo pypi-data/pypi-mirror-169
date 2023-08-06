@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: scapers-api
+Version: 0.2.3
+Summary: Allows http access to Runescape API Endpoints
+Home-page: https://gitlab.com/maximized/scapers_api
+Author: Jarod Daming
+Author-email: jmdaming@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
