@@ -1,0 +1,17 @@
+spotter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotter/api.py,sha256=ine0X59QHhZP8YfCQGg7fkhVXgXIjjsP64ueP2J8R84,10516
+spotter/cli.py,sha256=Ev4vixlaTSo4APjFZ4GCruKitS3mM-gOHPrK4d0bRrI,2945
+spotter/environment.py,sha256=2td4Qs6UgNtRDOIde0uC5obVu-WVT2_2tbONiuH2YJ4,8640
+spotter/parsing.py,sha256=gssKp00gMh7H1dieNLvBsasG40hhZ8O3RB5uPn98Gyo,20311
+spotter/rewriting.py,sha256=CviHY9tEqim4frnXVMCfbtvi7LSNIT_2gnv-0F9ZAmI,3385
+spotter/storage.py,sha256=8j7Ky9iIg_p4hdYTsrueFm4-rLcYFW6DJ1ahIYKt-qY,4040
+spotter/utils.py,sha256=iEJ-6T5AKeoQPhMuvqIyRrs5hOw2X7yREsK83DRC0Ss,441
+spotter/commands/__init__.py,sha256=NBojhOSqkFRgO5RtjvK1cSU_SILQyVPJ_Wt5vTRvftI,56
+spotter/commands/scan.py,sha256=KPcwP5OdVNCjnST322dpLXkkwE2Nti62Y1ymiMwhzSs,16471
+steampunk_spotter-1.0.0rc1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+steampunk_spotter-1.0.0rc1.dist-info/METADATA,sha256=I96aknBCRSWxqBgAktxwvgZsOka_q-u3CKGm0xbW2RY,30003
+steampunk_spotter-1.0.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+steampunk_spotter-1.0.0rc1.dist-info/entry_points.txt,sha256=_94aMdgSgx7FY17kO5nvQ5NaEqYQM1oetU0Iwq2NK6c,45
+steampunk_spotter-1.0.0rc1.dist-info/top_level.txt,sha256=3FpgMM0g2fECUU_GuaBTKGXYeWTG5uDxJXqqRD3YTck,8
+steampunk_spotter-1.0.0rc1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+steampunk_spotter-1.0.0rc1.dist-info/RECORD,,
