@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_deploy_common_staging.egg-info/PKG-INFO
+shopee_deploy_common_staging.egg-info/SOURCES.txt
+shopee_deploy_common_staging.egg-info/dependency_links.txt
+shopee_deploy_common_staging.egg-info/top_level.txt
