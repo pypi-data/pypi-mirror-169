@@ -1,0 +1,7 @@
+keyboard>=0.13.5
+loguru>=0.6.0
+paho-mqtt>=1.6.1
+PyAudio>=0.2.12
+pydantic>=1.10.2
+python-dotenv>=0.21.0
+requests>=2.28.1
