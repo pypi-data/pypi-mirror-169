@@ -1,0 +1,4 @@
+[console_scripts]
+GenzheAifeierXuetaluo = GenzheAifeierXuetaluo.__main__:main
+genzhe-aifeier-xuetaluo = GenzheAifeierXuetaluo.__main__:main
+
