@@ -1,0 +1,4 @@
+[console_scripts]
+RenrenDounengWantaluo = RenrenDounengWantaluo.__main__:main
+renren-douneng-wantaluo = RenrenDounengWantaluo.__main__:main
+
