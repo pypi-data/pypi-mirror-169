@@ -1,0 +1,15 @@
+defrt test_function
+    "hello" => "olá"
+    "world" => "mundo"
+    "my name is {}" => "o meu nome é $1"
+    "I am {}" => str.endswith($1,"a") ? "eu sou a $1" : "eu sou $1"
+    "Sofia" => str.upper($0)
+endrt
+
+defrt test_function_smart_case(case=smart)
+    "hello" => "olá"
+    "world" => "mundo"
+    "my name is {}" => "o meu nome é $1"
+    "I am {}" => str.endswith($1,"a") ? "eu sou a $1" : "eu sou $1"
+    "Sofia" => str.upper($0)
+endrt
