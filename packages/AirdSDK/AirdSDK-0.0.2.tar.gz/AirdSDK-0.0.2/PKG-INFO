@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AirdSDK
+Version: 0.0.2
+Summary: Aird SDK for python. AirdPro version > 4.0.0, Not support for BP comp
+Home-page: https://github.com/CSi-Studio/Aird-SDK/
+Author: CSi-Studio
+Author-email: csi@csibio.net
+Maintainer: Miaoshan Lu
+License: Mulan PSL v2
+Keywords: AirdPro,Aird,AirdSDK,ComboComp
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
