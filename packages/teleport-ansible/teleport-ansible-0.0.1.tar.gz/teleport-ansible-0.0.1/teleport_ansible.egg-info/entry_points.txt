@@ -1,0 +1,2 @@
+[console_scripts]
+teleport-ansible = teleport_ansible.inventory:main

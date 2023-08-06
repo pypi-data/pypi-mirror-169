@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+teleport_ansible/inventory.py
+teleport_ansible/meta.py
+teleport_ansible.egg-info/PKG-INFO
+teleport_ansible.egg-info/SOURCES.txt
+teleport_ansible.egg-info/dependency_links.txt
+teleport_ansible.egg-info/entry_points.txt
+teleport_ansible.egg-info/not-zip-safe
+teleport_ansible.egg-info/top_level.txt
