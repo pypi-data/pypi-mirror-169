@@ -1,0 +1,3 @@
+[console_scripts]
+scikit_talk_prepocessor=my_package.preprocessor:cha_to_dataframe
+
