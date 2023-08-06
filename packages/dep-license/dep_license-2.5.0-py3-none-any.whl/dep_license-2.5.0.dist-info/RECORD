@@ -1,0 +1,10 @@
+dep_license/VERSION,sha256=ry5x0al4PtQq-0dv-mNU4Gk_sTAHYopdKOQmdWyn-ZE,7
+dep_license/__init__.py,sha256=vXsanAR_YRJHWAx6jF4Lfhz1wyot8q6URqeQydH9g9o,9088
+dep_license/__main__.py,sha256=7aNqmPVVIcxP1n2Peu__DffepdhvlegMFBuciBShBuE,105
+dep_license/utils.py,sha256=AqO-EzLWzEqYBtAR4ITd5e9L0u5y8AbAm2Jg5OTuI_8,4088
+dep_license-2.5.0.dist-info/LICENSE,sha256=-6mDACKVY5zqxic327QtwmmMds63t8S8h1e4R3MBNks,1079
+dep_license-2.5.0.dist-info/METADATA,sha256=Nh-i70vfJEFTli8_5Q52NcLR97ud5PR0nlaEFJVF99g,8359
+dep_license-2.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dep_license-2.5.0.dist-info/entry_points.txt,sha256=3QoCwlP_Nxdw_8oRafw-Yk6fQmnijznCS3kQjKm16MI,54
+dep_license-2.5.0.dist-info/top_level.txt,sha256=LgVvJ7tInKYE2LC18iUHU7nJ1iOPdJ7x5YtEXTHNows,12
+dep_license-2.5.0.dist-info/RECORD,,
