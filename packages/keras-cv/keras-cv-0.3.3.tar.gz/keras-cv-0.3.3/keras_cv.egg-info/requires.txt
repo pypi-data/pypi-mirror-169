@@ -1,0 +1,14 @@
+packaging
+absl-py
+regex
+
+[examples]
+tensorflow_datasets
+matplotlib
+
+[tests]
+flake8
+isort
+black
+pytest
+tensorflow-datasets
