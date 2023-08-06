@@ -1,0 +1,10 @@
+pywebworker/__init__.py,sha256=371dnBUk1R1WUXK9aWus3Bigfhp4SrgylbampqWe94k,131
+pywebworker/worker.js,sha256=Ki0CNhupGBj0VeqovJHA6gWkJhgWX_pCfHpY4i0QDMg,2407
+pywebworker/worker.py,sha256=Kr4e5F1osre0jDTP50KVc-xopUbT1gTLNbmfEjqtFX4,7051
+pywebworker/worker_config.py,sha256=0hQdKt31RQYO6IxqN7bYo3FxoUjqK59dbHYjpCK0Kxo,569
+pywebworker-0.0.7a1.data/data/js/worker.js,sha256=Ki0CNhupGBj0VeqovJHA6gWkJhgWX_pCfHpY4i0QDMg,2407
+pywebworker-0.0.7a1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pywebworker-0.0.7a1.dist-info/METADATA,sha256=3W7vtz3ygMWCrTzo7EgXJtov2lAgBfTpt9u7mqzJpqo,3867
+pywebworker-0.0.7a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pywebworker-0.0.7a1.dist-info/top_level.txt,sha256=nHWyGtd09z-vEZzr5mAHoqN0R7b8raRC_hkAsmnofYU,12
+pywebworker-0.0.7a1.dist-info/RECORD,,
