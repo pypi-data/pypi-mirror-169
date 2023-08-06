@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "censor-this"
+version = "0.1.0"
+description = "A command line tool to censor words in an image."
+authors = ["Colbe Roberson <cgr28@njit.edu>"]
+readme = "README.md"
+packages = [{include = "censor_this"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.6.1"}
+opencv-python = "^4.6.0.66"
+pytesseract = "^0.3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+censor-this = "censor_this.main:app"
