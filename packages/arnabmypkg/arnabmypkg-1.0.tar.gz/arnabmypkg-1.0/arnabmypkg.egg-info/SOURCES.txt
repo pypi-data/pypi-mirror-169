@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+arnabmypkg/__init__.py
+arnabmypkg/helloworld.py
+arnabmypkg.egg-info/PKG-INFO
+arnabmypkg.egg-info/SOURCES.txt
+arnabmypkg.egg-info/dependency_links.txt
+arnabmypkg.egg-info/top_level.txt
