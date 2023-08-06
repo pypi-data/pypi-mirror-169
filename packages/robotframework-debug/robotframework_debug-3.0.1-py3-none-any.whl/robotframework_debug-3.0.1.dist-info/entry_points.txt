@@ -1,0 +1,4 @@
+[console_scripts]
+irobot = RobotDebug.shell:shell
+robotdebug = RobotDebug.shell:shell
+
