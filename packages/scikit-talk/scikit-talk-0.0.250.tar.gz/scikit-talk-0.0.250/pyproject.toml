@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "scikit-talk"
+version = "0.0.250"
+description = "A Python package to help you process real world conversation speech data."
+authors = ["Gábor Parti"]
+readme = "README.md"
+packages = [{include = "scikit_talk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
