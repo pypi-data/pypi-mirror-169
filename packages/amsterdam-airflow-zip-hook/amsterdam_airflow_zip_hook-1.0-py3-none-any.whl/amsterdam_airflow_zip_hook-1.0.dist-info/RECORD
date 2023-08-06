@@ -1,0 +1,6 @@
+zip_hook/__init__.py,sha256=vZqGAlixsK4A4fXNnpVDHYZVmdlRY2yeDYGD1jj02w4,24
+zip_hook/zip_hook.py,sha256=F30SmTUBcAGWI9GECKJm7UB6hqKV_VEuTqmoleB8wgI,809
+amsterdam_airflow_zip_hook-1.0.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amsterdam_airflow_zip_hook-1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+amsterdam_airflow_zip_hook-1.0.dist-info/METADATA,sha256=2BpPstInGLCqxXWGyR9szP_GNqRonuJIg5LOtvbF60s,799
+amsterdam_airflow_zip_hook-1.0.dist-info/RECORD,,
