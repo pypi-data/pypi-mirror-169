@@ -1,0 +1,11 @@
+AqOrg/AqOrg.py,sha256=8k6a-1jS9f4zfEwGxjz17fImCGtoKaQINaQz0sdM44s,45936
+AqOrg/__init__.py,sha256=WeCop7Ss1UvVWHruxl7f1ZeTH0t0NKoR7WHbNLVGEgE,74
+AqOrg/data/alcohol_demo.csv,sha256=uwdbuUrm127BoxBKmLMQLZ9sSdWJPeKxAJ23lpZwdII,671
+AqOrg/data/element.csv,sha256=KVFmGABzWN6fRX_0GOQviA6uCmdiAdjJ46vulnduadw,4969
+AqOrg/data/group_contribution_data.csv,sha256=KtFc5Slo0QhCswscwNOO1OLfrsB0Qbo1St_QRFtMJ9o,5503
+AqOrg/data/joback_groups.csv,sha256=AzU7ZCHeDxpw_RL_i-2Ekm1ZmmQ0dwPVBEV9fMxkizM,3439
+AqOrg-0.1.12.dist-info/LICENSE.txt,sha256=TUsAdyXJ3gw98GWDchPoR3abrebTPoYl53kQX4C9ThU,1056
+AqOrg-0.1.12.dist-info/METADATA,sha256=URG0IRwx9pK6u1kXTSzSX-XOt5ofSUz_2mcYNU9qrG8,1437
+AqOrg-0.1.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+AqOrg-0.1.12.dist-info/top_level.txt,sha256=c9KPaf9jtOs08e_kqGdaho1Ddc5r-5bIZyn1_F_NhGI,6
+AqOrg-0.1.12.dist-info/RECORD,,
