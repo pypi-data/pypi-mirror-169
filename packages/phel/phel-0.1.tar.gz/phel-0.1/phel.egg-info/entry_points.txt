@@ -1,0 +1,2 @@
+[console_scripts]
+phel = phel.__main__:main
