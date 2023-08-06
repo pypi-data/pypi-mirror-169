@@ -1,0 +1,13 @@
+cyksuid/__init__.py,sha256=GaFihJCOpCCbt-fsGUuCAM0N6WnbhViHsDYJNYIMDnk,77
+cyksuid/__version__.py,sha256=U3f_Jgr3zpgiYG2kLcvcT05TQsVzN9Kktg_f3Q9OZFA,22
+cyksuid/fast_base62.cpython-38-darwin.so,sha256=_nqqgA1-dm5i82S_h61art11e1w4gCJFKB2KOr2Rl-I,66040
+cyksuid/fast_base62.pxd,sha256=PfF5Y-S5HyvKJuGPGRKjojmBz7iwPkBP1b4TPhmwYgA,308
+cyksuid/fast_base62.pyx,sha256=qmUwtRb3qwAqzHJo4-KJq4PNNCR2lOJuofXaJnbEl3M,1468
+cyksuid/ksuid.cpython-38-darwin.so,sha256=NqWn4LnD4cAmmQmHK-jdt8PfR1NmnZ2L-UnkJpXYMkQ,104240
+cyksuid/ksuid.pxd,sha256=REPPPrQTJ8NfTUT9UEctpKtW4VCTQ0-xFxNH76gdP3s,270
+cyksuid/ksuid.pyx,sha256=SuJX-GoZWey2MW6BVzRCPUlpO8oiY4Yt4DJ_ukQkRPQ,3950
+cyksuid-1.2.0.dist-info/LICENSE,sha256=7WLB1JWePzMPdr9z7K9YLCLBQvH8XPXgGh0xuD5RhKQ,1508
+cyksuid-1.2.0.dist-info/METADATA,sha256=LS6Om941Z-0DXrb0btVK_oKY40crJWuI3la2LhBuGrw,2069
+cyksuid-1.2.0.dist-info/WHEEL,sha256=pXLpj1wTvqlD6RVUEKOuGQGeFX0NOPyDrsC-9xVDmYU,109
+cyksuid-1.2.0.dist-info/top_level.txt,sha256=xgEug5w1_xERP6cs7SmIB06l3yt4lF-MF2HUh56VRes,8
+cyksuid-1.2.0.dist-info/RECORD,,
