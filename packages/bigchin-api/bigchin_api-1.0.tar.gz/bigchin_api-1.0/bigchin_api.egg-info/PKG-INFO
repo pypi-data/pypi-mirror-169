@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bigchin-api
+Version: 1.0
+Summary: A small library for your projects
+Home-page: https://github.com/DFekatsaW/Big-Chin.
+Download-URL: https://raw.githubusercontent.com/DFekatsaW/Big-Chin./main/bigchin.py
+Author: DFWastaken
+Author-email: dfwastaken.work@gmail.com
+License: Apache License 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+A small library to help with your projects

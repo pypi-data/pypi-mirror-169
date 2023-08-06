@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+bigchin_api/__init__.py
+bigchin_api/bigchin.py
+bigchin_api.egg-info/PKG-INFO
+bigchin_api.egg-info/SOURCES.txt
+bigchin_api.egg-info/dependency_links.txt
+bigchin_api.egg-info/top_level.txt
