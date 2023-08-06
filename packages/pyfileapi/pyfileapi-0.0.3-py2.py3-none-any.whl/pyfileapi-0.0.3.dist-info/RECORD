@@ -1,0 +1,10 @@
+pyfileapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfileapi/_main.py,sha256=IOgV_ruAVDSdzjKyVGhhnOO7b-F-xizg5R074uULfx8,225
+pyfileapi/search.py,sha256=4YRab4e_TecR2ZTpMGSX1M02C1RuZxsWG1h7HRr2y8U,725
+pyfileapi/search_helpers.py,sha256=1m7fFqtf1EfB75acw4NLqulnEOHJTg2IwYM8xDGNYIk,509
+pyfileapi-0.0.3.dist-info/LICENSE,sha256=qtdKntj5HnV-Cnenw0RberfqXawHFmVFdx0buBdd8PM,1071
+pyfileapi-0.0.3.dist-info/METADATA,sha256=dMozmd9LlPRIWSKaDZDSJ_za7aQe8JTh9o4NvAjTRaM,937
+pyfileapi-0.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pyfileapi-0.0.3.dist-info/entry_points.txt,sha256=uSFvrZSW7wYj8cxy0r_zd0i_daf7lbk_ec9oMjVN4ig,48
+pyfileapi-0.0.3.dist-info/top_level.txt,sha256=HOB0b2ezf2-xUKFliTANGxkLw0r6aZP3-Vb_MmqrgLE,10
+pyfileapi-0.0.3.dist-info/RECORD,,
