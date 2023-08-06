@@ -1,0 +1,16 @@
+likeprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+likeprocessing/affichage.py,sha256=r_Adz85jyjLq2Ipsxj2PVTovp9CL3Qp7dc8TjluoDRA,5110
+likeprocessing/couleur.py,sha256=qkwfvQYXErIka77MdflNYmHCE4dZGGKGkyHoq7bpaFw,109
+likeprocessing/formes.py,sha256=E7bey6-ivrk1U7m5SUxqh-eiE0qyWdEEpuIC4g69gRM,16965
+likeprocessing/images.py,sha256=OSd0mNndsMgZfCzfmDHLSfrJ8S0PwwlWoqnlNlxL9RM,1297
+likeprocessing/list_tools.py,sha256=3h603dinTK45nCZyrDPqxhEFQzfX8mGqkmLR72W9tNE,617
+likeprocessing/processing.py,sha256=4Bj4aZArVweVPuFLO67XvyFWvd_fj0l07thUrmrjxo4,9923
+likeprocessing/pyDialog.py,sha256=O3WXXAGRESBrjz9KJqILaYh4-O4dkE4PVkTrM0nboXc,39252
+likeprocessing/README.md,sha256=li-9Mwa0PNyl4nY8ZPEaOLsGyPhnmYOwLd5Sfqw1s0M,20301
+likeprocessing/tempos.py,sha256=jn_kJlENk3ZhFGFJVHWVmA4dtZg_e_T8uJ8SxZSltUs,759
+likeprocessing/texte.py,sha256=fDWKbUiMpl9zlCGBgnGCUvTPwN6iWZSAJoi9vDfVKC8,3367
+likeprocessing/transformation.py,sha256=YyWFdF6vqm50vAwg4hIR2LgFEUB4H1j1Iafik0p_NiY,2723
+likeprocessing/trigo.py,sha256=ei3-hMQ0Uw4qWr73nfVzXDuC6Udbu3kB7Lofa-91EHI,3903
+likeprocessing-0.1.5.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+likeprocessing-0.1.5.8.dist-info/METADATA,sha256=k0_IpKAyMKPfLIt8MIDSWm6GIRO0iNaXo5iEqxUrIrg,447
+likeprocessing-0.1.5.8.dist-info/RECORD,,
