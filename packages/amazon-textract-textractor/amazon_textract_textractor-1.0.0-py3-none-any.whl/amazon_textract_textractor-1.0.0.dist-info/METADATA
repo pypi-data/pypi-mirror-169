@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: amazon-textract-textractor
+Version: 1.0.0
+Summary: A package to support the use of AWS Textract services.
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: amazon textract aws ocr document
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: numpy (==1.21.6) ; extra == 'dev'
+Requires-Dist: awscli ; extra == 'dev'
+Requires-Dist: amazon-textract-caller (==0.0.24) ; extra == 'dev'
+Requires-Dist: amazon-textract-response-parser (==0.1.33) ; extra == 'dev'
+Requires-Dist: boto3 (==1.24.0) ; extra == 'dev'
+Requires-Dist: botocore (==1.27.51) ; extra == 'dev'
+Requires-Dist: jsonschema ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: pdf2image (==1.16.0) ; extra == 'dev'
+Requires-Dist: Pillow ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sentence-transformers (==2.2.0) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==1.0.0) ; extra == 'dev'
+Requires-Dist: tabulate (==0.8.10) ; extra == 'dev'
+Requires-Dist: XlsxWriter (==3.0.3) ; extra == 'dev'
+Requires-Dist: pyxDamerauLevenshtein (==1.7.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: numpy (==1.21.6) ; extra == 'docs'
+Requires-Dist: awscli ; extra == 'docs'
+Requires-Dist: amazon-textract-caller (==0.0.24) ; extra == 'docs'
+Requires-Dist: amazon-textract-response-parser (==0.1.33) ; extra == 'docs'
+Requires-Dist: boto3 (==1.24.0) ; extra == 'docs'
+Requires-Dist: botocore (==1.27.51) ; extra == 'docs'
+Requires-Dist: jsonschema ; extra == 'docs'
+Requires-Dist: jupyterlab ; extra == 'docs'
+Requires-Dist: pandas ; extra == 'docs'
+Requires-Dist: pdf2image (==1.16.0) ; extra == 'docs'
+Requires-Dist: Pillow ; extra == 'docs'
+Requires-Dist: pytest ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (==1.0.0) ; extra == 'docs'
+Requires-Dist: tabulate (==0.8.10) ; extra == 'docs'
+Requires-Dist: XlsxWriter (==3.0.3) ; extra == 'docs'
+Requires-Dist: pyxDamerauLevenshtein (==1.7.1) ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Provides-Extra: pdf
+Requires-Dist: pdf2image (==1.16.0) ; extra == 'pdf'
+Provides-Extra: torch
+Requires-Dist: sentence-transformers (==2.2.0) ; extra == 'torch'
+
+![Textractor](docs/source/textractor_cropped.png)
+
+[![Tests](https://github.com/aws-samples/amazon-textract-textractor/actions/workflows/tests.yml/badge.svg)](https://github.com/aws-samples/amazon-textract-textractor/actions/workflows/tests.yml) [![Documentation](https://github.com/aws-samples/amazon-textract-textractor/actions/workflows/documentation.yml/badge.svg)](https://aws-samples.github.io/amazon-textract-textractor/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+**Textractor** is a python package created to seamlessly work with [Amazon Textract](https://docs.aws.amazon.com/textract/latest/dg/what-is.html) a document intelligence service offering text recognition, table extraction, form processing, and much more. Whether you are making a one-off script or a complex distributed document processing pipeline, Textractor makes it easy to use Textract.
+
+## Installation
+
+Textractor is available on PyPI and can be installed with `pip install amazon-textract-textractor`. By default this will install the minimal version of textractor. The following extras can be used to add features:
+
+- `pdf` (`pip install amazon-textract-textractor[pdf]`) includes `pdf2image` and enables PDF rasterization in Textractor. Note that this is **not** necessary to call Textract with a PDF file.
+- `torch` (`pip install amazon-textract-textractor[torch]`) includes `sentence_transformers` for better word search and matching. This will work on CPU but be noticeably slower than non-machine learning based approaches.
+- `dev` (`pip install amazon-textract-textractor[dev]`) includes all the dependencies above and everything else needed to test the code.
+
+You can pick several extras by separating the labels with commas like this `pip install amazon-textract-textractor[pdf,torch]`.
+
+## Documentation
+
+Generated documentation for the latest released version can be accessed here: [aws-samples.github.io/amazon-textract-textractor/](https://aws-samples.github.io/amazon-textract-textractor/)
+
+## Examples
+
+### Setup
+
+These two lines are all you need to use Textract. The Textractor instance can be reused across multiple requests for both synchronous and asynchronous requests.
+
+```py
+from textractor import Textractor
+
+extractor = Textractor(aws_profile_name="default")
+```
+
+### Text recognition
+
+```py
+# file_source can be an image, list of images, bytes or S3 path
+document = extractor.detect_document_text(file_source="tests/fixtures/single-page-1.png")
+print(document.lines)
+#[Textractor Test, Document, Page (1), Key - Values, Name of package: Textractor, Date : 08/14/2022, Table 1, Cell 1, Cell 2, Cell 4, Cell 5, Cell 6, Cell 7, Cell 8, Cell 9, Cell 10, Cell 11, Cell 12, Cell 13, Cell 14, Cell 15, Selection Element, Selected Checkbox, Un-Selected Checkbox]
+```
+
+### Table extraction
+
+```py
+from textractor.data.constants import TextractFeatures
+
+document = extractor.analyze_document(
+	file_source="tests/fixtures/acord_form_2_05272022.png",
+	features=[TextractFeatures.TABLES]
+)
+# Saves the table in an excel document for further processing
+document.tables[0].export_as_excel("output.xlsx")
+```
+
+### Analyze ID
+
+```py
+document = extractor.analyze_id(file_source="tests/fixtures/fake_id.jpg")
+print(document.identity_documents[0].get("FIRST_NAME"))
+# 'FAKEID'
+```
+
+### Receipt processing (Analyze Expense)
+
+```py
+document = extractor.analyze_expense(file_source="tests/fixtures/receipt.jpg")
+print(document.expense_documents[0].get("TOTAL").text)
+# '$1810.46'
+```
+
+If your use case was not covered here or if you are looking for asynchronous usage examples, see [our collection of examples](textractor.readthedocs.org/latest/examples.html).
+
+## Try it out
+
+The `Demo.ipynb` can be used as a reference to understand some functionalities hosted by the package.
+Additionally, `docs/tests/notebooks/` have some tutorials you can try out.
+
+## Tests
+
+The package comes with tests that call the production Textract APIs. Running the tests will incur charges to your AWS account.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## License
+
+This library is licensed under the Apache 2.0 License.
+
