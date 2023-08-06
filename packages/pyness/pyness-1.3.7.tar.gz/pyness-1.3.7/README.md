@@ -1,0 +1,76 @@
+## Badges
+[![Downloads](https://static.pepy.tech/personalized-badge/pyness?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/pyness?versions=1.0.0&versions=1.2.0&versions=1.1.9&versions=1.1.8&versions=1.1.7&versions=1.1.6&versions=1.1.5&versions=1.1.4&versions=1.1.1&versions=1.0.9&versions=1.0.5&versions=1.0.6&versions=1.0.8&versions=1.0.7&versions=1.1.0&versions=1.1.3&versions=1.1.2&versions=1.3.0)
+
+# what is Pyness
+pyness --> python necessary.
+
+A simple module aka tool that will cover some necessary work of your project/work.
+The codes on this module is very simple i think anyone can do this but this module will help you to do it quickly and make your lines low.
+
+# important
+If u got any error pls make issus in github
+
+# Update log
+- Sorry for those who got error on version - 1.3.6 (i forgot to add pillow module on requirement)
+- key function now using half secrets and half random module
+- convert.photo is removed
+
+## Next Update:
+- Working on bites
+- i will use bites to make the key function even more faster
+- new function (key.number,key.upper) #
+- new function when done working on bites (bitestostr,bitestoint,str/int to bites)
+## Install
+
+```bash
+  pip install pyness
+```
+
+
+## Deployment
+
+Generate with key function:
+```python
+x1 = pyness.key(5)
+x2 = pyness.key(5,number=True,upper=False,lower=False,symbol=False)
+x3 = pyness.key(5,number=3,upper=2)
+x4 = pyness.key(5,number="1",upper="SA",lower=False,symbol=False)
+```
+output:
+```python
+x1 : &qYkJ    All mixed
+x2 : 98003    only number
+x3 : I70Q9    there is 3 number and 2 upper
+x4 : A11S1    used string
+```
+Get FPS:
+```python
+def test(x,b):
+    x + b
+    print(pyness.fps())
+```
+Bar:
+```python
+a = pyness.bar(total=100,amount=20,length=50)
+print(a)
+```
+output:
+```python
+"|██████████----------------------------------------| 20%"
+```
+update:
+```python
+pyness.update()
+```
+output:
+```python
+Collecting pyness
+  Using cached pyness-1.2.0-py3-none-any.whl (3.8 kB)
+Installing collected packages: pyness
+Successfully installed pyness-1.2.0
+```
+## Features
+- key
+- FPS
+- Bar
+- coming soon
