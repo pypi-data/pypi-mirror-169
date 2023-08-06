@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoHaohaowan = TaluoHaohaowan.__main__:main
+taluo-haohaowan = TaluoHaohaowan.__main__:main
+
