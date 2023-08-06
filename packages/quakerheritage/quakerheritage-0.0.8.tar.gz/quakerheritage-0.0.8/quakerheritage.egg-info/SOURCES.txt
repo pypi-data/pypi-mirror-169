@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+quakerheritage/__init__.py
+quakerheritage/build.py
+quakerheritage/cleanseData.py
+quakerheritage/getWebData.py
+quakerheritage.egg-info/PKG-INFO
+quakerheritage.egg-info/SOURCES.txt
+quakerheritage.egg-info/dependency_links.txt
+quakerheritage.egg-info/not-zip-safe
+quakerheritage.egg-info/top_level.txt
