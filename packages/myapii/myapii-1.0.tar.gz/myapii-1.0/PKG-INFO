@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: myapii
+Version: 1.0
+Summary: A small api that uses fastapi-users
+Home-page: https://github.com/ladejavu/python-dev/tree/docker
+Author: sundus_ladejavu
+Author-email: sundus.khalid@ladejavu.com
+License: MIT
+Keywords: api
+License-File: LICENSE.txt
