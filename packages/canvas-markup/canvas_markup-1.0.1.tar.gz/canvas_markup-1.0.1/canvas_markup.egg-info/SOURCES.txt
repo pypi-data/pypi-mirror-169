@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+canvas_markup/__init__.py
+canvas_markup/browser.py
+canvas_markup.egg-info/PKG-INFO
+canvas_markup.egg-info/SOURCES.txt
+canvas_markup.egg-info/dependency_links.txt
+canvas_markup.egg-info/top_level.txt
