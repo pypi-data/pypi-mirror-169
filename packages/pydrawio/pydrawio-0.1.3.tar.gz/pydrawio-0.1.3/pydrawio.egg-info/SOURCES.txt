@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+core/__init__.py
+core/xmlobject.py
+pydrawio/__init__.py
+pydrawio/mxfile.py
+pydrawio/mxgraphmodel.py
+pydrawio/mxlibrary.py
+pydrawio.egg-info/PKG-INFO
+pydrawio.egg-info/SOURCES.txt
+pydrawio.egg-info/dependency_links.txt
+pydrawio.egg-info/top_level.txt
+test/test_mxfile.py
+test/test_mxgraphmodel.py
+test/test_mxlibrary.py
