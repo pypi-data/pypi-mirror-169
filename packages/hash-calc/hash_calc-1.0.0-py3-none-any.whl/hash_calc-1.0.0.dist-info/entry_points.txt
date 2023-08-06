@@ -1,0 +1,2 @@
+[console_scripts]
+hash_calc = hash_calc.__main__:main
