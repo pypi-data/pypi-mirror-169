@@ -1,0 +1,6 @@
+setup.py
+veracodewrapper/__init__.py
+veracodewrapper.egg-info/PKG-INFO
+veracodewrapper.egg-info/SOURCES.txt
+veracodewrapper.egg-info/dependency_links.txt
+veracodewrapper.egg-info/top_level.txt
