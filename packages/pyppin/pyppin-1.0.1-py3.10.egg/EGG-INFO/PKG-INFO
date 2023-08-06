@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyppin
+Version: 1.0.1
+Summary: Python tools collection
+Author: Yonatan Zunger
+Author-email: zunger@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/yonatanzunger/pyppin
+Project-URL: Tracker, https://github.com/yonatanzunger/pyppin/issues
+Project-URL: Documentation, https://yonatanzunger.github.io/pyppin/
+Keywords: threading,stack trace,utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# pyppin: A toolkit of Python basics
+
+pyppin is a library of "basic components" that can be used in a wide range of contexts -- things
+that could hypothetically live in a standard library, only there's no particular reason to put them
+in there. It is essentially a box of tools that are slightly less common than the basics, but are
+nonetheless damned useful in practice. If the main argument against adding something to the standard
+library is "why does it need to be in there, as opposed to elsewhere?" and it's not big enough to
+merit its own standalone package, this is a perfectly reasonable place to put it.
+
+To find the current catalogue of tools and documentation, either browse the source code (it's
+deliberately meant to be readable!) or go to [the documentation](https://yonatanzunger.github.io/pyppin/).
