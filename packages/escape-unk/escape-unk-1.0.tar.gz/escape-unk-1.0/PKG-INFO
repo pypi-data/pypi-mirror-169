@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: escape-unk
+Version: 1.0
+Summary: Escape unknown symbols in SentecePiece vocabularies
+Home-page: https://github.com/ZJaume/escape-unk
+Author: Jaume Zaragoza
+Author-email: jzaragoza@prompsit.com
+License: UNKNOWN
+Description: # escape-unk
+        Escape unknown symbols in SentecePiece vocabularies
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
