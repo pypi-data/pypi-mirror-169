@@ -1,0 +1,4 @@
+[console_scripts]
+TuoteTaluoXuexiShouce = TuoteTaluoXuexiShouce.__main__:main
+tuote-taluo-xuexi-shouce = TuoteTaluoXuexiShouce.__main__:main
+
