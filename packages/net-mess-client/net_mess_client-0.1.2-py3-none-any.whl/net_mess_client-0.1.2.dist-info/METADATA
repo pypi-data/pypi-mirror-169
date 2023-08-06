@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: net-mess-client
+Version: 0.1.2
+Summary: Network mess Client
+Author: Maks-R
+Author-email: ya@maks47.ru
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
