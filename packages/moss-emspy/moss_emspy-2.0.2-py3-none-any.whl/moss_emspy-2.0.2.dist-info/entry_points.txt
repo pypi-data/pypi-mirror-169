@@ -1,0 +1,3 @@
+[console_scripts]
+moss_ems_cli_standalone=moss.ems.scripts.moss_ems_cli:main
+
