@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: diffusionkit
+Version: 0.12
+Requires-Dist: einops
+Requires-Dist: omegaconf
+Requires-Dist: transformers
+Requires-Dist: pytorch-lightning
+
