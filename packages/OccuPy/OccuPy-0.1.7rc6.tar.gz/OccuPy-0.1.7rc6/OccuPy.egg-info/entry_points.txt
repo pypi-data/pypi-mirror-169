@@ -1,0 +1,3 @@
+[console_scripts]
+occupy = occupy.occupy:app
+occupy_gui = occupy.occupy:app_gui
