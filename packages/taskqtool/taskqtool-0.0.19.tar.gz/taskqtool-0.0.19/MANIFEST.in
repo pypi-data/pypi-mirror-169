@@ -1,0 +1,6 @@
+include MANIFEST.in
+include *.md
+graft task
+include LICENSE
+exclude pack.py
+exclude install.py
