@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+Indrajeet/__init__.py
+Indrajeet/introduce.py
+Indrajeet.egg-info/PKG-INFO
+Indrajeet.egg-info/SOURCES.txt
+Indrajeet.egg-info/dependency_links.txt
+Indrajeet.egg-info/requires.txt
+Indrajeet.egg-info/top_level.txt
