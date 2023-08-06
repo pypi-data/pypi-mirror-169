@@ -1,0 +1,9 @@
+fractal_specifications/__init__.py,sha256=aiTRWPG8ry_3JwBp-N7BHWFeGKtRiHA361qX7VBv96k,157
+fractal_specifications/generic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal_specifications/generic/collections.py,sha256=E57tf4nVULqAuS-d0T6aZzaniH7jROOxzW0vPzvWXV0,1679
+fractal_specifications/generic/operators.py,sha256=Ja4-xFykl6lxLT9wZfPI2nM7daP2_Zhv6hqv6n0QMW4,2592
+fractal_specifications/generic/specification.py,sha256=B8TeYC9XQBOWVrPPSiewoDJ79i-1XyE68R9dgQfoGbg,3492
+fractal_specifications-1.0.0.dist-info/LICENSE,sha256=XtS6XCgZbT5nhFSsV8XPM1GP38TK-1GltmkPLBDOUZE,1075
+fractal_specifications-1.0.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+fractal_specifications-1.0.0.dist-info/METADATA,sha256=eCV8PJCMjjbqo5nsLpPwzQCJYbrpxaw78eWxorxu9wE,3668
+fractal_specifications-1.0.0.dist-info/RECORD,,
