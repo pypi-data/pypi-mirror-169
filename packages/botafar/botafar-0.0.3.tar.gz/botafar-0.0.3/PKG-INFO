@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: botafar
+Version: 0.0.3
+Summary: botafar
+Keywords: botafar
+Author: Olli Paloviita
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp==3.8.1
+Requires-Dist: aiortc-datachannel-only==1.3.2.post3
+Requires-Dist: click==8.1.2
+Requires-Dist: colorlog==6.6.0
+Requires-Dist: nest_asyncio==1.5.5
+Requires-Dist: python-engineio==4.3.4
+Requires-Dist: python-socketio==5.7.1
+Requires-Dist: transitions==0.8.11
+Requires-Dist: varname==0.8.2
+Requires-Dist: black==22.3.0 ; extra == "dev"
+Requires-Dist: codespell==2.1.0 ; extra == "dev"
+Requires-Dist: flake8==4.0.1 ; extra == "dev"
+Requires-Dist: furo==2022.6.21 ; extra == "dev"
+Requires-Dist: isort==5.9.3 ; extra == "dev"
+Requires-Dist: myst_parser==0.18.0 ; extra == "dev"
+Requires-Dist: pep8-naming==0.12.1 ; extra == "dev"
+Requires-Dist: pre-commit==2.18.1 ; extra == "dev"
+Requires-Dist: pyproject-flake8==0.0.1a2 ; extra == "dev"
+Requires-Dist: Sphinx==5.0.2 ; extra == "dev"
+Requires-Dist: sphinx-autobuild==2021.3.14 ; extra == "dev"
+Requires-Dist: sphinx_copybutton==0.5.0 ; extra == "dev"
+Requires-Dist: tox==3.24.4 ; extra == "dev"
+Requires-Dist: pytest==6.2.5 ; extra == "test"
+Project-URL: Home, https://github.com/ollipal/botafar
+Provides-Extra: dev
+Provides-Extra: test
+
+# botafar [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+<!-- start intro -->
+
+Add **global remote controls** and **a real time livestream** to your project
+
+- Share a link and let others take the controls one by one
+- Forward the livestream to Twitch or YouTube (optional)
+- No hardware required, a phone can be used as a camera
+- [Arduino](https://docs.botafar.com/arduino) and [Raspberry Pi](https://docs.botafar.com/raspi) tutorials available
+- Desktop and mobile browser support, no apps, no signups
+
+It works by decorating existing functions and class methods to respond to user input:
+
+```python
+import botafar
+
+j = botafar.Joystick("W","A","S","D")
+
+@j.on_left
+def turn_left():
+    print("left!")
+
+@j.on_right
+def turn_right():
+    print("right!")
+
+# ...@j.on_up, on_down, on_center
+
+botafar.run()
+```
+
+![result](https://docs-assets.botafar.com/readme.png)
+
+<!-- end intro -->
+
+**[GET STARTED](https://docs.botafar.com/get_started)**
+
+(Check [botafar.com](https://botafar.com/) for currently online bots)
