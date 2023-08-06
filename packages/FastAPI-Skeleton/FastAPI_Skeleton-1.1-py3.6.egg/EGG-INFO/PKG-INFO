@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: FastAPI-Skeleton
+Version: 1.1
+Summary: Sample code for FastAPI
+Home-page: https://github.com/fanqingsong/fastapi-ml-skeleton
+Author: Qingsong Fan
+Author-email: qsfan@qq.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
