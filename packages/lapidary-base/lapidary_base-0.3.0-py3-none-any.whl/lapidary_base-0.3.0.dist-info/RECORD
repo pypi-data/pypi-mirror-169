@@ -1,0 +1,8 @@
+lapidary_base/__init__.py,sha256=QyUjMRM3hFTYG3_V6hI2mlyBf0j_FnQ2JoesxvHZx28,149
+lapidary_base/absent.py,sha256=cDxKj4vEoJDiDFiI-ZtL8aQyuhSg03k0OpuOUYJZW8E,317
+lapidary_base/api_base.py,sha256=6pMJH5I0vGLtOePP0sB5HhuzU7d-fECThk0c1lo5eeY,4710
+lapidary_base/params.py,sha256=1x6IEcNwKmlPciFPC18W5favevfb3B_bB9j-fdylvpE,211
+lapidary_base/security.py,sha256=Jf0yKyy4rZD_ezJxOosqTSTWFyXliMpH4P70sV18q7Q,534
+lapidary_base-0.3.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+lapidary_base-0.3.0.dist-info/METADATA,sha256=fOwsZza5JgclwYwZ7CrwzajLECu1bGfRhlti9cJTBrM,862
+lapidary_base-0.3.0.dist-info/RECORD,,
