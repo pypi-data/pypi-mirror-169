@@ -1,0 +1,9 @@
+unicodedata2
+
+[dev]
+flake8
+coverage
+pyinstaller
+pillow
+
+[doc]

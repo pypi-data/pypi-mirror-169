@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: efck
+Version: 1.0rc1
+Summary: Emoji filter / Unicode chat keyboard
+Home-page: https://efck-chat-keyboard.github.io/
+Author: Nono Viamoto
+License: AGPL-3.0
+Project-URL: Source, https://github.com/efck-chat-keyboard/efck
+Project-URL: Tracker, https://github.com/efck-chat-keyboard/efck/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Text Processing :: Filters
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+<img src="efck/icons/logo.png" width="64px"/> EF*CK Chat Keyboard
+======
+
+[Emoji Filter / Unicode Chat Keyboard][www] — Official website
+
+Find prebuilt downloads in the **Releases** sidebar.
+
+[Contributing guidelines / hacking](CONTRIBUTING.md)
+
+[www]: https://efck-chat-keyboard.github.io
+
+
+Features
+--------
+* Fully cross-platform desktop on-screen emoji keyboard based on
+  Python and PyQt6/5+
+* Keyboard-first navigation
+* Built-in tabs for:
+  * Emoji filtering by emoji name and common marks
+  * Transforming input text into various segments of Unicode
+    (extendable with own scripts)
+  * Searching for meme GIFs with support for drag-and-drop
+    into your chosen window
+* Extensible architecture with support for custom homemade tabs.
+* The selected emoji/filter/gif/... is typed/pasted into the
+  previously active desktop window ...
+* ... and/or saved into the clipboard
