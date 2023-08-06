@@ -1,0 +1,6 @@
+setup.py
+appstats-logger/__init__.py
+appstats_logger.egg-info/PKG-INFO
+appstats_logger.egg-info/SOURCES.txt
+appstats_logger.egg-info/dependency_links.txt
+appstats_logger.egg-info/top_level.txt
