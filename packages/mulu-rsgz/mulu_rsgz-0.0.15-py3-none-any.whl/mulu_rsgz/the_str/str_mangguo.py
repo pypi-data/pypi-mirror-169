@@ -1,0 +1,41 @@
+import random
+
+
+def rand_title(the_str):
+    r"""
+    返回新的 随机字符串
+    the_str = r"Feature,Gorgeous,Fresh,Hot Sale,Simple,Fashion "
+    print(rand_title(the_str)) # Feature Hot Sale Simple Gorgeous Fresh Fashion
+    """
+    the_str = the_str.replace(" ,", ",").replace(", ", ",")
+    the_str_list = the_str.split(",")  # ['Feature', 'Gorgeous', 'Fresh', 'Hot Sale', 'Simple', 'Fashion ']
+    random.shuffle(the_str_list)
+    the_str = ' '.join(the_str_list).title().replace("'S", "'s")
+    return the_str.replace("  "," ")
+
+def str_to_list(the_str):
+    r"""
+    将字符串转化为列表
+    the_str = r"Feature,Gorgeous,Fresh,Hot Sale,Simple,Fashion "
+    the_list = str_to_list(the_str)
+    """
+    return the_str.split(",")
+
+def list_to_str(the_list, fengefu):
+    r"""
+    fengefu = " "
+    the_list = ["123", "aabb", "jiu_s12", "rsgz"]
+    the_str = list_to_str(the_list, fengefu)  # 123 aabb jiu_s12 rsgz
+    注意 列表里面不能有数字 如果有请转化为字符串格式
+    """
+    return fengefu.join(the_list)
+
+
+if __name__ == '__main__':
+    the_str = r"Feature,Gorgeous,Fresh,Hot Sale,Simple,Fashion "
+    print(rand_title(the_str))
+
+    fengefu = " "
+    the_list = ["123", "aabb", "jiu_s12", "rsgz"]
+    the_str = list_to_str(the_list, fengefu)  # 123 aabb jiu_s12 rsgz
+    print(the_str)
