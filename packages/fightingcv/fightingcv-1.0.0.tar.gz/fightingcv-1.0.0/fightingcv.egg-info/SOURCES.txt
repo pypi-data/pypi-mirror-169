@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+./model/__init__.py
+fightingcv.egg-info/PKG-INFO
+fightingcv.egg-info/SOURCES.txt
+fightingcv.egg-info/dependency_links.txt
+fightingcv.egg-info/top_level.txt
