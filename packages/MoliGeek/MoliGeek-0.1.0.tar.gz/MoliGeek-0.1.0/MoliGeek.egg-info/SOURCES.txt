@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+MoliGeek.egg-info/PKG-INFO
+MoliGeek.egg-info/SOURCES.txt
+MoliGeek.egg-info/dependency_links.txt
+MoliGeek.egg-info/requires.txt
+MoliGeek.egg-info/top_level.txt
+core/__init__.py
+core/network/__init__.py
+core/web/__init__.py
+core/web/imitate.py
+core/zip/__init__.py
+path_dict/__init__.py
