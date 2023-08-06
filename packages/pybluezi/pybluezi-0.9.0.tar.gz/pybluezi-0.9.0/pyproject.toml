@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pybluezi"
+version = "0.9.0"
+authors = [
+	{name="Yoda", email="im.yod4@gmail.com"}
+]
+description = "An educational collection-like package"
+readme = "README.md"
+require-python = ">3.1"
+classifires = [
+	"Programming Language :: Python :: 3",
+	"Licence :: OSI Approved :: MIT Licence",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+"HomePage" = "https://github.com/ImYod4/zi"
+
