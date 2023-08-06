@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-listener
+Version: 1.0.2
+Summary: 基于nonebot2的监听消息并转发
+Home-page: https://github.com/AbCooly/nonebot_plugin_lisenter
+Author: AbCooly
+Author-email: 298587827@qq.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# nonebot_plugin_listener
+
+——基于nonebot2
+
+## 简介
+
+监听指定消息并转发到指定群
+
+## 使用
+
+查看并填写config.py
+
