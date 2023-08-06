@@ -1,0 +1,43 @@
+# pyGSM
+pyGSM (Python + GSM) is a reaction path and photochemistry tool. It combines the powerful tools of python with the Growing String Method to allow for rapid prototyping and improved readability. This forked repo is from https://github.com/ZimmermanGroup/pyGSM. This repo was modified so it can run with Gaussian software. This package has been published in PyPi so you can easily download it.
+
+## Documentation
+See https://zimmermangroup.github.io/pyGSM/
+
+
+## Install instructions
+
+### Option 1: Installing from PyPi
+
+   1. `conda create -n gsm_env python=3.8`
+   2. `conda activate gsm_env`
+   3. `conda install -c conda-forge xtb-python`
+   4. `conda install -c conda-forge cclib=1.7.1`
+   5. `conda install -c conda-forge ase=3.22.1`
+   6. `conda install xtb=6.4.1`
+   7. `pip install pygsm-gaussian`
+
+### Option 2: Installing from source
+
+Install the code using `python setup.py install`.\
+You can also install locally without sudo permissions like:
+`python setup.py install --prefix ~/.local`
+You might need to create the folder `~/.local/lib/` if setup.py complains about the folder not existing.
+
+It's also recommended to do the installation within a conda environment e.g.:
+   1. `conda create -n gsm_env`
+   2. `source activate gsm_env`
+   3. `python setup.py install --prefix ~/.local`
+
+## LICENCE Notifications
+This project contains source material from the geomeTRIC package.\
+Copyright 2016-2019 Regents of the University of California and the Authors\
+Authors: Lee-Ping Wang, Chenchen Song\ 
+https://github.com/leeping/geomeTRIC/blob/master/LICENSE
+
+
+## Credits: 
+Cody Aldaz (lead author) \
+Prof. Paul Zimmerman \
+Prof. Lee-Ping Wang \
+Prof. Todd Martinez
