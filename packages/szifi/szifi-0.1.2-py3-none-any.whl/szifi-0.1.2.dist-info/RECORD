@@ -1,0 +1,17 @@
+szifi/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+szifi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+szifi/cat.py,sha256=ychzaXsn2U-Z6bTAvFDsjI0kUg64Wn07S0HHYBCiYB8,31866
+szifi/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+szifi/expt.py,sha256=HMMfduvGQHdwVAu8BZOqHBojtamzwdJKblDS5O54oMs,4172
+szifi/inpaint.py,sha256=2UExuhKVZEvQKv96BffzlAG4Vlq3v1uNYL0BrJosG7g,1896
+szifi/maps.py,sha256=gdr4w74-28hdp98rZ2Q-UsnxLgUnn9qONEOrMLYg5aY,29496
+szifi/mmf.py,sha256=NHeGVB2vO79zS2MQmxKoDCBnBm0VkBHoA1A8n9O-X0k,58519
+szifi/model.py,sha256=m5Qbj2amV-2UX-tqdm9o_3c9uoKvApjQDuJUkYxvbdY,29399
+szifi/plotter.py,sha256=hKoN0eVSYVMJSHA2FZtNbNNHp9EOgk4eFNr2V9KFAe4,5023
+szifi/sim.py,sha256=ou3ESBcrkh_XFSDogaQkJL-5wmOmgSXuPc37uyqx9cw,7334
+szifi/sphere.py,sha256=7yrtHIVz8W4u3E69P6pDFolg4CnEeGKMJNomzJRtbQk,11485
+szifi/websky.py,sha256=WLBNI2UHnnzjzpKNaqsaPi1NHqSE-ezBJJM2OSO3fpA,47538
+szifi-0.1.2.dist-info/METADATA,sha256=YGha6aGjF7giMHzna7tEJFYoNt_mml0sTDzJCbxooog,685
+szifi-0.1.2.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+szifi-0.1.2.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+szifi-0.1.2.dist-info/RECORD,,
