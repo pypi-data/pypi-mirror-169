@@ -1,0 +1,9 @@
+db: # 数据etl或主题数据库db连接信息
+  db_zentao: # 禅道
+    dbinfo:
+      host: 172.16.230.204
+      user: data_select
+      password: nkv97rrogQ@w9TKM
+      port: 3306
+      database: zentao
+
