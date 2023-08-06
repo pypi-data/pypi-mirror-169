@@ -1,0 +1,422 @@
+[build-system]
+requires = ["setuptools>=63", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bentoml"
+description = "BentoML: The Unified Model Serving Framework"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.7"
+keywords = ["MLOps", "AI", "BentoML", "Model Serving", "Model Deployment"]
+license = { text = "Apache-2.0" }
+authors = [{ name = "BentoML Team", email = "contact@bentoml.com" }]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+  "Jinja2>=3.0.1",
+  "PyYAML>=5.0",
+  "aiohttp",
+  "attrs>=21.1.0",
+  "cattrs>=22.1.0",
+  "circus",
+  "click>=7.0",
+  "cloudpickle",
+  "deepmerge",
+  "fs",
+  "numpy",
+  "opentelemetry-api>=1.9.0",
+  "opentelemetry-instrumentation==0.33b0",
+  "opentelemetry-instrumentation-aiohttp-client==0.33b0",
+  "opentelemetry-instrumentation-asgi==0.33b0",
+  "opentelemetry-sdk>=1.9.0",
+  "opentelemetry-semantic-conventions==0.33b0",
+  "opentelemetry-util-http==0.33b0",
+  "packaging>=20.0",
+  "pathspec",
+  "pip-tools>=6.6.2",
+  "prometheus-client>=0.10.0",
+  "psutil",
+  "pynvml<12",
+  "python-dateutil",
+  "python-dotenv>=0.20.0",
+  "python-multipart",
+  "requests",
+  "rich>=11.2.0",
+  "schema",
+  "simple-di>=0.1.4",
+  "starlette",
+  "uvicorn",
+  "watchfiles>=0.15.0",
+  "backports.cached-property;python_version<'3.8'",
+  "backports.shutil_copytree;python_version<'3.8'",
+  "importlib-metadata;python_version<'3.8'",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Documentation" = "https://docs.bentoml.org/en/latest/"
+"Bug Reports" = "https://github.com/bentoml/BentoML/issues"
+"BentoML Community Slack" = "https://bit.ly/2N5IpbB"
+"BentoML Official Blog" = "https://modelserving.com"
+"BentoML Twitter" = "https://twitter.com/bentomlai"
+
+[project.scripts]
+bentoml = "bentoml_cli.cli:cli"
+
+[tool.setuptools]
+package-data = { "bentoml" = ["bentoml/*"], "bentoml_cli" = ["bentoml_cli/*"] }
+
+[tool.setuptools.packages.find]
+include = [
+  # include bentoml packages
+  "bentoml",
+  "bentoml.grpc*",
+  "bentoml.testing*",
+  "bentoml._internal*",
+  # include bentoml_cli packages
+  "bentoml_cli",
+  "bentoml_cli.worker",
+]
+
+[project.optional-dependencies]
+all = [
+  "bentoml[aws]",
+  "bentoml[io-image]",
+  "bentoml[io-pandas]",
+  "bentoml[grpc]",
+  "bentoml[tracing]",
+]
+aws = ["fs-s3fs"]
+io-image = ["Pillow"]
+io-pandas = ["pandas", "pyarrow"]
+grpc = [
+  # Restrict maximum version due to breaking protobuf 4.21.0 changes
+  # (see https://github.com/protocolbuffers/protobuf/issues/10051)
+  # 3.19.5 is currently breaking on a lot of system.
+  "protobuf>=3.5.0, <3.20, !=3.19.5",
+  # Lowest version that support 3.10. We need to set an upper bound
+  # since grpcio >=1.49.0 uses protbuf >=3.20.0, which breaks compatibility.
+  # We can't use 1.48.2 since it depends on 3.19.5
+  "grpcio>=1.41.0, <1.49, !=1.48.2",
+  "grpcio-health-checking",
+  "grpcio-reflection",
+  "opentelemetry-instrumentation-grpc==0.33b0",
+]
+# We kept for compatibility with previous
+# versions of BentoML. It is discouraged to use this, instead use any
+# of the above tracing.* extras.
+tracing = [
+  "bentoml[tracing-jaeger]",
+  "bentoml[tracing-otlp]",
+  "bentoml[tracing-zipkin]",
+]
+tracing-jaeger = ["opentelemetry-exporter-jaeger"]
+tracing-zipkin = ["opentelemetry-exporter-zipkin"]
+tracing-otlp = ["opentelemetry-exporter-otlp"]
+
+[tool.setuptools_scm]
+write_to = "bentoml/_version.py"
+git_describe_command = "git describe --dirty --tags --long --first-parent"
+version_scheme = "post-release"
+fallback_version = "0.0.0"
+
+[tool.coverage.paths]
+source = ["bentoml"]
+
+[tool.coverage.run]
+branch = true
+source = ["bentoml", "bentoml_cli"]
+omit = [
+  "bentoml/**/*_pb2.py",
+  "bentoml/__main__.py",
+  "bentoml/_internal/types.py",
+  "bentoml/_internal/external_typing/*",
+  "bentoml/testing/*",
+  "bentoml/io.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+precision = 2
+omit = [
+  "*/bentoml/**/*_pb2*.py",
+  "*/bentoml/_internal/external_typing/*",
+  "*/bentoml/_internal/types.py",
+  "*/bentoml/testing/*",
+  '*/bentoml/__main__.py',
+  "*/bentoml/io.py",
+]
+exclude_lines = [
+  "pragma: no cover",
+  "def __repr__",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "raise MissingDependencyException",
+  "except ImportError",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.black]
+line-length = 88
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.tox
+    | \.venv
+    | _build
+    | .build
+    | bazel-*
+    | build
+    | venv
+    | lib
+    | dist
+    | typings
+    | bentoml/grpc/v1alpha1
+    | grpc-client/thirdparty
+  )/
+  | bentoml/_version.py
+)
+'''
+extend-exclude = "(_pb2.py$|_pb2_grpc.py$)"
+
+[tool.pytest.ini_options]
+addopts = "-rfEX -p pytester -p no:warnings -x --capture=tee-sys --cov-report=term-missing --cov-append"
+python_files = ["test_*.py", "*_test.py"]
+testpaths = ["tests"]
+markers = ["gpus", "disable-tf-eager-execution"]
+
+[tool.pylint.main]
+recursive = true
+extension-pkg-allow-list = [
+  "numpy",
+  "tensorflow",
+  "torch",
+  "paddle",
+  "onnxruntime",
+  "onnx",
+  "pydantic.schema",
+]
+ignore-paths = [
+  "typings",
+  "bentoml/_internal/external_typing",
+  "bentoml/grpc/v1alpha1",
+]
+disable = [
+  "import-error",
+  "print-statement",
+  "parameter-unpacking",
+  "unpacking-in-except",
+  "old-raise-syntax",
+  "backtick",
+  "raw-checker-failed",
+  "bad-inline-option",
+  "locally-disabled",
+  "file-ignored",
+  "suppressed-message",
+  "useless-suppression",
+  "deprecated-pragma",
+  "apply-builtin",
+  "basestring-builtin",
+  "buffer-builtin",
+  "cmp-builtin",
+  "coerce-builtin",
+  "execfile-builtin",
+  "file-builtin",
+  "long-builtin",
+  "raw_input-builtin",
+  "reduce-builtin",
+  "standarderror-builtin",
+  "coerce-method",
+  "delslice-method",
+  "getslice-method",
+  "setslice-method",
+  "no-absolute-import",
+  "old-division",
+  "dict-iter-method",
+  "dict-view-method",
+  "next-method-called",
+  "metaclass-assignment",
+  "indexing-exception",
+  "raising-string",
+  "reload-builtin",
+  "oct-method",
+  "hex-method",
+  "nonzero-method",
+  "cmp-method",
+  "input-builtin",
+  "round-builtin",
+  "intern-builtin",
+  "unichr-builtin",
+  "map-builtin-not-iterating",
+  "zip-builtin-not-iterating",
+  "range-builtin-not-iterating",
+  "filter-builtin-not-iterating",
+  "using-cmp-argument",
+  "exception-message-attribute",
+  "invalid-str-codec",
+  "sys-max-int",
+  "bad-python3-import",
+  "deprecated-string-function",
+  "deprecated-str-translate-call",
+  "deprecated-itertools-function",
+  "deprecated-types-field",
+  "next-method-defined",
+  "dict-items-not-iterating",
+  "dict-keys-not-iterating",
+  "dict-values-not-iterating",
+  "deprecated-operator-function",
+  "deprecated-urllib-function",
+  "xreadlines-attribute",
+  "deprecated-sys-function",
+  "exception-escape",
+  "comprehension-escape",
+  "logging-fstring-interpolation",
+  "logging-format-interpolation",
+  "logging-not-lazy",
+  "C",
+  "R",
+  "fixme",
+  "protected-access",
+  "no-member",
+  "unsubscriptable-object",
+  "raise-missing-from",
+  "isinstance-second-argument-not-valid-type",
+  "attribute-defined-outside-init",
+  "relative-beyond-top-level",
+]
+enable = ["c-extension-no-member"]
+evaluation = "10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)"
+msg-template = "{msg_id}:{symbol} [{line:0>3d}:{column:0>2d}] {obj}: {msg}"
+output-format = "colorized"
+score = true
+
+[tool.pylint.classes]
+valid-metaclass-classmethod-first-arg = ["cls", "mcls", "kls"]
+
+[tool.pylint.logging]
+logging-format-style = "old" # using %s formatter for logging (performance-related)
+
+[tool.pylint.miscellaneous]
+notes = ["FIXME", "XXX", "TODO", "NOTE", "WARNING"]
+
+[tool.pylint.refactoring]
+# specify functions that should not return
+never-returning-functions = ["sys.exit"]
+
+[tool.pylint.spelling]
+spelling-ignore-comment-directives = "fmt: on,fmt: off,noqa:,noqa,nosec,isort:skip,mypy:,pylint:,type:"
+
+[tool.pylint.variables]
+init-import = true
+
+[tool.pylint.typecheck]
+contextmanager-decorators = [
+  "contextlib.contextmanager",
+  "bentoml._internal.utils.cached_contextmanager",
+]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+length_sort = true
+force_single_line = true
+order_by_type = true
+force_alphabetical_sort_within_sections = true
+skip_glob = [
+  "typings/*",
+  "test/*",
+  "**/*_pb2.py",
+  "**/*_pb2_grpc.py",
+  "venv/*",
+  "lib/*",
+  'bentoml/grpc/v1alpha1/',
+  "grpc-client/thirdparty",
+  "bazel-*",
+]
+
+[tool.pyright]
+pythonVersion = "3.10"
+include = ["bentoml/"]
+exclude = [
+  'bentoml/_version.py',
+  'bentoml/__main__.py',
+  'bentoml/_internal/external_typing/',
+  'bentoml/grpc/v1alpha1/',
+  '**/*_pb2.py',
+  "**/*_pb2_grpc.py",
+  "grpc-client/thirdparty",
+  "bazel-*",
+]
+useLibraryCodeForTypes = true
+strictListInference = true
+strictDictionaryInference = true
+strictSetInference = true
+strictParameterNoneValue = true
+enableTypeIgnoreComments = true
+reportGeneralTypeIssues = "error"
+reportPropertyTypeMismatch = "error"
+reportFunctionMemberAccess = "error"
+reportMissingImports = "warning"
+reportMissingModuleSource = "warning"
+reportMissingTypeStubs = "warning"
+reportUnusedImport = "error"
+reportUnusedClass = "error"
+reportUnusedFunction = "error"
+reportUnusedVariable = "error"
+reportDuplicateImport = "error"
+reportWildcardImportFromLibrary = "error"
+reportOptionalSubscript = "error"
+reportOptionalMemberAccess = "error"
+reportOptionalCall = "error"
+reportOptionalIterable = "error"
+reportOptionalContextManager = "error"
+reportOptionalOperand = "error"
+reportTypedDictNotRequiredAccess = "error"
+reportUntypedFunctionDecorator = "error"
+reportUntypedClassDecorator = "error"
+reportUntypedBaseClass = "error"
+reportUntypedNamedTuple = "error"
+reportPrivateUsage = "error"
+reportPrivateImportUsage = "error"
+reportConstantRedefinition = "error"
+reportIncompatibleMethodOverride = "error"
+reportIncompatibleVariableOverride = "error"
+reportOverlappingOverload = "error"
+reportUninitializedInstanceVariable = "none"
+reportInvalidStringEscapeSequence = "error"
+reportUnknownParameterType = "error"
+reportUnknownArgumentType = "error"
+reportUnknownLambdaType = "error"
+reportUnknownVariableType = "error"
+reportUnknownMemberType = "warning"
+reportMissingParameterType = "error"
+reportMissingTypeArgument = "error"
+reportInvalidTypeVarUse = "error"
+reportCallInDefaultInitializer = "none"
+reportUnnecessaryIsInstance = "warning"
+reportUnnecessaryCast = "error"
+reportUnnecessaryComparison = "error"
+reportAssertAlwaysTrue = "error"
+reportSelfClsParameterName = "error"
+reportImplicitStringConcatenation = "none"
+reportUndefinedVariable = "error"
+reportUnboundVariable = "error"
+reportInvalidStubStatement = "error"
+reportIncompleteStub = "error"
+reportUnsupportedDunderAll = "error"
+reportUnusedCallResult = "none"
+reportUnusedCoroutine = "error"
