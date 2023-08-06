@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+xerxes_protocol.egg-info/PKG-INFO
+xerxes_protocol.egg-info/SOURCES.txt
+xerxes_protocol.egg-info/dependency_links.txt
+xerxes_protocol.egg-info/top_level.txt

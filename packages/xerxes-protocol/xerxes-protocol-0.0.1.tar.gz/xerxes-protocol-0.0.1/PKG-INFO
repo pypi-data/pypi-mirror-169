@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xerxes-protocol
+Version: 0.0.1
+Summary: Python implementation for xerxes-protocol
+Home-page: https://github.com/metrotech-sk/xerxes-protocol
+Author: Stanislav Rubint
+Author-email: stanislav@rubint.sk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xerxes-protocol
+
+[![Upload Python Package](https://github.com/metrotech-sk/xerxes-protocol/actions/workflows/python-publish.yml/badge.svg?event=push)](https://github.com/metrotech-sk/xerxes-protocol/actions/workflows/python-publish.yml)
