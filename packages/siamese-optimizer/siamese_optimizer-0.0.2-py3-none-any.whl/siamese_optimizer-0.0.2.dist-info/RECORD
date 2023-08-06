@@ -1,0 +1,16 @@
+siamese/__init__.py,sha256=6oDXj-VWqJRwB0oqyPEGiKp5ChdmTJC2T3alRXwinpE,2062
+siamese/_reports.py,sha256=74D0lHgOXpDArukjFbIH6o9eEfaD78m7aCNIywdFchA,5279
+siamese/_stats.py,sha256=gdWzovHzQjQGxJP7HTNntfbJRFb5Ksx8rViOgeBfyHs,1368
+siamese/distributions.py,sha256=HVmcXiklNW3DNiNIwCzWOlxsRMN-Z4orqGCb1vL4YPc,8313
+siamese/failures.py,sha256=6u4dIfCZoswhGZmjHKVIR45jl6qbeyT32ynbQBqo9ls,1597
+siamese/status.py,sha256=AMiCO1Vyu7BAXNkYFZ8w8moXBz_YxcOZgYL3r3AQBIg,210
+siamese/models/base.py,sha256=dZrJZk1aGfesiLBFFg_gPfz17_7dMDIsa5YRyWZdwiM,381
+siamese/models/buffer.py,sha256=9vHzXnIrlESXmHO_gQGhQBc6wNbhLgi-K_KZLjqU6-U,808
+siamese/models/line.py,sha256=gbRLhIQ3qdH_yXvWRYlKaRJdbV9erc_-xFtMo1KnxNc,3892
+siamese/models/machine.py,sha256=utpEffC9cHXDMXsX207lmo8IbD4na0oqfvhfFb07n5w,6401
+siamese/models/source.py,sha256=rUQGPTjl7P43IJPsnkbWFXQKiB5Qsv5xrSn5zOZ9PMs,5321
+siamese_optimizer-0.0.2.dist-info/LICENSE,sha256=4zKOXE5WCrgdzWa33xGbhQeGEiOrf8HiwBe_4ZoqtVw,1072
+siamese_optimizer-0.0.2.dist-info/METADATA,sha256=ey7Jngf1OoTeF6EdaNNripQbaIYV7WieLOUgut3_kpk,2127
+siamese_optimizer-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+siamese_optimizer-0.0.2.dist-info/top_level.txt,sha256=CJ7QfY_fLvM71tSnHzr9B8lJZvYU6H-Wese_03hPIKI,8
+siamese_optimizer-0.0.2.dist-info/RECORD,,
