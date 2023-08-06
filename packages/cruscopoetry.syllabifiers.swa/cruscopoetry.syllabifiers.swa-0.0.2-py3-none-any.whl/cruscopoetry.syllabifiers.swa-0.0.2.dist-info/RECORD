@@ -1,0 +1,9 @@
+cruscopoetry/syllabifiers/swa/__init__.py,sha256=t_HpsOE8mI589oXj5YHcN13X-6RrSrnq6niUkB9qDOs,733
+cruscopoetry/syllabifiers/swa/__main__.py,sha256=yS08X36bSHv_hqmr6jJq3Zk5X2WNzq6WTnOXfEyqzGk,878
+cruscopoetry/syllabifiers/swa/syllabifier.py,sha256=a88GebZJF_3ftAaY_1Md9NjyrY1BbLTcU6fk9YOnr2U,3534
+cruscopoetry/syllabifiers/swa/syllable.py,sha256=YYMPWmWpjhjqGjqEtT5Z1NBdTydDQ157mPajKKzsx6E,1358
+cruscopoetry/syllabifiers/swa/tokenizer.py,sha256=JX2IBpRcBQLHHHCbQP4LvGijmn48S7RWdKd_kmJKjj0,8414
+cruscopoetry.syllabifiers.swa-0.0.2.dist-info/METADATA,sha256=kVadlIBtjNc1qP8Ya54-7TiHbLSV0SLtnaMSkjkz2fE,499
+cruscopoetry.syllabifiers.swa-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cruscopoetry.syllabifiers.swa-0.0.2.dist-info/top_level.txt,sha256=re-25HV-lVb6rsAdTdpYQiW5PqPMTbvzQMP5Yq_PY5w,13
+cruscopoetry.syllabifiers.swa-0.0.2.dist-info/RECORD,,
