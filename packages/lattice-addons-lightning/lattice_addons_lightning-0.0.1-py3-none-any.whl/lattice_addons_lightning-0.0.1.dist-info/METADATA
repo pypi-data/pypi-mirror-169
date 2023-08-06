@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lattice-addons-lightning
+Version: 0.0.1
+Summary: Lattice Add-ons
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: boto3
+Requires-Dist: lightning
+
+# How to use Lightning Addons
+Use the import:
+```python
+from lattice_addons.lightning.elastic import ElasticityProvider
+```
+
+Then add this as a callback to your Trainer:
+```python
+trainer = Trainer(
+    default_root_dir='.',
+    max_epochs=30,
+    devices=int(os.environ['LOCAL_WORLD_SIZE']),
+    accelerator='gpu',
+    num_nodes=int(os.environ['WORLD_SIZE']),
+    strategy='ddp',
+    callbacks=[ElasticityProvider(storage_location, every_n_steps=10, batch_size=local_batch_size)],
+)
+```
++ **Note**: For now the only supported storage locations are S3 buckets
