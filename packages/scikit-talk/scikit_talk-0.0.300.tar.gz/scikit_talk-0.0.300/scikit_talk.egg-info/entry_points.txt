@@ -1,0 +1,2 @@
+[console_scripts]
+scikit_talk = scikit_talk.cli:main
