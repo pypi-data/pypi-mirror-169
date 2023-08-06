@@ -1,0 +1,6 @@
+setup.py
+xbrl2-server-api/__init__.py
+xbrl2_server_api.egg-info/PKG-INFO
+xbrl2_server_api.egg-info/SOURCES.txt
+xbrl2_server_api.egg-info/dependency_links.txt
+xbrl2_server_api.egg-info/top_level.txt
