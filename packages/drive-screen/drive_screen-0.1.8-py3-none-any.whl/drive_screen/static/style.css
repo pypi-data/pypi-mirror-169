@@ -1,0 +1,56 @@
+.img_responsive {
+    max-width: 100%;
+    height: auto;
+    /* width:auto; */
+  }
+
+
+.divBorder_default{
+    border: 30px  #9E9E9E;
+    border-style: hidden hidden hidden solid
+
+    /* border-style: dotted dashed solid double
+     */
+   }
+
+.divBorder_green01{
+    border: 30px  #C8E6C9;
+    border-style: hidden hidden hidden solid
+
+    /* border-style: dotted dashed solid double
+     */
+   }
+
+.divBorder_green02{
+    border: 30px  #8BC34A;
+    border-style: hidden hidden hidden solid
+
+    /* border-style: dotted dashed solid double
+     */
+   }
+
+.divBorder_yellow{
+    border: 30px  #FDD835;
+    border-style: hidden hidden hidden solid
+
+    /* border-style: dotted dashed solid double
+     */
+   }
+
+
+.divBorder_orange{
+    border: 30px  #FF8F00;
+    border-style: hidden hidden hidden solid
+
+    /* border-style: dotted dashed solid double
+     */
+   }
+
+.divBorder_red{
+    border: 30px  #FF3D00;
+    border-style: hidden hidden hidden solid
+
+    /* border-style: dotted dashed solid double
+     */
+   }
+
