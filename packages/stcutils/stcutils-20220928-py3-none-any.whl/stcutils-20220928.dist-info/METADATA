@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: stcutils
+Version: 20220928
+Summary: Provide useful functionality and auto testing data for my computer science students. Designed for Sha Tin College.
+Home-page: https://github.com/paulbaumgarten/stc-tester
+Author: Paul Baumgarten
+Author-email: pbaumgarten@gmail.com
+License: UNKNOWN
+Keywords: Sha Tin College
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# STC Tester
+
+This module has been written for use within Sha Tin College Computer Science lessons. It is intended to provide sample inputs for various introductory problems that our students are tasked to complete.
+
+## Install
+
+```
+pip3 install stc_tester
+```
+
+## Author
+
+* [Paul Baumgarten](https://pbaumgarten.com/)
+
+## License
+
+MIT License (C) 2022 Paul Baumgarten
+
+
+
