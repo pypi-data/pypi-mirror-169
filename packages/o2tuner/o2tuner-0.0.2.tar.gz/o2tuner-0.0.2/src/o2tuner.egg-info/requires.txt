@@ -1,0 +1,13 @@
+optuna
+colorama
+click
+matplotlib
+psutil
+pandas
+seaborn
+
+[dev]
+
+[test]
+pylint
+pytest
