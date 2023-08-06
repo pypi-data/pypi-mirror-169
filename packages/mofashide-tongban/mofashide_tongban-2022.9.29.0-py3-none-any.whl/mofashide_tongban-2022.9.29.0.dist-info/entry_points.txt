@@ -1,0 +1,4 @@
+[console_scripts]
+MofashideTongban = MofashideTongban.__main__:main
+mofashide-tongban = MofashideTongban.__main__:main
+
