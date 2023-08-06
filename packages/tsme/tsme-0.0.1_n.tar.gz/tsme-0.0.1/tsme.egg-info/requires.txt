@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scipy
+findiff
+tabulate
+tqdm
+hyperopt
+optuna
+nevergrad
