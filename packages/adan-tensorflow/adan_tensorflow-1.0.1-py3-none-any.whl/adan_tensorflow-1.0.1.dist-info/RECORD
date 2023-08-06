@@ -1,0 +1,10 @@
+tf_adan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_adan/adan.py,sha256=3j6S51PitPyjmjhxK14gnYhB0OL3XjxFZsbOWlPkpaM,9626
+tf_adan/test_adan_dense.py,sha256=AV895IhS5DBGc8jBC3sBaJYYzOlMSqotKoAo71Gls5g,3305
+tf_adan/test_adan_sparse.py,sha256=RmS9_M7G1Z_PUS3qjceamb2hm-Au5LS5Cfaak6RBlyI,3497
+tf_adan/torch_adan.py,sha256=XRbVjW7hjNhVpdN6LCUA4zBVJ-mnF__FoORa9WkO56c,7020
+tf_adan/utils.py,sha256=RDSJ3B5OACNWzpJs2Pias3Buw_RVRWnmOk0WiWOkjQA,2253
+adan_tensorflow-1.0.1.dist-info/METADATA,sha256=Fc9rN7Kps5pkHhfoZDpIlzBVSIUTwN3v5IETYqSpbTM,364
+adan_tensorflow-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+adan_tensorflow-1.0.1.dist-info/top_level.txt,sha256=wj3XhWFlSfUKkqLPGMNzZVYZauCieDkJ1DEyuIHXSW8,8
+adan_tensorflow-1.0.1.dist-info/RECORD,,
