@@ -1,0 +1,3 @@
+covalent_ec2_plugin
+infra
+tests
