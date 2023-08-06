@@ -1,0 +1,6 @@
+README.md
+setup.py
+pymesos_shopee.egg-info/PKG-INFO
+pymesos_shopee.egg-info/SOURCES.txt
+pymesos_shopee.egg-info/dependency_links.txt
+pymesos_shopee.egg-info/top_level.txt
