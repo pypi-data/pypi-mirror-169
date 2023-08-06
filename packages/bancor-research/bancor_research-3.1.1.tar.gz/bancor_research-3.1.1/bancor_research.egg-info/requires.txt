@@ -1,0 +1,11 @@
+pandas
+numpy
+networkx
+cloudpickle
+pyarrow
+fastparquet
+pydantic
+black
+jupyter-black
+
+[complete]
