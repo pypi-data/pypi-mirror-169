@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: keyhub
+Version: 0.2.0
+Summary: Python client for the Topicus KeyHub Vault API
+Home-page: https://www.topicus-keyhub.com/
+Author: Marc Mast
+Author-email: connect.with.marck@gmail.com
+License: Apache Software License 2.0
+Keywords: keyhub
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
