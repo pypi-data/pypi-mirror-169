@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+spdclient/__init__.py
+spdclient/client.py
+spdclient.egg-info/PKG-INFO
+spdclient.egg-info/SOURCES.txt
+spdclient.egg-info/dependency_links.txt
+spdclient.egg-info/not-zip-safe
+spdclient.egg-info/requires.txt
+spdclient.egg-info/top_level.txt
+tests/eggs/newsfeed.egg

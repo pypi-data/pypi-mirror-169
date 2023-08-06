@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spdclient"
+version = "0.0.1"
+authors = [
+  { name="Kanchan Sapkota", email="kanchansapkota27@gmail.com" },
+]
+description = "Python Wrapper for Scrapyd WebService"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kanchansapkota27/spdclient"
+"Bug Tracker" = "https://github.com/kanchansapkota27/spdclient/issues"
