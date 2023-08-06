@@ -1,0 +1,11 @@
+megadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megadata/__main__.py,sha256=d729px-LjyYOJYqRj3Ik8jqLRNxABNkbZYpM44H8Z2s,1647
+megadata/clt_ipc.py,sha256=m9PKl02iH-JJr939MWp0gAnqDCju7ZtlcKhSw_0a3Yo,1212
+megadata/myeval.py,sha256=qF-EX6Wsig4UojydUTl0y1NSYkBwih_TY6wCVLFfkSY,4018
+megadata/mypy.py,sha256=HZ6qhXPY1eiY0JuFURKfxpkXJibDUSsowGgRUs5km9c,13046
+megadata/mypygist.py,sha256=3gInmIoAOREEb1yrZPVgGcPd73A-O4_APIpWUgdt0uI,3971
+megadata-0.0.5.dist-info/LICENSE,sha256=zLN4Bk6Na3lhP0zqK4GFAsepzstkX1Dg2fNG4GyWXyc,1088
+megadata-0.0.5.dist-info/METADATA,sha256=OtmVbJmwhFPa0VsnR-Bp_q9BwhlxxrPAZbbz9W8U-Ag,606
+megadata-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+megadata-0.0.5.dist-info/top_level.txt,sha256=Cy5fbfTW7Rwr-BwQb8QBiMvBFLw36GiWLy22DFGX3iY,9
+megadata-0.0.5.dist-info/RECORD,,
