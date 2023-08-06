@@ -1,0 +1,2 @@
+llist
+networkx<3,>=2
