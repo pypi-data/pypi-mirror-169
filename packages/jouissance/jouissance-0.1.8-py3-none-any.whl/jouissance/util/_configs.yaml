@@ -1,0 +1,82 @@
+# fallback defaults if configs.yaml is not found in root
+default: True
+
+goes_data: "goes-17"
+provider: "gs"
+abfs_account_name: "goeseuwest"
+
+cache_prefix: ""
+use_cache_only: False
+
+# scenes
+# goes metadata
+scene_folder: ".cachescenes"
+products:
+  - "ABI-L2-MCMIPC"
+product_code:
+  - "CMI"
+years:
+  - "2020"
+days:
+  - "010"
+hours:
+  - "00"
+channels:
+  - "01"
+  - "02"
+
+scene_shape1: "1500"
+scene_shape2: "2500"
+scene_reshape1: "32"
+scene_reshape2: "64"
+
+# conditions
+# reanalysis metadata
+cond_folder: ".cacheconds"
+reanalysis_products:
+  - "air"
+  - "uwnd"
+  - "vwnd"
+reanalysis_levels:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+reanalysis_caching: False
+reanalysis_version: "2"
+reanalysis_shape1: "73"
+reanalysis_shape2: "144"
+reanalysis_reshape1: "32"
+reanalysis_reshape2: "64"
+
+batch_size: "2"
+train_split: "0.8"
+num_samples: "20"
+if_shuffle: True
+shuffle_size: "2"
+reshuffle_iter: True
+
+
+# model details
+# generator optimizer
+genopt_learning_rate: 0.0002
+genopt_beta1: 0.5
+genopt_beta2: 0.9
+
+disopt_learning_rate: 0.0002
+disopt_beta1: 0.5
+disopt_beta2: 0.9
+
+# gpu settings
+use_amp: True
+
+# runs
+epochs: 10
+continue: False
+dis_extra: 3
+save_freq: 100
