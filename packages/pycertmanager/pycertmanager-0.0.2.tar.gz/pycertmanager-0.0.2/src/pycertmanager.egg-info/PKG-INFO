@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pycertmanager
+Version: 0.0.2
+Summary: Module to assist in the programmatic management of PFX and P12 digital certificates
+Author-email: Elder Santos <elder_rn@hotmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/eldersantoss/pycertmanager
+Project-URL: Bug Tracker, https://github.com/eldersantoss/pycertmanager/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: dev
+License-File: LICENSE
+
+# pycertmanager
+
+Module to assist in the programmatic management of PFX and P12 digital certificates.

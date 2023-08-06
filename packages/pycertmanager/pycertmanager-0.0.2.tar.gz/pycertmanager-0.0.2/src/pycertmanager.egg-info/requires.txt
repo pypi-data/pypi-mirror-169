@@ -1,0 +1,9 @@
+cryptography>=38.0.1
+
+[build]
+build
+twine
+
+[dev]
+black
+bumpver
