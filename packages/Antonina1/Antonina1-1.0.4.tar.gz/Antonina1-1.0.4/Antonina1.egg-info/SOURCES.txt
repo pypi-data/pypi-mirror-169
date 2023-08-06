@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Antonina/__init__.py
+Antonina/__version__.py
+Antonina/core.py
+Antonina/endpop.py
+Antonina/stpop.py
+Antonina1.egg-info/PKG-INFO
+Antonina1.egg-info/SOURCES.txt
+Antonina1.egg-info/dependency_links.txt
+Antonina1.egg-info/requires.txt
+Antonina1.egg-info/top_level.txt
