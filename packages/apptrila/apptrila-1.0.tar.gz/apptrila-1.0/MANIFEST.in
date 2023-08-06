@@ -1,0 +1,5 @@
+include README
+include LICENCE
+include requirements.txt
+global-include *.py
+global-include *.html
