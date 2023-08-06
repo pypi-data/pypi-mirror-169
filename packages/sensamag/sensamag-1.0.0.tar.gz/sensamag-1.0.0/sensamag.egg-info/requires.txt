@@ -1,0 +1,9 @@
+typer[all]
+rich
+mariadb
+
+[dev]
+black
+
+[notebook]
+jupyter
