@@ -1,0 +1,4 @@
+chemparse
+pandas
+pubchempy
+sigfig
