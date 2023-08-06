@@ -1,0 +1,2 @@
+[console_scripts]
+scuwl = scuwl_petebuffon.scuwl:main
