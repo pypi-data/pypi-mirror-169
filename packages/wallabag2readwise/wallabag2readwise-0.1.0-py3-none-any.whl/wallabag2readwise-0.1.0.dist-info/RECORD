@@ -1,0 +1,14 @@
+wallabag2readwise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wallabag2readwise/__main__.py,sha256=VWCo7stxDWRmhPb-myTr_OIDKXLrxnw9RQEyS61o6Zs,133
+wallabag2readwise/cli.py,sha256=Ck3hjxQ3yk2Vc3b2Eg5V7qbT6STErBDl1tr7lFi9DqQ,1077
+wallabag2readwise/logging.py,sha256=vgx2QiPwin2l_STygj0FEOM7lxkDYbyAhnchcCBQcCE,383
+wallabag2readwise/misc.py,sha256=Du9WQ9XcXlEZBdN7cgA3xFMcCbK_w1brJ8QVv_IBxiI,1826
+wallabag2readwise/models.py,sha256=c-FGRTt4QR10kJHUf2YPF7Aw4lDtng-QPQaPEtGc1Lw,458
+wallabag2readwise/readwise.py,sha256=NG3QMETOJWvBltpBMaWHzGcUjYPLw1IUe-dQD0bt6rs,3451
+wallabag2readwise/wallabag.py,sha256=OW-1bTLfJfDeRAKw7FalBxnd7ENoYK3rugfHq5BR7yQ,3039
+wallabag2readwise-0.1.0.dist-info/LICENSE,sha256=laUVzxP9hiIV7pOO3NmIYiJo1lgOvlXPLjpIwaQXdBg,1062
+wallabag2readwise-0.1.0.dist-info/METADATA,sha256=qQcF5sepS7VAuxcXtAXeHgRCpwh9_DZqn1Y4IJ2e5-0,1331
+wallabag2readwise-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wallabag2readwise-0.1.0.dist-info/entry_points.txt,sha256=5-Cqr94eVkG7EYxm3w2JzqQVyntC2Nw0xYtTZh0AOXk,70
+wallabag2readwise-0.1.0.dist-info/top_level.txt,sha256=gLhF5F19YPnBNy6za5QuXICY-n4CrjI7pW53f95WT9Y,18
+wallabag2readwise-0.1.0.dist-info/RECORD,,
