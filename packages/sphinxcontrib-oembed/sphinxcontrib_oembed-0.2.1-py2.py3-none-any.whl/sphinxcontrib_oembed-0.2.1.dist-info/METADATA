@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-oembed
+Version: 0.2.1
+Summary: Embed HTML content by URL from eEmbed consumer
+Author-email: Kazuya Takei <myself@attakei.net>
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Dist: Sphinx
+Requires-Dist: requests
+Requires-Dist: black >=22.3.0,<23 ; extra == "test"
+Requires-Dist: pytest >=7.1.1,<8 ; extra == "test"
+Project-URL: Home, https://github.com/attakei-lab/sphinxcontrib-oembed/
+Provides-Extra: test
+
+====================
+sphinxcontrib-oembed
+====================
+
+Embed HTML content by URL from eEmbed consumer
+
+Overview
+========
+
+.. note:: Writing later
+
+Installation
+============
+
+.. code-block:: console
+
+   pip install sphinxcontrib-oembed
+
+Usage
+=====
+
+Add this extension into your ``conf.py`` of Sphinx.
+
+.. code-block:: python
+
+   extensions = [
+       "sphinxcontrib.oembed",
+   ]
+
+   # You can change User-agent
+   # Default is sphinxcontrib-oembed/{ext-version}
+   obmed_useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
+
+Canges
+======
+
+v0.2.1
+------
+
+* Published on PyPI
+
+v0.2.0
+------
+
+* Enable to confiugre User-agent when request oEmbed providers
+
+License
+=======
+
+Apache-2.0
+
