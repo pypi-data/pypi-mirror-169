@@ -1,0 +1,213 @@
+{
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont.861aea05.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont.e52d60f6.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont.48d3eec6.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont.bd725a7a.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "src/main.js": {
+    "file": "assets/main.0d3b91bf.js",
+    "src": "src/main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/admin.vue",
+      "src/browser.vue",
+      "src/http-error.vue",
+      "src/reader.vue"
+    ],
+    "css": [
+      "assets/main.8be8cc93.css"
+    ],
+    "assets": [
+      "assets/materialdesignicons-webfont.861aea05.eot",
+      "assets/materialdesignicons-webfont.e52d60f6.woff2",
+      "assets/materialdesignicons-webfont.48d3eec6.woff",
+      "assets/materialdesignicons-webfont.bd725a7a.ttf"
+    ]
+  },
+  "src/admin.vue": {
+    "file": "assets/admin.338ec4ec.js",
+    "src": "src/admin.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_datetime.91325692.js",
+      "src/main.js",
+      "_VCombobox.e3d99dbc.js",
+      "_VWindowItem.2cb1c1c5.js"
+    ],
+    "css": [
+      "assets/admin.ba9d2a13.css"
+    ]
+  },
+  "_datetime.91325692.js": {
+    "file": "assets/datetime.91325692.js",
+    "imports": [
+      "src/main.js"
+    ],
+    "dynamicImports": [
+      "src/components/admin/admin-menu.vue"
+    ],
+    "css": [
+      "assets/datetime.62a7e35d.css"
+    ]
+  },
+  "_VCombobox.e3d99dbc.js": {
+    "file": "assets/VCombobox.e3d99dbc.js",
+    "imports": [
+      "_datetime.91325692.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/VCombobox.af7038de.css"
+    ]
+  },
+  "_VWindowItem.2cb1c1c5.js": {
+    "file": "assets/VWindowItem.2cb1c1c5.js",
+    "imports": [
+      "_datetime.91325692.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/VWindowItem.faf84707.css"
+    ]
+  },
+  "src/browser.vue": {
+    "file": "assets/browser.f5e0354c.js",
+    "src": "src/browser.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_datetime.91325692.js",
+      "_metadata-dialog.9a02bbc8.js",
+      "src/main.js",
+      "_VCombobox.e3d99dbc.js",
+      "_placeholder-loading.6d4f08b0.js"
+    ],
+    "css": [
+      "assets/browser.c881e46c.css"
+    ]
+  },
+  "_metadata-dialog.9a02bbc8.js": {
+    "file": "assets/metadata-dialog.9a02bbc8.js",
+    "imports": [
+      "src/main.js",
+      "_datetime.91325692.js"
+    ],
+    "css": [
+      "assets/metadata-dialog.4ba8faaa.css"
+    ]
+  },
+  "_placeholder-loading.6d4f08b0.js": {
+    "file": "assets/placeholder-loading.6d4f08b0.js",
+    "imports": [
+      "src/main.js",
+      "_datetime.91325692.js"
+    ]
+  },
+  "src/http-error.vue": {
+    "file": "assets/http-error.d0393b10.js",
+    "src": "src/http-error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ],
+    "css": [
+      "assets/http-error.07888a50.css"
+    ]
+  },
+  "src/reader.vue": {
+    "file": "assets/reader.0138beee.js",
+    "src": "src/reader.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_datetime.91325692.js",
+      "src/main.js",
+      "_metadata-dialog.9a02bbc8.js",
+      "_VWindowItem.2cb1c1c5.js"
+    ],
+    "dynamicImports": [
+      "src/components/reader/pdf.vue"
+    ],
+    "css": [
+      "assets/reader.9a83133a.css"
+    ]
+  },
+  "src/components/admin/admin-menu.vue": {
+    "file": "assets/admin-menu.b9605c88.js",
+    "src": "src/components/admin/admin-menu.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_datetime.91325692.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/admin-menu.c0a55427.css"
+    ]
+  },
+  "src/components/reader/pdf.vue": {
+    "file": "assets/pdf.3569f796.js",
+    "src": "src/components/reader/pdf.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_datetime.91325692.js",
+      "src/main.js",
+      "_placeholder-loading.6d4f08b0.js"
+    ],
+    "css": [
+      "assets/pdf.7c0f9ff2.css"
+    ]
+  },
+  "src/reader.css": {
+    "file": "assets/reader.9a83133a.css",
+    "src": "src/reader.css"
+  },
+  "src/components/admin/admin-menu.css": {
+    "file": "assets/admin-menu.c0a55427.css",
+    "src": "src/components/admin/admin-menu.css"
+  },
+  "src/http-error.css": {
+    "file": "assets/http-error.07888a50.css",
+    "src": "src/http-error.css"
+  },
+  "metadata-dialog.css": {
+    "file": "assets/metadata-dialog.4ba8faaa.css",
+    "src": "metadata-dialog.css"
+  },
+  "src/components/reader/pdf.css": {
+    "file": "assets/pdf.7c0f9ff2.css",
+    "src": "src/components/reader/pdf.css"
+  },
+  "src/browser.css": {
+    "file": "assets/browser.c881e46c.css",
+    "src": "src/browser.css"
+  },
+  "VCombobox.css": {
+    "file": "assets/VCombobox.af7038de.css",
+    "src": "VCombobox.css"
+  },
+  "VWindowItem.css": {
+    "file": "assets/VWindowItem.faf84707.css",
+    "src": "VWindowItem.css"
+  },
+  "src/admin.css": {
+    "file": "assets/admin.ba9d2a13.css",
+    "src": "src/admin.css"
+  },
+  "datetime.css": {
+    "file": "assets/datetime.62a7e35d.css",
+    "src": "datetime.css"
+  },
+  "src/main.css": {
+    "file": "assets/main.8be8cc93.css",
+    "src": "src/main.css"
+  }
+}
