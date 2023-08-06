@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "matematika"
+version = "0.0.1"
+description = "Bu kutubxona yordamida matematik hisob kitoblarni amalga oshirish mumkin"
+authors = ["Yusupov Ozodbek"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

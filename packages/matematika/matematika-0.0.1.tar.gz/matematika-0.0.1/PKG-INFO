@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: matematika
+Version: 0.0.1
+Summary: Bu kutubxona yordamida matematik hisob kitoblarni amalga oshirish mumkin
+Author: Yusupov Ozodbek
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+```python
+from matematika import plus
+print(plus(1,2,3,4,5)) # 15
+```
