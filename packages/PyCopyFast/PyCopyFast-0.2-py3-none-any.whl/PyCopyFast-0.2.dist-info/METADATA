@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: PyCopyFast
+Version: 0.2
+Summary: Wrapper for FastCopy https://github.com/FastCopyLab/FastCopy
+Home-page: https://github.com/hansalemaos/PyCopyFast
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: copy,fastcopy,filecopy,treecopy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+PytonWrapper for [GitHub - FastCopyLab/FastCopy](https://github.com/FastCopyLab/FastCopy)
+
+Very easy to use:
+
+```python
+pip install PyCopyFast
+```
+
+```python
+        pathfastcopy = r"C:\path\fcp.exe"
+        path1 = "c:\\blabla"
+        path2 = "c:\\blabla2"
+        asz = (
+            FastCopy(pathfastcopy)
+            .force_close()
+            .no_confirm_del()
+            .force_start()
+            .error_stop("=FALSE", join_value=True)
+            .speed("full")
+            .log("=FALSE", join_value=True)
+            # .srcf
+            .to(path2)
+            .cmd_diff(path1)
+            .r_subprocess_run()
+        )
+        for xx in asz.stdout.decode("utf-8", "ignore").splitlines():
+            print(xx)
+```
+
+## Make sure to call the cmd functions
+
+### (cmd_noexist_only, cmd_diff, cmd_update, cmd_force_copy, cmd_sync, cmd_move, cmd_delete) right before the XXXXrun() function
+
+### Otherwise, it might now work.
+
+
