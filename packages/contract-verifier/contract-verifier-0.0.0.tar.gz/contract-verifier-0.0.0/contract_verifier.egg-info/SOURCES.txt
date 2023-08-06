@@ -1,0 +1,6 @@
+setup.py
+contract-verifier/__init__.py
+contract_verifier.egg-info/PKG-INFO
+contract_verifier.egg-info/SOURCES.txt
+contract_verifier.egg-info/dependency_links.txt
+contract_verifier.egg-info/top_level.txt
