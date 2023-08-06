@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: rasa-vier-cvg
+Version: 0.6.0
+Summary: Rasa-integration for the VIER Cognitive Voice Gateway
+Home-page: https://cognitivevoice.io
+Author: VIER GmbH
+Author-email: support@vier.ai
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: VIER,VIER Cognitive Voice Gateway SDK,Channel
+Platform: UNKNOWN
+Requires-Python: >=3.6
