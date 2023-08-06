@@ -1,0 +1,9 @@
+README.md
+setup.py
+trainsegmentation/__init__.py
+trainsegmentation/trainsegmentation.py
+trainsegmentation.egg-info/PKG-INFO
+trainsegmentation.egg-info/SOURCES.txt
+trainsegmentation.egg-info/dependency_links.txt
+trainsegmentation.egg-info/requires.txt
+trainsegmentation.egg-info/top_level.txt
