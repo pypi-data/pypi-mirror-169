@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasetsync/__init__.py
+datasetsync/sync.py
+datasetsync.egg-info/PKG-INFO
+datasetsync.egg-info/SOURCES.txt
+datasetsync.egg-info/dependency_links.txt
+datasetsync.egg-info/requires.txt
+datasetsync.egg-info/top_level.txt
