@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+pybenzinaparse/__init__.py
+pybenzinaparse/boxes.py
+pybenzinaparse/fields_lists.py
+pybenzinaparse/headers.py
+pybenzinaparse/parser.py
+pybenzinaparse/sub_fields_lists.py
+pybenzinaparse/utils.py
+pybenzinaparse.egg-info/PKG-INFO
+pybenzinaparse.egg-info/SOURCES.txt
+pybenzinaparse.egg-info/dependency_links.txt
+pybenzinaparse.egg-info/requires.txt
+pybenzinaparse.egg-info/top_level.txt
