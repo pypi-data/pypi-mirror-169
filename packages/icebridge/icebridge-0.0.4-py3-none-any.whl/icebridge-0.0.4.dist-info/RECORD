@@ -1,0 +1,10 @@
+icebridge/__init__.py,sha256=djKuFzHk3tdu4QrCphx0eUNWPx-gN_ZXE7Fx87HFb_4,68
+icebridge/client.py,sha256=X0DnwzT1eHQvH0_m0mCwJmpl8hmYwIN7gcd8PLJURF4,16829
+icebridge/gateway.py,sha256=pmdYuqMyIS-a_U_-4gLtUbeSFiaf4VZd0yDfU_IAvRQ,643
+icebridge/version.py,sha256=dNid2xaqBv0ylQxxsnQDWPMWH1CNAdpKjX7_blrcan8,250
+icebridge/jars/app-uber.jar,sha256=1KmBfoDrEPmNy-y-Kew1X2L7TGsDIr4fMM2nBL2iXU8,50041823
+icebridge-0.0.4.dist-info/LICENSE,sha256=o_wa3vDHkSTMfAOZoRkB8pE5Ub2PtV7Gv8so58galJE,11342
+icebridge-0.0.4.dist-info/METADATA,sha256=nlQRHvU1PGZIBWBSmJVtOz3oQ8H4nBVs4JX6_0UEdYY,13415
+icebridge-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+icebridge-0.0.4.dist-info/top_level.txt,sha256=EYHZgsA1zwNqLMfmg0VphslOXIzwsOkfWf1DoOSyxkY,10
+icebridge-0.0.4.dist-info/RECORD,,
