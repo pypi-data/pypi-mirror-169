@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: minus-k
+Version: 0.0.1
+Summary: 
+Author: Shokhrukh Shavkatov
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+from minus_K import *
+minus_K()

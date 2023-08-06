@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "minus-k"
+version = "0.0.1"
+description = ""
+authors = ["Shokhrukh Shavkatov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
