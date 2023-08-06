@@ -1,0 +1,3 @@
+1.0.0
+
+['C:\\hostedtoolcache\\windows\\Python\\3.10.7\\x64\\lib\\site-packages\\delvewheel\\__main__.py', 'repair', '--no-dll', 'msvcp140.dll;vcomp140.dll', 'D:/a/tesseract_python-1/tesseract_python-1/ws/build/tesseract_python/python/dist/tesseract_robotics-0.1.7.post2-cp310-cp310-win_amd64.whl']
