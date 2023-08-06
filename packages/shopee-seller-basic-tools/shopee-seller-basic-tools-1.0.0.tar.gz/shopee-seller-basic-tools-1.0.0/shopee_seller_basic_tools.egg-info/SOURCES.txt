@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_seller_basic_tools.egg-info/PKG-INFO
+shopee_seller_basic_tools.egg-info/SOURCES.txt
+shopee_seller_basic_tools.egg-info/dependency_links.txt
+shopee_seller_basic_tools.egg-info/top_level.txt
