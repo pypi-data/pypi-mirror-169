@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pygame_screen_recorder
+Version: 1.2
+Summary: Util for taking screenshots and recording videos of pygame simulations.
+Home-page: https://github.com/solzilberman/pygame_screen_recorder
+Author: Sol Zilberman
+Author-email: sol.zilberman@gmail.com
+License: MIT
+Description: See the full documentation on github.
+Keywords: pygame
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
