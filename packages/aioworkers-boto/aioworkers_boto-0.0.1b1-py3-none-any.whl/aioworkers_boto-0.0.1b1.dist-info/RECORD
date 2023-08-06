@@ -1,0 +1,8 @@
+aioworkers_boto/__about__.py,sha256=tCRqypU7ySBBDk1qEJ31AQ8xvXZQFWlhRSJ6AO9wUkY,138
+aioworkers_boto/__init__.py,sha256=7spEk2aJ4On0jlQmcKaOiwDv2zGfn8N5_YaIRusbaME,114
+aioworkers_boto/core.py,sha256=pRZK8Fotdo-EoEvsxYmKjWDWBC0UKHsnctMaA14TV4o,995
+aioworkers_boto/storage.py,sha256=WrGIE5N-4Wg9JIZJDaa84rzswq3MRGtTZTVOVQfdwZE,1181
+aioworkers_boto-0.0.1b1.dist-info/METADATA,sha256=zRYc0iU4gCiDUn9ZIRbJuuHCn9oUJ2XHwoi_H5RErwA,1888
+aioworkers_boto-0.0.1b1.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+aioworkers_boto-0.0.1b1.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+aioworkers_boto-0.0.1b1.dist-info/RECORD,,
