@@ -1,0 +1,24 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Optional, Union
+from witsml20.attenuation_per_frequency_interval_uom import AttenuationPerFrequencyIntervalUom
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/commonv2"
+
+
+@dataclass
+class AttenuationPerFrequencyIntervalMeasureExt:
+    value: Optional[float] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+    uom: Optional[Union[AttenuationPerFrequencyIntervalUom, str]] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+            "pattern": r".*:.*",
+        }
+    )
