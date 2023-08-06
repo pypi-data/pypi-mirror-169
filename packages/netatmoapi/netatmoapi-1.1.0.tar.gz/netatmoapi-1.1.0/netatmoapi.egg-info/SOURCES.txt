@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+netatmoapi/__init__.py
+netatmoapi/client.py
+netatmoapi/station.py
+netatmoapi.egg-info/PKG-INFO
+netatmoapi.egg-info/SOURCES.txt
+netatmoapi.egg-info/dependency_links.txt
+netatmoapi.egg-info/requires.txt
+netatmoapi.egg-info/top_level.txt
