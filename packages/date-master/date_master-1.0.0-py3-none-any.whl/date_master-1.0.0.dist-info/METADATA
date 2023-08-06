@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: date-master
+Version: 1.0.0
+Summary: Date Master
+Home-page: https://programspeaker.com/
+Author: Sarath Chandran
+Author-email: programspeaker@gmail.com
+Maintainer: Sarath Chandran
+Maintainer-email: sarath1plaza@gmail.com
+License: MIT
+Keywords: date_master
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=======================
+
+This is a project that helps you to manage and display your entered date based on your requirement. Here I listed the use cases of date_master 
+
+    1)  Change the order of date 
+            Eg: dd/mm/yyyy to yyyy/mm/dd
+    2)  Change the format of your date(integer to string or string to interger)
+            Eg: 31/8/2022 to 31/August/Two Thousand and Twenty Two
+    3)  Change the split value
+            Eg: 31 / 8 / 2022 to 31 | 8 | 2022
+
+
+**Parameters**
+
+    1)  date = Date that you have entered(value type = Integer)
+    2)  order = Specifies the order of your date that you want to display(value type = String)
+    3)  format = Specifies the format of your date that you want to display string(str) or integer(int)(value type = String)
+    4)  split_by = Specifies the split value(value type = String)
+
+
+**General constraints**
+
+    1)  beautiful_date param must be a dict of values
+    2)  'date' is a mandatory param for all your request in dd,mm,yyyy format
+
+
+Installing
+=======================
+    
+    pip install date-master
+
+Usage
+=======================
+    
+    from date_master.date import beautiful_date
+    
+    date = [31, 8, 2022]
+    order = ['DD','YYYY','MM']
+    format = ['int','str','str']
+    split_by = ['|']
+
+
+    params = {
+        'date':date,
+        'order':order,
+        'format':format,
+        'split_by':split_by
+    }
+
+    result = beautiful_date(params)
+    print(result)
+    
+    Result
+    ====================
+    >> 31| 'Two Thousand and Twenty Two'| 'August'
+ 
+
+**Usecase 1** :- Changing the 'order' of date
+
+Constraints : 
+    order list contain 3 values that must be 'dd','mm', and 'yyyy'
+
+    date = [31, 8, 2022]
+    order = ['YYYY','DD','MM']
+
+    params = {
+        'date':date,
+        'order':order
+    }
+
+    result = beautiful_date(params)
+    print(result)
+    
+    Result
+    ====================
+    >> [2022, 31, 8]
+ 
+
+**Usecase 2** :- Changing the date 'format'
+
+Constraints : 
+    format contain 3 values that must be 'str' or 'int'
+
+    date = [31, 8, 2022]
+    format = ['int','str','str']
+
+    params = {
+        'date':date,
+        'format':format
+    }
+
+    result = beautiful_date(params)
+    print(result)
+    
+    Result
+    ====================
+    >> [31, 'August', 'Two Thousand and Twenty Two']
+  
+
+**Usecase 3** :- Changing the 'split_by' value of date
+
+Constraints : 
+    split_by contain a single value, it must be a string
+
+    date = [31, 8, 2022]
+    split_by = ['|']
+
+    params = {
+        'date':date,
+        'split_by':split_by
+    }
+
+    result = beautiful_date(params)
+    print(result)
+    
+    Result
+    ====================
+    >> [31| 8| 2022]
