@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: virtualsmoke
+Version: 0.0.1
+Summary: A package for detecting fire
+Home-page: https://nkrtech.com
+Download-URL: https://github.com/moinonin/virtualsmoke/archive/refs/heads/main.zip
+Author: Nicolus Rotich
+Author-email: nicholas.rotich@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/pypa/virtualsmoke/issues
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools (>=58.1.0)
+Requires-Dist: wheel (>=0.37.1)
+Requires-Dist: sklearn (>=0.0)
+Requires-Dist: scikit-learn (==1.1.2)
+Requires-Dist: h5py (>=3.6.0)
+Requires-Dist: fire
+
+# virtialsmoke
+We used empirical data to build a virtual smoke detector or a model to predict fire alarm from environmental variables
+## Installation
+Install the package as follows:
+```
+python3 -m pip install virtualsmoke
+```
+## Usage
+### As a CLI
+The package can be used as a commandline interface or in a script. For CLI the following options must be provided:
+```
+NAME
+    smoke.py
+
+SYNOPSIS
+    smoke.py T H P
+
+POSITIONAL ARGUMENTS
+    T
+    H
+    P
+
+NOTES
+    You can also use flags syntax for POSITIONAL ARGUMENTS
+```
+### In the script
+```
+from virtualsmoke.smoke import signal
+print(signal(T,H,P))
+```
+Where T is the surrounding or surface temperature in Kelvin, H is the relative humidity (%), and P is the barometric pressure in hectopascal (hPa).  
+The model will calculate the mean free path of air, which is the main indicator for sensing fires.
