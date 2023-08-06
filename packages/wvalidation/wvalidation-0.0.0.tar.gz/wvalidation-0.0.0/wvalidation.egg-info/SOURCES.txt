@@ -1,0 +1,6 @@
+setup.py
+wvalidation/__init__.py
+wvalidation.egg-info/PKG-INFO
+wvalidation.egg-info/SOURCES.txt
+wvalidation.egg-info/dependency_links.txt
+wvalidation.egg-info/top_level.txt
