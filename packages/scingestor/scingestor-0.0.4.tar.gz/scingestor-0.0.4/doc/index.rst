@@ -1,0 +1,222 @@
+.. scingestor documentation master file, created by
+   sphinx-quickstart on Thu Jul 28 17:34:20 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Scicat Dataset Ingestor
+=======================
+
+|github workflow|
+|docs|
+|Pypi Version|
+|Python Versions|
+
+.. |github workflow| image:: https://github.com/jkotan/scingestor/actions/workflows/tests.yml/badge.svg
+   :target: https://github.com/jkotan/scingestor/actions
+   :alt:
+
+.. |docs| image:: https://img.shields.io/badge/Documentation-webpages-ADD8E6.svg
+   :target: https://jkotan.github.io/scingestor/index.html
+   :alt:
+
+.. |Pypi Version| image:: https://img.shields.io/pypi/v/scingestor.svg
+                  :target: https://pypi.python.org/pypi/scingestor
+                  :alt:
+
+.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/scingestor.svg
+                     :target: https://pypi.python.org/pypi/scingestor/
+                     :alt:
+
+
+The ``scingestor`` python package provides a support for scripts which
+ingest RawDatasets and OrigDatablocks into the SciCat metadata server.
+
+scicat_dataset_ingestor
+-----------------------
+
+SciCat Dataset ingestor server ingests scan metadata just after a scan
+is finished. It can be executed by
+
+::
+
+   scicat_dataset_ingestor -c ~/.scingestor.yaml
+
+Configuration variables
+-----------------------
+
+The configuration written in YAML can contain the following variables
+
+* **scicat_url** *(str)* , default: ``"http://localhost:8881"``
+* **ingestor_credential_file** *(str)* , default: ``None``
+* **beamtime_dirs** *(list\<str\>)* , default: ``[]``
+* **beamtime_base_dir** *(str)* , default: ``""``
+* **ingestor_log_dir** *(str)* , default: ``""``
+* **ingestor_username** *(str)* , default: ``"ingestor"``
+* **doi_prefix** *(str)* , default: ``"10.3204"``
+* **update_strategy** (``"patch"``, ``"create"``, ``"mixed"``) , default: ``"patch"``
+* **relative_path_in_datablock** *(bool)* , default: ``False``
+* **chmod_json_files** *(str)* , default: ``None``
+* **oned_in_metadata** *(bool)* , default: ``False``
+* **scan_metadata_postfix** *(str)* , default: ``".scan.json"``
+* **datablock_metadata_postfix** *(str)* , default: ``".origdatablock.json"``
+* **metadata_in_log_dir** *(bool)* , default: ``False``
+* **beamtime_filename_postfix** *(str)* , default: ``"beamtime-metadata-"``
+* **beamtime_filename_prefix** *(str)* , default: ``".json"``
+* **datasets_filename_pattern** *(str)* , default: ``"scicat-datasets-{bt}.lst"``
+* **ingested_datasets_filename_pattern** *(str)* , default: ``"scicat-ingested-datasets-{bt}.lst"``
+* **nxs_dataset_metadata_generator** *(str)* , default: ``"nxsfileinfo metadata  -o {metapath}/{scanname}{scpostfix}  -b {beamtimefile} -p {beamtimeid}/{scanname}  -w {ownergroup} -c {accessgroups} {scanpath}/{scanname}.nxs"``
+* **dataset_metadata_generator** *(str)* , default: ``"nxsfileinfo metadata  -o {metapath}/{scanname}{scpostfix}  -c {accessgroups} -w {ownergroup} -b {beamtimefile} -p {beamtimeid}/{scanname}"``
+* **datablock_metadata_generator** *(str)* , default: ``"nxsfileinfo origdatablock  -s *.pyc,*{dbpostfix},*{scpostfix},*~  -p {doiprefix}/{beamtimeid}/{scanname}  -w {ownergroup} -c {accessgroups} -o {metapath}/{scanname}{dbpostfix} "``
+* **datablock_metadata_stream_generator** *(str)* , default: ``"nxsfileinfo origdatablock  -s *.pyc,*{dbpostfix},*{scpostfix},*~  -w {ownergroup} -c {accessgroups} -p {doiprefix}/{beamtimeid}/{scanname} "``
+* **datablock_metadata_generator_scanpath_postfix** *(str)* , default: ``" {scanpath}/{scanname} "``
+* **inotify_timeout** *(float)* , default: ``0.1``
+* **get_event_timeout** *(float)* , default: ``0.01``
+* **ingestion_delay_time** *(float)* , default: ``5.0``
+* **max_request_tries_number** *(int)* , default: ``100``
+* **request_headers** *(dict\<str,str\>)* , default: ``{"Content-Type": "application/json", "Accept": "application/json"}``
+* **scicat_datasets_path** *(str)* , default: ``"RawDatasets"``
+* **scicat_proposals_path** *(str)* , default: ``"Proposals"``
+* **scicat_datablocks_path** *(str)*, default: ``"OrigDatablocks"``
+* **scicat_users_login_path** *(str)*, default: ``"Users/login"``
+* **owner_access_groups_from_proposal** *(bool)*, default: ``False``
+* **metadata_keywords_without_checks** *(list\<str\>)*, default: ``["techniques", "classification", "createdBy", "updatedBy", "datasetlifecycle", "numberOfFiles", "size", "createdAt", "updatedAt", "history", "creationTime", "version", "scientificMetadata", "endTime"]``
+
+e.g.
+
+::
+
+   beamtime_dirs:
+     - /home/jkotan/gpfs/current
+     - /home/jkotan/gpfs/commissioning
+   scicat_url: http://localhost:8881
+   ingestor_credential_file: /home/jkotan/gpfs/pwd
+
+scicat_dataset_ingest
+---------------------
+
+Re-ingestion script for SciCat RawDatasets and OrigDatablocks is usually
+performed at the end of the beamtime.
+
+::
+
+   scicat_dataset_ingest -c ~/.scingestor.yaml
+
+Its configuration written YAML like for ``scicat_dataset_ingestor`` ##
+Installation
+
+Required packages
+~~~~~~~~~~~~~~~~~
+
+-  python3 >= 3.7
+-  nxstools >= 3.28.0
+-  inotifyx (python3 version)
+-  requests
+-  setuptools
+-  pyyaml
+-  pytest (to run tests)
+-  sphinx (to build the documentation)
+
+Install from sources
+~~~~~~~~~~~~~~~~~~~~
+
+The code from https://github.com/jkotan/scingestor can be built with
+
+::
+
+   python3 setup.py install
+
+To build the documentation use
+
+::
+
+   python3 setup.py build_sphinx
+
+The resulting documentation can be found below ``build/sphinx/html`` in
+the root directory of the source distribution.
+
+Finally, the package can be tested using
+
+::
+
+   python3 -m pytest test
+
+Install in conda or pip environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The code can be installed in your conda environment by
+
+::
+
+   conda create -n myenv python=3.9
+   conda activate myenv
+
+   pip install inotifyx-py3
+   pip install scingestor
+
+or in your pip environment by
+
+::
+
+   python3 -m venv myvenv
+   . myvenv/bin/activate
+
+   pip install inotifyx-py3
+   pip install scingestor
+
+Debian and Ubuntu packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Debian ``bullseye``, ``buster`` or Ubuntu ``jammy``, ``focal`` packages
+can be found in the HDRI repository.
+
+To install the debian packages, add the PGP repository key
+
+::
+
+   sudo su
+   curl -s http://repos.pni-hdri.de/debian_repo.pub.gpg  | gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/debian-hdri-repo.gpg --import
+   chmod 644 /etc/apt/trusted.gpg.d/debian-hdri-repo.gpg
+
+and then download the corresponding source list, e.g. for ``bullseye``
+
+::
+
+   cd /etc/apt/sources.list.d
+   wget http://repos.pni-hdri.de/bullseye-pni-hdri.list
+
+or ``jammy``
+
+::
+
+   cd /etc/apt/sources.list.d
+   wget http://repos.pni-hdri.de/jammy-pni-hdri.list
+
+respectively.
+
+Finally,
+
+::
+
+   apt-get update
+   apt-get install python3-scingestor
+
+
+
+Contents
+========
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+
+   scicat_dataset_ingestor
+   scicat_dataset_ingest
+   scingestor
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
