@@ -1,0 +1,68 @@
+{
+  "$id": "/pub/schema/strings.schema",
+  "title": "Array of strings parameter",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "strings"
+    },
+    "keyword": {
+      "$ref": "/pub/schema/keyword.schema"
+    },
+    "description": {
+      "$ref": "/pub/schema/desc.schema"
+    },
+    "required": {
+      "type": "boolean",
+      "description": "informs whether the parameter is required or not"
+    },
+    "multiple": {
+      "type": "boolean",
+      "description": "informs whether the parameter can be informed more than once"
+    },
+    "separator": {
+      "$ref": "/pub/schema/separator.schema"    
+    },
+    "placeholder": {
+      "$ref": "/pub/schema/placeholder.schema"
+    },
+    "regexp": {
+      "type": "string",
+      "format": "regexp",
+      "description": "regular expression to validate the string"
+    },
+    "default": {
+      "type": "string",
+      "description": "Default strings value"
+    },
+    "value": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "/pub/schema/expression.schema"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "literal": {
+                "type": "string",
+                "description": "Array of string"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "keyword",
+    "description",
+    "required",
+    "multiple",
+    "separator"
+  ],
+  "additionalProperties": false
+}
