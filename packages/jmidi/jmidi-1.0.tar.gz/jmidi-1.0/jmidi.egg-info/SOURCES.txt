@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+jmidi/__init__.py
+jmidi/jmidi.py
+jmidi.egg-info/PKG-INFO
+jmidi.egg-info/SOURCES.txt
+jmidi.egg-info/dependency_links.txt
+jmidi.egg-info/top_level.txt
