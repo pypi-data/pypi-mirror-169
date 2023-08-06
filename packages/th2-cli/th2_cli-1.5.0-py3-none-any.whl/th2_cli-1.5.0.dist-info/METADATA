@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: th2-cli
+Version: 1.5.0
+Summary: 👨‍💻 CLI for managing th2 infrastructure in Kubernetes cluster
+Home-page: https://github.com/d0rich/th2-cli
+License: MIT
+Keywords: th2,cli,kubernetes,cassandra,helm-charts
+Author: Nikolay Dorofeev
+Author-email: dorich2000@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: avionix (>=0.4.5,<0.5.0)
+Requires-Dist: cassandra-driver (>=3.25.0,<4.0.0)
+Requires-Dist: colorama (>=0.4.5,<0.5.0)
+Requires-Dist: cryptography (>=37.0.4,<38.0.0)
+Requires-Dist: dataclass-wizard[yaml] (>=0.22.1,<0.23.0)
+Requires-Dist: fire (>=0.4.0,<0.5.0)
+Requires-Dist: kubernetes (>=24.2.0,<25.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: simple-term-menu (>=1.5.0,<2.0.0)
+Requires-Dist: urllib3 (>=1.26.12,<2.0.0)
+Project-URL: Repository, https://github.com/d0rich/th2-cli
+Description-Content-Type: text/markdown
+
+Works with th2 1.5.4
+
+## Using
+
+Install:
+
+```commandline
+pip install th2-cli
+```
+
+### Install th2
+
+If you already have configurations in `th2-cli-install-config.yaml` or `secrets.yaml`, it will be convenient to run process from the directory with these files.
+In other case CLI will create these config files during installation.
+
+```commandline
+th2 install
+```
+
+### Delete th2
+
+```commandline
+th2 delete
+```
+
+### Update th2
+
+```commandline
+th2 delete
+```
+
+Wait until all required namespaces are terminated.
+
+```commandline
+th2 install
+```
+
+## Configurations templates
+
+### th2-cli-install-config.yaml
+
+```yaml
+cassandra:
+  datacenter: datacenter1
+  host: host.minikube.internal
+infra-mgr:
+  git:
+    http-auth-password: pat_token
+    http-auth-username: pat_token
+    repository: https://github.com/schema/repository
+kubernetes:
+  host: 192.168.49.2
+  pvs-node: minikube
+```
+
+### secrets.yaml
+
+```yaml
+# required only for images from a private registry, will be attached as the first PullSecret to deployments
+#productRegistry:
+#  username: user
+#  password: password
+#  name: private-registry-1.example.com # core components registry
+
+# required only for images from a private registry, will be attached as the second PullSecret to deployments
+#solutionRegistry:
+#  username: user
+#  password: password
+#  name: private-registry-2.example.com # components registry
+
+# required only for images from a private registry, will be attached as the third PullSecret to deployments
+#proprietaryRegistry:
+#  username: user
+#  password: password
+#  name: private-registry-3.example.com # components registry
+
+cassandra:
+# set credentials for the existing Cassandra cluster
+  dbUser:
+    user: cassandra
+    password: cassandra
+
+rabbitmq:
+# set admin user credentials, it will be created during deployment
+  rabbitmqUsername: th2
+  rabbitmqPassword: rab-pass
+  # must be random string
+  rabbitmqErlangCookie: cookie
+```
+
+## Development
+
+```
+poetry install
+poetry shell
+```
+
+```commandline
+th2 install
+```
