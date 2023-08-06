@@ -1,0 +1,9 @@
+LICENSE
+README.md
+getkey.c
+setup.py
+pygetkey.egg-info/PKG-INFO
+pygetkey.egg-info/SOURCES.txt
+pygetkey.egg-info/dependency_links.txt
+pygetkey.egg-info/not-zip-safe
+pygetkey.egg-info/top_level.txt

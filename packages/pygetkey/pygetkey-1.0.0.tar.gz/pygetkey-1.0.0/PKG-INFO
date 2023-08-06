@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pygetkey
+Version: 1.0.0
+Summary: A Python module to get the pressed key
+Home-page: https://github.com/donno2048/getkey
+Author: Elisha Hollander
+Author-email: just4now666666@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/donno2048/getkey#readme
+Project-URL: Bug Reports, https://github.com/donno2048/getkey/issues
+Project-URL: Source Code, https://github.com/donno2048/getkey
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# getkey
+
+A Python module to get the pressed key
+
+## Installation
+
+### From PyPI
+
+```sh
+pip3 install pygetkey
+```
+
+### From GitHub
+
+```sh
+pip3 install git+https://github.com/donno2048/getkey
+```
+
+## Usage
+
+```py
+import getkey
+getkey.get_key() # Wait for a key to be pressed and return it
+getkey.get_last_key() # Don't wait for a key to be pressed and return the last pressed key (mainly for "async" loops)
+```
