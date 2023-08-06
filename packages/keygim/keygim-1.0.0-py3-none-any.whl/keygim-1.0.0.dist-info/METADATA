@@ -1,0 +1,601 @@
+Metadata-Version: 2.1
+Name: keygim
+Version: 1.0.0
+Summary: A library used to download images from Google.
+Home-page: https://github.com/keyywind/keygim
+Author: Keywind
+Author-email: kevinwater127@gmail.com
+Project-URL: Bug Tracker, https://github.com/keyywind/keygim/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdown
+Requires-Dist: scikit-image
+Requires-Dist: PyAutoGUI
+Requires-Dist: pynput
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: keyscraper
+
+# keygim Package Documentation
+***
+##### This library provides various image utilities and a function to download images from Google search.
+
+##### There are two modules in this package.
+
+1. **keygim** - _used to download Google images_
+2. **imageUtils** - _image and basic utilities_
+
+##### To install this package, type in command prompt:
+
+    pip install keygim
+
+***
+## [1] Keywind Google Images
+
+#### (1-A) _LinkFormatter_ - Obtaining the Google Search URLs for each search string:
+
+###### LinkFormatter(stringList)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|stringList|_no_| | [ list-string type ] |
+
+###### self.fetch_links(self, large = False)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|large|_yes_|False|True, False|
+
+##### (1-A-1) Example of using LinkFormatter
+
+    from keygim.keygim import KeyGoogleImages
+    LinkFormatter = KeyGoogleImages.LinkFormatter
+    search_strings = [ "landscape", "galaxies" ]
+    large = False
+    link_list = LinkFormatter(search_strings).fetch_links(large = large)
+    print(link_list[0]) # "https://www.google.com/search?q=landscape&tbm=isch"
+    print(link_list[1]) # "https://www.google.com/search?q=galaxies&tbm=isch"
+
+#### (1-B) _GoogleImageDownloader_ - Downloading Google images provided a list of strings:
+
+###### GoogleImageDownloader(search_strings, mode = 0, driver_path = None)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|search_strings|_no_| | [ list-string type ] |
+|mode|_yes_|GoogleImageDownloader.MODE_CHROME|GoogleImageDownloader.MODE_CHROME, GoogleImageDownloader.MODE_FIREFOX|
+|driver_path|_yes_| None |None, [ string type ] |
+
+###### self.configure(**kwargs)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|folder_name|_yes_|None|None, [ string type ]|
+|hide_window|_yes_|False|True, False|
+|wait_load|_yes_|True|True, False|
+|search_large|_yes_|False|True, False|
+|save_search|_yes_|False|True, False|
+|item_wait|_yes_|1|[ integer/float (>=0) type ]|
+|images_per_page|_yes_|10|[ integer (>0) type ]|
+|verbose|_yes_|True| True, False|
+|url_timeout|_yes_|60|[ integer/float (>0) type ]|
+|load_timeout|_yes_|30|[ integer/float (>0) type ]|
+
+If a folder name is provided, all images will be stored in that folder after download. Should the folder not already exist, that folder will be created. By default, each search string will be the name of the folder storing the corresponding images.
+
+To scrape and download images in the background, set _**hide_window**_ to True.
+
+To search images in large mode, set _**search_large**_ to True.
+
+To wait between consecutive images, pass a number to _**item_wait**_ so that two images will be separated by _**time_wait**_ seconds.
+
+To specify the number of images per search string, pass an integer to the argument _**images_per_page**_.
+
+To hide the progress bar, set _**verbose**_ to False.
+
+To specify the maximum number of seconds to connect to the direct link, pass a number to _**url_timeout**_.
+
+To specify the maximum number of seconds to download an image, pass a number to _**load_timeout**_.
+
+###### self.download()
+
+Calling this function will initiate the downloading process.
+
+###### self.cleanup()
+
+Calling this function after finished downloading to remove corrupted image files in the folder.
+
+##### (1-B-1) Example of using GoogleImageDownloader
+
+    from keygim.keygim import KeyGoogleImages
+    GoogleImageDownloader = KeyGoogleImages.GoogleImageDownloader
+    search_strings = [ "scenery", "galaxies" ]
+    large = True
+    mode = GoogleImageDownloader.MODE_CHROME
+    driver_path = "./chromedriver.exe"
+    folder_name = "./KGM_DEMO/"
+    downloader = GoogleImageDownloader(search_strings, mode, driver_path)
+    downloader.configure(
+      folder_name = folder_name,
+      search_large = large
+    )
+    downloader.download()
+    downloader.cleanup()
+
+***
+
+## [2] Image Utilities
+
+#### (2-A) _ImageLoader_ - Loading images from disk:
+
+###### ImageLoader(filename, mode = ImageLoader.COLOR_BGR_3D)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|filename|_no_| | [ string type ] |
+|mode|_yes_|ImageLoader.COLOR_BGR_3D|ImageLoader.COLOR_GRAY_2D, ImageLoader.COLOR_GRAY_3D, ImageLoader.COLOR_BGR_3D, ImageLoader.COLOR_BGRA_3D, ImageLoader.COLOR_RGB_3D, ImageLoader.COLOR_RGBA_3D|
+
+###### self.load()
+
+###### ImageLoader.load_images(nameList, mode = ImageLoader.COLOR_BGR_3D)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|nameList|_no_| | [ list-string type ] |
+|mode|_yes_|ImageLoader.COLOR_BGR_3D|ImageLoader.COLOR_GRAY_2D, ImageLoader.COLOR_GRAY_3D, ImageLoader.COLOR_BGR_3D, ImageLoader.COLOR_BGRA_3D, ImageLoader.COLOR_RGB_3D, ImageLoader.COLOR_RGBA_3D|
+
+###### ImageLoader.load_images_from_folder(folderName, quantity = "all", shuffle = False)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|folderName|_no_| | [ string type ] |
+|quantity|_yes_|"all"|"all", [ integer (>0) type ] |
+|shuffle|_yes_|False|True, False|
+
+#### (2-B) _ImageSaver_ - Saving images to disk:
+
+###### ImageSaver(filename, mode = ImageLoader.COLOR_BGR_3D)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|filename|_no_| | [ string type ] |
+|mode|_yes_|ImageSaver.COLOR_BGR_3D|ImageSaver.COLOR_GRAY_2D, ImageSaver.COLOR_GRAY_3D, ImageSaver.COLOR_BGR_3D, ImageSaver.COLOR_BGRA_3D, ImageSaver.COLOR_RGB_3D, ImageSaver.COLOR_RGBA_3D|
+
+###### self.save_image(image, overwrite = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|overwrite|_yes_|True|True, False|
+
+###### self.save_images(imageList, overwrite = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|imageList|_no_| | [ list-numpy-uint8 type ], [ numpy-uint8 type ] |
+|overwrite|_yes_|True|True, False|
+
+#### (2-C) _ImageDisplayer_ - Displaying images in a window:
+
+###### ImageDisplayer(image, windowName = "Image Preview")
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ] |
+|windowName|_yes_|"Image Preview"| [ string type ] |
+
+###### self.start()
+
+###### self.stop()
+
+###### self.display_for(interval = 5)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|interval|_yes_|5| [ integer/float (>0) type ] |
+
+###### ImageDisplayer.display_multiple_for(imageList, windowName = "Image Preview", interval = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|imageList|_no_| | [ list-numpy-uint8 type ], [ numpy-uint8 type ] |
+|windowName|_yes_|"Image Preview"| [ string type ]|
+|interval|_yes_|1|[ integer/float (>0) type ]|
+
+#### (2-D) _SnapshotTaker_ - Taking a screenshot:
+
+###### SnapshotTaker(mode = SnapshotTaker.COLOR_BGR_3D)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|mode|_yes_|SnapshotTaker.COLOR_BGR_3D|SnapshotTaker.COLOR_GRAY_2D, SnapshotTaker.COLOR_GRAY_3D, SnapshotTaker.COLOR_BGR_3D, SnapshotTaker.COLOR_BGRA_3D, SnapshotTaker.COLOR_RGB_3D, SnapshotTaker.COLOR_RGBA_3D|
+
+###### self.take_screenshot(key = None, message = None)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|key|_yes_|None|None, [ pynput-key type ] |
+|message|_yes_|None|None, [ string type ] |
+
+###### self.take_screenshots(key = None, quantity = 1, message = None)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|key|_yes_|None|None, [ pynput-key type ] |
+|quantity|_yes_|1|[ integer (>0) type ] |
+|message|_yes_|None|None, [ string type ] |
+
+##### (2-D-1) Example of using SnapshotTaker & ImageDisplayer
+
+    from keygim.imageUtils import ImageUtils
+    from pynput.keyboard import Key
+    SnapshotTaker = ImageUtils.SnapshotTaker
+    ImageDisplayer = ImageUtils.ImageDisplayer
+    key = Key.esc
+    message = "Press Esc to take screenshot."
+    mode = SnapshotTaker.COLOR_BGR_3D
+    image = SnapshotTaker(mode = mode).take_screenshot(
+      key = key, message = message
+    )
+    ImageDisplayer(image).display_for(interval = 3)
+
+#### (2-E) _BoundaryBoxSelector_ - Selecting boundary box from background image:
+
+###### BoundaryBoxSelector(image, windowName = "Boundary Box Selector", boxColor = (255, 0, 0), boxWidth = 5)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|windowName|_yes_|"Boundary Box Selector"|[ string type ]|
+|boxColor|_yes_|(255, 0, 0)| [ tuple-BGR type ]|
+|boxWidth|_yes_|5| [ integer (>0) type ]|
+
+###### self.draw()
+
+###### self.draw_multiple(quantity = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|quantity|_yes_|1|[ integer (>0) type]|
+
+###### self.place(width, height)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type]|
+
+###### self.place_multiple(width, height, quantity = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+|quantity|_yes_|1|[ integer (>0) type ]|
+
+###### BoundaryBoxSelector.crop_partial(image, bbox)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|bbox|_no_| | [ BoundaryBoxSelector.BoundaryBox type ]|
+
+###### BoundaryBoxSelector.crop_multiple(image, bboxes)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|bboxes|_no_| | [ list-BoundaryBoxSelector.BoundaryBox type ]|
+
+##### (2-E-1) Example of using SnapshotTaker & BoundaryBoxSelector & ImageDisplayer
+
+    from keygim.imageUtils import ImageUtils
+    from pynput.keyboard import Key
+    ImageDisplayer = ImageUtils.ImageDisplayer
+    BoundaryBoxSelector = ImageUtils.BoundaryBoxSelector
+    SnapshotTaker = ImageUtils.SnapshotTaker
+    key = Key.esc
+    message = "Press Esc to take screenshot."
+    image = SnapshotTaker().take_screenshot(key, message)
+    bbox = BoundaryBoxSelector(image).draw()
+    image = BoundaryBoxSelector.crop_partial(image, bbox)
+    ImageDisplayer(image).display_for(interval = 4)
+
+#### (2-E-A) _BoundaryBoxSelector.BoundaryBox_ - Creating a boundary box object:
+
+###### BoundaryBoxSelector.BoundaryBox(SX, SY, EX, EY)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|SX|_no_| | [ integer (>=0) type ]|
+|SY|_no_| | [ integer (>=0) type ]|
+|EX|_no_| | [ integer (>=0) type ]|
+|EY|_no_| | [ integer (>=0) type ]|
+
+###### self.\_\_getitem\_\_(key)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|key|_no_| | "sx", "sy", "ex", "ey", "dx", "dy", "cx", "cy", "tuple" |
+
+###### self.sort()
+
+#### (2-F) _ImageRandomCropper_ - Cropping a random region from an image:
+
+###### ImageRandomCropper(image)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+
+###### self.crop(width, height, overflow = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+|overflow|_yes_|True|True, False|
+
+###### self.crop_multiple(width, height, quantity = 1, overflow = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+|quantity|_yes_|1| [ integer (>0) type ]|
+|overflow|_yes_|True|True, False|
+
+#### (2-G) _ImageOverLayer_ - Adding a background to a 4-channel image:
+
+###### ImageOverLayer(image)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 (4 channels) type ]|
+
+###### self.overlay(background)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|background|_no_| | [ numpy-uint8 (>=3 channels) type ]|
+
+###### self.overlay_multiple(backgroundList)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|backgroundList|_no_| | [ list-numpy-uint8 type ], [ numpy-uint8 type ]|
+
+#### (2-H) _convert\_color_ - Color conversion for multiple images:
+
+###### convert_color(imageList, color_code)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|imageList|_no_| | [ list-numpy-uint8 type ], [ numpy-uint8 type ]|
+|color_code|_no_| | [ cv2-cvtColor type ]|
+
+#### (2-I) _ScreenshotCropperSaver_ - Taking a screenshot, cropping it and saving the image:
+
+###### ScreenshotCropperSaver(filename = "temp.png", draw = True, save = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|filename|_yes_|"temp.png"| [ string type ] |
+|draw|_yes_|True|True, False|
+|save|_yes_|True|True, False|
+
+###### self.start(key = None, message = None, overwrite = True, quantity = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|key|_yes_|None|None, [ pynput-key type ]|
+|message|_yes_|None|None, [ string type ]|
+|overwrite|_yes_|True|True, False|
+|quantity|_yes_|1| [ integer (>0) type ]|
+
+#### (2-J) _ImageResizer_ - Resizing an image while keeping its aspect ratio:
+
+###### ImageResizer(image)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+
+###### self.resize(width, height)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+
+###### ImageResizer.resize_multiple(imageList, width, height)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|imageList|_no_| | [ numpy-uint8 type ], [ list-numpy-uint8 type ]|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+
+#### (2-K) _ImageCorruptDisposer_ - Disposing corrupt images in a folder:
+
+###### ImageCorruptDisposer(folderName)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|folderName|_no_| | [ string type ]|
+
+###### self.parse(return_quantity = False)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|return_quantity|_yes_|False|True, False|
+
+###### self.dispose(extensions = "all")
+
+|argument|optional|default|available|
+|---|---|---|---|
+|extensions|_yes_|"all"|"all", [ list-string type ]|
+
+#### (2-L) _PlainImageGenerator_ - Generating a uni-colored image:
+
+###### PlainImageGenerator(width, height, channels)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+|channels|_no_| | [ integer (>0) type ]|
+
+###### self.generate(quantity = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|quantity|_yes_|1|[ integer (>0) type ]|
+
+##### (2-L-1) Example of PlainImageGenerator & ImageDisplayer
+
+    from keygim.imageUtils import ImageUtils, ImageAugmentor
+    PlainImageGenerator = ImageAugmentor.PlainImageGenerator
+    ImageDisplayer = ImageUtils.ImageDisplayer
+    width, height, channels = 250, 400, 3
+    image = PlainImageGenerator(width, height, channels).generate()
+    ImageDisplayer(image).display_for(interval = 4)
+
+#### (2-M) _NoiseImageGenerator_ - Generating a static/noise image:
+
+###### NoiseImageGenerator(width, height, channels)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width|_no_| | [ integer (>0) type ]|
+|height|_no_| | [ integer (>0) type ]|
+|channels|_no_| | [ integer (>0) type ]|
+
+###### self.generate(quantity = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|quantity|_yes_|1|[ integer (>0) type ]|
+
+##### (2-M-1) Example of NoiseImageGenerator & ImageDisplayer
+
+    from keygim.imageUtils import ImageUtils, ImageAugmentor
+    NoiseImageGenerator = ImageAugmentor.NoiseImageGenerator
+    ImageDisplayer = ImageUtils.ImageDisplayer
+    width, height, channels = 250, 400, 3
+    image = NoiseImageGenerator(width, height, channels).generate()
+    ImageDisplayer(image).display_for(interval = 4)
+
+#### (2-N) _MapGenerator_ - Generating a map image from two images:
+
+###### MapGenerator(image1, image2)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image1|_no_| | [ numpy-uint8 type ]|
+|image2|_no_| | [ numpy-uint8 type ]|
+
+###### self.get()
+
+#### (2-O) _PositionShifter_ - Shifting an image to the side:
+
+###### PositionShifter(image, safeMode = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|safeMode|_yes_|True|True, False|
+
+###### self.shift(width_offset_range, height_offset_range, quantity = 1, rate = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|width_offset_range|_no_| |[ tuple-integer type ]|
+|height_offset_range|_no_| | [ tuple-integer type ]|
+|quantity|_yes_|1|[ integer (>0) type ]|
+|rate|_yes_|1|[ integer/float [0, 1] type ]|
+
+#### (2-P) _BrightnessShifter_ - Changing an image's brightness level:
+
+###### BrightnessShifter(image, safeMode = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|safeMode|_yes_|True|True, False|
+
+###### self.shift(brightness_shift_range, quantity = 1, rate = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|brightness_shift_range|_no_| |[ tuple-float [0, 1] type ]|
+|quantity|_yes_|1|[ integer (>0) type ]|
+|rate|_yes_|1|[ integer/float [0, 1] type ]|
+
+#### (2-Q) _ImageZoomer_ - Zooming in and out from an image:
+
+###### ImageZoomer(image, safeMode = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image|_no_| | [ numpy-uint8 type ]|
+|safeMode|_yes_|True|True, False|
+
+###### self.zoom(zoom_value)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|zoom_value|_no_| | [ integer/float (>0) type ]
+
+###### self.random_zoom(zoom_range, quantity = 1, rate = 1)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|zoom_range|_no_| |[ tuple-float (>0) type ]|
+|quantity|_yes_|1|[ integer (>0) type ]|
+|rate|_yes_|1|[ integer/float [0, 1] type ]|
+
+#### (2-R) _ImageGenerator_ - Generating training data to recognize a pattern:
+
+###### ImageGenerator(image1, image2)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|image1|_no_| | [ numpy-uint8 type ]|
+|image2|_no_| | [ numpy-uint8 type ]|
+
+###### self.configure(verbose = True, **kwargs)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|verbose|_yes_|True|True, False|
+|position_shift_range|_yes_|((-1, 1), (-1, 1))| [ tuple-tuple-integer type ] |
+|zoom_range|_yes_|(1.0, 1.0)| [ tuple-integer/float (>0) type ] |
+|brightness_range|_yes_|(1.0, 1.0)| [ tuple-integer/float [0, 1] type ] |
+|position_shift_rate|_yes_|1| [ integer/float (>=0) type ] |
+|brightness_rate|_yes_|1| [ integer/float (>=0) type ] |
+|zoom_rate|_yes_|1| [ integer/float (>=0) type ] |
+|plain_quantity|_yes_|1| [ integer (>=0) type ] |
+|noise_quantity|_yes_|0| [ integer (>=0) type ] |
+|background_quantity|_yes_|1| [ integer (>=0) type ] |
+|region_quantity|_yes_|0| [ integer (>=0) type ] |
+|background_folder|_yes_|None| None, [ string type ] |
+
+###### self.summary()
+
+###### self.generate(return_backgrounds = False, verbose = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|return_backgrounds|_yes_|False|True, False|
+|verbose|_yes_|True|True, False|
+
+###### self.generate_backgrounds(verbose = True)
+
+|argument|optional|default|available|
+|---|---|---|---|
+|verbose|_yes_|True|True, False|
