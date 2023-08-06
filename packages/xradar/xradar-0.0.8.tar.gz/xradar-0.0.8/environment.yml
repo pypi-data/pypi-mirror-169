@@ -1,0 +1,23 @@
+name: xradar-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.9
+  - pydata-sphinx-theme
+  - pip
+  - myst-parser
+  - sphinx
+  - sphinx-copybutton
+  - nbsphinx
+  - ipykernel
+  - h5netcdf
+  - h5py
+  - lat_lon_parser
+  - netCDF4
+  - xarray
+  - xarray-datatree
+  - xmltodict
+  - dask
+  - matplotlib-base
+
