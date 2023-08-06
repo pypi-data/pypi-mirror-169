@@ -1,0 +1,13 @@
+famiterm/__init__.py,sha256=Pq99vdvJ01evElrCXnQAv_OaodriN2mtPwMtbexia5E,45
+famiterm/nesapu.cp310-win_amd64.pyd,sha256=Y2D0bFWEgBYq0NOqWkbJ61_isDu2D6OyNrulD7jgCD4,71680
+famiterm/nescpu.cp310-win_amd64.pyd,sha256=qNyr2IpeGCFBGZy8RbfPD40Jh-cbjpJTFS5kgP8WW_o,57344
+famiterm/nesppu.cp310-win_amd64.pyd,sha256=_hCCnH3sVnuClgBt-mJYt2jUO4Srkd57vAyVbPaQWsM,47104
+famiterm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+famiterm/run.py,sha256=CGVR725VcYwHEgocty-DZmXxj06vTcGie-o2-mo0X80,32293
+famiterm/ssh.py,sha256=8iWJBDKHhO_ypGT3si4REZLK4irFiZF5a4xlwI8_LRY,235
+famiterm-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+famiterm-0.1.1.dist-info/METADATA,sha256=ukpMSzRJNZIAhZ5LfbtRJ9-HFwCr-8sviwgxc19EaIM,995
+famiterm-0.1.1.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+famiterm-0.1.1.dist-info/entry_points.txt,sha256=-3y9PMSAuKboc1VqmlgS4jT0AlHPLbcnpUGSyJ4iTgc,76
+famiterm-0.1.1.dist-info/top_level.txt,sha256=DuSj71BkKAjOvW44B7CBwOl_6adJhZSbapv7m0GaOTM,9
+famiterm-0.1.1.dist-info/RECORD,,
