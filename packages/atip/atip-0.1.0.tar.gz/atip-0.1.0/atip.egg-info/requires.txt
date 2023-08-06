@@ -1,0 +1,6 @@
+numpy
+scipy
+pytac>=0.3.0
+accelerator-toolbox>=0.2.0
+cothread
+softioc
