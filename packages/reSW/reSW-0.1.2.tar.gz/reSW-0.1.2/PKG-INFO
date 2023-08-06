@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: reSW
+Version: 0.1.2
+Summary: Highly customizable static site generator for reStructuredText markup
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: reStructuredText,SSG,static site generator
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+
+======
+[reSW]
+======
+
+reStructuredWeb (rSW, reSW or rstW) -- is a highly customizable static site
+generator for the reStructuredText markup language.
+
+Docs:
+
+* https://nixhacks.net/resw/
+* https://git.nxhs.cloud/ge/reSW/src/branch/master/docs
+
+Installation
+============
+
+Via pip
+-------
+
+::
+
+    pip install reSW
+
+From tarball
+------------
+
+::
+
+    pip install ./reSW-0.1.2.tar.gz
+
+Install shell completion
+------------------------
+
+::
+
+    pip install infi.docopt-completion
+    docopt-completion rsw
+
+Quick start
+===========
+
+1. Initialise site with following commands::
+
+    rsw init my_site
+    cd my_site
+
+2. Create first template and post.
+
+   Template layouts/template.jinja2::
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+      </head>
+    <body>
+       {{ html | safe }}
+    </body>
+    </html>
+
+   Post content/index.rst::
+
+    :title: Hello, World!
+    :date: 1970-01-01
+
+    =============
+    Hello, World!
+    =============
+
+    Hello, there! This is my first site built with *re*\ **Structured**\ *Web*!
+
+3. Build your site::
+
+    rsw build
+
+Command Line Interface
+======================
+
+::
+
+    Usage: rsw init [--no-makefile] [<name>]
+           rsw build [-c <file>]
+           rsw print [-c <file>] [--default] [--json]
+           rsw (-h | --help | -v | --version)
+
+    Commands:
+      init          initialise new site.
+      build         build site.
+      print         print configuration.
+
+    Options:
+      -c <file>, --config <file>    configuaration file.
+      -j, --json                    JSON output.
+      -d, --default                 print default config.
+      -M, --no-makefile             do not create Makefile.
+      -h, --help                    print this help message and exit.
+      -v, --version                 print version and exit.
+
+Development
+===========
+
+Build Python package
+--------------------
+
+Variant 1::
+
+    pip install setuptools wheel twine
+    python setup.py sdist bdist_wheel
+
+Variant 2::
+
+    pip install -U build
+    python -m build
+
+Via Makefile (`build` package needed)::
+
+    make build

@@ -1,0 +1,14 @@
+MANIFEST.in
+README
+pyproject.toml
+requirements.txt
+setup.py
+reSW.egg-info/PKG-INFO
+reSW.egg-info/SOURCES.txt
+reSW.egg-info/dependency_links.txt
+reSW.egg-info/entry_points.txt
+reSW.egg-info/requires.txt
+reSW.egg-info/top_level.txt
+reSW.egg-info/zip-safe
+rsw/Makefile.jinja2
+rsw/__init__.py
