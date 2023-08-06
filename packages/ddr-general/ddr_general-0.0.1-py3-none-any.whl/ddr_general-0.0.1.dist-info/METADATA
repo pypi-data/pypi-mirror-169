@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: ddr-general
+Version: 0.0.1
+Summary: contains basic functionalities used frequently
+Home-page: https://github.com/ddrathod121294/ddr_general
+Author: Darshan Rathod
+Author-email: darshan.rathod1994@gmail.com
+Keywords: ddr,ddr_general
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# ddr_general
+
+Contains basic functionalities used freqeuntly.
+
+```py
+import ddr_general
+```
+
+### make directory
+
+```py
+ddr_general.make_dir(r'C:/user/fold1')
+```
+
+makes *fold1* directory in *user* directory. If directory already exists then funtion does nothing.
+
+## get folder information
+
+```py
+ddr_general.get_dir_path(r'C:/user/fold1')
+```
+
+returns the list of paths of all folders (only) within *fold1* directory.
+
+```py
+ddr_general.get_dir_name(r'C:/user/fold1')
+```
+
+returns the  list of names of all folders (only) within *fold1* directory.
+
+```py
+ddr_general.get_file_path(r'C:/user/fold1')
+```
+
+returns the list of paths of all files (only) within *fold1* directory.
+
+```py
+ddr_general.get_file_name(r'C:/user/fold1')
+```
+
+returns the list of names of all files (only) within *fold1* directory.
+
