@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ttlockio"
+version = "0.3.3"
+description = "Python wrapper for TTLock API"
+readme = "README.md"
+authors = [{ name = "Antonio Campos", email = "tonyldo@gmail.com" },]
+requires-python = ">=3.6"
+keywords = ["ttlock", "wrapper",]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pytest==5.4.1",
+    "requests==2.23.0",
+    "requests-mock==1.7.0",
+    "pytest-mock",
+]
+
+[project.urls]
+Homepage = "https://github.com/tonyldo/ttlock.io"
+
+[project.scripts]
+create_user = "ttlockwrapper:TTLock.create_user_script_entry"
+refresh_access_token = "ttlockwrapper:TTLock.refresh_token_script_entry"
+    
