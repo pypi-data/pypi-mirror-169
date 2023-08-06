@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weanalyze-altair-theme"
+version = "0.1.2"
+description = "Weanalyze's theme for Altair charts."
+authors = ["jiandong <jiandong@weanalyze.co>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "weanalyze_altair_theme"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+altair = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
