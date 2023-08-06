@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: strprofiler
+Version: 0.1.0
+Summary: A simple python utility to compare short tandem repeat (STR) profiles.
+Home-page: https://github.com/j-andrews7/strprofiler
+License: MIT
+Author: Jared Andrews
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.23.3,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: rich-click (>=1.5.2,<2.0.0)
+Project-URL: Repository, https://github.com/j-andrews7/strprofiler
