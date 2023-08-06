@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+gene_fetchr.egg-info/PKG-INFO
+gene_fetchr.egg-info/SOURCES.txt
+gene_fetchr.egg-info/dependency_links.txt
+gene_fetchr.egg-info/requires.txt
+gene_fetchr.egg-info/top_level.txt

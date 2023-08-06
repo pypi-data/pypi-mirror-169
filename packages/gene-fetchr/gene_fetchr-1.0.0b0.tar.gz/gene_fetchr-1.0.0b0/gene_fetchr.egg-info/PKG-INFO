@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gene-fetchr
+Version: 1.0.0b0
+Summary: Search, retrieve, and scrape biological data from annotated genomes or public databases.
+Author-email: Josue Figueroa <poor.rican@pm.me>
+Project-URL: Homepage, https://github.com/PoorRican/fetchr
+Project-URL: Bug Tracker, https://github.com/PoorRican/fetchr/issues
+Keywords: bioinformatics,compulational biology,synthetic biology,biology,genetics,genomics,DIYbio,sybio
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fetcher
+Library to search and retrieve genomes, genes, vectors and other genomic data from public data sources.
+Currently, Genbank is the only supported data source. Scrapers for Addgene are planned for future releases.
+
+A list of all genes can be extracted from a genome sequence annotation feature.
+Using the ASN.1 file format, more detailed information (i.e: description, summary) than what the `gb` file format
+offers can be extracted. In future releases, data such as gene ontology can be extracted.
+
+Generated data is flat and unprocessed and can be used to convert to other data formats, has applications for
+computational biology, or be fed to ML algorithms.
