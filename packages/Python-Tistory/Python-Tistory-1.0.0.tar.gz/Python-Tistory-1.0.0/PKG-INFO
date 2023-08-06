@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Python-Tistory
+Version: 1.0.0
+Summary: Tistory Open API Python Wrapper
+Author: Hyeonseok Cha
+Author-email: t3nderex@gmail.com
+License-File: LICENSE
