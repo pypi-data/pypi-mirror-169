@@ -1,0 +1,16 @@
+email_decomposer/EmailDecomposer.py,sha256=TQiOHBICq8m_RTe3rL4hullMlfmM9yv_u1y0NY-C4hM,7455
+email_decomposer/FullName.py,sha256=3tpqveCH3U51UVYWV30KvbK65Y7IoZjFj43MjarLa7I,808
+email_decomposer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+email_decomposer/resources/Names_2010Census.txt,sha256=t47i_IT2f0e_wuKJX0gv-_z-232H8mW84E0FZC1Vj6A,9283669
+email_decomposer/resources/dist.female.first.txt,sha256=vS8xD8Tl1eXqEiydQ0LJghFFgjEY6yDbFkfzBex3s1g,149625
+email_decomposer/resources/dist.male.first.txt,sha256=ClB4727_47SD0VsPf5UEdmISbJv7Yk7NXluXj8DyRws,42665
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/common.py,sha256=Z1RvralZ3ULyH_DDax_iqwMHEFHvSQaA9X8tdrN5n64,435
+tests/mocks_generator.py,sha256=Os9pT3OfncfCAPqkCI7CSk3maMmYAh2CKM2WkLa0BJk,1714
+tests/test_EmailDecomposer.py,sha256=sJgx7as_ALitBzA0UQw0DgL2F45-XkUL5HwoYU30NoA,2303
+tests/test_mocks_generator.py,sha256=kdPwD5hFzEtKUIt5yCRegGUonDssiPIdeZKH9vaUUWM,242
+email_decomposer-0.0.1.dist-info/LICENSE,sha256=X6iM4EmRlJ3uiGXIfMtv2eJIq4MB5ifAA1wD_FWgCIE,544
+email_decomposer-0.0.1.dist-info/METADATA,sha256=pu4dDQIQSUBofLLnn04ojxGpxdOneFq_xFHpMPVuYUc,2402
+email_decomposer-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+email_decomposer-0.0.1.dist-info/top_level.txt,sha256=3BlxjJnyyQ7iFSKAL3Mnw3cUG3SJph9Q4T4CmrSMw7M,23
+email_decomposer-0.0.1.dist-info/RECORD,,
