@@ -1,0 +1,6 @@
+setup.py
+xbrl_search_client/__init__.py
+xbrl_search_client.egg-info/PKG-INFO
+xbrl_search_client.egg-info/SOURCES.txt
+xbrl_search_client.egg-info/dependency_links.txt
+xbrl_search_client.egg-info/top_level.txt
