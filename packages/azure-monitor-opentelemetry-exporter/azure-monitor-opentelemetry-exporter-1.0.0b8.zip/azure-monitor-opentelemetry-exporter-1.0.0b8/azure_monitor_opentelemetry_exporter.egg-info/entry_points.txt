@@ -1,0 +1,8 @@
+[opentelemetry_logs_exporter]
+azure_monitor_opentelemetry_exporter = azure.monitor.opentelemetry.exporter:AzureMonitorLogExporter
+
+[opentelemetry_metrics_exporter]
+azure_monitor_opentelemetry_exporter = azure.monitor.opentelemetry.exporter:AzureMonitorMetricExporter
+
+[opentelemetry_traces_exporter]
+azure_monitor_opentelemetry_exporter = azure.monitor.opentelemetry.exporter:AzureMonitorTraceExporter
