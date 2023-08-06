@@ -1,0 +1,14 @@
+dead_function_finder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dead_function_finder/__main__.py,sha256=CJdMFpyC83ACE9IPoU_9D0ZL-mcUC-l-ENjGxVYnFpk,95
+dead_function_finder/dead_function_finder.py,sha256=cIU07NgRyzHcuwqAvI4Ik6JklrjHBr7ljZlKNnQt-c4,1790
+dead_function_finder/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dead_function_finder/modules/directory_parser.py,sha256=NwvgVsyHugBsywaBQ-tbi3XwOfI9UaEdao5IalFIIvE,1301
+dead_function_finder/modules/function_finder.py,sha256=r1Ff3ZEfU2EbL7Zl_lv8mROWRJH7p4Sc18huyYnk9cI,1338
+dead_function_finder/modules/function_search.py,sha256=BDxyZiowYK_HxnUu6jrLcM5XaJKd736iZYGPQq4m9nQ,830
+dead_function_finder/modules/supported_languages.py,sha256=dKYvH7DMJOqgQaWcLo_C9vGcpQaXf3gomR6aXNm32Hc,1512
+dead_function_finder-1.0.dist-info/LICENSE,sha256=WdxTfKZuj5aCBA1zP_55AX-i0jAo5J_s7GIDz_KEf38,1073
+dead_function_finder-1.0.dist-info/METADATA,sha256=S6KfNNvbBUqu1pCsjE8bZEkpvTvPDb1gb-eRb82zjm8,2101
+dead_function_finder-1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dead_function_finder-1.0.dist-info/entry_points.txt,sha256=e-nNtmMXDkPtjsD7wQF6zqKho8kdxq1zN3p93wvWwqI,89
+dead_function_finder-1.0.dist-info/top_level.txt,sha256=Fnh3D3QkdoMmbbok6OLGeZeu6VT56vSe14eJ3bTRV-g,21
+dead_function_finder-1.0.dist-info/RECORD,,
