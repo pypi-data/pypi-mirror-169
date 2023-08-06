@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xata
+Version: 0.1.0
+Summary: Python client for Xata.io
+Author: Tudor Golubenco
+License: Apache-2.0
+Requires-Python: >=3.6, <4
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
