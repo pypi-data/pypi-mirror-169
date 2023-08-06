@@ -1,0 +1,238 @@
+# wkd
+
+Which-key via dmenu, wkd.
+
+## Why?
+
+- I like keychords
+- I like which-key
+- I like dmenu
+
+If you like these things too then you may like wkd.
+
+# Demo
+
+![Simple usage of wkd](https://codeberg.org/johndovern/wkd/raw/branch/master/media/simple.webm)
+
+![Usage of wkd -p KEY](https://codeberg.org/johndovern/wkd/raw/branch/master/media/auto_press.webm)
+
+## Disclaimer
+
+The version of dmenu that I am using is **heavily** patched to provide
+the functionality shown.
+
+Worry not, I provide
+[copies](https://codeberg.org/johndovern/wkd/src/branch/master/dmenu/patches)
+to the individual patches that I am using. There are is also a
+[README](./dmenu/patches/README.md) with some more info about each
+patch.
+
+# Install
+
+The usual way:
+
+``` python
+pip install wkd
+```
+
+Requires python3.
+
+# Getting started
+
+`wkd` is what you make it. So lets see how you can configure it.
+
+## wkdrc
+
+Here are the following configuration settings, a description of what
+they do, and their default values:
+
+``` conf
+# "prompt_cmd" is the program to use to display the availible binds. This
+# setting supports fzf, or rofi instead of dmenu but you'll have to experiment
+# with those. If you do please let me know how it goes and how I can better
+# support usage of wkd with those programs.
+prompt_cmd = dmenu
+
+# Default args to use when running your prompt_cmd. This supports any arg
+# that your version of dmenu supports.
+bind_args = None
+
+# Separator between your keybind and the description. A space will get added on
+# each side between the key and description.
+separator = ->
+
+# If shell is True then your keybind will execute in a shell. Becareful if you
+# set this to True.
+shell = False
+
+# You can create pretty intricate binds for wkd, but if you perfer multiple
+# smaller binds/keys files you can set which dir wkd should look for input/output
+# files here. The full path for these defaults would be $XDG_CONFIG_HOME/wkd/binds
+# for the binds_dir.
+binds_dir = binds
+keys_dir  = keys
+
+# If you have the grid patch applied to dmenu you can specify the number of columns
+# to show. If a value is set then wkd will calculate the needed lines to show all the
+# binds at a given level. This is mostly aesthetic but it makes a big difference imo
+# as dmenu fills in a column with options before moving to the next column instead of
+# filling in all columns in a line and moving to the next line.
+columns = 0
+```
+
+## bindsrc
+
+The `bindsrc` file is the default source when updating your keybinds.
+The syntax for this file is fairly simple but it is not (to my
+knowledge) common so let's go over it!
+
+### Top level keybinds
+
+The following is a top level keybind:
+
+``` conf
+# This is a comment, nothing new.
+k This is a description == echo "Everything past == is a command."
+```
+
+When you run `wkd` and press `k` the command will run.
+
+Some things to note:
+
+- White space only matters between the keybind and the description.
+- The keybind can only be a single key.
+- `wkd` will fail to parse bindsrc if the keybind is not a single key.
+- Everything past the first `==` is treated a command.
+
+### Prefixes
+
+Top level keybinds are nice but they really aren't much different than a
+normal keybind. A prefix is a keybind that contains more
+keybinds/prefixes. Prefixes are a great thing, let's cover them:
+
+``` conf
+# The next line is a prefix
+p No command allowed
+    :s Sub keybind == echo "Notice the colon."
+    # The next line is another prefix
+    :i Inner prefix
+        ::t A keybind! == echo "We reached the end."
+```
+
+Things to note:
+
+- A prefix has no command, just a keybind and a description.
+- The `:` is not just for looks.
+- If a keybind/prefix is `n` number of prefixes deep, then `n` colons
+  are required for that keybind/prefix.
+
+And that's pretty much it. Let's look at how this translates to a
+`keys.json` file.
+
+### The result
+
+You can run `wkd -u` to update your `keys.json` file from your `bindsrc`
+file. *Side note*, the default `bindsrc` file is located at
+`$XDG_CONFIG_HOME/wkd` along with the resulting `keys.json` file.
+
+Let's say this is your `bindsrc` file:
+
+``` conf
+# Browsers prefix
+b Browsers
+    :f Firefox == firefox
+    # Profiles prefix
+    :F Firefox profiles
+        ::f Focus == firefox -P Focus
+        ::l Learning == firefox -P Learning
+        ::e Entertainment == firefox -P Entertainment
+    # Sites prefix
+    :s Sites
+        ::m My site == firefox "https://www.my-site.org"
+        ::o Other site == firefox "https://www.my-other-site.org"
+# emacs prefix
+e Emacs
+    :e Open emacs == emacs
+    # Projects prefix
+    :p Projects
+        ::m My project == emacs "~/Projects/My Project"
+        ::o Other project == emacs "~/Projects/My Other Project"
+# mpv prefix
+m mpv
+    :m My music == mpv "~/Music/my_playlist.m3u"
+    :e Empty mpv == mpv --idle=yes
+```
+
+After running `wkd -u` your `keys.json` file will look like this:
+
+``` json
+{
+    "b -> Browsers": {
+        "f -> Firefox": "firefox",
+        "F -> Firefox profiles": {
+            "f -> Focus": "firefox -P Focus",
+            "l -> Learning": "firefox -P Learning",
+            "e -> Entertainment": "firefox -P Entertainment"
+        },
+        "s -> Sites": {
+            "m -> My site": "firefox \"https://www.my-site.org\"",
+            "o -> Other site": "firefox \"https://www.my-other-site.org\""
+        }
+    },
+    "e -> Emacs": {
+        "e -> Open emacs": "emacs",
+        "p -> Projects": {
+            "m -> My project": "emacs \"~/Projects/My Project\"",
+            "o -> Other project": "emacs \"~/Projects/My Other Project\""
+        }
+    },
+    "m -> mpv": {
+        "m -> My music": "mpv \"~/Music/my_playlist.m3u\"",
+        "e -> Empty mpv": "mpv --idle=yes"
+    }
+}
+```
+
+The `keys.json` file is what is used when running `wkd` so you can pick
+your poison.
+
+I prefer to set my keybinds through the `bindsrc` file as I can add
+comments and I find it easier to work with.
+
+## Usage
+
+Here is the help page for `wkd`:
+
+``` example
+usage: wkd [-h] [-d] [-i FILE] [-o FILE] [-p KEYs] [-r FILE | -u]
+
+Which-key via dmenu.
+
+options:
+  -h, --help            show this help message and exit
+  -d, --debug           Instead of (re)writing your keys.json when updating prints to screen.
+  -i FILE, --input FILE
+                        Can be used with --update to read a different bindsrc file.
+  -o FILE, --output FILE
+                        Can be used with --update to output to a different keys.json file.
+  -p KEY(s), --press KEY(s)
+                        Effectively presses KEY(s) after launching.
+  -r FILE, --read FILE  Read an alternate keys.json file. If FILE is a relative path wkd assumes
+                        it is in the $XDG_CONFIG_HOME/wkd/keys directory.
+  -u, --update          Update keybinds using bindsrc. See --input and --output for additional
+                        options.
+```
+
+# dmenu
+
+So far `wkd` has really only been tested with dmenu. However, it works
+very, very well with dmenu. Please read the
+[README](./dmenu/patches/README.md) in the `dmenu/patches` directory in
+this repo for recommended configuration of dmenu.
+
+# Thanks for reading
+
+Hope you like `wkd`, I sure do.
+
+There are some pretty cool things you can do with it, let me know what
+you come up with or what you think could be improved!

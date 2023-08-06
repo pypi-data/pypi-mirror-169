@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/wkd/__init__.py
+src/wkd/__main__.py
+src/wkd/options.py
+src/wkd/parser.py
+src/wkd/utils.py
+src/wkd/which.py
+src/wkd.egg-info/PKG-INFO
+src/wkd.egg-info/SOURCES.txt
+src/wkd.egg-info/dependency_links.txt
+src/wkd.egg-info/entry_points.txt
+src/wkd.egg-info/requires.txt
+src/wkd.egg-info/top_level.txt
