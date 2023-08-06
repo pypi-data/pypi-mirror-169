@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "drive-screen"
+version = "0.1.9"
+description = "add multi page panel function support & fix bar color"
+authors = ["shengqin ding <dshengq@163.com>"]
+readme = "README.md"
+packages = [{include = "drive_screen"}]
+
+
+# 添加豆瓣镜像
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.douban.com/simple/"
+default = true  # 设置豆瓣镜像为默认回调, 以避免 poetry 在某些缺省操作里又回调到 pypi 仓库.
+
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dash="^2.0.0"
+dash_bootstrap_components="^1.0.1rc1"
+dash-core-components="^2.0.0"
+dash-html-components="^2.0.0"
+Flask="^2.0.1"
+pandas="^1.1.5"
+Pillow="^9.2.0"
+plotly="^5.2.1"
+PyMySQL="^1.0.2"
+requests="^2.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
