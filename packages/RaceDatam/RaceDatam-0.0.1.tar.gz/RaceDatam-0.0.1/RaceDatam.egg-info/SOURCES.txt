@@ -1,0 +1,8 @@
+setup.py
+RaceData/RaceData.py
+RaceData/__init__.py
+RaceDatam.egg-info/PKG-INFO
+RaceDatam.egg-info/SOURCES.txt
+RaceDatam.egg-info/dependency_links.txt
+RaceDatam.egg-info/requires.txt
+RaceDatam.egg-info/top_level.txt

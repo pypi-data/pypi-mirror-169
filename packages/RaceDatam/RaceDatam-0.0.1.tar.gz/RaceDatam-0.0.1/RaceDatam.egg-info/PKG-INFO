@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RaceDatam
+Version: 0.0.1
+Summary: Britain all Race data
+Author: Ahmety21
+Author-email: <ahmetyildirir1@gmail.com>
+Keywords: python,race,data,scraping
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+You can scrape all britain race in excel and csv
