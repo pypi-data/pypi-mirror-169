@@ -1,0 +1,4 @@
+[console_scripts]
+CiyuLinghunZhiliaoShijianShouce = CiyuLinghunZhiliaoShijianShouce.__main__:main
+ciyu-linghun-zhiliao-shijian-shouce = CiyuLinghunZhiliaoShijianShouce.__main__:main
+
