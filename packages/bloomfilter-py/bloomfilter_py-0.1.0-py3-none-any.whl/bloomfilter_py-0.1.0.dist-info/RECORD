@@ -1,0 +1,8 @@
+bloomfilter/__init__.py,sha256=SRH_vrLQpF6COKQUuqvxY23tBxkYsTQwguJr0gVrQhU,48
+bloomfilter/bloomfilter.py,sha256=QUXsgjH3Ay8YbntiZC33FXEHfCkhnGbstbI1qLKEXs8,4822
+bloomfilter/bloomfilter_strategy.py,sha256=2EVweo6HBgS01lI1knouvmZh7V7v1qNOLSTg7D-U0KQ,4112
+bloomfilter_py-0.1.0.dist-info/LICENSE,sha256=dILzImNvDDL_v7fbs-46Jgm2geLj-dnTvM9amFr7Vk0,1065
+bloomfilter_py-0.1.0.dist-info/METADATA,sha256=5rRVXk-cLEeL4e82N0jY6FkyHVuWqYWYOaxTuHOnb-o,2603
+bloomfilter_py-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bloomfilter_py-0.1.0.dist-info/top_level.txt,sha256=JSY0wSWCHnFiMlLd3j84Rzczygk_a85Oy6COgH4NQnc,12
+bloomfilter_py-0.1.0.dist-info/RECORD,,
