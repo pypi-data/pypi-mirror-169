@@ -1,0 +1,10 @@
+ruslat/__init__.py,sha256=al_a80YUMXPXbN0C3HUcUgYpXw1_37vZkhK3APi4Cdo,92
+ruslat/command_line.py,sha256=_ZKrdNK-IIFOtD3EqxvrcshoKxOaYzjtNSDZAAScauc,786
+ruslat/conversion_tables.py,sha256=WPfariyJPXvS4ld-hA1NC86H6BywOwB4xPDGFLDvPtU,1172
+ruslat/converter.py,sha256=72akXPP1vvIuqOl0ERRcHwHYNeHjY3WkYRwB3q0rgcM,2583
+ruslat/cyrillic_ortho_fixer.py,sha256=6qUEv1U7I9nrqAjtcYAx6Vb6jr58TYhCUxNjcfU2z-4,1251
+ruslat-1.2.0.dist-info/entry_points.txt,sha256=FlyIFJaRvw8D6TuNGhKbS7y7x35Ll9OWRMtoCVIna5w,51
+ruslat-1.2.0.dist-info/LICENSE,sha256=8UvdeQkEI4syplaakHZvuCWWBXKUq4YI1PJGn8GOCOU,1078
+ruslat-1.2.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+ruslat-1.2.0.dist-info/METADATA,sha256=1Td98jJqghDXbTqRI5MlwNYu6kupOSDRqjPgOLHWCpI,1862
+ruslat-1.2.0.dist-info/RECORD,,

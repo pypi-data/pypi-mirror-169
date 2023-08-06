@@ -1,0 +1,3 @@
+[console_scripts]
+ruslat=ruslat.command_line:main
+
