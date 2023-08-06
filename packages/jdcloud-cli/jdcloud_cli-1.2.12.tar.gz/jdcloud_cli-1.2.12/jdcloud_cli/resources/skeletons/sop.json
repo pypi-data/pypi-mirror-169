@@ -1,0 +1,15 @@
+{
+    "get-sensitive-op-setting":{
+        "action":"",
+        "regionId":""
+    },
+    "get-security-token":{
+        "getSecurityTokenInfo":{
+            "type":"",
+            "code":"",
+            "action":"",
+            "durationSeconds":""
+        },
+        "regionId":""
+    },
+}
