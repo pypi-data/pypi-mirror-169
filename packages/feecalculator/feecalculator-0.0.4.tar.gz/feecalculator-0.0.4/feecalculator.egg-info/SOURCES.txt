@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+feecalculator/__init__.py
+feecalculator.egg-info/PKG-INFO
+feecalculator.egg-info/SOURCES.txt
+feecalculator.egg-info/dependency_links.txt
+feecalculator.egg-info/top_level.txt
