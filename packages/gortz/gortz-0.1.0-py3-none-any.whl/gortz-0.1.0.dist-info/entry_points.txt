@@ -1,0 +1,3 @@
+[console_scripts]
+gortz=gortz.__main__:app
+
