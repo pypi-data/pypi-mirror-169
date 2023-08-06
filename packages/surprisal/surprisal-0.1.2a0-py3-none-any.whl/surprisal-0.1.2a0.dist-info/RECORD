@@ -1,0 +1,9 @@
+surprisal/__init__.py,sha256=DQ_SWMgCU2fOCR6MciHLFWcXoyrM9PqONczWZukesfk,208
+surprisal/__main__.py,sha256=TYFIc7pQiUmy46P4VpjmLToQTfaejMCVxTsMVz44tDc,1130
+surprisal/interface.py,sha256=aDCm0UqCEuC04X50f-MvzvwFGWVfUgQK2_cBDxftqw8,1982
+surprisal/model.py,sha256=7y551nPAaxjUp3UEKTXk51eWX0lE-lahozF3oyqoEj4,12553
+surprisal/utils.py,sha256=ahmmacd4U-4YqCdBmbUzFN4Z49TTyrHYHjq0-X-FQ2Q,4269
+surprisal-0.1.2a0.dist-info/LICENSE,sha256=0l4RXvdinhTdqZvMg2Vcc_tP89Jly7W_ss20By_o2H8,1078
+surprisal-0.1.2a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+surprisal-0.1.2a0.dist-info/METADATA,sha256=XzSZlgo8tD5SezNgqcttnOfNoMLcmQ4M-1Cp2ty0Vr8,5097
+surprisal-0.1.2a0.dist-info/RECORD,,
