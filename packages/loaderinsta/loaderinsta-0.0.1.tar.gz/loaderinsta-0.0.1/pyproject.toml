@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "loaderinsta"
+version = "0.0.1"
+description = "Instagram post yuklash"
+authors = ["Brodyaga"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
