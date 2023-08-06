@@ -1,0 +1,12 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+BruteCodecChecker/requirements.txt
+BruteCodecChecker/thirdparty.json
+BruteCodecChecker.egg-info/PKG-INFO
+BruteCodecChecker.egg-info/SOURCES.txt
+BruteCodecChecker.egg-info/dependency_links.txt
+BruteCodecChecker.egg-info/requires.txt
+BruteCodecChecker.egg-info/top_level.txt

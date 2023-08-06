@@ -1,0 +1,3 @@
+include BruteCodecChecker/requirements.txt
+include BruteCodecChecker/thirdparty.json
+include BruteCodecChecker/C:/m_i_t.txt
