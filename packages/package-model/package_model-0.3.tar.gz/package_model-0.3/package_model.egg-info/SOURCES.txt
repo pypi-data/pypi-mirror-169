@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+package_model/__init__.py
+package_model/example.py
+package_model.egg-info/PKG-INFO
+package_model.egg-info/SOURCES.txt
+package_model.egg-info/dependency_links.txt
+package_model.egg-info/not-zip-safe
+package_model.egg-info/top_level.txt
