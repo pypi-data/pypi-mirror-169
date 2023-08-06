@@ -1,0 +1,8 @@
+setup.py
+cdep_package_a.egg-info/PKG-INFO
+cdep_package_a.egg-info/SOURCES.txt
+cdep_package_a.egg-info/dependency_links.txt
+cdep_package_a.egg-info/top_level.txt
+package_a/__init__.py
+package_a/classes/__init__.py
+package_a/classes/package_a.py
