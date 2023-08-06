@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+statssolutions/__init__.py
+statssolutions.egg-info/PKG-INFO
+statssolutions.egg-info/SOURCES.txt
+statssolutions.egg-info/dependency_links.txt
+statssolutions.egg-info/requires.txt
+statssolutions.egg-info/top_level.txt
