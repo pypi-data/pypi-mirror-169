@@ -1,0 +1,4 @@
+[console_scripts]
+Xr21TieziZhengliZuizhongban = Xr21TieziZhengliZuizhongban.__main__:main
+xr21-tiezi-zhengli-zuizhongban = Xr21TieziZhengliZuizhongban.__main__:main
+
