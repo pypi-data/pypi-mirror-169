@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoAiqingQuanshu = TaluoAiqingQuanshu.__main__:main
+taluo-aiqing-quanshu = TaluoAiqingQuanshu.__main__:main
+
