@@ -1,0 +1,8 @@
+README.md
+setup.py
+safe_evaluation/__init__.py
+safe_evaluation/expressions.py
+safe_evaluation.egg-info/PKG-INFO
+safe_evaluation.egg-info/SOURCES.txt
+safe_evaluation.egg-info/dependency_links.txt
+safe_evaluation.egg-info/top_level.txt
