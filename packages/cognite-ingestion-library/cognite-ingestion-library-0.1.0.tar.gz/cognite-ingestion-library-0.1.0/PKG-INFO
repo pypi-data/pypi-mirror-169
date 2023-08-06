@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cognite-ingestion-library
+Version: 0.1.0
+Summary: Library for converting arbitrary schema output to CDF types and ingesting them
+Author: Einar Omang
+Author-email: einar.omang@cognite.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: cognite-sdk (>=4.5.4,<5.0.0)
+Requires-Dist: dacite (>=1.6.0,<2.0.0)
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: pyjq (>=2.6,<3.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
