@@ -1,0 +1,11 @@
+attrs
+typing-extensions
+numpy
+scipy
+custom-inherit
+
+[test]
+pandas
+pytest
+pytest-mypy
+mypy
