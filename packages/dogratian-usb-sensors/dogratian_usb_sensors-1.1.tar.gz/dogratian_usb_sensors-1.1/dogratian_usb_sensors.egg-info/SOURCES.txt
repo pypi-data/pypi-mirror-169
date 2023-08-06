@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dogratian_usb_sensors/__init__.py
+dogratian_usb_sensors.egg-info/PKG-INFO
+dogratian_usb_sensors.egg-info/SOURCES.txt
+dogratian_usb_sensors.egg-info/dependency_links.txt
+dogratian_usb_sensors.egg-info/requires.txt
+dogratian_usb_sensors.egg-info/top_level.txt
