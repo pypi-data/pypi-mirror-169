@@ -1,0 +1,10 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+src/pyjacket/__init__.py
+src/pyjacket/filemanager.py
+src/pyjacket.egg-info/PKG-INFO
+src/pyjacket.egg-info/SOURCES.txt
+src/pyjacket.egg-info/dependency_links.txt
+src/pyjacket.egg-info/top_level.txt
