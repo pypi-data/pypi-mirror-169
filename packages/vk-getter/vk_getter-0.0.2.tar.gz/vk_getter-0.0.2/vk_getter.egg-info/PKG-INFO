@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vk-getter
+Version: 0.0.2
+Summary: Getting data from vk.com pythonic and easily.
+Author: Crawlic (Nikita Kuznetsov)
+Author-email: nikitosik0726@gmail.com
+Keywords: python,vk,api,data,image,posts,vk get
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that allows to get data from groups in vk.com in just few lines of code.
