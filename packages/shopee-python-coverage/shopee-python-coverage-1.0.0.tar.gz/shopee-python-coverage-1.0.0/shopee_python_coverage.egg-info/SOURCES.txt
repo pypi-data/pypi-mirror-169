@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_python_coverage.egg-info/PKG-INFO
+shopee_python_coverage.egg-info/SOURCES.txt
+shopee_python_coverage.egg-info/dependency_links.txt
+shopee_python_coverage.egg-info/top_level.txt
