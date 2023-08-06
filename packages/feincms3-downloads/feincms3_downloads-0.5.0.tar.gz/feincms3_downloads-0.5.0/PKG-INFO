@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: feincms3_downloads
+Version: 0.5.0
+Summary: Downloads plugin for feincms3
+Home-page: https://github.com/matthiask/feincms3-downloads/
+Author: Matthias Kestenholz
+Author-email: mk@feinheit.ch
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+License-File: LICENSE
+
+==================
+feincms3-downloads
+==================
+
+.. image:: https://github.com/matthiask/feincms3-downloads/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/matthiask/feincms3-downloads/
+    :alt: CI Status
+
+Requires local imagemagick and poppler-utils installations.
