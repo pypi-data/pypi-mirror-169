@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+RugGray.egg-info/PKG-INFO
+RugGray.egg-info/SOURCES.txt
+RugGray.egg-info/dependency_links.txt
+RugGray.egg-info/top_level.txt
+src/ruggray.py

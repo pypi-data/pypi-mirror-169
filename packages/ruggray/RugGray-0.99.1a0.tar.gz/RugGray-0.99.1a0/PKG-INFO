@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: RugGray
+Version: 0.99.1a0
+Summary: Opensesame Forms theme for the University of Groningen
+Home-page: https://github.com/markspan/ruggray
+Author: Mark Span (primary developer)
+Author-email: m.m.span@rug.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ruggray
+ 
+
+
