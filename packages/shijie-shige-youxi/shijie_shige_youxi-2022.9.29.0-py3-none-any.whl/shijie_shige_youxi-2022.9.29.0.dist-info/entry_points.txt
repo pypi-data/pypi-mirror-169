@@ -1,0 +1,4 @@
+[console_scripts]
+ShijieShigeYouxi = ShijieShigeYouxi.__main__:main
+shijie-shige-youxi = ShijieShigeYouxi.__main__:main
+
