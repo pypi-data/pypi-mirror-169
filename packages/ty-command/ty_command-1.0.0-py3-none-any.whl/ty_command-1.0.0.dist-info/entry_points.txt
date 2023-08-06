@@ -1,0 +1,2 @@
+[console_scripts]
+ty = ty.ty:ty
