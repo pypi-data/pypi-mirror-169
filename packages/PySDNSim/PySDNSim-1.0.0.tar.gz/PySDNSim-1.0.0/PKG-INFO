@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PySDNSim
+Version: 1.0.0
+Summary: A SDN simulation tool uses CloudSim Plus as backend.
+Author: Yifei Ren
+Author-email: ryf0510@live.com
+Keywords: SDN,Microservice,CloudSim
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
