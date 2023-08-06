@@ -1,0 +1,8 @@
+sphinx_watch/__init__.py,sha256=7YmG_WfgaluPx7Kc9YMGuXVM1kUepu0ehTeditCskck,36
+sphinx_watch/cli.py,sha256=QDCZsgokC13kpWfEONrO60xF0ggpjI3O_J7_zlrYQxg,1543
+sphinx_watch/handlers.py,sha256=a0QF-d1Sy16tZ5KwOfMi1AjtumW5jfY9g0cxt3-pbhw,2340
+sphinx_watch/httpd.py,sha256=AAOQ5eZhi0_cWYUfjp74N-jlOFMUB03vMIk8ysbUQtg,803
+sphinx_watch-0.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+sphinx_watch-0.1.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+sphinx_watch-0.1.1.dist-info/METADATA,sha256=xPSHHnEhMeGSJetyd4SLPzjl8YAbtJZKyNtCZiIXU3M,2136
+sphinx_watch-0.1.1.dist-info/RECORD,,
