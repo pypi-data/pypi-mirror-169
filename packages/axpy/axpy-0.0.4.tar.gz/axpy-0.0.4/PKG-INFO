@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: axpy
+Version: 0.0.4
+Summary: A Python package for Auxetics
+Project-URL: Documentation, https://github.com/unknown/axpy#readme
+Project-URL: Issues, https://github.com/unknown/axpy/issues
+Project-URL: Source, https://github.com/unknown/axpy
+Author-email: gv-sh <gv-sh@outlook.com>
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+# axpy
+
+[![PyPI - Version](https://img.shields.io/pypi/v/axpy.svg)](https://pypi.org/project/axpy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/axpy.svg)](https://pypi.org/project/axpy)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install axpy
+```
+
+## License
+
+`axpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
