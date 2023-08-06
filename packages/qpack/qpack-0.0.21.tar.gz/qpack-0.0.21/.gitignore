@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.module-cache*
+.project
+.pydevproject
+.idea
+.cproject
+.settings/
+test.py
+*.so
+*.o
+build/
+dist/
+checklist.txt
+.vscode/
+qpack.egg-info/
