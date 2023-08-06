@@ -1,0 +1,14 @@
+magma_orc8r_client/orchestrator.py,sha256=BxFGOYLshGSrOWExbmXkUczff7cVERul3xUzczYJMoE,802
+magma_orc8r_client/endpoints/base_endpoint.py,sha256=aRuBz2fmEoTpelSKtojcczNsc4wLI27Mc6K2NyI_69k,2691
+magma_orc8r_client/endpoints/lte.py,sha256=FuADe97AaOW4YjpNZRh5bvCXiXVNiFfVXZlho45-Oco,898
+magma_orc8r_client/schemas/__init__.py,sha256=pliBa_jjlWWnQ_AkSeSe5m-9BLxjmqeZH7Rgzab9QJM,362
+magma_orc8r_client/schemas/cellular.py,sha256=-2RlbkOzw6iB6R_CApf4J9BZ4PHkGGgvOq3On1UokWg,221
+magma_orc8r_client/schemas/dns.py,sha256=ZfdnpXvor32FktgvnjVlfPvnFJwf-hj5pSRpdNx1MsE,208
+magma_orc8r_client/schemas/epc.py,sha256=raMNhT64IK8kvaraZqxmIEcrzrotdneli5iJs_1iwJM,274
+magma_orc8r_client/schemas/network.py,sha256=I3zRMyTOho4kN5VlAT0HWXvDD86ZKS-xK1uw-cVSo5s,287
+magma_orc8r_client/schemas/ran.py,sha256=7CH3g7TqwH-MJ7dHwP0glC66JGDuLPvTExIdV5Yo9ig,204
+magma_orc8r_client/schemas/tdd_config.py,sha256=fez2E_rnYS1KN8CVnvwGjYMDtp2QnmMg2BZSAvjb0TM,239
+magma_orc8r_client-1.0.0.dist-info/METADATA,sha256=yNZgxOEvlPbXEIpbBSY0p7Wwwvbt4JwPPFHEYuC5ox0,1927
+magma_orc8r_client-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magma_orc8r_client-1.0.0.dist-info/top_level.txt,sha256=bLktQzFxLLVICg6GDDL9VL5JA3sjodnFchuRr1oDffc,19
+magma_orc8r_client-1.0.0.dist-info/RECORD,,
