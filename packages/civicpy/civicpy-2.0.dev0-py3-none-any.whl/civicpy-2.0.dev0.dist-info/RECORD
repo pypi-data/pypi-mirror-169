@@ -1,0 +1,11 @@
+civicpy/__init__.py,sha256=dTlBfbEfeh61s0N5NaXbqk07BOMzLi3Ve4e4hUWb-jU,695
+civicpy/__version__.py,sha256=kMqMEdB_61B5wVwobkN_hI6ROmaAOiSqF26waQHNoLM,537
+civicpy/civic.py,sha256=uKHAgqJLxfhiTmDUMXoOv6x1f6JTwGpbq1wv9j8Wam8,85095
+civicpy/cli.py,sha256=1Y8nb4EGFtg0h_DHCz-Tmugrt0CIB2XGwQUYCmJUj3Y,4620
+civicpy/exports.py,sha256=aSXLi-vAB-CvoOJwx0tLOzY7HM8EgZn0hebLLbXjNgw,8659
+civicpy-2.0.dev0.dist-info/LICENSE,sha256=bgaIvmJ7f39m9HxAVpmjRROUJ2L-1Xsui3ok00lo4OU,1073
+civicpy-2.0.dev0.dist-info/METADATA,sha256=gRXgGap8ZpAt36lzZA-DYgEg6CrSZ1LJ36Cun6BJ-eI,1254
+civicpy-2.0.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+civicpy-2.0.dev0.dist-info/entry_points.txt,sha256=IUkn0XEEmuWH5rcnX1yfCwnGQFBvi8km6q7y28r12rc,44
+civicpy-2.0.dev0.dist-info/top_level.txt,sha256=VKqRARzOQYK4FhMojtcMnj_YqhmWVirJSKzWFUBx9GQ,8
+civicpy-2.0.dev0.dist-info/RECORD,,
