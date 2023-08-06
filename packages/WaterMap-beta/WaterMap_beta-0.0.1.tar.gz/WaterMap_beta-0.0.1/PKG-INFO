@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: WaterMap_beta
+Version: 0.0.1
+Summary: A short summary about your package
+Home-page: UNKNOWN
+Author: Aman Gupta
+Author-email: gupta.aman2303@gmail.com
+License: MIT
+Keywords: watermap,tutorial,Aman_gupta
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+Demo Watnet
+
+Change Log
+==========
+
+0.0.1 (27/09/2022)
+------------------
+- First Release
+
