@@ -1,0 +1,3 @@
+[console_scripts]
+mqtt2measurinator = mqtt2measurinator.cli:main
+
