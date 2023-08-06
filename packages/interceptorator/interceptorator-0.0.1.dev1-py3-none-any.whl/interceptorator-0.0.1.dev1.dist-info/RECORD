@@ -1,0 +1,9 @@
+interceptorator/__init__.py,sha256=BRwIee0qHQcKjDdNdAdyN3rVEcYOWJNeJLnhdD-PCvo,249
+interceptorator/decorator.py,sha256=8lyGdfB2xh5OyWfw5I-eWf1YZOnY0aafLmlyy82YjoA,4339
+interceptorator/generics.py,sha256=IQV8uzqq7E-BpdEpssUhanHwkarAVVkCivkkaho7VIE,1255
+interceptorator/storage/__init__.py,sha256=uf8gRhUSU0tbQhkoVFiRVub5fhtp26YTveqgUph7GdE,996
+interceptorator/storage/sqllite3.py,sha256=6gPfwBRWfONW3kLd_U-zJ8SD2oc7tBy54W4FXPv12M0,1958
+interceptorator-0.0.1.dev1.dist-info/METADATA,sha256=g2myIewKeIW1SCW53Jh7RBJ7376D0tbSWte6EZ0R1p0,1438
+interceptorator-0.0.1.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+interceptorator-0.0.1.dev1.dist-info/top_level.txt,sha256=5KxjNobMPN1Bv7OA5UBaQiVaibwq0L6_KbTd6sTQjns,16
+interceptorator-0.0.1.dev1.dist-info/RECORD,,
