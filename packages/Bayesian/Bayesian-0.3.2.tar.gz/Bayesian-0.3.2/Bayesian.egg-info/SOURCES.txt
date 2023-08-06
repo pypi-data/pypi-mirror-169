@@ -1,0 +1,12 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+Bayesian.egg-info/PKG-INFO
+Bayesian.egg-info/SOURCES.txt
+Bayesian.egg-info/dependency_links.txt
+Bayesian.egg-info/top_level.txt
+bayesian/__init__.py
+bayesian/samples.py
+bayesian/tests.py
