@@ -1,0 +1,256 @@
+--[[
+    Influence from https://github.com/luapower/mmap/blob/master/mmap.lua
+]]
+
+local ffi = require 'ffi'
+local bit = require 'bit'
+local istype in ffi
+local _C in MAD --For speed
+local tostring, imatrix, matrix, cmatrix in MAD
+local is_matrix, is_cmatrix, is_imatrix, is_string, is_number, is_nil, is_element, is_boolean, is_table in MAD.typeid
+local ceil in math
+local type, assert, error, ipairs, tonumber, tostring, table, string, rawequal = --Not all necessary (check)
+      type, assert, error, ipairs, tonumber, tostring, table, string, rawequal    --Any others here?
+
+ffi.cdef 
+[[ 
+typedef signed int ssize_t;
+typedef int64_t off64_t;
+typedef int64_t pid_t;
+typedef unsigned short mode_t;
+int msync(void *addr, size_t len, int flags); 
+void *mmap (void *addr, size_t len,  int prot, int flags, int fildes, off64_t offset);
+int shm_open(const char *name, int oflag, mode_t mode); 
+int printf(const char *format, ...); //For debugging
+int munmap(void *addr, size_t len);
+int ftruncate(int fildes, off64_t length);
+int close(int fd);
+int getpagesize(void);
+off64_t lseek(int fd, off64_t offset, int whence);
+]]
+
+------------------MMAPP ACESS FLAGS------------------- (From https://github.com/luapower/mmap/blob/master/mmap.lua)
+
+--mmap() access flags
+local PROT_READ  = 1
+local PROT_WRITE = 2
+
+--mmap() parameter flags
+local osx = ffi.os == 'OSX'
+local MAP_SHARED  = 1
+local MAP_PRIVATE = 2 --copy-on-write
+local MAP_FIXED   = 0x0010
+local MAP_ANON    = osx and 0x1000 or 0x0020
+
+--shm_open() oflags --Need to verify these
+local O_RDONLY    = 0
+-- local O_WRONLY    = 1
+local O_RDWR      = 2
+local O_CREAT     = osx and 0x00200 or tonumber('00100', 8)
+local O_SYNC      = osx and 0x00080 or tonumber('4010000', 8)
+local O_TRUNC     = osx and 0x00400 or tonumber('01000', 8)
+
+--msync() flags
+local MS_ASYNC      = 1
+-- local MS_INVALIDATE = 2
+local MS_SYNC       = osx and 0x0010 or 4
+
+-----------------------lseek flags------------------ (Only for linux?)
+local SEEK_SET = 0	-- Seek from beginning of file.
+local SEEK_CUR = 1	-- Seek from current position.
+local SEEK_END = 2	-- Seek from end of file.
+local SEEKdataA = 3	-- Seek to next data.
+local SEEK_HOLE	= 4	-- Seek to next hole.
+
+local PAGE_SIZE = _C.getpagesize()
+
+--List of identifier types
+local STRING_VAL    = 1
+local IMATRIX_VAL   = 2
+local MATRIX_VAL    = 3
+local CMATRIX_VAL   = 4
+local SCALAR_VAL    = 5 
+--Add more here
+
+-- local file_size = 10000000
+local writeFildes = nil
+local readFildes = nil
+local pageUpTo = 0
+local pyCommandFormat = "pyCommand:"
+----------------Necessary??-------------------------
+local function sleep(time) --For debugging
+    local start = os.clock()
+    while os.clock() - start < time do end
+end
+-----------------------------------------------------
+local function getDimsAndSize(offset)
+    local dimsAddress = _C.mmap(nil, 8, PROT_READ, MAP_SHARED, readFildes, offset)
+    local dims = imatrix(2, 1)
+    ffi.copy(dims.data, dimsAddress, 8)
+    local dataSize = 8 * dims[1] * dims[2]
+    return dims, dataSize
+end
+----------------------------------READING------------------------------
+local function readSharedMemory(dataFrame, dataSize, offset)
+    --Read the data
+    local dataAddress = _C.mmap(nil, dataSize, PROT_READ, MAP_SHARED, readFildes, offset)
+    ffi.copy(dataFrame.data, dataAddress, dataSize)
+    local numPagesUsed = ceil(dataSize/PAGE_SIZE)
+    local totalBytes = numPagesUsed * PAGE_SIZE
+    _C.munmap(dataAddress, totalBytes)
+    return dataFrame, numPagesUsed --Other way to produce varargs?
+end
+
+local function readCMatrix(dims)
+    local offset = pageUpTo * PAGE_SIZE
+    local fileContents = {}
+    local dataSize = 8 * dims[1] * dims[2] * 2
+    local dataFrame = cmatrix(dims[1], dims[2])
+    local data, numPagesUsed = readSharedMemory(dataFrame, dataSize, offset)
+    pageUpTo = pageUpTo + numPagesUsed 
+    return data
+end
+
+local function readMatrix(dims)
+    local offset = pageUpTo * PAGE_SIZE
+    local fileContents = {}
+    local dataSize = 8 * dims[1] * dims[2]
+    local dataFrame = matrix(dims[1], dims[2])
+    local data, numPagesUsed = readSharedMemory(dataFrame, dataSize, offset)
+    pageUpTo = pageUpTo + numPagesUsed 
+    return data
+end
+
+local function readIMatrix(dims)
+    local offset = pageUpTo * PAGE_SIZE
+    local fileContents = {}
+    local dataSize = 8 * dims[1] * dims[2] / 2
+    local dataFrame = imatrix(dims[1], dims[2])
+    local data, numPagesUsed = readSharedMemory(dataFrame, dataSize, offset)
+    pageUpTo = pageUpTo + numPagesUsed 
+    return data
+end
+
+local function readScalar()
+    return readMatrix({1, 1})[1]
+end
+-----------------------------------------------------------------------
+
+
+--------------------------WRITING--------------------------------------
+local function openSharedMemory(filename, write) 
+    if not writeFildes and write then
+        writeFildes = _C.shm_open(filename, O_RDWR, 0)-- tonumber('444', 8) + tonumber('222', 8))  (read-write)
+    elseif not readFildes and not write then
+        readFildes = _C.shm_open(filename, O_RDWR, 384)
+    end
+end
+
+local function mmapWrite(data) --rename data and dataSize?
+    offset = pageUpTo * PAGE_SIZE
+    local dataSize = ffi.sizeof(data)
+    file_size = tonumber(_C.lseek(writeFildes, 0, SEEK_END))
+    _C.lseek(writeFildes, 0, SEEK_SET)
+    if dataSize + offset + 2*PAGE_SIZE > file_size then --This increases the RAM Usage (if necessary)
+        print(pyCommandFormat.."self.resetShmSafely(False)")
+        print("continue")
+        io.read()
+        pageUpTo = 0
+        offset = 0
+    end
+    local dataAddress = _C.mmap(nil, dataSize, bit.bor(PROT_READ, PROT_WRITE), MAP_SHARED, writeFildes, offset)
+    ffi.copy(dataAddress, data.data, dataSize)
+    _C.munmap(dataAddress, dataSize)
+    pageUpTo = pageUpTo + ceil(dataSize/PAGE_SIZE)
+
+end
+
+local function sortData(data)
+    local command = pyCommandFormat
+    -- Not a fan of this if statment, is there a better way?    
+    if is_number(data) then
+        data = matrix(1):fill(data)
+        command = command .. "self.readMADScalar(np.float64)"
+    elseif is_boolean(data) then
+        data = matrix(1):fill(data and 1 or 0)
+        command = command .. "self.readMADScalar(bool)"
+    elseif is_element(data) then 
+        command = command .. "self.readMADElement('"..data.name.."', self."..data.kind.. '("'..data.name..'", self))'
+        data = matrix(1):fill(0)
+    elseif is_string(data) then 
+        local stringAsMatrix = imatrix(1,data:len()) 
+        for i = 1, #data do
+            stringAsMatrix[i] = string.byte(data:sub(i,i))
+        end
+        data = stringAsMatrix -- Had problems with strings so matrix of ascii
+        command = command .. "self.readMADString(["..data.nrow..","..data.ncol.."])"
+    elseif is_imatrix(data) then
+        command = command .. "self.readMADMatrix(np.int32,["..data.nrow..","..data.ncol.."])"
+    elseif is_matrix(data) then
+        command = command .. "self.readMADMatrix(np.float64,["..data.nrow..","..data.ncol.."])"
+    elseif is_cmatrix(data) then
+        command = command .. "self.readMADMatrix(np.complex128,["..data.nrow..","..data.ncol.."])"
+    elseif is_table(data) then 
+        dataList = {}
+        valueList = {}
+        for i, v in ipairs(data) do 
+            newValue, newCmd = sortData(v)
+            dataList[i]= newValue
+            valueList[i] = newCmd
+        end
+        return dataList, valueList
+    else
+        print(data)
+    end 
+    return data, command
+end
+
+
+local function sharedata(dataList) --Can't do tables of tables
+    if #dataList == 0 then print(pyCommandFormat .. '"None"') end
+    for _, data in ipairs(dataList) do 
+
+        data, command = sortData(data)
+        if is_table(data) then
+            print(pyCommandFormat .. "self.readMADTable()")
+            for i, v in ipairs(data) do 
+                io.write(command[i] .. "\t")
+                mmapWrite(v)
+            end
+            io.write("tablehasended\n")
+            io.flush()
+        else
+            mmapWrite(data)
+            print(command)
+        end
+    end
+    print("finished")
+end
+
+local function closeSharedMemory()
+    if writeFildes then
+        _C.close(writeFildes)
+        writeFildes = nil
+    end
+    if readFildes then
+        _C.close(readFildes)
+        readFildes = nil
+    end
+end
+
+local function safelyCloseMemory() --Will also convert pointers into memory in the future
+    closeSharedMemory()
+    pageUpTo = 0
+end
+----------------------------end-----------------------------
+return{ 
+    sharedata = sharedata, 
+    readVariable = readVariable,
+    readCMatrix = readCMatrix,
+    readIMatrix = readIMatrix,
+    readMatrix = readMatrix,
+    readScalar = readScalar,
+    openSharedMemory = openSharedMemory,
+    closeSharedMemory = closeSharedMemory,
+    safelyCloseMemory = safelyCloseMemory,
+}
