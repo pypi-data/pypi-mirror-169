@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: melvil-booklist
+Version: 1.0.0
+Summary: 
+Author: Sean
+Author-email: sean14520@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: inquirer (>=2.10.0,<3.0.0)
+Requires-Dist: python-Levenshtein (>=0.12.2,<0.13.0)
+Requires-Dist: regex (>=2022.8.17,<2023.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: thefuzz (>=0.19.0,<0.20.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Melvil
+
+[//]: <> (TODO: Add quote from Melvil Dewey here)
+
+## The Command-line Book Management Tool
+
+Melvil is a command line tool for managing books and booklists.
+
+Install with `pip install booklist-melvil`
+
+### Dependencies:
+
+* `python`
+* `typer`
+* `thefuzz`
+
+## Features:
+
+Melvil stores your books in a JSON file. Each book contains information about:
+
+* A title
+* An author
+* A series of tags that describe its genre 
+* A state of being read
+* A priority (Position in the list)
+
+There are many features that make your life easier:
+
+* Smooth command line interaction with [Typer](https://github.com/tiangolo/typer) and [Inquirer](https://github.com/kazhala/InquirerPy)
+* Fuzzy searching for book titles for nearly all commands, so you don't have to type the whole title every time. Don't remember a title name? No problem, fuzzy search by tag is available, too.
+* Flags for more common commands allow the user to define how much info they want Melvil to track.
+
+[//]: <> (TODO: Insert video demonstrating Melvil's features. You'll want a short GIF here similar to what you did for the time tracker, but you might also want to record a full-length video to better demonstrate your work.)
+
+### Commands:
+
+* `init` makes a new book list
+* `add` adds a new book
+* `remove` gets rid of a book
+* `list` prints out all the books from greatest to least priority
+* `skim` lists the attributes of a book
+* `untag` removes the target tag from the given book
+* `lookup` searches by title
+* `compile` searches by tag
+* `delete` clears the booklist
+* `reading` delivers the book you are reading now, defined as the book with the highest priority in the reading states.
+* `next` delivers the book you want to read next, defined as the book with the highest priority in the "to-read" state.
+* `change` Changes one of the book's attributes. Use "change --help" for more.
+* `transcribe` Add books from a CSV file in the format of "book title", "book author" to the book list.
+* `classify` Prints list of all tags.
+* `count` Prints list length.
