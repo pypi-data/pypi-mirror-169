@@ -1,0 +1,24 @@
+version: '3'
+services:
+    automation_server:
+      container_name: "automation_server"
+      restart: unless-stopped
+      build: 
+        context: AutomationServiceBackend-wittigannemarie
+        dockerfile: Dockerfile
+        args:
+          TRAININGDATA: ${TRAININGDATA}
+          TESTDATA: ${TESTDATA}
+          MODELTYPE: ${MODELTYPE} 
+          LANGUAGE: ${MODELLANGUAGE}
+      volumes:
+        - "./AutomationServiceBackend-wittigannemarie:/app"
+      ports: 
+        - "8002:8002"
+      deploy:
+        resources:
+          reservations:
+            devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

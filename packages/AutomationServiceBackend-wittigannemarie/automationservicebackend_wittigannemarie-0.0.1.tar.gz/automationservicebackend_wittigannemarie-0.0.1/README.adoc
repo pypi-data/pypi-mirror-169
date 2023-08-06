@@ -1,0 +1,499 @@
+:demolink: http://20.79.206.115
+:demoport: 8002
+:toc:
+:toclevels: 5
+:toc-placement!:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+= Automation Service
+
+The Automation Service offers the possibility to have an automatically generated model based on its given data and endpoints to interact with it.
+In this file, the examples given will follow a NER concerning names, s.t. it tries to identify Firstnames, Middlenames and Lastnames.
+However, you may define any entities to recognize that you want.
+A demo of the service can be accessed at {demolink}.
+
+toc::[]
+
+== Starting Conditions
+
+The are two options (requirements) for starting the service:
+
+* option 1: a pre-trained model, or
+* option 2: there must be either compatible datasets for training and testing.
+
+=== Option 1 
+
+If a pre-trained model is intended to be provided, it must be available in the folder link:./Backend/data/model[Backend/data/model] (default configuration). 
+The service works only with https://spacy.io[spaCy] models. Hence, your model needs to follow the spaCy standards (or should be trained using spaCy). 
+In a nutconsole, just copy the contents of a trained model (usually in the folder `model-best` or `model-last`) into the mentioned folder.
+
+=== Option 2
+
+If no pre-trained model is provided, training and testing data must be provided to the system. Otherwise, the web service will not start.
+Both files must be provided in the folder link:./Backend/data/trainingdata[Backend/data/trainingdata]. 
+Additionally, the file names must be defined in the link:./.env[.env] file.  
+Both datasets must always be in CSV file format and meet the following requirements:
+
+* Each file contains columns for the input-text (first column) and each entity the model should be able to identify. 
+* Then, each data-text is written into the text-column and additionally, the values for each entity inside the text are defined separately in the respective column. 
+* If a text does not contain a value for a defined entity, the corresponding cell must be empty.
+
+An example for an link:./ExampleBodies/name[examplary CSV-formatted dataset for recognizing names of people] would be something like this:
+
+[cols="1,1,1,1"]
+[options="header"]
+|===
+|Name
+|First_Name
+|Middle_Name
+|Last_Name
+
+|I am Ms Walters
+| 
+| 
+|Walters
+
+|Do you think Silke will come?
+|Silke
+|
+|
+
+|I am not sure as to when Cherly Barrett has their birthday?
+|Cherly
+|
+|Barrett
+
+|I do have a middlename, it's Heinz-Wilhelm
+|
+|Heinz-Wilhelm
+|
+
+|You can send the data to Ingetraut Renz
+|Ingetraut
+| 
+|Renz
+|===
+
+Training and testing data must follow the same basic structure (i.e., they must have the same column name).
+
+== Interaction with the Service
+
+Once the Web service is started, you may interact with it through a handful of endpoints offered as APIs that will either provide access to some way of information extraction from the given data or enable you to retrain (i.e., exchange) the model on runtime.
+
+=== NER Endpoint
+
+==== /api
+
+The /api endpoint offers two interfaces for interaction.
+
+===== GET
+
+The GET interface offers the possibility to retrieve the NER of a single text by your model. 
+You can interact with it by using a call like:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X 'GET' '{demolink}:{demoport}/api?text={YOUR%TEXT}'
+----
+
+Remember to replace spaces with '%'.
+The result will be the original text, recognized entities with their labels and content:
+
+[source,json]
+----
+{
+    "text": "text",
+    "Entity-Label1": "value1",
+    "Entity-Label2": "value2"
+}
+----
+
+===== POST
+
+The POST interface offers a NER for multiple input possibilities:
+
+. upload a CSV file, 
+. upload a JSON file, or 
+. upload raw JSON data within the body of your request.
+
+In all cases the matching https://developer.mozilla.org/docs/Web/HTTP/Headers/Accept["accept"-header] must be set within the HTTP request. 
+It will define whether the output is of the type `application/json` or `text/csv`. 
+If another or an invalid "accept"-header is given, the service will either use the https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Type["Content-Type"-header] of the uploaded file or, if no file was uploaded, it will use it from the request.
+If none of these are valid, the request will fail.
+Hence, if you consider problems, then add or check the headers that are defined in your Web service request.
+
+====== CSV Upload
+
+You can upload a CSV file, containing texts that are supposed to be run through NER in the first column, to the Web service. 
+There can be any other columns added if required. 
+For example, the expected entities could be added to compare expected and actual results.
+The service will then annotate the CSV file with columns for all its recognizable entities and fill these up with the entities contained in each row.
+The curl command would be:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X POST -H 'accept: application/json' -F "file_to_identify=@{YOUR CSV FILE PATH};type=text/csv" {demolink}:{demoport}/api
+----
+
+The service will answer with the annotated CSV file. 
+Additionally, the response file will also be saved locally in the container in the folder `/code/app/spacy_model/intermediate/results/`.
+
+As an example, if you want to upload a file such as:
+
+[cols="3,1,1,1"]
+[options="header"]
+|===
+|Text|First_Name|Middle_Name|Last_Name
+
+|People call me Ida Clayton Henderson |Ida |Clayton |Henderson
+
+|I am happy to meet you, too. You can call me Kira. |Kira | | 
+
+|You can send the data to Eberhard Rump |Eberhard | |Rump 
+
+|Please send all business inquiries to Jessie Edwin Fowler |Jessie |Edwin |Fowler 
+
+|Oh I actually go by Lioba Alexandra. |Lioba |Alexandra | 
+|===
+
+with `text/csv` as an "accept"-header, it would result in something like:
+
+[cols="3,1,1,1,1,1,1"]
+[options="header"]
+|===
+|Text |First_Name | Middle_Name| Last_Name| FIRST_NAME| LAST_NAME| MIDDLE_NAME
+
+
+|People call me Ida Clayton Henderson |Ida |Clayton | Henderson| Ida |Henderson|Clayton 
+
+|I am happy to meet you, too. You can call me Kira. |Kira | | |Kira | | 
+
+|You can send the data to Eberhard Rump | Eberhard | |Rump |Eberhard |Rump | 
+
+|Please send all business inquiries to Jessie Edwin Fowler |Jessie |Edwin |Fowler |Jessie |Fowler |Edwin
+
+|Oh I actually go by Lioba Alexandra. |Lioba |Alexandra | |Lioba | |Alexandra 
+|===
+
+However, having defined the `accept`-header as `application/json`. The response of the Web service would be:
+
+[source,json]
+----
+[
+    {
+        "Text": "People call me Ida Clayton Henderson",
+        "First_Name": "Ida",
+        "Middle_Name": "Clayton",
+        "Last_Name": "Henderson",
+        "FIRST_NAME": "Ida",
+        "LAST_NAME": "Henderson",
+        "MIDDLE_NAME": "Clayton"
+    },
+    {
+        "Text": "I am happy to meet you, too. You can call me Kira.",
+        "First_Name": "Kira",
+        "Middle_Name": null,
+        "Last_Name": "         ",
+        "FIRST_NAME": "Kira",
+        "LAST_NAME": "",
+        "MIDDLE_NAME": ""
+    },
+    ...
+]
+----
+
+====== JSON File Upload
+
+Additionally, the endpoint allows applying NER to all texts given in a JSON file much like the xref:csv-upload[CSV Upload]. 
+The JSON file must follow this structure:
+
+[source,json]
+----
+[
+    {
+        "text": "{TEXT TO CLASSIFY}",
+        "language": "{LANGUAGE}",
+        "entities": {
+            "{ENTITY1}": "{VALUE1}",
+            "{ENTITY2}": "{VALUE2}",
+            ... 
+        }
+    }
+]
+----
+
+However, both the language and the entity tags can be left out (they default to null), if wanted. 
+The NER via uploading a JSON file, much like the CSV file upload, allows the freedom to add any additional information that is wanted, as long as each object has the "attribute text".  
+Hence, request data of sending two element might look like:
+
+[source,json]
+----
+[
+    {
+        "text": "{TEXT TO CLASSIFY}",
+    },
+    {
+        "text": "{TEXT TO CLASSIFY}",
+    }    
+]
+----
+
+Example files to upload are the texts.json files found in the folder link:./ExampleBodies/name[./ExampleBodies/name] and link:./ExampleBodies/address[./ExampleBodies/address] directories.
+
+A corresponding curl call would be:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X POST -H 'accept: application/json' -F "file_to_identify=@{YOUR JSON FILE PATH};type=application/json" {demolink}:{demoport}/api
+----
+
+The response will be the annotated JSON but it will also be stored locally in the container. 
+It can be found as `/code/app/spacy_model/intermediate/results/`. 
+The NER results can be found in the `results` array. 
+An example response object looks like this:
+
+[source,json]
+----
+[
+    {
+        "text": "I am called Marilyn Monroe.",
+        "language": "en",
+        "entities": [
+            {
+                "First_Name": "Marilyn",
+                "Last_Name": "Monroe"
+            }
+        ],
+        "results": [
+            {
+                "FIRST_NAME": "Marilyn",
+                "LAST_NAME": "Monroe"
+            }
+        ]
+    }
+]
+----
+
+If this was entered with `text/csv` as `accept`-header, the result would be:
+
+
+[cols="3,1,1,1,1,1"]
+[options="header"]
+|===
+|text |language |entities_First_Name |entities_Last_Name |results_FIRST_NAME |results_LAST_NAME 
+
+|I am called Marilyn Monroe. |en |Marilyn |Monroe |Marilyn |Monroe
+|===
+
+
+====== Raw JSON Upload
+
+The direct upload works exactly as the xref:json-file-upload[JSON File Upload] with the difference, that the request body is not a file but the JSON data as a string. 
+It has the same structure and response as in the JSON File Upload and all additional information can be referenced there.
+The only difference is the curl command, which will look something like this:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X POST -H 'accept: application/json' -H "Content-Type: application/json" -d '{{YOUR JSON}}' {demolink}:{demoport}/api
+----
+
+Or an example of a curl with content:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X 'POST' \
+  '{demolink}:{demoport}/api' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '[
+  {
+    "text": "I am called Marilyn Monroe.",
+    "language": "en",
+    "entities": {
+      "First_Name": "Marilyn",
+      "Last_Name": "Monroe"
+    }
+  }
+]'
+----
+
+Alternatively, the `accept`-header can be set to CSV, too.
+
+=== Retrain Endpoint
+
+The retraining endpoint uses the data you provided to train a new NER model which will if all is successful, replace the original model. 
+All following interactions will then be with the new model.
+*The original model will be deleted.*
+"accept"-headers will not be relevant, as the only return value is a success message in JSON format. 
+
+The retraining will, after formatting the input if needed, go through the https://github.com/AnnemarieWittig/RecognitionService/blob/main/Documentation/SpaCyTrainingProcess.md[data preparation] as it is described in the documentation, save the created intermediate files within the container and will then use the created docbins to train a new model.
+All of this happens in a folder located in the container as `/code/app/spacy_model/intermediate/`. 
+Once the training concludes successfully, the files are moved into the system and overwrite other existing files, either of the original model or the original intermediate files.
+Both, the (formatted) training- and testingdata as well as the generated docbins will be saved in the container (until overwritten again).
+The used model will always be the `model-best` generated by SpaCy.
+
+After the training, you can find your files here:
+ * Trainingdata is saved as `train.csv` in `/code/app/spacy_model/corpus/trainingdata/`
+ * Testingdata is saved as `test.csv` in `/code/app/spacy_model/corpus/trainingdata/`
+ * The generated docbins are saved as `train.spacy` and `test.spacy` in `/code/app/spacy_model/corpus/spacy-docbins/`
+ * The model (only the contents of the model-best) will be found in `/code/app/spacy_model/output/model-best/` 
+
+Everything else such as the other trained model will be deleted.
+
+WARNING: Please note that the process of retraining can, and will, take some time to finish.
+The classification APIs can still be used with the original model while the training runs.
+
+==== CSV Upload
+
+The endpoint allows to upload two CSV files, the `trainingdata` and the `testingdata`, as CSV files. 
+You can name them however you like, as long as the files have the exact structure as the ones needed in the xref:starting-conditions[Starting Conditions].
+
+The corresponding curl call would be:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X POST -F 'trainingdata=@{YOUR TRAININGDATA CSV};type=text/csv' -F 'testingdata=@{YOUR VALIDATION CSV};type=text/csv' {demolink}:{demoport}/retrain
+----
+
+==== JSON File Upload
+
+The endpoint allows the upload of trainingfiles in JSON format. 
+There are three files needed in total.
+The training data is structured like this:
+
+[source,json]
+----
+{
+    "trainingdata": [
+        {
+            "text": "{TRAININGTEXT}",
+            "language": "{LANGUAGETEXT (not relevant for training and can be ignored, language is set in the model config)}",
+            "entities": { 
+                "{ENTITY1}": "{VALUE1}",
+                "{ENTITY2}": "{VALUE2}",
+                ...
+            }
+        }
+    ]
+}
+----
+
+the testingdata follows the same structure but, inside the file, the initial key is named `testingdata` (instead of `trainingsdata`).
+
+For the json upload, a third file is needed. It is called options and contains a list of all possible entities the NER is supposed to recognize as well as the modellanguage and -type. 
+It has the following structure:
+
+[source,json]
+----
+{
+    "entities": ["{ENTITY1}", "{ENTITY2}", ...], 
+    "language": "en",
+    "modeltype": "spacy"
+}
+----
+
+Example files for curl commands can be found in the link:./ExampleBodies/name[ExampleBodies/name] and link:./ExampleBodies/address[ExampleBodies/address] directories. 
+
+Warning: Please note that those are minimal examples and will not generate a well working NER models.
+
+A curl command would be:  
+
+[source,console]
+[subs="attributes"]
+----
+curl -X POST -F 'trainingdata=@{YOUR TRAININGDATA JSON};type=application/json' -F 'testingdata=@{YOUR VALIDATION JSON};type=application/json' -F 'options=@{YOUR OPTIONS JSON};type=application/json' {demolink}:{demoport}/retrain 
+----
+
+==== JSON Raw Upload
+
+The json/upload-direct endpoint allows the data needed to be retrained raw within the body of the request. 
+The data itself is structured as is for the xref:json-file-upload-1[JSON File Upload], but all put in one file like the following:
+
+[source,json]
+----
+{
+    "trainingdata": [
+        {
+            "text": "{TRAININGTEXT}",
+            "language": "{LANGUAGETEXT (not relevant for training and can be ignored, language is set in the model config)}",
+            "entities": {
+                "{ENTITY1}": "{VALUE1}",
+                "{ENTITY2}": "{VALUE2}"
+                ...
+            }
+        }
+    ],
+    "testingdata": [
+        {
+            "text": "{TRAININGTEXT}",
+            "language": "{LANGUAGETEXT (not relevant for training and can be ignored, language is set in the model config)}",
+            "entities": {
+                "{ENTITY1}": "{VALUE1}",
+                "{ENTITY2}": "{VALUE2}" 
+                ...
+            }
+        }
+    ],
+    "entities": ["{ENTITY1}", "{ENTITY2}", ...], 
+    "language": "en",
+    "modeltype": "spacy"
+}
+----
+
+It is generally not recommended using this endpoint for curl commands, as it easily gets chaotic and is fairly long, but the general curl command would be:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X POST -H "Content-Type: application/json" -d '{YOUR JSON OBJECT}' {demolink}:{demoport}/retrain
+----
+
+and a working example is:
+
+[source,console]
+[subs="attributes"]
+----
+curl -X 'POST' \
+  '{demolink}:{demoport}/retrain' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "testingdata": [
+    {
+      "text": "I am called Marilyn Monroe.",
+      "language": "en",
+      "entities": {
+        "First_Name": "Marilyn",
+        "Last_Name": "Monroe"
+      }
+    }
+  ],
+  "trainingdata": [
+    {
+      "text": "I am called Marilyn Monroe.",
+      "language": "en",
+      "entities": {
+        "First_Name": "Marilyn",
+        "Last_Name": "Monroe"
+      }
+    }
+  ],
+  "entities": [
+    "First_Name",
+    "Middle_Name",
+    "Last_Name"
+  ], 
+  "language": "en",
+  "modeltype": "spacy"
+}'
+----
