@@ -1,0 +1,11 @@
+koopa_viz/__init__.py,sha256=wAZo9Z0D65SkYriQXZQuSOTF5M42Rbyy1UaI7JWqgPY,84
+koopa_viz/_widget.py,sha256=zfKZZqLTDnWqldGTaHCLvcgXu3bCa_lHXZToB7ObQk4,15812
+koopa_viz/napari.yaml,sha256=mWuFL9bkO6jn9v00pNL5dkLkxwnfAqJstremUhsG7_Y,270
+koopa_viz/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koopa_viz/_tests/test_widget.py,sha256=vBijsL-2GDOuGUtvpcW0hcQixOcO0GbkJx7lX1YF3Rw,34
+koopa_viz-0.0.1.dist-info/LICENSE,sha256=7Xqxye1F0qQES9ODypuTm7MeEEv7U1xZIpdEXZm9-SA,1088
+koopa_viz-0.0.1.dist-info/METADATA,sha256=6O9F6d5iqsR3SEEWnZyXgloXnot4blO0i2-HlC-Txto,3373
+koopa_viz-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+koopa_viz-0.0.1.dist-info/entry_points.txt,sha256=L8nXHjfrmWPp1I-p2FogOTxWRd3iaflIiU-oj4xvS0M,52
+koopa_viz-0.0.1.dist-info/top_level.txt,sha256=d8R4tRw5lSybvC-uzpS-afaR0JoQgIcmUbDhbnc4Rp8,10
+koopa_viz-0.0.1.dist-info/RECORD,,
