@@ -1,0 +1,8 @@
+sendroid/accelerometer.py,sha256=4iKOxqKk30_jdDj_kneKncTzkOdQVI1tV_VeN0J8U9E,1164
+sendroid/compass.py,sha256=p1sbZQNlAuCkn6qJnVvAXGYVqCtgo2R9ywJdZmtM1gY,1011
+sendroid/gyroscope.py,sha256=FRR4OKqn2XclZmb5yNOhjp9Wjh8HBI0tCdOxaZtJv9c,1351
+sendroid/sensor.py,sha256=2gZaZ1evrI0jHq1kjW1VjEOZJNMOpihvuvTFWAq6ldY,932
+sendroid-1.0a4.dist-info/METADATA,sha256=gpos1XDbVYu7j_5SmHVTcs8j9jzqA3bUAhuaP0ntDec,20314
+sendroid-1.0a4.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+sendroid-1.0a4.dist-info/licenses/LICENSE,sha256=DvKWtZPyHHxm6v9aGQlrD2Zo3gEcRzSDGh9SS3EvBjg,17777
+sendroid-1.0a4.dist-info/RECORD,,
