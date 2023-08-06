@@ -1,0 +1,3 @@
+[console_scripts]
+create_user = ttlockwrapper:TTLock.create_user_script_entry
+refresh_access_token = ttlockwrapper:TTLock.refresh_token_script_entry
