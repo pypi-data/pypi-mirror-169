@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: expressvpn-python
+Version: 1.2
+Summary: ExpressVPN - Python Wrapper
+Home-page: https://github.com/philipperemy/expressvpn-python
+Author: Philippe Remy
+Author-email: premy.enseirb@gmail.com
+License: MIT
+License-File: LICENSE
