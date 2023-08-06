@@ -1,0 +1,15 @@
+android:
+  pkg_name: com.qizhidao.clientapp
+  serial_no: UJK0220521066836
+common:
+  base_url: null
+  login_headers: {}
+  timeout: 10
+  visit_headers: {}
+ios:
+  pkg_name: null
+  serial_no: null
+web:
+  browser_name: chrome
+  executable_path: null
+  headless: false
