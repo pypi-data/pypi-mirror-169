@@ -1,0 +1,9 @@
+uvicorn~=0.18.2
+fastapi~=0.79.1
+setuptools~=65.1.0
+service~=0.6.0
+taskqtool~=0.0.10
+requests~=2.22.0
+pydantic~=1.9.2
+SQLAlchemy~=1.4.40
+starlette~=0.19.1
