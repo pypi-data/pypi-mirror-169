@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sendbird-platform-sdk
+Version: 0.0.12
+Summary: Sendbird Platform SDK
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Sendbird Platform SDK
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+    Sendbird Platform API Javascript SDK  https://sendbird.com/docs/chat/v3/platform-api/getting-started/prepare-to-use-api  # noqa: E501
+    
