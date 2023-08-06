@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_fivetran/__init__.py
+prefect_fivetran/_version.py
+prefect_fivetran/clients.py
+prefect_fivetran/connectors.py
+prefect_fivetran/credentials.py
+prefect_fivetran.egg-info/PKG-INFO
+prefect_fivetran.egg-info/SOURCES.txt
+prefect_fivetran.egg-info/dependency_links.txt
+prefect_fivetran.egg-info/entry_points.txt
+prefect_fivetran.egg-info/requires.txt
+prefect_fivetran.egg-info/top_level.txt
