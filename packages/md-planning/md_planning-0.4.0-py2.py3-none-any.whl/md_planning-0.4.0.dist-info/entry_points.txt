@@ -1,0 +1,2 @@
+[console_scripts]
+md_planning = md_planning.cli:main
