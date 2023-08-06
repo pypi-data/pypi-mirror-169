@@ -1,0 +1,10 @@
+pandas
+numpy
+sklearn
+xgboost
+lightgbm
+tensorflow
+keras
+catboost
+plotly
+joblib
