@@ -1,0 +1,13 @@
+dill
+termcolor
+colorutils
+numpy
+scipy
+pandas
+matplotlib
+
+[dev]
+twine
+wheel
+sphinx
+sphinx-bootstrap-theme
