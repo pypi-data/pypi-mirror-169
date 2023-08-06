@@ -1,0 +1,4 @@
+[console_scripts]
+Yunzhanshu = Yunzhanshu.__main__:main
+yunzhanshu = Yunzhanshu.__main__:main
+
