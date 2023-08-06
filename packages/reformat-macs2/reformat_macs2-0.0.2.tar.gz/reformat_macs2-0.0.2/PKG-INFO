@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: reformat_macs2
+Version: 0.0.2
+Summary: Reformat MACS2 output files
+Project-URL: Homepage, https://github.com/ajgouhier/reformat_macs2
+Author-email: Arthur Gouhier <ajgouhier@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# reformat_macs2
+
+Reformat MACS2 output files
