@@ -1,0 +1,13 @@
+AUTHORS.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+deid_data/__init__.py
+deid_data/version.py
+deid_data.egg-info/PKG-INFO
+deid_data.egg-info/SOURCES.txt
+deid_data.egg-info/dependency_links.txt
+deid_data.egg-info/requires.txt
+deid_data.egg-info/top_level.txt
