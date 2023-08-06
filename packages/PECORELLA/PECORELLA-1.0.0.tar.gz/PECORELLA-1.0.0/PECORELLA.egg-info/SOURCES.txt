@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PECORELLA.egg-info/PKG-INFO
+PECORELLA.egg-info/SOURCES.txt
+PECORELLA.egg-info/dependency_links.txt
+PECORELLA.egg-info/entry_points.txt
+PECORELLA.egg-info/top_level.txt
