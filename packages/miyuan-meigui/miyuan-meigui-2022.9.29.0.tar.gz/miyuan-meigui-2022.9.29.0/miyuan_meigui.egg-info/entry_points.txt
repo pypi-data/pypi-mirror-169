@@ -1,0 +1,4 @@
+[console_scripts]
+MiyuanMeigui = MiyuanMeigui.__main__:main
+miyuan-meigui = MiyuanMeigui.__main__:main
+
