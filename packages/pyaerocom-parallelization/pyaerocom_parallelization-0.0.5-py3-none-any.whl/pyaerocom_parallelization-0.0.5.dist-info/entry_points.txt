@@ -1,0 +1,3 @@
+[console_scripts]
+aeroval_parallelize = aeroval_parallelize.aeroval_parallelise:main
+aeroval_run_json_cfg = aeroval_parallelize.aeroval_run_json_cfg:main
