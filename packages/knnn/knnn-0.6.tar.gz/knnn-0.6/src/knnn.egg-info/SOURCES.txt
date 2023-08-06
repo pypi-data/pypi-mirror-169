@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/knnn.egg-info/PKG-INFO
+src/knnn.egg-info/SOURCES.txt
+src/knnn.egg-info/dependency_links.txt
+src/knnn.egg-info/requires.txt
+src/knnn.egg-info/top_level.txt
