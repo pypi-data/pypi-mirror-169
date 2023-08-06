@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_prometheus_client.egg-info/PKG-INFO
+shopee_prometheus_client.egg-info/SOURCES.txt
+shopee_prometheus_client.egg-info/dependency_links.txt
+shopee_prometheus_client.egg-info/top_level.txt
