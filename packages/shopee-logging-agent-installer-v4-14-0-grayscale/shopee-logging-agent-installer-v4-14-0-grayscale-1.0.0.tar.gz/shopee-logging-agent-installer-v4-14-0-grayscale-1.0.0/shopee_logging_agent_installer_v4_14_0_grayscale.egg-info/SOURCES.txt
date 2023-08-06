@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_logging_agent_installer_v4_14_0_grayscale.egg-info/PKG-INFO
+shopee_logging_agent_installer_v4_14_0_grayscale.egg-info/SOURCES.txt
+shopee_logging_agent_installer_v4_14_0_grayscale.egg-info/dependency_links.txt
+shopee_logging_agent_installer_v4_14_0_grayscale.egg-info/top_level.txt
