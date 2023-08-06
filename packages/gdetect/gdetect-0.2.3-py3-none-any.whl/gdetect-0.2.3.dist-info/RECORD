@@ -1,0 +1,12 @@
+gdetect/__init__.py,sha256=jQqqWI5VPnVlV0vySqVS7Hn4kwsrpT44cgr8eQcgtno,56
+gdetect/__main__.py,sha256=BNQOBKYq5svowcFRj6wQjeS2KvmtBJfHNwTPQ2_G6Qg,70
+gdetect/api.py,sha256=I4F6lmdKEPdO_zxt2mP9UimhnArZcVTYqxDf6Xgt8WY,14129
+gdetect/cli.py,sha256=zla7IcrFVSMRz991TGbJ3txdUTfL7F2Hh5-HwS-EAHQ,5041
+gdetect/exceptions.py,sha256=2OoW8fv5J7GQIobL8i80TIMGWvIQubFgbu3Z_87u7U0,901
+gdetect/log.py,sha256=s-gUjZkYD6h0HOn_aH1OH4ZH_XY9NaE8B7oTx_bu02o,830
+gdetect-0.2.3.dist-info/LICENSE,sha256=CIJ4SSQVFwUjx_cpEv47pDi53r13kcO7lIonwid8z3Y,1068
+gdetect-0.2.3.dist-info/METADATA,sha256=yzebJYWAeR9fHlJvAwgS53e36H0n2XYHMAxL4yX54cI,4357
+gdetect-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gdetect-0.2.3.dist-info/entry_points.txt,sha256=do3rNFWJbO57y9xXF7Bv4KZ9sy7auP8BOMCyPfYiaww,48
+gdetect-0.2.3.dist-info/top_level.txt,sha256=VBoHAt9WgEBOzVcps0Rmlj7i2Xr_iZWwAI7a7YS1boM,8
+gdetect-0.2.3.dist-info/RECORD,,
