@@ -1,0 +1,6 @@
+postgres_xcom_operator/__init__.py,sha256=iigvc7x_pcasNCYbXZYJmUeg4FNm3_RpvqD3LNL_ebk,38
+postgres_xcom_operator/postgres_xcom_operator.py,sha256=9twPWFKKR_cUBGzMwaoBrkgbtn9Nj2WNjZZ4mBxxfew,1337
+amsterdam_airflow_postgres_xcom_operator-1.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amsterdam_airflow_postgres_xcom_operator-1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+amsterdam_airflow_postgres_xcom_operator-1.1.dist-info/METADATA,sha256=BevoUoRUk8Kqe-FaZnk9nQ_zuzky1LzHIsMBPX5zqYE,1000
+amsterdam_airflow_postgres_xcom_operator-1.1.dist-info/RECORD,,
