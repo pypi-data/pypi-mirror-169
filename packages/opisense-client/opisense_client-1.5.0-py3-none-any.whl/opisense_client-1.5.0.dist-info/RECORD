@@ -1,0 +1,11 @@
+opisense_client/__init__.py,sha256=xdEaj-Ohkz0fWM0O3GNDpKRcON2TudQyyKjxo01sqEI,1067
+opisense_client/http.py,sha256=Es-RPIFSPn8uenOSU3DNE-e8YY7mohuyn0Y2OhRs1a0,7630
+opisense_client/inputs.py,sha256=91XpyMVAUrG1PSulXe9HDmXnpZHHsmG0Ej9cmyTRFJ0,10490
+opisense_client/objects.py,sha256=L60gJ8kmgSB8Xmq1n6u0zLhI-z8aZ4Vm3MZLpsy4M3g,2528
+opisense_client/tests/__init__.py,sha256=Cx2YsJnAWDpG55hbELCs_0Mc95YVGqtNTEw3dNoEIvI,77
+opisense_client/tests/tests.py,sha256=qfr9hyZPmtf5tQdwQuhqMIL6rB_O4mD3N84-bCx1DnY,5408
+opisense_client-1.5.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opisense_client-1.5.0.dist-info/METADATA,sha256=FvCbFJ_EhvBDMRXqWtbfwwYW2ZLBB_6_8EQ7uOHx8jc,9845
+opisense_client-1.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opisense_client-1.5.0.dist-info/top_level.txt,sha256=dE_vnfNRzu1vzTsVQIJUmC6hAlwWU2Mtb4DOl0MsIEs,16
+opisense_client-1.5.0.dist-info/RECORD,,
