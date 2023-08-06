@@ -1,0 +1,12 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cmatcher/requirements.txt
+cmatcher/thirdparty.json
+cmatcher.egg-info/PKG-INFO
+cmatcher.egg-info/SOURCES.txt
+cmatcher.egg-info/dependency_links.txt
+cmatcher.egg-info/requires.txt
+cmatcher.egg-info/top_level.txt
