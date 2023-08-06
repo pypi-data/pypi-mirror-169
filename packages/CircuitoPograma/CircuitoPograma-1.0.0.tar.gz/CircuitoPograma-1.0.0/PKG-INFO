@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CircuitoPograma
+Version: 1.0.0
+Summary: Esta es la descripcion de mi paquete
+Home-page: https://github.com/CristianR746/CircuitoPrograma.git
+Download-URL: https://github.com/CristianR746/CircuitoPrograma.git
+Author: Cristian Rivera, Marcos David, Keren Pajon
+Author-email: 
+License: MIT
+Keywords: testing,logging,example
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#Este proyecto se baso en este ejercicio que aparece y pudimos hacer que cada persona la cual tenga este mismo ejercicio pero diferente numeros pueda allar, el resultado.
+[![Whats-App-Image-2022-09-24-at-12-20-36-AM.jpg](https://i.postimg.cc/43KxX4ZS/Whats-App-Image-2022-09-24-at-12-20-36-AM.jpg)](https://postimg.cc/QB33b3FQ)
+
+
