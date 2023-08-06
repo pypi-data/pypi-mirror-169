@@ -1,0 +1,8 @@
+setuptools
+os
+random
+wheel
+
+[docs]
+sphinx
+sphinx-rtd-theme

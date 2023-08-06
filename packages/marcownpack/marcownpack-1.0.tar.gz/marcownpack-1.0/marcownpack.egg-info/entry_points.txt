@@ -1,0 +1,3 @@
+[console_scripts]
+myscript = package.marcownpack:main
+
