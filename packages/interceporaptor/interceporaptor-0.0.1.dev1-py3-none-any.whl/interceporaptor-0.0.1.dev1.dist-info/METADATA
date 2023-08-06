@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: interceporaptor
+Version: 0.0.1.dev1
+Summary: Intercept banana environment data (a.k.a. another VCR.py)
+License: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+
+============================================================
+Interceptorator - Intercept and Terminate your data problem.
+============================================================
+
+You welcome to use this tool
+in case you have a bug in as "hot" environment (prod, pre-prod,...) which
+can not reproduce it on your local IDE environment due to a chains of many HTTP or database requests
+
+Basic steps:
+
+1. Record:
+    Intercept and save data from *any* API on data issued environment (prod, pre-prod,...)
+
+2. Fetch:
+    Transport intercepted data to your IDE environment.
+
+3. Replay:
+    Replay captured info form data environment into your IDE environment.
+
+4. Repeat "Replay" step until you find a solution to the problem.
+
+The idea is heavily inspired by `vcrpy library <https://vcrpy.readthedocs.io/en/latest/>`_.
+`Here <./docs/why_not_vcrpy.rst>`_ is listed some points where vcrpy does not perform well for out problem areas.
