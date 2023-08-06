@@ -1,0 +1,158 @@
+assert(loadfile("/tmp/tmpjyz9247b"))()
+
+        sharedata, sharetable, readSharedMemory, openSharedMemory, closeSharedMemory = require ("madl_mmap").sharedata, require ("madl_mmap").sharetable, require ("madl_mmap").readSharedMemory, require ("madl_mmap").openSharedMemory, require ("madl_mmap").closeSharedMemory
+
+        assert(loadfile("/tmp/tmps0l7ekkx"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpda8vtcc3"))()
+MAD = MAD.MADassert(loadfile("/tmp/tmpor8cjn7n"))()
+match = MAD.matchassert(loadfile("/tmp/tmp3ahy4y5r"))()
+beam = MAD.beamassert(loadfile("/tmp/tmpzd0__irt"))()
+beta0 = MAD.beta0assert(loadfile("/tmp/tmp7__166l7"))()
+mtable = MAD.mtableassert(loadfile("/tmp/tmpups645k2"))()
+object = MAD.objectassert(loadfile("/tmp/tmpdw57i_wp"))()
+sequence = MAD.sequenceassert(loadfile("/tmp/tmpuhuu4ota"))()
+survey = MAD.surveyassert(loadfile("/tmp/tmppfok_sn6"))()
+track = MAD.trackassert(loadfile("/tmp/tmpop12drxu"))()
+twiss = MAD.twissassert(loadfile("/tmp/tmpv230l0z1"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.element) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmp20xuf5dg"))()
+noid = MAD.element.noidassert(loadfile("/tmp/tmp29mu6e6c"))()
+dodecapole = MAD.element.dodecapoleassert(loadfile("/tmp/tmpmg8vsi7r"))()
+decapole = MAD.element.decapoleassert(loadfile("/tmp/tmpb9ap_nf_"))()
+octupole = MAD.element.octupoleassert(loadfile("/tmp/tmpylgqvgg9"))()
+sextupole = MAD.element.sextupoleassert(loadfile("/tmp/tmpsz1v0fc6"))()
+quadrupole = MAD.element.quadrupoleassert(loadfile("/tmp/tmp3m3s6s3t"))()
+bline = MAD.element.blineassert(loadfile("/tmp/tmpkncqfftl"))()
+rbend = MAD.element.rbendassert(loadfile("/tmp/tmpx2wtn0h7"))()
+sbend = MAD.element.sbendassert(loadfile("/tmp/tmppvz1hsfe"))()
+placeholder = MAD.element.placeholderassert(loadfile("/tmp/tmpych1_1wr"))()
+instrument = MAD.element.instrumentassert(loadfile("/tmp/tmp6foz3_e0"))()
+collimator = MAD.element.collimatorassert(loadfile("/tmp/tmpf46e5sn7"))()
+drift = MAD.element.driftassert(loadfile("/tmp/tmpodv11y_r"))()
+slink = MAD.element.slinkassert(loadfile("/tmp/tmp6qgt2y_y"))()
+sequence = MAD.element.sequenceassert(loadfile("/tmp/tmpqi9ltewq"))()
+marker = MAD.element.markerassert(loadfile("/tmp/tmpa4n__0kx"))()
+assembly = MAD.element.assemblyassert(loadfile("/tmp/tmp6shtzs77"))()
+specl_element = MAD.element.specl_elementassert(loadfile("/tmp/tmpnrj0c4vn"))()
+extrn_element = MAD.element.extrn_elementassert(loadfile("/tmp/tmpm7duwtju"))()
+patch_element = MAD.element.patch_elementassert(loadfile("/tmp/tmpvm9p221m"))()
+thick_element = MAD.element.thick_elementassert(loadfile("/tmp/tmp3m4vw3mv"))()
+kicker = MAD.element.kickerassert(loadfile("/tmp/tmpkoxvn5v9"))()
+drift_element = MAD.element.drift_elementassert(loadfile("/tmp/tmp_y17u17p"))()
+hmonitor = MAD.element.hmonitorassert(loadfile("/tmp/tmp4ix3kmus"))()
+vkicker = MAD.element.vkickerassert(loadfile("/tmp/tmpp58ynf0a"))()
+hkicker = MAD.element.hkickerassert(loadfile("/tmp/tmp7r0s_edp"))()
+thin_element = MAD.element.thin_elementassert(loadfile("/tmp/tmpkpbhvgt4"))()
+vmonitor = MAD.element.vmonitorassert(loadfile("/tmp/tmp_xevcvii"))()
+monitor = MAD.element.monitorassert(loadfile("/tmp/tmpj6j98k9d"))()
+crabcavity = MAD.element.crabcavityassert(loadfile("/tmp/tmp320nzok0"))()
+translate = MAD.element.translateassert(loadfile("/tmp/tmp6d2iyo6p"))()
+changenrj = MAD.element.changenrjassert(loadfile("/tmp/tmp7dm16xgt"))()
+flags = MAD.element.flagsassert(loadfile("/tmp/tmpmqf5xieh"))()
+changeref = MAD.element.changerefassert(loadfile("/tmp/tmpoou_kw2j"))()
+rfmultipole = MAD.element.rfmultipoleassert(loadfile("/tmp/tmpyq_6aow8"))()
+srotation = MAD.element.srotationassert(loadfile("/tmp/tmpe1klkrbw"))()
+nllens = MAD.element.nllensassert(loadfile("/tmp/tmps_ns61t1"))()
+beambeam = MAD.element.beambeamassert(loadfile("/tmp/tmppiqnibh7"))()
+multipole = MAD.element.multipoleassert(loadfile("/tmp/tmp8d7xgwue"))()
+genmap = MAD.element.genmapassert(loadfile("/tmp/tmp9kvgh6fu"))()
+yrotation = MAD.element.yrotationassert(loadfile("/tmp/tmp74q0jas9"))()
+xrotation = MAD.element.xrotationassert(loadfile("/tmp/tmp0nt95nwe"))()
+rfcavity = MAD.element.rfcavityassert(loadfile("/tmp/tmp1vo53f4j"))()
+element = MAD.element.elementassert(loadfile("/tmp/tmpqql5cp51"))()
+changedir = MAD.element.changedirassert(loadfile("/tmp/tmplwc_mxuf"))()
+elseparator = MAD.element.elseparatorassert(loadfile("/tmp/tmpdjb8izee"))()
+wiggler = MAD.element.wigglerassert(loadfile("/tmp/tmpfwo08z9o"))()
+tkicker = MAD.element.tkickerassert(loadfile("/tmp/tmpp3wmod2g"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpu84s9b0c"))()
+MAD = MAD.MADassert(loadfile("/tmp/tmpwwaf3xxy"))()
+local readIMatrix, readMatrix, readCMatrix, readScalar in require ("madl_mmap")
+openSharedMemory("psm_5a80efa9")
+a = readMatrix({1, 5, })
+closeSharedMemory()
+assert(loadfile("/tmp/tmpinco0bz8"))()
+local readIMatrix, readMatrix, readCMatrix, readScalar in require ("madl_mmap")
+openSharedMemory("psm_5a80efa9")
+circum = readScalar({1, 1, })
+lcell = readScalar({1, 1, })
+closeSharedMemory()
+assert(loadfile("/tmp/tmp15opic7f"))()
+
+local deferred in MAD.typeid
+v = deferred {f := lcell/math.sin(math.pi/4)/4, k := 1/v.f}
+            assert(loadfile("/tmp/tmpm_ytrdgt"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharedata({v.k, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpb1dgw68q"))()
+
+    qf = multipole 'qf' {  knl := {0, 0.1414213562373095} } 
+                assert(loadfile("/tmp/tmpww0_q2wc"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharedata({v.k, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpg0n1g1mn"))()
+
+    qd = multipole 'qd' {  knl := {0, -0.1414213562373095} } 
+                assert(loadfile("/tmp/tmppnh20r05"))()
+
+    seq = sequence 'seq' { refer = 'centre', l = 60,  qf 'qf' {at = 0}, qd 'qd' {at = 10.0}, qf 'qf' {at = 20}, qd 'qd' {at = 30.0}, qf 'qf' {at = 40}, qd 'qd' {at = 50.0} } 
+                assert(loadfile("/tmp/tmpryf5mqf0"))()
+
+    beam1 = beam 'beam1' {   } 
+                do seq.beam = beam1 end
+assert(loadfile("/tmp/tmpb4cs_sto"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharedata({seq.name, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpkb0fl5vp"))()
+
+    mtbl2 = twiss 'mtbl2' { sequence = seq, method = 4, chrom = true,   } 
+                assert(loadfile("/tmp/tmpwdmel0hn"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharedata({qf, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmp8iw70_j4"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharedata({mtbl2[1], })                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpe4bfmq9i"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharetable({mtbl2[1], })                  --This mmaps to shared memory
+            closeSharedMemory()
+                do mtbl2:write('tfsTable.tfs') end
+do local a = {b = {c = {d = 3, 1}}}; print(#a.b.c) end
+assert(loadfile("/tmp/tmpygl5_cx4"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharedata({mtbl2.header, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpvu9b_s30"))()
+
+            openSharedMemory("psm_5a80efa9", true)
+            local offset = sharetable({mtbl2.header, })                  --This mmaps to shared memory
+            closeSharedMemory()
+                
