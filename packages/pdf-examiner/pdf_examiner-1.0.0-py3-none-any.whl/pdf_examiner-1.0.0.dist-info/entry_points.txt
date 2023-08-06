@@ -1,0 +1,2 @@
+[console_scripts]
+pdf_examiner = pdf_examiner.__main__:main
