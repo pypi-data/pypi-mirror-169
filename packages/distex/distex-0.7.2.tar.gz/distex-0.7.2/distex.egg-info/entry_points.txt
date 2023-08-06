@@ -1,0 +1,2 @@
+[console_scripts]
+distex_proc = distex.processor:main
