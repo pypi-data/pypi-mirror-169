@@ -1,0 +1,93 @@
+site_name: louzlib
+repo_url: https://github.com/lmist/louzlib/
+copyright: Copyright &copy; 2016 - 2022 Lou 
+docs_dir: "doc"
+
+extra:
+  # generator: canijustchangethismessagebutstillmentionthem
+  # alternate:
+  #   - name: English
+  #     link: /en/
+  #     lang: en
+  #   - name: Arabic
+  #     link: /ar/
+  #     lang: ar
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lmist
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/lmist
+    - icon: fontawesome/brands/twitter
+
+extra_css:
+  - assets/sty/@lim-preset.css
+extra_javascript:
+  - assets/js/@lim-dynamic.js
+  - assets/js/hci.js
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+theme:
+  language: en
+  direction: ltr
+  name: material
+  custom_dir: overrides
+
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+
+  # For data privacy, we disable fetching remote google fonts.
+  # Instead, we default to loading them from a local directory.
+  # https://developers.google.com/fonts/faq#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users
+  font: false
+
+  features:
+    - navigation.tracking
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs.sticky
+    - navigation.top
+
+    - toc.follow
+    - toc.integrate
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  palette:
+    # - primary: amber
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
