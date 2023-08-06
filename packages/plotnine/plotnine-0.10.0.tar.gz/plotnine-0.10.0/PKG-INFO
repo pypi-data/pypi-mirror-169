@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: plotnine
+Version: 0.10.0
+Summary: A grammar of graphics for python
+Home-page: https://plotnine.readthedocs.io/en/stable
+Author: Hassan Kibirige
+Author-email: has2k1@gmail.com
+License: MIT
+Project-URL: Documentation, https://plotnine.readthedocs.io/en/stable
+Project-URL: Source, https://github.com/has2k1/plotnine
+Project-URL: Bug Tracker, https://github.com/has2k1/plotnine/issues
+Project-URL: CI, https://github.com/has2k1/plotnine/actions
+Platform: any
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Matplotlib
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: all
+Provides-Extra: extra
+Provides-Extra: test
+Provides-Extra: doc
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
