@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="zh"><head>
+<meta charset='utf-8'><title>全文搜索 Full-Text-Search</title>
+ <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+
+<!--让其它冒牌的浏览器按正规的浏览器标准显示,避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- viewport 可以让布局在移动浏览器上显示的更好。-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.geopos i:before {
+    content: "";
+    width: .8em;
+    height: .8em;
+    border: .14em solid green;
+    border-top: .14em solid transparent;
+    border-radius: 100%;
+    position: absolute;
+    top: .2em;
+    -webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	margin-left:10px;
+}
+input,textarea {
+    max-width: 320px;
+}
+
+</style>
+
+
+<script src="jquery-1.10.2.min.js"></script>
+<script>
+var interval_stamp = null || window.localStorage && localStorage.getItem("interval_stamp");
+var interval_running = 0;
+function showgaoji(obj){
+	//var obs = document.querySelectorAll('.gaoji')
+	$('.gaoji').toggle()
+}
+function subx(){
+	var words_v = $('input[name=words]').val()
+	var rewords_v = $('input[name=rewords]').val()
+	$('input[name=words]').val(rewords_v)
+	$('input[name=rewords]').val(words_v)
+}
+function download(path, is_view, is_zip){
+	var url='/find_download?interval_stamp='+interval_stamp
+	if(is_view)url=url+'&is_view=1'
+	if(is_zip)url=url+'&is_zip=1'
+	url = url+'&file='+path
+	path && setTimeout(function(){ 
+		window.open(url)	
+	}, 500);
+}
+
+function findBTloading(){
+	$('#findBT')[0].innerHTML = "查找中>>"
+	$('#findBT')[0].disabled = true
+	$('#subBT')[0].disabled = true
+	//window.subBT.disabled = true
+	window.result.innerHTML = ""
+	$('#stopBT').show()
+}
+function findBTClear(interval_id){
+	clearInterval(interval_id)
+	$('#findBT')[0].innerHTML = "全部查找"
+	$('#findBT')[0].disabled = false
+	$('#subBT')[0].disabled = false
+	$('#stopBT').hide()
+	stop_find(1)
+	
+}
+function find(form, _stamp){
+	if(!_stamp && (form.rewords.value||form.mass_words.value) && !confirm('真的全部替换吗?')){
+		return false
+	}else if(!_stamp && window.interval_stamp){
+		$.ajax({
+			url: "/stop_find",
+			type: "POST",
+			async: false, 
+			data: {
+				"interval": window.interval_stamp
+			}
+		});
+	}
+	$(".high-light").hide(); //关闭高亮
+	var n=0,p=0,started=!!_stamp,stamp = _stamp || new Date().toJSON()
+	form.interval.value = stamp
+	window.interval_stamp = stamp
+	window.interval_running = 1;
+	var _dlen = 0;
+	if(!_stamp && window.localStorage)localStorage.setItem("interval_stamp",stamp);
+	findBTloading()
+	var interval_id = setInterval(function(){ 
+		++n;++p;
+		if(n>2 && !started || !interval_running){findBTClear(interval_id);}
+		if(interval_running && p%10==1)$.post("/find", $("form").serializeArray(),function(res){
+			started = 1; p=0;
+			if(res.data.finish){
+				download(res.data.download_path)
+				findBTClear(interval_id);	
+			}
+			console.log(res)
+			var dlen = res.data.result.length
+			if(_dlen != dlen){
+				_dlen = dlen
+				window.result.innerHTML = res.data.result.join("\r\n")
+			}
+            if(!res.data.finish)$('#findBT')[0].innerHTML = "查找中"+(n%2?'>.':'..')	
+            		
+		}, 'json').fail(function(response) {
+			console.log(response)
+			findBTClear(interval_id)
+			window.result.innerHTML = window.result.innerHTML+"\r\nerror:\r\n"+(response.responseText||'程序错误')
+			//alert('Error: ' + response.responseText);
+		});	
+	}, 1500);
+	//alert(stamp)
+	return false
+  	
+}
+function start_find(){
+	$('.rewords').val('')
+	
+}
+function get_find(e){
+	interval_stamp && $.post("/get_find", {interval:interval_stamp}, function(res){
+		if(res.pros && !res.finish){
+			find(document.forms[0], interval_stamp)
+		}
+	}, 'json')
+}
+
+function stop_find(e){	
+	var event = e || window.event;
+	if(e==1){
+		window.interval_running = false;
+		setTimeout(function(){
+			$.post("/stop_find", {interval:interval_stamp}, function(){})
+		},1600)
+		return false;
+	}else if(window.interval_running){
+		//window.interval_running = false;
+		//$.ajax({
+		//	url: "/stop_find",
+		//	type: "POST",
+		//	async: false, 
+		//	data: {
+		//		"interval": interval_stamp
+		//	}
+		//});
+		//return "真的离开?";
+		event.preventDefault();
+		event.returnValue ='真的离开?';
+		return null	
+	};
+    return false	
+}
+
+//window.onbeforeunload = stop_find
+//window.addEventListener("beforeunload", function (e) {
+//  var confirmationMessage = "\o/";
+//
+//  (e || window.event).returnValue = confirmationMessage;     // Gecko + IE
+//  return confirmationMessage;                                /* Safari, Chrome, and other
+//                                                              * WebKit-derived browsers */
+//});
+
+
+$(function(){
+	$("#is_utf8_compare").change(function () {
+        var checked = $(this).is(':checked');
+        $('.subBT').attr("disabled",checked);
+    });
+	
+	$("#is_downzip").change(function () {
+        var checked = $(this).is(':checked');
+        $('.plugin-box input,.plugin-fix input').attr("disabled",checked);
+    });
+	
+	if(/debug/.test(location.search)){
+		$('.debug').show();
+	}
+	
+})
+</script>
+<body onload1="get_find()" onbeforeunload1="stop_find()">
+<div>
+<button class="btn btn-default btn-sm" onclick="SiteMap.mf_tab_view(0, 'sitemap.html')">刷新</button>
+ 
+<button class="btn btn-default btn-sm" onclick="return SiteMap.save_sitemap();" >设置</button>
+
+
+-
+-
+<button class="btn btn-default btn-sm" onclick="return SiteMap.start_pro();" >开始</button>
+-
+<button class="btn btn-default btn-sm" onclick="return SiteMap.stop_pro();">停止</button>
+- 
+<button class="btn btn-default btn-sm" onclick="return SiteMap.start_pro(1);">继续</button>
+- 
+抓取状态：
+{% if data.pro_status[0] %}
+<span class="main_status" style="color: green; font-size: 16px;">运行中</span>
+{% else %}
+<span class="main_status" style="color: red; font-size: 16px;">已停止</span>
+{% endif %} 
+</div>       
+<br>
+
+
+
+{% set sitemap = data.sitemap or {} %}
+
+<form onsubmit="return false" id="sitemapForm" >
+<div class="">
+域名或抓取首页:(<span style="color:red">必填</span>)<br>
+<input  type="url" name='domain' value="{{sitemap.domain}}" placeholder="列如：http://www.mufei.ltd" style="width:60%">
+<button class="btn-default" onclick="return SiteMap.stop_maoyun();">下载XML</button>
+<button class="btn-default" onclick="return SiteMap.stop_maoyun();">下载TXT</button>
+
+
+</div>
+<br>
+
+<div class="">
+页面抓取深度:<br>
+<input  type="number" min="-1" placeholder="默认为：2" name='deepnum' value="{{sitemap.deepnum or ""}}" style="width:60%">
+<label>
+<input  name="is_allurl" value="1" title="提取全部URL(包含href|src|data-original|data-src)" type="checkbox" {{"checked" if sitemap.is_allurl}} />
+提取全部URL
+<a href="#" rel="noreferrer noopener" onclick="alert(this.title)" title="提取全部URL(包含href|src|data-original|data-src);非全站下载请不要选择" class="bt-ico-ask" style="cursor: pointer;">?</a>
+</label>
+</div>
+<br>
+
+<div class="">
+文件下载保存路径:(<span style="color:green">若不保存文件请不要填写此路径</span>)<br>
+<input  type="text" placeholder="说明: 整站下载保存路径" name='dst' value="{{sitemap.dst}}" style="width:60%">
+<label>
+<input  name="is_face" value="1" type="checkbox" {{"checked" if sitemap.is_face}} />
+转换为相对网址
+<a href="#" rel="noreferrer noopener" onclick="alert(this.title)" title="若是全站下载请最好选择" class="bt-ico-ask" style="cursor: pointer;">?</a>
+
+</label>
+</div>
+<br>
+
+<div class="">
+页面后缀条件:(<span style="color:green">所有text/html/image/css/js请设值为:*  </span>)<br>
+<input  type="text" placeholder="默认为：.html|.php|.asp|.aspx" value="{{sitemap.type_arr}}" name='type_arr' style="width:60%">
+<label>
+<input  name="is_args" value="1" type="checkbox" {{"checked" if sitemap.is_args}} />
+对比较GET参数
+<a href="#" rel="noreferrer noopener" onclick="alert(this.title)" title="除非特殊需要，否则请不要选择" class="bt-ico-ask" style="cursor: pointer;">?</a>
+
+</label>
+</div>
+<br>
+
+<div class="">
+抓取页面延时秒数:(<span style="color:green">用于防CC抓取，抓取时请添加IP白名单或暂时关闭防CC等防火墙</span>)<br>
+<input  type="number" min="0" placeholder="默认为：0 (不延时)" name='sleep' value="{{sitemap.sleep or ""}}" style="width:60%">
+<label>
+<input  name="is_continue" value="1" type="checkbox" {{"checked" if sitemap.is_continue}} />
+继续上次抓取
+<a href="#" rel="noreferrer noopener" onclick="alert(this.title)" title="启用上次抓取结果,继续抓取" class="bt-ico-ask" style="cursor: pointer;">?</a>
+
+</label>
+</div>
+<br>
+
+<div class="">
+Path正则限制:(<span style="color:green">
+<label><input  name="limit_type" value="0" type="radio" {{"checked" if not sitemap.limit_type}} />允许列表</label>
+<label><input  name="limit_type" value="1" type="radio" {{"checked" if sitemap.limit_type}} />禁止列表</label>
+</span>)<br>
+<textarea placeholder="站点: 限制路径PATH抓取;不填无限制" style="width:60%">{{sitemap.textarea or ""}}</textarea>
+</div>
+<br>
+
+<!--
+猜测Url
+
+禁止路径
+
+headers
+
+cookies
+
+-->
+
+<script>
+var SiteMap = {}
+
+SiteMap.save_sitemap=function(){
+    var d=$("#sitemapForm").serialize();
+        $.ajax({
+           url: "/sitemap/save_sitemap",
+           type: "post",
+           data: $("form").serialize(),
+           dataType:"json",
+           success: function (data) {
+               alert(data.msg);
+           }
+        })
+};
+
+SiteMap.start_pro = function(is_continue){
+  request_plugin('SiteMap', 'start_pro', {is_continue: is_continue?1:0}, function(rdata){
+     layer.msg(rdata.msg, { icon: rdata.status ? 1 : 2 });
+     SiteMap.mf_tab_view(0, 'sitemap.html')           
+  });
+  return false;
+};
+
+SiteMap.stop_pro = function(){
+  request_plugin('SiteMap', 'stop_pro', {}, function(rdata){
+     layer.msg(rdata.msg, { icon: rdata.status ? 1 : 2 });
+     SiteMap.mf_tab_view(0, 'sitemap.html')           
+  })
+  return false;
+};
+
+</script>
+
+
+
+	
+</body></html>
+
+           
