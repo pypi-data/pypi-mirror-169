@@ -1,0 +1,6 @@
+click
+eth-hash[pycryptodome]
+eth-utils
+python-box
+requests
+tablib[cli,yaml]
