@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+helloLucile.egg-info/PKG-INFO
+helloLucile.egg-info/SOURCES.txt
+helloLucile.egg-info/dependency_links.txt
+helloLucile.egg-info/entry_points.txt
+helloLucile.egg-info/top_level.txt
