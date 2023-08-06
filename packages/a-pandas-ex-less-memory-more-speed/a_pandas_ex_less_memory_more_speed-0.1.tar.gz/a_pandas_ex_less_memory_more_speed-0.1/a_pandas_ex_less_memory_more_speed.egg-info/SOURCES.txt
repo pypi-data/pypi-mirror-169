@@ -1,0 +1,12 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_less_memory_more_speed/requirements.txt
+a_pandas_ex_less_memory_more_speed/thirdparty.json
+a_pandas_ex_less_memory_more_speed.egg-info/PKG-INFO
+a_pandas_ex_less_memory_more_speed.egg-info/SOURCES.txt
+a_pandas_ex_less_memory_more_speed.egg-info/dependency_links.txt
+a_pandas_ex_less_memory_more_speed.egg-info/requires.txt
+a_pandas_ex_less_memory_more_speed.egg-info/top_level.txt
