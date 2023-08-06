@@ -1,0 +1,9 @@
+README.rst
+setup.py
+muc/__init__.py
+muc/subscriptable_set.py
+myusefulclasses.egg-info/PKG-INFO
+myusefulclasses.egg-info/SOURCES.txt
+myusefulclasses.egg-info/dependency_links.txt
+myusefulclasses.egg-info/requires.txt
+myusefulclasses.egg-info/top_level.txt

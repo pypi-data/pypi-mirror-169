@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: myusefulclasses
+Version: 0.0.1
+Summary: Some useful helper classes
+Home-page: https://gitlab.com/kikulacho92/myusefulclasses
+Author: Emiliano Minerba
+Author-email: emi.nerba@gmail.com
+License: GPL
+Description: This is MyUsefulClasses
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
