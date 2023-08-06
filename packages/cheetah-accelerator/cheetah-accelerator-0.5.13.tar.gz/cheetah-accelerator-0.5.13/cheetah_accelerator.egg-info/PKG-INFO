@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cheetah-accelerator
+Version: 0.5.13
+Summary: Fast particle accelerator optics simulation for reinforcement learning and optimisation applications.
+Home-page: https://github.com/desy-ml/cheetah
+Author: Jan Kaiser & Oliver Stein
+Author-email: jan.kaiser@desy.de
