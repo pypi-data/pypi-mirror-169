@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: myaekps1
+Version: 0.0.1
+Summary: my ae dept
+Home-page: https://github.com/KaveeeeeZ/
+Author: Kaveez
+Author-email: chaiyajantra@gmail.com
+License: MIT
+Download-URL: https://github.com/KaveeeeeZ/
+Keywords: AE,KPS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+License-File: LICENSE.txt
+
+แพคเกจนี้แสดงข้อมูลภาควิชาวิศวกรรมเกษตร
+=======================================
+
+Link: https://www.youtube.com/channel/UCWR3MwezKwOXzPSaFVtS5Iw
+
+PyPi: https://pypi.org/project/myaekps1/
+
+สวัสดีจ้าาาา
+แพ็คนี้คือแพ็คเกจที่แสดงรายละเอียดเกี่ยวกับภาควิชาวิศวกรรมเกษตร
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install myaekps1
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from myaekps1 import AEKPS1
+
+   name1 = AEKPS1()
+   name1.show_name()
+   name1.show_youtube()
+   name1.about()
+
+พัฒนาโดย: Kaveez FB: https://www.facebook.com/kaveenon.jantra
+
+YouTube: …
+
+
