@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SAVY.egg-info/PKG-INFO
+SAVY.egg-info/SOURCES.txt
+SAVY.egg-info/dependency_links.txt
+SAVY.egg-info/entry_points.txt
+SAVY.egg-info/top_level.txt
