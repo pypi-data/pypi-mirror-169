@@ -1,0 +1,12 @@
+pydra/tasks/mrtrix3/__init__.py,sha256=ddlRgQf4cdDxkxEfzM7w81wc2fqBByvGZnzUgHPEK1A,149
+pydra/tasks/mrtrix3/_version.py,sha256=roAd2YoB7GXC4fQpem4074q9-qKWMVwnsA47on-1FvM,496
+pydra/tasks/mrtrix3/base.py,sha256=wA7VeTHIDO5jWgXwxl-mc-q3ElPmgxxXwgyATSMo4OU,1413
+pydra/tasks/mrtrix3/conftest.py,sha256=KaGD4qsfOXwjkcpLgKMq9aAJdNYjPsTeURmEMbh1WMk,870
+pydra/tasks/mrtrix3/utils.py,sha256=HzN2AgFEZ8mgJ00sP52LCr27kMe4teEIKNDwJnqn7M8,4939
+pydra/tasks/mrtrix3/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydra/tasks/mrtrix3/tests/test_utils.py,sha256=TF2zrwj1vQ8oQVuVpy6xobBBTJznQT2TUxgsRtaSWfw,1051
+pydra_mrtrix3-0.2.dist-info/LICENSE,sha256=NmkpZ9dOpDDjtDD2-Lf52oeEsOESdI37LqZN6WhQcM4,588
+pydra_mrtrix3-0.2.dist-info/METADATA,sha256=XUsva98sx2RXrYZka0UpkgBwbVVRycVUsxVOH-agMQs,3787
+pydra_mrtrix3-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydra_mrtrix3-0.2.dist-info/top_level.txt,sha256=D8Pw1DC98AV-QvicdBBTYXiBJAzbSKp-h946UGQotHk,6
+pydra_mrtrix3-0.2.dist-info/RECORD,,
