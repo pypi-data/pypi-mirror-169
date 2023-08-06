@@ -1,0 +1,2 @@
+[console_scripts]
+expfactory = expfactory.cli:main
