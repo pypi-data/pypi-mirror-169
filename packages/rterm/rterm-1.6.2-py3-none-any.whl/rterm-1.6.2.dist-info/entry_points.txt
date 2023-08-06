@@ -1,0 +1,2 @@
+[console_scripts]
+rterm = rterm_src.run:do
