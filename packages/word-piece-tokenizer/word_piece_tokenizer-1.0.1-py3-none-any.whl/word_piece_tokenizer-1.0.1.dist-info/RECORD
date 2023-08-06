@@ -1,0 +1,11 @@
+word_piece_tokenizer/BasicTokenizer.py,sha256=-hULVDbU_acXCrniR-C2UChBtcsI_KkaCDz8pGeoOeI,3002
+word_piece_tokenizer/Trie.py,sha256=qUd4igSMKhzDg7mxshtzHWolMGQoG67Y4-NkglkdmDw,1132
+word_piece_tokenizer/WordPieceTokenizer.py,sha256=MDnQa3Z89VG5NWE2KGodi2f4ItJn13NfWOhnhNT7J8I,2063
+word_piece_tokenizer/__init__.py,sha256=jizfFmWqQgZV9GXDME8IPnjhtVfi7OQzm_io1UMaH10,51
+word_piece_tokenizer/utils.py,sha256=rghag1tzq42CXfOEhnIcu4mdp0yT35mLNuQu6xc_K3s,1320
+word_piece_tokenizer/vocab.txt,sha256=B-ztN1zsFE0nyQAkHz4zlHjeyVj5L928VR8pXJkgOKM,231508
+word_piece_tokenizer-1.0.1.dist-info/LICENSE.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+word_piece_tokenizer-1.0.1.dist-info/METADATA,sha256=pNDCnFHbhbX6Go2HgBLP8XYGVIuogjWYuwy0LY0jdd0,4100
+word_piece_tokenizer-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+word_piece_tokenizer-1.0.1.dist-info/top_level.txt,sha256=fjdHJ7jfbCjyPadsqstDtKYWWJ4nrZdK2DeK3XJgiGs,21
+word_piece_tokenizer-1.0.1.dist-info/RECORD,,
