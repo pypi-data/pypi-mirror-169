@@ -1,0 +1,12 @@
+azimpy/__init__.py,sha256=G7LYXpV15lCm9kTgPdMY2T-rI3G4K1xoXj1cHgJXAsA,3617
+azimpy/orientation.py,sha256=yVNHIsWtdcrBTTHBUvWGk_xvasaAqIZTeCgFTrhPDoY,52959
+azimpy/params.py,sha256=4XO8emClSuxrYItOs0rB-PbGt4ggxentWGNcKhv2jGE,3444
+azimpy/plot.py,sha256=EB_YL_yyxtPp_r20rg8z7nQ3uBtxx0eR2n53axXnXeE,17570
+azimpy/rstats.py,sha256=ubBCqCPVabAZc3wAZDEPq5O0MDZqD8cYuetA2gQyWH8,4604
+azimpy/utils.py,sha256=500W9tPzrV1DVr0-YAZXUUgtkrcyHaV7BX6f93kv_sg,3197
+azimpy/version/__init__.py,sha256=zbKh0ev414zWXwIZ-rl2FTvJipIfXVg6bPjRngKPkkw,29
+AzimPy-0.2.0b1.dist-info/LICENSE,sha256=TJGKc8JG7bQ5wopcRFv2TthvwkhKmD8xL1R9mPhp5Co,1072
+AzimPy-0.2.0b1.dist-info/METADATA,sha256=SJesv-Zl2cON1v7l9q5a1TDkFgHmA7C1BNDjPY5E-Xw,9808
+AzimPy-0.2.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AzimPy-0.2.0b1.dist-info/top_level.txt,sha256=W0mSLwmFw32jJqYA94tMhl-NkYAYjl7DcdTpiUoWZmE,7
+AzimPy-0.2.0b1.dist-info/RECORD,,
