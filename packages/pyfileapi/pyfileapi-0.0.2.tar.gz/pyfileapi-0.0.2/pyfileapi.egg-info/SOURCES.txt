@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyfileapi/__init__.py
+pyfileapi/_main.py
+pyfileapi/handlers.py
+pyfileapi.egg-info/PKG-INFO
+pyfileapi.egg-info/SOURCES.txt
+pyfileapi.egg-info/dependency_links.txt
+pyfileapi.egg-info/entry_points.txt
+pyfileapi.egg-info/requires.txt
+pyfileapi.egg-info/top_level.txt

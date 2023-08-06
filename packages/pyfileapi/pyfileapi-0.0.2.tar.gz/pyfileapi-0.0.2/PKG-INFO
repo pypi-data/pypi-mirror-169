@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyfileapi
+Version: 0.0.2
+Summary: A wrapper around the stdlib file functions
+Home-page: https://github.com/thenextbigthingthisdecade/pyfile
+Author: Prakhar Nagpal
+Author-email: thenextbigthingthisdecade@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+## PyFile
+
+This is an extension wrapper around the standard library functions used to interact with file systems.
+Mostly used for editing files programmatically, and providing a layer of abstraction that makes working with files
+easier.
