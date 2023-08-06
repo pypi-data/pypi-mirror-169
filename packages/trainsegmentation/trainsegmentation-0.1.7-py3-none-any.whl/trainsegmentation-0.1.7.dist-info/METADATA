@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: trainsegmentation
+Version: 0.1.7
+Summary: Trainable Image Segmentation
+Home-page: https://github.com/hdeter/trainsegmentation
+Author: Heather S. Deter
+Author-email: <hdeter2013@gmail.com>
+License: UNKNOWN
+Keywords: python,sci-kit learn,image segmentation,image classification
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+
+Functions written to streamline generating image feature sets and training scikit-learn classifiers
+
+
