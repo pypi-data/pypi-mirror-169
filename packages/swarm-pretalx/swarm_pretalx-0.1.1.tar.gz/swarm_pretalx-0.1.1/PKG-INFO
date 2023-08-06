@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swarm-pretalx
+Version: 0.1.1
+Summary: A Pretalx plugin that exports the agenda on Swarm
+License: MIT
+Author: cmdctrlesc
+Author-email: alanxyz210@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
