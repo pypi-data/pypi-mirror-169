@@ -1,0 +1,58 @@
+Metadata-Version: 1.0
+Name: generate_report
+Version: 1.0.0
+Summary: 自动生成测试报告工具
+Home-page: http://gitlab.py.in:280/fuxiaoxiao/report_origin
+Author: FuXiaoXiao
+Author-email: fuxiaoxiao@pystandard.com
+License: UNKNOWN
+Description: report_origin
+        =============
+        
+        介绍
+        ----
+        
+        一款用于自动生成测试报告的工具
+        
+        注意事项：需安装谷歌浏览器
+        
+        -  chrome_driver.py
+           用于检查是否安装谷歌浏览器驱动及驱动版本是否兼容，若无驱动或驱动版本不兼容，则自动下载
+        -  db_connect.py 存放操作数据库的方法
+        -  get_db.py 用于连接数据库
+        -  config.yml 存放数据库配置文件
+        -  project_data.yml 存放数据文件
+        -  template.docx 测试报告的模板
+        -  report_res：运行时自动生成，用于存放生成的结果图片
+        -  test_report.py：主文件引用的脚本文件
+        -  run.py 主文件，执行的入口
+        
+        使用说明
+        --------
+        
+        运行run.py文件，生成的测试报告默认保存在D:/中，可在运行时指定存放路径。
+        
+        例：
+        
+        ::
+        
+           from generate_report import run   # 引包
+        
+           run.run()   # 运行run.py文件中的run函数
+        
+        
+           请输入项目名称：
+           请输入撰写人：
+           请输入预估di值，若无预估di值，请输入数字0：
+           请指定报告生成的路径，若不指定，请按回车键（注意：在输入路径时，请不要使用反斜杠）：
+        
+        版本规范
+        --------
+        
+        保持和python版本命名一致，格式：x.x.x
+        
+        -  大版本：1.x.x 第一位变化
+        -  小版本：x.1.x 第二位变化
+        -  bug修复版本：x.x.1 最后一位变化
+        
+Platform: UNKNOWN

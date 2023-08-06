@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+generate_report/__init__.py
+generate_report/chrome_driver.py
+generate_report/config.yml
+generate_report/db_connect.py
+generate_report/get_db.py
+generate_report/project_data.yml
+generate_report/run.py
+generate_report/template.docx
+generate_report/test_report.py
+generate_report.egg-info/PKG-INFO
+generate_report.egg-info/SOURCES.txt
+generate_report.egg-info/dependency_links.txt
+generate_report.egg-info/top_level.txt

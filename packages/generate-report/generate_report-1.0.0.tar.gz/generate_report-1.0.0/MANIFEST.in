@@ -1,0 +1,3 @@
+include generate_report/config.yml
+include generate_report/project_data.yml
+include generate_report/template.docx
