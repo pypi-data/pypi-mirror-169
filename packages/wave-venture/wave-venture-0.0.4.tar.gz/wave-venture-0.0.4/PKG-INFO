@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wave-venture
+Version: 0.0.4
+Summary: Wave Venture's Python interface to TE Software API.
+Home-page: https://github.com/waveventure/wv_py
+Author: Wave Venture
+Author-email: admin@wave-venture.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/plain
+
+Wave Venture's Python interface to TE Software API.
