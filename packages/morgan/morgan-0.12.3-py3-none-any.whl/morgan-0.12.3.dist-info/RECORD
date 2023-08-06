@@ -1,0 +1,11 @@
+morgan/__about__.py,sha256=Qu8-91hLcRe7wfW37PwNdivTonHHKLrqtJPOAq3Jvhc,23
+morgan/__init__.py,sha256=xbWG4qUWp1T6_pWUUE46FlYAPdAQKlO9CjhjlXuFnfE,15782
+morgan/__main__.py,sha256=GDYvgWIXP1zKiMSItm0qul6jZcq3PdUUJMV8oAtHVYE,29
+morgan/configurator.py,sha256=oVG-XLDKa0ugHxKswlJmKVfP-yC8JJPA_2uyyLM4ZbI,2446
+morgan/metadata.py,sha256=qQBU5xzfzpHiU2x9ISHTCWU55sO9W2uOkGm3ONO3PPc,12919
+morgan/server.py,sha256=89z_q5afplnAVaCxHRBp5HEHOMtJvCrKNUtmixHjDig,9464
+morgan-0.12.3.dist-info/METADATA,sha256=PCymSqVdpqXMhhi5t_JhHA2CkZp7S7EOX1gnebJJ4ec,25282
+morgan-0.12.3.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+morgan-0.12.3.dist-info/entry_points.txt,sha256=JkTWGBEn8VLV8R7nFWbqMpbFt5uNhMm06zaI8pv_Lws,39
+morgan-0.12.3.dist-info/licenses/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+morgan-0.12.3.dist-info/RECORD,,
