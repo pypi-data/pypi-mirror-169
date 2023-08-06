@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jammypdf/__init__.py
+jammypdf/pdf2image.py
+jammypdf/pdf2text.py
+jammypdf.egg-info/PKG-INFO
+jammypdf.egg-info/SOURCES.txt
+jammypdf.egg-info/dependency_links.txt
+jammypdf.egg-info/top_level.txt
