@@ -1,0 +1,4 @@
+[console_scripts]
+HeimujiZhishu = HeimujiZhishu.__main__:main
+heimuji-zhishu = HeimujiZhishu.__main__:main
+
