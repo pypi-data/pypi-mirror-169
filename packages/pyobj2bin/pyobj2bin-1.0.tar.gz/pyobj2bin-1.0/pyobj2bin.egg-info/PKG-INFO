@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyobj2bin
+Version: 1.0
+Summary: Convert python objects to binary and store it in binary files and vice versa
+Home-page: https://github.com/FangChat
+Download-URL: https://github.com/FangChat/pyobj2bin/releases/download/1.0/pyobj2bin.tar.gz
+Author: FangChat
+Author-email: fangofficialmail@gmail.com
+License: MIT
+Keywords: Objects to binary,Binary to objects
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
