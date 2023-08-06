@@ -1,0 +1,2 @@
+[console_scripts]
+Final_Project = Final_Project.__main__:main
