@@ -1,0 +1,6 @@
+setup.py
+support-viewer-frugal/__init__.py
+support_viewer_frugal.egg-info/PKG-INFO
+support_viewer_frugal.egg-info/SOURCES.txt
+support_viewer_frugal.egg-info/dependency_links.txt
+support_viewer_frugal.egg-info/top_level.txt
