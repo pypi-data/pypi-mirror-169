@@ -1,0 +1,10 @@
+form {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=text] {
+    width: calc(15rem + 20vw);
+}

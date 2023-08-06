@@ -1,0 +1,49 @@
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+.thumbnail>img {
+    width: 300px !important;
+    height: 168.75px !important;
+    border-radius: 0.75rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.info>p {
+    margin-top: 0.5rem;
+}
+
+.title {
+    max-width: 225px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.uploaded {
+    padding-top: 0.12rem;
+    font-size: 0.7rem;
+}
+
+.frost {
+    filter: blur(5px);
+    opacity: 0.4;
+    margin-top: -5px;
+}

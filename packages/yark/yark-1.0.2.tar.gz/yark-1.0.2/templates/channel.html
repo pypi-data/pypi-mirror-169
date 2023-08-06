@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block styling %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/channel.css') }}">
+{% endblock %}
+
+{% block content %}
+<h1 class="hero">{{ name }}'s videos</h1>
+{% if channel.videos %}
+<div id="content">
+    {% for video in channel.videos %}
+    <a href="/channel/{{ name }}/{{ video.id }}" class="video">
+        <!-- Thumbnail -->
+        <div class="thumbnail">
+            <img src="/archive/{{ video.thumbnail.current().path }}" {% if not video.downloaded(ldir) %}class="frost" {%
+                endif %} />
+        </div>
+        <!-- Information -->
+        <div class="info">
+            <!-- Title -->
+            <p class="title">{{ video.title.current() }}</p>
+            <p class="uploaded">
+                <!-- Updated -->
+                {% if video.updated() %}🌀 {% endif %}
+                <!-- Uploaded -->
+                {{ video.uploaded.strftime("%d/%m/%Y") }}
+            </p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% else %}
+<p style="text-align: center;">No videos found!</p>
+{% endif %}
+{% endblock %}

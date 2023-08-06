@@ -1,0 +1,141 @@
+body {
+    margin-bottom: 3rem;
+}
+
+video {
+    margin-top: 8vh;
+    border-radius: 0.75rem;
+}
+
+.info {
+    color: #7f7f7f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info>p {
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 0.75rem;
+}
+
+canvas {
+    width: 50vw;
+}
+
+#description,
+.metadata {
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    color: #595959;
+    margin-left: 1rem;
+}
+
+
+.metadata {
+    display: none;
+    margin-top: -0.65rem;
+    margin-bottom: 0.65rem;
+}
+
+video,
+h1,
+#description,
+.info {
+    width: 60vw;
+}
+
+@media screen and (max-width: 850px) {
+
+    video,
+    h1,
+    canvas,
+    #description,
+    .info {
+        width: 80vw;
+    }
+
+    .note {
+        width: calc(80vw - 2rem);
+    }
+}
+
+.spacer {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+ul {
+    line-height: 2.25rem;
+}
+
+.note {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: calc(60vw - 2rem);
+    margin-bottom: 1rem;
+}
+
+.note>.id {
+    font-size: 0.75rem;
+    color: #7e7e7e;
+    margin-top: 0;
+}
+
+.note>.body {
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top>.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    min-width: 50vw;
+}
+
+.createnote-input:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+}
+
+.createnote-button {
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.top>.timestamp {
+    color: #098fb4;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    #description,
+    .metadata {
+        color: rgb(181, 181, 181);
+    }
+
+    /* copy of base.html stuff */
+    .note {
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .note>.id {
+        color: rgb(181, 181, 181);
+    }
+
+    .top>.timestamp {
+        color: #4bc0c0;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basics -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- Styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    {% block styling %}{% endblock %}
+    <!-- Title -->
+    <title>yark{% if title %} – {{ title }}{% endif %}</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="{{ url_for('index') }}" id="nav-left">yark</a>
+        <div id="nav-right">
+            <a href="https://github.com/owez/yark">source</a>
+            <a href="https://ogriffiths.com">portfolio</a>
+        </div>
+    </nav>
+    <!-- Content -->
+    {% block content %}{% endblock %}
+    <!-- Error -->
+    {% if error %}
+    <div id="error">{{ error }}</div>
+    {% endif %}
+    <!-- Scripts -->
+    <script>
+        // Templating error
+        {% if error %}
+        deleteError()
+        {% endif %}
+    </script>
+    <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>
