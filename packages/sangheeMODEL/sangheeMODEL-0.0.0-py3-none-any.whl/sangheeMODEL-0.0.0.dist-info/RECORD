@@ -1,0 +1,13 @@
+sangheeMODEL/__init__.py,sha256=ODBW1AMjdUUCrCvwCovQ_xVcqIseiHOMcXROyqqpQVA,50
+sangheeMODEL/classification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL/classification/model.py,sha256=ECr4Gyne7kECc6bajUNS6rTgS1-LlmRaD0OB9KiLrVA,292
+sangheeMODEL/mrc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL/mrc/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL/ner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL/ner/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL/summary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL/summary/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sangheeMODEL-0.0.0.dist-info/METADATA,sha256=1BEJTlTvsXMdyIwaP5bW5NJ3Cs9-BPjYwNd3b8zZscU,364
+sangheeMODEL-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sangheeMODEL-0.0.0.dist-info/top_level.txt,sha256=ibsqAvffgBJSHYtAZ5d0PU4cIBOvR7o4WnZjivNbqfw,13
+sangheeMODEL-0.0.0.dist-info/RECORD,,
