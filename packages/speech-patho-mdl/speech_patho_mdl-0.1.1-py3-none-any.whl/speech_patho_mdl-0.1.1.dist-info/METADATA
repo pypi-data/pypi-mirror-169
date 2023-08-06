@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: speech-patho-mdl
+Version: 0.1.1
+Summary: Custom Trained Models for Speech Pathology
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Requires-Python: ==3.8.5
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: baseblock
+Requires-Dist: boto3
+Requires-Dist: openai (>=0.20.0,<0.21.0)
+Requires-Dist: openai-helper
+Requires-Dist: opensearch-helper
+Requires-Dist: opensearch-py (>=1.1.0,<2.0.0)
+Requires-Dist: owl-builder
+Requires-Dist: owl-parser
+Requires-Dist: requests
+Requires-Dist: schema-classification
