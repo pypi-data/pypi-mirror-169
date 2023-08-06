@@ -1,0 +1,10 @@
+tt_augment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tt_augment/augment.py,sha256=AS8l3vyYxPyDO7JaRcv1GrjLqUeOyN7_-FcFWeU-m-E,8667
+tt_augment/tt_custom/__init__.py,sha256=JJAKoI6aU_TDj2P4d6zkcVlDY_HJNbI1roF-Mb5bl8A,204
+tt_augment/tt_custom/custom.py,sha256=WaHCEMHLS96Miv5R7PaDeGQU5daUECzdQ2Oo_OI-zN8,9419
+tt_augment/tt_custom/tt_fwd_bkd.py,sha256=mxZoVBZVOCj1ny7It2VZLBK-pq1w9lBhaDrb7ntGjis,6971
+ttAugment-0.4.1.dist-info/LICENSE,sha256=PUWkHUiz6D7cqcjyoJ-Rd6xUrsltsKJiJiL_Ij7lTRw,1066
+ttAugment-0.4.1.dist-info/METADATA,sha256=WGWjMwA5IUmZdxyQew2bBbnTSl80D14SJefbe94rngU,3797
+ttAugment-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ttAugment-0.4.1.dist-info/top_level.txt,sha256=PLFoGfnK9KfqRJM5ZJbDLGHMVl4f-XcmBhzAZoe2qAo,11
+ttAugment-0.4.1.dist-info/RECORD,,
