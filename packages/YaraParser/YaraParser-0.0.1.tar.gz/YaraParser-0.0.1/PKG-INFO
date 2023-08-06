@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: YaraParser
+Version: 0.0.1
+Summary: Parse and easily work with Yara rules.
+Home-page: https://www.github.com/jrbrawner/YaraParser
+Author: Joshua Brawner
+Author-email: jrbbrawner@gmail.com
+License: Apache Software License 2.0 
+Keywords: yara parser
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+License-File: LICENSE
+
+Package I am working on to be used in parsing Yara rules into their individual components, and useful utilities for working with Yara rules.
