@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyspinners/src/pyspinners.egg-info/PKG-INFO
+pyspinners/src/pyspinners.egg-info/SOURCES.txt
+pyspinners/src/pyspinners.egg-info/dependency_links.txt
+pyspinners/src/pyspinners.egg-info/top_level.txt
+pyspinners/src/pyspinners.py
+pyspinners/src/pyspinners.egg-info/PKG-INFO
+pyspinners/src/pyspinners.egg-info/SOURCES.txt
+pyspinners/src/pyspinners.egg-info/dependency_links.txt
+pyspinners/src/pyspinners.egg-info/top_level.txt
