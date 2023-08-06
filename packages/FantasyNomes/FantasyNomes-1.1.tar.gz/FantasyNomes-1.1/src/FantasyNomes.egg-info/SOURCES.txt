@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/FantasyNomes/__init__.py
+src/FantasyNomes/polynome.py
+src/FantasyNomes.egg-info/PKG-INFO
+src/FantasyNomes.egg-info/SOURCES.txt
+src/FantasyNomes.egg-info/dependency_links.txt
+src/FantasyNomes.egg-info/not-zip-safe
+src/FantasyNomes.egg-info/top_level.txt
