@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "print-yaml"
+version = "0.1.0"
+description = ""
+authors = ["heumsi <heumsi@naver.com>"]
+readme = "README.md"
+packages = [{include = "print_yaml"}]
+
+[tool.poetry.scripts]
+print_yaml = "print_yaml.main:run"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.6.1"}
+PyYAML = "^6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
