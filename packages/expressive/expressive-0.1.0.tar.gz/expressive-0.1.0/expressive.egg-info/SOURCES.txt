@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+expressive/expressive.py
+expressive.egg-info/PKG-INFO
+expressive.egg-info/SOURCES.txt
+expressive.egg-info/dependency_links.txt
+expressive.egg-info/not-zip-safe
+expressive.egg-info/requires.txt
+expressive.egg-info/top_level.txt
