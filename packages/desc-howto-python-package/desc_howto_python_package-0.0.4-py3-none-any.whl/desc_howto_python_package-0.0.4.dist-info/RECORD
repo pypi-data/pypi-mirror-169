@@ -1,0 +1,11 @@
+desc_howto_python_package/__init__.py,sha256=a1XwlE2Zjtmw3VuPsdu59RJ2COMcfytwWYLT5_ggZI8,286
+desc_howto_python_package/_version.py,sha256=tcW5WR5SDjuBEIjLMShMi_qo95F90_X0yoMvgycBv8k,176
+desc_howto_python_package/hello_world.py,sha256=1a0OVNSU5E6hFg19Hi_IsNwxd16KIiMk7Vs3Jh63FEM,525
+desc_howto_python_package/data/i_knew.txt,sha256=MGmTQarD_PFRfkC39H8xEOdJ5-V5XqhJNXhGkRIFVRs,1256
+desc_howto_python_package/data/oh_you_will.txt,sha256=uaumysjGpMOYYPoR7vcnWL7_Ljv54Ahy4ZWWT6OSNos,629
+desc_howto_python_package/data/sir_john_davies.txt,sha256=r8PouKkCvfEuniDY9Y07xAN4bjmPDT8y2lpZ1v1gxXI,4267
+desc_howto_python_package-0.0.4.dist-info/LICENSE,sha256=UxaFZh-4juxT4bnDq-MbA-peHjeY7adJd7e-O5AtL0U,1553
+desc_howto_python_package-0.0.4.dist-info/METADATA,sha256=Tvxl3N8eF8xSq4MA0r7EUxmfMDmFAl0mEpqpWPs7et8,2751
+desc_howto_python_package-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+desc_howto_python_package-0.0.4.dist-info/top_level.txt,sha256=CmWuELc-lnRDZG3gd4DR1hEkOxSm8n5uSs15vKwIec8,26
+desc_howto_python_package-0.0.4.dist-info/RECORD,,
