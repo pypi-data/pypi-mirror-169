@@ -1,0 +1,17 @@
+sensamag_utility/__init__.py,sha256=sBcSUII_h1cv93rW-E70KmENsrOUu8_NvmoTKoHDwY0,66
+sensamag_utility/__main__.py,sha256=_fWmhhwgqvHTAUT7z26g9grpkR19mI4I4E4sxFAjGv8,49
+sensamag_utility/connection_manager.py,sha256=LSevcFl0aTW4v45UhhWMAGv49jDjJ9k2edq7tYRCmfQ,2743
+sensamag_utility/csv_reader.py,sha256=lh-g5pPlN6FQxU0_PFj9yTXalooCRkglV1eAHRVmb38,1039
+sensamag_utility/csv_schema.py,sha256=DY9OUMVtzJhm9TG7ptJY8-vKPc8tDUEFcEnSPAsTFSs,696
+sensamag_utility/drop_table.py,sha256=-mni57eLoLu8dLevPs8zp2puyZ9j0f3z3DaglLta3jA,677
+sensamag_utility/exporter.py,sha256=9_v953qMfWnnUx3emVW5Ijhznvv5SUDuTa1qh0JeqLI,1536
+sensamag_utility/importer.py,sha256=KAc8T5Ty6HEHan9XX7bj7EtJmIn9RlmmHDgMM4fIa9o,5000
+sensamag_utility/language.py,sha256=F-QPK19GkwSSnnyClYjRUPgD_OkF1TktgqYrx7PaKVI,2325
+sensamag_utility/main.py,sha256=sg6aPk3GqpRVjW318z6GhlRnHBd9Yxx6xJzvT-xoC_Y,2910
+sensamag_utility/utility.py,sha256=FLfm8VqaeYNMSD9azVZPJBoWmcW0eWvDnD-m7yKzuc0,530
+sensamag-1.0.0.dist-info/METADATA,sha256=KFR5BCruf6hc52AwGwuB3vaGNStPlnUCgt1CXoj_jDk,1644
+sensamag-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sensamag-1.0.0.dist-info/entry_points.txt,sha256=yRN4GGlJnzTXDLd5jjTQoVDJYN_FQOxat_l4PouNluI,55
+sensamag-1.0.0.dist-info/top_level.txt,sha256=WNhehjKVFEU0FIEWC2pMJTDVvRAUCtL4THD0EUk5VAQ,17
+sensamag-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sensamag-1.0.0.dist-info/RECORD,,
