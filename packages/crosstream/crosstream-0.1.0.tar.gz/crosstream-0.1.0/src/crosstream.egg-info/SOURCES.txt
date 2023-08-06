@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/crosstream/__init__.py
+src/crosstream/data_types.py
+src/crosstream/hash_join.py
+src/crosstream.egg-info/PKG-INFO
+src/crosstream.egg-info/SOURCES.txt
+src/crosstream.egg-info/dependency_links.txt
+src/crosstream.egg-info/requires.txt
+src/crosstream.egg-info/top_level.txt
