@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: micropython-picowebrouter
+Version: 0.0.2
+Summary: Pi Pico webserver
+Home-page: https://github.com/MikeSchapp/PicoWebRouter
+Author: MikeSchapp
+License: BSD 2
+Project-URL: Source, https://github.com/MikeSchapp/PicoWebRouter
+Keywords: micropython,webserver
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# PicoWebRouter
+
+Web framework for the Pi Pico to emulate a flask like experience for serving webpages.
+
+
