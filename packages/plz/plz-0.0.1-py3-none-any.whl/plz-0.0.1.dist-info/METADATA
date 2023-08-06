@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: plz
+Version: 0.0.1
+Summary: plz is lightweight, and simple virtual environment and dependencies manager, wrapping virtualenv and piptools together
+Home-page: https://github.com/royreznik/plz
+Author: Roy Reznik
+Author-email: royreznik@gmail.com
+License: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Systems Administration
+Classifier: Typing :: Typed
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip-tools
+Requires-Dist: virtualenv
+Requires-Dist: click
+
+# plz
+![licesns](https://img.shields.io/github/license/royreznik/plz)
+![python](https://img.shields.io/pypi/pyversions/plz)
+![code style](https://camo.githubusercontent.com/d91ed7ac7abbd5a6102cbe988dd8e9ac21bde0a73d97be7603b891ad08ce3479/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d626c61636b2d3030303030302e737667)
+![lastcommit](https://img.shields.io/github/last-commit/royreznik/plz)
+[![Python assspplication](https://github.com/royreznik/plz/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/royreznik/plz/actions/workflows/ci.yml)
+![downloads](https://img.shields.io/pypi/dm/plz)
+
+Lightweight and simple python virtual environment and dependencies manager 
+
+## Install
+```bash
+pip install plz
+```
+
+## Developing
+```bash
+make install
+make test
+make format
+make lint
+```
