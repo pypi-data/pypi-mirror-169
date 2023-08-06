@@ -1,0 +1,7 @@
+README.md
+setup.py
+univisa.egg-info/PKG-INFO
+univisa.egg-info/SOURCES.txt
+univisa.egg-info/dependency_links.txt
+univisa.egg-info/requires.txt
+univisa.egg-info/top_level.txt
