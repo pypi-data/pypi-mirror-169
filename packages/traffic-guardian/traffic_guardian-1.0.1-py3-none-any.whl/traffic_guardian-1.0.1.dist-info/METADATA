@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: traffic-guardian
+Version: 1.0.1
+Summary: Dynamically managed proxy server to intercept and mock responses for HTTP traffic
+Home-page: https://gitlab.com/hotone/traffic_guardian
+Author: Konrad Poreba
+Author-email: konrad@porebasoftware.pl
+License: MIT
+Project-URL: Documentation, https://traffic-guardian.readthedocs.io/en/latest/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: attrs (==22.1.0)
+Requires-Dist: alabaster (==0.7.12)
+Requires-Dist: Automat (==20.2.0)
+Requires-Dist: Babel (==2.10.3)
+Requires-Dist: certifi (==2022.9.24)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: click (==8.1.3)
+Requires-Dist: constantly (==15.1.0)
+Requires-Dist: coverage (==6.4.4)
+Requires-Dist: cryptography (==38.0.1)
+Requires-Dist: distlib (==0.3.6)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: filelock (==3.8.0)
+Requires-Dist: Flask (==2.2.2)
+Requires-Dist: hyperlink (==21.0.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: imagesize (==1.4.1)
+Requires-Dist: incremental (==21.3.0)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: itsdangerous (==2.1.2)
+Requires-Dist: Jinja2 (==3.1.2)
+Requires-Dist: MarkupSafe (==2.1.1)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: platformdirs (==2.5.2)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: py (==1.11.0)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: Pygments (==2.13.0)
+Requires-Dist: pyOpenSSL (==22.1.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: pytest (==7.1.3)
+Requires-Dist: pytest-cov (==3.0.0)
+Requires-Dist: pytz (==2022.2.1)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: service-identity (==21.1.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: snowballstemmer (==2.2.0)
+Requires-Dist: Sphinx (==5.2.2)
+Requires-Dist: sphinx-rtd-theme (==1.0.0)
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2)
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2)
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.0)
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1)
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3)
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: tox (==3.26.0)
+Requires-Dist: Twisted (==22.8.0)
+Requires-Dist: typing-extensions (==4.3.0)
+Requires-Dist: urllib3 (==1.26.12)
+Requires-Dist: virtualenv (==20.16.5)
+Requires-Dist: Werkzeug (==2.2.2)
+Requires-Dist: zope.interface (==5.4.0)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest (==7.1.3) ; extra == 'testing'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'testing'
+
+.. These are examples of badges you might want to add to your README:
+   please update the URLs accordingly
+
+    .. image:: https://api.cirrus-ci.com/github/<USER>/traffic_guardian.svg?branch=main
+        :alt: Built Status
+        :target: https://cirrus-ci.com/github/<USER>/traffic_guardian
+    .. image:: https://readthedocs.org/projects/traffic_guardian/badge/?version=latest
+        :alt: ReadTheDocs
+        :target: https://traffic_guardian.readthedocs.io/en/stable/
+    .. image:: https://img.shields.io/coveralls/github/<USER>/traffic_guardian/main.svg
+        :alt: Coveralls
+        :target: https://coveralls.io/r/<USER>/traffic_guardian
+    .. image:: https://img.shields.io/pypi/v/traffic_guardian.svg
+        :alt: PyPI-Server
+        :target: https://pypi.org/project/traffic_guardian/
+    .. image:: https://img.shields.io/conda/vn/conda-forge/traffic_guardian.svg
+        :alt: Conda-Forge
+        :target: https://anaconda.org/conda-forge/traffic_guardian
+    .. image:: https://pepy.tech/badge/traffic_guardian/month
+        :alt: Monthly Downloads
+        :target: https://pepy.tech/project/traffic_guardian
+    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
+        :alt: Twitter
+        :target: https://twitter.com/traffic_guardian
+
+.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
+    :alt: Project generated with PyScaffold
+    :target: https://pyscaffold.org/
+
+|
+
+================
+traffic_guardian
+================
+
+
+    Proxy server for intercepting HTTP traffic with python library to dynamically manage the proxy rules
+
+Solution consists of two main components that are implemented inside `traffic_guardian_core` package:
+ 1. Proxy server based on `twisted` networking engine running by default on port 8080
+ 2. REST API to govern the proxy rules used for intercepting and mocking responses by default on port 9090
+
+Based on REST API for governing the proxy rules python library has been developed inside `traffic_guardian` package.
+
+Usage
+=====
+To install `traffic_guardian` use following command (assuming that you have `pip` installed):
+
+.. code-block:: bash
+
+    $ pip install traffic_guardian
+
+To run the proxy server on default port (8080 for proxy server, 9090 for REST API to govern the proxy rules) use the following command:
+
+.. code-block:: bash
+
+    $ traffic_guardian
+
+To check more help with the CLI tool use the following command
+
+.. code-block:: bash
+
+    $ traffic_guardian -h
+
+Docs
+====
+Documentation to project is hosted on readthedocs.org under following link https://traffic-guardian.readthedocs.io/en/latest/
+
+
+
+.. _pyscaffold-notes:
+
+Note
+====
+
+This project has been set up using PyScaffold 4.3.1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
