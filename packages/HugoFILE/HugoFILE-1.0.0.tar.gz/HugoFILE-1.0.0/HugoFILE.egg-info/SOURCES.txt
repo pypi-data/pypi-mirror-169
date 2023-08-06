@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+HugoFILE.egg-info/PKG-INFO
+HugoFILE.egg-info/SOURCES.txt
+HugoFILE.egg-info/dependency_links.txt
+HugoFILE.egg-info/entry_points.txt
+HugoFILE.egg-info/top_level.txt
