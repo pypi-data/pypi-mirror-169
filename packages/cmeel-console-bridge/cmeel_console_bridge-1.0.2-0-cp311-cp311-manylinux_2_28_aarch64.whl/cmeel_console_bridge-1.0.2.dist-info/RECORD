@@ -1,0 +1,13 @@
+cmeel.prefix/include/console_bridge/console.h,sha256=kBqICNvp0GuOCkui1IMFcSrJVwwg2OSaWDyo--UYnDA,7046
+cmeel.prefix/include/console_bridge/console_bridge_export.h,sha256=mVWIBiTBf2VT6D37NaISH52_yrCyFHEJQGolUYPR_ns,1199
+cmeel.prefix/lib/libconsole_bridge.so,sha256=0nnSoKSTcj_Oq3lWKFe8nZFz3laHG6rLrQYvSHr-42M,74784
+cmeel.prefix/lib/libconsole_bridge.so.1.0,sha256=0nnSoKSTcj_Oq3lWKFe8nZFz3laHG6rLrQYvSHr-42M,74784
+cmeel.prefix/lib/console_bridge/cmake/console_bridge-config-version.cmake,sha256=blLyHGmor2sG17OlynLibeu507vt5FQ5llTkW1K8CZE,2878
+cmeel.prefix/lib/console_bridge/cmake/console_bridge-config.cmake,sha256=Z7YeCN4qP6Kf91G-J16RYGYxqQ_RO3pZfR29iIFQxlQ,782
+cmeel.prefix/lib/console_bridge/cmake/console_bridge-targets-release.cmake,sha256=hViNnC0yH-QXadQoK3Bd-Snm6ueKqW4oAjQpLit_edc,952
+cmeel.prefix/lib/console_bridge/cmake/console_bridge-targets.cmake,sha256=w3IfOB6TUWFuMNRjWnpUML4T7yZbEySzXDnRhwJPxGs,3971
+cmeel.prefix/lib/pkgconfig/console_bridge.pc,sha256=2cNrtA-Iso5GKlvRXa3X955fbns6qZgRMBdLaAJrF10,359
+cmeel_console_bridge-1.0.2.dist-info/METADATA,sha256=xMOduPSAEMKbqPhDwu5vEj59wra1WjX8HKHAX8CMkbE,1059
+cmeel_console_bridge-1.0.2.dist-info/WHEEL,sha256=GHVy33rm0MC-2jme3sqjXkYkD3Kf8cQVS7bgYOdVwPk,115
+cmeel_console_bridge-1.0.2.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmeel_console_bridge-1.0.2.dist-info/RECORD,,
