@@ -1,0 +1,20 @@
+[project]
+name = "AutoClassifierRegressor"
+version = "0.0.1"
+authors = [
+  { name="Anagha Bhople", email="bhoplea34@gmail.com" },
+  { name="Swapnil Dewalkar", email="swapnildewalkar1995@gmail.com" }
+]
+description = "Tools for getting analysis of all classifiers and regressors"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/anagha-bhople/auto_classifier_regressor"
+"Bug Tracker" = "https://github.com/anagha-bhople/auto_classifier_regressor/issues"
