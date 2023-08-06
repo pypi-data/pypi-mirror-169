@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+edl_pytorch/__init__.py
+edl_pytorch/layer.py
+edl_pytorch/loss.py
+edl_pytorch.egg-info/PKG-INFO
+edl_pytorch.egg-info/SOURCES.txt
+edl_pytorch.egg-info/dependency_links.txt
+edl_pytorch.egg-info/requires.txt
+edl_pytorch.egg-info/top_level.txt
