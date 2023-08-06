@@ -1,0 +1,5 @@
+pyautogui
+keyboard
+opencv-python
+pillow
+click
