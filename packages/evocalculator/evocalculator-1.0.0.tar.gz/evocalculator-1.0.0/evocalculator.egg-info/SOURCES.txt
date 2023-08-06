@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+__int__.py
+setup.py
+evocalculator.egg-info/PKG-INFO
+evocalculator.egg-info/SOURCES.txt
+evocalculator.egg-info/dependency_links.txt
+evocalculator.egg-info/top_level.txt

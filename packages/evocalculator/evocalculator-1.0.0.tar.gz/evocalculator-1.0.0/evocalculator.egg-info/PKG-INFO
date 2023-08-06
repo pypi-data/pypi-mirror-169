@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: evocalculator
+Version: 1.0.0
+Summary: basic calculator
+Home-page: UNKNOWN
+Author: Eve
+Author-email: eve@eve.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a simple calculator that takes two number and perform mathematical operaions. 
+
+
+Change Log
+==========================================
+
+1.0.0(10/01/2022)
+------------------------------------------
+- First Release
+
+
