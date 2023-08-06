@@ -1,0 +1,6 @@
+requests
+pycryptodome==3.10.1
+urllib3
+tqdm
+rich
+websocket-client
