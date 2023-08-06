@@ -1,0 +1,50 @@
+Index: lupo/views/text.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lupo/views/text.py b/lupo/views/text.py
+new file mode 100644
+--- /dev/null	(date 1662930085827)
++++ b/lupo/views/text.py	(date 1662930085827)
+@@ -0,0 +1,21 @@
++from ..core.view import View
++from ..core.style import Style
++import sys
++
++if sys.platform == "darwin":
++    from Cocoa import NSText
++
++class Text(View):
++    text: str = ""
++
++    def __init__(self, text: str, style: Style = None):
++        super().__init__(style=style)
++        self.text = text
++
++    def get_osx_render(self, parent=None, superview = None):
++        parent: View
++
++        t = NSText.alloc().initWithFrame_(((0, 0), (100, 50)))
++        t.setString_(self.text)
++
++        return t
+\ No newline at end of file
+Index: lupo/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from .core.lupo_window import Window\nfrom .core.view import View\nfrom .views.row import Row\nfrom .views.column import Column\nfrom .views.button import Button\n\nfrom .core.style import *
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lupo/__init__.py b/lupo/__init__.py
+--- a/lupo/__init__.py	(revision 601f07bdedb3dd06cc7cc24f2bfef03f1b3d92a8)
++++ b/lupo/__init__.py	(date 1662926283267)
+@@ -3,5 +3,6 @@
+ from .views.row import Row
+ from .views.column import Column
+ from .views.button import Button
++from .views.text import Text
+ 
+ from .core.style import *
+\ No newline at end of file

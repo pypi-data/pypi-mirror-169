@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: lupo
+Version: 0.0.3.1
+Summary: A Python Framework for creating Cross-Platform Desktop Applications
+Author-email: Anthony Hofmeister <me@anthonyhfm.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pyobjc-core>=0.8.5; sys_platform == 'darwin'
+Requires-Dist: pyobjc-framework-cocoa>=0.8.5; sys_platform == 'darwin'
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a>
+    <img src="lupo.svg">
+  </a>
+</div>
+
+## Introduction
+**Lupo** is an easy way to make good looking **Cross-Platform** User Interfaces for using Python.
+
+## Support
+
+- ✅ &nbsp; MacOS _is Supported_ **(more work in progress)**
+- ✅️ &nbsp; Windows _is Supported_ **(more work in progress)**
+- ❌️ &nbsp; Linux ***is not Supported yet***
+
+## Installation
+
+````
+pip install lupo
+````
+
+## Simple Window using Lupo
+
+```python
+from lupo import *
+
+window = Window()
+window.set_size(300, 300)
+window.set_title("Hello World!")
+window.set_resizable(False) # Proper window resizing is not implemented in the current Version of Lupo (disable it for good)
+
+window.body = View(children=[ # This is the Body of the Window with Views and Children
+    
+    Row(style=Style(gap=px(10)), children=[ # Creates a Row of Buttons with a 10 pixel Gap in between
+        Button("Hello", Style(width=px(100), height=px(100))),
+        Button("World", Style(width=px(100), height=px(100))),
+    ]),
+    
+])
+```
+
+If you want to help me building this Library, feel free to ***fork*** the repo and _contribute_
