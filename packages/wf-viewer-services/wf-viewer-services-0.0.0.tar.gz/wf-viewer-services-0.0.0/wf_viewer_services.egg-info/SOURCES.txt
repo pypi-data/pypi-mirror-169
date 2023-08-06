@@ -1,0 +1,6 @@
+setup.py
+wf-viewer-services/__init__.py
+wf_viewer_services.egg-info/PKG-INFO
+wf_viewer_services.egg-info/SOURCES.txt
+wf_viewer_services.egg-info/dependency_links.txt
+wf_viewer_services.egg-info/top_level.txt
