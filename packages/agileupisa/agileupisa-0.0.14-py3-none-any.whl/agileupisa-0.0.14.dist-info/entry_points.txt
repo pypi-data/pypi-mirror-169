@@ -1,0 +1,3 @@
+[console_scripts]
+agileupisa=agileupisa.cli:cli
+
