@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setup(
+    name='safe_evaluation',  # package name
+    version='0.1.0',  # version
+    author="Lev Belous",
+    author_email="leva22.08.01@inbox.ru",
+    description='package solves expressions',  # short description
+    url='https://github.com/lev4ek0/safe_eval',  # package URL
+    install_requires=[],  # list of packages this package depends
+    # on.
+    packages=find_packages(),  # List of module names that installing
+    # this package will provide.
+)
