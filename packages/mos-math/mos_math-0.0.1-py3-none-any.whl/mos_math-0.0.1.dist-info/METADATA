@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mos_math
+Version: 0.0.1
+Summary: MOS (Metal Oxide Semiconductor) mathematics for C-V measurements.
+Project-URL: Homepage, https://github.com/vbotka/mos-math
+Project-URL: Bug Tracker, https://github.com/vbotka/mos-math/issues
+Author-email: Vladimir Botka <vbotka@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# mos-math
+[![](https://img.shields.io/pypi/v/mos-math?color=green)](https://pypi.org/project/mos-math/)[![license](https://img.shields.io/badge/license-BSD-red.svg)](https://www.freebsd.org/doc/en/articles/bsdl-gpl/article.html)
+
+
+MOS mathematics for doctoral thesis
+
+[Electrophysical properties of the MOS structure with implanted bulk](https://github.com/vbotka/thesis)
