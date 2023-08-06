@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_ansible_patch.egg-info/PKG-INFO
+shopee_ansible_patch.egg-info/SOURCES.txt
+shopee_ansible_patch.egg-info/dependency_links.txt
+shopee_ansible_patch.egg-info/top_level.txt
