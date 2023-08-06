@@ -1,0 +1,2 @@
+[console_scripts]
+sktalk = sktalk.cli:main
