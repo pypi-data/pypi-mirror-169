@@ -1,0 +1,9 @@
+pymemo/__init__.py,sha256=m9bm2Fhwdok-j8CjlLy4Cey390psItzoomOIKRCW2YE,107
+pymemo/memo_collection.py,sha256=L1PzK0rclWqFgRDSG_pq3TPetaxMXBEWcCI7g4vYsVY,5001
+pymemo/memo_item.py,sha256=82h7g0ib4aIfVcp_7CCLr68dcfGdokDekOwnAV8vVOY,1621
+pymemo/pymemo.py,sha256=P7Wo82FEM852JksudyyQH-HaCjuTrYDluzBk-hNtPlk,3185
+pymemo_cache-1.1.0.dist-info/LICENSE,sha256=3uqoECtFToiHsa7O5aVzLt1CzqaD4C0HH4t54VZrQnI,1070
+pymemo_cache-1.1.0.dist-info/METADATA,sha256=nZBRjD2BJmGJ13e5jl8w9V8a1YmwRT4WtopN9iF80Hs,1347
+pymemo_cache-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymemo_cache-1.1.0.dist-info/top_level.txt,sha256=3LGJFyln_JQQntl2DpJ-BVc7Iwa7ZM-0efsbOk385EA,7
+pymemo_cache-1.1.0.dist-info/RECORD,,
