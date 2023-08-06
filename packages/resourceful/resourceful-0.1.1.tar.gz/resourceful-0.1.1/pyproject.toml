@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "resourceful"
+version = "0.1.1"
+description = "Human friendly HTTP client for RESTful APIs"
+authors = ["Logi Leifsson <logileifs@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/logileifs/resourceful"
+repository = "https://github.com/logileifs/resourceful"
+keywords = ["http", "restful"]
+packages = [
+	{ include = "resourceful" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.23.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
