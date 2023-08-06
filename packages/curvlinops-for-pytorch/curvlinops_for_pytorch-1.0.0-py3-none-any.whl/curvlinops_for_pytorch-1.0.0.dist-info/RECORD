@@ -1,0 +1,13 @@
+curvlinops/__init__.py,sha256=1owB1xYEm8d9tf8XX6CYNmbECeRJbaWd2duW8XnXri8,202
+curvlinops/_base.py,sha256=L8tZcXK3h6D0_MqfN-lEh212HrTctsl_S0Ki0omQguM,11113
+curvlinops/ggn.py,sha256=Fya2nKBVZk9wOilLS58mJPEXAJi0Adhbw6ZoQnI9TJ0,883
+curvlinops/hessian.py,sha256=AlCWp2WrXqKZd9YWKA2GAp1kCFlvBX7NV0Hxl154dbE,855
+curvlinops/lowrank.py,sha256=_kR0sOYgZrQJuPqQPUJ-eKthIGqLAZpD_ZhwNvnD-RU,1920
+test/__init__.py,sha256=m91-x7IoIS1JXTZDClKmW65-K3cRbp2eXtMDv75Qt9w,40
+test/test___init__.py,sha256=ZOtw0KIdNZZF-Rbx_ckegm22vEQkUcNQzGy07VlIgX8,5255
+test/utils.py,sha256=HQNNv3Mm0TfLVoQgZXict4X82mMAdVlHO3MmANON5Og,529
+curvlinops_for_pytorch-1.0.0.dist-info/LICENSE,sha256=vJaUCwfzRH_DbAwY6IgWxVakFGnPNOKxbk80C_VZUPk,1100
+curvlinops_for_pytorch-1.0.0.dist-info/METADATA,sha256=cC5KYoaIiHHKx67hB5mXMgWIQHlTQAGr3JgLuEW2aHM,4244
+curvlinops_for_pytorch-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+curvlinops_for_pytorch-1.0.0.dist-info/top_level.txt,sha256=LBSDZyPXrshwE5_CVbjcHWtanYKzw3jinHJ8546QWBk,16
+curvlinops_for_pytorch-1.0.0.dist-info/RECORD,,
