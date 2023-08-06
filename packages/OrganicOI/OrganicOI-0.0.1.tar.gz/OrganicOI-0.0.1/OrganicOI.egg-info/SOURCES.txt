@@ -1,0 +1,7 @@
+README.md
+setup.py
+OrganicOI.egg-info/PKG-INFO
+OrganicOI.egg-info/SOURCES.txt
+OrganicOI.egg-info/dependency_links.txt
+OrganicOI.egg-info/requires.txt
+OrganicOI.egg-info/top_level.txt
