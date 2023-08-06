@@ -1,0 +1,9 @@
+README.md
+setup.py
+makeitlitt/__init__.py
+makeitlitt/__main__.py
+makeitlitt/generate.py
+makeitlitt.egg-info/PKG-INFO
+makeitlitt.egg-info/SOURCES.txt
+makeitlitt.egg-info/dependency_links.txt
+makeitlitt.egg-info/top_level.txt
