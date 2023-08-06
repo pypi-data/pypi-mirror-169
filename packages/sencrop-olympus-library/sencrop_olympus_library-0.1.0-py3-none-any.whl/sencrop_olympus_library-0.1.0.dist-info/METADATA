@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sencrop-olympus-library
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pre-commit (>=2.20.0,<3.0.0)
