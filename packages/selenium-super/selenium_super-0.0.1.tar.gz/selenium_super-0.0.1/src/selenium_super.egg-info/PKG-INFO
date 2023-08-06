@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: selenium-super
+Version: 0.0.1
+Summary: Selenium web driver with super abilities
+Home-page: https://github.com/edenik/selenium_super
+Author: Eden Nahum
+Author-email: Edenik5@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/edenik/selenium_super/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# selenium_super
+Selenium web driver with super abilities
+
