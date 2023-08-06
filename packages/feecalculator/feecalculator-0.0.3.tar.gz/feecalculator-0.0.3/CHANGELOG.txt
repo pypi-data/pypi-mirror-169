@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.3 (28/09/2022)
+-------------------
+- Changed repo old one: https://pypi.org/project/fee-calculator/
