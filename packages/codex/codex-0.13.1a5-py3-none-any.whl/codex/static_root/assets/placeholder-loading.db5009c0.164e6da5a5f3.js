@@ -1,0 +1,1 @@
+import{n as r}from"./main.88f99a16.js";import{az as a}from"./button.ebd6f435.js";const o={name:"PlaceholderLoading",props:{size:{type:Number,default:128}}};var l=function(){var e=this,n=e._self._c;return n(a,{attrs:{indeterminate:"",size:e.size,color:"#cc7b19","aria-label":"loading"}})},s=[],t=r(o,l,s,!1,null,null,null,null);const m=t.exports;export{m as P};
