@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: starpack
+Version: 0.0.4
+Summary: A utility to package and productionize ML models
+Home-page: https://github.com/a360-starpack/starpack
+Author: Irvin Shen
+Author-email: irvin.shen@andromeda360.ai
+License: Apache License Version 2.0
+Project-URL: Bug Tracker, https://github.com/a360-starpack/starpack/issues
+Keywords: Swagger,OpenAPI,ModelOps,CLI,DataScience,DevOps
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer[all] (<1.0.0,>=0.6.1)
+Requires-Dist: docker (<7.0.0,>=6.0.0)
+Requires-Dist: requests (<3.0.0,>=2.28.1)
+Provides-Extra: dev
+Requires-Dist: pytest (==7.1.2) ; extra == 'dev'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'dev'
+Requires-Dist: requests-mock (==1.10.0) ; extra == 'dev'
+
+# Starpack
+
+A CLI to help you get machine learning models into production.
