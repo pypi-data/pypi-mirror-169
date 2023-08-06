@@ -1,0 +1,3 @@
+[console_scripts]
+my_command=my_command.my_command.main
+
