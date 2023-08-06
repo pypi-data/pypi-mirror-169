@@ -1,0 +1,8 @@
+adaptive_neighbourhoods/__init__.py,sha256=-DAGj4DMjeNvp5lF3NFaTZ50YsyEqggUdvVQUUBUukM,43
+adaptive_neighbourhoods/_types.py,sha256=Ujyi2v6sjt8Qlu804moUZp6VNQXuBBDcEeJ63MXif6o,105
+adaptive_neighbourhoods/distances.py,sha256=E9p1no-5WuRQCW38vt4CYv79STSG5SpjivTHM9piQAE,1239
+adaptive_neighbourhoods/neighbourhoods.py,sha256=OsjX-Ow10sfMfdALOo5rkJ1BJBGMWsxSmi96Dfc5JEE,3869
+adaptive_neighbourhoods-0.0.2.dist-info/METADATA,sha256=aijJJkTwTs0_yYq4Mvk5GGQ8h_QTkWNS_nv6E6Njy4M,3264
+adaptive_neighbourhoods-0.0.2.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+adaptive_neighbourhoods-0.0.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+adaptive_neighbourhoods-0.0.2.dist-info/RECORD,,
