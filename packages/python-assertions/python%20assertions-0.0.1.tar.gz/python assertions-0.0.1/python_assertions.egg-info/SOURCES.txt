@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+python_assertions.egg-info/PKG-INFO
+python_assertions.egg-info/SOURCES.txt
+python_assertions.egg-info/dependency_links.txt
+python_assertions.egg-info/top_level.txt
+zzassertions/__init__.py
+zzassertions/assertions.py

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: python assertions
+Version: 0.0.1
+Summary: Foo demo project the II
+Home-page: https://github.com/zzirakadze/assertions-for-automated-testing.git
+Author: Zura Zirakadze
+Author-email: zirakadzez@gmail.com
+License: MIT
+Keywords: assertions,python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# assertions-for-automated-testing #
+`Gives us opportunity to do logical assertions with python`
+
+# how to use
+```python
+from zzassertions.assertions import *
+
+assertEquals(1, 1)
+assertNotEquals(1, 2)
+assertTrue(True)
+assertFalse(False)
