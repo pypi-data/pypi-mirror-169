@@ -1,0 +1,16 @@
+CHANGELOG.md,sha256=IUJCp4jH88WT4Tb4B-CRBTBczLszx-sgX9zoOCMA04k,153
+CONTRIBUTING.md,sha256=JcHBGxYb0YbTgZfAVsdzr3osrmTMYGVNoVNxy6V4c1E,533
+LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+jdiff/__init__.py,sha256=4OCMm9-L0-VH3-4kpJm5de8j-LYYlBeqcSN5oMiDjRI,165
+jdiff/check_types.py,sha256=SGj9Mrf_T9SnMas9wmplwMGAbaADX63Jdi_wk0Ka04E,11727
+jdiff/evaluators.py,sha256=n2VWk3MrrRWdKYw3ZMQrHyTXvYT9S38nyWgVkcyzgCA,4459
+jdiff/extract_data.py,sha256=tl0Yl7NhPSbGE5DvPs1varXoub8owftvEswPVWUYhV8,3685
+jdiff/operator.py,sha256=zJj0OyynzfiZtkL3mxzzT9H-lTlK2wPmDljs9XIqCtM,4711
+jdiff/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdiff/utils/data_normalization.py,sha256=AByXj8xAubDvJsty8-crDQAjqelcTGY_lHvabeg0Vi4,2895
+jdiff/utils/diff_helpers.py,sha256=DJOFTURmo8KqSaSaRkMgkEGY3StzfRFDo89L3dFOFy4,3678
+jdiff/utils/jmespath_parsers.py,sha256=7btI-XrfF0jgnbY9SjiYV7C5TFjv6owhp46qLEvCqEI,4778
+jdiff-0.0.2.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+jdiff-0.0.2.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+jdiff-0.0.2.dist-info/METADATA,sha256=PThrSeN_cRVYoyoGvcgsz5coFJmr6kTTObnANmVeEko,3003
+jdiff-0.0.2.dist-info/RECORD,,
