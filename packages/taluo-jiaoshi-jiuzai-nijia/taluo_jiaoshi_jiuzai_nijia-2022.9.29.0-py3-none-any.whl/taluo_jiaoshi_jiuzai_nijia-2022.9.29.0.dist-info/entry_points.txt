@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoJiaoshiJiuzaiNijia = TaluoJiaoshiJiuzaiNijia.__main__:main
+taluo-jiaoshi-jiuzai-nijia = TaluoJiaoshiJiuzaiNijia.__main__:main
+
