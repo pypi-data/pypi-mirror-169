@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/get_random_people.py
+src/get_random_people.egg-info/PKG-INFO
+src/get_random_people.egg-info/SOURCES.txt
+src/get_random_people.egg-info/dependency_links.txt
+src/get_random_people.egg-info/top_level.txt
