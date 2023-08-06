@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: GLAM
+Version: 0.2.22.9.28.9.30
+Summary: Geocoding via LINZ address matching
+Author: Liam Morris
+Author-email: liam.morris04@gmail.com
+Requires-Dist: tensorflow (==2.8.*)
+Requires-Dist: rapidfuzz (==1.7.1)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
