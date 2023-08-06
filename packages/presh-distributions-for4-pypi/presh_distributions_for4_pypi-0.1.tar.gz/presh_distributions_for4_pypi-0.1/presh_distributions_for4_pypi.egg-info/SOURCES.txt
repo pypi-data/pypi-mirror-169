@@ -1,0 +1,10 @@
+setup.py
+presh_distributions_for4_pypi.egg-info/PKG-INFO
+presh_distributions_for4_pypi.egg-info/SOURCES.txt
+presh_distributions_for4_pypi.egg-info/dependency_links.txt
+presh_distributions_for4_pypi.egg-info/not-zip-safe
+presh_distributions_for4_pypi.egg-info/top_level.txt
+presh_prob_distributions/Binomialdistribution.py
+presh_prob_distributions/Gaussiandistribution.py
+presh_prob_distributions/Generaldistribution.py
+presh_prob_distributions/__init__.py
