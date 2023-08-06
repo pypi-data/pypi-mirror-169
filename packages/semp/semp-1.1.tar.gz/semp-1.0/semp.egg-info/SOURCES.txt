@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+semp/command_line.py
+semp/madesimple.py
+semp.egg-info/PKG-INFO
+semp.egg-info/SOURCES.txt
+semp.egg-info/dependency_links.txt
+semp.egg-info/entry_points.txt
+semp.egg-info/not-zip-safe
+semp.egg-info/requires.txt
+semp.egg-info/top_level.txt

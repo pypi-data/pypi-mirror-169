@@ -1,0 +1,3 @@
+[console_scripts]
+semp = semp.command_line:main
+
