@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+rohit_skilltest/__init__.py
+rohit_skilltest.egg-info/PKG-INFO
+rohit_skilltest.egg-info/SOURCES.txt
+rohit_skilltest.egg-info/dependency_links.txt
+rohit_skilltest.egg-info/top_level.txt

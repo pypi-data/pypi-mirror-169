@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rohit_skilltest
+Version: 0.1
+Summary: Tests your skills and compares it with rohit's skills
+Home-page: https://github.com/FangChat
+Download-URL: https://github.com/FangChat/rohit_skilltest/releases/download/v0.1/rohit_skilltest.tar.gz
+Author: FangChat
+Author-email: fangofficialmail@gmail.com
+License: MIT
+Keywords: FUN,SKILLTEST,FIND SKILLISSUES
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
