@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pfam2go
+Version: 1.0.0
+Summary: A package to match Pfam accession numbers to corresponding GO terms
+Home-page: https://github.com/Konstvv/pfam2go
+Author: Konstantin Volzhenin
+Author-email: Konstantin_v_v@outlook.com
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
