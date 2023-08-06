@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: legendkit
+Version: 0.2.0
+Summary: Legend creation and manipulation with ease for matplotlib
+Home-page: https://github.com/Mr-Milk/legendkit
+License: MIT
+Author: Mr-Milk
+Author-email: yb97643@um.edu.mo
+Requires-Python: >=3.10,<3.11
+Classifier: Framework :: Matplotlib
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: matplotlib (>=3.5,<4.0)
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: scipy (>=1.9.1,<2.0.0)
+Project-URL: Repository, https://github.com/Mr-Milk/legendkit
+Description-Content-Type: text/markdown
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mr-Milk/legendkit/main/images/legendkit-project.svg">
+</p>
+
+![pypi version](https://img.shields.io/pypi/v/legendkit?color=blue&logo=python&logoColor=white&style=flat-square)
+
+When you want to create or adjust the legend in matplotlib, things can get dirty. 
+LegendKit may solve your headache.
+
+<img src="https://raw.githubusercontent.com/Mr-Milk/legendkit/main/images/showcase.svg">
+
+## Features
+
+- Easy title placement and alignment
+- Layout for multiple legends
+- Easy colorbar
+
+## Installation
+
+```shell
+pip install legendkit
+```
+
