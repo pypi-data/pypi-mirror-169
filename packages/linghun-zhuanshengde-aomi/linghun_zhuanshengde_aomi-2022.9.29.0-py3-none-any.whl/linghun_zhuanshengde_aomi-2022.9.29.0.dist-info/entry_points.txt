@@ -1,0 +1,4 @@
+[console_scripts]
+LinghunZhuanshengdeAomi = LinghunZhuanshengdeAomi.__main__:main
+linghun-zhuanshengde-aomi = LinghunZhuanshengdeAomi.__main__:main
+
