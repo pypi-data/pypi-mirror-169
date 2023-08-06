@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/relic/core/__init__.py
+src/relic/core/errors.py
+src/relic/core/py.typed
+src/relic/core/typeshed.py
+src/relic_tool_core.egg-info/PKG-INFO
+src/relic_tool_core.egg-info/SOURCES.txt
+src/relic_tool_core.egg-info/dependency_links.txt
+src/relic_tool_core.egg-info/requires.txt
+src/relic_tool_core.egg-info/top_level.txt
