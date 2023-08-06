@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: slackette
+Version: 0.1.2
+Summary: Small toolkit to build Slack applications
+Author: Félix Voituret
+Author-email: fvoituret@deezer.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
