@@ -1,0 +1,15 @@
+cmake_build_extension
+ninja
+nptyping
+numpy
+opencv-python
+toml
+types-toml
+
+[all]
+pytest
+pytest-icdiff
+
+[test]
+pytest
+pytest-icdiff
