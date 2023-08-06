@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ConvBinDec.egg-info/PKG-INFO
+ConvBinDec.egg-info/SOURCES.txt
+ConvBinDec.egg-info/dependency_links.txt
+ConvBinDec.egg-info/entry_points.txt
+ConvBinDec.egg-info/top_level.txt
