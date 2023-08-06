@@ -1,0 +1,4 @@
+[console_scripts]
+MofaFangyushu = MofaFangyushu.__main__:main
+mofa-fangyushu = MofaFangyushu.__main__:main
+
