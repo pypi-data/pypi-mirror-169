@@ -1,0 +1,7 @@
+chess_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chess_python/chess.py,sha256=nYg1AsPhjkuf5MJjHuk4FBL37vcs_hvp5pWgXZ-6Tjs,28354
+chess_python/game.py,sha256=q4O-zBN2t4Tsnoc7kpBGcdLCTcjjHh73pWeq-tflNjA,1176
+chess_python/utils.py,sha256=vsHO3lWNjnC0aCEHPAB6g4V6NYFnNO0NLorUalQnWiE,1764
+chess_python_pip-0.1.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+chess_python_pip-0.1.4.dist-info/METADATA,sha256=H4OZYSMsgFNAAtqI2NvxQFmJJjsqoHnKJyuprndR0mc,3911
+chess_python_pip-0.1.4.dist-info/RECORD,,
