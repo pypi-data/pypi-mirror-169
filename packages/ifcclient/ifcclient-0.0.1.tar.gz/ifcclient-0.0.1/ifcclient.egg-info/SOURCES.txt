@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ifcclient/InfiniteFlightConnect.py
+ifcclient/__init__.py
+ifcclient/example.py
+ifcclient/utils.py
+ifcclient.egg-info/PKG-INFO
+ifcclient.egg-info/SOURCES.txt
+ifcclient.egg-info/dependency_links.txt
+ifcclient.egg-info/top_level.txt
