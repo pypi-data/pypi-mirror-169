@@ -1,0 +1,10 @@
+cognite/ingestion/__init__.py,sha256=tnF3RscEjMUyHjDo_TPqmq2_ZRpMfkhZp8VYaiG6qV4,67
+cognite/ingestion/config.py,sha256=MZucKehuOW7eb-t753OWkoFhXbuoDvpOqeb_nMIrfDE,364
+cognite/ingestion/data_types.py,sha256=ZdhBd3ER3MX2bMFUUNxGBh9XlkAYrLUsqlbfMwkzmJk,207
+cognite/ingestion/ingester.py,sha256=vYhUNuVJmFJ8GyDkMeD60I-gWczBdTPzw59uYC7epqE,2592
+cognite/ingestion/queues.py,sha256=hVTloumEmj6Xxpsv0vXJ4DvTlUHWdFS-C8uqFsDmtgQ,14334
+cognite/ingestion/retry.py,sha256=v1ktiumrRVsC30ZqaF_mG5c0lEQ1q0_f8sTUy1_y_qY,2812
+cognite_ingestion_library-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cognite_ingestion_library-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+cognite_ingestion_library-0.1.0.dist-info/METADATA,sha256=MeK1qhM1V3nfbDC6aAgpfVihDIHxXIdyeTw9VW2NZeU,648
+cognite_ingestion_library-0.1.0.dist-info/RECORD,,
