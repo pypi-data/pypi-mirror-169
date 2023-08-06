@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: axpy
+Version: 0.0.1
+Summary: A Python package for Auxetics
+Project-URL: Homepage, https://github.com/gv-sh/axpy
+Project-URL: Bug Tracker, https://github.com/gv-sh/axpy/issues
+Author-email: gv-sh <gv-sh@outlook.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# axpy
+
+A Python package for auxetics.
