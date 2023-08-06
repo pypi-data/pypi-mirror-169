@@ -1,0 +1,253 @@
+Metadata-Version: 2.1
+Name: bdrc-transfer
+Version: 0.0.3
+Summary: Transfer library
+Home-page: UNKNOWN
+Author: jimk
+Author-email: jimk@tbrc.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: paramiko
+Requires-Dist: urllib3
+Requires-Dist: bdrc-util
+Requires-Dist: sqlalchemy
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: bdrc-DBApps
+
+# BDRC OCR Library
+`bdrc-ocr` is a Python library and console script package that
+provides SFTP and other services to implement the BDRC workflow to send
+BDRC works to a remote site for OCR production, and receive, unpack, and distribute
+the resulting works.
+
+## Installation
+`pip install bdrc-transfer`
+
+Then, once only, run:
+`gb-bdrc-init`
+
+## Getting Started
+The Google Books manual workflow is:
+1. Identify works to send to Google Books
+2. Create and upload the metadata for that list  (`upload-metadata`)
+3. Create a list of paths to the works on that list, and upload that (`upload content`) **Note that a specially configured audit-tool validates the content before upload.**
+4. Wait for some time for Google to process the content. This can be a day to a week.
+5. When the material is ready for conversion,
+   1. [GB TBRC InProcess Page](https://books.google.com/libraries/TBRC/_in_process) - select and save the 'text only' version
+   2. Select the checkbox for every work (remember there may be multiple pages)
+   3. click "request conversion" for them
+6. Wait for some time, and then use GRIN to get the list of files that GB has converted, and which are ready to download, 
+7. Browse to [GB TBRC Converted Page](https://books.google.com/libraries/TBRC/_converted). For each line you find:
+   1. In the browser, select the ....pgp.gz file  (they're links) in turn and download it.
+   2. On the command line:
+      1. run `unpack` on the downloaded archive
+      2. run `distribute_ocr` on the resulting work structure
+## Runtime
+
+### Environment configuration
+
+`bdrc-transfer` requires these environment variables, unless overridden on the command line. 
+(Overriding is not recommended in production)
+
+`GB_CONFIG` - Path to the configuration file, which contains authorization and other essential data.
+The name and contents of this file should be closely held in the development team
+
+`RUN_ACTIVITY_LOG_HOME` Path where all log files are stored. It can be overridden with the `-l --log_home` 
+parameter to all the run-time operations. The value in production will be `RS2://Processing/logs/google-books`
+(where `_project_name_` is also closely held.)
+
+`GB_GRIN_OAUTH_CREDS_PATH` Path to the GRIN automation credentials file. Closely held
+####  Logging
+One requirement of this package is that there be a single, authoritative log of activities. In development,
+there will be testing attempts. It should be easy to add the logs of these testing attempts to the single log.
+Each `gb_ocr` operation defines a tuple of _activity_ and _destination_. 
+
+The _activity_ values are:
+- upload
+- request_conversion
+- unpack
+- distribute
+
+and the _destination_ values are:
+- metadata
+- content
+
+The resulting set of log files this package creates are:
+
+- upload_metadata-activity.log
+- upload_metadata-runtime.log
+- upload_content-activity.log
+- upload_content-runtime.log
+- request_conversion-activity.log
+- request_conversion-runtime.log
+- transfer-activity.log
+- transfer-runtime.log
+- unpack-activity.log
+- unpack-runtime.log
+
+
+##### Runtime log
+This is a free-form console log for diagnostic and informational purposes.
+##### Activity log
+This is the canonical log file for the activity. Each activity module in the `gb_ocr` Its structure is optimized for
+programmatic import, not human readability
+
+##### Log file naming
+Log files are intended to be continuous, and are not concurrency safe. *Activity logs* are intended to be singular
+across the whole BDRC network, so there *must* be only one activity instance writing at a time.
+(As of 7 Jun 2022, this is not enforced)
+
+### Available commands
+                   unpack
+                   relocate-downloads
+                   gb-convert
+                   move-downloads
+                   upload-metadata
+                   distribute-ocr
+                   upload-content
+#### Common Options
+All commands in this section share these common options:
+
+```shell
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LOG_HOME, --log_home LOG_HOME
+                        Where logs are stored - see manual
+  -n, --dry_run         Connect only. Do not upload
+  -d {info,warning,error,debug,critical}, --debug_level {info,warning,error,debug,critical}
+                        choice values are from python logging module
+  -z, --log_after_fact  (ex post facto) log a successful activity after it was performed out of band
+  -i [FILE], --input_file [FILE]
+                        files to read. use - for stdin
+```
+---
+#### upload-metadata
+```shell
+usage: upload-metadata [-h] [-l LOG_HOME] [-n] [-d {info,warning,error,debug,critical}] [-z] [-i [FILE]] [work_rid]
+
+Creates and sends metadata to gb
+
+positional arguments:
+  work_rid              Work ID
+```
+---
+#### unpack
+```shell
+usage: unpack [-h] [-l LOG_HOME] [-n] [-d {info,warning,error,debug,critical}] [-z] [-i [FILE]] [src]
+
+Unpacks an artifact
+
+positional arguments:
+  src                   xxx.tar.gz.gpg file to unpack
+```
+
+Unpacks a downloaded GB processed artifact (Note that the download is not FTP,
+so there is no API to download. In 0.0.1, this is a manual operation)
+
+---
+#### gb-convert
+This is a stub function, which simulates requesting a conversion from the Google books
+web UI. It simply logs the fact that the user has checked a whole list of items to convert.
+Usually the user will have to download the list from gb, extract the image group rids, and feed them
+into this program.
+
+```shell
+usage: gb-convert [-h] [-l LOG_HOME] [-n] [-d {info,warning,error,debug,critical}] [-z] [-i [FILE]] [image_group]
+
+Requests conversion of an uploaded content image group
+
+positional arguments:
+  image_group           workRid-ImageGroupRid - no file suffixes
+```
+
+---
+#### ftp-transfer
+This is a low level utility function, which should not generally be used in the workflow.
+```shell
+usage: ftp-transfer [-h] [-l LOG_HOME] [-n] [-d {info,warning,error,debug,critical}] [-z] [-i [FILE]] [-m | -c] [-p | -g]
+                    src [dest]
+
+Uploads a file to a specific partner server, defined by a section in the config file
+
+positional arguments:
+  src                   source file for transfer
+  dest                  [Optional] destination file - defaults to basename of source
+
+optional arguments:
+                        files to read. use - for stdin
+  -m, --metadata        Act on metadata target
+  -c, --content         Act on the content target
+  -p, --put             send to
+  -g, --get             get from (NOT IMPLEMENTED)
+```
+
+
+### Launching
+Define the environment variable  `GB_CONFIG` to point to the configuration file for the project. The configuration file
+is the access point to GB's sftp host, and is tightly controlled.
+
+### Activity Tracking and Logging
+Activity tracing is the responsibility of the `log_ocr` package.
+The `log_ocr` has a public module `AORunLog.py` which contains the `AORunActivityLog` class. This class offers three
+interfaces to its clients. These are separated into two groups: `logging` implementations, and database implementations
+#### Logging
+These are Python `logging` instances, and offer the complete `logging` interface 
+- `activity_logger`
+- `runtime_logger`
+
+#### Database implementation
+The database implementation is a replacement for the activity logger, which is a simple canonical journal of GB OCR processing.
+- `activity_db_logger` This is an instance of class `log_ocr.GbOcrTrack.GbOcrTracker`. This exposes the following methods:
+  * add_content_request - Records a content process step:
+    * upload
+    * request_conversion
+    * download image groups which GB has processed
+    * distribute
+- get_ready_to_convert: Gets a list of image groups which GB has received, but we have not requested conversion
+- get_converted: Gets a list of image groups which GB has converted, but we have not downloaded.
+
+
+The property `log_ocr.AORunLog.activity_db_logger` is the replacement for the "activity" tracking log discussed below.
+It does not use the python `logging` API, but its own specific methods, which are found in `log_ocr.
+### Logging
+
+#### Log store
+The default directory for logging can be given in these directives:
+1. the current working directory is the default, in the absence of these next entries.
+2. Environment variable `RUN_ACTIVITY_LOG_HOME`.
+3. the `-l/--log_home` argument to `ftp-transfer`. Overrides the environment variable if given
+
+#### Log files
+`ftp_transfer` logs two kids of activity:
+- runtime logs, `transfer-runtime.log` describing details of an operation. The content of this log is affected by the `-d` flag.
+- activity logs. `transfer-activity.log`. They provide limited, but auditable information on: 
+  - the activity subject (metadata or content)
+  - the activity outcome (success or fail)
+It is the caller's responsibility to aggregate activity logs into a coherent view of activity.
+
+#### Log format
+##### Runtime Format
+short date time:message:content descriptor
+
+Example:
+```
+06-03 15:29:INFO:upload success /Users/jimk/dev/tmp/aog1/META/marc-W2PD17457.xml:metadata
+```
+
+#### Activity Format
+
+Date mm-DD-YYYY HH-MM-SS:operation:status:message:content descriptor
+
+Example:
+```
+06-06-2022 20-28-06:get:error:/Users/jimk/dev/tmp/aog1/META/marc-W2PD17457.xml:metadata:
+```
+
+

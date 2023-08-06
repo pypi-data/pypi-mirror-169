@@ -1,0 +1,9 @@
+[console_scripts]
+distribute-ocr = gb_ocr.distribute_ocr:distribute_main
+ftp-transfer = gb_ocr.ftp_transfer:ftp_transfer_main
+move-downloads = gb_ocr.relocate_downloads:relocate_downloads_main
+relocate-downloads = gb_ocr.relocate_downloads:relocate_downloads_maingb-convert = gb_ocr.request_conversion:request_conversion_main
+unpack = gb_ocr.unpack:unpack_main
+upload-content = gb_ocr.upload_archive:upload_archive_main
+upload-metadata = gb_ocr.upload_metadata:upload_metadata_main
+
