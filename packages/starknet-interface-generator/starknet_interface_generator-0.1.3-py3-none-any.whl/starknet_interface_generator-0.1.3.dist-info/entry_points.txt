@@ -1,0 +1,3 @@
+[console_scripts]
+starknet-interface-generator=src.cli:main
+
