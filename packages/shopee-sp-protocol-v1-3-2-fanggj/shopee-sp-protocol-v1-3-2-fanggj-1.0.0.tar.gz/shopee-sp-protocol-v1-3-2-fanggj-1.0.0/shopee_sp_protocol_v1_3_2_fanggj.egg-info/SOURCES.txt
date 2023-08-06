@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_sp_protocol_v1_3_2_fanggj.egg-info/PKG-INFO
+shopee_sp_protocol_v1_3_2_fanggj.egg-info/SOURCES.txt
+shopee_sp_protocol_v1_3_2_fanggj.egg-info/dependency_links.txt
+shopee_sp_protocol_v1_3_2_fanggj.egg-info/top_level.txt
