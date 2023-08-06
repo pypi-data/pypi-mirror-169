@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/yuritasks/__init__.py
+src/yuritasks/_assets.py
+src/yuritasks/_environment.py
+src/yuritasks/_tasker.py
+src/yuritasks.egg-info/PKG-INFO
+src/yuritasks.egg-info/SOURCES.txt
+src/yuritasks.egg-info/dependency_links.txt
+src/yuritasks.egg-info/requires.txt
+src/yuritasks.egg-info/top_level.txt

@@ -1,0 +1,305 @@
+Metadata-Version: 2.1
+Name: yuritasks
+Version: 0.0.1
+Summary: Task automation tool, automate those boring and repetitive tasks.
+Home-page: https://github.com/edo0xff/yuri
+Author: edo0xff
+Author-email: edo0xff@pronton.me
+Keywords: Task automation,Tool
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Yuri
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+A task automation tool written in python. Yuri it's an API that lets you automate those boring and repetitive commands.
+
+![Yuri Atomation tool](https://i.imgur.com/VzyxhkK.png)
+
+## Installation
+
+Install yuri with pip:
+
+```bash
+pip install yuri
+```
+
+Installing from source:
+
+```bash
+git clone <repo_url>
+cd yuri
+pip install setuptools
+pip install .
+```
+
+## Usage/Examples
+
+```python
+# task_automation.py
+import yuritasks as yuri
+
+yuri.do.var('source_dir', 'C:\\foo\bar\baz')
+
+@yuri.task
+def myproject_commit_source(_args):
+    """
+    Commit changes in my project
+    """
+    yuri.do.cd('$source_dir')\
+        .run('git add -A')\
+        .run_with_input('git commit -m "{i}"', 'Your changes: ')\
+        .run('git pull')\
+        .run('git push -u origin develop')
+
+@yuri.task
+def myproject_clean_up_source(_args):
+    """
+    Clean up pyc files from source
+    """
+    yuri.do.cd('$source_dir')
+
+    pyc_files = yuri.do.filter(yuri.do.files_list(), ['.pyc'])
+
+    yuri.do.delete(pyc_files)
+
+if __name__ == '__main__':
+    yuri.run()
+```
+
+Then run on terminal:
+
+```bash
+python task_automation.py
+```
+
+So you will be hable to see yuri's namespace menu first:
+
+![Yuri namespace menu](https://i.imgur.com/cTqStCQ.png)
+
+So choose the namespace to work on, 0 in this case, and you will se the available tasks:
+
+![Yuri tasks menu](https://i.imgur.com/RtUwyEg.png)
+
+Now just enter the task id of the task you want to run!
+
+### Tasks name conventions
+
+You should name yours tasks as follows:
+
+```python
+import yuritasks as yuri
+
+@yuri.task
+def YOURNAMESPACE_task_name(_args):
+    """Your task help here
+    """
+    pass
+
+@yuri.task
+def YOURNAMESPACE_second_task_name(_args):
+    """Your task help here
+    """
+    pass
+
+@yuri.task
+def OTHERNAMESPACE_task_name(_args):
+    """Your task help here
+    """
+    pass
+
+if __name__ == '__main__':
+    yuri.run()
+```
+
+As you may noticed, tasks' functions must be named with `namespace` then `_` undersocore and finally the task name. A namespace is a way to organize different tasks in common sections.
+
+### Task arguments
+
+You can pass arguments to your tasks via cli, just as follows:
+
+```python
+import yuritasks as yuri
+
+@yuri.task
+def foo_bar_task(args):
+    print(args)
+
+if __name__ == '__main__':
+    yuri.run()
+```
+
+When you runs bar_task put your arguments before task id:
+
+![Task arguments](https://i.imgur.com/05gFSCJ.png)
+
+![Task arguments](https://i.imgur.com/drYIu3l.png)
+
+### Extra configs
+
+You can make a shortcut to quick run your tasks automations:
+
+![Windows shorcut](https://i.imgur.com/fOPW6PA.png)
+
+## API Reference
+
+`yuri.do <yuki.Tasker object>`
+
+This object contains the command excecution methods.
+___
+
+`yuri.do.pause() -> Tasker`
+
+Tasker waits until enter key is pressed.
+___
+
+`yuri.do.waifu_print(message: str) -> Tasker`
+
+Prints an string using the waifu banner.
+
+> ### Args
+> - `string` String to display.
+___
+
+`yuri.do.log_print(message: str) -> Tasker`
+
+Prints an string but also displays the current working folder.
+
+> ### Args
+> - `string` String to display.
+___
+
+`yuri.do.ignore_errors() -> Tasker`
+
+Tasker will keep excecuting the following tasks even prev tasks could fail.
+___
+
+`yuri.do.var(name: str, val: Any=None) -> Any`
+
+Stores a var that could be used like $var_name in the tasker method arguments strings.
+
+> By example, if you set `yuri.do.var('foo_dir', 'c:\\bar')` then you can do `yuri.do.cd('$foo_dir')`.
+
+> ### Args
+> - `name` The var name. 
+> - `val` The value of the var.
+___
+
+`yuri.do.clear() -> Tasker`
+
+Clears the console.
+___
+
+`yuri.do.dirs_list() -> list`
+
+Returns the directories lists of the current working dir.
+___
+
+`yuri.do.files_list() -> list`
+
+Returns the files lists of the current working dir.
+___
+
+`yuri.do.terminate() -> None`
+
+Terminates the running task.
+___
+
+`yuri.do.cd(dir: str) -> Tasker`
+
+Changes the current working dir.
+
+> ### Args
+> - `dir` Directory to move on.
+___
+
+`yuri.do.navto(url: str) -> Tasker`
+
+Opens the url in a webbrowser.
+
+> ### Args
+> - `url` Url to open.
+___
+
+`yuri.do.run(cmd: str) -> Tasker`
+
+Excecutes a system command.
+
+> ### Args
+> - `cmd` Command to execute.
+___
+
+`yuri.do.get_input(msg: str, default: str=None, can_be_null: bool=False) -> str`
+
+Read keyboard input with an optional default value.
+
+> ### Args
+> - `msg` Text to display when input request.
+> - `default` Default value used if user do not type anything.
+> - `can_be_null` If true, input can be empty.
+
+`yuri.do.run_with_input(cmd: str, msg: str) -> Tasker`
+
+Runs a command but request an keyboard input and `{i}` string in the command line is replaced by the input result before excecute the command.
+
+> By example. `yuri.do.run_with_input("cd {i}", "Type a directory: ")`
+> will run `cd the_typed_directory`.
+
+> ### Args
+> - `cmd` Comand to run. it must contain '{i}' string to be replaced with  the input result.
+> - `msg` Message showed to request the input.
+
+`yuri.do.copy(elements: list, destiny: str) -> Tasker`
+
+Copies files or directories to the destiny directory. If
+the element that is beeing copied it's a directory its content
+will be copied recursively.
+
+> ### Args
+> - `elements` It could be a list of files, directories or both.
+> - `destiny` Path where elements will be copied.
+
+`yuri.do.delete(elements: list) -> Tasker`
+
+Deletes files or directories.
+
+> ### Args
+> - `elements` A list of files, directories or both to delete.
+
+`yuri.do.filter(elements: list, filters: list) -> list`
+
+Removes the elements from a list that does not contains any of the string in the filters list.
+
+> By example. `yuri.do.filter(["foo.png", "bar.jpg", "baz.mp3"], [" png", ".jpg"])` will return `["foo.png", "bar.png"]`.
+
+> ### Args
+> - `elements` List of elements that will be filtered.
+> - `filters` List of strings that elements must contain.
+
+`yuri.do.subprocess(cmd: str)  -> Tasker`
+
+Runs a command in a new console using a secondary thread. This means that command excecuted by this way will not interrupt tasks execution even if that command havent finished yet.
+
+## Authors
+
+- [@edo0xff](https://github.com/edo0xff)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+# CHANGELOG
+
+## Version 0.0.1 25/09/2022
+1. First release
