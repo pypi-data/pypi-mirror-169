@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/qck_pyiseasy/__init__.py
+src/qck_pyiseasy/main.py
+src/qck_pyiseasy.egg-info/PKG-INFO
+src/qck_pyiseasy.egg-info/SOURCES.txt
+src/qck_pyiseasy.egg-info/dependency_links.txt
+src/qck_pyiseasy.egg-info/top_level.txt
