@@ -1,0 +1,43 @@
+{
+  "$id": "/pub/schema/parameter.schema",
+  "title": "Simple parameter",
+  "description": "One command-line parameter",
+  "oneOf": [
+    {
+      "$ref": "/pub/schema/int.schema"
+    },
+    {
+      "$ref": "/pub/schema/float.schema"
+    },
+    {
+      "$ref": "/pub/schema/range.schema"
+    },
+    {
+      "$ref": "/pub/schema/string.schema"
+    },
+    {
+      "$ref": "/pub/schema/ints.schema"
+    },
+    {
+      "$ref": "/pub/schema/floats.schema"
+    },
+    {
+      "$ref": "/pub/schema/strings.schema"
+    },
+    {
+      "$ref": "/pub/schema/file.schema"
+    },
+    {
+      "$ref": "/pub/schema/path.schema"
+    },
+    {
+      "$ref": "/pub/schema/enum.schema"
+    },
+    {
+      "$ref": "/pub/schema/flag.schema"
+    },
+    {
+      "$ref": "/pub/schema/section.schema"
+    }
+  ]
+}
