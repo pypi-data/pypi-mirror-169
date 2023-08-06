@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/googleflay/__init__.py
+src/googleflay/exchange_rate.py
+src/googleflay.egg-info/PKG-INFO
+src/googleflay.egg-info/SOURCES.txt
+src/googleflay.egg-info/dependency_links.txt
+src/googleflay.egg-info/requires.txt
+src/googleflay.egg-info/top_level.txt

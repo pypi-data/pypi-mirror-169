@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: googleflay
+Version: 0.0.1
+Summary: A small package for scraping various google services.
+Author-email: László Torhosi <laszlotorhosi01@gmail.com>
+Project-URL: Homepage, https://github.com/bejgli/googleflay
+Project-URL: Bug Tracker, https://github.com/bejgli/googleflay/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A small package for scraping various google services.
