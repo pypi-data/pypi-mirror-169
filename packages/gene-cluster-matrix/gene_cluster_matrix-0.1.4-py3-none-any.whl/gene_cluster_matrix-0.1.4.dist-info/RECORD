@@ -1,0 +1,14 @@
+gene_cluster_matrix/__init__.py,sha256=9ge8OrtRkUaFl1jWa0APNJgbrTtrhTeo9R-MDo2_jZo,69
+gene_cluster_matrix/__main__.py,sha256=VBEy-VNH7XPx7YCgZt3vFgCfaehueJbkI2ZUk8al1Ps,66
+gene_cluster_matrix/core.py,sha256=iVId14qPUV7aOIVKfTL2k7urFYkxoXuGg_A7h_BQ3qE,3352
+gene_cluster_matrix/gff_parse.py,sha256=Y9GpacoOoOvcd-xA7C9-9dAmE2p4ivbsKz1NJQbDt6A,3481
+gene_cluster_matrix/make_plotly_data.py,sha256=bBFHfHCmHbJq5YscLkvINtJNqohSb8SIH48yYLS2-Wc,2858
+gene_cluster_matrix/make_plotly_fig.py,sha256=kAVSGq47oxDOVIBlO5oPg4P2ftiQIoDbf6Zk_Q1fL_Q,6683
+gene_cluster_matrix/make_tree.py,sha256=frEZEICNCUAz76LNrsrw5twHDbwduzOF5f7JwgO28rI,2529
+gene_cluster_matrix/parse_args.py,sha256=qmiaM4OETVQmpZPcg3QMTrCvPgymK60Jai4hPfBQg5o,1008
+gene_cluster_matrix-0.1.4.dist-info/LICENSE,sha256=vUfzKW0DoWpXSW7qjkw9R-aU2voG13oLxZfV-dPNicw,1093
+gene_cluster_matrix-0.1.4.dist-info/METADATA,sha256=hyIfWQGv11ovlPj3evPI2bjiUnQmtmAr60qSNTEFLGo,5629
+gene_cluster_matrix-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gene_cluster_matrix-0.1.4.dist-info/entry_points.txt,sha256=wDH8vXav3P4xJdcX0Lvz1865xP_wM0gdXyatvQuCYXQ,71
+gene_cluster_matrix-0.1.4.dist-info/top_level.txt,sha256=oTOawvh9jARp82SzgGynXNqeClLIRddnogb_VDDmeLA,20
+gene_cluster_matrix-0.1.4.dist-info/RECORD,,
