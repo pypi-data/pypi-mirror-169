@@ -1,0 +1,10 @@
+python_deenair_sdk/__init__.py,sha256=qHUqGJ1ETm11miieM-ePA1QGMQj4nWOr9giOoUt1H_A,19
+python_deenair_sdk/core.py,sha256=0V0Pi64KLp_11z5WDH0WXBCjth3egJgoO5CMLWUFHmQ,10781
+python_deenair_sdk/requesters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_deenair_sdk/requesters/base.py,sha256=lQsgaDKCJkYV9k1XU1GMc6huZCehQzB-E6La5RJYdFw,392
+python_deenair_sdk/requesters/core.py,sha256=MJy-4uwqvHEfQfuTflNAQbuPsUKGiqwkmwa70pOqsOA,812
+python_deenair_sdk/requesters/http.py,sha256=WQJFX0Jnv2SBknXUqEi9_txcoOU0dOh191U4qCbNqy4,1775
+python_deenair_sdk-0.0.5.dist-info/METADATA,sha256=cfCTGO5Afqpi4E8cP5xVwhDnACHN_igz76UcU9rp1bY,21233
+python_deenair_sdk-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_deenair_sdk-0.0.5.dist-info/top_level.txt,sha256=c5A2Eyz1j23-mVcf7Cu1nd9v-DAkUXLglSCOxK0KXks,19
+python_deenair_sdk-0.0.5.dist-info/RECORD,,
