@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "heap-class"
+description = 'A list-like implementation of heap/PriorityQueue'
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Michael Scott Asato Cuthbert", email = "cuthbert@mit.edu" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://github.com/mscuthbert/heap-class#readme"
+Issues = "https://github.com/mscuthbert/heap-class/issues"
+Source = "https://github.com/mscuthbert/heap-class"
+
+[tool.hatch.version]
+path = "heap_class/__init__.py"
