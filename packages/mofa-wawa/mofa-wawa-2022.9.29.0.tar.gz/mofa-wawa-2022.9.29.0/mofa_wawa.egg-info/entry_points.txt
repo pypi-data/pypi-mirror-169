@@ -1,0 +1,4 @@
+[console_scripts]
+MofaWawa = MofaWawa.__main__:main
+mofa-wawa = MofaWawa.__main__:main
+

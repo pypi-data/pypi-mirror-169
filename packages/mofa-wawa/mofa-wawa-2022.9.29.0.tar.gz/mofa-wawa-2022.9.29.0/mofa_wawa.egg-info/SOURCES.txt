@@ -1,0 +1,12 @@
+README.md
+setup.py
+MofaWawa/README.md
+MofaWawa/__init__.py
+MofaWawa/__main__.py
+MofaWawa/file.pdf
+MofaWawa/index.html
+mofa_wawa.egg-info/PKG-INFO
+mofa_wawa.egg-info/SOURCES.txt
+mofa_wawa.egg-info/dependency_links.txt
+mofa_wawa.egg-info/entry_points.txt
+mofa_wawa.egg-info/top_level.txt
