@@ -1,0 +1,13 @@
+pytest_cppython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_cppython/fixture_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_cppython/fixture_data/configuration.py,sha256=5QzNPURTfqhwxnigssL5MrTZbhAHwKOhV-R9MpHh9JI,243
+pytest_cppython/fixture_data/cppython.py,sha256=SX_j0Zu7bW4b7pYwPitGD5PrhmdR-qk8OvzB6iZTjLQ,176
+pytest_cppython/fixture_data/pep621.py,sha256=jD7badUhZAp4nIbX3HgYC0V2ozbN7-BTSH94xgkIdZo,170
+pytest_cppython/fixtures.py,sha256=F8li4ZS0ANnjWfiD017_Fw9lOwls_2O-C5-X0FAt_fY,3921
+pytest_cppython/mock.py,sha256=bhUb5uxywohkIw1-HpehZGavP_DOey4139rxKyf7EI4,5138
+pytest_cppython/plugin.py,sha256=3lIaTelRoQJiEibVsAxppZS493ULb1uteccTjHvJK5U,9986
+pytest_cppython/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_cppython-0.2.1.dev29.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+pytest_cppython-0.2.1.dev29.dist-info/METADATA,sha256=tUXffBFJvwlpLdudZ0bXtpTN7a9PHCa60XYmdSiJWpQ,558
+pytest_cppython-0.2.1.dev29.dist-info/license_files/LICENSE.md,sha256=4XhggXv6hvoEtvED0W81vVnb876ciAL5_WC9bmwgcPc,1073
+pytest_cppython-0.2.1.dev29.dist-info/RECORD,,
