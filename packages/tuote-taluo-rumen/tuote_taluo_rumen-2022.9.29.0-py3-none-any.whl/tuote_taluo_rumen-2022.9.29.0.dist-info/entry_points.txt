@@ -1,0 +1,4 @@
+[console_scripts]
+TuoteTaluoRumen = TuoteTaluoRumen.__main__:main
+tuote-taluo-rumen = TuoteTaluoRumen.__main__:main
+
