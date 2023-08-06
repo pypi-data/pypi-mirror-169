@@ -1,0 +1,63 @@
+{
+  "$id": "/pub/schema/ints.schema",
+  "title": "Array of integers parameter",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "integers"
+    },
+    "keyword": {
+      "$ref": "/pub/schema/keyword.schema"
+    },
+    "description": {
+      "$ref": "/pub/schema/desc.schema"
+    }, 
+    "required": {
+      "type": "boolean",
+      "description": "informs whether the parameter is required or not"
+    },
+    "multiple": {
+      "type": "boolean",
+      "description": "informs whether the parameter can be informed more than once"
+    },
+    "separator": {
+      "$ref": "/pub/schema/separator.schema"    
+    },
+    "placeholder": {
+      "$ref": "/pub/schema/placeholder.schema"
+    },
+    "default": {
+      "type": "integer",
+      "description": "Default ints value"
+    },
+    "value": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "/pub/schema/expression.schema"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "literal": {
+                "type": "string",
+                "description": "Array of integers"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "keyword",
+    "description",
+    "required",
+    "multiple",
+    "separator"
+  ],
+  "additionalProperties": false
+}
