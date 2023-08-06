@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: zhu2020
+Version: 1.0.0
+Summary: Data and formalisms from Zhu 2020
+Home-page: https://gitlab.com/b326/zhu2020
+Author: revesansparole
+Author-email: revesansparole@gmail.com
+License: cc_by_nc
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========================
+zhu2020
+========================
+
+.. {# pkglts, doc
+
+.. image:: https://b326.gitlab.io/zhu2020/_images/badge_doc.svg
+    :alt: Documentation status
+    :target: https://b326.gitlab.io/zhu2020/
+
+.. image:: https://b326.gitlab.io/zhu2020/_images/badge_pkging_pip.svg
+    :alt: PyPI version
+    :target: https://pypi.org/project/zhu2020/1.0.0/
+
+.. image:: https://b326.gitlab.io/zhu2020/_images/badge_pkging_conda.svg
+    :alt: Conda version
+    :target: https://anaconda.org/revesansparole/zhu2020
+
+.. image:: https://badge.fury.io/py/zhu2020.svg
+    :alt: PyPI version
+    :target: https://badge.fury.io/py/zhu2020
+
+.. #}
+.. {# pkglts, glabpkg, after doc
+
+main: |main_build|_ |main_coverage|_
+
+.. |main_build| image:: https://gitlab.com/b326/zhu2020/badges/main/pipeline.svg
+.. _main_build: https://gitlab.com/b326/zhu2020/commits/main
+
+.. |main_coverage| image:: https://gitlab.com/b326/zhu2020/badges/main/coverage.svg
+.. _main_coverage: https://gitlab.com/b326/zhu2020/commits/main
+
+prod: |prod_build|_ |prod_coverage|_
+
+.. |prod_build| image:: https://gitlab.com/b326/zhu2020/badges/prod/pipeline.svg
+.. _prod_build: https://gitlab.com/b326/zhu2020/commits/prod
+
+.. |prod_coverage| image:: https://gitlab.com/b326/zhu2020/badges/prod/coverage.svg
+.. _prod_coverage: https://gitlab.com/b326/zhu2020/commits/prod
+.. #}
+
+Data and formalisms from Zhu 2020
+
+
+
+=======
+History
+=======
+
+creation (2022-09-26)
+------------------------
+
+* First release on PyPI.
+
+
