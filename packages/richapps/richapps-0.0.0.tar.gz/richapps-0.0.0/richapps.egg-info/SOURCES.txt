@@ -1,0 +1,6 @@
+setup.py
+richapps/__init__.py
+richapps.egg-info/PKG-INFO
+richapps.egg-info/SOURCES.txt
+richapps.egg-info/dependency_links.txt
+richapps.egg-info/top_level.txt
