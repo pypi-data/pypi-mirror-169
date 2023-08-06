@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/reader/__init__.py
+src/reader/__main__.py
+src/reader/config.toml
+src/reader/feed.py
+src/reader/viewer.py
+src/test_saspersic.egg-info/PKG-INFO
+src/test_saspersic.egg-info/SOURCES.txt
+src/test_saspersic.egg-info/dependency_links.txt
+src/test_saspersic.egg-info/entry_points.txt
+src/test_saspersic.egg-info/requires.txt
+src/test_saspersic.egg-info/top_level.txt
