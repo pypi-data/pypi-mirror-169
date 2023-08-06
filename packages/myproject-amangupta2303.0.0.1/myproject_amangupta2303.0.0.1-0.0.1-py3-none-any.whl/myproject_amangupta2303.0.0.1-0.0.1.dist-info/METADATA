@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: myproject-amangupta2303.0.0.1
+Version: 0.0.1
+Summary: A short summary about your package
+Author: Aman Gupta
+Author-email: gupta.aman2303@gmail.com
+License: MIT
+Keywords: calculator,tutorial,Aman_gupta
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+This is a very simple calculator that takes two numbers and either add, subtract, multiply, or divide them.
+
+Change Log
+==========
+
+0.0.1 (27/09/2022)
+------------------
+- First Release
