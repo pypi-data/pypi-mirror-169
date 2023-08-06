@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: vmlbot
+Version: 1.0.2
+Summary: A simplified project to build machine learning projects
+Home-page: https://github.com/vkshah2987
+Author: Vishal Kumar Shah
+Author-email: vkshah2987@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: machine learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: XML
