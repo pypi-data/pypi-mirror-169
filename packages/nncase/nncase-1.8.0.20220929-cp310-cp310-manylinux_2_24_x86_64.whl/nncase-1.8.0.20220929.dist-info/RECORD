@@ -1,0 +1,17 @@
+libnncase.targets.k210.so,sha256=EHvR5yI6C1dk83ssjz0MXLtUdeEm6tS4XI7W0CAYsfw,130456
+libnncase.targets.vulkan.so,sha256=LYXe3zoL6d6uTgdb3oaqlNfkc8OE3FCLxRyruX23akg,78800
+libnncase.targets.cpu.so,sha256=Hs3e-rwnt3x-lXh85GXe-T3uKRvh0cnko4sQ5FQsGes,50568
+libnncase.so,sha256=isarwxfKdooe7g58GV0b7kdrlBI5FirH9pqpcyF875U,16668096
+_nncase.cpython-310-x86_64-linux-gnu.so,sha256=S4q6mU4Niazi9QvaH0zwirT8ujKzMtcS3OvjTyhxzE8,235064
+libnncase.modules.vulkan.so,sha256=5tDOlR3SSYbdROIPOt0nSXiFinsmqOE6rG3THH9ma8k,8760504
+libnncase.modules.k210.so,sha256=1GvnOJARe4BCmcNxlTfpOSPI6us6_wokl0HvcijMfoU,422192
+nncase/__init__.py,sha256=VbXv1ycBuBI5fjNKF9fTNxPhxyChFiV27waD1o8lPBQ,1922
+nncase/base.py,sha256=zhkoaH2tOlT44Fd-urWLreVAGInTsJhqOXJ82J8C7M8,81
+nncase/simulator.py,sha256=RUE2hzivL0zSQXWN1DW9kLxUtwZB9Mzy9LLl6d1aKbM,508
+nncase.libs/libgcc_s-a843a011.so.1,sha256=m63229qBj8w-f0UOdHi8FF7FIy3AMt10KAby4YX__ZY,556464
+nncase.libs/libstdc++-d54d9843.so.6.0.28,sha256=46QOEw3MxsHFOmoRNwHpjfnrtrwTYowqPLAkARQfhOY,2501640
+nncase-1.8.0.20220929.dist-info/top_level.txt,sha256=S_6nEOnooSRclRzthgIC297bTDVxSghNxQyc_7oNxq4,15
+nncase-1.8.0.20220929.dist-info/METADATA,sha256=3ERbkp01gUL6metU8LDRYmiQhvXIVDJmFEEyuUG_vq4,2983
+nncase-1.8.0.20220929.dist-info/RECORD,,
+nncase-1.8.0.20220929.dist-info/LICENSE,sha256=tTdrr12tvYx4LKECY4VVPqHV_33egMjqCh6wE7bWeIQ,11342
+nncase-1.8.0.20220929.dist-info/WHEEL,sha256=7L5hTRZxVi7NkeK16iBSwjWO6svAahmKFVLyJz0SER0,114
