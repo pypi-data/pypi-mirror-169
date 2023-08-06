@@ -1,0 +1,4 @@
+[console_scripts]
+ZhaohuanTianshi = ZhaohuanTianshi.__main__:main
+zhaohuan-tianshi = ZhaohuanTianshi.__main__:main
+
