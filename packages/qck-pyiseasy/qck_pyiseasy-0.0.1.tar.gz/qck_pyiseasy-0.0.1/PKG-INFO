@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: qck_pyiseasy
+Version: 0.0.1
+Summary: Make python easy AF
+Home-page: https://github.com/Tarvey/eas
+Author: tarqak
+Author-email: quaqek@gmail.com
+Project-URL: Bug Tracker, https://github.com/Tarvey/eas/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## The Python-Easy Project
+# Made by Tarvey@github quaqak@youtube
+
+## How to use it?
+# Its easy! just type "pip install easypython"
+
+## Commands
+# show - Shows text on the screen
+# iw = Prints and waits for user input.
+# docmd - Runs a command in bash or cmd.
+
+## Functions
+# iswin() - Checks if a user is on windows.
+if iswin():
+    show("Hi Windows User!")
