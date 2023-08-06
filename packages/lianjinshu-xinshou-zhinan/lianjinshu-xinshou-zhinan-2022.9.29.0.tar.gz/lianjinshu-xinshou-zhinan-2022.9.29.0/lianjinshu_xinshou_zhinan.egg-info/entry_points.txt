@@ -1,0 +1,4 @@
+[console_scripts]
+LianjinshuXinshouZhinan = LianjinshuXinshouZhinan.__main__:main
+lianjinshu-xinshou-zhinan = LianjinshuXinshouZhinan.__main__:main
+
