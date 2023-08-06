@@ -1,0 +1,2 @@
+[console_scripts]
+icortex = icortex.cli:main
