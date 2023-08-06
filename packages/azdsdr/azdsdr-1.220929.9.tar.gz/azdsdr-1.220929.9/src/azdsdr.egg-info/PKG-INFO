@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: azdsdr
+Version: 1.220929.9
+Summary: UNKNOWN
+Home-page: https://github.com/xhinker/azdsdr
+Author: Andrew Zhu
+Author-email: xhinker@hotmail.com
+License: Apache License
+Keywords: DS Data Reader
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# AZDSDR - Data Scientist's Data Reader
+
+This package includes data reader for DS to access data in a easy way. 
+
+Covered data platforms
+    * Dremio
+    * Kusto
+  
+## Prepare to use Dremio
+
+[TBD]
+
+## Prepare to use Kusto
+
+[TBD]
+
