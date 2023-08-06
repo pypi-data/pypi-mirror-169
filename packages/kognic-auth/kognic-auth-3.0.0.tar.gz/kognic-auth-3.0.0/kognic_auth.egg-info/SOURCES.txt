@@ -1,0 +1,16 @@
+README.md
+setup.py
+kognic/auth/__init__.py
+kognic/auth/credentials_parser.py
+kognic/auth/base/__init__.py
+kognic/auth/base/auth_client.py
+kognic/auth/httpx/__init__.py
+kognic/auth/httpx/async_client.py
+kognic/auth/requests/__init__.py
+kognic/auth/requests/auth_session.py
+kognic_auth.egg-info/PKG-INFO
+kognic_auth.egg-info/SOURCES.txt
+kognic_auth.egg-info/dependency_links.txt
+kognic_auth.egg-info/namespace_packages.txt
+kognic_auth.egg-info/requires.txt
+kognic_auth.egg-info/top_level.txt
