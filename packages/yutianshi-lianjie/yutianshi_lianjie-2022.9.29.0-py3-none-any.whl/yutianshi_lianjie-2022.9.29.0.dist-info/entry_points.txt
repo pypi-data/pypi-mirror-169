@@ -1,0 +1,4 @@
+[console_scripts]
+YutianshiLianjie = YutianshiLianjie.__main__:main
+yutianshi-lianjie = YutianshiLianjie.__main__:main
+
