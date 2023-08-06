@@ -1,0 +1,15 @@
+neatmesh/__init__.py,sha256=5Wus6aS1m3spjhVnJGSCCqzB_I1RSZpizb_-e4XxSeE,609
+neatmesh/_analyzer.py,sha256=PE-ncY4orrjA6MQ4zg2FEeGtm-rdktAuuYKTd_XA9Fs,13124
+neatmesh/_cli.py,sha256=9r6EwOhIH3hNeDsJEeSePKGBlykCr0oPOUy9enFTa6Y,2367
+neatmesh/_common.py,sha256=c1b9pn7JB8ELEB7AwGWNNEby6fCBsGHw77S-QC0Rm3Y,1645
+neatmesh/_exceptions.py,sha256=qFUZE2MPNzVdTLnO2YImXFpPkfIwwgLIxPfndeeeTs4,486
+neatmesh/_geometry.py,sha256=YGGvA4Y0NXTaUaCUIw79yLsz0UUcEajq7kw4nowEQWQ,12437
+neatmesh/_mesh.py,sha256=KNops3k0xrUOpsbwtqjy7oBRThHAJ5NPY4_GpBhplN4,3675
+neatmesh/_reader.py,sha256=wiP8JB4LNFHO4-guy23CSq06oC2qzNQxMF1PPYwLA-g,8268
+neatmesh/_reporter.py,sha256=g1ZosBtusX_PPhYoy_6IcuAfYDLwNx5q8bYQsqw7SrM,11903
+neatmesh-0.0.5.dist-info/LICENSE,sha256=V7MF6U1DuiNVb8PSDCAvvIqt4KwZLdxgsJQ4VpFw2DQ,1088
+neatmesh-0.0.5.dist-info/METADATA,sha256=ruR_ybtNaMxXO2DZhacHZFBz8wW_1XD3iPB428Ye33c,3732
+neatmesh-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+neatmesh-0.0.5.dist-info/entry_points.txt,sha256=e_1B-oIxA0Quc7JXktRMbXqwWgBwhWv7d_6epN2rl88,48
+neatmesh-0.0.5.dist-info/top_level.txt,sha256=TrKqCEfg2NaBImD8kPB87q4JfnSa52VZ2F5Embpj94s,9
+neatmesh-0.0.5.dist-info/RECORD,,
