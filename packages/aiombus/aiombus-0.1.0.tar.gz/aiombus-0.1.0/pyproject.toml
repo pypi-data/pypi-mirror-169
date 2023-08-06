@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aiombus"
+version = "0.1.0"
+description = ""
+authors = ["Sunke Schlüters <post@scus.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.13.0"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+pydocstyle = "^6.1.1"
+pylint = "^2.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
