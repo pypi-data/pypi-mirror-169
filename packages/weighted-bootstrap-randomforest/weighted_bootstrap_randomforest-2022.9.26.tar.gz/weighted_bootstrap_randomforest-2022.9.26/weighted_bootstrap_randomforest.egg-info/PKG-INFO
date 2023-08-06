@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: weighted-bootstrap-randomforest
+Version: 2022.9.26
+Summary: Implementations of Weighted bootstrap Random Forests classifier and regressors
+Home-page: https://github.com/jolespin/weighted_bootstrap_randomforest
+Author: Josh L. Espinoza
+Author-email: jespinoz@jcvi.org
+License: BSD-3
+License-File: LICENSE.txt
