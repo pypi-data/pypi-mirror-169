@@ -1,0 +1,9 @@
+vyper>=0.3.7
+eth-abi
+py-evm
+eth-typing
+requests
+
+[forking-recommended]
+plyvel
+ujson
