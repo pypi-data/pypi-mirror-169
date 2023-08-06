@@ -1,0 +1,15 @@
+aspxstats/__init__.py,sha256=hQmr4HbSFXEpcUp25FoNGG_6yWedaLjxeKSFZFBsgNw,386
+aspxstats/client.py,sha256=Pu1Ve2Ww-buJBRwyCGB6O4VfCkqexAsiGPXue-utvN8,9859
+aspxstats/exceptions.py,sha256=bh2MLc6zYCb8KOscWo9tTG3zWbwpoWEuMxmsaLQ_gvM,202
+aspxstats/types.py,sha256=_8cOuoqSFRbRwlQDuhUyz44sTPiUsCrCZIyJV_jF1zM,737
+aspxstats/validation.py,sha256=IgcbHD7-JPUaHBeuahV0Wx0qJzOTAQc5FjMwjNNoBv4,2140
+aspxstats/bf2/__init__.py,sha256=EJ3g6hhoZcATjt5Hn9DqadnzYDAQGMfVi_YVord0b-I,709
+aspxstats/bf2/client.py,sha256=431RHI0oDR7-KkS-sjlSReAaTz3HcH62saTE5llrtlE,9171
+aspxstats/bf2/fetch.py,sha256=AVPpupfprSdojcozcRWrgyqFPVAKblDzB430_HbWXQQ,3271
+aspxstats/bf2/schemas.py,sha256=ljRBspxldzg9QiY90-oRHhC4uj-rD-O4_5L2mQzyiT4,21113
+aspxstats/bf2/types.py,sha256=hTmqQKcgW-46IlDstc-c_Zeq2TyaGFVtUS1TogFUj14,2762
+aspxstats-0.0.1.dist-info/LICENSE,sha256=JHB31GMcl0wYIiNPxULjEEvnjlud8ecwQVH9s95MnFA,1064
+aspxstats-0.0.1.dist-info/METADATA,sha256=j6kt03ioUfGXrlh7XXzRCmgo3l7oIEk3Z9_YxcooJbg,1101
+aspxstats-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aspxstats-0.0.1.dist-info/top_level.txt,sha256=Sdln-hXIB6HmNt7rzcumL3Kq3kn4c9R6AiUvBK9N7_Y,10
+aspxstats-0.0.1.dist-info/RECORD,,
