@@ -1,0 +1,6 @@
+setup.py
+wack-client-py/__init__.py
+wack_client_py.egg-info/PKG-INFO
+wack_client_py.egg-info/SOURCES.txt
+wack_client_py.egg-info/dependency_links.txt
+wack_client_py.egg-info/top_level.txt
