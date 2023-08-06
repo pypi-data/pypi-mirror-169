@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: edl-pytorch
+Version: 0.0.2
+Summary: Evidential Learning in Pytorch
+Home-page: https://github.com/teddykoker/evidential-learning-pytorch
+Author: Teddy Koker
+Author-email: teddy.koker@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: torch
+

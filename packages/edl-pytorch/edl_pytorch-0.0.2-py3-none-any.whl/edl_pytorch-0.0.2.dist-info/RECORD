@@ -1,0 +1,8 @@
+edl_pytorch/__init__.py,sha256=Bs0CJcVpvTogAT6ESKL2Dk02K0_MDizH3-kwMkQO43o,134
+edl_pytorch/layer.py,sha256=5ewzynPt1ZeKvagvI3s-WS3cciu_gJLx4tu9f6aikds,976
+edl_pytorch/loss.py,sha256=QHT3EwIWereAHuhA5hZhOB6HmY_ha0ktgHC2Uuf3l6s,2206
+edl_pytorch-0.0.2.dist-info/LICENCE,sha256=NAh4GhXDCH5fwqjdU1QV7rgkX8hY9PaF8meSHUYIGYQ,1068
+edl_pytorch-0.0.2.dist-info/METADATA,sha256=WiCM5UohGe_pkNsqw-sLI0iI76jfhhOPcwY87w3XVzw,365
+edl_pytorch-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+edl_pytorch-0.0.2.dist-info/top_level.txt,sha256=2caYKMXkYqz8kVzd4u-dKVrkJZw7KWk8hW9_N9qwaGw,12
+edl_pytorch-0.0.2.dist-info/RECORD,,
