@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PERIGOT.egg-info/PKG-INFO
+PERIGOT.egg-info/SOURCES.txt
+PERIGOT.egg-info/dependency_links.txt
+PERIGOT.egg-info/entry_points.txt
+PERIGOT.egg-info/top_level.txt
