@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: AutoPostTelegram
+Version: 0.2.0
+Summary: An Telegram Auto Post Package
+Home-page: https://telegram.me/Aasf_CyberKing
+Author: Aasfcyberking
+Author-email: aasfvl@gmail.com
+License: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: datetime
+
+# AutoPostTelegram
+
+**A Telegram Auto Post Package**
+
+• `A Package Used To Post Memes, Gifs, Facts To Your Channel On Telegram`
+
+
+```bash
+$ python3 -m pip install -U AutoPostTelegram
+```
+
+## Example
+```To Post Anime Memes
+import asyncio
+from Stuffs import auto
+
+x = auto(TOKEN)
+
+while True:
+    x.animememe(chat="@AnimeMeme")
+    asyncio.sleep(5) #The Time Gap Of Your Post In Seconds
+    x.animememe(chat="@AnimeMeme")
+
+```
+
+
