@@ -1,0 +1,8 @@
+numpy
+colmap_wrapper
+matplotlib
+open3d
+opencv-contrib-python
+pyquaternion
+tqdm
+wget
