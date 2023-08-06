@@ -1,0 +1,3 @@
+[console_scripts]
+rdfx=rdfx.rdfx_cli:main
+
