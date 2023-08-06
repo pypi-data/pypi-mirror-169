@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: blackfox-restapi
+Version: 6.1.0
+Summary: BlackFox rest api client
+Home-page: https://github.com/vodena/BlackFoxRestApiPython
+Author: Vodena
+Author-email: 
+Keywords: BlackFox
+
+        BlackFox python client
+    
