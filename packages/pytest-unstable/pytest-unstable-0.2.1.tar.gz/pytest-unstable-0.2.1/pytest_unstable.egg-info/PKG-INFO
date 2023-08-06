@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: pytest-unstable
+Version: 0.2.1
+Summary: Set a test as unstable to return 0 even if it failed
+Home-page: https://github.com/Salamandar/pytest-unstable
+Author: Salamandar
+Author-email: felix@piedallu.me
+Maintainer: Salamandar
+Maintainer-email: felix@piedallu.me
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+===============
+pytest-unstable
+===============
+
+.. image:: https://img.shields.io/pypi/v/pytest-unstable.svg
+    :target: https://pypi.org/project/pytest-unstable
+    :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/pyversions/pytest-unstable.svg
+    :target: https://pypi.org/project/pytest-unstable
+    :alt: Python versions
+
+.. image:: https://ci.appveyor.com/api/projects/status/github/Salamandar/pytest-unstable?branch=master
+    :target: https://ci.appveyor.com/project/Salamandar/pytest-unstable/branch/master
+    :alt: See Build Status on AppVeyor
+
+
+Provides a test mark `@pytest.mark.unstable`.
+
+If tests marked as unstable fail, Pytest will still return 0. Failures will still be present in the reports.
+
+Requirements
+------------
+
+* Python >=3.6
+* `Pytest`_
+
+Installation
+------------
+
+You can install "pytest-unstable" via pip from `PyPI`_::
+
+    $ pip install pytest-unstable
+
+Usage
+-----
+
+* Mark tests as unstable `@pytest.mark.unstable`
+* If those tests fail (and no other test), pytest will return 0
+* Go read the reports to see the failures!
+
+License
+-------
+
+Distributed under the terms of the `MIT`_ license, "pytest-unstable" is free and open source software
+
+.. _`MIT`: http://opensource.org/licenses/MIT
+.. _`pytest`: https://github.com/pytest-dev/pytest
+.. _`pip`: https://pypi.org/project/pip/
+.. _`PyPI`: https://pypi.org/project
+
+
