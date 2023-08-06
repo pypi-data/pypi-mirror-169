@@ -1,0 +1,15 @@
+btl2cap/__init__.py,sha256=_Giy18EioJ9-Wh6HeoKndSQpqPy1a9OrL51Ac0zWm-I,8613
+btl2cap/bluez_l2cap.py,sha256=azXrP8ecgsYoH10oN_6rHii3-dXAswRnCVvgotApDNs,1691
+btl2cap/client.py,sha256=JeXbQ7t22rdnVXV6bVvxjqnFUlJ2UwxKsS2oAORvR7c,26495
+btl2cap/frame.py,sha256=4p4TWYdJBBcPzM6m3dIqmVLWK-OTBZOEhMFkTryUiAs,26967
+btl2cap/l2cap.py,sha256=dH712wV83b8piQH3V_uR0m8VITXDNlykpHDJYTtWIOU,88155
+btl2cap/server.py,sha256=CJtFhHb6M5X0LeMjkems8Dz9IIzTScj27l1HAaC_CL4,11075
+btl2cap/lib/libl2cap.so,sha256=82STahhg2gghY3XikCT44vuUkd1h-c_pZBnwu_chSqA,16064
+btl2cap/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+btl2cap/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=ZT621IlyRiF65tJySlgN6V8_DIwv3jCyCAS7KuhIN9w,1087608
+btl2cap/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=NgdsQ5RSqNyn6P1M3-SdYLD38eQcoD4Ep90VEnl__GU,1198080
+btl2cap-0.0.4.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+btl2cap-0.0.4.dist-info/METADATA,sha256=VDZMRk-HzLw64gib7emoZpq3atzC0cSo9G_S-yFA4Xk,812
+btl2cap-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+btl2cap-0.0.4.dist-info/top_level.txt,sha256=wpDbLBd6pvuHHeVaSILI2tmMR6vsGqLeryk3jsQ-CnQ,8
+btl2cap-0.0.4.dist-info/RECORD,,
