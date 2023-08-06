@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nerfacc
+Version: 0.1.0
+Author-email: Ruilong <ruilongli94@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: ninja (>=1.10.2.3)
+Requires-Dist: pybind11 (>=2.10.0)
+Requires-Dist: torch (>=1.12.1)
+Requires-Dist: rich (>=12)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest-xdist (==2.5.0) ; extra == 'dev'
+Requires-Dist: pyyaml ; extra == 'dev'
+Requires-Dist: typeguard (>=2.13.3) ; extra == 'dev'
+
