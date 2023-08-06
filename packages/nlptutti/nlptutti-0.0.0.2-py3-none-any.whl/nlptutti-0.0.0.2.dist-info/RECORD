@@ -1,0 +1,9 @@
+errorrates/__init__.py,sha256=3Ney_g3IOwzdtXZvnvTyjK_0zYNGQdgLA7vsbPC2M2s,390
+errorrates/asr_metrics.py,sha256=m7wcu2ow1PCAsZwcIaHpuSS55lmQ3AGParQwz6tHcMM,7537
+nlptutti/__init__.py,sha256=PkWWUP83L-a80f6C2TWWV0avDPnCMim11tYS9iusOVw,448
+nlptutti/asr_metrics.py,sha256=m7wcu2ow1PCAsZwcIaHpuSS55lmQ3AGParQwz6tHcMM,7537
+nlptutti-0.0.0.2.dist-info/LICENSE,sha256=T3vEfwAh9gmA5_vQjvVSsh9uFyFsvUxvrLu3C15ZFtU,1073
+nlptutti-0.0.0.2.dist-info/METADATA,sha256=3ssbzb3-6h7fIilE9-u-5YUBXqeFz5mdZA4afJgxEv8,6139
+nlptutti-0.0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nlptutti-0.0.0.2.dist-info/top_level.txt,sha256=hiMNAUIzt0_TZmqJ8gQDYmudm8I3gFtsaBEFXFGJb-8,9
+nlptutti-0.0.0.2.dist-info/RECORD,,
