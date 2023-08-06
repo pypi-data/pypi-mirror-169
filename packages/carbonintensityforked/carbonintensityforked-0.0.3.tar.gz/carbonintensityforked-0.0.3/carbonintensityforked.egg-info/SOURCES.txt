@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+carbonintensity/__init__.py
+carbonintensity/client.py
+carbonintensityforked.egg-info/PKG-INFO
+carbonintensityforked.egg-info/SOURCES.txt
+carbonintensityforked.egg-info/dependency_links.txt
+carbonintensityforked.egg-info/requires.txt
+carbonintensityforked.egg-info/top_level.txt
