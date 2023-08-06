@@ -1,0 +1,6 @@
+setup.py
+aviarylogging/__init__.py
+aviarylogging.egg-info/PKG-INFO
+aviarylogging.egg-info/SOURCES.txt
+aviarylogging.egg-info/dependency_links.txt
+aviarylogging.egg-info/top_level.txt
