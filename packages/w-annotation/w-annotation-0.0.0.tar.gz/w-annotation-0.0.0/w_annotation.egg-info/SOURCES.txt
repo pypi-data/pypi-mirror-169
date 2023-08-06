@@ -1,0 +1,6 @@
+setup.py
+w-annotation/__init__.py
+w_annotation.egg-info/PKG-INFO
+w_annotation.egg-info/SOURCES.txt
+w_annotation.egg-info/dependency_links.txt
+w_annotation.egg-info/top_level.txt
