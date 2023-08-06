@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: hammerdraw-setup-manager
+Version: 0.1.1
+Summary: Python tool for helping making shorter and smarter setup.py scripts
+Home-page: https://gitlab.com/hammerdraw/tools/hammerdraw-setup-manager
+Author: Peter Zaitcev / USSX Hares
+Maintainer: Peter Zaitcev / USSX Hares
+License: BSD 2-clause
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: extended-setup-tools (~=0.1.7)
+Provides-Extra: all
+Requires-Dist: lxml ; extra == 'all'
+Requires-Dist: unittest-xml-reporting ; extra == 'all'
+Provides-Extra: test
+Requires-Dist: lxml ; extra == 'test'
+Requires-Dist: unittest-xml-reporting ; extra == 'test'
+
+# HammerDraw Setup Manager
+
+Simple one-file module which defines defaults for the HammerDraw Core and HammerDraw plugins.
+
+### Usage:
+In your `setup.py`, add the following:
+
+```python
+# noinspection PyProtectedMember
+from setuptools import _install_setup_requires
+_install_setup_requires(dict(setup_requires=[ 'hammerdraw-setup-manager' ]))
+
+from hammerdraw_setup_manager import HammerDrawSetupManager
+
+HammerDrawSetupManager('hammerdraw.modules.my_plugin').setup \
+(
+    url = "https://gitlab.com/hammerdraw/my-plugin/module",
+    short_description = "An example plugin for hammerdraw",
+)
+```
+
+### See also:
+ - [Extended Setup Tools](https://gitlab.com/Hares-Lab/tools/extended-setup-tools)
+ - [HammerDraw Project](https://gitlab.com/hammerdraw)
