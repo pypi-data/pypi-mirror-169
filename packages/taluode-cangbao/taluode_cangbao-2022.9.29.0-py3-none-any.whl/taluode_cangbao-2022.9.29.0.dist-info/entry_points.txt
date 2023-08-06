@@ -1,0 +1,4 @@
+[console_scripts]
+TaluodeCangbao = TaluodeCangbao.__main__:main
+taluode-cangbao = TaluodeCangbao.__main__:main
+
