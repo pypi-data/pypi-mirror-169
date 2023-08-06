@@ -1,0 +1,8 @@
+README.md
+setup.py
+rec4torch/__init__.py
+rec4torch.egg-info/PKG-INFO
+rec4torch.egg-info/SOURCES.txt
+rec4torch.egg-info/dependency_links.txt
+rec4torch.egg-info/requires.txt
+rec4torch.egg-info/top_level.txt
