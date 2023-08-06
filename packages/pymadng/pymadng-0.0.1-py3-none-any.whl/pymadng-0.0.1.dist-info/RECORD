@@ -1,0 +1,10 @@
+examples/FODOs.py,sha256=pMhh8kk_YTUpU7qUWsCfHIL4FPuk6n1sMraY1OQC9Y0,2760
+examples/lhccouplingLocal.py,sha256=tYkuijSxmALpS7apC_yr4wePMlQnPFzljN6gxs35xM0,2669
+examples/ps-twiss.py,sha256=fyXsDsoC1vJz2g_coY0LDGTuWGzpp6Wh-md8HsrT_R4,1717
+src/__init__.py,sha256=2IphMsIICy7oKPcrys-GQhNKfM-Pv7Sx3YgDVOmbgMY,265
+src/pymadng.py,sha256=-9jCOScps9KAJ-im408v_j3IhwBrAwN6EV2E-8NbwNU,31821
+src/pymadngClasses.py,sha256=H5GqcHO9c-BbZECq-gqsLB3GsyAWMQf-VS9Gc-npCqM,2992
+pymadng-0.0.1.dist-info/METADATA,sha256=780JDrcm-bvMAOUmsAIh_PrVf0lMWhedWohH8eKh6SI,943
+pymadng-0.0.1.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+pymadng-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pymadng-0.0.1.dist-info/RECORD,,
