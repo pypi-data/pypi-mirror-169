@@ -1,0 +1,7 @@
+README.md
+setup.py
+YouTer.egg-info/PKG-INFO
+YouTer.egg-info/SOURCES.txt
+YouTer.egg-info/dependency_links.txt
+YouTer.egg-info/requires.txt
+YouTer.egg-info/top_level.txt
