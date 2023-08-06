@@ -1,0 +1,5 @@
+tensorflow==2.8.*
+rapidfuzz==1.7.1
+numpy
+pandas
+tqdm
