@@ -1,0 +1,11 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+input_timeout/requirements.txt
+input_timeout/thirdparty.json
+input_timeout.egg-info/PKG-INFO
+input_timeout.egg-info/SOURCES.txt
+input_timeout.egg-info/dependency_links.txt
+input_timeout.egg-info/top_level.txt
