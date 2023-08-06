@@ -1,0 +1,3 @@
+[console_scripts]
+root-painter-hello-world = root_painter_trainer:hello_world
+
