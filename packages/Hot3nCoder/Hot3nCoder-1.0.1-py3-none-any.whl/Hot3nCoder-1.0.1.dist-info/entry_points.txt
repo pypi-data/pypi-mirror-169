@@ -1,0 +1,3 @@
+[console_scripts]
+Hot3nCoder = Hot3nCoder.main:main
+
