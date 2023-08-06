@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyaerocom-parallelization
+Version: 0.0.5
+Summary: run pyaerocom aeroval tasks in parallel on the Met Norway PPI infrastructure
+Author: MET Norway
+Project-URL: Homepage, https://github.com/metno/pyaerocom-parallelization
+Project-URL: Bug Tracker, https://github.com/metno/pyaerocom-parallelization/issues
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyaerocom-parallelization
+project to run pyaerocom aeroval tasks in parallel on the Met Norway PPI infrastructure

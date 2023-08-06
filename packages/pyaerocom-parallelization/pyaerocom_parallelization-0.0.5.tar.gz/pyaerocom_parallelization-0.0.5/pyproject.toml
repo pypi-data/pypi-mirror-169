@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyaerocom_parallelization"
+version = "0.0.5"
+authors = [{ name = "MET Norway" }]
+description = "run pyaerocom aeroval tasks in parallel on the Met Norway PPI infrastructure"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "pyaerocom",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/metno/pyaerocom-parallelization"
+"Bug Tracker" = "https://github.com/metno/pyaerocom-parallelization/issues"
+
+[project.scripts]
+aeroval_parallelize = "aeroval_parallelize.aeroval_parallelise:main"
+aeroval_run_json_cfg = "aeroval_parallelize.aeroval_run_json_cfg:main"

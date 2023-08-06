@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/aeroval_parallelize/__init__.py
+src/aeroval_parallelize/aeroval_parallelise.py
+src/aeroval_parallelize/aeroval_run_json_cfg.py
+src/pyaerocom_parallelization.egg-info/PKG-INFO
+src/pyaerocom_parallelization.egg-info/SOURCES.txt
+src/pyaerocom_parallelization.egg-info/dependency_links.txt
+src/pyaerocom_parallelization.egg-info/entry_points.txt
+src/pyaerocom_parallelization.egg-info/requires.txt
+src/pyaerocom_parallelization.egg-info/top_level.txt
