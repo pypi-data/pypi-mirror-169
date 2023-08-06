@@ -1,0 +1,6 @@
+requests
+hmac
+random
+re
+hashlib
+pycryptodomex
