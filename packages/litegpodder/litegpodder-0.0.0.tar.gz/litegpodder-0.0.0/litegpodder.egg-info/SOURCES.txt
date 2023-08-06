@@ -1,0 +1,13 @@
+.gitignore
+README.md
+TODO
+example.py
+pyproject.toml
+setup.py
+litegpodder/__init__.py
+litegpodder/__main__.py
+litegpodder/api.py
+litegpodder.egg-info/PKG-INFO
+litegpodder.egg-info/SOURCES.txt
+litegpodder.egg-info/dependency_links.txt
+litegpodder.egg-info/top_level.txt
