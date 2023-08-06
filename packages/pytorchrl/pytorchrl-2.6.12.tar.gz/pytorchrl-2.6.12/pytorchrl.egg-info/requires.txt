@@ -1,0 +1,10 @@
+gym[atari]==0.19.0
+gym[accept-rom-license]==0.19.0
+ray[default]
+numpy
+pandas
+scipy
+lz4
+opencv-python
+wandb
+hydra-core
