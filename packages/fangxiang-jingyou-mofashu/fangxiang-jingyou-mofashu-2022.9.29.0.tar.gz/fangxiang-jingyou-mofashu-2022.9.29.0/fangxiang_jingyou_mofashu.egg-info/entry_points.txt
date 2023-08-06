@@ -1,0 +1,4 @@
+[console_scripts]
+FangxiangJingyouMofashu = FangxiangJingyouMofashu.__main__:main
+fangxiang-jingyou-mofashu = FangxiangJingyouMofashu.__main__:main
+
