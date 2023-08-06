@@ -1,0 +1,8 @@
+setup.py
+learning_path_package/__init__.py
+learning_path_package/graphics_and_evaluation.py
+learning_path_package.egg-info/PKG-INFO
+learning_path_package.egg-info/SOURCES.txt
+learning_path_package.egg-info/dependency_links.txt
+learning_path_package.egg-info/not-zip-safe
+learning_path_package.egg-info/top_level.txt
