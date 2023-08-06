@@ -1,0 +1,2 @@
+[console_scripts]
+very_simple_wordle_server = very_simple_wordle_server.main:main

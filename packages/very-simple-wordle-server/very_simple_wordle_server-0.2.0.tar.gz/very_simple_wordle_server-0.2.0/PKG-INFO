@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: very_simple_wordle_server
+Version: 0.2.0
+Summary: A very simple UDP-based Wordle server
+Home-page: https://gitlab.com/zluudg/very-simple-wordle-server
+Author: zluudg
+Author-email: 8853567-zluudg@users.noreply.gitlab.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Welcome to Very Simple Wordle Server!
