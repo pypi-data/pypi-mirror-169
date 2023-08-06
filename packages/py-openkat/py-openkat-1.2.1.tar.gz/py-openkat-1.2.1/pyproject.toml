@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "py-openkat"
+version = "1.2.1"
+packages = [{ include = "openkat" }]
+include  = ["openkat/*.py"]
+exclude = [
+    "openkat/bytes",
+    "**/.idea",
+    "**/alembic",
+    "**/node_modules",
+    "**/packaging",
+    "**/export_migrations",
+    "**/migrations",
+    "**/docs",
+    "**/.git*",
+    "**/.*ignore",
+    "**/.nvmrc",
+    "**/.sassrc",
+    "**/.flake8",
+    "**/.djlintrc",
+    "**/.editorconfig",
+    "**/Dockerfile*",
+    "**/Makefile",
+    "**/alembic.ini",
+    "**/base.yml",
+    "**/__pycache__",
+    "**/.parcel-cache",
+    "openkat/**/README.md",
+    "openkat/roeltje",
+    "openkat/**/Readme.md",
+    "openkat/**/*env-dist",
+    "openkat/**/.ci",
+    "openkat/**/LICENSE",
+    "openkat/**/requirements*.txt",
+    "openkat/**/yarn.lock",
+    "openkat/**/tests",
+    "openkat/OOI_database_seed.json",
+    "openkat/package.json",
+    "openkat/uwsgi.ini",
+    "openkat/octopoes/img/*",
+]
+
+authors = ["Donny Peeters <donny.peeters@hotmail.com>"]
+maintainers = ["Donny Peeters <donny.peeters@hotmail.com>"]
+description = "A lightweight version of OpenKAT."
+readme = "README.md"
+homepage = "https://github.com/Donnype/py-openkat"
+repository = "https://github.com/Donnype/py-openkat"
+keywords = ["OpenKAT", "Security Analysis"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+Django = "3.2.15"
+pydantic = ">=1.8.2"
+django-otp = ">=1.1.3"
+django-markdownify = ">=0.9.1"
+django-two-factor-auth = ">=1.14.0"
+django-password-validators = ">=1.7.0"
+ares = ">=0.7.1"
+beautifulsoup4 = ">=4.11.1"
+cwe = ">=1.6"
+dnspython = ">=2.1.0"
+phonenumbers = "^8.12.55"
+colorama = ">=0.4.5"
+SQLAlchemy = "^1.4.41"
+mmh3 = "^3.0.0"
+python-gettext = "^4.1"
+django-csp = ">=3.7"
+docker = "^6.0.0"
+cryptography = ">=3.4.3"
+forcediphttpsadapter = ">=1.0.2"
+pybinaryedge = ">=0.5"
+pynetdicom = "^2.0.2"
+python-libnmap = ">=0.7.3"
+python-Wappalyzer = ">=0.3.1"
+shodan = ">=1.25.0"
+wpscan-out-parse = ">=1.9.3"
+
+
+[tool.poetry.dev-dependencies]
+alembic = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
