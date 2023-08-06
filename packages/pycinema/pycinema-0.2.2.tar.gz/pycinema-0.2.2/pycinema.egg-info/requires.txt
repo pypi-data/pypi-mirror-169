@@ -1,0 +1,13 @@
+cv2
+numpy
+scipy
+h5py
+matplotlib
+py
+Pillow
+ipywidgets
+pytest
+pytest-xvfb
+moderngl<6
+opencv-python
+torch
