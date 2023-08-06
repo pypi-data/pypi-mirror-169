@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: Xby2Azure
+Version: 1.0.1
+Summary: Allows for the creation of custom pulumi resources.
+Author-email: Collin Whitlow <cwhitlow@xby2.com>
+License: Copyright 2022 X by 2        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Keywords: pulumi,xby2,azure
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pulumi (<4.0.0,>=3.0.0)
+Requires-Dist: pulumi-azure-native (<2.0.0,>=1.0.0)
+Requires-Dist: pulumi-azure
+
+## Xby2 Azure Cloud Practice Library
+#### Steps for getting started:
+* Install this package
+* Run xby2-init
+* Activate virtual environment (.\venv\Scripts\activate)
+* Install requirements (pip install -r requirements.txt)
+* Add resources to resources.json file
+* Run pulumi up (using active Azure profile)
+* Push to BitBucket repo (Coming Soon)
+
+#### VN:
+Here are the fields you can customize in KWARGS and the (defaults):  
+* "address_spaces": "full",
+* "resource_name": "test-vn",
+* "dns_servers": ["10.0.0.4", "10.0.0.5"],
+* "subnet_address_prefixes":["10.0.1.0/24", "10.0.2.0/24"],
+* "subnet_names":["test-subnet-0", "test-subnet-1"]
+
+#### Security Group:
+Here are the fields you can customize in KWARGS and the (defaults):  
+* "resource_name": "test-security-group"
+
+#### LB:
+Here are the fields you can customize in KWARGS and the (defaults):  
+* resource_name (test-lb)
+
+#### VM:
+Here are the fields you can customize in KWARGS and the (defaults):  
+* "resource_name": "test-vm",
+* "network_interface_name": "network_interface",
+* "private_ip_address_allocation": "Dynamic",
+
+* "subnet_id": "test-subnet-0",
+
+* "vm_size": "Standard_DS1_v2",
+
+* "sod_name": "test_storage_os_disk",
+* "sod_caching": "ReadWrite",
+* "sod_create_option": "FromImage",
+* "sod_managed_disk_type": "Standard_LRS"
+
+#### DB:
+Here are the fields you can customize in KWARGS and the (defaults):  
+* "resource_name": "test-db",
+* "server_name": "erase-me"
+
+#### Blob:
+Here are the fields you can customize in KWARGS and the (defaults):    
+* "resource_name": "testblob",
+* "storage_account_name": "testaccount",
+* "storage_container_name": "testcontainer",
+* "type": "Page",
+* "size": 512
+
+#### App Service
+* "resource_name": "test-app-service"
+
+#### Nat Gateway
+* "resource_name": "test-nat-gateway"
+
+#### Resource Group
+Resource groups are presently the only resource where an existing instance can be retrieved from Azure as a part of our default library. This can be accomplished using an additional boolean in the resource group entry of the config file. When this variable (called "does_exist") is set to true, the program will attempt to retrieve the resource group that corresponds to the parameters provided in the overrides dictionary. The only required parameters are "resource_name" and "id" but you can feel free to include the others described in the documentation.
+
+#### SSIS IR
+* "resource_name": "test-ssis-ir",
+* "data_factory_id": "test-data-factory",
+* "node_size": "Standard_D1_v2",
+* "location": "eastus2"
+
+#### Virtual Network Peering
+* "resource_name": "test-ssis-ir",
+* "remote_virtual_network_id": "test",
+* "virtual_network_name": "test"
+
+#### Adding Resources:
+Keep the order of declaration in mind. For example, the resource group, followed by the VN should likely be the first things declared. When using the options above, the resource will use require a "module", which will refer to a file within the BaseAzure folder, a "resource_name", which will be the name of one of our custom classes, "overrides", which will be a list of any parameters that we want changed from the default values, and a boolean: "req_vn". This will indicate whether a particular resource will need us to pass in a vn. Additionally, we can create resources that we haven't customized. This will require a "module", which will probably begin with "pulumi_azure.", the "resource_name", which will be a class within said module, "overrides", which will consist of **all** of the parameters needed for this resource, and the aforementioned booleans. Below is an example of an item in the resources list:  
+```json
+{
+    "module": "BaseAzure.vm",
+    "resource_name": "BaseVM",
+    "overrides": {},
+    "req_vn": true
+}
+```
+
+#### Resource Booleans
+| Resource | req_vn |
+| --- | ----------- |
+| BaseBlob | false | 
+| BaseDB | false |
+| BaseSecurityGroup | true |
+| BaseVM | true |
+| BaseVN | false | 
+| BaseLB | false | 
+| BaseResourceGroup | false |
+| BaseSSIS | false |
+| BaseVirtualNetworkPeering | false | 
+| BaseNatGateway | false | 
+| BaseAppService | false |  
