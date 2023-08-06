@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+xlsxColumnRow/__init__.py
+xlsxColumnRow/randomSamples.py
+xlsxColumnRow/xlsxColumnRow.py
+xlsxColumnRow.egg-info/PKG-INFO
+xlsxColumnRow.egg-info/SOURCES.txt
+xlsxColumnRow.egg-info/dependency_links.txt
+xlsxColumnRow.egg-info/requires.txt
+xlsxColumnRow.egg-info/top_level.txt
