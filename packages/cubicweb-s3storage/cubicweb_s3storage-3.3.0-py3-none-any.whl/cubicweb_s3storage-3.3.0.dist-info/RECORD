@@ -1,0 +1,14 @@
+cubicweb_s3storage/__init__.py,sha256=AqMNPjPLc2CnwfOcW0ln7THN5qcy3cfEE3PzIlj1xAY,93
+cubicweb_s3storage/__pkginfo__.py,sha256=PdIe1MAvYcHiMintpp8o7pUXSZNrOfvdUNaugIdpbsc,736
+cubicweb_s3storage/site_cubicweb.py,sha256=RGiEKtGOq8YvMYC62bKblQnf0rKBorMH6yoWK-NSWG8,1430
+cubicweb_s3storage/storages.py,sha256=QOi3X-6UUuth1rLWKb4juMN5EZRYHYb8kdvKEuIuyTY,11741
+cubicweb_s3storage/testing.py,sha256=AoK_FckdG7Ts8OLKOJRnQ5dd5UXosDgjGYvU_4ivBz0,824
+cubicweb_s3storage/i18n/en.po,sha256=EGZckSBeIJYkvhpjL4dCLHF8-iJCJ6nD0oHu7LmyIW4,248
+cubicweb_s3storage/i18n/es.po,sha256=EGZckSBeIJYkvhpjL4dCLHF8-iJCJ6nD0oHu7LmyIW4,248
+cubicweb_s3storage/i18n/fr.po,sha256=EGZckSBeIJYkvhpjL4dCLHF8-iJCJ6nD0oHu7LmyIW4,248
+cubicweb_s3storage/migration/postcreate.py,sha256=cBeZxhw21H9Fkke-9DPYft86SYrmDcTnexa217Kjjuo,1092
+cubicweb_s3storage-3.3.0.dist-info/METADATA,sha256=wwuiQaXsx43OJWqz2OofBdszmBbOoI-SggNslr04QH8,3166
+cubicweb_s3storage-3.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cubicweb_s3storage-3.3.0.dist-info/entry_points.txt,sha256=IWmv_HQ4CcDChuj-an0h2ovBFQFdnNv8F-n5EYzZQy0,48
+cubicweb_s3storage-3.3.0.dist-info/top_level.txt,sha256=vdc22ETa4vAq2Y4QLkKtwQQG415KQnX5kB2SDJCC7Vg,19
+cubicweb_s3storage-3.3.0.dist-info/RECORD,,
