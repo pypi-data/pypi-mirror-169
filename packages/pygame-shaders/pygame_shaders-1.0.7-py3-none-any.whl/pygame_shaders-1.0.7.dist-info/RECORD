@@ -1,0 +1,9 @@
+pygame_shaders/__init__.py,sha256=nUxrfFTFJNeadSL2Ncrif_ovao423FaW7JDhiSa9tpw,55
+pygame_shaders/pygame_shaders.py,sha256=7oX5JWCxWqopqtSXSdATnxrI7NELAm6jz_Y_26VXeCU,1537
+pygame_shaders/screen_rect.py,sha256=izygCTz0P_Adx3L85DU1vaPlU_ApqlutsLBNaUO_oCo,1379
+pygame_shaders/shader_utils.py,sha256=e7JmhMie9Y07c-H0tBi1oy_KVeqjyg9obDxQL_ciX8I,473
+pygame_shaders/texture.py,sha256=Zxnk5wzo9KbXHlH0WvSzt5DMm4bz4AH4lDhNSZ00Y3g,972
+pygame_shaders-1.0.7.dist-info/METADATA,sha256=bWGfq5PSd_7-NCr5Oh_SQ6yBeJvsFskXjC6GmDcw4ys,8526
+pygame_shaders-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygame_shaders-1.0.7.dist-info/top_level.txt,sha256=Ku3EWCMgZeyKd6j9y5NuBqmZ27Dp-aPrpbcXEVyoroI,15
+pygame_shaders-1.0.7.dist-info/RECORD,,
