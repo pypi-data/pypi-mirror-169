@@ -1,0 +1,6 @@
+setup.py
+wf-bam-services/__init__.py
+wf_bam_services.egg-info/PKG-INFO
+wf_bam_services.egg-info/SOURCES.txt
+wf_bam_services.egg-info/dependency_links.txt
+wf_bam_services.egg-info/top_level.txt
