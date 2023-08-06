@@ -1,0 +1,6 @@
+setup.py
+w-versioned-arelle/__init__.py
+w_versioned_arelle.egg-info/PKG-INFO
+w_versioned_arelle.egg-info/SOURCES.txt
+w_versioned_arelle.egg-info/dependency_links.txt
+w_versioned_arelle.egg-info/top_level.txt
