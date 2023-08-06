@@ -1,0 +1,11 @@
+[console_scripts]
+all=scripts:all
+black=scripts:black
+flake=scripts:flake
+format=scripts:format
+irclm=irclm.irclm:main
+isort=scripts:isort
+pylint=scripts:pylint
+pytest=scripts:pytest
+tests=scripts:tests
+
