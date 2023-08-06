@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+multiprocess_profiler/__init__.py
+multiprocess_profiler/profiler.py
+multiprocess_profiler.egg-info/PKG-INFO
+multiprocess_profiler.egg-info/SOURCES.txt
+multiprocess_profiler.egg-info/dependency_links.txt
+multiprocess_profiler.egg-info/requires.txt
+multiprocess_profiler.egg-info/top_level.txt
