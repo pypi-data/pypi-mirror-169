@@ -1,0 +1,13 @@
+opticr/__init__.py,sha256=RUCehmjp_3IoRxbNwKmFwrS__I37RNltfuWplKwFzLM,27
+opticr/fetchdocument.py,sha256=ztPSFfVDp6sJswPYoaDcsVF9gf9kRnqsJGhL-khzqsI,1630
+opticr/ocr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opticr/ocr/baseocr.py,sha256=1jN64sNj1sHzc5-g770ZRNsRDsekm6NPKBah3UWXk9s,307
+opticr/ocr/googlevision.py,sha256=vl77-uAFmmCyxp3-jNqTE5MQRuQ_n6ErfaF7bWkZK9s,270
+opticr/ocr/tesseract.py,sha256=9SYuc8WAE8DRDeCXc-PV3T6FY82-CsOXC8nLuhT7PuA,693
+opticr/ocr/textract.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opticr/opticr.py,sha256=27cE7dqKiYSeGdx6ukJ7Ns9VF19E7vlVXGCRScbcmJ8,615
+opticr/utils.py,sha256=GWa9JDaFTKPPVK-gWclniItis8HnjApnNhRg4t5WnHg,192
+opticr-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opticr-0.2.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+opticr-0.2.0.dist-info/METADATA,sha256=uk8pPEOkHftHr2qb-U3RoVvVHAz_U1qxDGHRoUBpANw,2131
+opticr-0.2.0.dist-info/RECORD,,
