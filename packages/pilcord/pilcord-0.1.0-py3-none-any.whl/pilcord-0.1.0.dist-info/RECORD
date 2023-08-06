@@ -1,0 +1,11 @@
+pilcord/__init__.py,sha256=7VmrXaHbF-GajYNjqCnck2qe9Md9ZBpbcjZeZ1NVYp4,123
+pilcord/assets/curveborder.png,sha256=Vu4CNmEeyqKCyP958EAQHuR7F59759j27TebiC6lYh4,842
+pilcord/assets/curvedoverlay.png,sha256=U904d5jadyBUwWe8VBhLtZXWm76n_Iv8mMj6oxOnTj4,2596
+pilcord/assets/levelfont.otf,sha256=2Xk9Oryv4dhlOEQuHjEWYBoW9ivo2w1TE2R5JGyN6Ug,60288
+pilcord/assets/mask_circle.jpg,sha256=6ugtjSw04mc64DwVN4I1BKh6STyd_PiiMBYevdo0otI,9742
+pilcord/assets/overlay1.png,sha256=3ieJKlnGFzFVVamr35v41537t5d3Cqds4qPyW1v5O3A,6394
+pilcord/error.py,sha256=9darA-vOLaOg5mhyRFzyF1pbzvoadhml66WfzsKYzFQ,487
+pilcord/ranking_card.py,sha256=u1xTjaFNMm4Q3sosLng_jEdwYMZmMC3REZaFJas_5X0,13853
+pilcord-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pilcord-0.1.0.dist-info/METADATA,sha256=ipUgnM5_SAg1gNUsNLpVmoZ-jQ5rgrcA4WlkFulOEW8,956
+pilcord-0.1.0.dist-info/RECORD,,
