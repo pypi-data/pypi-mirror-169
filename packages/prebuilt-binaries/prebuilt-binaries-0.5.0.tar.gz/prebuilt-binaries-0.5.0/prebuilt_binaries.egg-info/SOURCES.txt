@@ -1,0 +1,12 @@
+LICENSE
+README.md
+README.rst
+prebuilt_binaries.py
+pyproject.toml
+setup.cfg
+prebuilt_binaries.egg-info/PKG-INFO
+prebuilt_binaries.egg-info/SOURCES.txt
+prebuilt_binaries.egg-info/dependency_links.txt
+prebuilt_binaries.egg-info/entry_points.txt
+prebuilt_binaries.egg-info/requires.txt
+prebuilt_binaries.egg-info/top_level.txt
