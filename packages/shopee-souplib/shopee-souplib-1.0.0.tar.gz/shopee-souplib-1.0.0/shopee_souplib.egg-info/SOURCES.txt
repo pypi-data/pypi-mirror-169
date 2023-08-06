@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_souplib.egg-info/PKG-INFO
+shopee_souplib.egg-info/SOURCES.txt
+shopee_souplib.egg-info/dependency_links.txt
+shopee_souplib.egg-info/top_level.txt
