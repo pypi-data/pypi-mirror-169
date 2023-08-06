@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+src/db_manager_py.egg-info/PKG-INFO
+src/db_manager_py.egg-info/SOURCES.txt
+src/db_manager_py.egg-info/dependency_links.txt
+src/db_manager_py.egg-info/top_level.txt
