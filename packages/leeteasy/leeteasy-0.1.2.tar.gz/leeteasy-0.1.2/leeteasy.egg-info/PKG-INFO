@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: leeteasy
+Version: 0.1.2
+Summary: Desktop notification of easy daily challenge of leetcode.
+Home-page: https://github.com/sudiptob2/leet-easy
+Author: Sudipto Baral
+Author-email: sudiptobaral.me@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LeetEasy
+Desktop notification for easy daily challenges in [leetcode](https://leetcode.com/).
+
+We all know Leetcode's daily challenges are awesome :sunglasses: However, sometimes these challenges are quite difficult for people who are just starting out problem-solving 	:smiling_face_with_tear:  
+This tool will send desktop notification when an **Easy** daily problem is published. This way you won't miss any opportunity to grab some easy **Leetcoins** :coin:
+
+# Contribution guideline
+
+If you like this project and want to improve by adding features, fixing bugs or anything, please follow
+the [contributing guidelines](docs/CONTRIBUTING.md).
