@@ -1,0 +1,9 @@
+schemodel/__init__.py,sha256=qh3Fn7GdOzrfyjWrHFW5fI_-4uKM7lkz1THZUvB14uc,152
+schemodel/base_item.py,sha256=Ai8Qur1_KJebSP_Os81BUxC662TkzjFpyjYtzay-fXw,1571
+schemodel/model_mongo_t.py,sha256=e5k8UbUnL96A97mQ06sGdRNSw0SGHJRmUIsXDj2UyjM,672
+schemodel/model_mysql_t.py,sha256=amSkdGXzN6z1ZvtpZ6VIHlFiNzfGrfBfaJDRJ3r4AoU,625
+schemodel-1.1.1.dist-info/METADATA,sha256=zKltG4NgymgH6k8qWHMjC-5NH8iCL3FGWNe58tZ_7TY,1061
+schemodel-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+schemodel-1.1.1.dist-info/entry_points.txt,sha256=cPmnI7hsqDqxX_JRmgENYQps_6JJkVVZajurIW7Ay50,63
+schemodel-1.1.1.dist-info/top_level.txt,sha256=BSF0_FAXMLRutCGnB7Uncizmz2I7ZBE367IpRPoSmfU,10
+schemodel-1.1.1.dist-info/RECORD,,
