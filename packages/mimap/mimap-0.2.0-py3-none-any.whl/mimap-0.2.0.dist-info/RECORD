@@ -1,0 +1,12 @@
+mimap/__init__.py,sha256=CYaV1bgWHGAq5mFNtJt5Ht83HBOgi4ZizRWzxINf4kM,79
+mimap/block.py,sha256=u6sVRqNuFE_FibICoMS0SQSovtHUZESLodwKIALRU2g,21276
+mimap/highlevel.py,sha256=cNHYJp6rh7VktYRmK_EpAv_Sr82Kl9MAP0N9Qz7zcRQ,9630
+mimap/item.py,sha256=y01x7nN-FyM0UrMEXMedfLnVcUEKWZLr4yiblqvQbxo,6330
+mimap/metadata.py,sha256=NdgXRV-GXhIBV5RTOC6MJooLZANbHBsfFMZTqwVsPiE,1614
+mimap/priority.py,sha256=g9RL5BjHChcictzLyzH-WL0UTXzELHU88lNQ6PX2I9c,1766
+mimap/reference.py,sha256=je815XfzshGXx-dI-748813viHhvK4wWomUOCqwZFDw,1500
+mimap-0.2.0.dist-info/LICENSE,sha256=BG77YuGBfCBGn9u4ZDNez1RUdIQju_eU8opfKUIRpoE,1083
+mimap-0.2.0.dist-info/METADATA,sha256=_v_477HdHp14bhCAA_u9GyESOBBL4ZmOHpDf2WpLPX4,6983
+mimap-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mimap-0.2.0.dist-info/top_level.txt,sha256=6DIza94j5bG46Z2EWUFC7eUnh_R5ZC6BSGHBsyW3Nyo,6
+mimap-0.2.0.dist-info/RECORD,,
