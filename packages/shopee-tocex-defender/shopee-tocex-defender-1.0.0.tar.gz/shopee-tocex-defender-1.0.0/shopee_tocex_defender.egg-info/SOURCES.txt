@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_tocex_defender.egg-info/PKG-INFO
+shopee_tocex_defender.egg-info/SOURCES.txt
+shopee_tocex_defender.egg-info/dependency_links.txt
+shopee_tocex_defender.egg-info/top_level.txt
