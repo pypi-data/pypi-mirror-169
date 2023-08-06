@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vktrs
+Version: 0.0.1
+Summary: Video Killed The Radio Star
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: api
+License-File: LICENSE
+
+# video-killed-the-radio-star
+
+## Requirements
+
+* ffmpeg
+* pytorch
+* stability_sdk api token
+* whisper - `pip install git+https://github.com/openai/whisper`
