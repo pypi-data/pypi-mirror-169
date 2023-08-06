@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ddb-single
+Version: 0.1
+Summary: Python DynamoDB interface, specialized in single-table design.
+Home-page: https://github.com/medaka0213/DynamoDB-SingleTable
+Author: medaka
+License: MIT
+Keywords: aws dynamodb serverless
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: boto3
+
+UNKNOWN
+
