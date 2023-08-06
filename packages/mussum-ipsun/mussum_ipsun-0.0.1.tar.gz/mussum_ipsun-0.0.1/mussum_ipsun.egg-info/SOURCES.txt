@@ -1,0 +1,9 @@
+README.md
+setup.py
+mussum_ipsun/__init__.py
+mussum_ipsun/create.py
+mussum_ipsun/generate_ipsum.py
+mussum_ipsun.egg-info/PKG-INFO
+mussum_ipsun.egg-info/SOURCES.txt
+mussum_ipsun.egg-info/dependency_links.txt
+mussum_ipsun.egg-info/top_level.txt
