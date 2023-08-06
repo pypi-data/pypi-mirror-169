@@ -1,0 +1,2 @@
+[console_scripts]
+applyx = applyx.command:main

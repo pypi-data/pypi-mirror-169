@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: applyx
+Version: 0.0.1
+Summary: ApplyX
+Author: liangyongxiong
+Author-email: me@liangyongxiong.cn
+License: MIT
+Keywords: applyx
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: attrdict
+Requires-Dist: tqdm
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
