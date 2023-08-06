@@ -1,0 +1,6 @@
+django>=2.2
+djangorestframework
+djangorestframework-simplejwt
+drf-yasg
+httpx
+rest-api-payload
