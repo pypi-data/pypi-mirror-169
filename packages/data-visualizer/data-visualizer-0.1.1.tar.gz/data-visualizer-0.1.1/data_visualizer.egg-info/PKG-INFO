@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: data-visualizer
+Version: 0.1.1
+Summary: Python program that visualizes data from a .csv file.
+Home-page: https://github.com/AsleyR/Data-Visualizer
+Author: Asley R.
+Author-email: asleyrobleto@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,data,csv,visualization,data visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
