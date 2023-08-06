@@ -1,0 +1,17 @@
+beautifulsoup4
+certifi
+cffi
+chardet
+cryptography
+filelock
+idna
+pdfminer.six
+pycparser
+requests
+requests-file
+selenium
+six
+sortedcontainers
+soupsieve
+tqdm
+urllib3
