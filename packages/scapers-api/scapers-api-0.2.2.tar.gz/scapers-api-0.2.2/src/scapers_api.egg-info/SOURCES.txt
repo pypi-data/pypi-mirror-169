@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/scapers_api/__init__.py
+src/scapers_api/request.py
+src/scapers_api/scapers_api.py
+src/scapers_api.egg-info/PKG-INFO
+src/scapers_api.egg-info/SOURCES.txt
+src/scapers_api.egg-info/dependency_links.txt
+src/scapers_api.egg-info/requires.txt
+src/scapers_api.egg-info/top_level.txt
