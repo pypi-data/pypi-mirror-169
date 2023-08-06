@@ -1,0 +1,4 @@
+[console_scripts]
+BaolingxinTaluoJiehuoGushipai = BaolingxinTaluoJiehuoGushipai.__main__:main
+baolingxin-taluo-jiehuo-gushipai = BaolingxinTaluoJiehuoGushipai.__main__:main
+
