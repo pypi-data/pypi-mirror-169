@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+BFPAPERdbhandler.egg-info/PKG-INFO
+BFPAPERdbhandler.egg-info/SOURCES.txt
+BFPAPERdbhandler.egg-info/dependency_links.txt
+BFPAPERdbhandler.egg-info/requires.txt
+BFPAPERdbhandler.egg-info/top_level.txt
+bfdbhandler/__init__.py
+bfdbhandler/dbhandler.py
