@@ -1,0 +1,5 @@
+setup.py
+resoto_plugin_posthog.egg-info/PKG-INFO
+resoto_plugin_posthog.egg-info/SOURCES.txt
+resoto_plugin_posthog.egg-info/dependency_links.txt
+resoto_plugin_posthog.egg-info/top_level.txt
