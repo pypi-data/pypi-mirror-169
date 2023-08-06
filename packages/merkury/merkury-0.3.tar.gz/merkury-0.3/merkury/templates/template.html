@@ -1,0 +1,87 @@
+{% macro markdown(content) %}
+    <div>{{ content|markdown }}</div>
+{% endmacro %}
+
+<!DOCTYPE html>
+<html lang="en" data-theme="{{ color_theme }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ file_name }}</title>
+    <style>
+        {% include "assets/pico.min.css" %}
+    </style>
+    {% if format=="html" %}
+        {% if color_theme=="dark" %}
+            <style id="prism-dark">
+        {% else %}
+            <style id="prism-dark" media="max-width: 1px">
+        {% endif %}
+            {% include "assets/prism-night.css" %}
+        </style>
+        {% if color_theme=="dark" %}
+            <style id="prism-light" media="max-width: 1px">
+        {% else %}
+            <style id="prism-light">
+        {% endif %}
+            {% include "assets/prism-default.css" %}
+        </style>
+    {% endif %}
+    <style>
+        {% include "assets/merkury.css" %}
+    </style>
+    <script>
+        {% include "assets/merkury.js" %}
+    </script>
+</head>
+<body>
+    <main class="container">
+        <nav class="head">
+            <ul>
+                <li>
+                    <hgroup>
+                        <h1>{{ file_name }}</h1>
+                        <h3>{{ timestamp }}</h3>
+                    </hgroup>
+                </li>
+            </ul>
+            {% if format=="html" %}
+                <ul>
+                    <li><button class="secondary" onclick="change_theme()">Dark/Light</button></li>
+                </ul>
+            {% endif %}
+        </nav>
+    {% for chunk in chunks %}
+        <div class="code-block">
+            {% if format=="html" %}
+                <details>
+            {% else %}
+                <details open>
+            {% endif %}
+                <summary>Source code</summary>
+                <pre><code class="language-python">{{ chunk.in|e }}</code></pre>
+            </details>
+            <details open>
+                <summary>Output</summary>
+                {% if chunk.html %}
+                    <object>{{ chunk.out }}</object>
+                {% elif chunk.markdown %}
+                    {{ markdown(chunk.out) }}
+                {% else %}
+                    <pre><code class="language-python">{{ chunk.out|e }}</code></pre>
+                {% endif %}
+            </details>
+        </div>
+    {% endfor %}
+        <footer class="container foot">
+            <small>Page generated with <a target="_blank" rel="noopener noreferrer" href="https://github.com/ppatrzyk/merkury">Merkury</a> v{{ version }}.</small>
+        </footer>
+    </main>
+    {% if format=="html" %}
+        <script>
+            {% include "assets/prism.js" %}
+        </script>
+    {% endif %}
+</body>
+</html>
