@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+lickit/CLI.py
+lickit/__init__.py
+lickit/tools.py
+lickit/version.py
+lickit.egg-info/PKG-INFO
+lickit.egg-info/SOURCES.txt
+lickit.egg-info/dependency_links.txt
+lickit.egg-info/entry_points.txt
+lickit.egg-info/not-zip-safe
+lickit.egg-info/top_level.txt
