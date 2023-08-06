@@ -1,0 +1,42 @@
+# manuscriptify
+
+Compile google docs into a manuscript
+
+
+## Installation and Setup
+
+1.  Install manuscriptify
+
+        $ python3 -m venv .venv
+        $ source .venv/bin/activate
+        $ pip install manuscriptify
+
+2.  Setup your project
+
+        $ cat << EOF >> ~/.zshrc
+
+        # manuscriptify project config
+        export MSFY_SOURCE='my awesome novel'
+        export MSFY_PSEUDONYM='Joe Bloggs'
+        export MSFY_CATEGORY='YA' # Adult/Middle School/etc
+        export MSFY_GENRE='Adventure Fantasy'
+        export MSFY_TITLE='My Awesome Novel'
+        export MSFY_REPLY_TO='Addressee for return correspondence'
+        export MSFY_EMAIL='me@here.there'
+        export MSFY_PHONE='555 8732'
+        export MSFY_STREET1='Address for return correspondence'
+        export MSFY_STREET2='Address line 2'
+        EOF
+
+        $ source ~/.zshrc
+
+
+## Usage
+
+    $ manuscriptify
+    My Awesome Novel was manuscriptified
+
+    # The contents of your project folder were
+    # joined together and placed in a new file
+    # in the manuscriptify folder in your
+    # google drive.
