@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+lqs-client/__init__.py
+lqs-client/__main__.py
+lqs_client.egg-info/PKG-INFO
+lqs_client.egg-info/SOURCES.txt
+lqs_client.egg-info/dependency_links.txt
+lqs_client.egg-info/top_level.txt
