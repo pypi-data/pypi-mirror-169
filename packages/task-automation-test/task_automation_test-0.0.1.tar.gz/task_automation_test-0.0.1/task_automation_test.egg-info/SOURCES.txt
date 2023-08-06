@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+task_automation_test/__init__.py
+task_automation_test.egg-info/PKG-INFO
+task_automation_test.egg-info/SOURCES.txt
+task_automation_test.egg-info/dependency_links.txt
+task_automation_test.egg-info/not-zip-safe
+task_automation_test.egg-info/top_level.txt
