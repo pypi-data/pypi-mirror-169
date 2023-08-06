@@ -1,0 +1,3 @@
+[airflow.plugins]
+aeroscope=astronomer.aeroscope.plugins:AeroscopePlugin
+
