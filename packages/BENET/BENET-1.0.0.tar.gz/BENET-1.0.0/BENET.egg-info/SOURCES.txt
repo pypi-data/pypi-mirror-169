@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BENET.egg-info/PKG-INFO
+BENET.egg-info/SOURCES.txt
+BENET.egg-info/dependency_links.txt
+BENET.egg-info/entry_points.txt
+BENET.egg-info/top_level.txt
