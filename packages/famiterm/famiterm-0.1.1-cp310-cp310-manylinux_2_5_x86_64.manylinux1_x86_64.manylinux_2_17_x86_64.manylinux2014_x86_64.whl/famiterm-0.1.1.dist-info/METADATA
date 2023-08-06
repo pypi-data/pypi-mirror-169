@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: famiterm
+Version: 0.1.1
+Summary: A NES emulator running in the terminal
+Home-page: https://github.com/vxgmichel/famiterm
+Author: Vincent Michel
+Author-email: vxgmichel@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: gambaterm (>=0.12.0)
+Provides-Extra: controller-support
+Requires-Dist: pygame (>=1.9.5) ; extra == 'controller-support'
+
+famiterm
+--------
+
+A NES emulator running in the terminal.
+
+It uses the [gambaterm](https://github.com/vxgmichel/gambatte-terminal) frontend.
+
+Also, it only runs Super Mario Bros.
