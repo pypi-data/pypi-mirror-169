@@ -1,0 +1,26 @@
+[Version 0.0.2 (2022-09-26)](https://pypi.org/project/control-tmux/0.0.2/)
+============================
+
+* Add --setup option and argcomplete support ([83cb960](https://gitlab.com/ktpanda/control-tmux/-/commit/83cb96089528d25bbf04fd829d8d78cb0932240a))
+* Refactor to use pathlib and clean up ([239c8ce](https://gitlab.com/ktpanda/control-tmux/-/commit/239c8ce98f0d6885274c83a0fcedc02a265b82ed))
+
+
+[Version 0.0.1 (2022-09-26)](https://pypi.org/project/control-tmux/0.0.1/)
+============================
+
+* Convert to using setuptools ([6229cb7](https://gitlab.com/ktpanda/control-tmux/-/commit/6229cb702a3529ca27af6191e6825a4b995f5b8a))
+
+
+Version 0.0.0
+============================
+
+* Add preliminary support for remote tmux sessions ([51ff8ac](https://gitlab.com/ktpanda/control-tmux/-/commit/51ff8ac43801bb61d41108b98cb1b9cdb1e6e290))
+* Clean up PROMPT_COMMAND after restore ([5103ef0](https://gitlab.com/ktpanda/control-tmux/-/commit/5103ef0e68072eeb3da54f4c573d503c0d5e225e))
+* Update installer to support .bashrc.d ([f660e48](https://gitlab.com/ktpanda/control-tmux/-/commit/f660e48fc912255126362411931215c0d3b2e54a))
+* Update tmux.setup.sh to be more compatible and make it idempotent ([70e5e27](https://gitlab.com/ktpanda/control-tmux/-/commit/70e5e2704d61df619732110675f69eff5cb37af3))
+* Actually add tmux.default.conf-tmux-2.0 this time ([5dc7af9](https://gitlab.com/ktpanda/control-tmux/-/commit/5dc7af99dcccba36d5aced624b2d101c0a66a56e))
+* Author name change ([5a183a8](https://gitlab.com/ktpanda/control-tmux/-/commit/5a183a874072ca0fd43bae100fb481785656ab7f))
+* Install newer tmux.default.conf ([3fbfde8](https://gitlab.com/ktpanda/control-tmux/-/commit/3fbfde868be26ca20b1753906750a792ba6dae92))
+* Use a sequence of ASCII characters as a separator instead of a control character ([d1de856](https://gitlab.com/ktpanda/control-tmux/-/commit/d1de8565af7d8fc19406fbefcd22890a03607c11))
+* Limit length of command line sent to tmux when restoring sessions ([898659a](https://gitlab.com/ktpanda/control-tmux/-/commit/898659a30e2097f2b1931fa30f9a88062cb0f8be))
+* Initial commit ([3a5c986](https://gitlab.com/ktpanda/control-tmux/-/commit/3a5c9864774afbd796c25edc816043bf0aa4221c))
