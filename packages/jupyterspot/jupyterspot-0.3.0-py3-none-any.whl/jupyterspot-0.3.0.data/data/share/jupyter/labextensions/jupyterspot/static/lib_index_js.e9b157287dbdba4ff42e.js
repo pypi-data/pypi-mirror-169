@@ -1,0 +1,165 @@
+"use strict";
+(self["webpackChunkjupyterspot"] = self["webpackChunkjupyterspot"] || []).push([["lib_index_js"],{
+
+/***/ "./lib/index.js":
+/*!**********************!*\
+  !*** ./lib/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ButtonExtension": () => (/* binding */ ButtonExtension),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _jupyterlab_settingregistry__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @jupyterlab/settingregistry */ "webpack/sharing/consume/default/@jupyterlab/settingregistry");
+/* harmony import */ var _jupyterlab_settingregistry__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_jupyterlab_settingregistry__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @jupyterlab/apputils */ "webpack/sharing/consume/default/@jupyterlab/apputils");
+/* harmony import */ var _jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _jupyterlab_coreutils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @jupyterlab/coreutils */ "webpack/sharing/consume/default/@jupyterlab/coreutils");
+/* harmony import */ var _jupyterlab_coreutils__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_jupyterlab_coreutils__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _lumino_disposable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @lumino/disposable */ "webpack/sharing/consume/default/@lumino/disposable");
+/* harmony import */ var _lumino_disposable__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_lumino_disposable__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+
+const backendURL = 'http://192.168.1.100:5000';
+// const backendURL = 'https://api.jupyterspot.com';
+const frontendURL = 'http://192.168.1.100:5420';
+// const frontendURL = 'https://jupyterspot.com';
+let apiKey = "";
+/**
+ * Adds a notebook to JupyterSpot.
+ */
+async function addNotebook(panel, apiKey) {
+    // get the open dialog and set it's content to `msg`
+    function setMsg(msg) {
+        const dialogs = document.getElementsByClassName("jp-Dialog");
+        if (dialogs.length > 0) {
+            const dialog = dialogs[0];
+            const msgDiv = dialog.getElementsByClassName("jp-Dialog-body")[0];
+            msgDiv.innerHTML = msg;
+        }
+        else {
+            console.log("No dialog found");
+        }
+    }
+    if (!apiKey) {
+        (0,_jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1__.showErrorMessage)("Your JupyterSpot API key has not been set.", "Get your API key by going to https://jupyterspot.com/account, then add it to " +
+            "JupyterLab by going to Settings -> Advanced Settings Editor -> JupyterSpot " +
+            "and updating the API_KEY setting.");
+        return;
+    }
+    // get JSON notebook representation from the panel
+    if (!panel.content.model) {
+        (0,_jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1__.showErrorMessage)("Notebook has no content, can't add it to JupyterSpot.", "");
+        return;
+    }
+    const nb_json = JSON.stringify(panel.content.model.toJSON(), null);
+    // TODO: handle Windows paths
+    const nb_path = _jupyterlab_coreutils__WEBPACK_IMPORTED_MODULE_2__.PageConfig.getOption('serverRoot') + '/' + panel.context.localPath;
+    const requestUrl = backendURL + '/api/v1/convert-nb-from-json-ext';
+    console.info('requestUrl:', requestUrl, "apiKey:", apiKey);
+    const fd = new FormData();
+    fd.append('nb_json', nb_json);
+    fd.append('api_key', apiKey);
+    fd.append('path', nb_path);
+    (0,_jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1__.showErrorMessage)("Adding notebook to JupyterSpot...", "");
+    await fetch(requestUrl, {
+        method: 'post',
+        body: fd,
+    })
+        .then((res) => res.json())
+        .then((res) => {
+        console.log('jupyterspot result:', res);
+        if (res.success) {
+            const url = frontendURL + '/notebook?id=' + res.id;
+            window.open(url);
+            setMsg("Added notebook to JupyterSpot successfully.  " +
+                "If a new tab didn't open, give your browser permission to open popups from JupyterLab. " +
+                "The URL for your notebook whiteboard is: <a href='" + url + "' target='_blank'>" + url + "</a>");
+            console.info('JupyterSpot notebook url: ', url);
+        }
+        else {
+            setMsg('Error adding notebook to JupyterSpot: ' + res.msg);
+        }
+        return res;
+    })
+        .catch((error) => {
+        console.log('error:', error);
+        setMsg('Error adding the notebook to JupyterSpot: ' + error.toString());
+        return error;
+    });
+}
+/**
+ * A notebook widget extension that adds the open notebook to JupyterSpot.
+ */
+class ButtonExtension {
+    /**
+     * Create a new extension for the notebook panel widget.
+     *
+     * @param panel Notebook panel
+     * @param context Notebook context
+     * @returns Disposable on the added button
+     */
+    createNew(panel, context) {
+        const button = new _jupyterlab_apputils__WEBPACK_IMPORTED_MODULE_1__.ToolbarButton({
+            className: 'upload-button',
+            label: 'Open in JupyterSpot',
+            tooltip: 'Open in JupyterSpot',
+            pressedTooltip: 'Adding notebook to JupyterSpot',
+            disabledTooltip: 'Adding notebook to JupyterSpot...',
+            enabled: true,
+            pressed: false,
+            onClick: () => addNotebook(panel, apiKey),
+        });
+        panel.toolbar.insertItem(10, 'openInJupyterSpot', button);
+        return new _lumino_disposable__WEBPACK_IMPORTED_MODULE_3__.DisposableDelegate(() => {
+            button.dispose();
+        });
+    }
+}
+/**
+ * Initialization data for the jupyterspot extension.
+ */
+const plugin = {
+    id: 'jupyterspot:plugin',
+    autoStart: true,
+    requires: [_jupyterlab_settingregistry__WEBPACK_IMPORTED_MODULE_0__.ISettingRegistry],
+    activate: (app, settings) => {
+        console.log('JupyterLab extension jupyterspot is activated!');
+        /**
+         * Load the settings for this extension
+         *
+         * @param setting Extension settings
+         */
+        function loadSetting(setting) {
+            // Read the settings and convert to the correct type
+            apiKey = setting.get('API_KEY').composite;
+            console.log(`jupyterspot apiKey is set to '${apiKey}'`);
+        }
+        // Wait for the application to be restored and
+        // for the settings for this plugin to be loaded
+        Promise.all([app.restored, settings.load(plugin.id)])
+            .then(([, setting]) => {
+            // Read the settings
+            loadSetting(setting);
+            // Listen for your plugin setting changes using Signal
+            setting.changed.connect(loadSetting);
+            // add the button
+            app.docRegistry.addWidgetExtension('Notebook', new ButtonExtension());
+        })
+            .catch((reason) => {
+            console.error(`Something went wrong when reading the settings.\n${reason}`);
+        });
+    }
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (plugin);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=lib_index_js.e9b157287dbdba4ff42e.js.map
