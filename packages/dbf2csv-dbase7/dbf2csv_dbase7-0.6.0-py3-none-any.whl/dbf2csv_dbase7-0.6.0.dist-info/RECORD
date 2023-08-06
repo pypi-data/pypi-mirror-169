@@ -1,0 +1,8 @@
+dbf2csv/__init__.py,sha256=7cxJcSbTZb5HZL9LeCQT1Q9uRWdpU6HlToF20r5TTXI,47
+dbf2csv/__main__.py,sha256=elfAOiHlKT--tMXG4u1ZL-arwRrZ_PqxkNRtVsG0h6E,1211
+dbf2csv/dbfreader.py,sha256=Ofqc8VJ2wGVw2yE8frCNcGZdx62m1pQo6P4NtrVwSsg,3975
+dbf2csv/dbfsignature.py,sha256=i42Xi9Du-qpkZJFidFNw5UoDY3oK_TJfdTDWxgNdA6w,2134
+dbf2csv_dbase7-0.6.0.dist-info/entry_points.txt,sha256=2_J2LhG4v8ukl5hL5rv_qREsUtYjcbFdzeFjbpNyMuA,89
+dbf2csv_dbase7-0.6.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+dbf2csv_dbase7-0.6.0.dist-info/METADATA,sha256=ArZ8TNGS-npZf-AIiF5yJqF9FTRqnFAcRrCuBqqhhRA,1269
+dbf2csv_dbase7-0.6.0.dist-info/RECORD,,

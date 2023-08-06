@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dbf2csv-dbase7
+Version: 0.6.0
+Summary: File converter from DBF to CSV (only for dBASE 7)
+Home-page: https://github.com/chemacortes/dbf2csv-py
+License: MIT
+Author: chemacortes
+Author-email: devxtrem@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+Conversión de formato DBF a CSV
+===============================
+
+Script simple para convertir ficheros de formato DBF a CSV. De momento sólo funciona para ficheros DBF "dBASE level 7".
+
+Uso:
+
+```
+$ ./dbfconv.py <data.dbf>
+```
