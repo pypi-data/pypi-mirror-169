@@ -1,0 +1,17 @@
+[console_scripts]
+experimaestro = experimaestro.__main__:main
+
+[experimaestro.connectors]
+local = experimaestro.connectors.local:LocalConnector
+ssh = experimaestro.connectors.ssh:SshConnector
+
+[experimaestro.launchers]
+slurm = experimaestro.launchers.slurm:SlurmLauncher
+unix = experimaestro.launchers.python:PythonLauncher
+
+[experimaestro.process]
+local = experimaestro.connectors.local:LocalProcess
+slurm = experimaestro.launchers.slurm:BatchSlurmProcess
+
+[mkdocs.plugins]
+experimaestro = experimaestro.mkdocs:Documentation
