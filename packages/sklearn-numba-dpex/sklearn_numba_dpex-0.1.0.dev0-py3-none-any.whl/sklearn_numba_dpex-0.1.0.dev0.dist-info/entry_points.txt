@@ -1,0 +1,2 @@
+[sklearn_engines]
+kmeans = sklearn_numba_dpex.kmeans.drivers:KMeansSklearnEngine
