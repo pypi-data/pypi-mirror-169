@@ -1,0 +1,10 @@
+starpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starpack/__main__.py,sha256=SdLX1Zpn_m9Qpgar7-o7HkUrIgDVvxB7s_q1i6YZmdY,427
+starpack/resources/__init__.py,sha256=fcGiaaiwGNwhWsGLN2uD2P5tUOF66r57-uf2qKh110s,31
+starpack/resources/resources.py,sha256=aIkTEpN6y2sMbv1wzf81G0TdBarUv_eRB0mx3DJmSak,215
+starpack-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+starpack-0.0.3.dist-info/METADATA,sha256=OTTbjRL5dvNuAeNQH_2ALbKUERrKPLW6bb7dG_9lXFE,1517
+starpack-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+starpack-0.0.3.dist-info/entry_points.txt,sha256=6EbExugyfWntfmVKX4UVGLRXvulmbRc8ZFfpOAwSsN8,51
+starpack-0.0.3.dist-info/top_level.txt,sha256=TP1wuiqHJKu7jxrQ1jm0_-C-syO73kkgGApGSvdAmn4,9
+starpack-0.0.3.dist-info/RECORD,,
