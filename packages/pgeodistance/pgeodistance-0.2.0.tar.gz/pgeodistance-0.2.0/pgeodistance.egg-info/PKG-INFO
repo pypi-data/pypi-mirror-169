@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pgeodistance
+Version: 0.2.0
+Summary: Compute global postal code geo distance
+Home-page: 
+Author: Sparkle
+Author-email: Sparkle <sparklethinker@gmail.com>
+Project-URL: Homepage, https://github.com/sparkle-apt/pgeodistance
+Project-URL: Bug Tracker, https://github.com/sparkle-apt/pgeodistance/issues
+Keywords: metric
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pgeodistance - an optimized geo distance computation package
