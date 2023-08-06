@@ -1,0 +1,64 @@
+##### basic requirements #####
+
+fasteners
+future
+python-gettext
+
+
+##### requests libraries #####
+
+chardet<3.10
+urllib3<1.26
+requests
+
+
+##### backend libraries #####
+
+azure-core
+azure-storage-blob
+b2sdk                   ; python_version >= '3.7'
+boto
+boto3
+boxsdk[jwt]
+dropbox
+gdata                   ; python_version == '2.7'
+gdata-python3
+google-api-python-client
+google-auth-oauthlib
+jottalib
+keyring
+mediafire
+megatools
+paramiko
+pexpect
+psutil
+pydrive2
+pyrax
+python-swiftclient
+python-keystoneclient
+requests-oauthlib
+
+
+##### testing libraries #####
+
+
+2to3
+coverage
+mock>=3.0.5
+pycodestyle
+pylint
+pytest
+pytest-cov
+pytest-runner
+setuptools>=44.1.1
+setuptools-scm>=5.0.2
+tox
+
+
+##### documentation libraries #####
+
+gitchangelog
+myst-parser
+pystache
+sphinx
+sphinx-rtd-theme
