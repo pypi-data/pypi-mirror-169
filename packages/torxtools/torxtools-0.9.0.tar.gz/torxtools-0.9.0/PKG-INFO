@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: torxtools
+Version: 0.9.0
+Summary: Less generic functionalities than Phillips and Pozidriv tools.
+Home-page: https://gitlab.com/jlecomte/projects/{name}
+Author: Julien Lecomte
+Author-email: julien@lecomte.at
+License: MIT
+Project-URL: Documentation, https://jlecomte.gitlab.io/projects/torxtools/
+Project-URL: Source code, https://gitlab.com/jlecomte/projects/torxtools
+Project-URL: Tracker, https://gitlab.com/jlecomte/projects/torxtools/-/issues
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# torxtools
+
+Less generic functionalities than Phillips and Pozidriv tools. One size fits most. MacGyver's French army spork.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Locations
+
+  * GitLab: [https://gitlab.com/jlecomte/projects/torxtools](https://gitlab.com/jlecomte/projects/torxtools)
+
+

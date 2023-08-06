@@ -1,0 +1,6 @@
+-r requirements.txt
+
+setuptools
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-htmlhelp
