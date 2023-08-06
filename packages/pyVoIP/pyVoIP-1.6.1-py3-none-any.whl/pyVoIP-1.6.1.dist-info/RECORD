@@ -1,0 +1,15 @@
+pyVoIP/RTP.py,sha256=OoTPFKAB-hH9CD06hKDm5AlJQs9_OX4GAGXdv7jWETg,16760
+pyVoIP/SIP.py,sha256=12G6xAP3f7darzDItamLxDC-wObc7ceeLr6E4Yt8czA,65864
+pyVoIP/VoIP.py,sha256=dbbfH0iGjuJXMe9meIgM8ucfDLzoPxB6YdRfsxXdaHA,26225
+pyVoIP/__init__.py,sha256=fzruHbereEgp4ffjiHkpiSlgxtqlBzqnOqZE2bqPbIM,793
+pyVoIP/helpers.py,sha256=IIoMt-XukNF4E7YB7nOhQ-RdWiY_lJBjPL5NWgkV96Q,272
+pyVoIP/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyVoIP/sock.py,sha256=4-H4EKZttvF2S-yIrxXBuwdNGKSitUt-Q0y7tdPOwyw,2131
+pyVoIP/SIP/__init__.py,sha256=aVIZTw3UmPN-gOz1354NMag87agSYBiBZ1Uw59NhYvY,438
+pyVoIP/SIP/error.py,sha256=15FaFJ9zSUEgZlzCPqySkNz6j_-tk6djzQagXMBTUWc,94
+pyVoIP/SIP/message.py,sha256=Z0f2mq6TxfYP-kSYhv7pri6z8vvmX4nx9Dn1FCdmQBY,25303
+pyVoIP-1.6.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyVoIP-1.6.1.dist-info/METADATA,sha256=brqOiZYP47fAqWiQigtdTPGbZjfjPNR52zY3FLiNl-U,2408
+pyVoIP-1.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyVoIP-1.6.1.dist-info/top_level.txt,sha256=EhN7hdmC-Wkg7vRnH8iJl9YXUoLaP0YMoqSKVPs16Ds,7
+pyVoIP-1.6.1.dist-info/RECORD,,
