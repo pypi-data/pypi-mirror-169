@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: freezable
+Version: 0.1.2
+Summary: Freezable mixin class
+Home-page: https://github.com/ederic-oytas/python-freezable
+License: MIT
+Author: Ederic Oytas
+Author-email: edericoytas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/ederic-oytas/python-freezable
+Description-Content-Type: text/markdown
+
+# Freezable: Freezable objects in Python
+
+NOTICE: This project is in Alpha. Code may be unstable. API is subject to
+change.
+
+This Python package provides a mixin class to implement "freezable" objects.
+When an object is frozen, the data contained within the object is marked as
+immutable.
+
+
+## Installation
+
+```
+pip install freezable
+```
+
+## Basic Usage
+
+`freezable` provides the `Freezable` mixin class for user-defined objects:
+
+```python
+from freezable import Freezable
+
+class SomeFreezable(Freezable):
+    ...
+```
+
+**You do not need to call __init__ for this class;** you only need to subclass
+it, even in multiple inheritance.
+
+To freeze an freezable object, use the `freeze()` method, and to unfreeze, use
+the `unfreeze()` method. You can check if a freezable object is frozen using
+the `is_frozen()` method.
+
+```python
+obj = SomeFreezable()
+
+assert not obj.is_frozen()
+
+obj.freeze()
+assert obj.is_frozen()
+
+obj.unfreeze()
+assert not obj.is_frozen()
+```
+
+While an object is frozen, setting and deleting attributes of that object
+is disabled; these operations raise a `FrozenError` while it is frozen.
+
+```python
+obj = SomeFreezable()
+obj.freeze()
+
+# Both of these operations will raise a FrozenError:
+obj.attr = 5
+del obj.attr
+```
+
+If you don't want this behavior, you can override the special methods in the
+class body:
+```python
+__setattr__ = object.__setattr__
+__delattr__ = object.__delattr__
+```
+
+The package also provides the `@enabled_when_unfrozen` instance method
+decorator only enables a method if the object is unfrozen; when it is frozen,
+it raises a `FrozenError`. Make sure to only use this decorator in a class
+that subclasses `Freezable`.
+
+```python
+class SomeFreezable(Freezable):
+    @enabled_when_unfrozen
+    def some_mutating_method(self):
+        ...
+```
+
