@@ -1,0 +1,10 @@
+sktalk/__init__.py,sha256=AMCGu98Wu1H_1PWh6Ey6HWdZFnWanigEw8p7MPdSvAc,138
+sktalk/cli.py,sha256=yvyTG-vW1Er0FBrGgj-SHxv6YU7tTEsDO1k06SHikBA,396
+sktalk/sktalk.py,sha256=qDtknhiqtc5HD_PJWbCzD8vRM_GT7L4pd67a7RIr34w,9277
+sktalk-0.0.400.dist-info/AUTHORS.rst,sha256=2RhE6sNlnmc-MYN7LSp969X5FEJn1DhCU-BNr736qBI,163
+sktalk-0.0.400.dist-info/LICENSE,sha256=t7Ts_80wCdHLtF7vr3waYrTWgpAJ548wBekmUS_Odu0,1077
+sktalk-0.0.400.dist-info/METADATA,sha256=wCl0qbryCUPoh8r16F_lAWLziOCICI0oOxP-HwTVS7U,1649
+sktalk-0.0.400.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sktalk-0.0.400.dist-info/entry_points.txt,sha256=EzGcvpLL1xX0NVuBlSamkHmg7HghaBJacnOQEP7rSoI,43
+sktalk-0.0.400.dist-info/top_level.txt,sha256=cOHBBZbAyThFecWf_qrFLzoAi7IWxhtI-o0HyFqEApo,7
+sktalk-0.0.400.dist-info/RECORD,,
