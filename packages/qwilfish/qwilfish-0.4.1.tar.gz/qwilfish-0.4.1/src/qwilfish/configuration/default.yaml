@@ -1,0 +1,35 @@
+logging:
+  version: 1
+  formatters:
+    default:
+      format: "[%(asctime)s]:%(levelname)s:%(module)s:%(lineno)s - %(message)s"
+  handlers:
+    console:
+      class: "logging.StreamHandler"
+      level: "WARNING"
+      formatter: "default"
+  loggers:
+    qwilfish:
+      level: "DEBUG"
+      handlers: ["console"]
+      propagate: False
+    qwilfish.qwilfuzzer:
+      level: "INFO"
+      handlers: ["console"]
+      propagate: False
+    qwilfish.results_db.database:
+      level: "INFO"
+      handlers: ["console"]
+      propagate: False
+  root:
+    handlers: ["console"]
+campaign:
+  grammar:
+    identifier: "lldp_grammar"
+  courier:
+    identifier: "raw_socket_courier"
+    interface: "lo"
+  arbiter:
+    identifier: "basic_arbiter"
+  fitness_function:
+    identifier: "memory_chasing_fitness_function"

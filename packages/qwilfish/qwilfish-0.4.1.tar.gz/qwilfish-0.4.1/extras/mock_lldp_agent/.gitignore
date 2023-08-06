@@ -1,0 +1,8 @@
+# Ignore everything in this folder except the source files
+*
+!.gitignore
+!Makefile
+!*.c
+!*.h
+!mem_usage.png
+!cpu_usage.png

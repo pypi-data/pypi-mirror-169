@@ -1,0 +1,78 @@
+# Introduction
+Qwilfish is a Python package for fuzzing various Ethernet-related protocols.
+It is a work in progress and the first goal is grammar-based generation of
+LLDP frames (IEEE 802.1AB).
+
+[[_TOC_]]
+
+# Installation
+
+## Prerequisites
+- A Linux system
+- Python3.8 (higher versions will probably work too, but no guarantees)
+- Root privileges (for changing the capabilities of Python binary)
+
+## Create a virtual environment
+It is recommended to create a virtual environment first:
+```
+$ python -m venv venv
+$ source venv/bin/activate
+```
+
+## Install with pip
+To install Qwilfish simply type:
+```
+$ pip install qwilfish
+```
+
+## Install from source
+To install Qwilfish from source type:
+```
+$ git clone https://gitlab.com/zluudg/qwilfish.git
+$ cd qwilfish
+$ pip install .
+```
+
+Qwilfish also supports an editable install:
+```
+$ pip install -e .
+```
+
+## Setting capabilities
+Qwilfish writes packets to raw sockets, which is prohibited for normal users.
+It is not recommended to install or run Qwilfish as root, however.
+Instead, change the capabilities of your Python binary:
+```
+$ sudo setcap cap_net_raw=eip /path/to/python/binary
+```
+
+# Usage
+## Basic usage
+Qwilfish can be invoked without any commands:
+```
+$ qwilfish
+```
+It will then send one fuzzed LLDP packet on the loopback interface.
+
+To send ten packets on the loopback interface, type:
+```
+$ qwilfish -c 10
+```
+
+Set logging level to DEBUG:
+```
+$ qwilfish -d
+```
+
+## Advanced Configuration
+There are some possibilities to configure a Qwilfish session beyond what is
+offered by the CLI. Please refer to
+[this guide](src/qwilfish/configuration/README.md) for more info.
+
+## Writing Plugins
+Certain components in Qwilfish can be replaced in a plugin fashion. For more
+info check out [this guide](src/qwilfish/plugins/README.md).
+
+# Credit
+This project is more than heavily inspired by
+[The Fuzzing Book](https://www.fuzzingbook.org/). Be sure to check it out!
