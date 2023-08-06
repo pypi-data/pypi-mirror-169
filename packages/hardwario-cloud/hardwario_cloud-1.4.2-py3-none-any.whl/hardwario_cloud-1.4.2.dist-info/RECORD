@@ -1,0 +1,12 @@
+LICENSE,sha256=Fk13fndLrTkUdBan47m29ybN_jwjxfbGC5h-RfZpdJ0,1092
+hardwario/cloud/__init__.py,sha256=ZuMcI9Bf4T0abcU4mQP4CpIux8ZpcxWMOXFFqQMuPIA,47
+hardwario/cloud/api.py,sha256=NGJPB929YM6kbBDSkfTQqHt4bMwvh2NvjOXyOr9Ngj4,5003
+hardwario/cloud/cli/__init__.py,sha256=Pdon1djTSqd4-3mSDnp-i4erNdat4fUVXjdzrA2vJ8Q,577
+hardwario/cloud/cli/codec.py,sha256=sea6jxM4MtUqq8njw9cnDoPOOharvEPOZGIv6jasPCQ,4140
+hardwario/cloud/cli/message.py,sha256=DOkmqNMiwn69TCuGHHr2aBhkwRKZVc_Px2CCMQ3zuco,1013
+hardwario/cloud/utils.py,sha256=qnVqPzNsNpFHWLDbesDIs-GUtBW9VfHDxc0_c_h2oiQ,326
+hardwario_cloud-1.4.2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hardwario_cloud-1.4.2.dist-info/LICENSE,sha256=Fk13fndLrTkUdBan47m29ybN_jwjxfbGC5h-RfZpdJ0,1092
+hardwario_cloud-1.4.2.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+hardwario_cloud-1.4.2.dist-info/METADATA,sha256=0i3StuISWQLD9NqnU7fojJ-3tVux4M2fwWPbkQyREbQ,2628
+hardwario_cloud-1.4.2.dist-info/RECORD,,
