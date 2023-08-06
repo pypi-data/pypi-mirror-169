@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version.txt
+phel/__init__.py
+phel/__main__.py
+phel/config.toml
+phel/feed.py
+phel/viewer.py
+phel.egg-info/PKG-INFO
+phel.egg-info/SOURCES.txt
+phel.egg-info/dependency_links.txt
+phel.egg-info/entry_points.txt
+phel.egg-info/requires.txt
+phel.egg-info/top_level.txt
