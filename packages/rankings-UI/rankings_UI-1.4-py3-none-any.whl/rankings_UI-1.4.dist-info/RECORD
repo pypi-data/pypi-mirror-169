@@ -1,0 +1,14 @@
+rankings_UI/GUI.py,sha256=XdCfwll5yFN78jxrkPmzXb_0Yld2PTfPFtqsA3GrSZE,21075
+rankings_UI/Proposal.py,sha256=itv4E908n6o7wvDPmIhslQdCbb8jZ27_mAFjIOFQu4Q,164
+rankings_UI/Proposal_Box.py,sha256=j-Vzlc5E7C_wR0GCr9nuwT_L4i0ruPvv5uoIq2X6aFM,1521
+rankings_UI/Ranking.py,sha256=oufM7Ljo6yvWjoLJSMlfn8WsX8Xjkr5h-d0csZTKXpU,3724
+rankings_UI/Review.py,sha256=RewKdmuHgHRWzzvlOEVXkfNKRBgrbGzs62NI2-3X2cU,1419
+rankings_UI/Reviewer.py,sha256=dFl2DjWTqKNxBFiaFYS10LnPFBmSPHRfOGgiyn4hrZA,354
+rankings_UI/__init__.py,sha256=1yTbZBRCGwCujYc-FqB6tfxZk6qAGE2YWFtxE-SzdRk,203
+rankings_UI/filter.py,sha256=fBiQaaLon5PHXvQfmfqKgXPRfo-KwhRqfpVLzGvsj-A,4731
+rankings_UI/legend_window.py,sha256=3ow71hXHLXKYYjbabnWxnIIY_BJdVhDIwYCyMUCyJpU,1934
+rankings_UI-1.4.dist-info/LICENSE.txt,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+rankings_UI-1.4.dist-info/METADATA,sha256=SJpXI490g-e3-RNiX9vGKbTvSFBgZ5T3kVt9JIKajoQ,408
+rankings_UI-1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rankings_UI-1.4.dist-info/top_level.txt,sha256=6k8QRtCQ6uLN9-ZqNT6khmu4kAeDUNuLZGRR98YaYH0,12
+rankings_UI-1.4.dist-info/RECORD,,
