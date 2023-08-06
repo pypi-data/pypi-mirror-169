@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+chromium_binary_lambda/__init__.py
+chromium_binary_lambda.egg-info/PKG-INFO
+chromium_binary_lambda.egg-info/SOURCES.txt
+chromium_binary_lambda.egg-info/dependency_links.txt
+chromium_binary_lambda.egg-info/entry_points.txt
+chromium_binary_lambda.egg-info/requires.txt
+chromium_binary_lambda.egg-info/top_level.txt
