@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+pyKeksik/__init__.py
+pyKeksik/api.py
+pyKeksik.egg-info/PKG-INFO
+pyKeksik.egg-info/SOURCES.txt
+pyKeksik.egg-info/dependency_links.txt
+pyKeksik.egg-info/not-zip-safe
+pyKeksik.egg-info/requires.txt
+pyKeksik.egg-info/top_level.txt
