@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_chatbot_text_clustering.egg-info/PKG-INFO
+shopee_chatbot_text_clustering.egg-info/SOURCES.txt
+shopee_chatbot_text_clustering.egg-info/dependency_links.txt
+shopee_chatbot_text_clustering.egg-info/top_level.txt
