@@ -1,0 +1,9 @@
+psycopg2
+chevron
+sqlalchemy
+GeoAlchemy2
+
+[dev]
+flake8
+pytest
+pytest-cov
