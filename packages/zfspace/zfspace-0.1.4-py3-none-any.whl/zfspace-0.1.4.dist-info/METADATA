@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zfspace
+Version: 0.1.4
+Summary: zfspace tool helps to analyze how zfs disk space is used
+Project-URL: Bug Tracker, https://github.com/Zapunidi/zfspace/issues
+Project-URL: Homepage, https://github.com/Zapunidi/zfspace
+Author-email: Sergey Zapunidi <zapunidy@gmail.com>
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# zfspace
+Console tool to find occupied pool space in ZFS
