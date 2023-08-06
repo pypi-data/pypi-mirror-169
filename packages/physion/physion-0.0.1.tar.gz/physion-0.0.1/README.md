@@ -1,0 +1,41 @@
+<div><img src="https://github.com/yzerlaut/physion/raw/master/docs/physion.png" alt="physion logo" width="35%" align="right" style="margin-left: 10px"></div>
+
+# physion -- Vision Physiology
+
+> *Code for experimental setups and analysis pipelines to study cellular and network physiology in visual cortical circuits*
+
+--------------------
+
+The software is organized into several modules to perform the acquisition, the preprocessing, the visualization and the analysis of multimodal recordings (see [Documentation below](README.md#modules-and-documentation)).
+
+### Software screenshot
+
+<p align="center">
+  <img src="doc/screenshot.jpg"/>
+</p>
+
+--------------------
+
+## Install
+
+[...]
+
+## Modules and documentation
+
+The different modules of the software are documented in the following links:
+
+- [Visual stimulation](src/visual_stim/README.md) -- relying on [PsychoPy](https://psychopy.org)
+- [Performing multimodal recordings](src/exp/README.md)
+- [Intrinsic Imaging](src/intrinsic/README.md)
+- [Electrophysiology](src/electrophy/README.md)
+- [Calcium imaging](src/Ca_imaging/README.md) -- pipeline based on [Suite2P](https://github.com/MouseLand/suite2p)
+- [Pupil tracking](src/pupil/README.md)
+- [Behavioral monitoring](src/behavioral_monitoring/README.md) 
+- [Assembling pipeline](src/assembling/README.md)
+- [Hardware control](src/hardware_control/README.md)
+- [Visualization](src/dataviz/README.md) -- relying on the excellent [PyQtGraph](http://pyqtgraph.org/)
+- [Analysis](src/analysis/README.md)
+
+## Troubleshooting / Issues
+
+Use the dedicated [Issues](https://github.com/yzerlaut/physion/issues) interface of Github.

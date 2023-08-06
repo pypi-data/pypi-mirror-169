@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/physion/__init__.py
+src/physion/__main__.py
+src/physion.egg-info/PKG-INFO
+src/physion.egg-info/SOURCES.txt
+src/physion.egg-info/dependency_links.txt
+src/physion.egg-info/requires.txt
+src/physion.egg-info/top_level.txt
