@@ -1,0 +1,14 @@
+boreal/__init__.py,sha256=iVZwPTv9TC3vAP99e8Qz7n5unLXfFZCxNA9KED7Jmlg,129
+boreal/boreal.py,sha256=ajc0_Mh6tOTzORS0q7bI7hxdt5ORJ8cOS2BIIz1nW_A,3233
+boreal/audio_widgets/__init__.py,sha256=x18uUq30mFbYOuWReK1CXkawLbsgTDKbyji4pvPlYVc,70
+boreal/audio_widgets/audio.py,sha256=ZHhRgvZeLURwag42yPNHjt6FWQ7zS3CZROm2PoCT_Lc,5829
+boreal/audio_widgets/audio_processors.py,sha256=uyU8jcdaArd2kGL6nRuTjwmYW4jWj1tvIc59n3GnesI,2618
+boreal/audio_widgets/audio_widgets.py,sha256=zD5haH6CPf-sstbLSOBIXrLUpf6RkCJmDbZDpdnFFOk,9922
+boreal/audio_widgets/main.py,sha256=bmq9Ws--IlEgWNwAZVfsQ5GBg7TUwFcVMf4FBMSB_yU,6939
+boreal-0.2.0.dist-info/AUTHORS.rst,sha256=2Ftwlrc430yIqukaLbZg4PaQ2gLYRFDJE8k_cbnay2g,159
+boreal-0.2.0.dist-info/LICENSE,sha256=yV-BYEjI2jlhOAsKGLDaf1eg-O_0uGA3ah2D8pyl6mU,1076
+boreal-0.2.0.dist-info/METADATA,sha256=hYCnp3eFrOQMeey6s3PmA7H2VGtgslxSCZgY0SiYJ_c,3668
+boreal-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+boreal-0.2.0.dist-info/entry_points.txt,sha256=nKSPAAMyMCv0LgdatIn_Fv43AvcEjsREg4V1lyBwmSI,43
+boreal-0.2.0.dist-info/top_level.txt,sha256=5BSqLoknK65g9Ibh5_zuv-5lVRSNztGRd5SqT4QxCpc,7
+boreal-0.2.0.dist-info/RECORD,,
