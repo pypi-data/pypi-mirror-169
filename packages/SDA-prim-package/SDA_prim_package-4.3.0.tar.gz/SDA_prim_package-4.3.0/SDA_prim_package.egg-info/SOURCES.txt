@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+SDA_prim_package/__init__.py
+SDA_prim_package/main.py
+SDA_prim_package.egg-info/PKG-INFO
+SDA_prim_package.egg-info/SOURCES.txt
+SDA_prim_package.egg-info/dependency_links.txt
+SDA_prim_package.egg-info/top_level.txt
