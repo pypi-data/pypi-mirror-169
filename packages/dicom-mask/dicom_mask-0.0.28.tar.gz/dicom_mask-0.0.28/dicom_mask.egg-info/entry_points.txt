@@ -1,0 +1,3 @@
+[console_scripts]
+hello-world = dicom_mask:hello_world
+
