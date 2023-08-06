@@ -1,0 +1,2 @@
+[console_script]
+hello-world-cli = M1_2022_git_workflow.main:say_hello
