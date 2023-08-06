@@ -1,0 +1,1 @@
+The detailed documentation can be found here: https://github.com/NREL/sensor-impact-evaluation-and-verification
