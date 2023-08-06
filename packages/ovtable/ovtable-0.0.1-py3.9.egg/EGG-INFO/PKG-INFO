@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ovtable
+Version: 0.0.1
+Summary: based on curses, ovtable is a table displayed in the terminal with Python API
+Home-page: https://github.com/PiperLiu/ovtable
+Author: Piper Liu
+Author-email: piperliu@qq.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ovtable
+💻 based on curses, ovtable is a table displayed in the terminal with Python API
