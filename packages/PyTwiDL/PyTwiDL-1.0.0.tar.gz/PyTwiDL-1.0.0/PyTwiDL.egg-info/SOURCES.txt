@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyTwiDL.egg-info/PKG-INFO
+PyTwiDL.egg-info/SOURCES.txt
+PyTwiDL.egg-info/dependency_links.txt
+PyTwiDL.egg-info/requires.txt
+PyTwiDL.egg-info/top_level.txt
