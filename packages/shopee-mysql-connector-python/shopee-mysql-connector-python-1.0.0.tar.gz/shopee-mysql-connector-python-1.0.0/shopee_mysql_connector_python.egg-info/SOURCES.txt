@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_mysql_connector_python.egg-info/PKG-INFO
+shopee_mysql_connector_python.egg-info/SOURCES.txt
+shopee_mysql_connector_python.egg-info/dependency_links.txt
+shopee_mysql_connector_python.egg-info/top_level.txt
