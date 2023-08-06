@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: storesSalePrediction
+Version: 0.0.0
+Summary: Package for Store Sale prediction
+Home-page: https://github.com/ganpat09/stores_sales_prediction
+Author: ganpat09
+Author-email: ganpat.choudhary.1994@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ganpat09/stores_sales_prediction/issues
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Provides-Extra: testing
+License-File: LICENSE
+
+# Stores Sale Prediction
