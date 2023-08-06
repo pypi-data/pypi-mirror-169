@@ -1,0 +1,4 @@
+[console_scripts]
+WushuZhiwu = WushuZhiwu.__main__:main
+wushu-zhiwu = WushuZhiwu.__main__:main
+
