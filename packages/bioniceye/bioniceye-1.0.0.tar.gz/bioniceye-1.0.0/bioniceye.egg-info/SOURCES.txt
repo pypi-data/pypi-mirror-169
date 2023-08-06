@@ -1,0 +1,8 @@
+README.md
+setup.py
+bioniceye/__init__.py
+bioniceye.egg-info/PKG-INFO
+bioniceye.egg-info/SOURCES.txt
+bioniceye.egg-info/dependency_links.txt
+bioniceye.egg-info/requires.txt
+bioniceye.egg-info/top_level.txt

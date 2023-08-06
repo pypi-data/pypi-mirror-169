@@ -1,0 +1,9 @@
+glob
+numpy
+matplotlib
+pandas
+opencv-python
+gym
+torch
+torchvision
+torchaudio
