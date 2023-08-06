@@ -1,0 +1,17 @@
+ethoscopy/__init__.py,sha256=P27cO1NnQwgWDaW1CvpWdEYWZNhvtliAxXjPJ7Sfrbs,389
+ethoscopy/analyse.py,sha256=oX5ySRMSKz2EEk7InFjXsZFrAEkt_seLkMnvzzhMNkM,24392
+ethoscopy/behavpy_class.py,sha256=f76o0ceGsAjcx7cH_JrOWMf-pM5pxsHGuZi1I15Wn44,44560
+ethoscopy/behavpy_HMM_class.py,sha256=reCT-faKONrZ0Ulr0eYB4mozAfjvEydIiLmymiNSdSk,45048
+ethoscopy/load.py,sha256=j-uYqYBDVaPzI8iCyc_WdcrSoGzxH5B8NiKPecFQmuQ,23318
+ethoscopy/misc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ethoscopy/misc/bootstrap_CI.py,sha256=OHOSaZeg1wPTQX47kOMQs1AzwgNIQvyBDtmf5mbksGE,1032
+ethoscopy/misc/circadian_bars.py,sha256=CGn0laRbuqVw4f990-lL3XdqWp3nrer5hLh2g3eRrNg,2689
+ethoscopy/misc/format_warning.py,sha256=tujrBWr17A80vftWGX858Jmoc_RMOqNMo1cHL1vKez4,270
+ethoscopy/misc/hmm_functions.py,sha256=iFcDmdDpqrDAQtU214rSr1d1-kNTZrSuA328TCXOq8s,2569
+ethoscopy/misc/periodogram.py,sha256=9z0IQBlS5Vd_atxcqfURqvFgstTq0W_CxAma3A2kPJ8,391
+ethoscopy/misc/rle.py,sha256=7B_TFPtzxgj9DA6jGqF4tKsRuUlsnYRhHWRqUZZiy1o,944
+ethoscopy/misc/validate_datetime.py,sha256=NIJm6FxcFKE91Ac5uGa3O7Ru3wrHufcFLFPtqPY56RE,1673
+ethoscopy-1.0.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ethoscopy-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ethoscopy-1.0.1.dist-info/METADATA,sha256=Wgp7zURfDhN4s3O4l03xLk659DstjZi263TZdyBEFDQ,1936
+ethoscopy-1.0.1.dist-info/RECORD,,
