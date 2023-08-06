@@ -1,0 +1,34 @@
+:root > * {
+  --md-text-font: "ibm-plex-serif";
+  --md-text-code: "ibm-plex-mono";
+  --md-primary-bg-color--dark: #0c0a1d;
+  --md-primary-bg-color--light: #f5f5dc;
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #3d2022;
+  --md-hue: 210;
+}
+
+/* .md-grid {
+  max-width: 1440px; 
+} */
+
+[data-md-color-scheme="youtube"] {
+  --md-primary-fg-color: #ee0f0f;
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #90030c;
+}
+
+@font-face {
+  font-family: "ibm-plex-serif";
+  src: "../@fontsrc/ibm-plex-serif";
+}
+
+@font-face {
+  font-family: "ibm-plex-sans";
+  src: "../@fontsrc/ibm-plex-sans";
+}
+
+@font-face {
+  font-family: "ibm-plex-mono";
+  src: "../@fontsrc/ibm-plex-mono";
+}
