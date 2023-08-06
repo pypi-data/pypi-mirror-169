@@ -1,0 +1,6 @@
+setup.py
+harbour-herpys/__init__.py
+harbour_herpys.egg-info/PKG-INFO
+harbour_herpys.egg-info/SOURCES.txt
+harbour_herpys.egg-info/dependency_links.txt
+harbour_herpys.egg-info/top_level.txt
