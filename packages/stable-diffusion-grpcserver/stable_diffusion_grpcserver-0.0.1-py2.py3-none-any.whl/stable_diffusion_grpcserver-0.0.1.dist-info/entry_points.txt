@@ -1,0 +1,3 @@
+[console_scripts]
+sdgrpcserver=sdgrpcserver.server:main
+
