@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+maasta/__init__.py
+maasta/__main__.py
+maasta/maasta.py
+maasta/utils.py
+maasta.egg-info/PKG-INFO
+maasta.egg-info/SOURCES.txt
+maasta.egg-info/dependency_links.txt
+maasta.egg-info/requires.txt
+maasta.egg-info/top_level.txt
+maasta.egg-info/zip-safe
