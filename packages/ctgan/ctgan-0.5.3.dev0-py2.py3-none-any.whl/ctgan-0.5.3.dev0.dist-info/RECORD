@@ -1,0 +1,17 @@
+ctgan/__init__.py,sha256=g2D5WOcYBaiek0uNRjQtnCQHh_NilXYkPeW_N5Fuwkg,330
+ctgan/__main__.py,sha256=Xr78JLzHMD1HHByD3r-_ofFKpE4JgK74_rlq3abpc5w,4415
+ctgan/data.py,sha256=8o4JrQ6-GWq_BbegDB7X3Bk4V4O2_8gzmzSBqIhoVKU,2457
+ctgan/data_sampler.py,sha256=6cbjEISNrmh9vlx0xMbi4EP6bROq24TVTJDfADZAjac,6203
+ctgan/data_transformer.py,sha256=vQmAOVcm3kI94aBE5l2qZnCQxQ1Xt3f3kKBFLQtwXNQ,10350
+ctgan/demo.py,sha256=N9P3OnaqRSUbGiOlgAVHP_6dJ_4mpTADpytzWM95eJY,200
+ctgan/synthesizers/__init__.py,sha256=4dCGMw2uXUF8mMdCxG6UEU-71z2EZJF5B9nNsPsdBiA,258
+ctgan/synthesizers/base.py,sha256=RqhJPJEkozla1vkmZjYAH8F9YvxkV2_tdh7XiwvmPMg,3358
+ctgan/synthesizers/ctgan.py,sha256=R2JM5aJdtJNUnJQ-N1TAgjnkpT3bawPZLM6NEcn9D1E,19056
+ctgan/synthesizers/tvae.py,sha256=XL1eTo40GJwkHoxi192m7di82-hmsrHAH915-diq4bk,6953
+ctgan-0.5.3.dev0.dist-info/AUTHORS.rst,sha256=wQQWT4VaH-YB40IoGQUw6b76QDla0bX_6HJmpCQKKho,200
+ctgan-0.5.3.dev0.dist-info/LICENSE,sha256=nETtJPUU_b3lsjVc850QLX_d-J0LXskUFfqf2bXmk8Y,1077
+ctgan-0.5.3.dev0.dist-info/METADATA,sha256=ebR7-CDsVtBkx9wH5aD5LWtKsRfbJbaxlEvuCX7AH8I,19104
+ctgan-0.5.3.dev0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ctgan-0.5.3.dev0.dist-info/entry_points.txt,sha256=dnnlvv9iFY_8PdS8Uyk4muy5S1hluOBo9algV8jjONo,47
+ctgan-0.5.3.dev0.dist-info/top_level.txt,sha256=-aYb4jzlnJnHU32JhAedmI47TYqK9OLaNdNDBquj1l4,6
+ctgan-0.5.3.dev0.dist-info/RECORD,,
