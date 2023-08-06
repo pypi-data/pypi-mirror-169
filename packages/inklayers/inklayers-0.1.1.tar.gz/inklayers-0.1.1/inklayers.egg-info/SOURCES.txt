@@ -1,0 +1,15 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+inklayers/__init__.py
+inklayers/inklayers.py
+inklayers/version.py
+inklayers.egg-info/PKG-INFO
+inklayers.egg-info/SOURCES.txt
+inklayers.egg-info/dependency_links.txt
+inklayers.egg-info/entry_points.txt
+inklayers.egg-info/requires.txt
+inklayers.egg-info/top_level.txt
