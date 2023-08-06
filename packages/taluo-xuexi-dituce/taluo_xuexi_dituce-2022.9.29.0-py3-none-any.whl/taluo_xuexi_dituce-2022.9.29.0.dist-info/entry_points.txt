@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoXuexiDituce = TaluoXuexiDituce.__main__:main
+taluo-xuexi-dituce = TaluoXuexiDituce.__main__:main
+
