@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "refurb"
+version = "0.2.4"
+description = "A tool for refurbish and modernize Python codebases"
+authors = ["dosisod"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/dosisod/refurb"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Topic :: Software Development :: Testing",
+  "Typing :: Typed"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mypy = "^0.981"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+
+[tool.poetry.scripts]
+refurb = "refurb.__main__:main"
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+color_output = true
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_decorated = true
+disallow_any_explicit = true
+disallow_any_generics = true
+disallow_any_unimported = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+namespace_packages = true
+no_implicit_optional = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.coverage.run]
+omit = [
+  "refurb/__main__.py",
+  "refurb/gen.py"
+]
+
+[tool.black]
+exclude = "test/data/*"
+line-length = 79
+check = true
+diff = true
+color = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=refurb --cov-report=html --cov-report=term-missing --cov-fail-under=100"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
