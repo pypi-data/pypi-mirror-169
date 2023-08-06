@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+versioneer.py
+ilo_scripting_helper/__init__.py
+ilo_scripting_helper/_version.py
+ilo_scripting_helper/ilo_scripting_helper.py
+ilo_scripting_helper.egg-info/PKG-INFO
+ilo_scripting_helper.egg-info/SOURCES.txt
+ilo_scripting_helper.egg-info/dependency_links.txt
+ilo_scripting_helper.egg-info/requires.txt
+ilo_scripting_helper.egg-info/top_level.txt
