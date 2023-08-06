@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+pythagoreandistcalc/pythagoreandistcalc.egg-info/PKG-INFO
+pythagoreandistcalc/pythagoreandistcalc.egg-info/SOURCES.txt
+pythagoreandistcalc/pythagoreandistcalc.egg-info/dependency_links.txt
+pythagoreandistcalc/pythagoreandistcalc.egg-info/top_level.txt
