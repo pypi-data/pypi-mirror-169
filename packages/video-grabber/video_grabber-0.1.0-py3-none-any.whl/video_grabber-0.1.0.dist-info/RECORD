@@ -1,0 +1,12 @@
+video_grabber/FPS.py,sha256=NvBN81m01QR4_M0vLY90Y-kxt1ec0gs4C5ACEwMHDlo,1251
+video_grabber/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+video_grabber/image_misc.py,sha256=pxshVQILwfj_gpYbV-5lMfOrOCoNbbVMj59fQoTEH6k,7256
+video_grabber/option_key_value.py,sha256=E7Lo2pnBpWMQwaOSDQypTT--DqhqXLJUB26-xWDjGrI,2186
+video_grabber/skeleton.py,sha256=unbEQq_0tmOZgQWY1dT2N8L_UldLw87glbzdnV98HMc,4259
+video_grabber/video_grabber.py,sha256=XbC2C97r1zZ5YZWfT9-mQPFweB-w3M5b0Bdji9UZ0lU,10289
+video_grabber-0.1.0.dist-info/LICENSE.txt,sha256=v0dM39AuFiYDNY5ONhUYIBjK0nWT0r9edcoT5KWmrww,6556
+video_grabber-0.1.0.dist-info/METADATA,sha256=WHx_n3FXXGCk6bOZn2_-Pc82SxcvZ66n3vRBT1YBA70,2104
+video_grabber-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video_grabber-0.1.0.dist-info/entry_points.txt,sha256=HSz68kC6JYrNfysjoZQIBBkkRQpKrNNzOmSJQHhmsTY,66
+video_grabber-0.1.0.dist-info/top_level.txt,sha256=-MY0Lb-D3qjfkr74FfpvIFbkWudzFLHBchPn2Q2tEjU,14
+video_grabber-0.1.0.dist-info/RECORD,,

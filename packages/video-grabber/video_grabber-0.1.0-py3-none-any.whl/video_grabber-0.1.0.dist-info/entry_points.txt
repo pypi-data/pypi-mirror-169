@@ -1,0 +1,2 @@
+[console_scripts]
+video_grabber = video_grabber.video_grabber:run
