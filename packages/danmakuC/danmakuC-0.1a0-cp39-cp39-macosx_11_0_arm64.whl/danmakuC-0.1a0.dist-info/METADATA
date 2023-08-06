@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: danmakuC
+Version: 0.1a0
+Summary: Faster conversion for larger Danmaku to Ass format
+Author: HFrost0, m13253, Nyakku Shigure
+License: GPLv3
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: protobuf (>=4.21.0)
+
+# danmakuC
+
+Faster conversion for larger Danmaku to Ass format. Core conversion part is written in C++ while with
+user-friendly Python api and cli (working on it...).
+
+## Why danmakuC?
+
+While [Danmaku2ASS](https://github.com/m13253/danmaku2ass) and [biliass](https://github.com/yutto-dev/biliass) provides
+a great tool to convert danmaku to ass format, the conversion of large danmaku is **incredibly slow** since it's a heavy
+CPU bound task for Python🥲. danmakuC refactor those two repos and provide a much faster C++ implementation to speed up
+conversion. Let's see how fast it is:
+
+|                     | test_dm.bin (218 comments) | test_dm_large.bin (59,003 comments) |
+|---------------------|----------------------------|-------------------------------------|
+| Danmaku2ASS/biliass | 0.0105 s                   | 47.0650 s                           |
+| danmakuC            | 0.0009 s                   | 0.2077 s                            |
+
+> Results are obtained in M1 arm64 chip mac with python3.10, danmaku file is downloaded from bilibili by bilix.
+
+As you can see, over 100 times faster in large conversion. For video with more viewer and comments
+(like movie and tv play), a fast tool like danmakuC is just what you need✊.
+
+## Install
+
+Currently, author only build py3.9 and py3.10 whl for macOS11 arm64 platform for version 0.1a0, in the specific
+platform you can use
+
+```shell
+pip install danmakuC==0.1a0
+```
+
+## Usage
+
+Working on more feature including cli and xml conversion...
+
+```python
+from danmakuC.utils import proto2ass
+
+with open("test_dm_large.bin", "rb") as f:
+    ass_text = proto2ass(f.read(), 1920, 1080)
+
+```
