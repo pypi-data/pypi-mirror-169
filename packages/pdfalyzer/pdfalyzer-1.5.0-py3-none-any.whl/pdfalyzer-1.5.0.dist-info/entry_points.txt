@@ -1,0 +1,3 @@
+[console_scripts]
+pdfalyze=pdfalyzer:pdfalyze
+
