@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simple-wrapper-api
+Version: 0.2.0
+Summary: Simple wrapper for APIs
+Home-page: https://www.valabre.com
+License: MIT
+Keywords: python,requests,api,wrapper
+Author: pont-valabre
+Author-email: dev@valabre.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: twine (>=4.0.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+
