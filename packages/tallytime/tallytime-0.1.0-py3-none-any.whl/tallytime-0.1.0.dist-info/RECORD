@@ -1,0 +1,14 @@
+tallytime/__init__.py,sha256=6qMiFcr1PG9bIUQg-3nVFnFv826eQv4YLP9J6LBo36c,2475
+tallytime/__main__.py,sha256=Fskh-frx79EwmvgqdOtumrBq5bqsAhZoCzkePF7w0tw,48
+tallytime/__version__.py,sha256=TNcFCUb6rLyJqLf56OMN4GWm2Bci8bWKt_OLZU3UyH8,46
+tallytime/_utils.py,sha256=wW5jLoD-scaISxrMTm9fGdzMNMJ8w5R4opqEpJt7F-s,171
+tallytime/exceptions.py,sha256=Lv2AF8DpEFrwFYP-PU6nmNvVhnMIBv4eciyb48E9NqY,1912
+tallytime/loggers.py,sha256=rfBwbWGJv7t656pAbj4zz8Lngxp8wA-yD8z3BQdxq_8,1829
+tallytime/settings.py,sha256=Y2hEPhG2VUfCW_aIQJUB_A1d8uUfLmhW4oVMSdD9B84,1031
+tallytime/tally_log.py,sha256=y04RYuFRrWLRDExr3uqMxETTV8TehLSv5BjvlT1VUi8,7580
+tallytime/tally_session.py,sha256=L-odZ4RhelLM3F9rI_g0r4zrn6Bh_C1e2mqD9IYcsPI,1900
+tallytime-0.1.0.dist-info/LICENSE,sha256=6Y0FdXj9z2xV9hkPrGja2DROozVGib9v7F9iEB5TgiY,1067
+tallytime-0.1.0.dist-info/METADATA,sha256=yevKexj0mfvv_L2dl3-RiM9L9BQl9w5US6mJFw0YAtM,5160
+tallytime-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tallytime-0.1.0.dist-info/top_level.txt,sha256=VuAr5gWx2KnIYphiWKRDM1T2TikmyvRl1qPyMfemNyE,10
+tallytime-0.1.0.dist-info/RECORD,,
