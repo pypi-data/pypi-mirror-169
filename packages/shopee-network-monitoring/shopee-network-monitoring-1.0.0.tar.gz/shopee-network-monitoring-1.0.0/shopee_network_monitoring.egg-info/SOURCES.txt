@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_network_monitoring.egg-info/PKG-INFO
+shopee_network_monitoring.egg-info/SOURCES.txt
+shopee_network_monitoring.egg-info/dependency_links.txt
+shopee_network_monitoring.egg-info/top_level.txt
