@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_cpu_performance_mode.egg-info/PKG-INFO
+shopee_cpu_performance_mode.egg-info/SOURCES.txt
+shopee_cpu_performance_mode.egg-info/dependency_links.txt
+shopee_cpu_performance_mode.egg-info/top_level.txt
