@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+myproject_amangupta2303.0.0.1.egg-info/PKG-INFO
+myproject_amangupta2303.0.0.1.egg-info/SOURCES.txt
+myproject_amangupta2303.0.0.1.egg-info/dependency_links.txt
+myproject_amangupta2303.0.0.1.egg-info/top_level.txt
