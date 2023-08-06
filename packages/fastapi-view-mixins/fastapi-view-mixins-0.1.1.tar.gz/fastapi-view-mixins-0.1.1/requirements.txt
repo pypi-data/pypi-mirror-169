@@ -1,0 +1,9 @@
+fastapi
+sqlalchemy
+pytest
+pytest-asyncio
+aiosqlite
+pymongo
+motor
+mongomock
+mongomock-motor
