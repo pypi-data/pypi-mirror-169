@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: xia-easy-proto
+Version: 0.1.1
+Summary: X-I-A Easy Protobuf Convertor
+Home-page: https://develop.x-i-a.com/docs/xia-easy-proto/0.1.1/index.html
+Author: X-I-A
+Author-email: admin@x-i-a.com
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: protobuf
+
+.. image:: https://img.shields.io/pypi/v/xia-easy-proto.svg?color=blue
+   :alt: PyPI-Server
+   :target: https://pypi.org/project/xia-easy-proto/
+
+====================================
+X-I-A Easy Protobuf Convertor
+====================================
+
+Introduction
+=============================
+
+Quick protobuf serialization without any definition. The main use case is for using Bigquery's Storage Write API.
+
+
+Requirements
+=============================
+
+In order to use this module, please using the following python runtime
+
+* Python 3.9 or 3.10
+* Windows 64bit, Linux or MacOS11+
+
+
+Quick start
+=============================
+
+Install the package::
+
+    pip install xia-easy-proto
+
+
+And then create your test.py::
+
+    from xia_easy_proto import EasyProto
+
+
+    if __name__ == '__main__':
+        songs = {"composer": [{'given_name': 'Johann', 'family_name': 'Pachelbel'}],
+                 "title": 'Canon in D',
+                 "year": [1680, 1681]}
+        song_desc, song_payload = EasyProto.serialize("Song2", songs)
+        print(song_desc)  # It is the message class
+        print(song_payload)  # It is the serialized message
+
