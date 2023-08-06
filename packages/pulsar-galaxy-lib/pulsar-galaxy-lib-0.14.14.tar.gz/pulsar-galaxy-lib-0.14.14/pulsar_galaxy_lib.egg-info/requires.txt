@@ -1,0 +1,14 @@
+PasteDeploy
+paramiko
+psutil
+pyyaml
+typing-extensions
+webob
+
+[galaxy_extended_metadata]
+galaxy-job-execution>=19.9.0.dev0
+galaxy-util[template]
+
+[web]
+Paste
+PasteScript
