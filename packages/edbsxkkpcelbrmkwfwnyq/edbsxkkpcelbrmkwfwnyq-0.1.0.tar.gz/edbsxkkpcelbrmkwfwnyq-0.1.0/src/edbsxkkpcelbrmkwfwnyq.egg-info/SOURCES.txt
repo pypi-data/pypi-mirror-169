@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/edbsxkkpcelbrmkwfwnyq.egg-info/PKG-INFO
+src/edbsxkkpcelbrmkwfwnyq.egg-info/SOURCES.txt
+src/edbsxkkpcelbrmkwfwnyq.egg-info/dependency_links.txt
+src/edbsxkkpcelbrmkwfwnyq.egg-info/top_level.txt
