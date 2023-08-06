@@ -1,0 +1,24 @@
+PyYaml
+pydantic<=1.11.0
+pydantic[email]
+yarl
+httpx
+more-itertools
+
+[:python_version < "3.8"]
+typing_extensions
+
+[:python_version < "3.9"]
+pathlib3x
+
+[socks]
+httpx_socks
+
+[tests]
+pytest
+pytest-asyncio
+pytest-httpx
+pytest-cov
+fastapi-versioning
+hypercorn
+uvloop
