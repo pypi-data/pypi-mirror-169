@@ -1,0 +1,12 @@
+datalad>=0.17.6
+datalad_next>=0.6.1
+outdated
+pyqtdarktheme
+pyside6
+
+[devel]
+coverage
+pytest
+pytest-cov
+pytest-qt
+pytest-xvfb
