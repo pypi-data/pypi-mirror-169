@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "BlaBlaMower"
+version = "1.0.0"
+description = ""
+authors = ["Guillaume Renard <renardguillaume@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/renardguill/BlaBlaMower"
+repository = "https://github.com/renardguill/BlaBlaMower.git"
+include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.8.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+blablamower = "blablamower.__main__:main"
