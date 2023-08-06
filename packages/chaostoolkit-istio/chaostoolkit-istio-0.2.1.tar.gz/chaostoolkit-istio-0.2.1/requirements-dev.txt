@@ -1,0 +1,9 @@
+coverage
+pycodestyle
+pytest
+pytest-cov
+pytest-sugar
+requests
+requests_mock
+pylama
+pyflakes==2.4.0
