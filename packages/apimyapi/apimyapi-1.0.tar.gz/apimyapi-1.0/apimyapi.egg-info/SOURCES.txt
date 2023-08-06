@@ -1,0 +1,11 @@
+DESCRIPTION.txt
+LICENSE.txt
+README.md
+requirements.txt
+setup.py
+apimyapi.egg-info/PKG-INFO
+apimyapi.egg-info/SOURCES.txt
+apimyapi.egg-info/dependency_links.txt
+apimyapi.egg-info/requires.txt
+apimyapi.egg-info/top_level.txt
+venv/alembic/env.py
