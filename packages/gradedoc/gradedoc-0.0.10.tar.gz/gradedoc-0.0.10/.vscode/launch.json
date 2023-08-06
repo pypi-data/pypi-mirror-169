@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Current file",
+      "console": "internalConsole",
+      "cwd": "${workspaceFolder:Submissions}",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}"
+    },
+    {
+      "name": "gradedoc",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder:Submissions}",
+      "type": "python",
+      "request": "launch",
+      "module": "gradedoc",
+      "args": ["${input:input}"],
+      "justMyCode": false
+    }
+  ],
+  "inputs": [
+    {
+      "id": "input",
+      "type": "pickString",
+      "description": "Select the command to debug",
+      "options": ["active", "all", "addcom", "delcom", "open", "save", "close"]
+    }
+  ]
+}
