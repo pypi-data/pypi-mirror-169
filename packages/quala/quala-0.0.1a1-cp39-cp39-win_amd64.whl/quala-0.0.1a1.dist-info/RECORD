@@ -1,0 +1,10 @@
+quala/__init__.py,sha256=KAqsSYXUBRmzSeHvzc9E8p0MRRrPAsckFCjRFhDmDm0,320
+quala/__init__.pyi,sha256=F4eDuAWXjSRBUUWCfciXyJJzlxUEO3JN7qquxwMzaOw,28
+quala/_quala.pyd,sha256=RBEKOOJFFjmn6UxYnaGJtTEk_tie7Hx5gHT7n85tBy0,336896
+quala/_quala.pyi,sha256=ZUfV0ury-cg2lvBOvprdC4CE-e02X1eFFI8FtI1vOa4,9469
+quala/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quala-0.0.1a1.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+quala-0.0.1a1.dist-info/METADATA,sha256=UAVX_zchWxcyCRwbtinew38creEXajaGj5XXg1ybtUM,2136
+quala-0.0.1a1.dist-info/WHEEL,sha256=VOzDRR37QiPBYhFiRLiJ7vGm--MoG67p6Fckpx0-JxM,94
+quala-0.0.1a1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quala-0.0.1a1.dist-info/RECORD,,
