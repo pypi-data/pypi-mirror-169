@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "guards"
+description = "Tools for guarding Defaults, Null and creating Singletons."
+version = "1.0.0"
+authors = ["Josh Orr <josh@orr.blue>"]
+readme = "README.md"
+packages = [{include = "guards"}]
+license = "MIT"
+repository = "https://github.com/xyngular/py-guards"
+keywords = ["singleton", "type", "guards", "default", "null"]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typing-inspect = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest-pycodestyle = "^2.3.0"
+pytest = "^7.1.3"
+
+# pyproject.toml
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--verbose --pycodestyle"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
