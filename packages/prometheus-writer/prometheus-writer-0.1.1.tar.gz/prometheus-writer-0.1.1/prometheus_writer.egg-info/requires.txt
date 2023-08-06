@@ -1,0 +1,4 @@
+pip==20.3.4
+requests
+protobuf
+snappy
