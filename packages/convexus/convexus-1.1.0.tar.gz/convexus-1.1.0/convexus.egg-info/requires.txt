@@ -1,0 +1,5 @@
+iconsdk>=2.1.0
+pytest
+
+[tests]
+pytest~=7.1.3
