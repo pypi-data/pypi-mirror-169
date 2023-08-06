@@ -1,0 +1,8 @@
+psutil
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[dev]
+pre-commit
+tox
