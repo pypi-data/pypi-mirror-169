@@ -1,0 +1,7 @@
+setup.py
+singularitylib/__init__.py
+singularitylib/singularitylib.py
+singularitylib.egg-info/PKG-INFO
+singularitylib.egg-info/SOURCES.txt
+singularitylib.egg-info/dependency_links.txt
+singularitylib.egg-info/top_level.txt
