@@ -1,0 +1,2 @@
+[console_scripts]
+taskq = taskqtool.cli.main:main
