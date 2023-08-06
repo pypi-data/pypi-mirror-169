@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: request_context_manager
+Version: 0.0.3
+Summary: A easy way to manage resource within request context
+Keywords: json,validate,validator
+Author-email: Eva Cheng <blue800415@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: flit ; extra == "publish"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: coverage-lcov ; extra == "test"
+Project-URL: Home, https://github.com/8thEdition/request_context_manager.git
+Provides-Extra: publish
+Provides-Extra: test
+
+# Request Context Manager
+## Purpose of Request Context
+When application begins handling request, request context manager create a request context. Within request context, you could access the attributes bound with the context. If you try to access attributes outside the context, OutsideContext exception will be raised. 
+
+## How to Create Request Context Manager
+```python
+from request_context_manager import RequestContextManager
+from request_context_manager import RequestContextAttr
+
+# create request context manager
+your_request_context_manager = RequestContextManager('your_request_context_manager_name')
+
+# bind request context attribute
+class YourRequestContextAttr:
+    _request_context_manager = your_request_context_manager
+
+    your_attr = RequestContextAttr('your_attr_name', _request_context_manager)
+
+# get/set request context attribute within request context
+with your_request_context_manager.under_request_context():
+    YourRequestContextAttr.your_attr.set("hello world")
+    your_attr_value = YourRequestContextAttr.your_attr.get() # "hello world"
+```
+
