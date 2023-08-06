@@ -1,0 +1,5 @@
+numpy
+xarray
+
+[:python_version < "3.8"]
+cached_property
