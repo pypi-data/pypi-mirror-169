@@ -1,0 +1,12 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flatten_any_dict_iterable_or_whatsoever/__init__.py
+flatten_any_dict_iterable_or_whatsoever/requirements.txt
+flatten_any_dict_iterable_or_whatsoever/thirdparty.json
+flatten_any_dict_iterable_or_whatsoever.egg-info/PKG-INFO
+flatten_any_dict_iterable_or_whatsoever.egg-info/SOURCES.txt
+flatten_any_dict_iterable_or_whatsoever.egg-info/dependency_links.txt
+flatten_any_dict_iterable_or_whatsoever.egg-info/top_level.txt
