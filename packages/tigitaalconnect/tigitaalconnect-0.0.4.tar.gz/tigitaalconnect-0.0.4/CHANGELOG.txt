@@ -1,0 +1,24 @@
+Change Log
+==========
+
+0.0.1 (09/29/2022)
+------------------
+- First Release
+- 5 easy to use Requests to manipulate the TigitaalAPI
+
+0.0.2 (09/30/2022)
+------------------
+- Second Release
+- Commands now return info as JSON
+- README.txt Updated
+
+0.0.3 (09/30/2022)
+------------------
+- Third Release (Mini release)
+- Bug Fixes
+
+0.0.4 (09/30/2022)
+------------------
+- Fourth Release (Mini release)
+- More Bug Fixes
+- Fixed Formatting Errors
