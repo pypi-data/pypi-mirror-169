@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: BinGame
+Version: 0.0.1
+Summary: 一个基于图片的游戏库
+Home-page: 
+Author: 小斌
+Author-email: 1302371440@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+License-File: LICENSE

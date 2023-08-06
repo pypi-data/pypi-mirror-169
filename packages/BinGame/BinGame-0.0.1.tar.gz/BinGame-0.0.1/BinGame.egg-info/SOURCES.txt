@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+BinGame/TicTacToe.py
+BinGame/__init__.py
+BinGame.egg-info/PKG-INFO
+BinGame.egg-info/SOURCES.txt
+BinGame.egg-info/dependency_links.txt
+BinGame.egg-info/requires.txt
+BinGame.egg-info/top_level.txt
