@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkdocs_plugin_inline_ext_svg"
+version = "0.1.2"
+authors = [
+    { name="Nicolas Dupont", email="nicolas.dupont@jalios.com" },
+]
+description = "Mkdocs plugin to render inline svg files"
+requires-python = ">=3.7"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages]
+find = {}
