@@ -1,0 +1,5 @@
+GDAL>=3
+numpy
+matplotlib>=3.5
+scikit-image
+scipy
