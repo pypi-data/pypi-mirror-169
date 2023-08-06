@@ -1,0 +1,3 @@
+include vkmini/types/*
+include vkmini/group/*
+include py.typed
