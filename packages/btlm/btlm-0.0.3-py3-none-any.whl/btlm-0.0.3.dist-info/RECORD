@@ -1,0 +1,10 @@
+btlm/__init__.py,sha256=en3KlmqaJu5ItXBDKxl6kiDJuP1NuR9mC_9xQ42FSu0,7433
+btlm/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+btlm/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=ZT621IlyRiF65tJySlgN6V8_DIwv3jCyCAS7KuhIN9w,1087608
+btlm/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=NgdsQ5RSqNyn6P1M3-SdYLD38eQcoD4Ep90VEnl__GU,1198080
+btlm-0.0.3.dist-info/LICENSE.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+btlm-0.0.3.dist-info/METADATA,sha256=Ljx6cEI2n-jTi8nsLDk3TWo-EX8zzLUDJMZctlRts5o,601
+btlm-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+btlm-0.0.3.dist-info/entry_points.txt,sha256=rleyAHJdJx9zDPZiibixgdeaZuJq7Jr_vnLkaxUjNks,45
+btlm-0.0.3.dist-info/top_level.txt,sha256=-DzELxI_A_lkLi_y_Ij_a7i4PF9L1XpRUu__2frDzWg,5
+btlm-0.0.3.dist-info/RECORD,,
