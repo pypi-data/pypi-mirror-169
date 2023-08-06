@@ -1,0 +1,8 @@
+aiohttp
+numpy
+
+[test]
+pytest
+pytest-asyncio
+aiohttp
+numpy
