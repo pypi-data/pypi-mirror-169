@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CARRATALA.egg-info/PKG-INFO
+CARRATALA.egg-info/SOURCES.txt
+CARRATALA.egg-info/dependency_links.txt
+CARRATALA.egg-info/entry_points.txt
+CARRATALA.egg-info/top_level.txt
