@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: plover-controller
+Version: 0.0.5
+Summary: Controller support for Plover
+Home-page: https://github.com/tadeokondrak/plover_controller
+Author: Tadeo Kondrak
+Author-email: me@tadeo.ca
+License: GNU General Public License v2 or later (GPLv2+)
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# plover_controller
+
+A plugin that adds a controller machine to Plover. Work in progress.
+
+
