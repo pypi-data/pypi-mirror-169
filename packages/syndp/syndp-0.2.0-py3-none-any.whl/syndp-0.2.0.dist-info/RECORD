@@ -1,0 +1,12 @@
+syndp/__init__.py,sha256=zbIxdP1ChhSINzGQr8rTqWLfVAh9poKkABqsseu4xAg,191
+syndp/bounded_laplace_mechanism.py,sha256=ioNo5dpjsgKeTyFio99DOD1lG08n_Wuib9gHsuRmc7E,1592
+syndp/functions.py,sha256=QOVn49fI1WsiteFZ70q2bk1mKpenOTzCPGP9zTgDETw,1795
+syndp/laplace_mechanism.py,sha256=j-gWbIs9IS4eaMHGlDsLygS5YpyY36iIu1VnFW_aDMM,211
+syndp/original_timedp.py,sha256=dcQtWfb54Dp5j0kUU1sdAuTV-c1p3MbsBli9Q2e4z-Q,4324
+syndp/preprocessing.py,sha256=t1a3OTrbdKNjmkL7j_lDqTSu9f8JvKx7yS0NDBwa7CM,3087
+syndp/timedp_algorithm.py,sha256=8PEYCdk3FdoR7v8rBuRj1MTiUvVPpSTSTYTV9c17wjY,3769
+syndp-0.2.0.dist-info/LICENSE.txt,sha256=D0D6o9IP_wRb49gGyRYXUJpsZcfh3QmCJx0mDc3MCK8,1062
+syndp-0.2.0.dist-info/METADATA,sha256=8Z1LXpMFYTTw8T4eVXKUbzKJhMNFqn7Rnc0SagQC-6c,588
+syndp-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+syndp-0.2.0.dist-info/top_level.txt,sha256=mxCTNkLPd5xGNsRQnu36FPJY6NIAU_yGAVsUjQjKJcY,6
+syndp-0.2.0.dist-info/RECORD,,
