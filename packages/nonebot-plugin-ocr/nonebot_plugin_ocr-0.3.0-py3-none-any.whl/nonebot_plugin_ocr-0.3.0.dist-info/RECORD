@@ -1,0 +1,11 @@
+nonebot_plugin_ocr/__init__.py,sha256=HnEQWUEL8ODyWHFk33H7J4nLY4wYSs777B70ajr-yLM,1182
+nonebot_plugin_ocr/bot/bot_manage.py,sha256=yuQ02p_7eYfJQeeKysovKuDm4EiZDw9-zFcE2E-_l4s,977
+nonebot_plugin_ocr/bot/onebot11.py,sha256=NWFxD0fIzYIZ5onTVoOrpe1MES_6PuTLPlJch-TIc_4,3372
+nonebot_plugin_ocr/bot/tool.py,sha256=llRZNa8kwHLtS9FRYSl2yFDW1kAVaM-aWQxzrHNGXJ8,561
+nonebot_plugin_ocr/config.py,sha256=TUJ1aVkvu1iLa_YA89VB7nb-iuTjiXDKoDcSAONgDqM,1618
+nonebot_plugin_ocr/ocr/baidu_cloud.py,sha256=oONjY2FWtZL7xri-Zu_44PwoAF5diGOZ7mWAOayBEQg,6775
+nonebot_plugin_ocr/ocr/client.py,sha256=DjGgYrR0XCqoRMzWOEJ8_9QLnSkXB3SUTMe21d1tR28,810
+nonebot_plugin_ocr/ocr/ocr_init.py,sha256=QC2cTn2tlD7f-_bJD1adX4WRmQMB_bUysVaQsr0cU9Y,1291
+nonebot_plugin_ocr-0.3.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+nonebot_plugin_ocr-0.3.0.dist-info/METADATA,sha256=4bYV785RJS2JyMZABSSETV5U2v3JE7UPL_Ks_Bs_70M,732
+nonebot_plugin_ocr-0.3.0.dist-info/RECORD,,
