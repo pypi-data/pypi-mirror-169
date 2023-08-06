@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+scuwl.egg-info/PKG-INFO
+scuwl.egg-info/SOURCES.txt
+scuwl.egg-info/dependency_links.txt
+scuwl.egg-info/entry_points.txt
+scuwl.egg-info/requires.txt
+scuwl.egg-info/top_level.txt
+scuwl_petebuffon/__init__.py
+scuwl_petebuffon/scuwl.py
