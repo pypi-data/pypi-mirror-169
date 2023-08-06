@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+relic_tool.egg-info/PKG-INFO
+relic_tool.egg-info/SOURCES.txt
+relic_tool.egg-info/dependency_links.txt
+relic_tool.egg-info/top_level.txt
