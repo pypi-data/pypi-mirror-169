@@ -1,0 +1,7 @@
+README.md
+setup.py
+coda_api.egg-info/PKG-INFO
+coda_api.egg-info/SOURCES.txt
+coda_api.egg-info/dependency_links.txt
+coda_api.egg-info/not-zip-safe
+coda_api.egg-info/top_level.txt
