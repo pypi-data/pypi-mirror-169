@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.py
+nifty2/__init__.py
+nifty2/nifty.py
+niftygen2.egg-info/PKG-INFO
+niftygen2.egg-info/SOURCES.txt
+niftygen2.egg-info/dependency_links.txt
+niftygen2.egg-info/requires.txt
+niftygen2.egg-info/top_level.txt
