@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/chrome-search-engine-importer/__main__.py
+src/chrome_search_engine_importer.egg-info/PKG-INFO
+src/chrome_search_engine_importer.egg-info/SOURCES.txt
+src/chrome_search_engine_importer.egg-info/dependency_links.txt
+src/chrome_search_engine_importer.egg-info/requires.txt
+src/chrome_search_engine_importer.egg-info/top_level.txt
