@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pytubeyoutube
+Version: 0.0.1
+Summary: PYtube yordamida Youtubedan video yuklash;download Youtube video with Pytube.
+Author: Brodyaga
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+
