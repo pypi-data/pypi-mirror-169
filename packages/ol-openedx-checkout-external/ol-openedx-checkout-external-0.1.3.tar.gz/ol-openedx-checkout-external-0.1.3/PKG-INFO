@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ol-openedx-checkout-external
+Version: 0.1.3
+Summary: An Open edX plugin to add API for external checkouts
+License: BSD-3-Clause
+Requires-Python: >=3.8
