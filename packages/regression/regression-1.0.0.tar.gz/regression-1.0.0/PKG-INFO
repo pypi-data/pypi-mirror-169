@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: regression
+Version: 1.0.0
+Summary: Recreation of different kinds of regression using optimisation algorithms
+Home-page: https://github.com/Muradmustafayev-03/RegressionRecreation.git
+Author: Murad Mustafayev
+Author-email: murad.mustafayev@ufaz.az
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Muradmustafayev-03/RegressionRecreation/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/Muradmustafayev-03/RegressionRecreation/
+Keywords: regression,linear regression,polynomial regression,multivariate regression,ML
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RegressionRecreation
+Recreation of different kinds of regression using optimisation algorithms
+
+
