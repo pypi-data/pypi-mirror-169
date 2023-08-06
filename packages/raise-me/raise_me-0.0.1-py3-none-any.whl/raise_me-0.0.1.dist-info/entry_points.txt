@@ -1,0 +1,3 @@
+[console_scripts]
+raise=raise_me.app:app
+
