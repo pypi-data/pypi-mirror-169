@@ -1,0 +1,10 @@
+jupyter_server:
+  port: 5008
+  token: token123
+n2p_comm:
+  host: tcp://127.0.0.1
+  kernel_control_port: 5005
+p2n_comm:
+  host: tcp://127.0.0.1
+  port: 5000
+path_to_cnextlib: G:/DEV/CycAI/cycdataframe
