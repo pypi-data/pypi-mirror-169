@@ -1,0 +1,5 @@
+[console_scripts]
+nf-eval = scripts.eval:entrypoint
+nf-install-cli = scripts.completions.install:entrypoint
+nf-process-data = scripts.process_data:entrypoint
+nf-train = scripts.train:entrypoint

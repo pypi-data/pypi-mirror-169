@@ -1,0 +1,11 @@
+nerfstudio/__init__.py,sha256=fYeLTMtFyjpfLfrBj05R3v_hDOUpBqSycXQh0GPSurc,604
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/eval.py,sha256=_lmfqDWHUtuwgiJtYoG0Wed8t25rWQNdlwTuDpIo3QA,8651
+scripts/process_data.py,sha256=DwokZbdiJykZp34WpFoaaR3pOAGoHIbbVkiAqWE1up4,17706
+scripts/train.py,sha256=U3IEDRCHb78jyIF_X525usYiMqjwRve6xz9S683I1cY,7252
+nerfstudio-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nerfstudio-0.0.1.dist-info/METADATA,sha256=VU57MvzjqsglZi2AdftW0XTOgC5cy4Ft_UH2JO36UFY,13455
+nerfstudio-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nerfstudio-0.0.1.dist-info/entry_points.txt,sha256=SozrL_t5uSKdxqqZUYV5vpghd7pqWJKLKY8i58-9xrw,194
+nerfstudio-0.0.1.dist-info/top_level.txt,sha256=JnxCKfoI3630fZ4a09CP50ZcVv3ziK4aAOCaRJe4kpE,19
+nerfstudio-0.0.1.dist-info/RECORD,,
