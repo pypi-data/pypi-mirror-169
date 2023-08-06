@@ -1,0 +1,17 @@
+melvil_booklist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melvil_booklist/book/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melvil_booklist/book/book.py,sha256=H2OsawemqV3qlvxiKYBtXmFfD28DT3ckvZQsq3LofAU,14387
+melvil_booklist/booklist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melvil_booklist/booklist/booklist.py,sha256=7WlPJ9v_rI8vAV45klHIsmlcaIdVhTJTdNyES3HrWFM,7028
+melvil_booklist/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melvil_booklist/helper/helper.py,sha256=bUc-z58eFTuHAXwpwYBPyC4JwZj_byDFBpP0-T-j2ZQ,7064
+melvil_booklist/melvil_booklist.py,sha256=rS13MOsX7ENNrrKXdqpWIdecqH83AztCwuiGSzbsXC4,1432
+melvil_booklist/reading/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melvil_booklist/reading/reading.py,sha256=SvwiYb6UZ4LbePuf4xZtRD-eK-OMk9PaONHxuPt53HA,3254
+melvil_booklist/search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melvil_booklist/search/search.py,sha256=kTitzlyLdqGLIxsvaz_qadzf8XCVZvhqMUF79m1H81A,2682
+melvil_booklist-1.0.1.dist-info/entry_points.txt,sha256=sFArvVWaIPhBtkfFnoEIA_ufZl6vr2PHQvu7s52Lhrs,42
+melvil_booklist-1.0.1.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+melvil_booklist-1.0.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+melvil_booklist-1.0.1.dist-info/METADATA,sha256=9BeinK7UzScaoJuAMhWFirIu1EwwLit1VckNQD0UYHY,2757
+melvil_booklist-1.0.1.dist-info/RECORD,,
