@@ -1,0 +1,6 @@
+tensorflow
+tensorflow_datasets
+seqio
+t5
+sentencepiece
+loguru
