@@ -1,0 +1,12 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Link: <https://hue-api.nirantak.com/:splat>; rel="canonical"
+  Access-Control-Allow-Origin: https://nirantak.com
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, nosnippet
+
+https://:hash.:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, nosnippet
