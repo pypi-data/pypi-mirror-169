@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: is-even-20220929
+Version: 1.0.0
+Summary: Determine whether a number is even or odd
+Author-email: Example Author <author@example.com>
+Project-URL: Homepage, https://github.com/
+Project-URL: Bug Tracker, https://github.com/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The Is Even Module
+
+This module contains a function that you can use to determine whether a number is even or odd.
