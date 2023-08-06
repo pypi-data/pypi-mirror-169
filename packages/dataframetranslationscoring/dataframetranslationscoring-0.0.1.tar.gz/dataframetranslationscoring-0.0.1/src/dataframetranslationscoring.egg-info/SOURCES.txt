@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dataframetranslationscoring/__init__.py
+src/dataframetranslationscoring/scoring.py
+src/dataframetranslationscoring/utils.py
+src/dataframetranslationscoring.egg-info/PKG-INFO
+src/dataframetranslationscoring.egg-info/SOURCES.txt
+src/dataframetranslationscoring.egg-info/dependency_links.txt
+src/dataframetranslationscoring.egg-info/top_level.txt
+tests/SAIB_TablesNames_Translated.xlsx
+tests/__init__.py
+tests/scoring_test.py
+tests/__pycache__/__init__.cpython-38.pyc
+tests/__pycache__/scoring_test.cpython-38.pyc
