@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ready-logger
+Version: 0.1.5
+Summary: Easily configure loggers.
+Home-page: https://github.com/djkelleher/ready-logger
+License: MIT
+Author: Dan Kelleher
+Author-email: kelleherjdan@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: psutil (>=5.9.1,<6.0.0)
+Project-URL: Repository, https://github.com/djkelleher/ready-logger
+Description-Content-Type: text/markdown
+
+## Easily configure loggers.
+
+### Use the default logger:
+```python
+from ready_logger import logger
+```
+
+### Use a custom logger:
+```python
+logger = get_logger(
+    name='my-logger',
+    log_level='DEBUG',
+    log_dir='/home/user/my_logs'
+)
+```
+see [get_logger]('ready_logger/configure.py#L11') for more details.
+
+### Configuration
+All `get_logger` arguments besides for `name` can be set via environment variables in the form `READY_LOGGER_{VARIABLE NAME}`.   
+
+To set configuration specific to a named logger,
+use the format `{LOGGER NAME}_{VARIABLE NAME}`
