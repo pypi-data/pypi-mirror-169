@@ -1,0 +1,8 @@
+setup.py
+graphinx/__init__.py
+graphinx/graphinx.py
+graphinx.egg-info/PKG-INFO
+graphinx.egg-info/SOURCES.txt
+graphinx.egg-info/dependency_links.txt
+graphinx.egg-info/not-zip-safe
+graphinx.egg-info/top_level.txt
