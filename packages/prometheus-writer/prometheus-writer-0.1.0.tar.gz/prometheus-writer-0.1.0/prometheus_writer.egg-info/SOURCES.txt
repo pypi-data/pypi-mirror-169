@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+prometheus/Writer.py
+prometheus/__init__.py
+prometheus/prometheus.proto
+prometheus/prometheus_pb2.py
+prometheus/write.py
+prometheus_writer.egg-info/PKG-INFO
+prometheus_writer.egg-info/SOURCES.txt
+prometheus_writer.egg-info/dependency_links.txt
+prometheus_writer.egg-info/requires.txt
+prometheus_writer.egg-info/top_level.txt
+prometheus_writer.egg-info/zip-safe
