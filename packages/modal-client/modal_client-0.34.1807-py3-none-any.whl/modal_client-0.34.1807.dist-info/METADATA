@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: modal-client
+Version: 0.34.1807
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: aiohttp
+Requires-Dist: aiostream
+Requires-Dist: asgiref
+Requires-Dist: certifi
+Requires-Dist: cloudpickle (<2.1.0,>=2.0.0)
+Requires-Dist: fastapi
+Requires-Dist: grpclib (==0.4.3)
+Requires-Dist: importlib-metadata
+Requires-Dist: protobuf (<5.0,>=3.19)
+Requires-Dist: rich
+Requires-Dist: sentry-sdk
+Requires-Dist: synchronicity (>=0.2.8)
+Requires-Dist: toml
+Requires-Dist: typer (==0.6.1)
+Requires-Dist: types-certifi
+Requires-Dist: types-toml
+Requires-Dist: watchfiles
+
+UNKNOWN
+
