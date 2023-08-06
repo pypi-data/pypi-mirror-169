@@ -1,0 +1,9 @@
+README.md
+__init__.py
+batch_pipeline.py
+setup.py
+batch_signals_to_bigquery.egg-info/PKG-INFO
+batch_signals_to_bigquery.egg-info/SOURCES.txt
+batch_signals_to_bigquery.egg-info/dependency_links.txt
+batch_signals_to_bigquery.egg-info/requires.txt
+batch_signals_to_bigquery.egg-info/top_level.txt
