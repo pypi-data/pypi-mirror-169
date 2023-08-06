@@ -1,0 +1,5 @@
+postgres_permissions_operator/__init__.py,sha256=okg1dwdDJxja8xpFatYl-_4f6nr2JfG2RvDWjSJ5trw,45
+postgres_permissions_operator/postgres_permissions_operator.py,sha256=gj5bC7dhpsvlespGWxXzweEqkzgwgD9ld_-ByDNhOOA,10732
+amsterdam_airflow_postgres_permissions_operator-1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+amsterdam_airflow_postgres_permissions_operator-1.1.dist-info/METADATA,sha256=jDP5JUtRdKzERLQgnYYyR9qEemTFWFyrLmSY1fL5Ra4,992
+amsterdam_airflow_postgres_permissions_operator-1.1.dist-info/RECORD,,
