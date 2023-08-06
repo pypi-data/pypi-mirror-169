@@ -1,0 +1,10 @@
+aiogovee/__init__.py,sha256=Y4JCS_Ygfz0Xab1_89szyVV_i8IbyLD51pi2ihIYQbc,84
+aiogovee/__main__.py,sha256=XeozJJFZNlXtB1CTEwMIfvtYzdgNuBzD_vFqiQ9UHEQ,9300
+aiogovee/aiogovee.py,sha256=tuP-rKKxoXkVSrU0G04sx3DkK4iXFLk4sd50Oxf2Wqo,15474
+aiogovee/message.py,sha256=Fx05J0jweRkn2_GptSgGgQ1LpOKIo4BHeWak7zTjOGQ,851
+aiogovee/msgtypes.py,sha256=jWmjugkh2jG_rcQyBRlYNpogWf4W-itCbXF6hWTmXeA,3044
+aiogovee-0.1.2.dist-info/LICENSE.txt,sha256=yMC61jOZJaavoKYYZ3mrjtsadQ2KU7JZwpYqtfKCC10,11368
+aiogovee-0.1.2.dist-info/METADATA,sha256=Oj1uLoqht5uM0M-xSb-_mJzkFgAzZmydkzx8oXPDmQY,4169
+aiogovee-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiogovee-0.1.2.dist-info/top_level.txt,sha256=PSpNJmcDtiWfSSxTmVJL08uJV7XsteKJMd7KsWQCdrc,9
+aiogovee-0.1.2.dist-info/RECORD,,
