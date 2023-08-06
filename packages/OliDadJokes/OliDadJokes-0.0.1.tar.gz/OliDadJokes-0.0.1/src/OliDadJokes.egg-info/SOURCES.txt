@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/OliDadJokes.egg-info/PKG-INFO
+src/OliDadJokes.egg-info/SOURCES.txt
+src/OliDadJokes.egg-info/dependency_links.txt
+src/OliDadJokes.egg-info/top_level.txt
+src/dad-jokes/__init__.py
+src/dad-jokes/dadjokes.py
