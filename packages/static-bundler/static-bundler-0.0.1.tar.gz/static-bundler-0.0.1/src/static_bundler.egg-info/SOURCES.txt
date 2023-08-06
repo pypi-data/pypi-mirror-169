@@ -1,0 +1,12 @@
+LICENSE.rst
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/static_bundler/__init__.py
+src/static_bundler/bundle.py
+src/static_bundler.egg-info/PKG-INFO
+src/static_bundler.egg-info/SOURCES.txt
+src/static_bundler.egg-info/dependency_links.txt
+src/static_bundler.egg-info/requires.txt
+src/static_bundler.egg-info/top_level.txt
