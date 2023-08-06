@@ -1,0 +1,6 @@
+from baseblock import BaseObject
+from speech_patho_mdl.dto.typedefs import ServiceEvent as ServiceEvent
+
+class CustomOpenAIPathology(BaseObject):
+    def __init__(self, d_config: dict) -> None: ...
+    def process(self, input_text: str) -> ServiceEvent: ...
