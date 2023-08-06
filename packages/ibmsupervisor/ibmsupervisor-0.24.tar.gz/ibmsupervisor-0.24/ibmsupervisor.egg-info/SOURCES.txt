@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ibmsupervisor/__init__.py
+ibmsupervisor/main.py
+ibmsupervisor.egg-info/PKG-INFO
+ibmsupervisor.egg-info/SOURCES.txt
+ibmsupervisor.egg-info/dependency_links.txt
+ibmsupervisor.egg-info/entry_points.txt
+ibmsupervisor.egg-info/top_level.txt
