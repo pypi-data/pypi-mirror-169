@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Gitlab-Tools
+Version: 0.0.1
+Summary: Gitlab Tools for gitlab API
+Home-page: https://gitlab.com/ecraciun/gitlab-tools
+Author: emilian.craciun
+Author-email: emilian.craciun9@yahoo.com
+License: UNKNOWN
+Description: Gitlab Tools Library
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
