@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+COCHENNEC.egg-info/PKG-INFO
+COCHENNEC.egg-info/SOURCES.txt
+COCHENNEC.egg-info/dependency_links.txt
+COCHENNEC.egg-info/entry_points.txt
+COCHENNEC.egg-info/top_level.txt
