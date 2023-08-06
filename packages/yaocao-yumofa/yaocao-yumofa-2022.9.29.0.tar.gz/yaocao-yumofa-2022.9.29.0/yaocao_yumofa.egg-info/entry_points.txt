@@ -1,0 +1,4 @@
+[console_scripts]
+YaocaoYumofa = YaocaoYumofa.__main__:main
+yaocao-yumofa = YaocaoYumofa.__main__:main
+
