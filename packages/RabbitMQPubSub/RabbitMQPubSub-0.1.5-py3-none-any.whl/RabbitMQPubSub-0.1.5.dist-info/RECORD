@@ -1,0 +1,14 @@
+RabbitMQPubSub-0.1.5-py3.9-nspkg.pth,sha256=eN_-9KDqJ5wR32b80dxz1kpbNg4O4RKgN7S2pRjoHJA,579
+rabbitmqpubsub/rabbit_pubsub/__init__.py,sha256=-CToKId5aH7clz4Wc7Mxib8GfYSaIVxQ52zIMr7i3Rk,191
+rabbitmqpubsub/rabbit_pubsub/publisher.py,sha256=qcAf0dq_veYUzYn64xVZWXp09ppGafUrfVY3ZZv3MCE,2367
+rabbitmqpubsub/rabbit_pubsub/rcpclient.py,sha256=9pkTIkbDFWU7p69c2gwOn28nddCKAKWser3L3NdZoI4,4562
+rabbitmqpubsub/rabbit_pubsub/subscriber.py,sha256=-rUdjXhjVsBUATXzpGI77uRFvbMOA12J_T9OcOorfcE,16097
+rabbitmqpubsub/rabbit_pubsub/utils.py,sha256=frp4nw5-9XlGwX45KhTdf5h3Ga6wcXPz6rH8BLUVEIo,532
+rabbitmqpubsub/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbitmqpubsub/tests/test_subscriber.py,sha256=B_R3pqkur_Nh1ZNjC4J5I2YBa7fPnqSY9wRTvF1t474,2669
+RabbitMQPubSub-0.1.5.dist-info/LICENSE,sha256=Xp6nB4c9noADL7noS-90xvnsxY_G0fYRiucmok269cQ,11358
+RabbitMQPubSub-0.1.5.dist-info/METADATA,sha256=yjEU5IPyY5dtK0DROTjdnzvGp88IGn5Bb-zDm6q4Dyk,672
+RabbitMQPubSub-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+RabbitMQPubSub-0.1.5.dist-info/namespace_packages.txt,sha256=PbN-hO_RBn_k_iDZU729_M55w6gPj-TFfimkd0DiIHY,15
+RabbitMQPubSub-0.1.5.dist-info/top_level.txt,sha256=PbN-hO_RBn_k_iDZU729_M55w6gPj-TFfimkd0DiIHY,15
+RabbitMQPubSub-0.1.5.dist-info/RECORD,,
