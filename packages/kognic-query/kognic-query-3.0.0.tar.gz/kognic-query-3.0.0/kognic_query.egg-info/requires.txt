@@ -1,0 +1,2 @@
+requests<3,>=2.20
+kognic-auth[requests]<4,>=3.0.0
