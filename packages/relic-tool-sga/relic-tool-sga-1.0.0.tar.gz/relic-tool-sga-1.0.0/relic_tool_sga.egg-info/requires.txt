@@ -1,0 +1,2 @@
+relic-tool-sga-v2~=1.0.0
+relic-tool-sga-core~=1.0.0
