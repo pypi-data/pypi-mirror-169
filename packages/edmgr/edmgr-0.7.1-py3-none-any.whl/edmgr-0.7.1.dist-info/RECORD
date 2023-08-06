@@ -1,0 +1,14 @@
+edmgr/__init__.py,sha256=i27Nd5PSebXfoxulupcvto2n2zWYo41UOOA8qWXIlgU,48
+edmgr/auth.py,sha256=HCMqzIAPT2eHXD7REO-15gIQWNePtdg0OHCMsgQti10,5966
+edmgr/client.py,sha256=7IyChw7_ER0H8nGbJKHmzOaWX2zQc1jYggB4yot3Zm4,15474
+edmgr/config.py,sha256=FjoxxsHagU8jgLxgKGPblIAm441eysFFQAhNclJukL4,2994
+edmgr/download.py,sha256=PB5j89woBrGofP9HktIVn0QjvMI_6fIuBSRsofXmHLc,3322
+edmgr/edmgrcli.py,sha256=EksCfHBoF7kpAyGvIXWXGd4bl1-qrR9TrvpPGAe7JUg,15816
+edmgr/exceptions.py,sha256=lW1KqEiDF86VHENK63kunAUl-GqiEhokReHWqLy6lO0,441
+edmgr/requester.py,sha256=28Njrk9JWZpteFmoLDbyaQMluxJqcnJhCIcy6IkZczI,2777
+edmgr-0.7.1.dist-info/LICENSE,sha256=TCS8gOzsRd9I3BwtRS0wDe9yhFu2gM4biSxPbSGTDGI,1072
+edmgr-0.7.1.dist-info/METADATA,sha256=tefiAOalcRWwHFtZjX1gtupvsff4hdAT60iTisa7-7Q,9718
+edmgr-0.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+edmgr-0.7.1.dist-info/entry_points.txt,sha256=z_kdE-jf_dwLfebM0IhK1UXZfL9e0A8srlt13AO5uhY,46
+edmgr-0.7.1.dist-info/top_level.txt,sha256=l96OPblMd4zOYGIERlYZlisoKtNoQtY716Kwk5fj1Nk,6
+edmgr-0.7.1.dist-info/RECORD,,
