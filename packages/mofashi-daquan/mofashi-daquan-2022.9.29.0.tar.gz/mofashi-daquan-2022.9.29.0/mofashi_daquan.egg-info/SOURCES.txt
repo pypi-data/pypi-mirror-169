@@ -1,0 +1,12 @@
+README.md
+setup.py
+MofashiDaquan/README.md
+MofashiDaquan/__init__.py
+MofashiDaquan/__main__.py
+MofashiDaquan/file.pdf
+MofashiDaquan/index.html
+mofashi_daquan.egg-info/PKG-INFO
+mofashi_daquan.egg-info/SOURCES.txt
+mofashi_daquan.egg-info/dependency_links.txt
+mofashi_daquan.egg-info/entry_points.txt
+mofashi_daquan.egg-info/top_level.txt
