@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/testpackage_rajdudhare1/__init__.py
+src/testpackage_rajdudhare1/example.py
+src/testpackage_rajdudhare1.egg-info/PKG-INFO
+src/testpackage_rajdudhare1.egg-info/SOURCES.txt
+src/testpackage_rajdudhare1.egg-info/dependency_links.txt
+src/testpackage_rajdudhare1.egg-info/top_level.txt
