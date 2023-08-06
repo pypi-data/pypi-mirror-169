@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "converter_chinkara"
+version = "0.0.1"
+authors = [
+  { name="chinkara", email="vincent.du-baret@isen.yncrea.fr" },
+]
+description = "A simple binary to decimal converter and decimal to binary"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Ch1nkara/M1-2022-git-workflow-dubaret"
+"Bug Tracker" = "https://github.com/Ch1nkara/M1-2022-git-workflow-dubaret/issues"
+
