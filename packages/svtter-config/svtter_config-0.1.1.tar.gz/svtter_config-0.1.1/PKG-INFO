@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: svtter-config
+Version: 0.1.1
+Summary: 
+Home-page: http://github.com/svtter/svtter_config
+Author: svtter
+Author-email: svtter@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, http://github.com/svtter/svtter_config
