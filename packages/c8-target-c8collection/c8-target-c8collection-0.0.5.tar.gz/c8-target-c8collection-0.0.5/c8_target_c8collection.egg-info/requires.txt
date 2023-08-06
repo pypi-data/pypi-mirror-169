@@ -1,0 +1,5 @@
+jsonschema==2.6.0
+singer-python==5.12.2
+adjust-precision-for-schema==0.3.4
+pyC8==0.17.1
+c8connector==0.0.2
