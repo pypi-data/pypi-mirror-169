@@ -1,0 +1,17 @@
+[package]
+name = "histongram-python"
+description = "Python bindings for histongram"
+version= "0.2.1"
+edition= "2021"
+license= "MIT OR Apache-2.0"
+authors= ["tdittr <td-github@orangecar.org"]
+repository= "https://github.com/tdittr/histongram"
+
+[lib]
+name = "histongram"
+crate-type = ["cdylib"]
+
+[dependencies]
+histongram = { path = "local_dependencies/histongram" }
+pyo3 = { version = "0.17.1", features = ["extension-module", "abi3", "abi3-py37"] }
+compact_str = "0.6.1"

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: histongram
+Version: 0.2.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Summary: Python bindings for histongram
+Author: tdittr <td-github@orangecar.org
+Author-email: tdittr <td-github@orangecar.org
+License: MIT OR Apache-2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/tdittr/histongram
+
+# Histo(n)gram
+
+A little Rust crate to count the number of [n-gram](https://en.wikipedia.org/wiki/N-gram)s in a text.
+
+## Future work
+* Add python bindings
+
+# License
+Licensed under either of Apache License, Version 2.0 or MIT license at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted by you, shall be
+dual licensed as above, without any additional terms or conditions.
+
