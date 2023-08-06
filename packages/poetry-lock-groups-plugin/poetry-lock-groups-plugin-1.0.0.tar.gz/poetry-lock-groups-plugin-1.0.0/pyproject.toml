@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "poetry-lock-groups-plugin"
+version = "1.0.0"
+description = "Poetry extension enabling group dependency application at the lock stage"
+authors = ["Peter Jablonski <jablonski_peter@bah.com>", "Eric Konieczny <ekonieczny@cpointe-inc.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://bitbucket.org/cpointe/poetry-lock-groups-plugin"
+
+packages = [
+    {include = "poetry_lock_groups", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+poetry = "^1.2.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+lock-groups-plugin = "poetry_lock_groups.plugin:LockGroupsPlugin"
+
+[build-system]
+requires = ["poetry-core>=1.2"]
+build-backend = "poetry.core.masonry.api"
