@@ -1,0 +1,12 @@
+pytorch_tao/__init__.py,sha256=2Md2eXIXd6qsWgQkugJbbvStNe8pH-UmuadRMS4BDkE,425
+pytorch_tao/cli.py,sha256=r4N9hgX1ZdFkhAOSf2OYqsOxqU6nhhEQbu3_5mCWECo,85
+pytorch_tao/commands.py,sha256=3fYTh_6h7fVBLJEcb4V0JgnTfROPaPWOllg622YJ2BI,20
+pytorch_tao/core.py,sha256=jfNzjvhujGesUaZc99VCEEvQ5o0hzIMUlcD0g4-BWIU,3426
+pytorch_tao/devtool.py,sha256=SzVYys8IRD-GWQiD5dNbK8zkqvb0y50Dt_phZtX_1Hg,321
+pytorch_tao/repo.py,sha256=D10AC9lVpusp44BlPuFQA12A--GrIhDFUSsaDT5z5E8,5240
+pytorch_tao/templates/.gitignore.jinja,sha256=GB5CkmlIiSr-2giDxOSUoEXV9DWBUZ9_3tVhBcTQgpU,85
+pytorch_tao/templates/cfg.yml.jinja,sha256=La7b9JvXx607zCyJp7KDh72awMkGqtGKJisG9ePv27A,645
+pytorch_tao-0.1.4.dist-info/entry_points.txt,sha256=_Kp1FYlHl77FuRp0uW34-kPv6gnhlByaj12j69gRMgs,81
+pytorch_tao-0.1.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pytorch_tao-0.1.4.dist-info/METADATA,sha256=ukfZWN8olh3Eulh66votYcxVbNwOns-AgPYQmnQ454M,707
+pytorch_tao-0.1.4.dist-info/RECORD,,
