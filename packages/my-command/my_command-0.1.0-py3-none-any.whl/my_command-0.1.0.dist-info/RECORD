@@ -1,0 +1,6 @@
+my_command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_command/my_command.py,sha256=XEkuiIsxVMoinHvkh09pEjhoIHVz5Dz5GTctN-Huv60,23
+my_command-0.1.0.dist-info/entry_points.txt,sha256=vuYQGI3jQpmamHsMtjoGKCtvJiUmQ7JaeY6I6BrSby4,56
+my_command-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+my_command-0.1.0.dist-info/METADATA,sha256=KUQlWftXjyMpNtxNWLLfVSZ70MwqtmQ1uJbxIyqpNMo,292
+my_command-0.1.0.dist-info/RECORD,,
