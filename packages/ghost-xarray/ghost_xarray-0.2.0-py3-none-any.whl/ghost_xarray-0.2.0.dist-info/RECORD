@@ -1,0 +1,8 @@
+ghost_xarray/__init__.py,sha256=ctXA7KV2_S3Z3crefY4lnTDYlXxi7nFiJ3UstOIcovQ,235
+ghost_xarray/ghost_xarray.py,sha256=9w_JBYY7eW76G11cKhQIjs6NGp3MNnsU4pFMvPJ0mSg,4835
+tests/test_load.py,sha256=sXPd_qlWntv3c-0Yq2lclP3-jZIYAqZty_S1IouFmFE,421
+ghost_xarray-0.2.0.dist-info/LICENSE,sha256=iOegH0AKsyWGV5KPsjH1QiZ2ddzSuG__b9aQxY24A5I,1073
+ghost_xarray-0.2.0.dist-info/METADATA,sha256=gFY8veYAnz2hRv__ey1HTSWF796-55vIdg3ZFN7ctQw,5036
+ghost_xarray-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ghost_xarray-0.2.0.dist-info/top_level.txt,sha256=Jgdu4oH0O7OoQHBHqFDlX5dfEO6V7e9JJU1LPF9aSeY,19
+ghost_xarray-0.2.0.dist-info/RECORD,,
