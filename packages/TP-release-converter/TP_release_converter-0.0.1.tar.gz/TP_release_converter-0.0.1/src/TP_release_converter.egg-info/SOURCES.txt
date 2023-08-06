@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/TP_release_converter.egg-info/PKG-INFO
+src/TP_release_converter.egg-info/SOURCES.txt
+src/TP_release_converter.egg-info/dependency_links.txt
+src/TP_release_converter.egg-info/top_level.txt
+src/dec_bin_converter_Angileri_lorenzo/__init__.py
+src/dec_bin_converter_Angileri_lorenzo/converter.py
