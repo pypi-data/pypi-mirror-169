@@ -1,0 +1,14 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+autocord/__init__.py
+autocord/client.py
+autocord/exceptions.py
+autocord/type.py
+autocord/utils.py
+autocord.egg-info/PKG-INFO
+autocord.egg-info/SOURCES.txt
+autocord.egg-info/dependency_links.txt
+autocord.egg-info/requires.txt
+autocord.egg-info/top_level.txt
