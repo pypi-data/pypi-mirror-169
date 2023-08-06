@@ -1,0 +1,6 @@
+setup.py
+wf-sdk/__init__.py
+wf_sdk.egg-info/PKG-INFO
+wf_sdk.egg-info/SOURCES.txt
+wf_sdk.egg-info/dependency_links.txt
+wf_sdk.egg-info/top_level.txt
