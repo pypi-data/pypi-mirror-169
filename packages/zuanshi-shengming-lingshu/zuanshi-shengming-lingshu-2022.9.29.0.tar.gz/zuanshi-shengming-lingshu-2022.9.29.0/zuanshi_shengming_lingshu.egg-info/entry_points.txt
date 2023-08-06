@@ -1,0 +1,4 @@
+[console_scripts]
+ZuanshiShengmingLingshu = ZuanshiShengmingLingshu.__main__:main
+zuanshi-shengming-lingshu = ZuanshiShengmingLingshu.__main__:main
+
