@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: django_nice_form_fields
+Version: 0.9.1
+Summary: Django custom imagefield that dynamically renders the loaded image.
+Home-page: https://github.com/onelifeitsme/django_nice_form_fields
+Author: Artur Karpovich
+Author-email: onelifeitsme@gmail.com
+License: UNKNOWN
+Description: # django-nice-form-fields
+        Django forms custom imagefield that dynamically renders the loaded image.
+        <h1>Installation:</h1>
+        1.pip install django-nice-form-fields
+        <br>
+        2. Add 'django-nice-form-fields' to installed apps in settings.py.
+        <br>
+        <h1>Example:</h1>
+        .. code:: python
+        
+              from django import forms
+              from django_nice_form_fields.fields import DynamicImageField
+        
+              class MyForm(forms.Form):
+        
+                  photo = DynamicImageField(label='Photo', choose_image_text='Choose photo', change_image_text='Change photo')
+        
+Platform: UNKNOWN
