@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: pandas-nosql
+Version: 0.0.1
+Summary: A Module to add read and write capabilities to pandas for several nosql databases
+Home-page: https://bitbucket.org/blacklotus231/pandas-nosql
+Author: James Baker Jr
+License: Apache License 2.0
+Keywords: pandas,nosql,mongo,mongodb,elasticsearch,redis,cassandra,apache-cassandra
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pandas NoSQL
+__Pandas-NoSQL adds read and write capabilities to pandas for several nosql databases__
+
+---
+Import the pandas_nosql module to add read and write methods for:
+
+* MongoDB
+* Elasticsearch
+* Redis
+* Apache Cassandra
+
+## MongoDB
+```python
+# Read a MongoDB collection into a DataFrame
+# Defaults: host='localhost' port=27017
+# For nested collections use normalize=True
+
+import pandas as pd
+import pandas_nosql
+
+df = pd.read_mongo(database='test_db', collection='test_col', normalize=True)
+
+# Write DataFrame to MongoDB collection
+# modify_colletion parameter is to help prevent accidental overwrites
+
+df.to_mongo(database='test_db', collection='test_col2', modify_collection=True)
+```
+
+Elasticsearch
+```python
+import pandas as pd
+import pandas_nosql
+
+# Read an Elastic index into a DataFrame
+# Defaults: 
+#   * hosts='https://localhost:9200'
+#   * verify_certs=False
+# To split out _source use normalize=True
+
+elastic_cols = ('make', 'model', 'purchase_date', 'miles')
+
+df = pd.read_elastic(
+    hosts='https://localhost:9200',
+    username='elastic',
+    password='strong_password',
+    index='test_index',
+    fields=elastic_cols,
+    verify_certs=False
+    normalize=True
+    )
+
+# Write DataFrame to Elastic Index
+df.to_elastic(
+    hosts='https://localhost:9200',
+    username='elastic',
+    password='strong_password',
+    index='test_index',
+    create_index=True
+    )
+```
+
+Redis
+```python
+import pandas as pd
+import pandas_nosql
+
+# Read a DataFrame that was sent to Redis using the to_redis method
+# A DataFrame not sent to Redis using the to_redis method is not guaranteed to be read properly
+
+# Defaults:
+#   * host='localhost'
+#   * expire_seconds=None
+# To persist the DataFrame in Redis use expire_seconds=None
+# To set an expiration for the DataFrame pass an integer to expire_seconds
+
+df = pd.read_redis(host='localhost', port=6379, redis_key='test_key', expire_seconds=None)
+
+# Write a DataFrame to Redis
+df.to_redis(host='localhost', port=6379, redis_key='test_key')
+
+
+```
+
+Apache Cassandra
+```python
+import pandas as pd
+import pandas_nosql
+
+# Read an Apache Cassandra table into a Panda DataFrame
+# contact_points must be a list
+
+df = pd.read_cassandra(
+    contact_points=['localhost'],
+    port=9042,
+    keyspace='test_keyspace',
+    table='test_table'
+    )
+
+# Append a DataFrame to Apache Cassandra
+# DataFrame Columns must match table Columns
+df.to_cassandra(
+    contact_points=['localhost'],
+    port=9042,
+    keyspace='test_keyspace',
+    table='test_table'
+)
+```
