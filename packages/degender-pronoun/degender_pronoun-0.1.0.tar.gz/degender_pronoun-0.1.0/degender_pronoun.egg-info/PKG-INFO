@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: degender-pronoun
+Version: 0.1.0
+Summary: Replace gender pronouns in a given text with gender-neutral pronouns.
+Home-page: 
+Author: Xiang Zheng
+Author-email: xiangzheng2021@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
