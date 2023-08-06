@@ -1,0 +1,7 @@
+bulk_copy/__init__.py,sha256=qf9fJS11fJ2BZd14XHMsIFn_ftjT0tR4OiWwWgyhnEc,32
+bulk_copy/bulk_copy.py,sha256=GGjxDhIChG5gAuQXmdsGUw8PWIyJlycWo3juAzGtjaM,4029
+django_bulk_copy-0.1.1.dist-info/LICENCE,sha256=cpZUrrgcL6um6kMkquBI66La5OsLE9v0g7XvCno958E,1075
+django_bulk_copy-0.1.1.dist-info/METADATA,sha256=t-w-rE3rJbUxoWZASZ9vVLxbkAPhR0X2BeXSrCUyM5U,1758
+django_bulk_copy-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_bulk_copy-0.1.1.dist-info/top_level.txt,sha256=1aWhKArtFaFNpgsavFcHXgklzCN8z-H19NcLv9KwfiY,10
+django_bulk_copy-0.1.1.dist-info/RECORD,,
