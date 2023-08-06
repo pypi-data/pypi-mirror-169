@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyautotrace
+Version: 0.0.1
+Summary: Python bindings for AutoTrace.
+Home-page: https://github.com/LemonPi314/pyautotrace
+Author: LemonPi314
+Author-email: 
+License: MIT
+Keywords: autotrace,bitmap,vector,graphics,tracing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# PyAutoTrace
+Created by [LemonPi314](https://github.com/LemonPi314)
+
+Python bindings for [AutoTrace](https://github.com/autotrace/autotrace).
+
+## Requirements
+- Any operating system with Python
+- [Python 3.8](https://www.python.org/downloads/) or higher
+
+## Usage
+Usage instructions.
+
+# TODO
+- typing
+- better classes (cdef classes, dataclasses, properties, ...)
+- oop
+- proper build script
+- workflow to build and upload to PyPI
+- documentation
+
+## License
+[MIT License](license.txt)
