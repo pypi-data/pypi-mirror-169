@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: DiscordColours
+Version: 0.0.1
+Summary: Discord Embed Colours.
+Home-page: UNKNOWN
+Author: DustinFoes & CringleySDays
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+DISCORD EMBED COLOR CODER BY:
+         DustinFoes & CrignleySDays
+
+
+TO GET COLOR, USE: 
+        
+        from discordcolors.py import colourcoder
+
+
+EXAMPLE:
+
+        import discord
+        from discordcolors.py import colourcoder
+
+        BOT SET HERE
+        @client.command(description="Sends a colorful embed!")
+        async def color(ctx, color)
+        em = discord.Embed(description="This is Your Embed!", color=colourcoder(color)) # COLOR TAKES IN A STRING LIKE BLUE, GREEN, RED, ETC...
+        await ctx.respond(embed=em)
+

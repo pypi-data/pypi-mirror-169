@@ -1,0 +1,7 @@
+setup.py
+DiscordColours.egg-info/PKG-INFO
+DiscordColours.egg-info/SOURCES.txt
+DiscordColours.egg-info/dependency_links.txt
+DiscordColours.egg-info/top_level.txt
+discordcolours/__init__.py
+discordcolours/discordcolours.py
