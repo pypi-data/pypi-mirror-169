@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        happy=happy.main:cli
+    
