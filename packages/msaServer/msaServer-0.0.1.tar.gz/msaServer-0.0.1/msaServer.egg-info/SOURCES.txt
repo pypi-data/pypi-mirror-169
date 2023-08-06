@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+msaServer/__init__.py
+msaServer/base.py
+msaServer/srv_gunicorn.py
+msaServer/srv_uvicorn.py
+msaServer.egg-info/PKG-INFO
+msaServer.egg-info/SOURCES.txt
+msaServer.egg-info/dependency_links.txt
+msaServer.egg-info/top_level.txt
+msaServer.egg-info/zip-safe
