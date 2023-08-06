@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: pyprobs
+Version: 1.0.2
+Summary: A module that returns True or False output based on given probability
+Home-page: https://github.com/OmerFI/PyProbs
+Author: Ömer Furkan İşleyen
+Author-email: omergumushane@hotmail.com
+License: MIT
+Project-URL: Source, https://github.com/OmerFI/PyProbs
+Project-URL: Documentation, https://pyprobs.readthedocs.io
+Project-URL: Bug Tracker, https://github.com/OmerFI/PyProbs/issues
+Keywords: probability,chance
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=5.2.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=1.0.0) ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.2.0) ; extra == 'testing'
+Requires-Dist: tox (>=3.26.0) ; extra == 'testing'
+
+# What is PyProbs?
+
+PyProbs is a module that has useful functionality that returns True or False output based on the given probability.
+
+[![PyPI](https://img.shields.io/pypi/v/pyprobs)](https://pypi.org/project/pyprobs/)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/pyprobs.svg?color=blueviolet)](https://pypi.org/project/pyprobs/)
+[![Tests](https://github.com/OmerFI/PyProbs/actions/workflows/tests.yml/badge.svg)](https://github.com/OmerFI/PyProbs/actions/workflows/tests.yml)
+[![Documentation Status](https://readthedocs.org/projects/pyprobs/badge/?version=latest)](https://pyprobs.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/badge/License-MIT-green)]()
+[![Downloads](https://pepy.tech/badge/pyprobs)](https://pepy.tech/project/pyprobs/)
+
+## Installation
+
+You can install it from [PyPI](https://pypi.org/project/pyprobs/) by running the following command:
+
+```
+pip install pyprobs
+```
+
+Or you can install it from [source](https://github.com/OmerFI/PyProbs):
+
+```
+pip install .
+```
+
+## Examples
+
+Simple Usage:
+
+```py
+>>> from pyprobs import Probability as pr
+>>> # You can pass float (i.e. 0.5, 0.157), int (i.e. 1, 0) or str (i.e. '50%', '3/11')
+>>> pr.prob(50/100)
+False
+>>> pr.prob(50/100, num=5)
+[False, False, False, True, False]
+```
+
+Suggested and More Advanced Usage:
+
+```py
+>>> from pyprobs import Probability as pr
+>>> p = pr()
+>>> p.iprob('3/7', 0.25, num=2)
+[[True, True], [False, False]]
+
+>>> p.history
+{'3/7': [True, True], 0.25: [False, False]}
+>>> p.count_values('all')
+{True: 2, False: 2}
+
+>>> p.set_constant(1/1000, mutable=True)  # If you set the mutable parameter to False, you won't be able to change the constant again.
+
+>>> # You can get the constant and mutable value:
+>>> p.get()
+{'constant': 0.001, 'mutable': True}
+>>> # Also you can use it like "p.get(how='constant')" or "p.get(how='mutable')", this only returns the desired value.
+
+>>> p._constant # You can more easily get the constant value.
+0.001
+```
+
+## Functions of The Probability Class
+
+- prob
+- iprob
+- set_constant
+- get
+- clear
+- count_values
+
+Note: All of them require creating an instance except the `prob` function.
+
+### Requirements
+
+- Python _v3.6+_
+
+### Documentation
+
+https://pyprobs.readthedocs.io/
