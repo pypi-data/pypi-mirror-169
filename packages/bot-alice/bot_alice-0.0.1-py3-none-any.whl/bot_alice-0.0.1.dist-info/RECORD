@@ -1,0 +1,10 @@
+conscious/__init__.py,sha256=RAQlbnHzaewWaFjHLq7cCfzo-rsuUi48HsnWZbHADa8,562
+conscious/skills/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conscious/skills/literacy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senses/__init__.py,sha256=cKtj3gRekZMRULQ3eKCCG1YWlZZN-i3KoZ5lI5P1KSg,98
+senses/keystrokes.py,sha256=zA1Fx0foUdB6INGnYO7DAElBxHNZlFWod-lxCPMevU4,888
+bot_alice-0.0.1.dist-info/LICENCE,sha256=F0810EoXTRdI6iAukv0QhCCTYJzI8B2nufgMe8RxuxI,1076
+bot_alice-0.0.1.dist-info/METADATA,sha256=o_Y16A22eWmwG8fjyiV3cUiBBzAyvUWjlYvrnLm9CAc,979
+bot_alice-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bot_alice-0.0.1.dist-info/top_level.txt,sha256=TCGqV6FKGzujznXGGsNM_JHDueB8qwSQDA5lBEPZHKk,17
+bot_alice-0.0.1.dist-info/RECORD,,
