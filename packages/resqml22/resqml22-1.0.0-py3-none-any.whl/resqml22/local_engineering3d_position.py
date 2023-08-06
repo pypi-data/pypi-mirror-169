@@ -1,0 +1,40 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Optional
+from resqml22.abstract3d_position import Abstract3DPosition
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/commonv2"
+
+
+@dataclass
+class LocalEngineering3DPosition(Abstract3DPosition):
+    class Meta:
+        name = "LocalEngineering3dPosition"
+
+    coordinate1: Optional[float] = field(
+        default=None,
+        metadata={
+            "name": "Coordinate1",
+            "type": "Element",
+            "namespace": "http://www.energistics.org/energyml/data/commonv2",
+            "required": True,
+        }
+    )
+    coordinate2: Optional[float] = field(
+        default=None,
+        metadata={
+            "name": "Coordinate2",
+            "type": "Element",
+            "namespace": "http://www.energistics.org/energyml/data/commonv2",
+            "required": True,
+        }
+    )
+    vertical_coordinate: Optional[float] = field(
+        default=None,
+        metadata={
+            "name": "VerticalCoordinate",
+            "type": "Element",
+            "namespace": "http://www.energistics.org/energyml/data/commonv2",
+            "required": True,
+        }
+    )

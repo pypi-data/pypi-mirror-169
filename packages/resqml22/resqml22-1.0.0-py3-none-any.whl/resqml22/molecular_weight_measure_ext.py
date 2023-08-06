@@ -1,0 +1,24 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Optional, Union
+from resqml22.molecular_weight_uom import MolecularWeightUom
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/commonv2"
+
+
+@dataclass
+class MolecularWeightMeasureExt:
+    value: Optional[float] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+    uom: Optional[Union[MolecularWeightUom, str]] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+            "pattern": r".*:.*",
+        }
+    )
