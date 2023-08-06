@@ -1,0 +1,46 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sphinx-watch"
+version = "0.1.1"
+description = "Helper CLI for Sphinx to realtime build"
+authors = [{name = "Kazuya Takei", email = "myself@attakei.net"}]
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Framework :: Sphinx",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Documentation",
+]
+license = {file = "LICENSE"}
+dependencies = [
+    "click",
+    "Sphinx",
+    "watchdog",
+]
+
+[project.urls]
+Homepage = "https://github.com/attakei-lab/sphinx-watch"
+
+[tool.flit.module]
+name = "sphinx_watch"
+
+[tool.flit.sdist]
+exclude = [".github", "doc"]
