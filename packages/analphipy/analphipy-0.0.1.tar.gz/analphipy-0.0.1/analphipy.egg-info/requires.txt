@@ -1,0 +1,11 @@
+setuptools>=38.4
+typing-extensions
+numpy
+scipy
+custom-inherit
+
+[test]
+pandas
+pytest
+pytest-mypy
+mypy
