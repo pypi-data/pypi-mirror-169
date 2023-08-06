@@ -1,0 +1,36 @@
+# Makefile for reSW
+
+CONTENTDIR  = {{ content_dir }}
+STATICDIR   = {{ static_dir }}
+BUILDDIR    = {{ build_dir }}
+CONFIG      = {{ config }}
+
+all: build
+
+help:
+	@echo 'Build rSW site'
+	@echo
+	@echo 'Available targets:'
+	@echo
+	@echo '  build          build HTML'
+	@echo '  serve          run local HTTP server'
+	@echo '  css <theme>    generate Pygments stylesheet'
+	@echo
+	@echo 'Run make without target to build html'
+
+build:
+	test -d "$(BUILDDIR)" && rm -rf "$(BUILDDIR)" || true
+	rsw build -c "$(CONFIG)"
+
+serve:
+	python -m http.server --directory $(BUILDDIR)/ --bind 0.0.0.0 8080
+
+css:
+	mkdir -pv "$(STATICDIR)"/css/pygments
+	pygmentize -f html -S $(filter-out $@,$(MAKECMDGOALS)) -a .highlight \
+		> "$(STATICDIR)"/css/pygments/$(filter-out $@,$(MAKECMDGOALS)).css
+
+%:
+	@:
+
+.PHONY: all help build serve css
