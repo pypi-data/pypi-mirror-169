@@ -1,0 +1,10 @@
+yada/__init__.py,sha256=Y7MMpBwGCY-GCIyAC4G5Mah3KH3N60UK8pgmtxN6s9Y,260
+yada/argname.py,sha256=E_L9ZMcSEtD4wFqw9t_7Bk-zmnkJ82EvsdIsUpuyBAI,911
+yada/exceptions.py,sha256=uMgKUsbtROX3EqMsB8FpcqofcFGORVR-R46dgr2tcjs,308
+yada/ns_parser.py,sha256=tT6O_rnXjhC_os7X94EbY9Y4wdwXfM52ALJU_6AxrCo,4766
+yada/string_parser.py,sha256=JmGU0k168-cOwrRffLkmoBw4N7pvFNYvdif3HekMMQA,1877
+yada/yada.py,sha256=kWntT-yT_DPrOyH8Xd7OHCTsO4YpFWtJqoA8K_3nN7s,15422
+t2_yada-1.0.3.dist-info/LICENSE,sha256=RFga2USXvuQy8Cm9bc_bQPGXZSjO10jTUVzHSEknUuI,1064
+t2_yada-1.0.3.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+t2_yada-1.0.3.dist-info/METADATA,sha256=gX9fWNI_osaQY-tR-nKHYkU4lD0JO_OGHEDn1T9Loxo,3582
+t2_yada-1.0.3.dist-info/RECORD,,
