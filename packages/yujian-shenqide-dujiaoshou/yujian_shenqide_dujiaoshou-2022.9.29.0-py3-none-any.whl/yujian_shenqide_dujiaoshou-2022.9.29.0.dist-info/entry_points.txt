@@ -1,0 +1,4 @@
+[console_scripts]
+YujianShenqideDujiaoshou = YujianShenqideDujiaoshou.__main__:main
+yujian-shenqide-dujiaoshou = YujianShenqideDujiaoshou.__main__:main
+
