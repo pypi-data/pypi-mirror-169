@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: interval-timer
+Version: 0.2.0
+Summary: 
+Home-page: https://github.com/morefigs/interval-timer
+Author: morefigs
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# interval-timer
+
+An interval timer iterator that synchronises iterations to within specific time intervals.
+
+The time taken for code execution within each iteration will not affect the interval timing, provided that the execution time is not longer than the interval period. The caller can check if this is the case by checking the `missed` attribute on the returned `Interval` instance.
+
+## Installation
+
+    pip install interval-timer
+
+## Usage
+
+    from interval_timer import IntervalTimer
+    
+    for interval in IntervalTimer(1):
+        print(interval)
+        
+        # Do time synchronised task once per second here...
+
