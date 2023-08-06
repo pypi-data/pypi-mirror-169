@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: python-metaai
+Version: 0.1.0.dev7
+License: MIT
+Author-email: zt <zt@zjuici.com>
+Requires-Python: >=3.8
