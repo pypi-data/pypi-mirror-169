@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cdep_all
+Version: 0.0.3
+Summary: Base package for the installation of the rest of icdep's dependencies
+Home-page: UNKNOWN
+Author: John Doe
+Author-email: jmartinpe@sia.es
+License: UNLICENSED
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: package_a
+Provides-Extra: package_b
+
+UNKNOWN
+
