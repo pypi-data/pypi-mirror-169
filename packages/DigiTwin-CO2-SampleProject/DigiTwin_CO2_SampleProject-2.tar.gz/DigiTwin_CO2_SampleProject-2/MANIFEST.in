@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE.txt
+include requirements.txt
+recursive-exclude tests *
+graft src/DigiTwin_CO2_SampleProject/SimultanCO2Prediction/resources
