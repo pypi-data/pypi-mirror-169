@@ -1,0 +1,7 @@
+setup.py
+hxwxpy/wd.txt
+hxwxpy.egg-info/PKG-INFO
+hxwxpy.egg-info/SOURCES.txt
+hxwxpy.egg-info/dependency_links.txt
+hxwxpy.egg-info/requires.txt
+hxwxpy.egg-info/top_level.txt
