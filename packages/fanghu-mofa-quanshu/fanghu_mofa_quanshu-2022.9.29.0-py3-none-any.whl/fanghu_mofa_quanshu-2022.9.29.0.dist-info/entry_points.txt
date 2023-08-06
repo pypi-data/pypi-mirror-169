@@ -1,0 +1,4 @@
+[console_scripts]
+FanghuMofaQuanshu = FanghuMofaQuanshu.__main__:main
+fanghu-mofa-quanshu = FanghuMofaQuanshu.__main__:main
+
