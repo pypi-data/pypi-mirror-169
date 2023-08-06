@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "django-split-settings"
+version = "1.2.0"
+description = "Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files."
+authors = [
+  "sobolevn <mail@sobolevn.me>",
+  "Visa Kopu",
+  "Antti Kaihola",
+]
+license = "BSD-2-Clause"
+packages = [
+  { include = "split_settings" }
+]
+
+readme = "README.md"
+
+repository = "https://github.com/sobolevn/django-split-settings"
+homepage = "https://django-split-settings.readthedocs.io"
+
+keywords = [
+  "django",
+  "settings",
+  "configuration",
+  "config",
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Framework :: Django :: 1.11",
+  "Framework :: Django :: 2.2",
+  "Framework :: Django :: 3.0",
+  "Framework :: Django :: 3.1",
+  "Framework :: Django :: 3.2",
+  "Framework :: Django :: 4.0",
+  "Framework :: Django :: 4.1",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[tool.poetry.urls]
+"Funding" = "https://github.com/sponsors/wemake-services"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.test.dependencies]
+django = "^3.2"
+
+mypy = "^0.981"
+wemake-python-styleguide = "^0.17"
+flake8-pytest-style = "^1.5"
+nitpick = "^0.29"
+
+safety = "^2.1"
+doc8 = "^0.11"
+
+pytest = "^7.0"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.10"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^5.1"
+sphinx-autodoc-typehints = "^1.12"
+m2r2 = "^0.3"
+tomli = "^2.0"
+
+
+[build-system]
+requires = ["poetry>=1.2"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
