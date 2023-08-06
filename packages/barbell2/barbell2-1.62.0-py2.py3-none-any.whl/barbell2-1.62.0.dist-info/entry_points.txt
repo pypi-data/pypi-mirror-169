@@ -1,0 +1,6 @@
+[console_scripts]
+adddicomextension = barbell2.bc.adddicomextension:main
+buildcastorimport = barbell2.castor.buildimport:main
+decompressdicom = barbell2.bc.decompressdicom:main
+flattendirectories = barbell2.bc.flattendirectories:main
+
