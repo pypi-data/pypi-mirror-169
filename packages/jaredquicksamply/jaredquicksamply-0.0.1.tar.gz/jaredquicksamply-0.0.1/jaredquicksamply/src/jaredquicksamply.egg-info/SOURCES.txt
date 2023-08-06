@@ -1,0 +1,7 @@
+README.md
+setup.py
+jaredquicksamply/src/jaredquicksamply.py
+jaredquicksamply/src/jaredquicksamply.egg-info/PKG-INFO
+jaredquicksamply/src/jaredquicksamply.egg-info/SOURCES.txt
+jaredquicksamply/src/jaredquicksamply.egg-info/dependency_links.txt
+jaredquicksamply/src/jaredquicksamply.egg-info/top_level.txt
