@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bin/sm2mpx
+sm2mpx/__init__.py
+sm2mpx/sm2mpx.py
+sm2mpx.egg-info/PKG-INFO
+sm2mpx.egg-info/SOURCES.txt
+sm2mpx.egg-info/dependency_links.txt
+sm2mpx.egg-info/top_level.txt
