@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+test.py
+diana_calc/INDEX2.txt
+diana_calc/__init__.py
+diana_calc.egg-info/PKG-INFO
+diana_calc.egg-info/SOURCES.txt
+diana_calc.egg-info/dependency_links.txt
+diana_calc.egg-info/top_level.txt
