@@ -1,0 +1,4 @@
+[console_scripts]
+FumoYuqumo = FumoYuqumo.__main__:main
+fumo-yuqumo = FumoYuqumo.__main__:main
+
