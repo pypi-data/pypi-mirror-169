@@ -1,0 +1,8 @@
+name: datedown_env
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - pytest
+    - pytest-cov
