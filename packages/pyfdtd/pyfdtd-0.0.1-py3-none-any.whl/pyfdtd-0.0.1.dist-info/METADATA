@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyfdtd
+Version: 0.0.1
+Summary: Python FDTD simulation
+Home-page: https://github.com/zhazhajust/pyfdtd.git
+Author: Hopetree
+Author-email: jiecai@stu.pku.edu.com
+Keywords: fdtd
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: h5py
+
+Python FDTD Simultaion
