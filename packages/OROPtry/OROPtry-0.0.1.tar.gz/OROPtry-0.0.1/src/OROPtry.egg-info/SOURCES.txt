@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/OROPtry/__init__.py
+src/OROPtry.egg-info/PKG-INFO
+src/OROPtry.egg-info/SOURCES.txt
+src/OROPtry.egg-info/dependency_links.txt
+src/OROPtry.egg-info/top_level.txt

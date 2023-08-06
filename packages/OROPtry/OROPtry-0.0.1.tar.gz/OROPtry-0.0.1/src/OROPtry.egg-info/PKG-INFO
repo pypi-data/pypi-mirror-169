@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: OROPtry
+Version: 0.0.1
+Summary: example package
+Author: sijinghua
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# first try to upload a package
+
+Hi, it is the first time that OROP team upload a package
+- embrace OA
+- create a better life
