@@ -1,0 +1,3 @@
+[console_scripts]
+pyape = pyape.builder.command:main
+
