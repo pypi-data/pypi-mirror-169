@@ -1,0 +1,7 @@
+appdirs
+eyeD3
+google-api-python-client
+oauth2client
+pathlib
+spotipy
+youtube-dl==2021.12.17
