@@ -1,0 +1,6 @@
+README.md
+setup.py
+spencer_demo_test.egg-info/PKG-INFO
+spencer_demo_test.egg-info/SOURCES.txt
+spencer_demo_test.egg-info/dependency_links.txt
+spencer_demo_test.egg-info/top_level.txt
