@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: miriton
+Version: 0.0.1
+Summary: Package du merlon merloville
+Home-page: UNKNOWN
+Author: Miri
+Author-email: <elabboubisaad3@gmail.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
