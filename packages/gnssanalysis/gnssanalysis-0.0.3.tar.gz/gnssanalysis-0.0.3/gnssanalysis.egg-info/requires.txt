@@ -1,0 +1,10 @@
+pandas
+boto3
+click
+numpy
+scipy
+matplotlib
+plotext
+tqdm
+unlzw
+pytest
