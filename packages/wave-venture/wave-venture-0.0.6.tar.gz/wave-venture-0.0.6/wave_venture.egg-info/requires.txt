@@ -1,0 +1,10 @@
+requests
+loguru
+websockets
+tqdm
+scipy
+numpy
+pandas
+xarray
+pillow
+pytz
