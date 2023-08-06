@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_kale.egg-info/PKG-INFO
+shopee_kale.egg-info/SOURCES.txt
+shopee_kale.egg-info/dependency_links.txt
+shopee_kale.egg-info/top_level.txt
