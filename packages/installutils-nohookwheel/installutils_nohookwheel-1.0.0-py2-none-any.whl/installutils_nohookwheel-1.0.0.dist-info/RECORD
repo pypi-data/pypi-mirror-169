@@ -1,0 +1,6 @@
+installutils/__init__.py,sha256=B3djQGPFl12Q878PrCz2poJ3qWnlX4OK8wT2StaG6ZE,97
+installutils/util.py,sha256=TEbZicYlW-FjfQf_smnE167ONlmbheDtZQw9kLQC2Rg,1479
+installutils_nohookwheel-1.0.0.dist-info/METADATA,sha256=4UAqvsLL4zY20EcRvVabqBA89yyrBFk1J0Qm6EcjscQ,664
+installutils_nohookwheel-1.0.0.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+installutils_nohookwheel-1.0.0.dist-info/top_level.txt,sha256=f75-D8Flv3neYpsBskk3RcFeokIdEKfAxfcgVRVvWXo,13
+installutils_nohookwheel-1.0.0.dist-info/RECORD,,
