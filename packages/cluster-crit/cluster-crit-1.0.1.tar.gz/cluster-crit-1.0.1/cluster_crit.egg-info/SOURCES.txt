@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cluster_crit/__init__.py
+cluster_crit/cluster.py
+cluster_crit/criteria.py
+cluster_crit.egg-info/PKG-INFO
+cluster_crit.egg-info/SOURCES.txt
+cluster_crit.egg-info/dependency_links.txt
+cluster_crit.egg-info/not-zip-safe
+cluster_crit.egg-info/requires.txt
+cluster_crit.egg-info/top_level.txt
