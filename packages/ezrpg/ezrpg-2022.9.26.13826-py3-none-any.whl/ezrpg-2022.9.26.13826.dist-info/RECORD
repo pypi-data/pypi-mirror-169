@@ -1,0 +1,11 @@
+ezrpg/__init__.py,sha256=IILIKzO2OO60Rhsh3SqhdKHDf7XI_RLRwzztBGZZmHY,78
+ezrpg/character.py,sha256=9fED86H-IUslq9QAZpt4g4raPq_q2ykJuNFudKx3Yw4,7447
+ezrpg/sheet.py,sha256=6OcVgHf_VP3cyR3LmTf62zmezJ4tL0USzBfSJ1lS_qA,2500
+ezrpg/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ezrpg/tests/test_character.py,sha256=TYgNcno8RgnFktbhepnI5Sw5kKZdQ7BixyTg2xnBfnM,3648
+ezrpg/tests/test_init.py,sha256=jJ_8tuA0DocE3rTNViP5J2-1mCrBo2I8d3lxuELOyZA,214
+ezrpg/tests/test_sheet.py,sha256=bTIhJ332gLkPs7-h3m7P0Fe_zYK_Y7nfHr5RapGUXNw,2153
+ezrpg-2022.9.26.13826.dist-info/METADATA,sha256=j9M1MGvNMhe146q-GYJG-TmQcwuPqDvqEc7CgPf99jY,2685
+ezrpg-2022.9.26.13826.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ezrpg-2022.9.26.13826.dist-info/top_level.txt,sha256=CDAiivTju9GWTlpVGnx-a8uoS-3OYjSe046S-BaI4HM,6
+ezrpg-2022.9.26.13826.dist-info/RECORD,,
