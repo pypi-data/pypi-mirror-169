@@ -1,0 +1,10 @@
+pkhelper/__init__.py,sha256=T9mXEnwlVKmA0_Y97kt0IYH3M2giPpuRx5DOyXplDx8,60
+pkhelper/aiohttp_download.py,sha256=VtUL8zRcDo5LjKaOqycxJ-v2Su--zoBhAYWSOdF8abA,2538
+pkhelper/cli.py,sha256=7goOIv-uyymb9o-4bAP71rYUz1D96uqyfg1cOpNH8wM,2002
+pkhelper/gdown_helper.py,sha256=6stCXoqbn4zCqt2aAdU48QOTwNWcordb1_y6f7VStnc,424
+pkhelper-0.0.12.dist-info/LICENSE,sha256=PVnKMe19pXCTm-uru-6gfrusKnWKp2Ef39z-Z0BLm14,1066
+pkhelper-0.0.12.dist-info/METADATA,sha256=k-OlEhDmdQ2Dva5QizgWKg9m7yBoRretN7TfqiDatbA,866
+pkhelper-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pkhelper-0.0.12.dist-info/entry_points.txt,sha256=fWjI5zZlf8T85fTnCSoOWrQZuMBiLySgHC4yXODSza0,47
+pkhelper-0.0.12.dist-info/top_level.txt,sha256=M-k_pGtSpX2Bv1cuCX675t1t7DjFxbIX-oOoA9afOsE,9
+pkhelper-0.0.12.dist-info/RECORD,,
