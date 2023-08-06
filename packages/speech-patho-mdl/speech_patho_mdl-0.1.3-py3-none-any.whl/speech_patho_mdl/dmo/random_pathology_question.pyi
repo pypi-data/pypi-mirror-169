@@ -1,0 +1,6 @@
+from baseblock import BaseObject
+from speech_patho_mdl.dto.typedefs import ServiceEvent as ServiceEvent
+
+class RandomPathologyQuestion(BaseObject):
+    def __init__(self) -> None: ...
+    def process(self) -> ServiceEvent: ...
