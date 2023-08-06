@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dataframetranslationscoring
+Version: 0.0.1
+Summary: A translation quality package
+Home-page: https://dev.azure.com/ADM-Production-CorpIT1/Incremental%20Strategic%20Delivery/_git/ISD_Translation
+Author: Nabil Berjaoui
+Author-email: nabil.berjaoui@adm.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
