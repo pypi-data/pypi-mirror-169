@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ai4scr-athena
+Version: 0.1.3
+Summary: ATHENA package provides methods to analyse spatial heterogeneity in spatial omics data
+Home-page: https://github.com/AI4SCR/ATHENA
+Author: Adriano Martinelli
+Author-email: art@zurich.ibm.com
+Provides-Extra: vcs
+Provides-Extra: test
+Provides-Extra: dev
+
+ATHENA is an open-source computational framework written in Python that facilitates the visualization, processing and analysis of (spatial) heterogeneity from spatial omics data. ATHENA supports any spatially resolved dataset that contains spatial transcriptomic or proteomic measurements, including Imaging Mass Cytometry (IMC), Multiplexed Ion Beam Imaging (MIBI), multiplexed Immunohistochemisty (mIHC) or Immunofluorescence (mIF), seqFISH, MERFISH, Visium.
