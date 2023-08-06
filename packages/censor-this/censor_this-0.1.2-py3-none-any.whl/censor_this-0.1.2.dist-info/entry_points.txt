@@ -1,0 +1,3 @@
+[console_scripts]
+censor-this=censor_this.main:app
+
