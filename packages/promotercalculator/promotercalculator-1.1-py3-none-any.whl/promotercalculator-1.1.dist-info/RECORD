@@ -1,0 +1,13 @@
+promoter_calculator/__init__.py,sha256=QqHxjQc7DzrbvEWfQcltK5Gcwj0aFutZ7voNkeFWln8,75
+promoter_calculator/cli.py,sha256=xiOIamwQR-CZM9ylKRBmIcTsKeOjeDGz8BW509JRjP4,1520
+promoter_calculator/free_energy_coeffs.npy,sha256=_d8Ws4vyl5lIHopFiQtmkRHhbPLjRI6Z0ZNNGajwuOk,2872
+promoter_calculator/model_intercept.npy,sha256=98ZqjYONpxprKrF5Ns1v8lZORGr4wGdvupXeIRbpmns,136
+promoter_calculator/promoter_calculator.py,sha256=nu6oXpdpRjdPt8eyHB0NEiD6xvaUDk6LfIxmn8hYsYQ,18129
+promoter_calculator/util.py,sha256=tGlNWlH-27IPDBmV5yLeA4M9WCPprT0Tx2y5lEd_GyY,7836
+promoter_calculator/wrapper.py,sha256=eQtyXK3-fA_LsP2W_n0o9C4m2I35dSiyUVRLiwIUdNw,7500
+promotercalculator-1.1.dist-info/LICENSE,sha256=RdJfNP6CbSfTRBdb1iLL89Ncv1O9mT0TUNRO5wZXH_0,724
+promotercalculator-1.1.dist-info/METADATA,sha256=3oKugvmcMgMxHEzxaK42lUU9ifFDjgSbjNHl0_VMAcE,677
+promotercalculator-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+promotercalculator-1.1.dist-info/entry_points.txt,sha256=b-XB3hcc6Ea_YuDNcCo1fg2R7B9BYDb_MJufhAWgTME,69
+promotercalculator-1.1.dist-info/top_level.txt,sha256=TAXvNhomJ-IjE2591zYzXREptb6wt_EVfUQSu2bgFj0,20
+promotercalculator-1.1.dist-info/RECORD,,
