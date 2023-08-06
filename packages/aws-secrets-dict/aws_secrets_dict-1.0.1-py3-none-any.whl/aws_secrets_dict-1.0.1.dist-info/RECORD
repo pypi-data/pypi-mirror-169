@@ -1,0 +1,7 @@
+aws_secrets_dict/__init__.py,sha256=z-TXTjH9gcsSwvGViuuh83x4hI6VZmQcVCsOL5MeiqA,40
+aws_secrets_dict/aws_secrets_dict.py,sha256=IfoplLlCAFq4QEuZZJsc5CRGktgbUJvlsN2w__FDY00,3108
+aws_secrets_dict-1.0.1.dist-info/LICENSE.txt,sha256=GwOsSEqsyK3PLIAjooYF6xTXRxFS6Q9REc-VJ4GRvVk,1070
+aws_secrets_dict-1.0.1.dist-info/METADATA,sha256=RPQC-Nq2HPb3R5Ac91untj9cJM07UBAOed2Gj2Z_X_c,1665
+aws_secrets_dict-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_secrets_dict-1.0.1.dist-info/top_level.txt,sha256=zFUXosy9j7b6T578tu8CqILH95VTF8YmC5RtpEkIW8I,17
+aws_secrets_dict-1.0.1.dist-info/RECORD,,
