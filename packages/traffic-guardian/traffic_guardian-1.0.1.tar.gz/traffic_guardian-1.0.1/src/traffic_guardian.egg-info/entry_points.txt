@@ -1,0 +1,2 @@
+[console_scripts]
+traffic_guardian = traffic_guardian_core:run
