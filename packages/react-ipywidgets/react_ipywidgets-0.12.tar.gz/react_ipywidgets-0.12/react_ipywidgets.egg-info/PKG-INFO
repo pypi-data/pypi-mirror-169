@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: react-ipywidgets
+Version: 0.12
+Summary: react_ipywidgets is now reacton
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# react_ipywidgets is now reacton
+
+This package has been renamed. Use `pip install reacton` instead.
+
+New package: https://pypi.org/project/reacton/

@@ -1,0 +1,7 @@
+README.md
+setup.py
+react_ipywidgets.egg-info/PKG-INFO
+react_ipywidgets.egg-info/SOURCES.txt
+react_ipywidgets.egg-info/dependency_links.txt
+react_ipywidgets.egg-info/requires.txt
+react_ipywidgets.egg-info/top_level.txt
