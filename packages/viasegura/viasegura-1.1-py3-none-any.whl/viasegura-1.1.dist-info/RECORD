@@ -1,0 +1,10 @@
+viasegura/__init__.py,sha256=au8Llc6H1OXgk6SVmMx2tRXhVLSpOIXgjYajVnqh4J8,252
+viasegura/downloader.py,sha256=uFRTJ1VVDOqcYp9YlQExTURzgcAs945v-ihCfRBkrkQ,3363
+viasegura/labelers.py,sha256=xbi6QZz-vzLnZqgjREfWQTlYl3iVhPakvzEaOgc89PI,22112
+viasegura/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viasegura/utils/lanenet.py,sha256=q5OmcXsjn4xS9OiYeqZG4WR3yHe1MdFenG7oPgmUGjM,8872
+viasegura-1.1.dist-info/LICENSE.md,sha256=tirBp3dCRQeHbNlZMmHtSbZgDHamEbc84LtjaV6fCeE,11931
+viasegura-1.1.dist-info/METADATA,sha256=ZIp-im8IojRenSISSyUuRl5jQxTj_ZwKdmXoJ-eQAHo,7878
+viasegura-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+viasegura-1.1.dist-info/top_level.txt,sha256=kI1rDFO6l47zVCwmFVF0EY4b9XRoXgxAzIWzWrqkDbo,10
+viasegura-1.1.dist-info/RECORD,,
