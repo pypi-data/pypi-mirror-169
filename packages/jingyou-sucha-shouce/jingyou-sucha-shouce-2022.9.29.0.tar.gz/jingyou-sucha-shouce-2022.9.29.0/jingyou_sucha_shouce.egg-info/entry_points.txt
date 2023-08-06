@@ -1,0 +1,4 @@
+[console_scripts]
+JingyouSuchaShouce = JingyouSuchaShouce.__main__:main
+jingyou-sucha-shouce = JingyouSuchaShouce.__main__:main
+

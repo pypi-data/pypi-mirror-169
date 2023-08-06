@@ -1,0 +1,12 @@
+README.md
+setup.py
+JingyouSuchaShouce/README.md
+JingyouSuchaShouce/__init__.py
+JingyouSuchaShouce/__main__.py
+JingyouSuchaShouce/file.pdf
+JingyouSuchaShouce/index.html
+jingyou_sucha_shouce.egg-info/PKG-INFO
+jingyou_sucha_shouce.egg-info/SOURCES.txt
+jingyou_sucha_shouce.egg-info/dependency_links.txt
+jingyou_sucha_shouce.egg-info/entry_points.txt
+jingyou_sucha_shouce.egg-info/top_level.txt
