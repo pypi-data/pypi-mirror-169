@@ -1,0 +1,13 @@
+phonesensors/__init__.py,sha256=WC1fIg0wDNsXAsyrSQ8n4avcd_yi5oX0M62sQkB5g_4,67
+phonesensors/client.py,sha256=-3NxQKJamXfug4h3qD0NNlEEg1Fc6rQ_JFfhS3mI0cA,4262
+phonesensors/containers.py,sha256=On8qwfemQLhU_eLMJE43By1cxcR04HPfcuV5GEoHb70,4442
+phonesensors/parsers.py,sha256=cEOVV87hvukt1eyDxiOopGjIZg8yYVeN3opLR9hm_eM,3614
+phonesensors/sources.py,sha256=TObaO_C_ZLOv76QbJEU_LrOnaCm5jaFdtY8Hq7J8DcQ,596
+phonesensors/tests/__init__.py,sha256=xcS23caMuP62z3POG_4qafsBWSi_C1skzcbmQK1shfc,61
+phonesensors/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phonesensors/tests/unit/test_client.py,sha256=6QZcPVJt3OVOoicL-kByGD4TrMTfJcmQ706dlSvSP9I,1746
+phonesensors/tests/unit/test_parsers.py,sha256=7gFG8K_1znpX3lRZpiyHy6kRTLMAShtrLIx69-V8MsI,4352
+phonesensors-1.0.0.dist-info/METADATA,sha256=3fTQmxG2HC__cNooVZ7_GMpTXm599vEtoaZe4f8MgUo,3825
+phonesensors-1.0.0.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+phonesensors-1.0.0.dist-info/licenses/LICENSE,sha256=yUoD_OxD_cLgo6-XIRjC-dV1ds6lBmkrmJx_fBmOCuo,1095
+phonesensors-1.0.0.dist-info/RECORD,,
