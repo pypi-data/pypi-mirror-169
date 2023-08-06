@@ -1,0 +1,14 @@
+hugep2g/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hugep2g/cli.py,sha256=eiffjcqLBxc8bN_Dc6vr1ZYlUEsS3aBmHCqng0BU7W8,1798
+hugep2g/config.py,sha256=0IVKWqycnw4kkjA_et7Val87cKh8PHOJVVPOkDpSvRs,361
+hugep2g/pipelines.py,sha256=PBsSxTuWGdSXl1N0YoqGEoRjJra88v2Jl9d0fII1v-c,42244
+hugep2g/versions.py,sha256=sbRWxz8O2QtLu15dnBSLLnVSsZgpmiu01TYxVTlczdI,887
+hugep2g/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hugep2g/src/genblasta.py,sha256=oWbAZIa4ntNTLLIKVcnwJUelxWgnAR-uPGPmScJi0-8,24552
+hugep2g/src/genewise.py,sha256=TKEGE5HTo4mohQxIOm05ls9s0FlwJJnRCmBCq4pfAaQ,23470
+HugeP2G-0.1.6.dist-info/LICENSE,sha256=IzULPsFTlrF-uHczR75Slnfo_VrUn2deqtzPAlyMZrM,1066
+HugeP2G-0.1.6.dist-info/METADATA,sha256=IvBjEq4Qhl9TU8O9YBd_kr4fsRE8KgVwVPtWUM6Pp0Y,614
+HugeP2G-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+HugeP2G-0.1.6.dist-info/entry_points.txt,sha256=HUdMm3-SB98r_NQc0_LLLluEP_Vkk9aUZdbVVz2pyHY,45
+HugeP2G-0.1.6.dist-info/top_level.txt,sha256=R1LKKpl_qRKY23h8AsNeDCxkzI7grwYwgYzr-4mmdKo,8
+HugeP2G-0.1.6.dist-info/RECORD,,
