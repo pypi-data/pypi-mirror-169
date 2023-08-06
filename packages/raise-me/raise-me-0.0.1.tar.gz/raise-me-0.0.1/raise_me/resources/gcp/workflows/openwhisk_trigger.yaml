@@ -1,0 +1,16 @@
+main:
+  params: [event]
+  steps:
+  - init_openwhisk_vars:
+      assign:
+        - TRIGGER_NAME: null
+        - OW_URL: null
+  - fire_openwhisk_trigger:
+      call: http.post
+      args:
+        url: ${OW_URL + "/triggers/" + TRIGGER_NAME}
+        body:
+            event: ${event}
+        headers:
+          Authorization: "Basic <base64-encoded-string>"
+          Content-type: "application/json"
