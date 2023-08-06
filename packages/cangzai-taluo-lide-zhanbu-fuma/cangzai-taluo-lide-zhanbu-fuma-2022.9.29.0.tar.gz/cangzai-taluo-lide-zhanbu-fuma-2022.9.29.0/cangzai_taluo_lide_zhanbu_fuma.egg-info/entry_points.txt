@@ -1,0 +1,4 @@
+[console_scripts]
+CangzaiTaluoLideZhanbuFuma = CangzaiTaluoLideZhanbuFuma.__main__:main
+cangzai-taluo-lide-zhanbu-fuma = CangzaiTaluoLideZhanbuFuma.__main__:main
+
