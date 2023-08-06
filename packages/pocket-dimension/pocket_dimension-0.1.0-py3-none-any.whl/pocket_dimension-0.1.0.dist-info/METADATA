@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pocket-dimension
+Version: 0.1.0
+Summary: Memory-efficient, dense, random projection of sparse vectors
+Home-page: https://github.com/mhendrey/pocket_dimension
+Author: Matthew Hendrey
+Author-email: matthew.hendrey@gmail.com
+License: GNU GPLv3
+Project-URL: Source, https://github.com/mhendrey/pocket_dimension
+Project-URL: Documentation, https://mhendrey.github.io/pocket_dimension
+Keywords: numba,random projection,term-frequency,tfidf,dimension reduction
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numba (>=0.55.2)
+Requires-Dist: pybloomfilter (>=0.5.5)
+Requires-Dist: scikit-learn (>=1.1.1)
+Requires-Dist: scipy (>=1.7.3)
+Requires-Dist: sketchnu (>=1.2.0)
+
