@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/BD_nineaxle_matrix.egg-info/PKG-INFO
+src/BD_nineaxle_matrix.egg-info/SOURCES.txt
+src/BD_nineaxle_matrix.egg-info/dependency_links.txt
+src/BD_nineaxle_matrix.egg-info/top_level.txt
+src/mypackage/__init__.py
+src/mypackage/main.py
