@@ -1,0 +1,7 @@
+xyz_aws/__init__.py,sha256=WEJvfVJ_HXMJKRpMfXP0srWexMdmSlu_Nq5AIb9Ciio,88
+xyz_aws/s3.py,sha256=WtXf0rWB72qYyIqtR3KlS_wHbI0JtOeP0uxhdSyL8eI,993
+xyz_aws/utils.py,sha256=sjBNuI3dlo4z5eTbVJk2po10HiBEiwUTDVrUSZU-LWg,4705
+xyz_aws-0.0.1.dist-info/METADATA,sha256=x-Yaf7r1CWYsDLi7KHSuiceWyAdlxG7Hs91uGVgYlCQ,971
+xyz_aws-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xyz_aws-0.0.1.dist-info/top_level.txt,sha256=pmJpLUw6SThvhsJmBngMiSDvGBPSdsyDJGalaRRffps,8
+xyz_aws-0.0.1.dist-info/RECORD,,
