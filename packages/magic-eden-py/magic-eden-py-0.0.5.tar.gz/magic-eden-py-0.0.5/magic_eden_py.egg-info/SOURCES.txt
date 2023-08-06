@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+magic_eden/__init__.py
+magic_eden/api/__init__.py
+magic_eden/api/base.py
+magic_eden/api/collections.py
+magic_eden/api/launchpad.py
+magic_eden/api/tokens.py
+magic_eden/api/wallets.py
+magic_eden_py.egg-info/PKG-INFO
+magic_eden_py.egg-info/SOURCES.txt
+magic_eden_py.egg-info/dependency_links.txt
+magic_eden_py.egg-info/requires.txt
+magic_eden_py.egg-info/top_level.txt
