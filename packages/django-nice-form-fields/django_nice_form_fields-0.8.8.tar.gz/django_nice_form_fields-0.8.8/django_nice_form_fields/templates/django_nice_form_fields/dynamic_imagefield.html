@@ -1,0 +1,35 @@
+<style>
+.img-change {
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    position: inherit;
+    display: block;
+}
+
+.avatar-input-change-form {
+    display: none;
+}
+
+#btn-avatar-change-form {
+    background-color: lavender;
+}
+</style>
+
+<p>
+    {% if widget.value %}<img class="img-change" src="{{ widget.value.url }}">{% else %}<img class="img-change" src="" style="display:none;">{% endif %}
+    <label for='id_{{ widget.name }}' class='button preview' id='btn-avatar-change-form' style="display: inline-block; width: fit-content; margin-top: 4px; line-height: 200%;">{% if widget.value %}{% if widget.attrs.change_image_text %}{{ widget.attrs.change_image_text }}{% else %}Change image{% endif %}{% else %}{% if widget.attrs.choose_image_text %}{{ widget.attrs.choose_image_text }}{% else %}Choose image{% endif %}{% endif %}</label>
+    <input type="file" name="{{ widget.name }}" accept="image/*" class="control-group" id="id_{{ widget.name }}" style="display: none;">
+</p>
+
+<script>
+    const image_input = document.getElementsByName('{{ widget.name }}')[0];
+    const image_form = document.querySelector('.img-change');
+
+    image_input.addEventListener('change', (event) => {
+        current_avatar_img = document.getElementsByClassName("img-change")[0];
+        uploaded_avatar_img = event.currentTarget.files[0];
+        new_file_object = URL.createObjectURL(uploaded_avatar_img);
+        current_avatar_img.setAttribute('src', new_file_object);
+    })
+</script>
