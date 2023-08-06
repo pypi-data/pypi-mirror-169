@@ -1,0 +1,636 @@
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ha", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "at", "count": 20}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "th", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ha", "count": 31}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ac", "count": 23}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "c ", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " s", "count": 164}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "se", "count": 101}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e ", "count": 533}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " r", "count": 56}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "re", "count": 161}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "en", "count": 166}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nd", "count": 41}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "di", "count": 46}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "it", "count": 108}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t ", "count": 300}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " v", "count": 95}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ve", "count": 41}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "er", "count": 145}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rs", "count": 45}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s ", "count": 426}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " M", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ma", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ar", "count": 77}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rd", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "do", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "oc", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ch", "count": 53}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "h\u00e9", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9e", "count": 19}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "su", "count": 32}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ur", "count": 117}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r ", "count": 104}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " l", "count": 264}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "la", "count": 80}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a ", "count": 126}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " p", "count": 167}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pl", "count": 20}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ce", "count": 66}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " d", "count": 298}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "de", "count": 173}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "vi", "count": 32}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "il", "count": 88}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ll", "count": 42}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "le", "count": 184}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e,", "count": 48}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ", ", "count": 213}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ev", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "va", "count": 28}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "an", "count": 114}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nt", "count": 159}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "po", "count": 46}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "or", "count": 51}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rt", "count": 28}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "te", "count": 162}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "du", "count": 29}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u ", "count": 74}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ro", "count": 56}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "oi", "count": 80}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i.", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "et", "count": 118}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l`", "count": 67}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`\u00c9", "count": 36}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00c9t", "count": 36}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rn", "count": 48}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ne", "count": 106}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "el", "count": 79}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l ", "count": 63}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " m", "count": 133}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "me", "count": 70}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "on", "count": 135}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nn", "count": 19}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "na", "count": 19}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "es", "count": 228}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "eu", "count": 105}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ux", "count": 37}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "x ", "count": 27}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " t", "count": 96}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ta", "count": 31}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ab", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "bl", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pi", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ie", "count": 71}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rr", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " \u00e9", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9c", "count": 20}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "cr", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ri", "count": 37}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ig", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gt", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " D", "count": 19}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Di", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u,", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " e", "count": 173}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " c", "count": 119}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "co", "count": 41}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "to", "count": 51}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ou", "count": 154}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ut", "count": 38}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pa", "count": 73}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ol", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " q", "count": 85}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "qu", "count": 107}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ue", "count": 59}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "vo", "count": 60}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "us", "count": 90}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " a", "count": 96}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "av", "count": 27}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ai", "count": 142}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "mo", "count": 38}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ag", "count": 17}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gn", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "mi", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "li", "count": 32}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " f", "count": 76}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fe", "count": 15}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " j", "count": 51}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "jo", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`a", "count": 31}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "as", "count": 44}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ss", "count": 31}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "em", "count": 32}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "mb", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l\u00e9", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e.", "count": 27}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Al", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "lo", "count": 26}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`e", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sp", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pr", "count": 50}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "om", "count": 47}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ba", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ". ", "count": 21}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " E", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Et", "count": 23}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " i", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t:", "count": 23}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ": ", "count": 43}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "is", "count": 87}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s:", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " A", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ai", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "in", "count": 57}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ns", "count": 69}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "si", "count": 30}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i ", "count": 124}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rl", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l:", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " V", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Vo", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ez", "count": 24}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "z ", "count": 20}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "so", "count": 45}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ma", "count": 64}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n ", "count": 109}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "d`", "count": 31}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`I", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Is", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sr", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ra", "count": 89}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a\u00eb", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00ebl", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l!", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "! ", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ui", "count": 86}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " \u00e0", "count": 50}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e0 ", "count": 56}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pe", "count": 23}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s\u00e9", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "je", "count": 34}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sa", "count": 45}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s.", "count": 22}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Au", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ep", "count": 14}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s,", "count": 40}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " B", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Bo", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "oa", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "az", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " R", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ru", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "h:", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ap", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pp", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "he", "count": 26}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ng", "count": 15}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ge", "count": 31}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n,", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "tr", "count": 46}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "mp", "count": 15}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rc", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ea", "count": 15}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "au", "count": 57}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "da", "count": 33}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gr", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "El", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s`", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "c\u00f4", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00f4t", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t\u00e9", "count": 18}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9 ", "count": 22}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " O", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "On", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "lu", "count": 24}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " g", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r\u00f4", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ti", "count": 44}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i;", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "; ", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ia", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a,", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ga", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "st", "count": 40}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "cc", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "tt", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "op", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ph", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9t", "count": 27}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00c9s", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a\u00ef", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00efe", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e:", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "dr", "count": 17}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "os", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " o", "count": 21}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ei", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " n", "count": 77}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t;", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "eg", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " y", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ye", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "x,", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t.", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t`", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i\u00e9", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9g", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ju", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sq", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u`", "count": 14}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`\u00e0", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "mu", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "be", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t,", "count": 17}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " h", "count": 19}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fo", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "tu", "count": 20}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "c\u00e9", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nf", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fi", "count": 24}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nc", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`\u00e9", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ay", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ys", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s;", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l,", "count": 28}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pu", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " H", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sc", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "h ", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " G", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Go", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "o\u00ef", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00efm", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "m,", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " S", "count": 14}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Si", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " K", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ki", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uf", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "f ", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ts", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r,", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "up", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ec", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Le", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "O\u00f9", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00f9 ", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t-", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-i", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l?", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "? ", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " T", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ts", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ib", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r\u00e9", "count": 28}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9p", "count": 21}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i:", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " I", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Il", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ak", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ki", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ir", "count": 39}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ls", "count": 32}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`A", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Am", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "mm", "count": 33}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " L", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Lo", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "od", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "eb", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r.", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Po", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "c`", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`o", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "br", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uv", "count": 14}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i,", "count": 23}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " F", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Fa", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s-", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-v", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "am", "count": 23}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ic", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nj", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`i", "count": 18}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e\u00e7", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e7o", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "iv", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "cl", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ua", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "d ", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nq", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Fi", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`h", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ho", "count": 25}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nu", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " b", "count": 18}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "bu", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " C", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "C`", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " u", "count": 17}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "un", "count": 27}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ub", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ca", "count": 22}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "if", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "oe", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "vr", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ga", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "aa", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "al", "count": 21}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00c9b", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ed", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "d,", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ab", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "bi", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "im", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "m\u00e9", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9l", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "v\u00e8", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8r", "count": 24}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ad", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "d\u00e9", "count": 13}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9n", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "no", "count": 40}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Be", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ja", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fu", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-s", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ix", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "p\u00e9", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "pt", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Gu", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rm", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "b\u00e2", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e2t", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ru", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u.", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Tu", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "of", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ff", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fr", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u;", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "(3", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "39", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "9:", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ":1", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "1)", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ") ", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ch", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-t", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "io", "count": 18}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ap", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fa", "count": 29}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "m ", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Da", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "id", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "R\u00e9", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "b ", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ba", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r\u00e8", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ri", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e\u00e9", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9r", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ot", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "L`", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "m`", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t!", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l.", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "An", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ni", "count": 16}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "b\u00e9", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Re", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9s", "count": 18}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rq", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uo", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ci", "count": 14}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "bo", "count": 11}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uc", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n`", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "x.", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Mo", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "z,", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i\u00e8", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "En", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nl", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ps", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " Q", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Qu", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n\u00e9", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9,", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "cu", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9.", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Je", "count": 10}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uj", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sm", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ex", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "xt", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " \u00e2", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e2m", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "xa", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "lt", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Se", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Pr", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Co", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rg", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gu", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ul", "count": 12}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "De", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Sa", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "A ", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gl", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`u", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Pe", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " J", "count": 19}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "v\u00e9", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a.", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "J\u00e9", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "La", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e-", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-l", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rf", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "um", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`H", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ku", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uk", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "k,", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "h\u00e8", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8t", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " (", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "(S", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Su", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ".)", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ug", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8m", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "hu", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "j`", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ce", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9a", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Un", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "nv", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "oy", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "y\u00e9", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "lg", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ok", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00c9g", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gy", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "yp", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "p\u00e8", "count": 8}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "J`", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ja", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l;", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ob", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " N", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ne", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "h,", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`y", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "y ", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a\u00ee", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00eet", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "a-", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-j", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e?", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Va", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ds", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Aa", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n;", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ip", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "c,", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "z-", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u\u00e9", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "lq", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n.", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rv", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s?", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-c", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t?", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u?", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "o\u00f9", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " \u00ea", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00eat", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l\u00e0", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e0,", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ya", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ka", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "d\u00e8", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8s", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e!", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "f\u00fb", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00fbt", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e\u00fb", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9\u00ee", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " P", "count": 9}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "P\u00e8", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "af", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Jo", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ca", "count": 6}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Sc", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ji", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "iz", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "zr", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ee", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ct", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n:", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " \u00c9", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00c9l", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sl", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "(1", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "14", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "4:", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "10", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "0)", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "As", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "oq", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u!", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uy", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "yo", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ud", "count": 5}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "u:", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "i!", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9j", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "j\u00e0", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "x:", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ph", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ao", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r\u00e2", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e2c", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "sf", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9f", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ah", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "He", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "iq", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "uq", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rp", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "e;", "count": 7}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ar", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rj", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ef", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "by", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "yl", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "m\u00ea", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00eam", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "c\u00e8", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r?", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "bs", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ou", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ty", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "yr", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r!", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fl", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l\u00e8", "count": 4}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00efs", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "t\u00e8", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "`\u00ea", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "vu", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "hi", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "v\u00ea", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Pa", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Ju", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "fs", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "C\u00e9", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "h;", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "rz", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "ze", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Te", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "34", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "17", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "7)", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r;", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n\u00e8", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8b", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "(9", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "92", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "2:", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": ":5", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "5)", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": " \u00f4", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00f4 ", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Na", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00efl", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "b.", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9d", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "r-", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "-n", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "At", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "l\u00e2", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "x;", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "yi", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "To", "count": 3}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "s!", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9h", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8c", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "b\u00ea", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e8v", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Sy", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "No", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00e9v", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n?", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "n!", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "S`", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "\u00fbn", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "Pi", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "gi", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "go", "count": 2}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "g\u00e9", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "lp", "count": 1}
+{"model_name": "French sample", "ngram_size": 2, "ngram": "g ", "count": 1}
