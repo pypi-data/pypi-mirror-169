@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+lectio/__init__.py
+lectio/exceptions.py
+lectio/lectio.py
+lectio.py.egg-info/PKG-INFO
+lectio.py.egg-info/SOURCES.txt
+lectio.py.egg-info/dependency_links.txt
+lectio.py.egg-info/top_level.txt
+lectio/helpers/__init__.py
+lectio/helpers/schedule.py
+lectio/models/__init__.py
+lectio/models/school.py
+lectio/models/user.py
