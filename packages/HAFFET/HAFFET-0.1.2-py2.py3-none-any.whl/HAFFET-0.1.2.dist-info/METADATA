@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: HAFFET
+Version: 0.1.2
+Summary: HAFFET: Hybrid Analytic Flux FittEr for Transients
+Home-page: https://github.com/saberyoung/HAFFET.git
+Author: Sheng Yang
+Author-email: saberyoung@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=2.7
+Requires-Dist: astropy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
