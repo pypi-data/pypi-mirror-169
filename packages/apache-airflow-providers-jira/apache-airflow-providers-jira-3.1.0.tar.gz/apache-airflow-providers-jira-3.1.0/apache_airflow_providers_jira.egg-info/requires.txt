@@ -1,0 +1,5 @@
+apache-airflow-providers-atlassian-jira
+apache-airflow>=2.2.0
+
+[atlassian.jira]
+apache-airflow-providers-atlassian-jira
