@@ -1,0 +1,17 @@
+pygit2
+PyYAML
+lxml
+pydantic
+protobuf==3.20.0
+requests
+
+[dev]
+black
+mypy
+wheel
+mypy-protobuf
+types-PyYAML
+types-requests
+
+[distribute]
+twine
