@@ -1,0 +1,6 @@
+setup.py
+w-lumberjill/__init__.py
+w_lumberjill.egg-info/PKG-INFO
+w_lumberjill.egg-info/SOURCES.txt
+w_lumberjill.egg-info/dependency_links.txt
+w_lumberjill.egg-info/top_level.txt
