@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+file_light/__init__.py
+file_light/file_light.py
+file_light.egg-info/PKG-INFO
+file_light.egg-info/SOURCES.txt
+file_light.egg-info/dependency_links.txt
+file_light.egg-info/not-zip-safe
+file_light.egg-info/top_level.txt
