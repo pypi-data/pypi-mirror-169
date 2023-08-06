@@ -1,0 +1,9 @@
+[markdown.extensions]
+neoteroi.cards = neoteroi.cards:CardsExtension
+neoteroi.projects = neoteroi.projects:ProjectsExtension
+neoteroi.spantable = neoteroi.spantable:SpanTableExtension
+neoteroi.timeline = neoteroi.timeline:TimelineExtension
+
+[mkdocs.plugins]
+neoteroi.contribs = neoteroi.contribs:ContribsPlugin
+neoteroi.mkdocsoad = neoteroi.mkdocsoad:MkDocsOpenAPIDocumentationPlugin
