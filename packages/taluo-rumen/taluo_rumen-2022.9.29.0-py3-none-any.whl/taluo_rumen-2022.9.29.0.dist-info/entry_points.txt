@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoRumen = TaluoRumen.__main__:main
+taluo-rumen = TaluoRumen.__main__:main
+
