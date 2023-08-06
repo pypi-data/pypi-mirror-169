@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "rastreio-correios-async"
+version = "1.0.0"
+description = "Programa não oficial de rastreio de encomendas dos correios."
+authors = ["Diaszano <lucasdiiassantos@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rastreio_correios"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.1.3"
+isort = "^5.10.1"
+blue = "^0.9.1"
+mkdocs = "^1.4.0"
+prospector = "^1.7.7"
+mypy = "^0.981"
+pip-audit = "^2.4.4"
+setuptools = "^65.4.1"
+twine = "^4.0.1"
+
+[build-system]
+# requires = ["poetry-core"]
+# build-backend = "poetry.core.masonry.api"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
