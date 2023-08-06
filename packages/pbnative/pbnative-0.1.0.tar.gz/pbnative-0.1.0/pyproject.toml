@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pbnative"
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pbnative.__version__.version"}
+
+[project.scripts]
+pbnative-config = "pbnative:config"
+pbnative-start = "pbnative:start"
+
+[tool.setuptools.package-data]
+pbnative = ["*.txt", "*.json"]
+"pbnative.resources" = ["*.json", "*.js", "*.css"]
+"pbnative.icons" = ["*.svg"]

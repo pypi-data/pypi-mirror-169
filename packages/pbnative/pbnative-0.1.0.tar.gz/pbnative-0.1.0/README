@@ -1,0 +1,7 @@
+
+
+Instructions d'installation :
+
+- Télécharger et installer python (testé avec python 3.10 sur windows)
+- Sur windows, s'assurer que python a bien été ajouté à la variable d'environnement "Path"
+    - Pour test : python --version && pip --version, en ligne de commande

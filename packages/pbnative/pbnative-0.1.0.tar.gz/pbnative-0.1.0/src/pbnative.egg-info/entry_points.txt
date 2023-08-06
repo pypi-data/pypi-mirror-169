@@ -1,0 +1,3 @@
+[console_scripts]
+pbnative-config = pbnative:config
+pbnative-start = pbnative:start
