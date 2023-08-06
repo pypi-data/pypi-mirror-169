@@ -1,0 +1,174 @@
+assert(loadfile("/tmp/tmp9i83cdfl"))()
+
+        sharedata, readSharedMemory, openSharedMemory, closeSharedMemory = require ("madl_mmap").sharedata, require ("madl_mmap").readSharedMemory, require ("madl_mmap").openSharedMemory, require ("madl_mmap").closeSharedMemory
+
+        assert(loadfile("/tmp/tmp9_9x0tw_"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpstqf11yi"))()
+match = MAD.matchassert(loadfile("/tmp/tmpw99vgpgb"))()
+beam = MAD.beamassert(loadfile("/tmp/tmp6ls10vky"))()
+beta0 = MAD.beta0assert(loadfile("/tmp/tmphb1asu09"))()
+mtable = MAD.mtableassert(loadfile("/tmp/tmpdzt1s6xw"))()
+object = MAD.objectassert(loadfile("/tmp/tmp34ryhtma"))()
+sequence = MAD.sequenceassert(loadfile("/tmp/tmpr4qhnies"))()
+survey = MAD.surveyassert(loadfile("/tmp/tmprgtmorfj"))()
+track = MAD.trackassert(loadfile("/tmp/tmpetl0tjyg"))()
+twiss = MAD.twissassert(loadfile("/tmp/tmpsrwe1x46"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.element) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpmhlwga7m"))()
+thin_element = MAD.element.thin_elementassert(loadfile("/tmp/tmp7t67cuk8"))()
+monitor = MAD.element.monitorassert(loadfile("/tmp/tmp4ajv14yg"))()
+crabcavity = MAD.element.crabcavityassert(loadfile("/tmp/tmpwg217pkl"))()
+rfmultipole = MAD.element.rfmultipoleassert(loadfile("/tmp/tmpvvqss4eb"))()
+nllens = MAD.element.nllensassert(loadfile("/tmp/tmpjzshinpm"))()
+beambeam = MAD.element.beambeamassert(loadfile("/tmp/tmpjcjajbkj"))()
+multipole = MAD.element.multipoleassert(loadfile("/tmp/tmpsoq35cqk"))()
+genmap = MAD.element.genmapassert(loadfile("/tmp/tmp6c6_jq4s"))()
+flags = MAD.element.flagsassert(loadfile("/tmp/tmpoi1x8tfr"))()
+rfcavity = MAD.element.rfcavityassert(loadfile("/tmp/tmp8t0q_oqd"))()
+elseparator = MAD.element.elseparatorassert(loadfile("/tmp/tmp181jgruc"))()
+wiggler = MAD.element.wigglerassert(loadfile("/tmp/tmpgpz7uqrz"))()
+tkicker = MAD.element.tkickerassert(loadfile("/tmp/tmpjf6oz6_p"))()
+solenoid = MAD.element.solenoidassert(loadfile("/tmp/tmpiak45fu9"))()
+translate = MAD.element.translateassert(loadfile("/tmp/tmpurkk3jt_"))()
+dodecapole = MAD.element.dodecapoleassert(loadfile("/tmp/tmpu4b5t4q_"))()
+decapole = MAD.element.decapoleassert(loadfile("/tmp/tmpnssxqwq0"))()
+octupole = MAD.element.octupoleassert(loadfile("/tmp/tmpe9hh1bhw"))()
+sextupole = MAD.element.sextupoleassert(loadfile("/tmp/tmpv0_9qy0b"))()
+vkicker = MAD.element.vkickerassert(loadfile("/tmp/tmp4iayvbld"))()
+hkicker = MAD.element.hkickerassert(loadfile("/tmp/tmp7f1sdxl6"))()
+changeref = MAD.element.changerefassert(loadfile("/tmp/tmp1fj6mul0"))()
+quadrupole = MAD.element.quadrupoleassert(loadfile("/tmp/tmpszjrlkc_"))()
+bline = MAD.element.blineassert(loadfile("/tmp/tmpwot7cbjt"))()
+rbend = MAD.element.rbendassert(loadfile("/tmp/tmp4jqzw4rd"))()
+sbend = MAD.element.sbendassert(loadfile("/tmp/tmpj4cv5li2"))()
+placeholder = MAD.element.placeholderassert(loadfile("/tmp/tmpk823jszv"))()
+instrument = MAD.element.instrumentassert(loadfile("/tmp/tmpvvk4uzl4"))()
+collimator = MAD.element.collimatorassert(loadfile("/tmp/tmpfubxa23l"))()
+drift = MAD.element.driftassert(loadfile("/tmp/tmp9a6ci6dx"))()
+vmonitor = MAD.element.vmonitorassert(loadfile("/tmp/tmp2n4p3n2e"))()
+slink = MAD.element.slinkassert(loadfile("/tmp/tmp5prpbzj4"))()
+yrotation = MAD.element.yrotationassert(loadfile("/tmp/tmpdyflx7v7"))()
+marker = MAD.element.markerassert(loadfile("/tmp/tmptlhhnqyj"))()
+assembly = MAD.element.assemblyassert(loadfile("/tmp/tmpj1ur59l_"))()
+srotation = MAD.element.srotationassert(loadfile("/tmp/tmpjo5nge3h"))()
+specl_element = MAD.element.specl_elementassert(loadfile("/tmp/tmp4_8raeq7"))()
+element = MAD.element.elementassert(loadfile("/tmp/tmpkgpleg03"))()
+extrn_element = MAD.element.extrn_elementassert(loadfile("/tmp/tmpd4i6pzu1"))()
+changenrj = MAD.element.changenrjassert(loadfile("/tmp/tmpe9cekfr3"))()
+patch_element = MAD.element.patch_elementassert(loadfile("/tmp/tmp7b_0xjes"))()
+changedir = MAD.element.changedirassert(loadfile("/tmp/tmpykqwrl2g"))()
+thick_element = MAD.element.thick_elementassert(loadfile("/tmp/tmpj5v_bfl4"))()
+kicker = MAD.element.kickerassert(loadfile("/tmp/tmp_0abavzs"))()
+drift_element = MAD.element.drift_elementassert(loadfile("/tmp/tmpcpop1uei"))()
+hmonitor = MAD.element.hmonitorassert(loadfile("/tmp/tmpwjfcyqzn"))()
+xrotation = MAD.element.xrotationassert(loadfile("/tmp/tmpw59gzf5o"))()
+sequence = MAD.element.sequenceassert(loadfile("/tmp/tmpsg6e8yco"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmp6h1jj0j_"))()
+AD = MAD.ADassert(loadfile("/tmp/tmpsvc_qrw3"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.element.flags) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmp6jpb65gs"))()
+observed = MAD.element.flags.observedassert(loadfile("/tmp/tmpd2d1dik6"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.utility) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpv5rqp2v3"))()
+printf = MAD.utility.printfassert(loadfile("/tmp/tmpap7xo008"))()
+assertf = MAD.utility.assertfassert(loadfile("/tmp/tmpq9yra6__"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MAD.gphys) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmphfslfb2d"))()
+mchklost = MAD.gphys.mchklostdo MADX:load('/home/joshua/Documents/MADpy/examples/ex-lhc-couplingLocal/lhc_as-built.seq', '/home/joshua/Documents/MADpy/examples/ex-lhc-couplingLocal/lhc_as-built.mad') end
+do MADX:load('/home/joshua/Documents/MADpy/examples/ex-lhc-couplingLocal/opticsfile.21', '/home/joshua/Documents/MADpy/examples/ex-lhc-couplingLocal/opticsfile.21.mad') end
+do MADX:load('/home/joshua/Documents/MADpy/examples/ex-lhc-couplingLocal/lhc_unset_vars.mad') end
+assert(loadfile("/tmp/tmprt548cs3"))()
+
+        local tostring = tostring
+        function getModName(modname, mod)
+            io.write(modname .. "|" .. tostring(mod) .. ";")
+        end
+        io.write("Modules:\n")
+        for modname, mod in pairs(MADX) do pcall(getModName, modname, mod) end io.write("\n")assert(loadfile("/tmp/tmpax9a679j"))()
+nrj = MADX.nrjassert(loadfile("/tmp/tmpc9oyrylc"))()
+lhcb1 = MADX.lhcb1do assertf(#lhcb1 == 6694, 'invalid number of elements %d in LHCB1 (6694 expected)', #lhcb1) end
+assert(loadfile("/tmp/tmpf7t51yxk"))()
+
+            openSharedMemory("psm_5dd8afa0", true)
+            local offset = sharedata({None})                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmp5l_n297i"))()
+
+    lhcb1beam = beam 'lhcb1beam' { particle = 'proton', energy = nrj,   } 
+                do lhcb1.beam = lhcb1beam end
+assert(loadfile("/tmp/tmpii09wezo"))()
+
+    MADX:open_env()
+    ktqx1_r2 = -ktqx1_l2 ! remove the link between these 2 vars
+    kqsx3_l2 = -0.0015
+    kqsx3_r2 = +0.0015
+    MADX:close_env()
+    assert(loadfile("/tmp/tmpszuny8ge"))()
+
+    tbl = twiss 'tbl' { sequence = lhcb1, method = 4, chrom = true,   } 
+                do tbl:write('data/before_tune_correction_n') end
+assert(loadfile("/tmp/tmp1fn7qypm"))()
+
+            openSharedMemory("psm_5dd8afa0", true)
+            local offset = sharedata({MADX.dqx_b1})                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmp08jbui_6"))()
+
+            openSharedMemory("psm_5dd8afa0", true)
+            local offset = sharedata({MADX.dqy_b1})                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpwn5gbhpj"))()
+
+    status, fmin, ncall = match { objective = {fmin = 0.001, }, maxcall = 100, info = 2,  command := mchklost(twiss {sequence:=lhcb1, method:=4, observe:=1}), variables = { rtol = 1e-06,  { var = 'MADX.dqx_b1', name = 'dQx.b1',   } , { var = 'MADX.dqy_b1', name = 'dQy.b1',   }  } , equalities = { tol = 0.001,  { name = 'q1',  expr = \t, s -> t.q1 - 62.30980 } , { name = 'q2',  expr = \t, s -> t.q2 - 60.32154 }  }  } 
+                assert(loadfile("/tmp/tmpzbcti834"))()
+
+            openSharedMemory("psm_5dd8afa0", true)
+            local offset = sharedata({status, fmin, ncall})                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmpq4pri22d"))()
+
+            openSharedMemory("psm_5dd8afa0", true)
+            local offset = sharedata({MADX.dqx_b1})                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmp_ll25jxp"))()
+
+            openSharedMemory("psm_5dd8afa0", true)
+            local offset = sharedata({MADX.dqy_b1})                  --This mmaps to shared memory
+            closeSharedMemory()
+                assert(loadfile("/tmp/tmp37xrx8il"))()
+
+    tbl = twiss 'tbl' { sequence = lhcb1, method = 4, chrom = true,   } 
+                do tbl:write('data/after_tune_correction_n') end
+
