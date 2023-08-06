@@ -1,0 +1,10 @@
+safetensors/safetensors_rust.cpython-39-powerpc64le-linux-gnu.so,sha256=eWW1PM8wXWPhlUDN1pGfI3ugu0Kd_dU1rQ9kHK2hkIk,5103856
+safetensors/numpy.py,sha256=v46Dbmq6NQhkA08yfO5DiU9cC--P8jBQOiUAhLCVlLo,1632
+safetensors/torch.py,sha256=izpZyIWyvIuFAl-NkNcCfl6utEP12JLYolNShPbnbIc,2383
+safetensors/tensorflow.py,sha256=SSXGWHhoJ9a3s-_y8LDK9Nrh5gttkTsvtxMoOFhtRXs,1024
+safetensors/__init__.py,sha256=5NHOdGb_X8ZivqBQrcZ7YsbPDwDXFyehUzkQUFUrNJ0,80
+safetensors/flax.py,sha256=mguBRkA6-FgS_8LeW3w8SOXLT_Sid61Ox6FmkXpol9Y,1063
+safetensors-0.2.0.dist-info/top_level.txt,sha256=aeGq-bvSQiWej-UZBQOQs1V-KEP0Oa7_7MyN0iD5g8I,12
+safetensors-0.2.0.dist-info/METADATA,sha256=7U3W3fqutzTizbELARS9wTsXQ5XNiVvaItUjPhOV_l8,1971
+safetensors-0.2.0.dist-info/RECORD,,
+safetensors-0.2.0.dist-info/WHEEL,sha256=HBpIW4Etx-nO6da5omlgYMj1bjMzHW62_TCQi28y6Js,150
