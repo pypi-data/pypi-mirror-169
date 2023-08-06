@@ -1,0 +1,6 @@
+setup.py
+analytics_schema/__init__.py
+analytics_schema.egg-info/PKG-INFO
+analytics_schema.egg-info/SOURCES.txt
+analytics_schema.egg-info/dependency_links.txt
+analytics_schema.egg-info/top_level.txt
