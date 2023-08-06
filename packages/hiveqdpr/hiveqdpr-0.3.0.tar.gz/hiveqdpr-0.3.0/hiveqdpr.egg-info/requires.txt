@@ -1,0 +1,6 @@
+base58
+lighthive
+starkbank-ecdsa
+PyNaCl
+libnacl
+sympy
