@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_mesos_dpvs_with_txt.egg-info/PKG-INFO
+shopee_mesos_dpvs_with_txt.egg-info/SOURCES.txt
+shopee_mesos_dpvs_with_txt.egg-info/dependency_links.txt
+shopee_mesos_dpvs_with_txt.egg-info/top_level.txt
