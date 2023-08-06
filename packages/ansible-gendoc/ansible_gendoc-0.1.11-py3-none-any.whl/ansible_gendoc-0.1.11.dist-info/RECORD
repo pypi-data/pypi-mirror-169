@@ -1,0 +1,11 @@
+LICENSE,sha256=ZqMQfVrWoFiqt1PqrCBHzLLtDjlGXdD-WETaPjANUXI,16727
+ansible_gendoc/__init__.py,sha256=pjXJ4buAxLzHMTPcMepUqcPbgMUWYotFXdn3y8CEL5A,80
+ansible_gendoc/gendoc.py,sha256=UyOKkDZ4rI1cle8VAQPqqCTdPDB5PfIEADk27b5oHsc,5802
+ansible_gendoc/helpers.py,sha256=qmXy9sZHFFz7Wm3TXUOOC4YL1f6rxAy_T5XR_1LruRU,3985
+ansible_gendoc/main.py,sha256=CSZFklAQHAcJOlUv65VUqMlQtP_DrkQvYHCPtmYH5RA,2495
+ansible_gendoc/templates/README.j2,sha256=5rD4hovWY66tUfGjj3C4ETiuNXJkHeb4x_-CmnfpQ3I,5843
+ansible_gendoc-0.1.11.dist-info/entry_points.txt,sha256=aCWbJluhY_pOzx-uhMCJXdeJbVMOEs3HAgRY4AgcilU,58
+ansible_gendoc-0.1.11.dist-info/LICENSE,sha256=ZqMQfVrWoFiqt1PqrCBHzLLtDjlGXdD-WETaPjANUXI,16727
+ansible_gendoc-0.1.11.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+ansible_gendoc-0.1.11.dist-info/METADATA,sha256=6ZLRbIs_DYWhJ3aLzJWFW_atngt8jz_Aaa4LUwyiD_Q,4151
+ansible_gendoc-0.1.11.dist-info/RECORD,,
