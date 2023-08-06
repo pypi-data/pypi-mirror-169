@@ -1,0 +1,12 @@
+browser_memory_monitor/__init__.py,sha256=u3peth_YcmUmsHTVAspCahJByRs4CDL2DodLTGszOcM,319
+browser_memory_monitor/args.py,sha256=hDVEdRqBmykps3imjMPzp5oEz3cRMwi-7Ma60HVK4iE,4393
+browser_memory_monitor/core.py,sha256=CeZNfjhP0RFcZr6p87Q32m94oCvQgoqIPan8h6O1gy0,5423
+browser_memory_monitor/ctrl_c.py,sha256=OpSqbKgEQhOk0KPSYUNewXdRLws2Q1yJW_FY4jZK7mw,1363
+browser_memory_monitor/main.py,sha256=cM1hgCv-Lrn3y7r9kt3J-UrGyllAHpHAJXt7pCyFcs0,1123
+browser_memory_monitor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browser_memory_monitor-0.0.3.dist-info/LICENSE.md,sha256=5rZWbwhd9XRlFcbX4u3K7A0rd9UnrEDZFAnXg_tshQg,15550
+browser_memory_monitor-0.0.3.dist-info/METADATA,sha256=zMd_pZ7TWOeDL9kGLpAUpoGEN5O0gRmx4dhCUijnJYM,3143
+browser_memory_monitor-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+browser_memory_monitor-0.0.3.dist-info/entry_points.txt,sha256=Pmf0upviNfNPwghC5bOSi_SIqS5ZGZ5Q_-Pq0QZBucI,57
+browser_memory_monitor-0.0.3.dist-info/top_level.txt,sha256=7ZFHAXIXx1OH-R9qC9s4l0oesk9W6XhJyUZFU4mJF3s,23
+browser_memory_monitor-0.0.3.dist-info/RECORD,,
