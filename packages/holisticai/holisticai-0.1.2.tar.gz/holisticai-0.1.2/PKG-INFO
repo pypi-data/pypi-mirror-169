@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: holisticai
+Version: 0.1.2
+Summary: Holistic AI Library
+Author: Research Team
+Maintainer: Research Team
+Maintainer-email: researchteam@holisticai.com
+Requires-Python: >=3.7,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: scikit-learn (>=1.0.2)
+Requires-Dist: seaborn (>=0.11.2)
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+<img src="docs/holistic_ai.png" width="100">
+<br>Holistic Ai
+</h1>
+
+The Holistic AI library is an open-source tool to assess and improve the trustworthiness of AI systems.  
+
+Currently, the library offers a set of techniques to easily measure and mitigate Bias across numerous tasks. In the future, it will be extended to include tools for Efficacy, Robustness, Privacy and Explainability as well. This will allow a holistic assessment of AI systems.  
+
+- Documentation:https://holisticai.readthedocs.io/en/latest/ 
+- Tutorials: https://github.com/holistic-ai/holisticai/tree/main/tutorials
+- Source code: https://github.com/holistic-ai/holisticai
+- Holistic Ai website: https://holisticai.com
+
+## Installation
+
+Install the library with:
+
+    pip install holisticai
+
