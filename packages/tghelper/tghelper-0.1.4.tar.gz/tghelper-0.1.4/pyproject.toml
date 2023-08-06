@@ -1,0 +1,11 @@
+[project]
+name = "tghelper"
+version = "0.1.4"
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/louisza/tghelper"
+"Documentation" = "https://tghelper.readthedocs.io/"
+"Bug Tracker" = "https://github.com/louisza/tghelper/issues"
+
