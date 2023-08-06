@@ -1,0 +1,2 @@
+[console_scripts]
+jtr = jsontestrunner.__main__:main
