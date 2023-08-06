@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_k8s_release.egg-info/PKG-INFO
+shopee_k8s_release.egg-info/SOURCES.txt
+shopee_k8s_release.egg-info/dependency_links.txt
+shopee_k8s_release.egg-info/top_level.txt
