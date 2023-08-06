@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+c8connector/c8connector.egg-info/PKG-INFO
+c8connector/c8connector.egg-info/SOURCES.txt
+c8connector/c8connector.egg-info/dependency_links.txt
+c8connector/c8connector.egg-info/top_level.txt
