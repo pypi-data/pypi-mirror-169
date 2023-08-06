@@ -1,0 +1,6 @@
+setup.py
+rmconsole/__init__.py
+rmconsole.egg-info/PKG-INFO
+rmconsole.egg-info/SOURCES.txt
+rmconsole.egg-info/dependency_links.txt
+rmconsole.egg-info/top_level.txt
