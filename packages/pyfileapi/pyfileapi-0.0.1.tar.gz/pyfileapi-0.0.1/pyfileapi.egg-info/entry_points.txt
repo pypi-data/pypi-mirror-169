@@ -1,0 +1,2 @@
+[console_scripts]
+pyfile = pyfile._main:main
