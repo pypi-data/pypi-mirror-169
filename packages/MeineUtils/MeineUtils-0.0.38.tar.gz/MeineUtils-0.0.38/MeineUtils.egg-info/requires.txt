@@ -1,0 +1,6 @@
+pandas
+emot
+textsearch
+nltk
+numpy
+opencv-python
