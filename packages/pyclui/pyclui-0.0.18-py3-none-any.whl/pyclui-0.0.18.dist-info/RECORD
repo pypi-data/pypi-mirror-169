@@ -1,0 +1,10 @@
+pyclui/__init__.py,sha256=XobS7u1JnhGQMkxzxW-4oPEAv_qG5FAyE5Xw_HI-Ysc,3309
+pyclui/clui.py,sha256=4OnUb3IqhPZS50rPbb1gmCPikkRzcpNK1apumA0UoKs,24799
+pyclui/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+pyclui/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=ZT621IlyRiF65tJySlgN6V8_DIwv3jCyCAS7KuhIN9w,1087608
+pyclui/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=NgdsQ5RSqNyn6P1M3-SdYLD38eQcoD4Ep90VEnl__GU,1198080
+pyclui-0.0.18.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyclui-0.0.18.dist-info/METADATA,sha256=AK36gpzvL_y2pyy8HoaQpCc7Y2dhyfRHq5ovh_okoRY,730
+pyclui-0.0.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyclui-0.0.18.dist-info/top_level.txt,sha256=-b9_3msPiF3Rh98AQzd2pswpy098n-x7bel2lQUJWIU,7
+pyclui-0.0.18.dist-info/RECORD,,
