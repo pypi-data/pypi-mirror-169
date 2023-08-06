@@ -1,0 +1,14 @@
+[project]
+name = "deephy"
+version = "0.5.2"
+authors = [
+    { name = "Matt Groth", email = "mjgroth@mit.edu" },
+]
+dependencies = [
+    'cbor2',
+    'numpy',
+    'torch'
+]
+[project.urls]
+"Homepage" = "https://github.com/mgroth0/deephy"
+"Bug Tracker" = "https://github.com/mgroth0/deephy/issues"
