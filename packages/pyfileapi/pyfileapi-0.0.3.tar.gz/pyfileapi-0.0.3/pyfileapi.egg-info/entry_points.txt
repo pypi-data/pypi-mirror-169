@@ -1,0 +1,2 @@
+[console_scripts]
+pyfile = pyfileapi._main:main
