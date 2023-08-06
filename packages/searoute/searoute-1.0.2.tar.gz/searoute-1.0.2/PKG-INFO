@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: searoute
+Version: 1.0.2
+Summary: A python package for generating the shortest sea route between two points on Earth.
+Home-page: 
+Author: Gent Halili
+Author-email: genthalili@users.noreply.github.com
+License: MIT
+Project-URL: Documentation, https://github.com/genthalili/searoute-py/blob/main/README.md
+Project-URL: Source, https://github.com/genthalili/searoute-py
+Keywords: searoute map sea route
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# Searoute py
+
+An python package for generating the shortest sea route between two points on Earth. 
+
+If points are on land, the function will attempt to find the nearest point on the sea and calculate the route from there. 
+
+**Not for routing purposes!** This library was developed to generate realistic-looking searoutes for visualizations of maritime routes, not for mariners to route their ships. 
+
+![Searoute map](https://raw.githubusercontent.com/genthalili/searoute-py/main/searoute-py/assets/searoute.png)
+
+## Installation
+
+~~~bash
+pip install searoute
+~~~
+
+## Usage
+
+~~~py
+import searoute as sr
+
+#Define origin and destination points:
+origin = [0.3515625, 50.064191736659104]
+
+destination = [117.42187500000001, 39.36827914916014]
+
+
+route = sr.searoute(origin, destination)
+# > Returns a GeoJSON LineString Feature
+# show route distance with unit
+print("{:.1f} {}".format(route.properties['length'], route.properties['units']))
+
+# Optionally, define the units for the length calculation included in the properties object.
+# Defaults to km, can be can be 'm' = meters 'mi = miles 'ft' = feets 'in' = inches 'deg' = degrees
+# 'cen' = centimeters 'rad' = radians 'naut' = nauticals 'yd' = yards
+routeMiles = sr.searoute(origin, destination, units="mi")
+
+
+~~~
+
+## Credits
+
+Based on Eurostat's [Searoute Java library](https://github.com/eurostat/searoute) and Dijkstra's algorithm implemented by [perliedman](https://www.liedman.net/geojson-path-finder/).
+
+Change Log
+==========
+
+1.0.2 (30/09/2022)
+------------------
+- First Release, published module
