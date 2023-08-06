@@ -1,0 +1,12 @@
+README.md
+setup.py
+TaluoRumen/README.md
+TaluoRumen/__init__.py
+TaluoRumen/__main__.py
+TaluoRumen/file.pdf
+TaluoRumen/index.html
+taluo_rumen.egg-info/PKG-INFO
+taluo_rumen.egg-info/SOURCES.txt
+taluo_rumen.egg-info/dependency_links.txt
+taluo_rumen.egg-info/entry_points.txt
+taluo_rumen.egg-info/top_level.txt
