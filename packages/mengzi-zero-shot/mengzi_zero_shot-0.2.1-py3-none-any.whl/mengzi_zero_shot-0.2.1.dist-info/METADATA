@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mengzi-zero-shot
+Version: 0.2.1
+Summary: NLU & NLG (zero-shot) depend on mengzi-t5-base-mt
+Home-page: https://github.com/Langboat/mengzi-zero-shot
+Author: huajingyun
+Author-email: huajingyun@hotmail.com
+License: Apache License 2.0
+Keywords: machine-learning,zero-shot,NLU,NLG,NLP
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+License-File: LICENSE
+Requires-Dist: transformers (==4.10.1)
+Requires-Dist: sentencepiece (==0.1.96)
+Requires-Dist: deepspeed (==0.5.1)
+Requires-Dist: dvc (==2.9.5)
+Requires-Dist: pandas (==1.3.5)
+Requires-Dist: wandb (==0.12.9)
+Requires-Dist: datasets (==1.17.0)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: flake8 (==3.8.4)
+
+[联系作者](https://github.com/Langboat)
