@@ -1,0 +1,9 @@
+src/quakerheritage/__init__.py,sha256=YkBDEGIKveJZwnpwEEkqt00mkmHGeWDHfEHe0bRuHYg,36
+src/quakerheritage/callFunctions.py,sha256=5t5_eNHwFA3okrYxjZ5ooDEkj_uXJJ8_6Ed9VNWCH0E,825
+src/quakerheritage/cleanseData.py,sha256=lz1JFoXXsY2p3a3Hlv7oycT2E0lxf0NolvKIBLem-_o,1742
+src/quakerheritage/getWebData.py,sha256=Na-hJcaBqpL0BNd5C6BQLrXGiVwp8VIjiKF-yNITr28,1890
+quakerheritage-0.0.1.dist-info/LICENSE.txt,sha256=Nv6u1ubULm-E2y6q2-pQPK8s2BzkOltLaVlPKQ3tkcs,35182
+quakerheritage-0.0.1.dist-info/METADATA,sha256=c0mllrnGp0sWQlNfwnNytBmq2zs0qMS5olW1AZWIWZE,1851
+quakerheritage-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quakerheritage-0.0.1.dist-info/top_level.txt,sha256=rNWtqpKze8aMBJkpwzg1SgMOAqCnIqLBZFDX4HaMlgo,19
+quakerheritage-0.0.1.dist-info/RECORD,,
