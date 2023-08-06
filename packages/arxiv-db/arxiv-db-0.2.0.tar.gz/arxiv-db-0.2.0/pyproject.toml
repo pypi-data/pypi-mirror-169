@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "arxiv-db"
+version = "0.2.0"
+description = "SQLAlchemy models for arXiv DB tables"
+authors = ["Brian D. Caruso <bdc34@cornell.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sqlalchemy = "^1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.812"
+pylint = "^2.7.2"
+"testing.mysqld" = "^1.4.0"
+pytest-mock = "^3.5.1"
+pytest-depends = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
