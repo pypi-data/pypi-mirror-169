@@ -1,0 +1,10 @@
+setup.py
+testmoduletrolol/__init__.py
+testmoduletrolol/add.py
+testmoduletrolol/divide.py
+testmoduletrolol/multiply.py
+testmoduletrolol/subtract.py
+testmoduletrolol.egg-info/PKG-INFO
+testmoduletrolol.egg-info/SOURCES.txt
+testmoduletrolol.egg-info/dependency_links.txt
+testmoduletrolol.egg-info/top_level.txt
