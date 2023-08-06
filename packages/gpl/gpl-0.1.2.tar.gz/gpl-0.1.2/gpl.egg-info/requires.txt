@@ -1,0 +1,3 @@
+beir
+easy-elasticsearch>=0.0.8
+protobuf
