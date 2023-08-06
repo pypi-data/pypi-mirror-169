@@ -1,0 +1,13 @@
+DESCRIPTION.txt
+LICENSE.txt
+README.md
+requirements.txt
+setup.py
+myapi_fastapi.egg-info/PKG-INFO
+myapi_fastapi.egg-info/SOURCES.txt
+myapi_fastapi.egg-info/dependency_links.txt
+myapi_fastapi.egg-info/requires.txt
+myapi_fastapi.egg-info/top_level.txt
+venv/__init__.py
+venv/main.py
+venv/new.py
