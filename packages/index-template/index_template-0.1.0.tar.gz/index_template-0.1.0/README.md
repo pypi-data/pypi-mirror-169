@@ -1,0 +1,25 @@
+# IndexTemplate
+1. This repository contains MetaSearch index template definitions and util methods as shared resources.
+2. It also provides an index creation script to manually create index tempalte for Twitter and Discord search (TODO: integrate index template creation as part of OpenSearch CDK deployement)
+
+## To create index template
+1. Enter your OpenSearch URI, username and password in index_configs.py
+2. Run "python3 setup.py install --user && python3 src/create_templates.py"
+
+## To modify index field definitions
+1. In "field_definitions.py", identify if it's a shared field or any verticial specific field, and modify the corresponding variables
+
+## To obtain the list of index fields for a specific index in downstream indexer code
+1. Import this repository using Git Submodule
+2. Import the necessary index config `from index_configs import twitter_index_config`
+3. Use the get fields method `get_fields_by_index(discord_index_config).keys()`
+
+## To obtain the index to be updated or other index metadata
+1. Import "twitter_index_config" or "discord_index_config" and look for the associated attributes
+2. The index name to be updated to can be found at "twitter_index_config.index_name" and "discord_index_config.index_name"
+
+## Notes on re-indexing
+1. For lightweight re-indexing after template change, follow https://opensearch.org/docs/latest/opensearch/reindex-data/
+
+## TODO
+1. Test the util in indexing lambda using submodules to ensure indexer can be kept in sync with index template, and index based on the template accordingly
