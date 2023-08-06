@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my_command"
+version = "0.2.0"
+description = ""
+authors = ["Romain Bourré <romain.bourre@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+my_command = 'my_command.my_command.main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
