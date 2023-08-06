@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+kitano.egg-info/PKG-INFO
+kitano.egg-info/SOURCES.txt
+kitano.egg-info/dependency_links.txt
+kitano.egg-info/requires.txt
+kitano.egg-info/top_level.txt
