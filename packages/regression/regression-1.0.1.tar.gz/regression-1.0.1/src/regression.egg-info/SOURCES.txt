@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/regression/PolynomialFunctions.py
+src/regression/Regressors.py
+src/regression/__init__.py
+src/regression/utitilties.py
+src/regression.egg-info/PKG-INFO
+src/regression.egg-info/SOURCES.txt
+src/regression.egg-info/dependency_links.txt
+src/regression.egg-info/requires.txt
+src/regression.egg-info/top_level.txt
