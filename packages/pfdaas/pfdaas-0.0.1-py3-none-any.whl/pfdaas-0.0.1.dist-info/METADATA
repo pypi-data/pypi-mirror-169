@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pfdaas
+Version: 0.0.1
+Summary: A small example package
+Author-email: hujijun <defkpl@gmail.com>
+Project-URL: Homepage, https://github.com/hujijun/python_utilities
+Project-URL: Bug Tracker, https://github.com/hujijun/python_utilities/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python_utilities
+python工具集
