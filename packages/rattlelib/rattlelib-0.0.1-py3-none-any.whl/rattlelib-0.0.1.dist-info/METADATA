@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rattlelib
+Version: 0.0.1
+Summary: Package for the Rattle file explorer
+Project-URL: Homepage, https://github.com/pb2002/rattle
+Project-URL: Bug Tracker, https://github.com/pb2002/rattle/issues
+Author: Pepijn Bakker, Ruben Broere, Noa 
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+nothing here yet
