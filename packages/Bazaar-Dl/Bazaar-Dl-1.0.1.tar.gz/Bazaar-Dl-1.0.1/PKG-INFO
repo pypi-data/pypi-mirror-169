@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: Bazaar-Dl
+Version: 1.0.1
+Summary: Simple python package for direct download from Cafe Bazaar
+Home-page: UNKNOWN
+Author: Matin Baloochestani (Matin-B)
+Author-email: MatiinBaloochestani@Gmail.com
+License: UNKNOWN
+Keywords: python,bazaar_dl,bazaar-dl,Cafe-Bazaar
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Bazaar-Dl
+
+[![Upload Python Package](https://github.com/Matin-B/Bazaar-Dl/actions/workflows/main.yml/badge.svg)](https://github.com/Matin-B/Bazaar-Dl/actions/workflows/main.yml)
+
+Simple Python package for direct download applications from Cafe Bazaar (CafeBazaar.ir)
+
+
+## Install package
+```console
+pip install Bazaar-Dl
+```
+
+## Examples of How To Use 
+
+Get tweet info
+
+```python
+from bazaar_dl import download
+
+# Get tweet information from Twitter
+download("com.mtni.myirancell")
+```
+
