@@ -1,0 +1,2 @@
+[console_scripts]
+w2m = sound_to_midi.cli:run
