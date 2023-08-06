@@ -1,0 +1,11 @@
+- project:
+    templates:
+      - check-requirements
+      - openstack-python3-zed-jobs
+      - publish-openstack-docs-pti
+    check:
+      jobs:
+        - ec2api-tempest-plugin-functional
+    gate:
+      jobs:
+        - ec2api-tempest-plugin-functional
