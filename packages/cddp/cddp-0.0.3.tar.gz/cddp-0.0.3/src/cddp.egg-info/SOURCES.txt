@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cddp/__init__.py
+src/cddp.egg-info/PKG-INFO
+src/cddp.egg-info/SOURCES.txt
+src/cddp.egg-info/dependency_links.txt
+src/cddp.egg-info/top_level.txt
