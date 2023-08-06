@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: task-automation-test
+Version: 0.0.3
+Summary: Package contains functions to perform simple task such as FTP transfer, Import to miscrosoft database etc.
+Home-page: UNKNOWN
+Author: Yogesh Khuha
+Author-email: yogesh.khuha@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+This module contains functions to perform the small tasks such as 
+downloading email attachment, FTP upload and FTP download,
+importing or appending the csv or txt file to Microsoft SQL server database etc.
+
+Functions
+---------
+attachment_verification(file_path, files)
+    Compares size of downloaded file with the file attached to the email.
+download_attachment(email_sender, email_subject, files, download_location, received_duration=1,email_folder="Inbox")
+    Downloads attachments from an email.
+csv_to_txt(csvfile,txtfile,delimiter='\t',replace_if_exist=True)
+    Converts csv file to txt file using delimiter.
+ftp_upload_verify(hostname, username, password, ftp_dir, files, filepath,TLS)
+    Verifies the uploaded file size with original file size.
+ftp_upload(hostname, username, password, ftp_dir, files, filepath,TLS=False)
+    Uploads files to the FTP server and compares the uploaded file size with 
+    original file size.
+ftp_download_verify(hostname, username, password, ftp_dir, files, filepath,TLS)
+    Veryfies the file size of the downloaded file with the original file.
+ftp_download(hostname, username, password, ftp_dir, files, filepath,TLS=False)
+    Downloads files from FTP server and compares the file size of the 
+    downloaded file with the original file.
+execute_msql(sql_file, con)
+    Executes query from '.sql' file.
+append_csv_msql(filepath,con,insert_query,has_header=False)
+    Appends the .CSV file to the existing table 
+    in Microsoft SQL Server database.
+append_txt_msql(filepath, con, insert_query,has_header=False,delimiter='|')
+    Appends the .txt file to the existing table 
+    in Microsoft SQL Server database.
+import_csv_msql(filepath,con,create_query,insert_query,has_header)
+    Imports the .CSV file to the Microsoft SQL Server database.
+    NOTE: This function will drop the table if already exist and will 
+        create a new one. 
+import_text_msql(filepath, con, create_query, insert_query, has_header)
+    Imports .TXT file to the microsoft SQL server database.
+    NOTE: This function will drop the table if already exist and will 
+        create a new one. 
+msql_results_to_file(sql_file, output_file, con, save_as='CSV', header=False)
+    Executes query in .sql file and saves resulting table as 'CSV' or 
+    'TXT'('|' delimited) file.
+query_results_to_file(query, output_file, con, save_as="CSV", header=False)
+    Executes the query and saves the result as 'CSV' or 'TXT'('|' delimited) file.
+run_msql(con, query)
+    Runs SQL query.
+send_email(profilename, recipients, CC, subject, email_body, attachments)
+    Sends email to the recipients, can also send attachments with email.
+send_reply(email_sender, email_subject, reply_body, received_duration=1,email_folder="Inbox")
+    Sends reply(Reply all) to the email.
+sftp_file_verify(hostname,port,  username, password,ftp_dir,filepath,file)
+    After upload or download transaction, compares size of the file on 
+    the sftp server with size of the file on the device/network.    
+sftp_upload(hostname,port,  username, password,ftp_dir,filepath,file)
+    Uploads file to SFTP server.
+sftp_download(hostname,port,  username, password,ftp_dir,filepath,file)
+    Downloads file from SFTP server.
+
