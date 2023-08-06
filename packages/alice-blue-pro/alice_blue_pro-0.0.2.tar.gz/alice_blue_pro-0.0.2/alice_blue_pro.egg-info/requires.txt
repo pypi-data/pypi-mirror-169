@@ -1,0 +1,5 @@
+requests
+pandas
+scipy
+TA-Lib
+alice_blue
