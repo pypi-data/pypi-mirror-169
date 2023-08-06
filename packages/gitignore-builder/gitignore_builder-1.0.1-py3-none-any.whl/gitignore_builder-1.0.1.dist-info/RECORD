@@ -1,0 +1,12 @@
+gitignore_builder/__about__.py,sha256=_WSPVhOOrXw9iTuf8DYccCV2ZpeHoJT8aDsjs5qUq7I,212
+gitignore_builder/__init__.py,sha256=i1Qhsn1ZZCKHC0KaYVBG8P9sypD9qJi1RxNrAQ1Ug4s,112
+gitignore_builder/__main__.py,sha256=B6NkiMfMf0HMHJ8DwVr_zOG3mo8_L66_GNlpnHzp6dc,396
+gitignore_builder/builder.py,sha256=xK3-amvdQF2vTI-UbCIFAMsBmk5broNqyBrhlnbEHUY,2759
+gitignore_builder/datamodel.py,sha256=SDkKIL0Y7fFrtmITgy_Q9UreFoclmUyQGrR6tpcmXdg,8951
+gitignore_builder/io_util.py,sha256=v2tMNyS3HeLlf6yFcZPaa3q5AyvSRY0nKumkIAl1vfU,3183
+gitignore_builder/cli/__init__.py,sha256=6h6eXX0efWM-xR9q2hRWWHctbBv_u6BTZb9L2gPoxok,1874
+gitignore_builder-1.0.1.dist-info/METADATA,sha256=22HCfpgb9VWum9QtMUpQCpWNfeFQvTnp3JuAp4cIHIc,3327
+gitignore_builder-1.0.1.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+gitignore_builder-1.0.1.dist-info/entry_points.txt,sha256=Q7bn1E5brAAzfqDCqBz8bgWJiPm3ZjbLbItwSuMDITA,78
+gitignore_builder-1.0.1.dist-info/licenses/LICENSE.txt,sha256=JQiewgJ-Lq72DMZX1OwJJ97Y9U8JIz5TEa78xDTq1pY,1110
+gitignore_builder-1.0.1.dist-info/RECORD,,
