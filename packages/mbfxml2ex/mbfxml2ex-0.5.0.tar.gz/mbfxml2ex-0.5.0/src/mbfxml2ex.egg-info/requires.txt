@@ -1,0 +1,7 @@
+opencmiss.zinc>=3.5.1
+opencmiss.utils>=0.4.0
+
+[test]
+coverage
+nose
+packaging
