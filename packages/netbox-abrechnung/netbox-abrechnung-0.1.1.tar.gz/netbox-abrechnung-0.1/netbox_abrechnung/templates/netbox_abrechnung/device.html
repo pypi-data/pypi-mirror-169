@@ -1,0 +1,18 @@
+{% load render_table from django_tables2 %}
+{% block content %}
+  <div class="row mb-6">
+    <div class="col col-md-6">
+      
+            <div class="card">
+           
+            <h5 class="card-header">SLA</h5>    
+          <div class="card-body">
+          {{ cdevice.sla|linkify }}
+          </div>
+        </div>    
+    </div>
+    <div class="col col-md-6">
+      {% include 'inc/panels/comments.html' %}
+    </div>
+  </div>
+{% endblock content %}
