@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+setup.py
+snowflake/ingest/__init__.py
+snowflake/ingest/error.py
+snowflake/ingest/errorcode.py
+snowflake/ingest/simple_ingest_manager.py
+snowflake/ingest/version.py
+snowflake/ingest/utils/__init__.py
+snowflake/ingest/utils/network.py
+snowflake/ingest/utils/tokentools.py
+snowflake/ingest/utils/uris.py
+snowflake_ingest_pyjwt_2.egg-info/PKG-INFO
+snowflake_ingest_pyjwt_2.egg-info/SOURCES.txt
+snowflake_ingest_pyjwt_2.egg-info/dependency_links.txt
+snowflake_ingest_pyjwt_2.egg-info/requires.txt
+snowflake_ingest_pyjwt_2.egg-info/top_level.txt
