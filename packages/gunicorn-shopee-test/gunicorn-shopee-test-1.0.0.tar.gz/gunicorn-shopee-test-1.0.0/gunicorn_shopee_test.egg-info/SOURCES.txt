@@ -1,0 +1,6 @@
+README.md
+setup.py
+gunicorn_shopee_test.egg-info/PKG-INFO
+gunicorn_shopee_test.egg-info/SOURCES.txt
+gunicorn_shopee_test.egg-info/dependency_links.txt
+gunicorn_shopee_test.egg-info/top_level.txt
