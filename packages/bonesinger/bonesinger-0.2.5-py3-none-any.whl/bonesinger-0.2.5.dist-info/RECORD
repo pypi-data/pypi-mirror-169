@@ -1,0 +1,15 @@
+bonesinger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bonesinger/__main__.py,sha256=MgSkO2cSk_O8HMpNA-ozbsaNQRTp27Sj2XRpezaYOTo,3779
+bonesinger/core.py,sha256=J15rHXDaFwf6borspkQ_M2DG3znje2GudJms0tuda7Y,7499
+bonesinger/docker.py,sha256=fu9aWBCi2gyciYwP8MUcr52z6mYXz7Ou5EB2KhdhWg4,594
+bonesinger/executors.py,sha256=drTdQBry_ABp7_UamYBjOBhuh10M15gFuoper7LV8aA,4192
+bonesinger/parser.py,sha256=RtK-A14PyYJZtaJG5tVrLvc3wfmpRrc10v0TqmKZcuM,302
+bonesinger/pipeline.py,sha256=9Cfc6-Lr3c8cb6a6mvZYMZUykl5AKEWtaKaQhMNoURY,4260
+bonesinger/step.py,sha256=foOizNyIMHXdM2Lr8ecq5oviAjlnySkpFTsA-rXzjWo,3105
+bonesinger/util.py,sha256=vSnK5m-06skJNW_i4XaJ1INRO1XkYJ9AioRHevjhAkM,803
+bonesinger-0.2.5.dist-info/LICENSE,sha256=349WxdezKUuOw1GFIAQdbREefhfp7i8GXGiWMhuMcJw,1063
+bonesinger-0.2.5.dist-info/METADATA,sha256=dp5cmWsKrrzCUW6JOmxVzZ32eaSGQS_2YHEWIft23Fg,291
+bonesinger-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bonesinger-0.2.5.dist-info/entry_points.txt,sha256=4ruse6tXjRRjB0zQJHHDdKIDUqN9NytFatXodtzFxko,57
+bonesinger-0.2.5.dist-info/top_level.txt,sha256=qxaz4D0bIUvFX5IbbA0kbLsThPFtApZ17QyeYB9hmZQ,11
+bonesinger-0.2.5.dist-info/RECORD,,
