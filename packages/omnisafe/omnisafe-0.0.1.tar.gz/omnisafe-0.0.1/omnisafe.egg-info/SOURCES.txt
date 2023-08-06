@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+omnisafe.egg-info/PKG-INFO
+omnisafe.egg-info/SOURCES.txt
+omnisafe.egg-info/dependency_links.txt
+omnisafe.egg-info/top_level.txt

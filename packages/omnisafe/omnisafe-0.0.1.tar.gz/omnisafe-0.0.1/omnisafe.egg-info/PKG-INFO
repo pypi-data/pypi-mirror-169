@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: omnisafe
+Version: 0.0.1
+Summary: A small example package
+Author: Jiaming Ji
+Author-email: jiamg.ji@gmail.com
+License: Apache License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+placeholder
+
