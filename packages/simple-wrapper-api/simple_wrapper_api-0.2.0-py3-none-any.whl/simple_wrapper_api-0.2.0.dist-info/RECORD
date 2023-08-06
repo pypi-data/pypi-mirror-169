@@ -1,0 +1,8 @@
+api/__init__.py,sha256=HHfVoVcDfZCoM8TTpejcNzyV4JP6a4EzL0w8bYpYatU,67
+api/__main__.py,sha256=yaYZrewlhQs5lTFphxaOp6v3sXljQNYrSmsCzJDMejU,3986
+api/wrapper_api.log,sha256=g5CTA5J4PcBiG_H5rpsut__py136F1wezTO7hmsn0Ac,32406
+api/wrapper_api.py,sha256=bmSbk7oefxe71XCTN-42b_Rjhda64baJjvR4MN-aq1Q,8146
+simple_wrapper_api-0.2.0.dist-info/entry_points.txt,sha256=60vfwk6tkb8KpGEYuULpNsGF-jq3JJAp-9KSOiEFD34,51
+simple_wrapper_api-0.2.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+simple_wrapper_api-0.2.0.dist-info/METADATA,sha256=wVh1Cf0e0W2WMlYk1_tsWMswwXUpK6TN074o7sZ34hw,582
+simple_wrapper_api-0.2.0.dist-info/RECORD,,
