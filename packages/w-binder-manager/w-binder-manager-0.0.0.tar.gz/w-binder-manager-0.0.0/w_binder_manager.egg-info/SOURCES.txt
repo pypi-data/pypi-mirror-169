@@ -1,0 +1,6 @@
+setup.py
+w-binder-manager/__init__.py
+w_binder_manager.egg-info/PKG-INFO
+w_binder_manager.egg-info/SOURCES.txt
+w_binder_manager.egg-info/dependency_links.txt
+w_binder_manager.egg-info/top_level.txt
