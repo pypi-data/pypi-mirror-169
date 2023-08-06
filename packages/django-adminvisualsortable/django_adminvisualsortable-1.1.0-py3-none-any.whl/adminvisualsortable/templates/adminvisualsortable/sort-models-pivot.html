@@ -1,0 +1,17 @@
+{% extends 'adminvisualsortable/sort-base.html' %}
+{% load static %}
+{% load admin_utils %}
+
+{% block sort_info %}{{ parent_instance }}{% endblock %}
+{% block cur_sorting_model %}Select Inlines for: <b>{{targetModel.name}}</b>{% endblock %}
+{% block breadcrumb %}<a href="{{ targetModel|get_parent_admin_url_list }}">Back to Admin Page ></a>{% if parent_is_sortable %} <a href="{{parent_sort_url}}">Sort {{ targetModel.verbose_name_plural }} Instances ></a>{% else %} <span>{{ targetModel.verbose_name_plural }} Instances ></span>{% endif %} <span>Select Inlines to Sort for the {{ targetModel.name }} Instance</span>{% endblock %}
+{% block main %}
+<div class="sorter-cont">
+    {% for i in inlines %}
+    <a href="{{i.url}}" class="btn-pivot">Sort Inline for Instance: {{i.name}}</a>
+    {% endfor %}
+</div>
+{% endblock %}
+{% block bottom_script %}
+<script></script>
+{% endblock %}
