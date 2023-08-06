@@ -1,0 +1,13 @@
+prefect_hex/__init__.py,sha256=qL-ngA7RbRT_eMY-mNPaNaKAjugxpFkhHjoBI0Pnopc,121
+prefect_hex/_version.py,sha256=AeHQ0rMdNhC3GIMhCzoq2_RtU-5_YYCwMEWa_PMRbdI,497
+prefect_hex/credentials.py,sha256=1pOTQUo5KRM9aXgJAw2FAica_b5rvhFQRPJ7X4yZnXw,1882
+prefect_hex/project.py,sha256=7M3wED_20GqRKoouyytw7gLehhFsPgr0XlTi7hGVKL8,4755
+prefect_hex/rest.py,sha256=zJBY3B-q5A1Q878Ou-oBOwcHoT-J_VC9gIXUOut3h4s,3882
+prefect_hex/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_hex/models/project.py,sha256=HkidSSI1U2WThBfyMlkhpooFiPWWGEAn0bY2YY18kgc,5462
+prefect_hex-0.1.0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_hex-0.1.0.dist-info/METADATA,sha256=y5fLAgYHCfH8AG70V6GZ0OdDtoELDERlzP_CSMFtB1g,4695
+prefect_hex-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_hex-0.1.0.dist-info/entry_points.txt,sha256=cQNRsgrSRWJigzXtYElBHt5C8fQm1PJ5wobys1LI1UQ,48
+prefect_hex-0.1.0.dist-info/top_level.txt,sha256=z8rCIlFJxzuyJNJtXVobIW4bpNHOuqSwNbOnvS6LrS4,12
+prefect_hex-0.1.0.dist-info/RECORD,,
