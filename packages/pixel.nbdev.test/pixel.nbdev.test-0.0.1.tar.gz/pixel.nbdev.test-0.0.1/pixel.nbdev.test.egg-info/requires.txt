@@ -1,0 +1,6 @@
+fastcore
+pandas
+nbdev
+nbdev_test
+
+[dev]
