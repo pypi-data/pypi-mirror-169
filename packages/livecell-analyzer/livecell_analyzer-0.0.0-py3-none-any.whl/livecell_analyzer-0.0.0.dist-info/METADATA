@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: livecell-analyzer
+Version: 0.0.0
+Summary: live-cell tracking package including instance segmentation and tracker
+Author-email: Ke Ni <ken67@pitt.edu>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: documentation, https://github.com/xing-lab-pitt/LiveCellTracker-dev
+Project-URL: homepage, https://github.com/xing-lab-pitt/LiveCellTracker-dev
+Project-URL: repository, https://github.com/xing-lab-pitt/LiveCellTracker-dev
+
+
