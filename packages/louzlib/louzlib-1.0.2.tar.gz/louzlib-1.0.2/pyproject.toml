@@ -1,0 +1,118 @@
+[tool.poetry]
+name = "louzlib"
+authors = ["lmisto <louaimisto@gmail.com>"]
+
+version = "1.0.2"
+description = "like xanax but for the python."
+homepage = "http://github.com/lmist/louzlib"
+license = "UNLICENSED"
+readme = "README.md"
+
+keywords = [
+  "pretty",
+  "logging",
+  "dotenvies",
+  "mailer",
+  "templates",
+  "webscraping",
+]
+classifiers = [
+    "Development Status :: 1 - Development/Experimental",
+    "License :: OSI Approved :: UNLICENSED",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS :: MacOS X",
+    "Environment :: Web Environment",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utils",
+]
+
+packages = [{ include = "src/louzlib" }]
+include = [
+    { path = "tst", format = "sdist" },
+    { path = "doc", format = "sdist" },
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/lmist/louzlib/issues"
+Documentation = "https://louzlib.git-pull.com"
+Repository = "https://github.com/lmist/louzlib"
+Changes = "https://github.com/lmist/louzlib/blob/master/CHANGES"
+
+[tool.poetry.dev-dependencies]
+### Docs ###
+mkdocs-material = "*"
+### Testing ###
+pytest = "*"
+pytest-rerunfailures = "*"
+pytest-mock = "*"
+pytest-watcher = "^0.2.3"
+Faker = "^14.2.0"
+### Coverage ###
+codecov = "*"
+coverage = "*"
+pytest-cov = "*"
+### Format ###
+black = "*"
+isort = "*"
+### Lint ###
+flake8 = "*"
+flake8-bugbear = "^22.8.23"
+flake8-comprehensions = "*"
+mypy = "*"
+
+[tool.poetry.extras]
+docs = [
+  "mkdocs-material"
+]
+test = ["pytest", "pytest-rerunfailures", "pytest-mock", "pytest-watcher"]
+coverage = ["codecov", "coverage", "pytest-cov"]
+format = ["black", "isort"]
+lint = ["flake8", "flake8-bugbear", "flake8-comprehensions", "mypy"]
+
+[tool.mypy]
+strict = true
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^0.21.0"
+pydantic = "^1.10.2"
+ptpython = "^3.0.20"
+fontawesome = "^5.10.1.post1"
+typer = "^0.6.1"
+requests = "^2.28.1"
+pandas = "^1.4.4"
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.1"
+randomname = "^0.1.5"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# [tool.poetry.scripts]
+# tools = 'bin.tools:cla'
+
+# Primo config stolen with love from the libtmux team.
+[flake8]
+exclude = ".*/,.tox,*.egg,louzlib/_compat.py,louzlib/__*__.py"
+select = "E,W,F,N"
+max-line-length = 79
+extend-ignore = "E203,W503"
+
+[isort]
+profile = "black"
+combine_as_imports= true
+default_section = "THIRDPARTY"
+include_trailing_comma = true
+multi_line_output = 3
+known_pytest = "pytest,py"
+known_first_party = "louzlib"
+sections = "FUTURE,STDLIB,PYTEST,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+line_length = 60
