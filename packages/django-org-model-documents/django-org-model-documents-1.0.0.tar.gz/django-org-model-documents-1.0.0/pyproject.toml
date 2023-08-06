@@ -1,0 +1,15 @@
+[build-system]
+requires = ['setuptools>=40.8.0', 'wheel']
+build-backend = 'setuptools.build_meta:__legacy__'
+
+[tool.poetry]
+name = "django-org-model-documents"
+version = "1.0.0"
+description = "A Django app to allow attaching any number of documents to any model in a project."
+authors = ["Oak McIlwain <oak.mcilwain@dbca.wa.gov.au>"]
+maintainers = ["DBCA OIM <asi@dbca.wa.gov.au>"]
+license = "Apache-2.0"
+
+packages = [
+    { include = "org_model_documents" }
+]
