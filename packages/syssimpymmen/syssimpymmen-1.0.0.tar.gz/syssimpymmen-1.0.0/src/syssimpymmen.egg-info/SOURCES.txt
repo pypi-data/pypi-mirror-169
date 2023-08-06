@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/syssimpymmen/__init__.py
+src/syssimpymmen/mmen.py
+src/syssimpymmen.egg-info/PKG-INFO
+src/syssimpymmen.egg-info/SOURCES.txt
+src/syssimpymmen.egg-info/dependency_links.txt
+src/syssimpymmen.egg-info/top_level.txt
+src/syssimpymmen/data/MR_earthlike_rocky.txt
+src/syssimpymmen/data/MR_pure_iron.txt
+src/syssimpymmen/data/MRpredict_table_weights3025_R1001_Q1001.txt
