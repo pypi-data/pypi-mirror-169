@@ -1,0 +1,2 @@
+[console_scripts]
+inception2cli = inception2cli:main
