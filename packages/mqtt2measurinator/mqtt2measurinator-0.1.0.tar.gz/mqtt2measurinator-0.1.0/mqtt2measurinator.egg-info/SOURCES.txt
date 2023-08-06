@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+mqtt2measurinator/__init__.py
+mqtt2measurinator/cli.py
+mqtt2measurinator.egg-info/PKG-INFO
+mqtt2measurinator.egg-info/SOURCES.txt
+mqtt2measurinator.egg-info/dependency_links.txt
+mqtt2measurinator.egg-info/entry_points.txt
+mqtt2measurinator.egg-info/requires.txt
+mqtt2measurinator.egg-info/top_level.txt
