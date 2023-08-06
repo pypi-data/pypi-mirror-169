@@ -1,0 +1,4 @@
+[console_scripts]
+ShengriTaluoMimashu = ShengriTaluoMimashu.__main__:main
+shengri-taluo-mimashu = ShengriTaluoMimashu.__main__:main
+
