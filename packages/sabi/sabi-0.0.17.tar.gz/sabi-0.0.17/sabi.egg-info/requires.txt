@@ -1,0 +1,10 @@
+requests
+pycryptodome
+hashids
+jsonpickle
+pyjwt
+requests
+
+[dev]
+boto3
+black
