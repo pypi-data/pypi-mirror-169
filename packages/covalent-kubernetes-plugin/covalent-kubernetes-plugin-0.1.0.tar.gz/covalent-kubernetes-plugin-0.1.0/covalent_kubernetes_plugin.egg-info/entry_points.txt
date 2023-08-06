@@ -1,0 +1,2 @@
+[covalent.executor.executor_plugins]
+k8s = covalent_kubernetes_plugin.k8s
