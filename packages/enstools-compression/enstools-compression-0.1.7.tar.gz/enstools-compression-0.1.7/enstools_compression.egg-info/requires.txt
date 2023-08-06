@@ -1,0 +1,3 @@
+enstools>=2022.9.3
+enstools-encoding>=0.1.9
+zfpy
