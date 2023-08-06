@@ -1,0 +1,2 @@
+[console_scripts]
+inception2corpus = inception2corpus:main

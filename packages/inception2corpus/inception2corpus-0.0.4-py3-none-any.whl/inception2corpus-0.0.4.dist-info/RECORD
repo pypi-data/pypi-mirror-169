@@ -1,0 +1,15 @@
+inception2corpus.py,sha256=6I2yVysvrlBJU6WM4NwU1LifM4dhU-GkldmBPwLDsHA,7201
+i2c_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i2c_lib/constants.py,sha256=SOH-2raO8vj81KP0wzCqNkBYQ47onJyJUtWwvQZcNBE,2868
+i2c_lib/corpus_statistics.py,sha256=Re7uOsXIEnlZQqtR03kcHwcBE4WKqjWMBV-HH1QzwJQ,3702
+i2c_lib/inception_connection.py,sha256=EYeabGL_744kxiMktXJrEGBLrxrq8bbh5wTj3KMTG_M,2593
+i2c_lib/io_utils.py,sha256=6I2V5FdWR94mrcU6FeLVNQUNx-jQsIVBk0CF75s6UlE,1472
+i2c_lib/preprocessing.py,sha256=J6u2kZhCGDbuULlI6CB0rUt4Owuwi1KlxuAEgP0cty8,7897
+i2c_lib/prompt_utils.py,sha256=RRCBvuC75stdJkQtG2yEVRCVzYY0uPh72VtC-2eJMsc,2405
+i2c_lib/serialization.py,sha256=sJeDXIvKo3g_EnhWCYTWjUy5lNJfn7_W3LKMrwtT7FE,5822
+inception2corpus-0.0.4.dist-info/LICENSE,sha256=iBNF7SYpDqkzgA3NrICcxDqTJMbSxHHlNKAMTdulX0A,1078
+inception2corpus-0.0.4.dist-info/METADATA,sha256=eiD0n3iiwWLxBA2KbnLQKJydGtxtMsR2qh0DRjz98iE,6177
+inception2corpus-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+inception2corpus-0.0.4.dist-info/entry_points.txt,sha256=zwaUxH2RXXyg8y5qPPM4hSaRRu1gd9FnBkFYSYB6s0w,59
+inception2corpus-0.0.4.dist-info/top_level.txt,sha256=7QGjbfNmCuiT6SNfYqpjVpvEO6GV_W9myxgJ57eRX3s,25
+inception2corpus-0.0.4.dist-info/RECORD,,
