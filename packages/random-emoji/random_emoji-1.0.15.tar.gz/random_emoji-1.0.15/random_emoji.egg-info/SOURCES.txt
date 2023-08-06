@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+random_emoji/__init__.py
+random_emoji/random_emoji.py
+random_emoji.egg-info/PKG-INFO
+random_emoji.egg-info/SOURCES.txt
+random_emoji.egg-info/dependency_links.txt
+random_emoji.egg-info/requires.txt
+random_emoji.egg-info/top_level.txt
