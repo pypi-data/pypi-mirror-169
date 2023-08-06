@@ -1,0 +1,3 @@
+[console_scripts]
+create-read-user=mongo_redis_postgres_read_user.main:app
+
