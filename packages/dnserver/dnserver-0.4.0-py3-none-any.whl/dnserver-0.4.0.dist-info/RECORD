@@ -1,0 +1,11 @@
+dnserver/__init__.py,sha256=S-iPFtBW4o6ZLvzxg8Sr6iRIVKbh_v-KdQRr0iRwqPg,156
+dnserver/__main__.py,sha256=QLaVj5sER_-4hYs6FmXl020Wj1ubvb4TOL7aInnKvKM,110
+dnserver/cli.py,sha256=Oj3kXBXPK5fBA44xfek88QBd2q0U3Vg8wYmJsNUU1xU,2763
+dnserver/load_records.py,sha256=7eyqVDUwQVe1x3lmFVQrZnG1I_z2oWZaGRTWHolfmVE,2421
+dnserver/main.py,sha256=OIrbCxTPMI9O4pOGEEoSd8zwxIBLXvfF2g2mrJPnsRQ,6220
+dnserver/version.py,sha256=9DGT-9RoMvi3H46WS4NuB05ai7wdrTQkKcheNSdrLxk,18
+dnserver-0.4.0.dist-info/METADATA,sha256=TIdiPCGo_irfAQZLVZlwRW2FrzCNQWpjJRcdXK4AP1k,5070
+dnserver-0.4.0.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+dnserver-0.4.0.dist-info/entry_points.txt,sha256=8deFNhO6f8oohgfupq3L7fK7i6Xk7L0OTGZllu4tbpU,46
+dnserver-0.4.0.dist-info/licenses/LICENSE,sha256=G6-4liubNZpApyqJFOQ615TyBDvCus7f0g8UKAdYLlg,1086
+dnserver-0.4.0.dist-info/RECORD,,
