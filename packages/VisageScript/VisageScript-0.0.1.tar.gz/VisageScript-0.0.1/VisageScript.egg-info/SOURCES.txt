@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+VisageScript/VisageScript.py
+VisageScript/VisageScript_tests.py
+VisageScript.egg-info/PKG-INFO
+VisageScript.egg-info/SOURCES.txt
+VisageScript.egg-info/dependency_links.txt
+VisageScript.egg-info/entry_points.txt
+VisageScript.egg-info/top_level.txt
