@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyfdtd.egg-info/PKG-INFO
+pyfdtd.egg-info/SOURCES.txt
+pyfdtd.egg-info/dependency_links.txt
+pyfdtd.egg-info/requires.txt
+pyfdtd.egg-info/top_level.txt
