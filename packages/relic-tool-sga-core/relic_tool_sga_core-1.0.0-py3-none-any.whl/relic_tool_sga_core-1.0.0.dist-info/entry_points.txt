@@ -1,0 +1,2 @@
+[fs.opener]
+sga = relic.sga.core.filesystem:EssenceFSOpener
