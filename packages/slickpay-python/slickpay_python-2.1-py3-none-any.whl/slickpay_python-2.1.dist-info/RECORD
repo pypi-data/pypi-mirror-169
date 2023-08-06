@@ -1,0 +1,11 @@
+slickpay_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slickpay_lib/constant.py,sha256=l2DYEgUhU5KOE2XOydToaHqAnV6XNPO3DTZ_CWpQEOU,518
+slickpay_lib/invoice.py,sha256=U0p2KN4pdcXW7zTrZjI6NYRLzM0VOlcqwOmyy50e43Y,5504
+slickpay_lib/utils.py,sha256=U-JjMTqbaniXwS3At7aq41oVZsA6juDkFGORo3ClCkw,1267
+slickpay_lib/sync_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slickpay_lib/sync_lib/webhook.py,sha256=EUeoU2kQpuBdX4y3aQ9lmi53F9R4fsSDn3A217Np3sM,1206
+slickpay_python-2.1.dist-info/LICENSE,sha256=vHWRoTJgDUvPkTEgSJjLbOa9hkB44JQmxOqMmYZgDho,1061
+slickpay_python-2.1.dist-info/METADATA,sha256=xeVO07eHRkzT0T90X1Et3r-UxbIRYtxzNFAUwC5Tx8g,742
+slickpay_python-2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slickpay_python-2.1.dist-info/top_level.txt,sha256=mKQe7rrUxN19SfkwUbPVpdN6uQFOQbHZeLTkdvbrCAk,13
+slickpay_python-2.1.dist-info/RECORD,,
