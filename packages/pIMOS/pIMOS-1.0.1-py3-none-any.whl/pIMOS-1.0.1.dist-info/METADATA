@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pIMOS
+Version: 1.0.1
+Summary: field data processing
+Home-page: https://github.com/iosonobert/pIMOS/
+Author: Andrew Zulberti
+Author-email: andrew.zulberti@gmail.com
+License: unlicensed to all but author
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: xarray
+
