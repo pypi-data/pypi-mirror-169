@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "quality-control"
+version = "0.0.1b"
+description = ""
+authors = ["Alphadelta14 <alpha@alphaservcomputing.solutions>"]
+readme = "README.md"
+packages = [{include = "quality_control"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
