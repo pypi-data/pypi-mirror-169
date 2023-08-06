@@ -1,0 +1,13 @@
+aioworkers_boto/__about__.py,sha256=Q-srtGzl1sgQw3TWEJ_2STb5JI9UTlToBXUaMgs3zFo,136
+aioworkers_boto/__about__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioworkers_boto/__init__.py,sha256=7spEk2aJ4On0jlQmcKaOiwDv2zGfn8N5_YaIRusbaME,114
+aioworkers_boto/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioworkers_boto/core.py,sha256=KL2LNoDqoZjS1wgUcXB8cObKdX-PL-1tIWOonIIP58k,1662
+aioworkers_boto/core.pyi,sha256=dlifavyke3Kc6Zb4ut3SV6SX5J2CwadBW-4Htes48WM,536
+aioworkers_boto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioworkers_boto/storage.py,sha256=zy-ZPItBF898guGqYCOO0Xmeh_OA_kLZ1Bpvs8mYsKg,1995
+aioworkers_boto/storage.pyi,sha256=6u5HpBt8TaZF0RMD74PUPipqd84Irs7awl0s1bDqpEI,530
+aioworkers_boto-0.1.0.dist-info/METADATA,sha256=x-Gm17fpFTKFSAzZiA4bupV26TYpuZ8yzHQWkZ9hGW8,1995
+aioworkers_boto-0.1.0.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+aioworkers_boto-0.1.0.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+aioworkers_boto-0.1.0.dist-info/RECORD,,

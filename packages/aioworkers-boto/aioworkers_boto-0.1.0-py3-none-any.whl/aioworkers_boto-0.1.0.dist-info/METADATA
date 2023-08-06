@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: aioworkers-boto
+Version: 0.1.0
+Summary: Connector and storage over boto
+Project-URL: Documentation, https://github.com/aioworkers/aioworkers-boto#readme
+Project-URL: Issues, https://github.com/aioworkers/aioworkers-boto/issues
+Project-URL: Source, https://github.com/aioworkers/aioworkers-boto
+Author-email: Alexander Malev <malev@somedev.ru>
+License-File: LICENSE.txt
+Keywords: aioworkers,boto,botocore,s3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: aiobotocore
+Requires-Dist: aioworkers
+Description-Content-Type: text/markdown
+
+# Aioworkers Boto
+
+[![PyPI - Version](https://img.shields.io/pypi/v/aioworkers-boto.svg)](https://pypi.org/project/aioworkers-boto)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aioworkers-boto.svg)](https://pypi.org/project/aioworkers-boto)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Use](#use)
+- [License](#license)
+
+## Installation
+
+```console
+pip install aioworkers-boto
+```
+
+## Use
+
+```yaml
+s3:
+  cls: aioworkers_boto.storage.Storage
+  bucket: mybucket
+  path: subdir/subsubdir
+  connection:
+    endpoint_url: https://...
+    aws_secret_access_key: '&124323453456789'
+    aws_access_key_id: key-id
+    region_name: us-east-1
+  format: json
+```
+
+```python
+await context.s3.set(key, data)  # save data
+d = await context.s3.get(key)  # get data
+await context.s3.set(key, None)  # delete
+```
+
+## License
+
+`aioworkers-boto` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
