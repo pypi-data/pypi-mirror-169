@@ -1,0 +1,7 @@
+psutil
+twine
+pyinstaller
+staticx
+future
+packaging
+dataclasses
