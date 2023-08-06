@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+stcutils/__init__.py
+stcutils.egg-info/PKG-INFO
+stcutils.egg-info/SOURCES.txt
+stcutils.egg-info/dependency_links.txt
+stcutils.egg-info/requires.txt
+stcutils.egg-info/top_level.txt
