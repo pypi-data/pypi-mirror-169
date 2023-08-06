@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nikas
+Version: 2.1.0
+Summary: The first persian comment system 
+Home-page: https://github.com/Nikas-Project/Server
+Author: Arash Hatami
+Author-email: hatamiarash7@gmail.com
+License: MIT
+Description: # Nikas
+        
+        ![logo](nikas/img/logo.png)
+        
+        ![PyPI](https://img.shields.io/pypi/v/nikas?label=Version) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nikas) ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/nikasproject/server)
+        
+        [![Deploy](https://github.com/Nikas-Project/Server/actions/workflows/deploy.yml/badge.svg)](https://github.com/Nikas-Project/Server/actions/workflows/deploy.yml) [![CodeQL](https://github.com/Nikas-Project/Server/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Nikas-Project/Server/actions/workflows/codeql-analysis.yml)
+        
+        [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Nikas-Project_Server&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Nikas-Project_Server) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Nikas-Project_Server&metric=security_rating)](https://sonarcloud.io/dashboard?id=Nikas-Project_Server)
+        
+        The first persian comment system
+        
+        -   Python
+        -   Self-Hosted
+        -   Simple
+        
+        ## Usage
+        
+        Read the [documentation](https://docs.nikasproject.ir/)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: Persian
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
