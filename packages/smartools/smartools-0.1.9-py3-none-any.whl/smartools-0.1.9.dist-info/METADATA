@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: smartools
+Version: 0.1.9
+Summary: A wrapper for the smartsheet-python-sdk that monkey-patches in new methods & functionality.
+Home-page: https://github.com/davocarli
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: David Carli-Arnold
+Author-email: davocarli@gmail.com
+License: MIT
+Keywords: Smartsheet,smartsheet-python-sdk,monkey-patch
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: smartsheet-python-sdk
+
