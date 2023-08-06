@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShixiShenmingShouce/README.md
+ShixiShenmingShouce/__init__.py
+ShixiShenmingShouce/__main__.py
+ShixiShenmingShouce/file.pdf
+ShixiShenmingShouce/index.html
+shixi_shenming_shouce.egg-info/PKG-INFO
+shixi_shenming_shouce.egg-info/SOURCES.txt
+shixi_shenming_shouce.egg-info/dependency_links.txt
+shixi_shenming_shouce.egg-info/entry_points.txt
+shixi_shenming_shouce.egg-info/top_level.txt
