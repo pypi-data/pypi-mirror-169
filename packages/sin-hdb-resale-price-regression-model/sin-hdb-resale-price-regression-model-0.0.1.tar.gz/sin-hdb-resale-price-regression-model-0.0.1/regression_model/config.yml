@@ -1,0 +1,114 @@
+# ====== Package Overview ======
+package_name: regression_model
+
+
+# ====== Data Files ======
+training_data_file: train.csv
+test_data_file: test.csv
+
+
+# ====== Pipeline ======
+pipeline_name: regression_model
+pipeline_save_file: regression_model_output_v
+
+
+# ====== Variables ======
+# The Variable we are trying to predict (resale_price)
+target: resale_price
+
+# All features used to predict target
+features:
+  - town
+  - flat_type
+  - storey_range
+  - floor_area_sqm
+  - flat_model
+  - lease_commence_date
+  - remaining_lease
+  - dist_school
+  - dist_mrt
+  - dist_supermarket
+  - dist_hawker
+  - dist_npc
+  - dist_central
+
+# feature to be dropped
+dropped_feature: id
+
+# set train/test split
+test_size: 0.2
+
+# set the random seed
+random_state: 42
+
+# feature whose labels are catgorized
+town: town
+
+# feature whose numerical values are extracted
+remaining_lease: remaining_lease
+
+# features having outliers
+with_outliers:
+  - floor_area_sqm
+  - dist_school
+  - dist_mrt
+  - dist_supermarket
+  - dist_npc
+
+# features having skwed values
+skewed_features:
+  - dist_school
+  - dist_mrt
+  - dist_supermarket
+  - dist_hawker
+
+# features having rare labels
+with_rarelabels:
+  - flat_type
+  - storey_range
+  - flat_model
+
+# features to be onehot encoded
+by_onehot:
+  - town
+  - flat_model
+
+# features to be ordinally encoded
+by_ordinal:
+  - flat_type
+  - storey_range
+
+# ====== MAPPINGS ======
+town_mappings:
+  BOON LAY: WEST REGION
+  BUKIT BATOK: WEST REGION
+  BUKIT PANJANG: WEST REGION
+  CHOA CHU KANG: WEST REGION
+  CLEMENTI: WEST REGION
+  JURONG EAST: WEST REGION
+  JURONG WEST: WEST REGION
+  PIONEER: WEST REGION
+  TENGAH: WEST REGION
+  TUAS: WEST REGION
+  SEMBAWANG: NORTH REGION
+  WOODLANDS: NORTH REGION
+  YISHUN: NORTH REGION
+  ANG MO KIO: NORTH-EAST REGION
+  HOUGANG: NORTH-EAST REGION
+  PUNGGOL: NORTH-EAST REGION
+  SENGKANG: NORTH-EAST REGION
+  SERANGOON: NORTH-EAST REGION
+  BISHAN: CENTRAL REGION
+  BUKIT MERAH: CENTRAL REGION
+  BUKIT TIMAH: CENTRAL REGION
+  GEYLANG: CENTRAL REGION
+  KALLANG/WHAMPOA: CENTRAL REGION
+  MARINE PARADE: CENTRAL REGION
+  CENTRAL AREA: CENTRAL REGION
+  NOVENA: CENTRAL REGION
+  QUEENSTOWN: CENTRAL REGION
+  TANGLIN: CENTRAL REGION
+  TOA PAYOH: CENTRAL REGION
+  BEDOK: EAST REGION
+  PASIR RIS: EAST REGION
+  TAMPINES: EAST REGION
