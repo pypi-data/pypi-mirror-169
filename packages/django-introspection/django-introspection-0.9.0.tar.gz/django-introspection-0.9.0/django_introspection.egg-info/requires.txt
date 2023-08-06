@@ -1,0 +1,9 @@
+
+[dev]
+flake8
+pytest
+pytest-django
+pytest-cov
+coverage
+factory-boy
+twine
