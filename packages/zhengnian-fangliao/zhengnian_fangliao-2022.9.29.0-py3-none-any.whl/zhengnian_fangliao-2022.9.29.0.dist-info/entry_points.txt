@@ -1,0 +1,4 @@
+[console_scripts]
+ZhengnianFangliao = ZhengnianFangliao.__main__:main
+zhengnian-fangliao = ZhengnianFangliao.__main__:main
+
