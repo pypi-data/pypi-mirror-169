@@ -1,0 +1,11 @@
+setup.py
+schemodel/__init__.py
+schemodel/base_item.py
+schemodel/model_mongo_t.py
+schemodel/model_mysql_t.py
+schemodel.egg-info/PKG-INFO
+schemodel.egg-info/SOURCES.txt
+schemodel.egg-info/dependency_links.txt
+schemodel.egg-info/entry_points.txt
+schemodel.egg-info/requires.txt
+schemodel.egg-info/top_level.txt
