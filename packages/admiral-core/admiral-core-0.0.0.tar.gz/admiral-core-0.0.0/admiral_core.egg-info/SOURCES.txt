@@ -1,0 +1,6 @@
+setup.py
+admiral-core/__init__.py
+admiral_core.egg-info/PKG-INFO
+admiral_core.egg-info/SOURCES.txt
+admiral_core.egg-info/dependency_links.txt
+admiral_core.egg-info/top_level.txt
