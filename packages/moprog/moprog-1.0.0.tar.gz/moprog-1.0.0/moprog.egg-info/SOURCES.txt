@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+moprog.egg-info/PKG-INFO
+moprog.egg-info/SOURCES.txt
+moprog.egg-info/dependency_links.txt
+moprog.egg-info/entry_points.txt
+moprog.egg-info/top_level.txt
