@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+MiniFortniteAPI/__init__.py
+MiniFortniteAPI.egg-info/PKG-INFO
+MiniFortniteAPI.egg-info/SOURCES.txt
+MiniFortniteAPI.egg-info/dependency_links.txt
+MiniFortniteAPI.egg-info/requires.txt
+MiniFortniteAPI.egg-info/top_level.txt
