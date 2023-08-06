@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: run-scripts
+Version: 0.1.2
+Summary: A CLI for running npm-like scripts
+Home-page: https://github.com/keksiqc/run-cli
+Author: Keksi
+Author-email: contact@keksi.me
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Project-URL: Repository, https://github.com/keksiqc/run-cli
+Description-Content-Type: text/markdown
+
+# Run
+
+## Install
+
+```bash
+pip install -U run-scripts
+```
+
+## Basic Usage
+
+```bash
+run init [--short]
+# Creates either a runfile.yml or run.yml file in the current directory
+
+run [script]
+# Runs the script defined in the runfile.yml or run.yml file
+```
+
+## Examples
+
+### runfile.yml
+
+```yaml
+scripts:
+    lint: "poetry run black ."
+    build: 
+        - "run lint"
+        - "docker build -t image ."
+```
