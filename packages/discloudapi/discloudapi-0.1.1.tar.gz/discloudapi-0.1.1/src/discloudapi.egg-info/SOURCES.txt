@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/discloudapi.egg-info/PKG-INFO
+src/discloudapi.egg-info/SOURCES.txt
+src/discloudapi.egg-info/dependency_links.txt
+src/discloudapi.egg-info/top_level.txt
