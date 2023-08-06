@@ -1,0 +1,4 @@
+[console_scripts]
+TouteZhishu = TouteZhishu.__main__:main
+toute-zhishu = TouteZhishu.__main__:main
+
