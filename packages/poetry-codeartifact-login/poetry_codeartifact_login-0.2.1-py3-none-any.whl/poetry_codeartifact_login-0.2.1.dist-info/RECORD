@@ -1,0 +1,6 @@
+poetry_codeartifact_login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_codeartifact_login/plugin.py,sha256=v1Z7pfaL58oBf9w-mup1Xh3dJh5ybtTA5T9HTUdDhIE,8550
+poetry_codeartifact_login-0.2.1.dist-info/entry_points.txt,sha256=Z2ufpUfUaKrAM8Y3iwXTWnvZlioMchBchjL_kUOVigQ,95
+poetry_codeartifact_login-0.2.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+poetry_codeartifact_login-0.2.1.dist-info/METADATA,sha256=U0Yx2LAd72Hkre7h-blL6Q2H9Tsr6qL3da8KU43Qh3o,2199
+poetry_codeartifact_login-0.2.1.dist-info/RECORD,,
