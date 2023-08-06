@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: qlat-utils
+Version: 0.1
+Summary: Qlattice utilities
+Author-Email: Luchang Jin <ljin.luchang@gmail.com>
+License: GPL-3.0-or-later
+Description-Content-Type: text/markdown
+
+# Qlat-Utils
+
+Qlattice utilities.
