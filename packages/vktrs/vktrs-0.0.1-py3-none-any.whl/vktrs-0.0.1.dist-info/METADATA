@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vktrs
+Version: 0.0.1
+Summary: Video Killed The Radio Star
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yt-dlp
+Requires-Dist: python-tsp
+Requires-Dist: webvtt-py
+Requires-Dist: pytokenizations
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+Requires-Dist: omegaconf
+Requires-Dist: scipy
+Requires-Dist: toolz
+Requires-Dist: numpy
+Requires-Dist: lxml
+Provides-Extra: api
+Requires-Dist: stability-sdk (>=0.2.1) ; extra == 'api'
+
+# video-killed-the-radio-star
+
+## Requirements
+
+* ffmpeg
+* pytorch
+* stability_sdk api token
+* whisper - `pip install git+https://github.com/openai/whisper`
