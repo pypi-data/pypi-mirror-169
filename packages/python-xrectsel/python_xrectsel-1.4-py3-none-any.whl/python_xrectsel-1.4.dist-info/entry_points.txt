@@ -1,0 +1,2 @@
+[console_scripts]
+xrectsel = xrectsel.console:cli
