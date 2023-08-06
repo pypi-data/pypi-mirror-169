@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: redis-mongo-postgres-create-read-user
+Version: 0.1.0
+Summary: 
+Author: ARJUN
+Author-email: 74967141+arjun2038@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: psycopg2 (==2.9.3)
+Requires-Dist: pymongo (==3.12.0)
+Requires-Dist: redis (==4.3.4)
+Requires-Dist: typer (==0.6.1)
+Description-Content-Type: text/markdown
+
+# Script for creating read only user for MongoDB, PostgreSQL, Redis
+## PostgresQL
+- `create-read-user postgres --uri Postgres_URI -u USERNAME -p PASSWORD `
+## Redis
+- `create-read-user redis --uri Redis_URI -u USERNAME -p PASSWORD `
+## MongoDB
+- `create-read-user mongodb --uri Mongo_URI -u USERNAME -p PASSWORD `
