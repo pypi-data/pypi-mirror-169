@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_WaterQuality.py,sha256=Qax3ulf--drsnu476ddaXANiode8FCAwvhqiRgFQH24,860
+waterquality/Common.py,sha256=pppPHNEJSLw74zEM65Pbv9FVd6jFqxg7vrnBIMCaoOM,1303
+waterquality/WaterQuality.ini,sha256=vRXG3Kl6LFrTDmjWpnGhA-mB3X2o_iY25USqapA9arQ,1039
+waterquality/WaterQuality.py,sha256=wY9ohfKOXGQkkRaHaC2v-QBwvWKi5n6JWv0zTrlFoz4,11097
+waterquality/__init__.py,sha256=_R3f-4zihqDXwFL4CnqmBWjs1jW_euBtKM-rRF5PzAI,1244
+waterquality/inversion_functions.py,sha256=uG8F4lsmFEvqYbkX7QMXenTmaoLi5ab5KQStuzv1zdw,793
+waterquality-1.1.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+waterquality-1.1.4.dist-info/METADATA,sha256=b19EuIWBvkSawI3UxScgKFJToTjFO_WwfEAh57VHikM,1203
+waterquality-1.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+waterquality-1.1.4.dist-info/entry_points.txt,sha256=HT1445Cqw4EoI8ATJcojbr0_QU4rmMNnHI-D19uvteo,65
+waterquality-1.1.4.dist-info/top_level.txt,sha256=CER3AIRgLgtfuod3FedQVGh8R-Es9cuftQXG7QVvIOs,19
+waterquality-1.1.4.dist-info/RECORD,,
