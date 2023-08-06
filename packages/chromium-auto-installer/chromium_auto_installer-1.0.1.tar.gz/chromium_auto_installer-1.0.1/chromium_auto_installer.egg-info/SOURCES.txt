@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+chromium_auto_installer/__init__.py
+chromium_auto_installer.egg-info/PKG-INFO
+chromium_auto_installer.egg-info/SOURCES.txt
+chromium_auto_installer.egg-info/dependency_links.txt
+chromium_auto_installer.egg-info/requires.txt
+chromium_auto_installer.egg-info/top_level.txt
+chromium_auto_installer.egg-info/zip-safe

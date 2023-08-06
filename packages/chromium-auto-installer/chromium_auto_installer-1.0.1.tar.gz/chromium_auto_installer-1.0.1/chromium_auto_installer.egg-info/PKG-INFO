@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: chromium-auto-installer
+Version: 1.0.1
+Summary: Auto chromium installer.
+Author: kiki-kanri
+Author-email: a470666@gmail.com
+Keywords: chromium auto-installer,pyppeteer
+Classifier: License :: Freely Distributable
+Requires-Python: >=3.7.0
+License-File: LICENSE
