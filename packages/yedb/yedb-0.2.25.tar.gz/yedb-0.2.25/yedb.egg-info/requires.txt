@@ -1,0 +1,13 @@
+portalocker
+cachetools
+jsonschema
+msgpack
+
+[cli]
+icli
+neotermcolor
+rapidtables
+pyyaml
+tqdm
+pygments
+py-getch
