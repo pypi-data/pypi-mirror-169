@@ -1,0 +1,14 @@
+[project]
+name = 'cmip6-downscaling'
+version = '0.1.11'
+description = 'README.md'
+
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+skip-string-normalization = true
+
+
+[build-system]
+requires = ["setuptools>=30.3.0", "wheel", "setuptools_scm"]
