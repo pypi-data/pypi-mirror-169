@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-org-model-documents
+Version: 1.0.0
+Summary: A Django app to allow attaching any number of documents to any model in a project.
+License: Apache-2.0
+Author: Oak McIlwain
+Author-email: oak.mcilwain@dbca.wa.gov.au
+Maintainer: DBCA OIM
+Maintainer-email: asi@dbca.wa.gov.au
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
