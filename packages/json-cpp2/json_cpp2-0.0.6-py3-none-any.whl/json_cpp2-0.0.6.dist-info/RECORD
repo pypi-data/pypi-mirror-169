@@ -1,0 +1,10 @@
+json_cpp2/__init__.py,sha256=lP4I78sOqpP3RmvCVZEo3qc7lxuUisEqFUGNpBK3718,17
+json_cpp2/core.cpython-37m-x86_64-linux-gnu.so,sha256=LII-ecjegJzwxfRVe40dVUAM1dESNRmYLXhg6mnSc08,261880
+json_cpp2/libc.so.6,sha256=gDeMIBdFaCnzJkXmqPM7TEDI76h9t-jJMaIpr6e_ZxI,2029592
+json_cpp2/libgcc_s.so.1,sha256=Y-uRtdcm5AHFr_sqA14XXDdMrnXN8lofmwB8PnkygQA,104984
+json_cpp2/libm.so.6,sha256=iIs0cXXHZb-85qefwtQlICv5sSaShxiM3N12Np_bbe4,1369384
+json_cpp2/libstdc++.so.6,sha256=y30p9XerrGgEPHynuBMORCvxaUx3IiY7bPSHAKFdrCM,1956992
+json_cpp2-0.0.6.dist-info/METADATA,sha256=ZZYixiEoys6gnkaU9aifZd1geiIlP9LaL498T-pviTg,161
+json_cpp2-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+json_cpp2-0.0.6.dist-info/top_level.txt,sha256=Bq1_fXFVKtlXdYrnNY542NwzX6NMsaNtjvlVFyNxf-c,10
+json_cpp2-0.0.6.dist-info/RECORD,,
