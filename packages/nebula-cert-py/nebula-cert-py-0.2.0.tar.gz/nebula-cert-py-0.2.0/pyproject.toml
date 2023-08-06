@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "nebula-cert-py"
+version = "0.2.0"
+description = "Manage nebula certificates from Python"
+authors = ["charbonnierg <guillaume.charbonnier@araymond.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "nebula", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+httpx = "*"
+jwt = "*"
+pydantic = "*"
+uvicorn = "*"
+click = "*"
+python-dateutil = "*"
+azure-keyvault-secrets = "4.6.0"
+azure-identity = "1.7.1"
+
+[tool.poetry.scripts]
+pync = "nebula.cert.__main__:cli"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.971"
+flake8 = "^5.0.4"
+black = "^22.8.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
