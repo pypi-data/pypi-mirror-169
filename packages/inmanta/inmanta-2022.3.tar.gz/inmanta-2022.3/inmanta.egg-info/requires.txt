@@ -1,0 +1,2 @@
+inmanta-core==7.1.0
+inmanta-ui==3.0.2
