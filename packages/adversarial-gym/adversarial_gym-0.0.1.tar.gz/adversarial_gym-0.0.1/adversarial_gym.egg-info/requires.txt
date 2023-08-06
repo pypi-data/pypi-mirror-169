@@ -1,0 +1,6 @@
+gym>=0.26.1
+python-chess
+numpy
+cairosvg
+pillow
+pygame
