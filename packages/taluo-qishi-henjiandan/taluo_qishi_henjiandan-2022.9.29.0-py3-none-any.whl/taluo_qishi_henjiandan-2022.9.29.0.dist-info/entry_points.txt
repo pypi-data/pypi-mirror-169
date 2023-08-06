@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoQishiHenjiandan = TaluoQishiHenjiandan.__main__:main
+taluo-qishi-henjiandan = TaluoQishiHenjiandan.__main__:main
+
