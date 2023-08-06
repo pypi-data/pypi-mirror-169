@@ -1,0 +1,8 @@
+name: acanthophis-demo
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+  - kdm801
+dependencies:
+  - snakemake
