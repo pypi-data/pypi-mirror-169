@@ -1,0 +1,15 @@
+google/type/postal_address_pb2.py,sha256=AK5kkvaSSrAUBwulNm7CjfWeMKPrTCwEMEY0jJRxMJM,2030
+google/type/postal_address_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+upollo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upollo/upollo.py,sha256=ZwNhVtD3z3zO4vDO2l5-u0ideguqoQ8wsOsxNSXs3ag,6619
+upollo/upollo_historian_pb2.py,sha256=QcoDmZ9RY_zzRrlKHtlan1a7RCu67_Abi4ZrF0rn_-Y,4372
+upollo/upollo_historian_pb2_grpc.py,sha256=NyKttfaiZRwi6IIhcNTxMYkvHJ0x4Zxm-iO6CIw4MXE,2592
+upollo/upollo_public_pb2.py,sha256=8P6TVVAXbOY_wfNYHtgg-_bfdHX6UvOVTFzwbXVQjTQ,20108
+upollo/upollo_shadow_pb2.py,sha256=9D866P3p7G61U3ukADrI9XRiiF-rLY4Xmr5wFoqKe9g,2315
+upollo/upollo_shepherd_pb2.py,sha256=eSzqV8Ghty4NYTspApN_3CZLomSKtywbxBtSMuEKHH8,11832
+upollo/upollo_shepherd_pb2_grpc.py,sha256=sVVwWlcd9uyGvjw98J7_GZrdaFTVHhLhyWpIuLeM4Og,13498
+upollo_python-0.1.0.dist-info/LICENSE.md,sha256=flHgjVVSa6vQnKzLcAjdKQA6zohVBevkDn2SSSynKO8,11344
+upollo_python-0.1.0.dist-info/METADATA,sha256=BTvlRq3mmFhz-20YMtZVX5X0GiOGxFZm1XK8zlME1dI,2191
+upollo_python-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+upollo_python-0.1.0.dist-info/top_level.txt,sha256=oRYrj3hzs9RMpqYakZJHV_nK49VynNDu0GwXYJUwTlg,19
+upollo_python-0.1.0.dist-info/RECORD,,
