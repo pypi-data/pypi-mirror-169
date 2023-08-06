@@ -1,0 +1,7 @@
+README.md
+setup.py
+convexus.egg-info/PKG-INFO
+convexus.egg-info/SOURCES.txt
+convexus.egg-info/dependency_links.txt
+convexus.egg-info/requires.txt
+convexus.egg-info/top_level.txt
