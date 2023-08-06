@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+GIGOT.egg-info/PKG-INFO
+GIGOT.egg-info/SOURCES.txt
+GIGOT.egg-info/dependency_links.txt
+GIGOT.egg-info/entry_points.txt
+GIGOT.egg-info/top_level.txt
