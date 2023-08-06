@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+bgplot/__init__.py
+bgplot.egg-info/PKG-INFO
+bgplot.egg-info/SOURCES.txt
+bgplot.egg-info/dependency_links.txt
+bgplot.egg-info/requires.txt
+bgplot.egg-info/top_level.txt
+bgplot/entities/__init__.py
+bgplot/entities/axes.py
+bgplot/entities/line.py
+bgplot/entities/plane.py
+bgplot/entities/point.py
+bgplot/entities/vector.py
+bgplot/use_cases/graphics.py
+bgplot/use_cases/operations.py
