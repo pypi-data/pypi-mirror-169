@@ -1,0 +1,12 @@
+snapsheets/__init__.py,sha256=DLf15pvreK3lU4Pi0bTD77rBfBhv9bRjElmknLM4PBU,61
+snapsheets/config.yml,sha256=JnSVOHngUn2gFdre3lzLDsC84iXKumbjNQnSXoLsxpA,92
+snapsheets/core.py,sha256=bxThdqb6rBLAY2ZJTP-u1XTxAjEALXKyULzh8rUmx7A,13641
+snapsheets/gsheet.py,sha256=zFdTTfPQCJbZHgjDm5SrrbnJIy0HZRXdNBtAPYKWsZs,10168
+snapsheets/gsheet.yml,sha256=eT90jN-TJWn7XqRL64FGqKOJ18j5_Z9b5ZcJ55VaxWI,317
+snapsheets/log.py,sha256=DkHhEplU16QOvffDUbAki9HWRz4iTyhVzEUopHoVUyM,1751
+snapsheets/next.py,sha256=VN7-bNfZX6W3Vvc0OIDfAqD6rcEZEh2ViwlazpHBqPI,9863
+snapsheets-0.6.4.dist-info/entry_points.txt,sha256=Kzo_mtR534yCaXBswXtWsX1l-G24nOn9iDJbfGC-dWc,86
+snapsheets-0.6.4.dist-info/LICENSE,sha256=DiwqXCE_py8FBbkoaXtbxTdKZVMaH9kmeuwCWguWYd8,1082
+snapsheets-0.6.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+snapsheets-0.6.4.dist-info/METADATA,sha256=HJBqanOeGffRDq5SiWRP_KoUc0qYkZG-cdhuTNZutIw,4853
+snapsheets-0.6.4.dist-info/RECORD,,
