@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+unexceptional.pth
+unexceptional/__init__.py
+unexceptional.egg-info/PKG-INFO
+unexceptional.egg-info/SOURCES.txt
+unexceptional.egg-info/dependency_links.txt
+unexceptional.egg-info/top_level.txt
