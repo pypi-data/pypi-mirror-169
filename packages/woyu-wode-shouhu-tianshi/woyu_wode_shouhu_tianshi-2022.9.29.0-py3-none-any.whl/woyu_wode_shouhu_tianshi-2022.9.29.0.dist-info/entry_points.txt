@@ -1,0 +1,4 @@
+[console_scripts]
+WoyuWodeShouhuTianshi = WoyuWodeShouhuTianshi.__main__:main
+woyu-wode-shouhu-tianshi = WoyuWodeShouhuTianshi.__main__:main
+
