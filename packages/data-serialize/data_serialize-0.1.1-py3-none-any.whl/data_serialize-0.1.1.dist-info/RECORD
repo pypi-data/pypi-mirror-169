@@ -1,0 +1,11 @@
+data_serialize/__init__.py,sha256=FXMOF1JKbkYvvTcf3G3hNs8Xc-p3BkUIsbNHei5jr5Q,131
+data_serialize/demo.py,sha256=xBeQc8jma7rUaWOEYA_RfY87uGH1ghU0kOkQQEgz-qQ,783
+data_serialize/example.proto,sha256=TmFY16XkznlKTJuw9fHQmojeA3vXiGbth7pEsmb-Ufw,10499
+data_serialize/example_pb2.py,sha256=w7s_ZV2ml-M23fJDxBdY0lXnvtm1nMvpIm16153by1E,4003
+data_serialize/feature.proto,sha256=wuuYkQI1yAarw88pRtGJyo2KGaixcB3ksC7KcHDfVMc,2249
+data_serialize/feature_pb2.py,sha256=NDu9lmYymHoCF9GRPShexUdOgrKyPOQBI5DAYfOuCPk,14902
+data_serialize/setup.py,sha256=jzOAqFbQGQcNzvB2gfRgfEwXMEuyp2KW0On12_nAkFM,1058
+data_serialize-0.1.1.dist-info/METADATA,sha256=oY7RH640FpGHiox-N3tMhZysmnwW6aEPs2tIQYNc1KU,1203
+data_serialize-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+data_serialize-0.1.1.dist-info/top_level.txt,sha256=6RpNoCgqwdSTsuWKJM0r09g5uejO5f2cVum71bA-bBs,15
+data_serialize-0.1.1.dist-info/RECORD,,
