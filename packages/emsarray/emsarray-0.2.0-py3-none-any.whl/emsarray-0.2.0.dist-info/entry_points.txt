@@ -1,0 +1,10 @@
+[console_scripts]
+emsarray = emsarray.cli:main
+
+[emsarray.formats]
+ArakawaC = emsarray.formats.arakawa_c:ArakawaC
+CFGrid1D = emsarray.formats.grid:CFGrid1D
+CFGrid2D = emsarray.formats.grid:CFGrid2D
+ShocSimple = emsarray.formats.shoc:ShocSimple
+ShocStandard = emsarray.formats.shoc:ShocStandard
+UGrid = emsarray.formats.ugrid:UGrid
