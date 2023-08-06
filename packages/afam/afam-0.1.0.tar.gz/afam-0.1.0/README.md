@@ -1,0 +1,52 @@
+# afam - ASC Files Analyzing Module
+
+This module allows the user to analyze a ASC file, created by the EDF2ASC translator program of
+SR Research. This program converts selected events and samples from the EyeLink EDF file into
+text, and sorts and formats the data into a form that is easier to work with.
+
+This module helps to perform the following operations:
+ - Opening and closing the ASC file
+ - Matching words and messages to keywords (tokens)
+ - Reading data items from the file, including recording start, button presses, eye events and
+   messages (samples are not supported)
+
+This module requires that `dataclasses` are available within the Python environment the user is
+running the module in.
+
+It contains the following classes:
+ - **ASC_BUTTON** - a dataclass used to store the data from a "BUTTON" line
+ - **ASC_SBLINK** - a dataclass used to store the data from a "SBLINK" line
+ - **ASC_SSACC** - a dataclass used to store the data from a "SSACC" line
+ - **ASC_SFIX** - a dataclass used to store the data from a "SFIX" line
+ - **ASC_EBLINK** - a dataclass used to store the data from an "EBLINK" line
+ - **ASC_ESACC** - a dataclass used to store the data from an "ESACC" line
+ - **ASC_EFIX** - a dataclass used to store the data from an "EFIX" line
+ - **ASC_MSG** - a dataclass used to store the data from a "MSG" line
+ - **ASC_File_Handler** - a class used to handle the parsing of an ASC file
+
+## Installation
+
+```bash
+$ pip install afam
+```
+
+## Usage
+
+```python
+from afam import ASC_File_Handler
+
+handler = afam.ASC_File_Handler()
+event_list = handler.read_asc_file(file_name)
+```
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`afam` was created by Christoph Anzengruber. It is licensed under the terms of the GNU General Public License v3.0 license.
+
+## Credits
+
+`afam` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
