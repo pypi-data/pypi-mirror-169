@@ -1,0 +1,11 @@
+checkpoints
+data
+dist
+docs
+external
+nerfstudio
+node_modules
+outputs
+pyrad
+scripts
+tests
