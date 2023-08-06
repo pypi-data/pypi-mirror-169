@@ -1,0 +1,16 @@
+pongy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pongy/models.py,sha256=Us1oslhccgUYxO1sEMijODoJ0QqGA279w8Fde6J7YzE,946
+pongy/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pongy/server/app.py,sha256=wX0eFMsLOyV2tiMvnlmnXVzn-8HgEIzb4qCu50CyXI0,2001
+pongy/server/game.py,sha256=Bt8iuAQAY19ZEla1fRvb0GEZU7-UaEd-n_VWolF0bjw,4400
+pongy/settings.py,sha256=qZmLmfeA-x9kTBSMjiAJQbMI8waUMh0HjwZKt8b1xHc,316
+pongy/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pongy/ui/app.py,sha256=Ib8XgCXRYveEDuIQpX05uHjQup7K70mrKnyU93sP9JQ,3867
+pongy/ui/ball.py,sha256=nZylsYP-HrVt8UZaRniBjgdY6_F56yhzxxbYf2J1XHk,496
+pongy/ui/racket.py,sha256=Uup3OiXR2Os5IHJghE0a53LaZ926xaC1j5LGo3JRhkI,1887
+run.py,sha256=xKwTByr1jznyCD7fiAc0ShJ3Vf2WR-r1BASSO9JpJ5c,1007
+pongy-0.1.3.dist-info/entry_points.txt,sha256=Eo0ZwkAy0BYKtVLPzTX0MJhkDDtz8Y1BiCWMn8i2YsI,34
+pongy-0.1.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pongy-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pongy-0.1.3.dist-info/METADATA,sha256=uRNSeLj-mgzv4ZNYM6J3iG-9ffxgJKcvfr7pB-Mwg_0,1795
+pongy-0.1.3.dist-info/RECORD,,
