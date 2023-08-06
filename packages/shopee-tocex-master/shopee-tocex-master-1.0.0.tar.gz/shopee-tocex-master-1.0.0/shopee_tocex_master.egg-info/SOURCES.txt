@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_tocex_master.egg-info/PKG-INFO
+shopee_tocex_master.egg-info/SOURCES.txt
+shopee_tocex_master.egg-info/dependency_links.txt
+shopee_tocex_master.egg-info/top_level.txt
