@@ -1,0 +1,40 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import List, Optional
+from resqml22dev3.abstract_object import AbstractObject
+from resqml22dev3.geologic_time import GeologicTime
+from resqml22dev3.time_series_parentage import TimeSeriesParentage
+
+__NAMESPACE__ = "http://www.energistics.org/energyml/data/commonv2"
+
+
+@dataclass
+class TimeSeries(AbstractObject):
+    """Stores an ordered list of times, for example, for time-dependent
+    properties, geometries, or representations.
+
+    It is used in conjunction with the time index to specify times for
+    RESQML.
+
+    :ivar time: Individual times composing the series. The list ordering
+        is used by the time index.
+    :ivar time_series_parentage:
+    """
+    class Meta:
+        namespace = "http://www.energistics.org/energyml/data/commonv2"
+
+    time: List[GeologicTime] = field(
+        default_factory=list,
+        metadata={
+            "name": "Time",
+            "type": "Element",
+            "min_occurs": 1,
+        }
+    )
+    time_series_parentage: Optional[TimeSeriesParentage] = field(
+        default=None,
+        metadata={
+            "name": "TimeSeriesParentage",
+            "type": "Element",
+        }
+    )

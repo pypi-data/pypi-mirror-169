@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: resqml22dev3
+Version: 1.0.0
+Summary: Energyml types
+Home-page: http://www.geosiris.com
+License: Apache-2.0
+Keywords: energyml,resqml,witsml,prodml
+Author: Valentin Gauthier
+Author-email: valentin.gauthier@geosiris.com
+Maintainer: Lionel Untereiner
+Maintainer-email: lionel.untereiner@geosiris.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: coverage[toml] (>=6.2,<7.0)
+Requires-Dist: xsdata[cli] (>=22.9,<23.0)
+Project-URL: Repository, https://github.com/geosiris-technologies/energyml-python-generator
+Description-Content-Type: text/markdown
+
+Energyml types
+==============
+
+[![License](https://img.shields.io/pypi/l/resqml22py)](https://github.com/geosiris-technologies/energyml-python-generator/blob/main/LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/energyml-python-generator/badge/?version=latest)](https://energyml-python-generator.readthedocs.io/en/latest/?badge=latest)
+![Python version](https://img.shields.io/pypi/pyversions/resqml22py)
+![Status](https://img.shields.io/pypi/status/resqml22py)
+
+
+
+
+Installation
+------------
+
+Energyml-types can be installed with pip : 
+
+```console
+pip install resqml22dev3
+```
+
+or with poetry: 
+```console
+poetry add resqml22dev3
+```
+
