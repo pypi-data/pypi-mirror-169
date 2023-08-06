@@ -1,0 +1,10 @@
+testing/__init__.py,sha256=RZWlSjVseBKgV0RZd__WieEt41bgx9MPtwnkWTfor6s,356
+testing/__main__.py,sha256=RGnrV1DPrKkE2AbuYkq5WRSVXK6dr9Spu8CSnvGbxxc,361
+testing/utils.py,sha256=Q5spEEU0ZWl52g8QajjfFITuXONJN3baewq85byDfMo,420
+testing/assessments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testing/assessments/python_basic.py,sha256=TpI8iWxAUzdcH9yuXrE8apwBsxenfsObaZSBitVYk9A,265
+edbsxkkpcelbrmkwfwnyq-0.5.0.dist-info/LICENSE,sha256=d27uQt08F619kKqSqHuR3NuF0rUPZyrqRyg6DovNbsk,1090
+edbsxkkpcelbrmkwfwnyq-0.5.0.dist-info/METADATA,sha256=NHG9D01P2k3IWSI3kASlS7cb189oSbMPy_1HO6cZ4AU,473
+edbsxkkpcelbrmkwfwnyq-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+edbsxkkpcelbrmkwfwnyq-0.5.0.dist-info/top_level.txt,sha256=EqYfThc_s6EcBdZHH3Ryj3YjG0pfzZZnzvOvh6OuTcI,8
+edbsxkkpcelbrmkwfwnyq-0.5.0.dist-info/RECORD,,
