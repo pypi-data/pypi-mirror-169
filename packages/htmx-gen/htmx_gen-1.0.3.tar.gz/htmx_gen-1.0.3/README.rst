@@ -1,0 +1,1 @@
+htmx_gen has been replaced by `fast_html <https://pypi.org/project/fast-html/>`__.
