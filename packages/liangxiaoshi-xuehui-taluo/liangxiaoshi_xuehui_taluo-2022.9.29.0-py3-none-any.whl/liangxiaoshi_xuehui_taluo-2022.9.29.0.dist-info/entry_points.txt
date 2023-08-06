@@ -1,0 +1,4 @@
+[console_scripts]
+LiangxiaoshiXuehuiTaluo = LiangxiaoshiXuehuiTaluo.__main__:main
+liangxiaoshi-xuehui-taluo = LiangxiaoshiXuehuiTaluo.__main__:main
+
