@@ -1,0 +1,10 @@
+aics_bead_alignment_core/__init__.py,sha256=QRYnzc6jl-U_rMRr069BqhtPI61jirbBgVCWodPIA6E,240
+aics_bead_alignment_core/align_utils.py,sha256=Zw3DW0f8IQ9SYOB9m-SM3rBhEg1jNIpwdxUciLe_kms,2638
+aics_bead_alignment_core/bin/__init__.py,sha256=Yhx1s5gEUIPTOygCpXlKFL1fLiuFYL4jO_rv0zcIEx8,81
+aics_bead_alignment_core/bin/align_cli.py,sha256=FAh-_E2yCzXd4hneLp9d-C0KmgiAGfGoTdHrBwPWOX0,2404
+aics_bead_alignment_core-0.0.0.dist-info/LICENSE,sha256=FSWZ7oxso3GC_iCKcROueq9bqyzIXL5RQG4pPTqIRM4,1951
+aics_bead_alignment_core-0.0.0.dist-info/METADATA,sha256=R6xHrwx5OX_IMVbrw1YbUqSBoFAJw1ogkd8P8uFNnus,6227
+aics_bead_alignment_core-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aics_bead_alignment_core-0.0.0.dist-info/entry_points.txt,sha256=tAkv_gnVoK1JLIw60sI7dUwb0ozTIPFM1wa1b0SmzQU,75
+aics_bead_alignment_core-0.0.0.dist-info/top_level.txt,sha256=zQlvPJPM6y7GUDccEa_DFo6cGqR34_D_Ncm1y9DLtos,25
+aics_bead_alignment_core-0.0.0.dist-info/RECORD,,
