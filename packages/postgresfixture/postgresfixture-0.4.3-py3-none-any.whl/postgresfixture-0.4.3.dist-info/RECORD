@@ -1,0 +1,16 @@
+postgresfixture/__init__.py,sha256=9-Nvp8Rjp6hKFF3_WIeRo05Fw0K3I7lKVQja318MuHw,395
+postgresfixture/__main__.py,sha256=uwltE47DKGZAEbxGPeouGvorr5MhxZCPCWMIahoMv78,383
+postgresfixture/cluster.py,sha256=8_MwgsIXQxlC3T9RyYkkL0W_6E5u8PRm8L-oGC8g5PE,8317
+postgresfixture/clusterfixture.py,sha256=O5pEBPsGP4mUImp2DM522-mF3u8kI--zGMuo01Mv9Kg,3939
+postgresfixture/main.py,sha256=0dgtDWsLEM5RT58AJHToGLFnXa0QIK3oJA69buKldFQ,6482
+postgresfixture/utils.py,sha256=DNp7nE-gDtMoLKqG4Qrhu7NonqnE37a5MPSM-IpzkNs,2119
+postgresfixture/testing/__init__.py,sha256=ihhmei_aRUvEXHQ8LM_3iiKuTZm_XmyQfWSSfmZpLDo,532
+postgresfixture/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postgresfixture/tests/test_cluster.py,sha256=MWMr6bgsB39J1OOKTz7eENiHf98FhL0tGoijECduMd4,10273
+postgresfixture/tests/test_clusterfixture.py,sha256=RCGWKpML3pgHO19r8uUe-v9rly8cZoz83_EQJTUkohY,5797
+postgresfixture/tests/test_main.py,sha256=TorpBhtuGCyog0-kOs-z8Ij9LD8SzAywY2XD-aPinnk,8014
+postgresfixture-0.4.3.dist-info/METADATA,sha256=C2soPR-P1My9WcZJihbRd6bIWuFCeAbvwLbWUpaNLSQ,2337
+postgresfixture-0.4.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+postgresfixture-0.4.3.dist-info/entry_points.txt,sha256=PepigwbndyyE9DIU8bfvt_e4UzqFB7NxIHlpRhFTJzI,62
+postgresfixture-0.4.3.dist-info/top_level.txt,sha256=uPsrWCMBCt25s0bOkJHE9t1mN3hmZ-TN9Lzkd-bDUUQ,16
+postgresfixture-0.4.3.dist-info/RECORD,,
