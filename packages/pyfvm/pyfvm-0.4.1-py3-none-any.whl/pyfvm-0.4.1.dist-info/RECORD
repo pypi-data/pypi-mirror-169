@@ -1,0 +1,14 @@
+pyfvm/__about__.py,sha256=pMtTmSUht-XtbR_7Doz6bsQqopJJd8rZ8I8zy2HwwoA,22
+pyfvm/__init__.py,sha256=Ra72Qvz0o9al2GLVoCjPZC5ELClpWd_JgAW7A49f-4k,444
+pyfvm/discretize.py,sha256=bOWj4atVbPGS24YtKYh5OqiV3RHHRDFQByviE8V5Tak,6733
+pyfvm/discretize_linear.py,sha256=ECSbeFDz3RhN9TGI_Ddbp_72vxGz5Bt1wi-SP7Nx3E8,12441
+pyfvm/form_language.py,sha256=tBW9A8sIS2KGyCb4wTLB9vs7jScXZrjoaYpUuZSg50k,3212
+pyfvm/fvm_matrix.py,sha256=bfUgUngZAIjAdFfzTY0LOldE2-uFXEsDsWU2zU_UycI,2771
+pyfvm/fvm_problem.py,sha256=YIYookAQKaR-GpYT_uPMjEqOP0GYVEkvB01wFtPpRmI,2073
+pyfvm/jacobian.py,sha256=WS7TV6980_-2J1iX6IrZS8xnQJiGj0huObMyTcvs7zU,3010
+pyfvm/linear_fvm_problem.py,sha256=2gWWoaGqsABAIkVK7rVo0MsnkUz2xBkDqMnJipzlhNY,3660
+pyfvm/nonlinear_methods.py,sha256=M01P1bFCpCb6iLuT8ygkbiHYrWZ4NQSuvgyen2XZ0cw,563
+pyfvm-0.4.1.dist-info/METADATA,sha256=E8hl0HUIPqg_a9omnrO1mJWPkwpC7cRx3NluRD1N5H0,4943
+pyfvm-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfvm-0.4.1.dist-info/top_level.txt,sha256=KDGgSlY_Zi0py3eTPNYK_69ArscWtdoK4Mfd7xbQWHM,6
+pyfvm-0.4.1.dist-info/RECORD,,
