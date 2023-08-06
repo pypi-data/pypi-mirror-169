@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mongo-redis-postgres-read-only-user"
+version = "0.1.2"
+description = ""
+authors = ["ARJUN <74967141+arjun2038@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "mongo_redis_postgres_read_only_user"}]
+
+[tool.poetry.scripts]
+create-read-user = "mongo_redis_postgres_read_only_user.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2 = "2.9.3"
+pymongo = "4.2.0"
+redis = "4.3.4"
+typer = "0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
