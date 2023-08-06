@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+robotstxtinterpreter/robotstxtinterpreter.egg-info/PKG-INFO
+robotstxtinterpreter/robotstxtinterpreter.egg-info/SOURCES.txt
+robotstxtinterpreter/robotstxtinterpreter.egg-info/dependency_links.txt
+robotstxtinterpreter/robotstxtinterpreter.egg-info/requires.txt
+robotstxtinterpreter/robotstxtinterpreter.egg-info/top_level.txt
