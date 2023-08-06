@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pylint-codeclimate
+Version: 0.1.1
+Summary: TODO
+Home-page: https://gitlab.com/jlecomte/projects/pylint-codeclimate
+Author: Julien Lecomte
+Author-email: julien@lecomte.at
+License: MIT
+Project-URL: Documentation, https://jlecomte.gitlab.io/projects/pylint-codeclimate
+Project-URL: Source code, https://gitlab.com/jlecomte/projects/pylint-codeclimate
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pylint-codeclimate
