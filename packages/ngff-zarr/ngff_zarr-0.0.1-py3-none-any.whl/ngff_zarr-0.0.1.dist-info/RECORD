@@ -1,0 +1,12 @@
+ngff_zarr/__about__.py,sha256=nKAeo9Tprl7nCrrZYX8ojZmDuzjJiWUBgDEj956eLY4,138
+ngff_zarr/__init__.py,sha256=SZaQQ0_1IhUklcPK8x_FaF17oqus4-o7wZeaoI5ZB24,245
+ngff_zarr/to_zarr.py,sha256=8dHk2vWsNyqkTLqcKIm2M0duZcz9M5pI4ujcpN8kt6Q,4692
+ngff_zarr/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+ngff_zarr/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+ngff_zarr/.pytest_cache/README.md,sha256=c_1vzN2ALEGaay2YPWwxc7fal1WKxLWJ7ewt_kQ9ua0,302
+ngff_zarr/.pytest_cache/v/cache/nodeids,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+ngff_zarr/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+ngff_zarr-0.0.1.dist-info/METADATA,sha256=muWiqcLydo0WFuZGRJDNLwOaswhcrH5nkEzbmeTI344,1738
+ngff_zarr-0.0.1.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+ngff_zarr-0.0.1.dist-info/licenses/LICENSE.txt,sha256=rYtGCVBzeTz5mZh8tIX-4JnYoj8oEMwoRzTp7rpIaYg,1093
+ngff_zarr-0.0.1.dist-info/RECORD,,
