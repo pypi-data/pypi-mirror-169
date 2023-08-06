@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyexml
+Version: 0.0.1
+Summary: PyExML
+Author: Blake Wilson
+Author-email: wilso692@purdue.edu
+Keywords: python,experiments,scientific computing,data collection
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# PyExML
+`pyexlab` Extension using `torch` for Machine Learning
+
+Author: Blake Wilson
+
+## Overview
+
+Running machine learning experiments can be a huge hassle. Optimizing hyper parameters, saving off specific data throughout epochs, and modifying models without breaking code are just a few of the headaches I come across on a daily basis. `pyexml` simplifies the design process for machine learning experimentation by building on top of the `pyexlab` package. 
+
