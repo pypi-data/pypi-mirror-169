@@ -1,0 +1,4 @@
+[console_scripts]
+xdump = xnrl.cli:xdump
+xoutf = xnrl.cli:xoutf
+xplot = xnrl.cli:xplot
