@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: nebula-cert-py
+Version: 0.2.0
+Summary: Manage nebula certificates from Python
+License: MIT
+Author: charbonnierg
+Author-email: guillaume.charbonnier@araymond.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: azure-identity (==1.7.1)
+Requires-Dist: azure-keyvault-secrets (==4.6.0)
+Requires-Dist: click
+Requires-Dist: httpx
+Requires-Dist: jwt
+Requires-Dist: pydantic
+Requires-Dist: python-dateutil
+Requires-Dist: uvicorn
+Description-Content-Type: text/markdown
+
+# Nebula Cert Python
+
+> Manager nebula certificates from Python
+
+## Prerequisite
+
+This library expects the `nebula-cert` to be installed on host system.
+
+You can download [latest binaries from github](https://github.com/slackhq/nebula/releases/latest):
+  - [Windows (amd64)](https://github.com/slackhq/nebula/releases/download/v1.6.1/nebula-windows-amd64.zip)
+  - [Linux (amd64)](https://github.com/slackhq/nebula/releases/download/v1.6.1/nebula-linux-amd64.tar.gz)
+  - [Linux (arm64)](https://github.com/slackhq/nebula/releases/download/v1.6.1/nebula-linux-arm64.tar.gz)
+  - [Linux (armv7)](https://github.com/slackhq/nebula/releases/download/v1.6.1/nebula-linux-arm-7.tar.gz)
+
+## Quick start
+
+Run `python -m nebula.cert` or `pync` to get started.
+
+If you want to generate a new configuration, run `pync init --typ user --name <username>`.
+
+### Display files used by `pync`
+
+```bash
+pync env
+```
+
+### Issuing certificate
+
+Check if a config already exist:
+
+```bash
+pync show-config
+```
+
+Create a new signing request if no IP is shown:
+
+```bash
+pync edit-config --ip 10.100.100.255/16 --groups "users,quara"
+```
+
+Sign a new certificate
+
+```bash
+pync sign
+```
+
+Check that files were created successfully:
+
+```bash
+pync env
+```

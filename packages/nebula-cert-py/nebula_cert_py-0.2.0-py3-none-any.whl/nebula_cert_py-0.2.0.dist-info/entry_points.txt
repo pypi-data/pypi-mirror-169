@@ -1,0 +1,3 @@
+[console_scripts]
+pync=nebula.cert.__main__:cli
+
