@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+poiebot.egg-info/PKG-INFO
+poiebot.egg-info/SOURCES.txt
+poiebot.egg-info/dependency_links.txt
+poiebot.egg-info/top_level.txt
