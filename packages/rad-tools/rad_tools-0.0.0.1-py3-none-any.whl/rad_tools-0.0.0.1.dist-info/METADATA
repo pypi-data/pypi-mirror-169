@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rad-tools
+Version: 0.0.0.1
+Summary: Collection of scripts from my PhD
+Author: Andrey Rybakov
+Author-email: rybakov.ad@icloud.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+Collection of scripts from my PhD
