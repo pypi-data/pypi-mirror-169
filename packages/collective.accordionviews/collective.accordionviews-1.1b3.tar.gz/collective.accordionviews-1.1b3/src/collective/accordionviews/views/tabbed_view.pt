@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+  i18n:domain="collective.accordionviews"
+  metal:use-macro="context/main_template/macros/master">
+  <body>
+    <metal:content-core fill-slot="content-core">
+      <metal:block define-macro="content-core">
+      </metal:block>
+
+      <div id="tab-contents">
+        <ul class="nav nav-tabs">
+          <li class="nav-item"
+            tal:repeat="item python:view.results">
+            <a tal:define="is_active python: view.tab_is_active(item, repeat.item.start)"
+              id="nav-link-${item/uuid}"
+              class="nav-link ${python: is_active and 'active' or ''}"
+              aria-current="${python: is_active and 'page' or 'false'}"
+              data-bs-target="#tab-content-${item/uuid}"
+              href="${context_state/current_base_url}?tabid=nav-link-${item/uuid}">${item/Title}</a>
+          </li>
+        </ul>
+        <div class="tab-content"
+          id="tab-content-${item/uuid}"
+          tal:repeat="item python:view.results"
+         >
+          <div tal:define="is_active python: view.tab_is_active(item, repeat.item.start)"
+            tal:condition="is_active"
+            tal:replace="structure python:view.render_item(item)" />
+        </div>
+      </div>
+
+      <!-- <div class="accordion" id="accordion-${python: context.UID()}">
+        <div tal:repeat="item python:context.restrictedTraverse('@@contentlisting')(exclude_from_nav=False)" class="accordion-item">
+          <h2 class="accordion-header" id="heading-${python: item.uuid()}">
+            <button class="accordion-button ${python: repeat.item.start and 'collapsed' or ''}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-${python: item.uuid()}" aria-expanded="${python: repeat.item.start and 'true' or 'false'}" aria-controls="collapse-${python: item.uuid()}">
+              ${item/Title}
+            </button>
+          </h2>
+          <div id="collapse-${python: item.uuid()}" class="accordion-collapse collapse ${python: repeat.item.start and 'show' or 'collapsed'}" aria-labelledby="heading-${python: item.uuid()}" data-bs-parent="#accordion-${python: context.UID()}">
+            <div class="accordion-body">
+              <p class="fw-bolder" tal:content="item/Description" />
+              <div tal:replace="structure python:view.render_item(item)" />
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </metal:content-core>
+  </body>
+</html>
