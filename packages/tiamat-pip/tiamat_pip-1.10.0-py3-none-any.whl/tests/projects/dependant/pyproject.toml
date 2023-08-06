@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiamat-pip-main-project-dependant"
+description = "Tiamat Pip Main Project Dependant"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "tiamat-pip-main-project >= 1.0.0"
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["tpmpd"]
+
+[tool.setuptools.dynamic]
+version = {attr = "tpmpd.VERSION"}

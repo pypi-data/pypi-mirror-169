@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiamat-pip-main-project"
+description = "Tiamat Pip Main Project"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["tpmp"]
+
+[tool.setuptools.dynamic]
+version = {attr = "tpmp.VERSION"}
