@@ -1,0 +1,4 @@
+[console_scripts]
+ShijueNingshiZhanbu = ShijueNingshiZhanbu.__main__:main
+shijue-ningshi-zhanbu = ShijueNingshiZhanbu.__main__:main
+
