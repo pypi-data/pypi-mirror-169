@@ -1,0 +1,6 @@
+[console_scripts]
+xquery = drb_xquery.drb_xquery_cmd:drb_xquery_cmd
+
+[drb.signature]
+xquery = drb_xquery.drb_xquery_signature
+
