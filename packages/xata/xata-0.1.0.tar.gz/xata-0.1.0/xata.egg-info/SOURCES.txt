@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+xata/__init__.py
+xata/client.py
+xata/client_test.py
+xata.egg-info/PKG-INFO
+xata.egg-info/SOURCES.txt
+xata.egg-info/dependency_links.txt
+xata.egg-info/requires.txt
+xata.egg-info/top_level.txt
