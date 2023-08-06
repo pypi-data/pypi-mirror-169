@@ -1,0 +1,4 @@
+[console_scripts]
+ShenruTaluopaideShenmiNengliang = ShenruTaluopaideShenmiNengliang.__main__:main
+shenru-taluopaide-shenmi-nengliang = ShenruTaluopaideShenmiNengliang.__main__:main
+
