@@ -1,0 +1,58 @@
+cuke4behave
+-----------
+
+# What is this. 
+There is a popular bdd library in python, Behave. 
+Cucumber Expressions are areplacement for regexs in Gherkin codebases. in large swaths of Behave implementations.
+Cucumber also has a good language server and vscode extension.
+To support both, this library allows you to inject a new step matcher into Behave, for use with more modern Gherkin paradigms.
+
+
+# Installation
+Pip:
+
+`pip install cuke4behave`
+
+Poetry:
+
+`poetry install cuke4behave`
+
+
+# Usage
+
+``` python
+from cuke4behave import build_step_matcher
+
+
+from behave import given, then, when
+from behave.matchers import matcher_mapping, use_step_matcher
+
+from cucumber_expressions.parameter_type import ParameterType
+from cucumber_expressions.parameter_type_registry import ParameterTypeRegistry
+
+from cuke4behave.step_matcher import build_step_matcher
+from features.steps.helpers import Color, full_add
+
+# Build a ParameterType and ParameterTypeRegistry
+color_ptr = ParameterType(
+    "color",
+    "red|blue|orange|purple|brown",
+    Color,
+    lambda s: Color(s),
+    use_for_snippets="",
+    prefer_for_regexp_match=False,
+)
+ptr = ParameterTypeRegistry()
+# do this as many times as necessary
+ptr.define_parameter_type(color_ptr)
+
+# step matcher to pass to behave
+step_matcher = build_step_matcher(ptr)
+
+# THIS IS IMPORTANT. Patch in the step matcher to behave
+matcher_mapping["cucumber_expressions"] = step_matcher
+
+use_step_matcher("cucumber_expressions")
+```
+`
+
