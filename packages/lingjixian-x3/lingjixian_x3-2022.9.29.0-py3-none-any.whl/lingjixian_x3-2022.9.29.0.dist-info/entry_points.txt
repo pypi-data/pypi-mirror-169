@@ -1,0 +1,4 @@
+[console_scripts]
+LingjixianX3 = LingjixianX3.__main__:main
+lingjixian-x3 = LingjixianX3.__main__:main
+
