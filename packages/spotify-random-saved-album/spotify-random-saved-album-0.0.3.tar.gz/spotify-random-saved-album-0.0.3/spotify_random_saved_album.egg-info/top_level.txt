@@ -1,0 +1,5 @@
+build
+dist
+pics
+spotify_random_saved_album
+venv
