@@ -1,0 +1,12 @@
+mcdeck/__init__.py,sha256=8ice7fLJltim_ZA7t2JbVLFVWRuFGe9uXWE9WSG95qE,810
+mcdeck/script.py,sha256=zEbT1ZZBhTfJ-A7S2IeRtlePdqzy5G64PhwfuYv5yus,103993
+mcdeck/settings.py,sha256=5JocU0a2nP3GQxiYO9bHQLbadDJCtTWfSJVB8Ht-0Nk,34784
+mcdeck/tts.py,sha256=MlmVhl-_v4svJT8pO64mWBLLiVr6Hf5M3F6VzOmXDTA,10345
+mcdeck/util.py,sha256=HV04ZL3pHzMPYDLGRVhG_gjQvNgcf4lQy8vxNu6S4io,12251
+MCdeck-0.5.4.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+MCdeck-0.5.4.dist-info/LICENSE,sha256=N6xgct9ElshhRRhMB7oP_BIO3O74dv-VOaDfbGV7mSk,657
+MCdeck-0.5.4.dist-info/METADATA,sha256=N_zP05I9hLZvkjas9Gxw_5tg29qwOvSzn5K8RFJJ3Qo,3539
+MCdeck-0.5.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MCdeck-0.5.4.dist-info/entry_points.txt,sha256=MqW6_c7lWNSLLj5d8LwEzCCeYb8lulCyMsA8Hx1Gg8U,46
+MCdeck-0.5.4.dist-info/top_level.txt,sha256=SEx5k7bYLOMzbAdOS9ST1jDIi4OePOvyteQoEO86x_o,7
+MCdeck-0.5.4.dist-info/RECORD,,
