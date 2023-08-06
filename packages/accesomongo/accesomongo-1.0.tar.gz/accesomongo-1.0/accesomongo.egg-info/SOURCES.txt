@@ -1,0 +1,7 @@
+setup.py
+accesomongo/__init__.py
+accesomongo/pandasmongodb.py
+accesomongo.egg-info/PKG-INFO
+accesomongo.egg-info/SOURCES.txt
+accesomongo.egg-info/dependency_links.txt
+accesomongo.egg-info/top_level.txt
