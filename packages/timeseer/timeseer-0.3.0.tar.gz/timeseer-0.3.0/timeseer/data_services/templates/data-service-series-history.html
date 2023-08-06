@@ -1,0 +1,41 @@
+{% extends 'data-service-series-layout.html' %}
+
+{% set title = 'History' %}
+
+{% block menu %}
+{{ data_service_series_menu(title) }}
+{% endblock %}
+
+{% block series_title %}
+<h2 class="h4">History</h2>
+{% endblock %}
+
+{% block series_content %}
+{% if report_evaluations|count > 1 %}
+
+<div class="alert alert-info">
+    Charted scores are calculated based on all available data, not on the data from the previous point in time.
+</div>
+
+<div class="report-evolution">
+    <table class="visually-hidden">
+        {% for view_evaluation_score in evolution if view_evaluation_score.view_evaluation.db_id == view_evaluation.db_id %}
+        <tr>
+            <td class="report-date" data-date="{{ view_evaluation.evaluation_date.isoformat() }}">{{ view_evaluation.evaluation_date|ts_datetime }}</td>
+            <td class="report-score">{{ view_evaluation_score.score }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% else %}
+<div class="alert alert-info">
+    Contribute to "{{ view_evaluation.data_service_view.data_service.name }}" multiple times to visualize the score history.
+</div>
+{% endif %}
+
+<script nonce="{{ csp_nonce }}">
+    {% if report_evaluations|count > 1 %}
+    {% include 'scripts/score-evolution.js' %}
+    {% endif %}
+</script>
+{% endblock series_content %}

@@ -1,0 +1,40 @@
+{% extends 'data-service-series-layout.html' %}
+
+{% set title = 'Statistics' %}
+
+{% block menu %}
+{{ data_service_series_menu(title) }}
+{% endblock %}
+
+{% block series_title %}
+<h2 class="h4">Statistics</h2>
+{% endblock %}
+
+{% block series_content %}
+{% for evaluation, statistics in all_statistics|dictsort(reverse=true) %}
+<div class="accordion accordion-flush" id="accordion-{{loop.index}}">
+    <h2 class="accordion-header" id="heading-{{loop.index}}">
+        <button class="accordion-button {% if loop.index != 1 %}collapsed{% endif %}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{loop.index}}" {% if loop.index != 1 %} aria-expanded="false" {% endif %} {% if loop.index == 1 %} aria-expanded="true" {% endif %} aria-controls="collapse-{{loop.index}}">
+            Statistics from {{ all_block_evaluations[evaluation].name }} ({{ all_block_evaluations[evaluation].flow_evaluation.group.flow.name}}) on {{ all_block_evaluations[evaluation].flow_evaluation.group.date|ts_datetime }}
+        </button>
+    </h2>
+    <div id="collapse-{{loop.index}}" class="accordion-collapse {% if loop.index == 1 %}show{% endif %}{% if loop.index != 1 %}collapse {% endif %}" aria-labelledby="heading-{{loop.index}}" data-bs-parent="#accordion-{{loop.index}}">
+        <div class="accordion-body">
+            {% if statistics|list|count > 0 %}
+            {% include 'fragments/statistics-table.html' %}
+            {% else %}
+            <div class="alert alert-info">
+                No statistics available.
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+{% if all_statistics|count == 0 %}
+<div class="alert alert-info">
+    No statistics available.
+</div>
+{% endif %}
+{% endblock series_content %}

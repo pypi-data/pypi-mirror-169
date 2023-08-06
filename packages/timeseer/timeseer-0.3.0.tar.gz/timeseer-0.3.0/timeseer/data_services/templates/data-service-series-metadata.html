@@ -1,0 +1,167 @@
+{% extends 'data-service-series-layout.html' %}
+
+{% from 'macros.html' import info_popover, visualize_score %}
+
+{% set title = 'Metadata' %}
+
+{% block menu %}
+{{ data_service_series_menu(title) }}
+{% endblock %}
+
+{% block series_title %}
+<h2 class="h4">Metadata</h2>
+{% endblock %}
+
+{% block series_action %}
+<a class="btn btn-primary me-2 {% if all_block_evaluations|count == 0 %}disabled{% endif %}"  href="#compare-calculated-values" data-bs-toggle="offcanvas">
+    Calculated metadata
+</a>
+<a class="btn btn-secondary me-2" href="{{ url_for('data_services.metadata_audit_trail', seriesid=series.series_id, viewevaluationid=view_evaluation.db_id) }}">
+    Audit trail
+</a>
+{% endblock %}
+
+{% block series_content %}
+<div class="offcanvas offcanvas-end" tabindex="-1" id="compare-calculated-values">
+    <div class="offcanvas-header">
+        <h3 class="offcanvas-title h5">Evaluations for {{ view_evaluation.data_service_view.data_service.name }}</h3>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <form>
+            <input type="hidden" name="viewevaluationid" value="{{ view_evaluation.db_id }}">
+            <input type="hidden" name="seriesid" value="{{ series.series_id }}">
+            <table class="ts-table ts-table-checkbox table table-borderless mt-3" data-ts-target="viewSelectionDropdown">
+                <thead class="thead-secondary">
+                    <th scope="col">
+                        {% if view_evaluations|count > 0 %}
+                        <input class="form-check-input" type="checkbox">
+                        {% endif %}
+                    </th>
+                    <th scope="col">Evaluation date</th>
+                </thead>
+                <tbody>
+                    {% for block_evaluation, calculated_metadata in all_calculated_metadata|dictsort(reverse=true) %}
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="form-check">
+                                <input
+                                    type="checkbox"
+                                    class="form-check-input"
+                                    name="blockevaluationids"
+                                    value="{{ block_evaluation }}"
+                                    {% if block_evaluation == last_univariate_evaluation.db_id %}disabled{% endif %}
+                                    {% if block_evaluation in selected_evaluation_ids %}checked{% endif %}>
+                            </div>
+                        </td>
+                        <td>
+                        <div class="card">
+                            <div class="card-header">
+                                {{ all_block_evaluations[block_evaluation].name }} ({{all_block_evaluations[block_evaluation].flow_evaluation.group.flow.name}})
+                                <div class="text-muted">{{ all_block_evaluations[block_evaluation].flow_evaluation.group.date|ts_datetime }}</div>
+                            </div>
+                            <div class="card-body">
+                            {% for k, v in calculated_metadata.iter_names() if calculated_metadata.is_shown(k) %}
+                                <div class="row">
+                                {% if v is not none and v != '' %}
+                                    <div class="col">
+                                        {{ k|capitalize }}
+                                    </div>
+
+                                    {% if k == 'dictionary' %}
+                                    <div class="col">
+                                        <table class="table">
+                                            {% for value, label in v.mapping.items() %}
+                                            <tr>
+                                                <td>{{ label }}</td>
+                                                <td>{{ value }}</td>
+                                            </tr>
+                                            {% endfor %}
+                                        </table>
+                                    </div>
+                                    {% elif k in ['data type', 'interpolation type', 'process type'] %}
+                                    <div class="col">{{ v.value }}</div>
+                                    {% else %}
+                                    <div class="col">{{ v|numberformat }}</div>
+                                    {% endif %}
+                                {% endif %}
+                                </div>
+                                {% endfor %}
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <button class="btn btn-primary" type="submit">Update</button>
+        </form>
+    </div>
+</div>
+
+{% if metadata_score is not none %}
+<div class="alert alert-info">
+    Metadata score: {{ metadata_score }}%
+</div>
+{% endif %}
+
+{% if metadata %}
+<table class="ts-table table table-borderless">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom align-top">
+            <th scope="col">Metadata</th>
+            <th scope="col">Configured value</th>
+            {% for block_evaluation in selected_evaluation_ids|sort(reverse=true) %}
+            <th scope="col">Calculated value <div class="text-muted">{{ all_block_evaluations[block_evaluation].flow_evaluation.group.date|ts_datetime }}</div></th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for k, v in metadata.iter_names() if metadata.is_shown(k) %}
+        <tr class="border-bottom">
+            <th scope="row">
+                {{ k|capitalize }}
+                {% if k in spec and spec.get_field(k) is not none %}
+                {{ info_popover('Sensor spec manually updated.', 'plus-circle') }}
+                {% endif %}
+            </th>
+            {% if v is not none and v != '' %}
+            {% if k == 'dictionary' %}
+            <td>
+                <table class="table">
+                    {% for value, label in v.mapping.items() %}
+                    <tr>
+                        <td>{{ label }}</td>
+                        <td>{{ value }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </td>
+            {% elif k in ['data type', 'interpolation type', 'process type'] %}
+            <td>{{ v.value }}</td>
+            {% else %}
+            <td>{{ v|numberformat }}</td>
+            {% endif %}
+            {% else %}
+            {{ visualize_score(none) }}
+            {% endif %}
+            {% for calculated_metadata in selected_calculated_metadata %}
+                <td>
+                    {% if calculated_metadata.get_field_by_name(k) is not none %}
+                    {% if k == 'process type' or k == 'data type' %}
+                    {{ calculated_metadata.get_field_by_name(k).value }}
+                    {% else %}
+                    {{ calculated_metadata.get_field_by_name(k)|numberformat }}
+                    {% endif %}
+                    {% else %}
+                    {% endif %}
+                </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<p>Manually <a href="{{ url_for('sensor_specs.update_data_service_sensor_specs', seriesid=series.series_id, viewevaluationid=view_evaluation.db_id, blockevaluationids=selected_evaluation_ids) }}">enter</a> sensor specs.</p>
+{% endif %}
+{% endblock %}

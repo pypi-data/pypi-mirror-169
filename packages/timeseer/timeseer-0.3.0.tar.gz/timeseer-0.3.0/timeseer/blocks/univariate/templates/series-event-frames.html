@@ -1,0 +1,135 @@
+{% extends 'series-layout.html' %}
+
+{% from 'macros.html' import bootstrap_icon %}
+
+{% macro event_frame_row(event_frame, current_kpi_name) %}
+<tr class="border-bottom">
+    <td>
+        <input type="checkbox" class="form-check-input" name="{{ event_frame.type }}">
+    </td>
+    <td>
+        <input type="hidden" name="eventframetypes" value="{{ event_frame.type }}">
+        <a class="ts-table-link text-decoration-none text-dark" href="{{ url_for('.event_frame_detail', seriesid=series.series_id, type=event_frame.type, startDate=start_date, endDate=end_date, blockevaluationid=block_evaluation.db_id, kpi=current_kpi_name if current_kpi_name )}}">
+            {{ event_frame.type }}
+        </a>
+    </td>
+    <td>
+        {% if event_frame.type == 'No data' %}
+        <span>{{ bootstrap_icon('square-fill', 'text-ts-light-gray align-middle me-1', 12) }}</span>
+        {% elif event_frame.type not in event_frame_weights %}
+        <span>{{ bootstrap_icon('square-fill', 'text-success align-middle me-1', 12) }}</span>
+        {% elif event_frame.weight <= 1 %}
+        <span>{{ bootstrap_icon('square-fill', 'text-warning align-middle me-1', 12) }}</span>
+        {% else %}
+        <span>{{ bootstrap_icon('square-fill', 'text-danger align-middle me-1', 12) }}</span>
+        {% endif %}
+        {{ event_frame.count }}
+    </td>
+</tr>
+{% endmacro %}
+
+{% block menu %}
+{{ series_menu('Event frames') }}
+{% endblock %}
+
+{% block series_title %}
+<h2 class="h4">Event frame count{% if kpi_name is not none %} <small class="text-muted">{{ kpi_name }}</small>{% endif %}</h2>
+{% endblock %}
+
+{% block series_content %}
+<form class="mb-3">
+    <input type="hidden" name="seriesid" value="{{ series.series_id }}">
+    <input type="hidden" name="sort" value="{{ sort_field }}">
+    <input type="hidden" name="direction" value="{{ sort_direction }}">
+    <input type="hidden" name="type" value="{{ event_frame_type }}">
+    <input type="hidden" name="blockevaluationid" value="{{ block_evaluation.db_id }}">
+    <div class="row align-items-end gx-2">
+        {% if kpis_event_frames or other_kpis_event_frames %}
+        <div class="col-sm-auto">
+            <div class="btn-group ts-dropdown-select-button">
+                <a class="btn btn-primary dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="selectionDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="selectionDropdown">
+                    <button type="submit"
+                            class="dropdown-item ts-dropdown-action"
+                            form="eventframetypeselection"
+                            formmethod="GET"
+                            formaction="{{ url_for('.event_frames_details') }}"
+                            >
+                            Show details
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        <div class="col-lg">
+            <label for="startDateInput" class="col-form-label">Start date</label>
+            <input type="datetime-local" step="1" class="form-control" id="startDateInput" name="startDate" data-ts-datetime-value="{{ start_date }}">
+        </div>
+        <div class="col-lg">
+            <label for="endDateInput" class="col-form-label">End date</label>
+            <input type="datetime-local" step="1" class="form-control" id="endDateInput" name="endDate" data-ts-datetime-value="{{ end_date }}">
+        </div>
+        <div class="col-lg-auto mt-lg-0 mt-2">
+            {% if kpis_event_frames or other_kpis_event_frames %}
+            <button type="submit" class="btn btn-secondary">Count</button>
+            {% else %}
+            <button type="submit" class="btn btn-primary">Count</button>
+            {% endif %}
+        </div>
+    </div>
+
+</form>
+
+{% if kpis_event_frames or other_kpis_event_frames|length > 0 %}
+<form id="eventframetypeselection">
+    <input type="hidden" name="seriesid" value="{{ series.series_id }}">
+    <input type="hidden" name="startDate" value="{{ start_date }}">
+    <input type="hidden" name="endDate" value="{{ end_date }}">
+    <input type="hidden" name="blockevaluationid" value="{{ block_evaluation.db_id }}">
+    {% if kpi_name %}
+    <input type="hidden" name="kpi" value="{{ kpi_name }}">
+    {% endif %}
+    <table class="ts-table ts-table-checkbox table table-borderless score-table" data-ts-target="selectionDropdown">
+        <thead class="thead-secondary">
+            <tr class="border-top border-bottom">
+                <th scope="col">
+                    <input type="checkbox" class="form-check-input">
+                </th>
+                <th scope="col">Event frame type</th>
+                <th scope="col" class="score">Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for kpi, event_frames in kpis_event_frames.items() %}
+            <tr>
+                {% if event_frames|length > 0 %}
+                <th colspan="3">{{ kpi }}</th>
+                    {% for event_frame in event_frames %}
+                    {{ event_frame_row(event_frame, kpi) }}
+                    {% endfor %}
+                </tr>
+                {% endif %}
+                {% endfor %}
+                {% if other_kpis_event_frames|length > 0 %}
+                <th colspan="3">Other KPIs</th>
+                    {% for event_frame in other_kpis_event_frames %}
+                    {{ event_frame_row(event_frame) }}
+                    {% endfor %}
+                </tr>
+                {% endif %}
+        </tbody>
+    </table>
+</form>
+{% else %}
+<div class="alert alert-info">
+    No event frames available.
+</div>
+{% endif %}
+{% endblock series_content %}
