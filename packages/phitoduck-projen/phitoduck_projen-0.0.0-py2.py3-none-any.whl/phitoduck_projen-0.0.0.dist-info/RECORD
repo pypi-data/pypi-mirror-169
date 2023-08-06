@@ -1,0 +1,10 @@
+phito_projen/__init__.py,sha256=ybkHjI3qWUaXHFakBYisXSwcp50uIRyeq6UgHZHuUXI,107
+phito_projen/python_package.py,sha256=zXuQp_z1i-11cbZtkzOeiMl49nYAV3F6pfIuy7k-gM8,5577
+phito_projen/samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phito_projen/samples/fastapi_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phito_projen/samples/fastapi_app/sample.py,sha256=Gz1_4iOHwYVjJbuGs9KNnd-CLseqOmAmycS7R8V6Jq8,1134
+phitoduck_projen-0.0.0.dist-info/METADATA,sha256=8Ay5XA0ToSDYfb5exk0qPxwcIeGKKLsv98IBDOur1Fg,2837
+phitoduck_projen-0.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+phitoduck_projen-0.0.0.dist-info/entry_points.txt,sha256=OJMu7rI_YRMdh1MVowLzTuckafG1ZU9zixn2znEyDtU,63
+phitoduck_projen-0.0.0.dist-info/top_level.txt,sha256=584KDy7KMS-xgv-ruYj4bL3rm4FTegfoUAXALFdBXNA,13
+phitoduck_projen-0.0.0.dist-info/RECORD,,
