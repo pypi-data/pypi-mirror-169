@@ -1,0 +1,91 @@
+speech-analytics is a simple module for processing speech data collected as
+part of the Calpy project.
+
+# Documentation
+## class ConversationAnalysis
+### Parameters:
+`filename (str)`: The name of a calpy-style data file to analyse.<br>
+
+`model_type (Optional[str])`: The type of spacy model to use in the analysis.
+Default is `'en_core_web_sm'`.
+
+### Methods:
+`add_analysis(analysis_type: str)`<br>
+Adds the requested type of analysis to the data. Options are:
+- `TOKENIZE`: Tokenize the data in the utterances. The tokens created include raw
+    text, part-of-speech tags, lemma, dependency information, and whether each
+    word is a stop word.
+- `UTTERANCE_LENGTH`: Adds information about the number of words and number of
+    tokens in an utterance.
+- `TURNS`: Combines utterances into turns (i.e. multiple consecutive utterances
+    by the same speaker would be considered one turn).
+- `PREPROCESS`: Runs analysis with TOKENIZE, UTTERANCE_LENGTH, TURNS. Doing so
+    will ensure all other methods work.
+- `REMOVE_AUX_VERBS`: Removes anything classified as an auxiliary verb (based on
+    POS-tagging done in tokenization). If tokenization has not occurred before
+    the removal of aux verbs, add_analysis will be called with the TOKENIZE
+    parameter.
+- `GRAMMAR_CORRECTION`: Adds attempted corrections to grammar. Note that this
+    analysis does not remove the original text (both the original text and)
+    suggested corrections will be available. Utterances will have grammatical
+    corrections suggested, but turns will only have suggested corrections if
+    this is called after add_analysis with TURNS.
+
+The names of each analysis type are constants provided in the module.<br>
+
+`get_tokens()`<br>
+Returns the raw token information. If no token information is available, this
+method will call `add_analysis(TOKENIZE)` in order to derive it.<br>
+
+`get_utterance_info()`<br>
+Returns the raw utterance information. This information will not include
+utterance length unless `add_analysis(UTTERANCE_LENGTH)` is called first.<br>
+
+`get_turn_info()`<br>
+Returns the raw turn information. If no turn information is available, this
+method will call `add_analysis(TURNS)` in order to derive it.<br>
+
+`get_grammar_corrections(by_turn=True)`<br>
+Returns a list of tuples each containing original text and corrected text.
+By default, this method will return grammar corrections based on turns
+(calling `add_analysis(GRAMMAR_CORRECTION)` where necessary). If `by_turn` is set to False,
+grammar corrections for utterances will be returned instead.<br>
+
+`get_pos_tags(by_turn=True)`<br>
+Returns the pos tags for each turn (if by_turn is True, else each utterance).
+The return values is formatted as a list of lists, where each internal list
+consists of tuples of (token, pos_tag).<br>
+
+`get_turn_length(turn, words=True)`<br>
+Returns the number of words in a turn. If words is set to False, the method instead
+returns the number of tokens in the turn.<br>
+
+`get_turn_duration(turn)`<br>
+Returns the number of seconds in a turn.<br>
+
+`get_utterance_length(utterance, words=True)`<br>
+Returns the number of words in an utterance. If words is set to False, the method instead
+returns the number of tokens in the utterance.<br>
+
+`get_utterance_duration(utterance)`<br>
+Returns the number of seconds in an utterance.<br>
+
+`get_pause_length(turn)`<br>
+Returns the total number of seconds between utterances in a turn.
+
+`get_average_turn_length()`<br>
+Returns the average turn length for each speaker, as a dictionary mapping
+speaker codes to average turn length.<br>
+
+`get_average_utterance_length()`<br>
+Returns the average utterance length for each speaker, as a dictionary mapping
+speaker codes to average turn length.<br>
+
+`get_speaker_turns(speaker)`<br>
+Returns a list of all turns taken by the speaker.<br>
+
+`get_speaker_utterances(speaker)`<br>
+Returns a list of all utterances spoken by the speaker.<br>
+
+`get_speaker_names()`<br>
+Returns the names (ids) of all speakers in the conversation.<br>
