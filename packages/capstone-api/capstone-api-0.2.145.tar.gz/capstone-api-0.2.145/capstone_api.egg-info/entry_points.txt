@@ -1,0 +1,2 @@
+[console_scripts]
+capstone = capstone_api.bin.__main__:main
