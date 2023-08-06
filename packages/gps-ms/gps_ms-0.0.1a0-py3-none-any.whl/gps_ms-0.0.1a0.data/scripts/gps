@@ -1,0 +1,58 @@
+#!python
+import argparse
+import sys
+
+from gps.cli.denoise import Denoise
+from gps.cli.score import Score
+from gps.cli.train import Train
+from gps.cli.export import Export
+from gps.cli.build import Build
+from gps.cli.combine import Combine
+from gps.cli.predict import Predict
+from gps.cli.createlib import CreateLib
+
+if __name__ == '__main__':
+
+    subcommands = []
+
+    subcommands.extend(
+        [
+            Denoise(),
+            Export(),
+            Score(),
+            Train(),
+            Build(),
+            Combine(),
+            Predict(),
+            CreateLib()
+        ]
+    )
+
+    parser = argparse.ArgumentParser()
+
+    subparser = parser.add_subparsers(
+        dest="subcommand",
+        title="subcommands",
+        description="CLI tools for scoring OSW files",
+    )
+
+    for subcommand in subcommands:
+        subcommand.build_subparser(subparser)
+
+    command = parser.parse_args()
+
+    if command.subcommand:
+
+        if len(sys.argv) == 2:
+
+            parser.print_help()
+
+        else:
+
+            command.run(command)
+
+    else:
+
+        if len(sys.argv) == 1:
+
+            parser.print_help()
