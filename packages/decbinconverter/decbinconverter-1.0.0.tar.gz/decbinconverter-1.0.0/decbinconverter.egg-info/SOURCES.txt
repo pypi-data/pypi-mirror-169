@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+decbinconverter.egg-info/PKG-INFO
+decbinconverter.egg-info/SOURCES.txt
+decbinconverter.egg-info/dependency_links.txt
+decbinconverter.egg-info/entry_points.txt
+decbinconverter.egg-info/top_level.txt
