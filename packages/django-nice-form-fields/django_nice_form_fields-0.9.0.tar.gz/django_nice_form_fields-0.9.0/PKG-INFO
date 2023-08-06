@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django_nice_form_fields
+Version: 0.9.0
+Summary: Django custom imagefield that dynamically renders the loaded image.
+Home-page: https://github.com/onelifeitsme/django_nice_form_fields
+Author: Artur Karpovich
+Author-email: onelifeitsme@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
