@@ -1,0 +1,10 @@
+*~
+\#*
+.gitignore
+TODO
+ATTIC
+NOTES
+__pycache__
+__pycache__\*
+*.whl
+*.tar.gz
