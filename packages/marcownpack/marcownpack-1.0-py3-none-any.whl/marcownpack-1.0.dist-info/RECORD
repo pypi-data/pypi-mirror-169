@@ -1,0 +1,9 @@
+package/__init__.py,sha256=cXCpyDjP_pN63TWAYHQizUDIWW07IfM3KMAnmkn6ldw,21
+package/__main__.py,sha256=YXgEnpLumCTJYO-Vy6tkaCBTe8H3_Rd2_LEjcUuWmwI,142
+package/marcownpack.py,sha256=Vq0EEXv507LK-HDLqzotSUIOSbAClLfR8A2wYydHL4w,1104
+marcownpack-1.0.dist-info/LICENSE,sha256=gu89Yh7ojoaV95hJm8eFEqxrnHVZGhOTwCi9-b4t6cE,1302
+marcownpack-1.0.dist-info/METADATA,sha256=HtB8bXb6DhvBqNPpSElZ-OLcfsUnfAf9eVyHVLs26Vg,1386
+marcownpack-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+marcownpack-1.0.dist-info/entry_points.txt,sha256=KIMo1Xub0H434TNu4n7FscZQOFSxiDN9wd20ViQ5kZQ,55
+marcownpack-1.0.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+marcownpack-1.0.dist-info/RECORD,,

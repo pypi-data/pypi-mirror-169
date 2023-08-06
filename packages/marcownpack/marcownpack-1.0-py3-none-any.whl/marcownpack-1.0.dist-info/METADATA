@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: marcownpack
+Version: 1.0
+Summary: oh hi lolz
+Home-page: https://github.com/imadethisaccountsoicanmakeanissue/marcownpack
+Author: Marc Thompson
+Author-email: taoun11ttu@outlook.com
+License: BSD-2-Clause
+Project-URL: Documentation, https://github.com/imadethisaccountsoicanmakeanissue/marcownpack/wiki
+Keywords: my,package,keywords
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools
+Requires-Dist: os
+Requires-Dist: random
+Requires-Dist: wheel
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+Marc's cool package
+==============================================================================
+
+Package of the cool!!!!
+Changes
+=======
+
+2.0 - Unreleased
+----------------
+
+- Add pyproject.toml with setuptools backend.
+- Move configuration to setup.cfg.
+- Add sphinx-quickstart generated docs.
+- Setup sphinx-rtd-theme and tox for local previews.
+- Drop Python 2 support.
+- Move tests out of mypackage.
+- Include tests in sdist but not in wheel.
+
+1.0 - 2017-09-18
+----------------
+
+- Initial release.
+
+
