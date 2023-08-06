@@ -1,0 +1,6 @@
+scikit-learn
+loguru
+mlflow
+matplotlib
+numpy
+tensorflow>=2.9

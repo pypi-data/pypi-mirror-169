@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aimedic-utils-package
+Version: 0.1.0
+Summary: This package offers some evaluation metrics for classification models.
+Author: Benyamin Ghahremani Nezhad
+Author-email: benyamin.ghahremani@gmail.com
+Requires-Python: >=3.6
+License-File: license.txt
