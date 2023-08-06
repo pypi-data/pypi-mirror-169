@@ -1,0 +1,9 @@
+requests
+ruamel.yaml
+paramiko
+pycryptodome
+python-novaclient
+openstacksdk
+ansible
+ansible-runner
+dicttoxml
