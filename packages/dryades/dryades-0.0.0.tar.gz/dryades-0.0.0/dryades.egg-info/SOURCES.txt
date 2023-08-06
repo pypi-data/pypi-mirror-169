@@ -1,0 +1,13 @@
+BACKLOG.md
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dryades/__init__.py
+dryades/const.py
+dryades.egg-info/PKG-INFO
+dryades.egg-info/SOURCES.txt
+dryades.egg-info/dependency_links.txt
+dryades.egg-info/top_level.txt
