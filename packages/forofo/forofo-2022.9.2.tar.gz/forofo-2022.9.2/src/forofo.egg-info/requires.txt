@@ -1,0 +1,13 @@
+aiohttp
+click
+click-loglevel
+clutter
+croniter
+fastapi
+fastnumbers
+loguru
+parse
+pendulum
+pydantic
+pytest
+xmltodict

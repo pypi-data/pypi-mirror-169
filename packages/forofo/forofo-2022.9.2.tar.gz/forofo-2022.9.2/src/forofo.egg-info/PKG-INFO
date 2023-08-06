@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: forofo
+Version: 2022.9.2
+Author: Woojin Cho
+Author-email: woojin.cho@gsenc.com
+License: GS E&C Internal Only
+Requires-Python: >=3.8
+
+# forofo
+
+HTTP API Clients
+
+- datagokr   공공데이터포털, data.go.kr
+- kma_url_api   기상자료개방포털 URL-API, http://203.247.66.126:8090/url/url_apiout.php
+- localdata   지방행정인허가데이터, localdata.go.kr
