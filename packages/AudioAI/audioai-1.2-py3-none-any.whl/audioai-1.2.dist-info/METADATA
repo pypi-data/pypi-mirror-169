@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: AudioAI
+Version: 1.2
+Summary: Create audio files from text, audio to text and voice typing(only in english at the moment)
+Project-URL: Homepage, https://github.com/mariodaniely2003/AudioAI
+Project-URL: Bug Tracker, https://github.com/mariodaniely2003/AudioAI/issues
+Author-email: Mario Salamanca <python@mariosalamanca.pt>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Voice To Text
+ 
