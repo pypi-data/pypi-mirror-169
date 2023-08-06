@@ -1,0 +1,14 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+BlinkStick310.egg-info/PKG-INFO
+BlinkStick310.egg-info/SOURCES.txt
+BlinkStick310.egg-info/dependency_links.txt
+BlinkStick310.egg-info/requires.txt
+BlinkStick310.egg-info/top_level.txt
+bin/blinkstick
+blinkstick310/__init__.py
+blinkstick310/_version.py
+blinkstick310/blinkstick.py
