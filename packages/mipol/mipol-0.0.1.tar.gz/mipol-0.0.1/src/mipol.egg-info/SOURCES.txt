@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/mipol.egg-info/PKG-INFO
+src/mipol.egg-info/SOURCES.txt
+src/mipol.egg-info/dependency_links.txt
+src/mipol.egg-info/top_level.txt
+src/pagege/__init__.py
+src/pagege/example.py
