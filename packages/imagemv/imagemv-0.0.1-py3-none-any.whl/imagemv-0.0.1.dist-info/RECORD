@@ -1,0 +1,12 @@
+imagemv/__init__.py,sha256=l0Cyn2NwH5-a6AMG09ZLOAxEwPhCbuZSHI-l1c149_Y,195
+imagemv/cli.py,sha256=Q7uZOdb_PoRIMpD1TuLysZxecZAx8FSzOfynMu1bUa0,3573
+imagemv/datefunctions.py,sha256=DDTFbIYeLuQHl5NVFI3nsPC6OV-mXoVzoTT7_LBlNBE,1624
+imagemv/fileinfo.py,sha256=jQAruQUrV08dQTkROo8N072zyaiQG84Wa1Y55Gi6JzQ,1913
+imagemv/metadata.py,sha256=5ZJ2mnxjuz36zjh5f_8DWE41u9Eewp0MvJ3qAbfy-bY,1933
+imagemv/processstats.py,sha256=4itgYeVpv6wT4i3IEJZWI_RROPahJYsIIW0_THmScaQ,525
+imagemv-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+imagemv-0.0.1.dist-info/METADATA,sha256=VZ1Ie9WdsNyKy4g24Zypa27gkxS02Fv9b4iig3R0mKI,2895
+imagemv-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imagemv-0.0.1.dist-info/entry_points.txt,sha256=_rsKR6pd3BRYTXKTTVp8JYa4a9M28JvyrtzLeCDwiTw,45
+imagemv-0.0.1.dist-info/top_level.txt,sha256=MLusavZ8XlKi3CsVK99iMbZvze0aWXa1-r10HJuXAQI,8
+imagemv-0.0.1.dist-info/RECORD,,
