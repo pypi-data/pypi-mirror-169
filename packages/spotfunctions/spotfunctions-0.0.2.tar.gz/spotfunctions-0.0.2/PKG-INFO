@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spotfunctions
+Version: 0.0.2
+Summary: Python SDK for SpotFunctions
+Home-page: https://github.com/r00ta/SpotFunctions
+Author: Jacopo Rota
+License: UNKNOWN
+Keywords: development,setup,spotfunctions
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.rst
+
+Python SDK to write SpotFunctions in Python
+

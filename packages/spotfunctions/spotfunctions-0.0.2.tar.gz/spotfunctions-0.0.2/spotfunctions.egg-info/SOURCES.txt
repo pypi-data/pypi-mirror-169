@@ -1,0 +1,17 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+spotfunctions/__init__.py
+spotfunctions.egg-info/PKG-INFO
+spotfunctions.egg-info/SOURCES.txt
+spotfunctions.egg-info/dependency_links.txt
+spotfunctions.egg-info/requires.txt
+spotfunctions.egg-info/top_level.txt
+spotfunctions/v1/__init__.py
+spotfunctions/v1/models/__init__.py
+spotfunctions/v1/models/bindings/__init__.py
+spotfunctions/v1/models/bindings/kafka.py
+spotfunctions/v1/models/triggers/__init__.py
+spotfunctions/v1/models/triggers/http.py
+spotfunctions/v1/models/triggers/kafka.py
