@@ -1,0 +1,30 @@
+Performing C++ SOURCE FILE Test W_NO_CLASS_MEMACCESS failed with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_88df8/fast && /Applications/Xcode_12.4.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_88df8.dir/build.make CMakeFiles/cmTC_88df8.dir/build
+Building CXX object CMakeFiles/cmTC_88df8.dir/src.cxx.o
+/usr/local/opt/llvm/bin/clang++ -DW_NO_CLASS_MEMACCESS  -Wall -O0 -g  -isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-class-memaccess -MD -MT CMakeFiles/cmTC_88df8.dir/src.cxx.o -MF CMakeFiles/cmTC_88df8.dir/src.cxx.o.d -o CMakeFiles/cmTC_88df8.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-class-memaccess'; did you mean '-Wno-class-varargs'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_88df8
+/usr/local/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88df8.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++  -Wall -O0 -g  -isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_88df8.dir/src.cxx.o -o cmTC_88df8 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_STRINGOP_OVERFLOW failed with the following output:
+Change Dir: /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_992cc/fast && /Applications/Xcode_12.4.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_992cc.dir/build.make CMakeFiles/cmTC_992cc.dir/build
+Building CXX object CMakeFiles/cmTC_992cc.dir/src.cxx.o
+/usr/local/opt/llvm/bin/clang++ -DW_NO_STRINGOP_OVERFLOW  -Wall -O0 -g  -isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-stringop-overflow -MD -MT CMakeFiles/cmTC_992cc.dir/src.cxx.o -MF CMakeFiles/cmTC_992cc.dir/src.cxx.o.d -o CMakeFiles/cmTC_992cc.dir/src.cxx.o -c /tmp/gs/builtin/1657fa8129d63863fd62765ad47433b03d28f3aaf510cb0ed9ef15e46acc01c9/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-stringop-overflow'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_992cc
+/usr/local/Cellar/cmake/3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_992cc.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang++  -Wall -O0 -g  -isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_992cc.dir/src.cxx.o -o cmTC_992cc 
+
+
+Source file was:
+int main() { return 0; }
