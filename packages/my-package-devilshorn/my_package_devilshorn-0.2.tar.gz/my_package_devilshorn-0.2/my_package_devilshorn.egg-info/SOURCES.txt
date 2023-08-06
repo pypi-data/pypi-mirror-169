@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+my_package_devilshorn/__init__.py
+my_package_devilshorn/add_num.py
+my_package_devilshorn.egg-info/PKG-INFO
+my_package_devilshorn.egg-info/SOURCES.txt
+my_package_devilshorn.egg-info/dependency_links.txt
+my_package_devilshorn.egg-info/requires.txt
+my_package_devilshorn.egg-info/top_level.txt
