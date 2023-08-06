@@ -1,0 +1,359 @@
+Metadata-Version: 2.1
+Name: keyio
+Version: 1.0.0
+Summary: A simple package to manage basic IO operations for mouse, keyboard and windows.
+Home-page: https://github.com/keyywind/keyio
+Author: Keyywind
+Author-email: kevinwater127@gmail.com
+Project-URL: Bug Tracker, https://github.com/keyywind/keyio/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdown
+
+# KeyIO Package Documentation
+***
+##### This library provides various functions to control and manage IO events
+
+##### As of version 0.0.1, there are three modules in this package.
+
+1. **keyutils** - _used to manage keyboard IO events_
+2. **mouseutils** - _used to manage mouse IO events_
+3. **windowutils** - _used to manage window IO events_
+
+##### To install this package, type in command prompt:
+    pip install keyio
+***
+## [1] Controlling and Monitoring Keyboard Events
+
+#### (1-A) Simulating Key Pressing
+
+###### press_key(self, target_key : int) -> KeyUtils
+
+    #example 1
+    from keyio.keyutils import KeyUtils
+    key_utils  = KeyUtils()
+    target_key = KeyUtils.Key.KEY_ESC
+    key_utils.press_key(target_key)
+
+#### (1-B) Simulating Key Releasing
+
+###### release_key(self, target_key : int) -> KeyUtils
+
+    #example 2
+    from keyio.keyutils import KeyUtils
+    key_utils  = KeyUtils()
+    target_key = KeyUtils.Key.KEY_ESC
+    key_utils.release_key(target_key)
+
+#### (1-C-1) KeyCode List
+
+###### KeyUtils.KeyCode
+
+|KeyCode|Value|Description|
+|---|---|---|
+|CHAR_0|48|0|
+|CHAR_1|49|1|
+|CHAR_2|50|2|
+|CHAR_3|51|3|
+|CHAR_4|52|4|
+|CHAR_5|53|5|
+|CHAR_6|54|6|
+|CHAR_7|55|7|
+|CHAR_8|56|8|
+|CHAR_9|57|9|
+|CHAR_A|65|A|
+|CHAR_B|66|B|
+|CHAR_C|67|C|
+|CHAR_D|68|D|
+|CHAR_E|69|E|
+|CHAR_F|70|F|
+|CHAR_G|71|G|
+|CHAR_H|72|H|
+|CHAR_I|73|I|
+|CHAR_J|74|J|
+|CHAR_K|75|K|
+|CHAR_L|76|L|
+|CHAR_M|77|M|
+|CHAR_N|78|N|
+|CHAR_O|79|O|
+|CHAR_P|80|P|
+|CHAR_Q|81|Q|
+|CHAR_R|82|R|
+|CHAR_S|83|S|
+|CHAR_T|84|T|
+|CHAR_U|85|U|
+|CHAR_V|86|V|
+|CHAR_W|87|W|
+|CHAR_X|88|X|
+|CHAR_Y|89|Y|
+|CHAR_Z|90|Z|
+
+#### (1-C-2) Key List
+
+###### KeyUtils.Key
+
+|Key|Value|Description|
+|---|---|---|
+|KEY_BACKSPACE|0x08|~|
+|KEY_TAB|0x09|~|
+|KEY_CLEAR|0x0C|~|
+|KEY_ENTER|0x0D|~|
+|KEY_SHIFT|0x10|~|
+|KEY_CTRL|0x11|~|
+|KEY_ALT|0x12|~|
+|KEY_PAUSE|0x13|~|
+|KEY_CAPS_LOCK|0x14|~|
+|KEY_ESC|0x1B|~|
+|KEY_SPACE|0x20|~|
+|KEY_PAGE_UP|0x21|~|
+|KEY_PAGE_DOWN|0x22|~|
+|KEY_END|0x23|~|
+|KEY_HOME|0x24|~|
+|KEY_LEFT_ARROW|0x25|~|
+|KEY_UP_ARROW|0x26|~|
+|KEY_RIGHT_ARROW|0x27|~|
+|KEY_DOWN_ARROW|0x28|~|
+|KEY_SELECT|0x29|~|
+|KEY_PRINT|0x2A|~|
+|KEY_EXECUTE|0x2B|~|
+|KEY_SNAPSHOT|0x2C|~|
+|KEY_INSERT|0x2D|~|
+|KEY_DELETE|0x2E|~|
+|KEY_HELP|0x2F|~|
+|KEY_LEFT_WINDOW|0x5B|~|
+|KEY_RIGHT_WINDOW|0x5C|~|
+|KEY_APPLICATION|0x5D|~|
+|KEY_SLEEP|0x5F|~|
+|KEY_NUMPAD_0|0x60|~|
+|KEY_NUMPAD_1|0x61|~|
+|KEY_NUMPAD_2|0x62|~|
+|KEY_NUMPAD_3|0x63|~|
+|KEY_NUMPAD_4|0x64|~|
+|KEY_NUMPAD_5|0x65|~|
+|KEY_NUMPAD_6|0x66|~|
+|KEY_NUMPAD_7|0x67|~|
+|KEY_NUMPAD_8|0x68|~|
+|KEY_NUMPAD_9|0x69|~|
+|KEY_MULTIPLY|0x6A|~|
+|KEY_ADD|0x6B|~|
+|KEY_SEPARATOR|0x6C|~|
+|KEY_SUBTRACT|0x6D|~|
+|KEY_DECIMAL|0x6E|~|
+|KEY_DIVIDE|0x6F|~|
+|KEY_F1|0x70|~|
+|KEY_F2|0x71|~|
+|KEY_F3|0x72|~|
+|KEY_F4|0x73|~|
+|KEY_F5|0x74|~|
+|KEY_F6|0x75|~|
+|KEY_F7|0x76|~|
+|KEY_F8|0x77|~|
+|KEY_F9|0x78|~|
+|KEY_F10|0x79|~|
+|KEY_F11|0x7A|~|
+|KEY_F12|0x7B|~|
+|KEY_F13|0x7C|~|
+|KEY_F14|0x7D|~|
+|KEY_F15|0x7E|~|
+|KEY_F16|0x7F|~|
+|KEY_F17|0x80|~|
+|KEY_F18|0x81|~|
+|KEY_F19|0x82|~|
+|KEY_F20|0x83|~|
+|KEY_F21|0x84|~|
+|KEY_F22|0x85|~|
+|KEY_F23|0x86|~|
+|KEY_F24|0x87|~|
+|KEY_NUMLOCK|0x90|~|
+|KEY_SCROLL|0x91|~|
+|KEY_LEFT_SHIFT|0xA0|~|
+|KEY_RIGHT_SHIFT|0xA1|~|
+|KEY_LEFT_CTRL|0xA2|~|
+|KEY_RIGHT_CTRL|0xA3|~|
+|KEY_LEFT_ALT|0xA4|~|
+|KEY_RIGHT_ALT|0xA5|~|
+|KEY_OEM_1|0xBA|~|
+|KEY_OEM_PLUS|0xBB|~|
+|KEY_OEM_COMMA|0xBC|~|
+|KEY_OEM_MINUS|0xBD|~|
+|KEY_OEM_PERIOD|0xBE|~|
+|KEY_OEM_2|0xBF|~|
+|KEY_OEM_3|0xC0|~|
+|KEY_OEM_4|0xDB|~|
+|KEY_OEM_5|0xDC|~|
+|KEY_OEM_6|0xDD|~|
+|KEY_OEM_7|0xDE|~|
+|KEY_OEM_8|0xDF|~|
+|KEY_OEM_102|0xE2|~|
+
+#### (1-D) Monitoring Key Events  
+
+###### Example
+
+    #example 3
+    from keyio.keyutils import KeyUtils
+    key_utils    = KeyUtils()
+    key_1        = KeyUtils.Key.KEY_ESC
+    key_2        = KeyUtils.Key.KEY_SPACE
+    keep_running = True
+    @key_utils.monitor([ key_1, key_2 ])
+    def monitor_exit(key_code : int, key_pressed : bool) -> None:
+        global keep_running
+        keep_running = False
+    @key_utils.monitor("abcdefg092")
+    def monitor_char(key_code : int, key_pressed : bool) -> None:
+        print(chr(key_code), end = ' ')
+        if (key_pressed):
+            print("pressed")
+        else:
+            print("released")
+    key_utils.initialize_monitors()
+    key_utils.start_thread()
+    while (keep_running):
+        pass
+    key_utils.stop_thread()
+
+***
+## [2] Controlling and Monitoring Mouse Events
+
+#### (2-A) Simulating Mouse Pressing
+
+###### press_button(self, mouse_button : int) -> MouseUtils
+
+    #example 4
+    from keyio.mouseutils import MouseUtils
+    mouse_utils  = MouseUtils()
+    mouse_button = MouseUtils.LEFT_BUTTON
+    mouse_utils.press_button(mouse_button)
+
+#### (2-B) Simulating Mouse Releasing
+
+###### release_button(self, mouse_button : int) -> MouseUtils
+
+    #example 5
+    from keyio.mouseutils import MouseUtils
+    mouse_utils  = MouseUtils()
+    mouse_button = MouseUtils.MIDDLE_BUTTON
+    mouse_utils.release_button(mouse_button)
+
+#### (2-C) Simulating Scroll
+
+###### scroll(self, dy : int) -> MouseUtils
+
+    #example 6
+    from keyio.mouseutils import MouseUtils
+    mouse_utils  = MouseUtils()
+    dy           = -10
+    mouse_utils.scroll(dy)
+
+#### (2-D) Obtaining Cursor Coordinates
+
+###### get_mouse_coord(self) -> Tuple[ int, int ]
+
+    #example 7
+    from keyio.mouseutils import MouseUtils
+    mouse_utils = MouseUtils()
+    (x, y)      = mouse_utils.get_mouse_coord()
+    print("({},{})".format(x, y))
+
+#### (2-E) Setting Cursor Coordinates
+
+###### set_mouse_coord(self, x : int, y : int) -> MouseUtils
+
+    #example 8
+    from keyio.mouseutils import MouseUtils
+    mouse_utils = MouseUtils()
+    (x, y)      = (127, 89)
+    mouse_utils.set_mouse_coord(x, y)
+
+#### (2-F) Mouse Event List
+
+###### MouseUtils
+
+|Button/Event|Value|Description|
+|---|---|---|
+|LEFT_BUTTON|0|0|
+|MIDDLE_BUTTON|1|1|
+|RIGHT_BUTTON|2|2|
+|MOUSE_MOVE|3|3|
+
+#### (2-G) Monitoring Mouse Events  
+
+###### Example
+
+    #example 9
+    from typing import Tuple
+    from keyio.mouseutils import MouseUtils
+    mouse_utils  = MouseUtils()
+    button_1     = MouseUtils.LEFT_BUTTON
+    button_2     = MouseUtils.RIGHT_BUTTON
+    button_3     = MouseUtils.MIDDLE_BUTTON
+    keep_running = True
+    @mouse_utils.monitor([ button_1, button_2, button_3 ])
+    def monitor_exit(mouse_button : int, button_pressed : bool) -> None:
+        global keep_running
+        keep_running = False
+    @mouse_utils.monitor(MouseUtils.MOUSE_MOVE)
+    def monitor_char(mouse_button : int, mouse_coord : Tuple[ int, int ]) -> None:
+        print("({},{})".format(*mouse_coord))
+    mouse_utils.initialize_monitors()
+    mouse_utils.start_thread()
+    while (keep_running):
+        pass
+    mouse_utils.stop_thread()
+
+## [3] Controlling and Observing Window Events
+
+#### (3-A) Obtain Bounding Box of Selected Window
+
+###### get_foreground_window(self) -> Tuple[ int, int, int, int ]
+
+    #example 10
+    from keyio.windowutils import WindowUtils
+    window_utils = WindowUtils()
+    (sx, sy, ex, ey) = window_utils.get_foreground_window()
+    print("Window: ({},{},{},{})".format(sx, sy, ex, ey))
+
+#### (3-B) Set Bounding Box of Selected Window
+
+###### set_foreground_window(self, sx : int, sy : int, dx : int = -1, dy : int = -1, flag : int = 0x0040) -> WindowUtils
+
+    #example 11
+    from keyio.windowutils import WindowUtils
+    window_utils = WindowUtils()
+    window_utils.set_foreground_window(0, 0, 800, 625)
+
+#### (3-C) Set Position of Selected Window
+
+###### move_foreground_window(self, sx : int, sy : int, flag : int = 0x0040) -> WindowUtils
+
+    #example 12
+    from keyio.windowutils import WindowUtils
+    window_utils = WindowUtils()
+    window_utils.move_foreground_window(0, 0)
+
+#### (3-D) Flag List
+
+###### WindowUtils.WindowFlags
+
+|WindowFlags|Value|Description|
+|---|---|---|
+|SWP_DRAWFRAME|0x0020|~|
+|SWP_FRAMECHANGED|0x0020|~|
+|SWP_HIDEWINDOW|0x0080|~|
+|SWP_NOACTIVATE|0x0010|~|
+|SWP_NOCOPYBITS|0x0100|~|
+|SWP_NOMOVE|0x0002|~|
+|SWP_NOSIZE|0x0001|~|
+|SWP_NOREDRAW|0x0008|~|
+|SWP_NOZORDER|0x0004|~|
+|SWP_SHOWWINDOW|0x0040|~|
+|SWP_NOOWNERZORDER|0x0200|~|
+|SWP_NOREPOSITION|0x0200|~|
+|SWP_NOSENDCHANGING|0x0400|~|
+|SWP_DEFERERASE|0x2000|~|
+|SWP_ASYNCWINDOWPOS|0x4000|~|

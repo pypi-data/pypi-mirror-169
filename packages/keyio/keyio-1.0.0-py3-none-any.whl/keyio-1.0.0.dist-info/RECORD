@@ -1,0 +1,12 @@
+keyio/__init__.py,sha256=ZR3zChEXp0GRejK-yFt3lg09vpYk4w_aXNFlmV-UTbA,87
+keyio/keyutils.py,sha256=iVxJNrYwNB2Ym2UyRGAW8L-9H--jVTarn3hZoqEZy5g,10826
+keyio/mouseutils.py,sha256=rE2wQ3cBTxyKmHvH3NShnv3o41-tL_XHUhPvWDOXGd4,6178
+keyio/windowutils.py,sha256=-sQe9odE2Zxul6MoBmafHzfTIVwaYsluNyTmtDJKOBg,2138
+keyio/lib/keyutils.dll,sha256=29JC39jhEMBcQvFiiGElgXflfHLo1qajH8pWD0XzOns,2670277
+keyio/lib/mouseutils.dll,sha256=OZSNXei4FNTM90nxu07p8KiKzDGIEVf6BLbj_ObK8HM,2663464
+keyio/lib/windowutils.dll,sha256=UvG6uiZ3PlIFd068-niF4wHiPLBwWEDX9qgLAWgZqUA,2659448
+keyio-1.0.0.dist-info/LICENSE,sha256=Xq6kG6jP6bwdMJjK1yVzrr1nwbqG7M_3_yoIPzI1IVc,1067
+keyio-1.0.0.dist-info/METADATA,sha256=Sw5sUWpZ_Nsus7HpW4w5O2wQ8SlTvc568u040Nz1azw,8658
+keyio-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+keyio-1.0.0.dist-info/top_level.txt,sha256=7SVlk3CKI7wYn9o9HAPTkUbePsuVSxU3zXIjBVIJSGk,6
+keyio-1.0.0.dist-info/RECORD,,
