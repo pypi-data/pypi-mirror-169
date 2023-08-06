@@ -1,0 +1,47 @@
+[project]
+name = "jouissance"
+description = "jouissance"
+readme = "readme"
+requires-python = ">=3.7"
+license = {file = "license"}
+authors = [
+    {name = "ngam", email="ezngam@gmail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+keywords = [
+    "jouissance",
+]
+
+dependencies = []
+
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/ngam/jouissance"
+repository = "https://github.com/ngam/jouissance"
+
+[project.optional-dependencies]
+test = [
+    "pylint", "pytype", "flake8", "pytest",
+    "h5py", "netCDF4==1.5.8",
+    "fsspec", "gcsfs", "s3fs", "adlfs", "pyyaml",
+    "tensorflow", "torch", "torchvision",
+]
+dev = [
+    "jouissance[test]", "autopep8", "typing",
+    "build", "jupyter-book", "ghp-import", "jupyterlab",
+    "matplotlib", "numba", "pandas", "sympy", "scipy", "numpy",
+    "jax", "jaxlib",
+    "keras-cv",
+    "xarray",
+]
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
