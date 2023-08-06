@@ -1,0 +1,10 @@
+xj_enroll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xj_enroll/admin.py,sha256=oF8gJZYITdVz_JM5wtSDQDtOOYQetMkBM3va9-aeGMo,5533
+xj_enroll/apps.py,sha256=rHKwA2O0OFoqCyHKN7VuoeDs9cTmirTSdWR5xYF9oe4,206
+xj_enroll/models.py,sha256=2pdI9-55mfppbrP0pACNAwJpGjnmhUPEeIMaZj-8zRc,18232
+xj_enroll/serializers.py,sha256=5lt5EBOjKAT1Rzs1b2iBEMaulP8dxWG923Qakbgq_hk,528
+xj_enroll/urls.py,sha256=bugiZzXsq33KAPnw3X8f-ZjOZpA1-u1HLTLv1vCY2fA,1399
+xj_enroll-1.0.11.dist-info/METADATA,sha256=1_nAwi-0-Nc4KrnCm4y8Cw5DlYNU0sQh862BtehrlbU,1593
+xj_enroll-1.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xj_enroll-1.0.11.dist-info/top_level.txt,sha256=yC7-k3KGhzIvUDNb7LQLPJhlKLgUdA8ugtGLFDk3UoI,10
+xj_enroll-1.0.11.dist-info/RECORD,,
