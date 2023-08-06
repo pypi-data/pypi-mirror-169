@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lmqg
+Version: 0.0.2
+Summary: Language Model for Question Generation.
+Home-page: https://github.com/asahi417/lm-question-generation
+Author: Asahi Ushio
+Author-email: asahi1992ushio@gmail.com
+License: MIT License
+Download-URL: https://github.com/asahi417/lm-question-generation/archive/v0.0.2.tar.gz
+Keywords: language model,question-answering,question-generation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: api
+License-File: LICENSE
+
+# TBA
+
