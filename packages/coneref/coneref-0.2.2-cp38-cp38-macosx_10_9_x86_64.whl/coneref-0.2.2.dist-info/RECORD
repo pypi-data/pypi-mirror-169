@@ -1,0 +1,12 @@
+_coneref.cpython-38-darwin.so,sha256=bx4GorpDRWfBiQ8m3FbwV8IGlAp2sCqSvQtlSrtHQo0,1160392
+coneref/__init__.py,sha256=gykMH9ya8engazKBz4IqssCT8kFEzCUwuJMqIWwdGk4,90
+coneref/cones_utils.py,sha256=wzcdb-75V5df0HJErROU3gXESUFug1QRqIL8KF6-S9E,5784
+coneref/cvxpy_interface.py,sha256=lg9JSrfpLlbEydgdiZXNB2O5sxndd_vA8Z18t58Fmks,10989
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cones.py,sha256=aqU7l7V-YAry9ysdiO0HYMQN2Y8DJXnKsMV_0XcCtdU,13926
+tests/test_one.py,sha256=LNI28Al6DasTT9PuYG749f3JBKhgYJz47Wk0aoJ_4Qc,59
+coneref-0.2.2.dist-info/LICENSE,sha256=1T23ltInF1iLMTNbeD_TOEO_Oj8OqP51-5UDyFOY3MU,1065
+coneref-0.2.2.dist-info/METADATA,sha256=3hTZRnvu8Q5fbUJ8rKvITf5WHYIBz2fr9hOGz8C-5EQ,5910
+coneref-0.2.2.dist-info/WHEEL,sha256=pXLpj1wTvqlD6RVUEKOuGQGeFX0NOPyDrsC-9xVDmYU,109
+coneref-0.2.2.dist-info/top_level.txt,sha256=GmjaCYzCWz4P2B1vRakhpOs2V5Jm2RXU15MaizbvF7o,23
+coneref-0.2.2.dist-info/RECORD,,
