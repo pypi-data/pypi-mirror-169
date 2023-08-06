@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: capstone-api
+Version: 0.2.138
+Summary: Unofficial Python Wrappers and Utilities for UD Capstone_Api Class
+Home-page: https://github.com/kkatayama/capstone_api
+Author: Teddy Katayama
+Author-email: katayama@udel.edu
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# capstone
+capstone utils
