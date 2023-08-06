@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: intelligenceai
+Version: 0.0.1
+Summary: Creates a concept map
+Project-URL: Homepage, https://github.com/RonItelman/intelligence.ai-concepts
+Project-URL: Bug Tracker, https://github.com/RonItelman/intelligence.ai-concepts/issues
+Author-email: Ron Itelman <ron@intelligence.ai>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# intelligence.ai-concepts
+
+intelligence.ai-concepts creates a JSON object to represent the concepts used in data
