@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_sscdata_dw_common.egg-info/PKG-INFO
+shopee_sscdata_dw_common.egg-info/SOURCES.txt
+shopee_sscdata_dw_common.egg-info/dependency_links.txt
+shopee_sscdata_dw_common.egg-info/top_level.txt
