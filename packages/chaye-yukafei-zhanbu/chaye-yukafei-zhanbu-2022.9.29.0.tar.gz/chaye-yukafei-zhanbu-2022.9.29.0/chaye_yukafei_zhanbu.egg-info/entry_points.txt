@@ -1,0 +1,4 @@
+[console_scripts]
+ChayeYukafeiZhanbu = ChayeYukafeiZhanbu.__main__:main
+chaye-yukafei-zhanbu = ChayeYukafeiZhanbu.__main__:main
+
