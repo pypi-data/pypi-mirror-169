@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sqlite3-wrapper
+Version: 1.0.0
+Summary: Sqlite3 Controller
+Home-page: https://github.com/moodoid/sqlite3-wrapper
+Author: moodoid
+License: UNKNOWN
+Keywords: Sqlite3 Controller
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/plain
+
+Interface with sqlite files
+

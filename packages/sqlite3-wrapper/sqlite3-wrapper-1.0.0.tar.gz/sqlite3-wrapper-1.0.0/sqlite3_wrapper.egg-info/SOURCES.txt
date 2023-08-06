@@ -1,0 +1,6 @@
+setup.py
+sqlite3_wrapper.egg-info/PKG-INFO
+sqlite3_wrapper.egg-info/SOURCES.txt
+sqlite3_wrapper.egg-info/dependency_links.txt
+sqlite3_wrapper.egg-info/top_level.txt
+sqlite_wrapper/__init__.py
