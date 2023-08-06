@@ -1,0 +1,8 @@
+numpy
+matplotlib
+sympy
+racegym2d
+pyracetrack
+numba
+pytorch
+gym
