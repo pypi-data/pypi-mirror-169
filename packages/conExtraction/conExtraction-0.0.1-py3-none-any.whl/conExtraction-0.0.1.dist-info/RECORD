@@ -1,0 +1,10 @@
+demo/__init__.py,sha256=nnezdG6ggetMVX5xzITKKdxmqJ0YoH6F26ZqM25zEK4,10
+demo/__main__.py,sha256=d69LmdXTxdD-H15qNEO1gdiwFrEqj_i_3ST3QFGod9k,110
+demo/config.toml,sha256=UbBxByKhDxkbj_M9yjGq28zPdjE8XhygqDXxVVeB54g,13
+demo/hello_world.py,sha256=NJZCLcqWkoua6dl6Re9BEDS1xFODdQbGGc3p_JZoL5s,50
+conExtraction-0.0.1.dist-info/LICENSE,sha256=ZRf5-OowiOeGM9doz_izpuHpdzZdIqWFT4qt1S1vK7Q,1098
+conExtraction-0.0.1.dist-info/METADATA,sha256=N1ZC-7XbNPjatXSpDKolTghXWe5EmT8b0YGpSLaWVfY,1839
+conExtraction-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+conExtraction-0.0.1.dist-info/entry_points.txt,sha256=3zWUu3iOgq2P_iJ8UGjDv0v86Mqk2b7SbdeukYtAkO0,50
+conExtraction-0.0.1.dist-info/top_level.txt,sha256=65wmuu5H8Z5Jk6d7ypNtD_CeNVqC09t5vxVOv_GoBgQ,5
+conExtraction-0.0.1.dist-info/RECORD,,
