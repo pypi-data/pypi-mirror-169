@@ -1,0 +1,10 @@
+setup.py
+lupascua_wild/Binomialdistribution.py
+lupascua_wild/Gaussiandistribution.py
+lupascua_wild/Generaldistribution.py
+lupascua_wild/__init__.py
+lupascua_wild.egg-info/PKG-INFO
+lupascua_wild.egg-info/SOURCES.txt
+lupascua_wild.egg-info/dependency_links.txt
+lupascua_wild.egg-info/not-zip-safe
+lupascua_wild.egg-info/top_level.txt
