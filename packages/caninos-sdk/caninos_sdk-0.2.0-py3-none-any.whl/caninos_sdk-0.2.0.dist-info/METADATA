@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: caninos-sdk
+Version: 0.2.0
+License-File: LICENSE
+Requires-Dist: gpiod
+Requires-Dist: typer
+Requires-Dist: rich
+
+"See https://github.com/caninos-loucos/caninos-sdk"
