@@ -1,0 +1,10 @@
+certifi
+decorating
+esdk-obs-python
+tqdm
+olefile
+python-slugify
+text-unidecode
+GDAL
+numpy
+Pillow
