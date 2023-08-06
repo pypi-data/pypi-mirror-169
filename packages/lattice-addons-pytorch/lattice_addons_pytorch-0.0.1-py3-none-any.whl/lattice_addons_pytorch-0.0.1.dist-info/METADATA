@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: lattice-addons-pytorch
+Version: 0.0.1
+Summary: Lattice Add-ons
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: boto3
+
+# Lattice PyTorch Addons
+
+## Expected Usage
+
+```python
+%% examples/elastic_example.py
+@brz.elastic.run
+def train(model, optimizer, dataloader, lr_scheduler):
+	## Training logic here
+  for i, (x, y) in dataloader:
+    ...
+...
+if __name__ == '__main__':
+  model = create_model()
+  optimizer = create_model()
+  ...
+  train(model, optimizer, ...)
+```
+
+## Skeleton
+
+```python
+%% lattice/elastic/run.py
+## decorator function
+## User requirement: has to pass in the following args
+def breeze_run(fn: Callable, model, sampler, optimizer, lr_scheduler, *args, **kwargs):
+  ## Wrap any wrappers that need to be wrapped besides the model module
+  ...
+  ## wrap model
+  breeze_module = BreezeModule(model, optimizer, dataloader, lr_scheduler)
+  ## return function after wrap
+  fn(breeze_module, optimizer, dataloader, lr_scheduler, *args, **kwargs)
+ 
+%% lattice/torch/utils/data/distributed.py
+class BreezeDistributedSampler
+## overwrite __init__(), __iter__() and set_epoch
+
+%% lattice/torch/nn/parallel/distributed.py
+class BreezeDistributedDataParallel
+## overwrite __init__(), forward()
+
+%% lattice/torch/optim/optimizer.py
+class BreezeOptimizer
+## overwrite __init__(), step()
+
+%% possible lr_scheduler
+```
+
