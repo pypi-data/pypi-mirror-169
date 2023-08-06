@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: puresnmp-crypto
+Version: 1.0.1
+Summary: Implementation for SNMPv3 encryption in puresnmp
+Author-email: Michel Albert <michel.albert@post.lu>
+License: MIT
+Project-URL: homepage, https://pypi.org/project/puresnmp/
+Project-URL: repository, https://github.com/exhuma/puresnmp-crypto
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: test
+
+Encryption Plugin for puresnmp
+==============================
+
+This package provides support for DES and AES encryption in puresnmp.
+
+The package is *not* intended as standalone package and only provides a
+namespace package for ``puresnmp``.
+
+See the the documentation of ``puresnmp`` for more on these plugins.
