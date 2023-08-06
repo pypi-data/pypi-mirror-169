@@ -1,0 +1,14 @@
+cppython_core/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython_core/exceptions.py,sha256=8NptBhktaXFXbwSLpEKAgp7pw2h_ApDXSb1xzZSvOO8,785
+cppython_core/plugin_schema/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython_core/plugin_schema/generator.py,sha256=gyyhPf7VpE2nvhPr2YW-iJqm9GzcACLjqYwaZg75vCY,1410
+cppython_core/plugin_schema/interface.py,sha256=xH1cS50YD6xnbdP2x-iPvtMBw8cQi6JqOpho5U10pHg,615
+cppython_core/plugin_schema/provider.py,sha256=5-RlUfdXw-DNK82JJeQD2rXJh2UGhd38Afe0j0RdPqw,2575
+cppython_core/plugin_schema/vcs.py,sha256=SxCjXutKmK8MHwRbBw3UTJ4Va4MTvR5OsA1YIOFoLBA,2105
+cppython_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cppython_core/schema.py,sha256=CCLigbiiy67D2GF9rh0rp4HvDb3tYYHg2K0aRSz4gJA,14375
+cppython_core/utility.py,sha256=LJmgRsLIUDLX8-1LQhVwSS4FPaU2mpRB2zdSAhezE9o,2506
+cppython_core-0.5.1.dev19.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+cppython_core-0.5.1.dev19.dist-info/METADATA,sha256=DE1DKfNEz6e8UQGc3ApYONdu653rPNEZ-_vtDTp_ARE,496
+cppython_core-0.5.1.dev19.dist-info/license_files/LICENSE.md,sha256=O2GDdR5BeAXcN20aptXMBkBD0QUDlBgHTw-0JJApQOM,1070
+cppython_core-0.5.1.dev19.dist-info/RECORD,,
