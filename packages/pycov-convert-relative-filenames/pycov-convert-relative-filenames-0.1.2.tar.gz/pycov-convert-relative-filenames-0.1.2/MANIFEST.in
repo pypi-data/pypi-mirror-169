@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include setup.*
+include requirements*.txt
+recursive-include pycov_convert_relative_filenames *py
+prune docs
+prune tests
