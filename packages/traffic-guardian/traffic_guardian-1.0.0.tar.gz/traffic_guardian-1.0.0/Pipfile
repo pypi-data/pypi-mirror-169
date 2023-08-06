@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+twisted = "*"
+flask = "*"
+requests = "*"
+pyopenssl = "*"
+pytest = "*"
+pytest-cov = "*"
+service-identity = "*"
+tox = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
