@@ -1,0 +1,16 @@
+qfaas/__init__.py,sha256=ZtCGh6tBNTH-KzcayWO2CqgpAn972fLzHhQ7xpyFJss,129
+qfaas/backend.py,sha256=2lSk8UuaTmaskFzV85-zD6dqvnBKleUp2_d-DvlluhE,4230
+qfaas/dataUtils.py,sha256=JZzTyDPZvWBT_FhTt2v_TYAXCVtXR-CWTs7HQ3kdvNU,760
+qfaas/utilities.py,sha256=JjS7wEWBOTp0HyM2pWzzWObR3cy4CpJ7WK2U4AJbBrc,4761
+qfaas/algorithms/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qfaas/algorithms/shor.py,sha256=54JihfRqRVDsAgj26RQSRSljvH6Y-tMTrhnZwTXLECk,5162
+qfaas/sdk/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qfaas/sdk/braket.py,sha256=m2he00TosnJfSJB92ff2yEaRA1nv4RZM0z_-YThPfCg,1751
+qfaas/sdk/cirq.py,sha256=KVeVTXMwHjmAvy3m1IdpFE_FifWErEVhpMbeoxmHOhI,1588
+qfaas/sdk/qiskit.py,sha256=guTIQOMy0NHGVCMaCYbJI4_i1-r6L86pYKCUk-hEXRA,4147
+qfaas/sdk/qsharp.py,sha256=I9_PYRYXzd5YcyuALNUNwN0EEdqIJfraPRt5i_POZC0,1186
+qfaas-0.2.1.dist-info/LICENSE,sha256=spHoCYLRJs0uxoR_R5F3pTObJ5g96n8Zf6_xMR-XEl8,1097
+qfaas-0.2.1.dist-info/METADATA,sha256=ivBS-c3GZSnoMPF76G04tFbDYYe5oVMJK6UwrovN-ec,3236
+qfaas-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qfaas-0.2.1.dist-info/top_level.txt,sha256=K9jvzFxU93CHDIrgV1WTnMVLNtlufjXmr3NaaOlsq7s,6
+qfaas-0.2.1.dist-info/RECORD,,
