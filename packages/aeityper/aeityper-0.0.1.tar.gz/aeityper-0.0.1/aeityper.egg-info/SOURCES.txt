@@ -1,0 +1,9 @@
+README.md
+setup.py
+aeityper/__init__.py
+aeityper/aeityper.py
+aeityper.egg-info/PKG-INFO
+aeityper.egg-info/SOURCES.txt
+aeityper.egg-info/dependency_links.txt
+aeityper.egg-info/requires.txt
+aeityper.egg-info/top_level.txt
