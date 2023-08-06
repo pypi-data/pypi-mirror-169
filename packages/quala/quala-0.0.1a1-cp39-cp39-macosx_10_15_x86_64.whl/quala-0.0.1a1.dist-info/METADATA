@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: quala
+Version: 0.0.1a1
+Summary: Quasi-Newton algorithms and other accelerators
+Keywords: optimization
+Author-email: Pieter P <pieter.p.dev@outlook.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: sphinx~=5.1 ; extra == "docs"
+Requires-Dist: matplotlib ; extra == "docs"
+Requires-Dist: breathe ; extra == "docs"
+Requires-Dist: furo ; extra == "docs"
+Project-URL: Bug Tracker, https://github.com/tttapa/quala/issues
+Project-URL: Documentation, https://tttapa.github.io/quala
+Project-URL: Source, https://github.com/tttapa/quala
+Provides-Extra: docs
+
+# quala
+
+Quala implements different accelerators for optimization
+solvers, root finders and fixed-point methods, such as Broyden-type quasi-Newton
+methods and Anderson acceleration.
+
+The algorithms are implemented in C++, and are available through a Python 
+interface.
+
+## Installation
+
+The Python interface can be installed from [PyPI](https://pypi.org/project/quala)
+using `pip`:
+```sh
+python3 -m pip install quala
+```
+
+Installation instructions for the C++ library can be found in the 
+[documentation](https://tttapa.github.io/quala/main/Doxygen/installation.html).
+
+## Examples and documentation
+
+- [Python Documentation (Sphinx)](https://tttapa.github.io/quala/main/Sphinx/)
+- [C++ Documentation (Doxygen)](https://tttapa.github.io/quala/main/Doxygen/)
+- [Python Examples (Sphinx)](https://tttapa.github.io/quala/main/Sphinx/examples/)
+- [C++ Examples (Doxygen)](https://tttapa.github.io/quala/main/Doxygen/examples.html)
+
