@@ -1,0 +1,9 @@
+tensorflow-stubs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow-stubs/__init__.pyi,sha256=mg96HPeR7H5XFzNdpZ-KTTnUWM0VhnE-59MeiOB3NCM,182499
+tensorflow-stubs/math/__init__.pyi,sha256=gCqyj2LiA6fINkEZbKR-VawAE_4P8svNoC7042UKVYE,34945
+tensorflow-stubs/python/__init__.pyi,sha256=okfnBPCKpa23qbUpqglZ4KTxVdrpqGlunmpLMg262ck,47
+tensorflow-stubs/train/__init__.pyi,sha256=AIPmdkMhhcmGuFZbnLTM0FJaftflXa-IA1VeT7b0a9k,193
+tensor_annotations_tensorflow_stubs-2.0.0.dist-info/METADATA,sha256=Yvb6ys9iNME_1DSr-thrH8bnuOgW4Kc0wRN9zRqI8Bw,337
+tensor_annotations_tensorflow_stubs-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tensor_annotations_tensorflow_stubs-2.0.0.dist-info/top_level.txt,sha256=1O4FRDLr_scOR4QseMq7eNMatubqQggRwmi6M_-SNBk,17
+tensor_annotations_tensorflow_stubs-2.0.0.dist-info/RECORD,,
