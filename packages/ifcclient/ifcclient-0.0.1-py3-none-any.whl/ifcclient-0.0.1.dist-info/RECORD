@@ -1,0 +1,9 @@
+ifcclient/InfiniteFlightConnect.py,sha256=dwS0j9quO2usuCzeVOMDS_-QADWIkHvckGEBwM8IdCM,7833
+ifcclient/__init__.py,sha256=VUfuH3tlPFEFGpbcrEu9IWZ3hUZuX1--WSzH_DQiysw,36
+ifcclient/example.py,sha256=OUa6eRxtrRt-iwtfa9MH7vSl35yiy4ymsmyhWIbXQ0U,215
+ifcclient/utils.py,sha256=0iXpuseZ7p2p9ndvhhWD0KBpG-w0hPNvwxjlcgYDVOM,2106
+ifcclient-0.0.1.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+ifcclient-0.0.1.dist-info/METADATA,sha256=ybyqjomt45K8dA_TAWI9eM-HI4a77aDjhuy7MxlGTTI,1239
+ifcclient-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ifcclient-0.0.1.dist-info/top_level.txt,sha256=k3nDQ-fya9ucHDyWIDQWY9hWi3E6Volcf-I-P8Mg7-I,10
+ifcclient-0.0.1.dist-info/RECORD,,
