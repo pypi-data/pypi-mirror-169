@@ -1,0 +1,2 @@
+[console_scripts]
+partitiontypes = partitiontypes.__main__:main
