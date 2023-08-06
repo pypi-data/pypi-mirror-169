@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: psiopenephys
+Version: 0.0.1
+Summary: Video tools supporting psiexperiment that can also be used as a stand-alone client/server architecture by other programs.
+Author-email: Brad Buran <buran@ohsu.edu>
+Maintainer-email: Brad Buran <buran@ohsu.edu>
+Requires-Python: >=3.7
+Provides-Extra: test
+License-File: LICENSE.txt

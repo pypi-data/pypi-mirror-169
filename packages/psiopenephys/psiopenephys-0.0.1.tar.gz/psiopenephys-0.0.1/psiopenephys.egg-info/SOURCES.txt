@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.txt
+README.md
+pyproject.toml
+examples/demo.py
+psiopenephys/__init__.py
+psiopenephys/client.py
+psiopenephys/version.py
+psiopenephys.egg-info/PKG-INFO
+psiopenephys.egg-info/SOURCES.txt
+psiopenephys.egg-info/dependency_links.txt
+psiopenephys.egg-info/requires.txt
+psiopenephys.egg-info/top_level.txt
