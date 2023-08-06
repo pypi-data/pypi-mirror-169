@@ -1,0 +1,15 @@
+staxapp/__init__.py,sha256=F5mW07pSyGrqDNY2Ehr-UpDzpBtN-FsYU0QGZWf6PJE,22
+staxapp/api.py,sha256=6Gx3EmaMpp_rSSeMuhUytWZqNsqhQfDDoq0fWwDsPvE,3672
+staxapp/auth.py,sha256=tutmKavqf8ew53UKPHZy-fTIPFfhVq5RmTuG3lkZxIE,6417
+staxapp/aws_srp.py,sha256=fuG91f0NA1Vu6ZRGMvawFWYrD9O2chqis3w2lES3t0M,10702
+staxapp/config.py,sha256=X7SFkNzIMqQI6Whg57K56mnczStWTPxrE5n07RJmqNs,4123
+staxapp/contract.py,sha256=QVLEVQzeth954wYX_6NRYoJ9Ve3-kU2PFtuBGrxfaDQ,3046
+staxapp/exceptions.py,sha256=I-DDkkJcZTEttz61vVsDuVXBVRrkKzavXaIncbY7Eas,1455
+staxapp/openapi.py,sha256=848rlQoeeVCh7CPzMHZCJKm1gUFDyFGdWbkkGM3Ocv8,5321
+staxapp/retry.py,sha256=BTdU3Uh6PI2R0QS9Hc936hIFMoTjiLt_mWpQB-KZ_Bk,1144
+staxapp/data/schema.json,sha256=cod5EOWXp3qHUFrwXeBAKKtQaQOXvG5YMtBCFBbs7dM,263840
+staxapp-1.3.0.dist-info/LICENSE.md,sha256=y5zVUH8ofsNzOMWUv32_pmc2cfXcxE6jVpYYi6dBee8,10750
+staxapp-1.3.0.dist-info/METADATA,sha256=4hMSYmkuZ2DOriIMCrPlRw3zaDC5PdiH4iwaY16B2PU,5318
+staxapp-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+staxapp-1.3.0.dist-info/top_level.txt,sha256=8DBwkJyJZvObbsk3zWVrB1gygSelGDwfbmMZlXVn9tU,8
+staxapp-1.3.0.dist-info/RECORD,,
