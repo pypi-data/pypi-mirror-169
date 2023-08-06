@@ -1,0 +1,11 @@
+DESCRIPTION.txt
+LICENSE.txt
+README.md
+requirements.txt
+setup.py
+mymyapi.egg-info/PKG-INFO
+mymyapi.egg-info/SOURCES.txt
+mymyapi.egg-info/dependency_links.txt
+mymyapi.egg-info/requires.txt
+mymyapi.egg-info/top_level.txt
+venv/__init__.py
