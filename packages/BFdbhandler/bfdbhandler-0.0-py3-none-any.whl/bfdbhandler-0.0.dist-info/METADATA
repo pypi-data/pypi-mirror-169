@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: bfdbhandler
+Version: 0.0
+License-File: LICENSE
+Requires-Dist: pandas (==1.4.4)
+Requires-Dist: SQLAlchemy (==1.4.41)
+
+This is the db handler for all bf_papers projects
