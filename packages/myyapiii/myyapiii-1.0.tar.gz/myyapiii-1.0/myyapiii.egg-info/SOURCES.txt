@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+myyapiii.egg-info/PKG-INFO
+myyapiii.egg-info/SOURCES.txt
+myyapiii.egg-info/dependency_links.txt
+myyapiii.egg-info/requires.txt
+myyapiii.egg-info/top_level.txt
+venv/__init__.py
+venv/main.py
