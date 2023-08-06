@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pycirchdl/__init__.py
+pycirchdl/cfg.py
+pycirchdl/logops.py
+pycirchdl/pycirc.py
+pycirchdl/util.py
+pycirchdl.egg-info/PKG-INFO
+pycirchdl.egg-info/SOURCES.txt
+pycirchdl.egg-info/dependency_links.txt
+pycirchdl.egg-info/not-zip-safe
+pycirchdl.egg-info/requires.txt
+pycirchdl.egg-info/top_level.txt
