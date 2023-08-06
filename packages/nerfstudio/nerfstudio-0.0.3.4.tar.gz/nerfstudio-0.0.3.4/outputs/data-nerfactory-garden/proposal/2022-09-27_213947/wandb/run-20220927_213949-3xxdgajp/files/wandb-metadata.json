@@ -1,0 +1,35 @@
+{
+    "os": "Linux-4.15.0-193-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-09-28T04:39:50.069287",
+    "startedAt": "2022-09-28T04:39:49.713247",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 3,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "proposal",
+        "--viewer.no-enable",
+        "--logging.event-writer",
+        "wandb",
+        "--logging.local-writer.max-log-size=0",
+        "nerfactory-data",
+        "--pipeline.datamanager.dataparser.downscale-factor",
+        "4",
+        "--pipeline.datamanager.dataparser.data-directory",
+        "data/nerfactory/garden"
+    ],
+    "state": "running",
+    "program": "scripts/train.py",
+    "codePath": "scripts/train.py",
+    "git": {
+        "remote": "git@github.com:plenoptix/pyrad.git",
+        "commit": "94a547928745dd0b2b8bdd193a5a6fd605f4c56a"
+    },
+    "email": "tancik@berkeley.edu",
+    "root": "/projects/pyrad",
+    "host": "tracey",
+    "username": "tancik",
+    "executable": "/home/tancik/miniconda3/envs/nerfactory/bin/python"
+}

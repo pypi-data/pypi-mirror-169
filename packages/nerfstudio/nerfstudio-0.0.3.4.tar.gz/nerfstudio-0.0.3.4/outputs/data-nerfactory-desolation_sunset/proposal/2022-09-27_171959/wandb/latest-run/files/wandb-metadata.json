@@ -1,0 +1,35 @@
+{
+    "os": "Linux-4.15.0-193-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-09-28T00:20:04.805935",
+    "startedAt": "2022-09-28T00:20:01.960342",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 3,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "proposal",
+        "--viewer.no-enable",
+        "--logging.event-writer",
+        "wandb",
+        "--logging.local-writer.max-log-size=0",
+        "nerfactory-data",
+        "--pipeline.datamanager.dataparser.downscale-factor",
+        "4",
+        "--pipeline.datamanager.dataparser.data-directory",
+        "data/nerfactory/desolation_sunset"
+    ],
+    "state": "running",
+    "program": "scripts/train.py",
+    "codePath": "scripts/train.py",
+    "git": {
+        "remote": "git@github.com:plenoptix/pyrad.git",
+        "commit": "cf34ef4bd066ad5c95acf7f42242bd0c7d893bf9"
+    },
+    "email": "tancik@berkeley.edu",
+    "root": "/projects/pyrad",
+    "host": "tracey",
+    "username": "tancik",
+    "executable": "/home/tancik/miniconda3/envs/nerfactory/bin/python"
+}
