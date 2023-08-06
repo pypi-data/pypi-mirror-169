@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+aiogovee/__init__.py
+aiogovee/__main__.py
+aiogovee/aiogovee.py
+aiogovee/message.py
+aiogovee/msgtypes.py
+aiogovee.egg-info/PKG-INFO
+aiogovee.egg-info/SOURCES.txt
+aiogovee.egg-info/dependency_links.txt
+aiogovee.egg-info/requires.txt
+aiogovee.egg-info/top_level.txt
