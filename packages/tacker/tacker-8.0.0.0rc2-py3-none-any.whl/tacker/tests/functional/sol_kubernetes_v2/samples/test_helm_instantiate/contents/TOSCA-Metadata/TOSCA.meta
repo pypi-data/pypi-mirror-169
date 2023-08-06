@@ -1,0 +1,9 @@
+TOSCA-Meta-File-Version: 1.0
+Created-by: dummy_user
+CSAR-Version: 1.1
+Entry-Definitions: Definitions/sample_cnf_top.vnfd.yaml
+
+Name: Files/kubernetes/test-chart-0.1.0.tgz
+Content-Type: test-data
+Algorithm: SHA-256
+Hash: 96851c4f3e566d7e94eaa3f7a6ada7fcede501316ffc35b0e27bfdab7f23d4fc
