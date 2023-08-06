@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/camera_input_live/__init__.py
+src/camera_input_live/frontend/index.html
+src/camera_input_live/frontend/main.js
+src/camera_input_live/frontend/streamlit-component-lib.js
+src/camera_input_live/frontend/style.css
+src/streamlit_camera_input_live.egg-info/PKG-INFO
+src/streamlit_camera_input_live.egg-info/SOURCES.txt
+src/streamlit_camera_input_live.egg-info/dependency_links.txt
+src/streamlit_camera_input_live.egg-info/requires.txt
+src/streamlit_camera_input_live.egg-info/top_level.txt
