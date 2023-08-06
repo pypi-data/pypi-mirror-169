@@ -1,0 +1,10 @@
+setup.py
+chae_probability/Binomialdistribution.py
+chae_probability/Gaussiandistribution.py
+chae_probability/Generaldistribution.py
+chae_probability/__init__.py
+chae_probability.egg-info/PKG-INFO
+chae_probability.egg-info/SOURCES.txt
+chae_probability.egg-info/dependency_links.txt
+chae_probability.egg-info/not-zip-safe
+chae_probability.egg-info/top_level.txt
