@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "coverage-conditional-plugin"
+version = "0.7.0"
+description = "Conditional coverage based on any rules you define!"
+license = "MIT"
+
+authors = [
+  "sobolevn <mail@sobolevn.me>"
+]
+
+# This is required for source distributions, like the one
+# used for Alpine linux. See #157
+include = [
+  {path = 'tests/*', format = 'sdist'},
+  {path = 'test_project/*', format = 'sdist'},
+]
+readme = "README.md"
+
+repository = "https://github.com/wemake-services/coverage-conditional-plugin"
+
+keywords = [
+  "coverage",
+  "coverage.py",
+  "pytest-cov",
+  "testing",
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+coverage = ">=5,<7"
+packaging = ">=20.4"
+importlib_metadata = { version = "*", python = "<3.10" }
+
+[tool.poetry.group.test.dependencies]
+mypy = "^0.971"
+types-setuptools = "^65.3"
+
+wemake-python-styleguide = "^0.16"
+flake8-pytest-style = "^1.5"
+nitpick = "^0.29"
+
+safety = "^2.1"
+
+pytest = "^7.0"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.10"
+
+
+[build-system]
+requires = ["poetry_core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
