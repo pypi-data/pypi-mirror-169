@@ -1,0 +1,4 @@
+[console_scripts]
+TaluoZhanbu101 = TaluoZhanbu101.__main__:main
+taluo-zhanbu-101 = TaluoZhanbu101.__main__:main
+
