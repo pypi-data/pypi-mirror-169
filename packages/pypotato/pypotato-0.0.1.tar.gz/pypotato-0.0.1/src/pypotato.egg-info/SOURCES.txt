@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/pypotato.egg-info/PKG-INFO
+src/pypotato.egg-info/SOURCES.txt
+src/pypotato.egg-info/dependency_links.txt
+src/pypotato.egg-info/requires.txt
+src/pypotato.egg-info/top_level.txt
+src/pytentiostat/__init__.py
+src/pytentiostat/chi760e.py
+src/pytentiostat/load_data.py
+src/pytentiostat/potentiostat.py
