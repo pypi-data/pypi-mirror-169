@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: SynD
+Version: 0.1.1
+Summary: Synthetic dynamics for trajectory generation
+Author-email: John Russo <russojd@ohsu.edu>
+License: BSD 3-Clause License
+Project-URL: Homepage, https://github.com/jdrusso/SynD
+Keywords: molecular dynamics,markov
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
