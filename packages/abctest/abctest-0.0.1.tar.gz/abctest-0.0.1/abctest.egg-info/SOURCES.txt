@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+abctest.egg-info/PKG-INFO
+abctest.egg-info/SOURCES.txt
+abctest.egg-info/dependency_links.txt
+abctest.egg-info/top_level.txt
+joshbasiccalculator/__init__.py
