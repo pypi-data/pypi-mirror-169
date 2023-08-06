@@ -1,0 +1,17 @@
+bgplot/__init__.py,sha256=-9zmRTLGUxdRnex_Pd6jcc7vIvuNYvuWX-DZj_PLtBQ,164
+bgplot/core/codes.py,sha256=d6L4xy8ItPLhuAnEq2HPmR5TsTU2BCzaKLPp6xF3xP8,1301
+bgplot/core/formatter.py,sha256=a1c683fpsC-VSntXu7LijADJRh6hI2NEl-0fhWfqsa4,577
+bgplot/core/logger.py,sha256=JD-vKO_7gfb3w9vjJWZ4MRK7osRwMiuzkcLug0UtgWg,1050
+bgplot/entities/__init__.py,sha256=5LZb1v5MD6KBHmmrV0s04xu8Q4r_qpq1ws7h2MAPxnI,123
+bgplot/entities/axes.py,sha256=Gwu9MBVmN6wklrmOqcbP1eMf52yKtHvosBApghd8jek,126
+bgplot/entities/line.py,sha256=duuh07ayw028qMuVmStC6bgKDvNQz-nj6Q6TeolHktA,1130
+bgplot/entities/plane.py,sha256=SlBvn3GukUqFL38WciTpW4AvVSd1VVawpuoAWKcVEOE,986
+bgplot/entities/point.py,sha256=Rj0TDiZptCqU5QGfYfQrlp812DmjGLCPNYV7eHsezk0,406
+bgplot/entities/vector.py,sha256=1bJnSBDgrXf7Js4VIquz80yHAa5Ls3v2UjtSSyaqZt0,425
+bgplot/use_cases/graphics.py,sha256=uhj1HNq4gHdFyAYtZtpK7Z18UN6P0MrCZw5D_0Q_82Y,6642
+bgplot/use_cases/operations.py,sha256=_a9ovZ44w4i15yyS8sZEidYmhB2P4VlmCGNfJVAR9H8,1655
+bgplot-0.0.3.dist-info/LICENSE,sha256=03sN4rfal3RrKjoe6jSBjBSbxo0zxsF41P9zfkpPFJ8,1062
+bgplot-0.0.3.dist-info/METADATA,sha256=f9PqymXCAuj49I5I3FCYkRkZ9gJd6qpnIqhQRCInBz0,860
+bgplot-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bgplot-0.0.3.dist-info/top_level.txt,sha256=WNgdHwL6x8b-3VS7pGcPTWcFLd9o9iUSQHAfai2IVz4,7
+bgplot-0.0.3.dist-info/RECORD,,
