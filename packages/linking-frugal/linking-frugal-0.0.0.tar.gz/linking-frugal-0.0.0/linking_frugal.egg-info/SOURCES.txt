@@ -1,0 +1,6 @@
+setup.py
+linking-frugal/__init__.py
+linking_frugal.egg-info/PKG-INFO
+linking_frugal.egg-info/SOURCES.txt
+linking_frugal.egg-info/dependency_links.txt
+linking_frugal.egg-info/top_level.txt
