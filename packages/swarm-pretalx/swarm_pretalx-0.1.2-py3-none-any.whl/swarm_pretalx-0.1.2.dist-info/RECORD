@@ -1,0 +1,10 @@
+swarm_pretalx/apps.py,sha256=akvIr9iYQDAyyJBx_S-6Dj6ulIJaI1mdLSJtWKKGEUY,547
+swarm_pretalx/locale/de_DE/LC_MESSAGES/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarm_pretalx/locale/fr_FR/LC_MESSAGES/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarm_pretalx/signals.py,sha256=hHAtFNr0W_VTwsELNSNuxYkrt-miJSPXOVpiDMf5NwY,2579
+swarm_pretalx/static/swarm_pretalx/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarm_pretalx/templates/swarm_pretalx/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarm_pretalx-0.1.2.dist-info/LICENSE,sha256=30wh1A4QCl5mTm57Tjm8YIWKImt4otM2M1Gs09Ia64c,551
+swarm_pretalx-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+swarm_pretalx-0.1.2.dist-info/METADATA,sha256=Ss1wTdArr_jQw3FuSvIRpDBRXTDzl5FVG1YMbdnKv1U,527
+swarm_pretalx-0.1.2.dist-info/RECORD,,
