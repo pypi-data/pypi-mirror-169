@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "appdaemon_testing_fork"
+version = "0.1.1"
+description = ""
+authors = ["Brandon Hoeksema <brandon.hoeksema@gmail.com>"]
+readme = "README.md"
+packages = [{include = "appdaemon_testing_fork"}]
+homepage = "https://github.com/dataisbaye/appdaemon-testing"
+repository = "https://github.com/dataisbaye/appdaemon-testing"
+
+[tool.poetry.dependencies]
+python = "3.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+appdaemon = "*"
+#appdaemon-testing = {editable = true,path = "."}
+black = "*"
+flake8 = "*"
+pdoc3 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
