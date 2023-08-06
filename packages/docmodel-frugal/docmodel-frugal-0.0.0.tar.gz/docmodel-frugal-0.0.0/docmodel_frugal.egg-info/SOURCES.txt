@@ -1,0 +1,6 @@
+setup.py
+docmodel-frugal/__init__.py
+docmodel_frugal.egg-info/PKG-INFO
+docmodel_frugal.egg-info/SOURCES.txt
+docmodel_frugal.egg-info/dependency_links.txt
+docmodel_frugal.egg-info/top_level.txt
