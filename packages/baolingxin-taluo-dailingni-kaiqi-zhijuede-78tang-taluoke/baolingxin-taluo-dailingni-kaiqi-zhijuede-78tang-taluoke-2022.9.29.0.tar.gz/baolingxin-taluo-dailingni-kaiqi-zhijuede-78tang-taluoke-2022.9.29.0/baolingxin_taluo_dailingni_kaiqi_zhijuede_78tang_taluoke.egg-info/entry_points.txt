@@ -1,0 +1,4 @@
+[console_scripts]
+BaolingxinTaluoDailingniKaiqiZhijuede78tangTaluoke = BaolingxinTaluoDailingniKaiqiZhijuede78tangTaluoke.__main__:main
+baolingxin-taluo-dailingni-kaiqi-zhijuede-78tang-taluoke = BaolingxinTaluoDailingniKaiqiZhijuede78tangTaluoke.__main__:main
+
