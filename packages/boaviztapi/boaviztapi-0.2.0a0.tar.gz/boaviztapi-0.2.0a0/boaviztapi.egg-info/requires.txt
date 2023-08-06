@@ -1,0 +1,9 @@
+aiofile
+fastapi
+markdown
+numpy
+pandas
+pydantic
+rapidfuzz
+scipy
+uvicorn
