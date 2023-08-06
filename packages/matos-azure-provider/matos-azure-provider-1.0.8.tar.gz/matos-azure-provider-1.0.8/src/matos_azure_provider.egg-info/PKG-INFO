@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: matos-azure-provider
+Version: 1.0.8
+Summary: Python matos azure provider
+Author: matos community
+Author-email: community@cloudmatos.com
+Project-URL: Bug Reports, https://github.com/cloudmatos/matos-azure-provider/issues
+Project-URL: Source, https://github.com/cloudmatos/matos-azure-provider
+Keywords: azure,cloudsecurity,matos,cloudmatos
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+[![Unit Test](https://github.com/cloudmatos/matos-azure-provider/actions/workflows/matos-tox.yml/badge.svg?branch=develop)](https://github.com/cloudmatos/matos-azure-provider/actions/workflows/matos-tox.yml)
+[![Pylint](https://github.com/cloudmatos/matos-azure-provider/actions/workflows/matos-pylint.yml/badge.svg?branch=develop)](https://github.com/cloudmatos/matos-azure-provider/actions/workflows/matos-pylint.yml)
+
+# matos-azure-provider
+
+The 'matos-azure-provider' is an open-source python package for developing security tools to identify threats in your Microsoft Azure cloud infrastructure. It uses the service providers Cloud SDK to deduce the current state and metadata of the underlying services.
