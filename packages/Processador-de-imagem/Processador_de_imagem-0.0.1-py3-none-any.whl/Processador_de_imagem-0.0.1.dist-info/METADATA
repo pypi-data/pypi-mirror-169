@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: Processador-de-imagem
+Version: 0.0.1
+Summary: Pacote de processamento de imagem usando Skimage
+Home-page: https://github.com/prikrdo/processador_de_imagem
+Author: Paulo Silva
+Author-email: paulo_rikrdo@hotmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image (>=0.16.1)
+
+# processador_de_imagem
+
+DescriÃ§Ã£o. 
+Este foi meu primeiro pacote de processamento de imagens em Python criado:
+
+O pacote processador_de_imagem utiliza:
+	Processamento:
+	- Localizador de histograma
+	- Similaridade de Estrutura
+	- Readequando o tamanho da imagem
+
+	Utilidades
+	- Ler imagem 
+	- Salvar imagem 
+	- Plot Imagem 
+	- Plot Resultado
+	- Plot Histograma 
+
+## InstalaÃ§Ã£o
+
+Utilize o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o processador_de_imagem
+
+```bash
+pip install processador_de_imagem
+```
+
+## Author
+Paulo Silva
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
