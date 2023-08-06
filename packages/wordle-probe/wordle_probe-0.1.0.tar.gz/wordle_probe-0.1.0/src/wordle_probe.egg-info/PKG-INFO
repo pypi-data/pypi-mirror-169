@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wordle-probe
+Version: 0.1.0
+Summary: An example probe service for a wordle server
+Home-page: https://gitlab.com/zluudg/wordle-probe
+Author: zluudg
+Author-email: 8853567-zluudg@users.noreply.gitlab.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Welcome to Wordle Probe!

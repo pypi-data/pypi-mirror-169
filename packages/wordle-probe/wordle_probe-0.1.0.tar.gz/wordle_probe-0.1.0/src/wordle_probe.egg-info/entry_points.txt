@@ -1,0 +1,2 @@
+[console_scripts]
+wordle_probe = wordle_probe.main:main
