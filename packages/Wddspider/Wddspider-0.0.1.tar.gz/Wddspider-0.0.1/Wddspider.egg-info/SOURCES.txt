@@ -1,0 +1,10 @@
+README.md
+setup.py
+Wddspider/__init__.py
+Wddspider/sayit.py
+Wddspider.egg-info/PKG-INFO
+Wddspider.egg-info/SOURCES.txt
+Wddspider.egg-info/dependency_links.txt
+Wddspider.egg-info/entry_points.txt
+Wddspider.egg-info/requires.txt
+Wddspider.egg-info/top_level.txt
