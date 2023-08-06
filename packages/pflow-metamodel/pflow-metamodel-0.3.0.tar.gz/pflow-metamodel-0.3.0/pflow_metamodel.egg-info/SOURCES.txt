@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+metamodel/__init__.py
+metamodel/error.py
+metamodel/metamodel.py
+metamodel/statemachine.py
+pflow_metamodel.egg-info/PKG-INFO
+pflow_metamodel.egg-info/SOURCES.txt
+pflow_metamodel.egg-info/dependency_links.txt
+pflow_metamodel.egg-info/top_level.txt
+test/test_models.py

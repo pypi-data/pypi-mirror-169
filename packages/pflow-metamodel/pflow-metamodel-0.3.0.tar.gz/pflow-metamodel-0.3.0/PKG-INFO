@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pflow-metamodel
+Version: 0.3.0
+Summary: declare and simulate Petri-nets using python
+Home-page: https://github.com/pFlow-dev/metamodel-py
+Author: stackdump
+Author-email: myork@stackdump.com
+License: MIT
+Keywords: pflow petri-net statemachine
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+
+    This library used to declare and simulate Petri-net models.
+    
