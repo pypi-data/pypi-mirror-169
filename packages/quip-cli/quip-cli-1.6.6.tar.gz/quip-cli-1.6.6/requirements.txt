@@ -1,0 +1,3 @@
+Pillow
+uip-cli >= 1.2
+keyring
