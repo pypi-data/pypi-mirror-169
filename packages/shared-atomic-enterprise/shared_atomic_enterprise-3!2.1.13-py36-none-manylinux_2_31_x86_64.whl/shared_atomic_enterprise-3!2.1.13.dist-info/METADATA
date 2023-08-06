@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: shared-atomic-enterprise
+Version: 3!2.1.13
+Summary: Shared atomicity with multiprocessing or multiple threads
+Home-page: http://sharedatomic.top/en/
+Author: Xiquan Ren
+Author-email: xiquanren@yandex.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: cffi (>=1.0)
+Requires-Dist: urwid (==2.1.2)
+
+This package provided a second way to access those shared data types with atomic operations.
+can be used on
+
+ - MacOSX x86_64,
+
+ - centos7/rhel7 x86_64,
+
+ - Ubuntu Linux 18, 20 x86_64 and
+
+ - Suse Linux Enterprise Server 12, 15 x86_84.
+
+This is copyright software, you should buy at http://shared_atomic.top/enterprise/payment to get a licence to use it. The price and details, please check
+http://shared_atomic.top/enterprise/payment.
+
+ - Included Datatypes
+
+    - atomic_int
+
+    - atomic_uint
+
+    - atomic_float
+
+    - atomic_bool
+
+    - atomic_bytearray
+
+    - atomic_string
+
+    - atomic_shared_memory
+
+    - atomic_set, package bitarray >= 2.4.0 is needed.
+
+    - atomic_list, package bitarray >= 2.4.0 is needed.
+
+- Requirement,
+
+ - LINUX/MacOSX
+
+    - CPython 3.6 - 3.11
+
+    - Pypy 3.6 - 3.9
+
+    - The package requires libatomic installed on Linux platform
+
+    - cffi >= 1.0.0 <= 1.1.15 to compile through on Linux/MacOSX platform
+
+    - bitarray if you need to use atomic_set or atomic_list
+
+ - Windows
+    Not supported
+
+
+- Installation
+
+ - To install shared_atomic, use pip:
+
+    the binary distribution of the software is compiled and delivered in different epoches.
+
+    - MacOSX only x86_64 platform supported, silicon not supported
+        epoches 1: pip install shared_atomic_enterprise==1!2.1.13
+
+    - Redhat or Centos Linux, only centos7/rhel7 on x86_64 platform supported.
+        epoches 2: pip install shared_atomic_enterprise==2!2.1.13
+
+    - Ubuntu Linux 18, 20 on x86_64 platform supported
+        epoches 3: pip install shared_atomic_enterprise==3!2.1.13
+
+    - Suse Linux Enterprise Server 12, 15 on x86_64 platform supported
+        epoches 4: pip install shared_atomic_enterprise==4!2.1.13
+
+ - On Linux, you need assistant from root user,
+
+    If you are a root user or sudo user, it is ok, then only root can run this package.
+    If you are not root user, in the activation process you will need assistant from root user.
+
+    cd (the directory where the package is installed )
+    chown root shared_atomic/atomic_python_suid
+    chmod u+s shared_atomic/atomic_python_suid
+
+    then the user who installed the package can run the package.
+
+For documentation, please go to:
+
+ http://shared_atomic.top/en/
+
+
+
