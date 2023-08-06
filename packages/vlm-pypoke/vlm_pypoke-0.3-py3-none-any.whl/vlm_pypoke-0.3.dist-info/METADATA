@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vlm-pypoke
+Version: 0.3
+Summary: Python PokeApi Client
+Home-page: UNKNOWN
+Author: Victor Luque
+Author-email: victorluque341@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
