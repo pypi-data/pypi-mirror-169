@@ -1,0 +1,2 @@
+[airflow.plugins]
+starship = starship.main:StarshipPlugin
