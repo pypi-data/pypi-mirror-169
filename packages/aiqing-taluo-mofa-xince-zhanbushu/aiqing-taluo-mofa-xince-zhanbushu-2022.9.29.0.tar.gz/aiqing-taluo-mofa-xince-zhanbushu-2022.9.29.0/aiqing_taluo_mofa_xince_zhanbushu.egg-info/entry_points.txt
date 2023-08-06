@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingTaluoMofaXinceZhanbushu = AiqingTaluoMofaXinceZhanbushu.__main__:main
+aiqing-taluo-mofa-xince-zhanbushu = AiqingTaluoMofaXinceZhanbushu.__main__:main
+
