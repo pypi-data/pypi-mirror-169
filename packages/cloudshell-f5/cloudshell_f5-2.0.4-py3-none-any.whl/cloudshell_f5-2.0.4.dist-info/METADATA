@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cloudshell-f5
+Version: 2.0.4
+Summary: QualiSystems Python package
+Home-page: https://github.com/QualiSystems/cloudshell-f5
+Author: QualiSystems
+Author-email: info@qualisystems.com
+Requires-Python: ~=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: cloudshell-snmp (~=4.0)
+Requires-Dist: cloudshell-snmp-autoload (~=1.0)
+Requires-Dist: cloudshell-cli (~=4.0)
+Requires-Dist: cloudshell-shell-flows (~=2.0)
+Requires-Dist: attrs (~=21.0)
+
+BigIP F5 Shell operations
