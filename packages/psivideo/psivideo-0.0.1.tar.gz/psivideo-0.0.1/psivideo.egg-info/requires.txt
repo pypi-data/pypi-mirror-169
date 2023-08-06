@@ -1,0 +1,7 @@
+opencv-python
+av
+ffmpeg
+websockets
+
+[test]
+pytest

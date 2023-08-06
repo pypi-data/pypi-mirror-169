@@ -1,0 +1,2 @@
+[console_scripts]
+psivideo = psivideo.main:main
