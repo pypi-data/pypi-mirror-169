@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pywebworker/__init__.py
+pywebworker/worker.py
+pywebworker/worker_config.py
+pywebworker.egg-info/PKG-INFO
+pywebworker.egg-info/SOURCES.txt
+pywebworker.egg-info/dependency_links.txt
+pywebworker.egg-info/top_level.txt
