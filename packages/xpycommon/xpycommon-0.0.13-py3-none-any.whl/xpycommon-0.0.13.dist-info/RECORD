@@ -1,0 +1,13 @@
+xpycommon/__init__.py,sha256=8OLDJA6VOYbk1hWa4JrINbqCAB1LaE3293oAsIPfpXs,3285
+xpycommon/bluetooth.py,sha256=b7f-yvBN5XkzO4lO3SVKLgaKHfeXgHzLKVTRqM7E__w,22339
+xpycommon/bonfire.py,sha256=BqttipQxPEcd1xsA5urJP2Jc0Hga24BUKxtkqzd4qW0,2087
+xpycommon/common.py,sha256=YcRzlx2Aot-VjkF1VPiV0MCILfQb_6IhWFTr09Fo7No,28131
+xpycommon/libc_wrapper.py,sha256=NgZ7xn_mu9aYWNarVdX1T8k8Wk40BhfZSOvM3SHcJQ4,3815
+xpycommon/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+xpycommon/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=ZT621IlyRiF65tJySlgN6V8_DIwv3jCyCAS7KuhIN9w,1087608
+xpycommon/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=NgdsQ5RSqNyn6P1M3-SdYLD38eQcoD4Ep90VEnl__GU,1198080
+xpycommon-0.0.13.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpycommon-0.0.13.dist-info/METADATA,sha256=YqpEznebGBPYowjcI2AU4d7JRO8CE8xtikNMxAc2XcE,706
+xpycommon-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xpycommon-0.0.13.dist-info/top_level.txt,sha256=8HNHL5KxFrZYwnduG2-rrchUee1JG_WDTLWJzC5mW24,10
+xpycommon-0.0.13.dist-info/RECORD,,
