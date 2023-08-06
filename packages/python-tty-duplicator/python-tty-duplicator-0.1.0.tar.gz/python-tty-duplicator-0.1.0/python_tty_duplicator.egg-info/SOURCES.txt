@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tty_duplicator.py
+python_tty_duplicator.egg-info/PKG-INFO
+python_tty_duplicator.egg-info/SOURCES.txt
+python_tty_duplicator.egg-info/dependency_links.txt
+python_tty_duplicator.egg-info/top_level.txt
