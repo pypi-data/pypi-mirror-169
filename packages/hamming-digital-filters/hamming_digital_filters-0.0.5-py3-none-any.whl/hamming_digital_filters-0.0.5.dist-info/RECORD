@@ -1,0 +1,7 @@
+hamming_digital_filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamming_digital_filters/gradient.py,sha256=KUG_o-GwsaaONYwSce_kkb8gia1G8NVA3sqbhAaS8D8,933
+hamming_digital_filters/lowpass.py,sha256=5BL6ka8WPi3VKSF0aKbohTy90T2EIkTtCa7-pTrl-sU,831
+hamming_digital_filters-0.0.5.dist-info/METADATA,sha256=8DUp-9b2pty8zvFDYIsGfs38xLOtVuTuTeVwgDrgFNY,1612
+hamming_digital_filters-0.0.5.dist-info/WHEEL,sha256=TC-eT-WEjZM-lmd6au7o3p1ewVkC6Y0NftwooPaNZTY,87
+hamming_digital_filters-0.0.5.dist-info/licenses/LICENSE,sha256=tzR5usPYHawtKoolrvx5FBBdDVuY9V4UAcw5H8WwnXg,1336
+hamming_digital_filters-0.0.5.dist-info/RECORD,,
