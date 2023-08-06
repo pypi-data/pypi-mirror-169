@@ -1,0 +1,4 @@
+[console_scripts]
+YongtaluoXieriji = YongtaluoXieriji.__main__:main
+yongtaluo-xieriji = YongtaluoXieriji.__main__:main
+
