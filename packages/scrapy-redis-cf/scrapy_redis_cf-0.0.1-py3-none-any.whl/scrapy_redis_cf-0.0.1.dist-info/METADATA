@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: scrapy-redis-cf
+Version: 0.0.1
+Summary: scrapy_redis use cuckoofilter
+Project-URL: Homepage, https://github.com/kanadeblisst/scrapy_redis_cf
+Project-URL: Bug Tracker, https://github.com/kanadeblisst/scrapy_redis_cf/issues
+Author-email: kanade <kanade@blisst.cn>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: scrapy-redis>=0.6.8
+Description-Content-Type: text/markdown
+
+# Scrapy-Redis-CuckooFilter
+
+这是个scrapy_redis的布谷鸟过滤器版本，项目和 https://github.com/kanadeblisst/scrapy_redis_bf 基本一样
+
+## 必要条件
+
+需要redis加载了布隆过滤器的插件，默认安装的redis是没有加载的
+具体请看：https://redis.io/docs/stack/bloom/quick_start/
+
+
+## 安装
+
+使用pip: `pip install scrapy-redis-cf`
+
+## 使用
+
+在scrapy项目里的 `settings.py`添加如下设置:
+
+```python
+SCHEDULER = "scrapy_redis_cf.scheduler.Scheduler"
+
+DUPEFILTER_CLASS = "scrapy_redis_cf.dupefilter.RFPDupeFilter"
+
+# 格式：redis://[:password@]host[:port][/database][?[timeout=timeout[d|h|m|s|ms|us|ns]][&database=database]]
+REDIS_URL = 'redis://localhost:6379'
+# 桶的大小，桶越大错误率越高, 但过滤器填充率越高
+# 等于1时错误率最小为0.78%，等于3时为2.35%, 等于2时官网没说我也不知道
+# https://redis.io/commands/cf.reserve/
+CUCKOOFILTER_BUCKETSIZE = 2
+# 去重数量 2 ** 18 , 
+# 注意：实际容量要小于这个，因为布谷鸟过滤器很难完全填满
+CUCKOOFILTER_CAPACITY_BIT = 18 
+# 支持扩展容量的次数, 扩展次数越多，错误率越高
+CUCKOOFILLTER_EXPANSION = 2
+
+```
+
+## 测试
+
+下载该项目，然后运行里面的test spider即可
+
+## Github
+
+https://github.com/kanadeblisst/scrapy_redis_cf
+
