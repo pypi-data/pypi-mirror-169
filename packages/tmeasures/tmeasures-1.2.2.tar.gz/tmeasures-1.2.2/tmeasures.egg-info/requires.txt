@@ -1,0 +1,7 @@
+data-science-types
+matplotlib
+numpy
+opencv-python
+scikit-image
+scipy
+tqdm
