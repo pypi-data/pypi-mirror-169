@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: zawn_orm
+Version: 0.0.14
+Summary: zawn's private utils.
+Home-page: https://gitee.com/zawn/orm.git
+Author: zawn
+Author-email: zawn@qq.com
+License: MIT Licence
+Description: zawn's private utils.
+Keywords: zawn,orm
+Platform: any
