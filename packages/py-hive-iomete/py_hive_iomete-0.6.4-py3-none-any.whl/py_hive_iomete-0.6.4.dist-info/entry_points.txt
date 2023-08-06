@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+hive = pyhive.sqlalchemy_hive:HiveIometeDialect
+hive.iomete = pyhive.sqlalchemy_hive:HiveIometeDialect
+iomete = pyhive.sqlalchemy_iomete:IometeDialect
